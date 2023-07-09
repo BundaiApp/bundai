@@ -1,6 +1,8 @@
 import React, { useState } from 'react'
 import { View, Text, TouchableOpacity, StyleSheet } from 'react-native'
 
+//import Kanji from '../util/kanji.js'
+
 export default function Home() {
   return (
     <View style={styles.container}>
