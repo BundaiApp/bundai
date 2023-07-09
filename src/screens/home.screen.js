@@ -1,12 +1,25 @@
 import React, { useState } from 'react'
-import { View, Text, TouchableOpacity, StyleSheet } from 'react-native'
+import {
+  View,
+  Text,
+  TouchableOpacity,
+  StyleSheet,
+  ScrollView
+} from 'react-native'
 
-//import Kanji from '../util/kanji.js'
+import Kanji from '../util/jlpt5.json'
 
 export default function Home() {
   return (
     <View style={styles.container}>
-      <Text>Bundai だろ？</Text>
+      <ScrollView>
+        <Text>Bundai だろ？</Text>
+        {Kanji.map((item) => (
+          <Text style={styles.kanjiBlock} key={item.kanjiName}>
+            {item.kanjiName}
+          </Text>
+        ))}
+      </ScrollView>
     </View>
   )
 }
@@ -16,5 +29,9 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center'
+  },
+  kanjiBlock: {
+    fontSize: 25,
+    fontWeight: '500'
   }
 })
