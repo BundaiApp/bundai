@@ -4,14 +4,14 @@
 
 @implementation AppDelegate
 
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
+- (void)applicationDidFinishLaunching:(NSNotification *)notification
 {
   self.moduleName = @"bundai";
   // You can add your custom initial props in the dictionary below.
   // They will be passed down to the ViewController used by React Native.
   self.initialProps = @{};
 
-  return [super application:application didFinishLaunchingWithOptions:launchOptions];
+  return [super applicationDidFinishLaunching:notification];
 }
 
 - (NSURL *)sourceURLForBridge:(RCTBridge *)bridge
@@ -30,7 +30,11 @@
 /// @return: `true` if the `concurrentRoot` feature is enabled. Otherwise, it returns `false`.
 - (BOOL)concurrentRootEnabled
 {
+#ifdef RN_FABRIC_ENABLED
   return true;
+#else
+  return false;
+#endif
 }
 
 @end
