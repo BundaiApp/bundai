@@ -14,7 +14,7 @@ export default function Home() {
   return (
     <View style={styles.container}>
       <View style={styles.headerHolder}>
-        <Text style={styles.heading}>Bundai だろ？</Text>
+        <Text style={styles.heading}>JLPT 5</Text>
       </View>
       <FlatList
         data={Kanji5}
@@ -23,7 +23,7 @@ export default function Home() {
         showsVerticalScrollIndicator={false}
         renderItem={({item}) => (
           <TouchableOpacity style={styles.block}>
-            <Text style={styles.kanjiBlock}> {item.kanjiName}</Text>
+            <Text style={styles.kanjiBlock}>{item.kanjiName}</Text>
           </TouchableOpacity>
         )}
         keyExtractor={item => item.kanjiName}
@@ -37,7 +37,6 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    paddingTop: '15%',
     paddingHorizontal: '5%',
   },
   kanjiBlock: {
@@ -66,5 +65,7 @@ const styles = StyleSheet.create({
   headerHolder: {
     alignItems: 'flex-start',
     width: '90%',
+    marginTop: '2%',
+    marginBottom: '1%',
   },
 });
