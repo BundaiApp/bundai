@@ -1,71 +1,74 @@
-import React, {useState} from 'react';
+import React, { useState } from 'react'
 import {
   View,
   Text,
   TouchableOpacity,
   StyleSheet,
   ScrollView,
-  FlatList,
-} from 'react-native';
+  FlatList
+} from 'react-native'
 
-import Kanji5 from '../util/jlpt5.json';
+import Kanji5 from '../util/jlpt5.json'
 
-export default function Home() {
+export default function Home({ navigation: { navigate } }) {
   return (
     <View style={styles.container}>
-      <View style={styles.headerHolder}>
-        <Text style={styles.heading}>JLPT 5</Text>
+      <Text style={styles.header}>Kanji</Text>
+      <View style={styles.blockHolder}>
+        <TouchableOpacity
+          style={styles.jlptBlock}
+          onPress={() => navigate('JlptKanji')}>
+          <Text style={styles.blockText}>JLPT 5</Text>
+        </TouchableOpacity>
+        <View style={styles.spacerH} />
+        <TouchableOpacity style={styles.strokeBlock}>
+          <Text style={styles.blockText}>Stroke Based</Text>
+        </TouchableOpacity>
       </View>
-      <FlatList
-        data={Kanji5}
-        numColumns={5}
-        contentContainerStyle={styles.flatList}
-        showsVerticalScrollIndicator={false}
-        renderItem={({item}) => (
-          <TouchableOpacity style={styles.block}>
-            <Text style={styles.kanjiBlock}>{item.kanjiName}</Text>
-          </TouchableOpacity>
-        )}
-        keyExtractor={item => item.kanjiName}
-      />
     </View>
-  );
+  )
 }
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-    paddingHorizontal: '5%',
+    alignItems: 'center'
   },
-  kanjiBlock: {
-    fontSize: 30,
-    fontWeight: '500',
-    paddingHorizontal: '2%',
-    paddingVertical: '1%',
-  },
-  flatList: {
+  blockHolder: {
     width: '100%',
-    paddingBottom: '5%',
+    flexDirection: 'row',
+    //backgroundColor: 'skyblue',
+    justifyContent: 'center'
   },
-  block: {
-    marginVertical: '2%',
-    marginHorizontal: '2%',
-    borderWidth: 1,
+  jlptBlock: {
+    backgroundColor: 'orange',
     borderRadius: 5,
-    borderColor: 'gray',
+    width: '45%',
     justifyContent: 'center',
-    alignItems: 'center',
+    alignItems: 'center'
   },
-  heading: {
+  strokeBlock: {
+    backgroundColor: 'lightgreen',
+    borderRadius: 5,
+    width: '45%',
+    justifyContent: 'center',
+    alignItems: 'center'
+  },
+  header: {
     fontWeight: 'bold',
     fontSize: 20,
+    alignSelf: 'flex-start',
+    marginLeft: '3%',
+    marginVertical: '2%'
   },
-  headerHolder: {
-    alignItems: 'flex-start',
-    width: '90%',
-    marginTop: '2%',
-    marginBottom: '1%',
+  blockText: {
+    fontWeight: '500',
+    fontSize: 20,
+    paddingVertical: '15%',
+    paddingHorizontal: '3%'
   },
-});
+  spacerH: {
+    width: '4%',
+    height: '1%'
+  }
+})
