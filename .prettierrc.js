@@ -6,6 +6,5 @@ module.exports = {
   semi: false,
   tabWidth: 2,
   printWidth: 80,
-  indent: 2,
-  jsxBracketSameLine: true
+  indent: 2
 }
