@@ -23,7 +23,10 @@ export default function Navigator() {
 
   return (
     <NavigationContainer>
-      <Tab.Navigator>
+      <Tab.Navigator
+        screenOptions={{
+          headerShown: false
+        }}>
         <Tab.Screen name="Tools" component={HomeStack} />
         <Tab.Screen name="KanjiDetail" component={KanjiDetailScreen} />
       </Tab.Navigator>
