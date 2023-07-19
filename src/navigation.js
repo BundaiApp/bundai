@@ -2,6 +2,7 @@ import React from 'react'
 import { NavigationContainer } from '@react-navigation/native'
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs'
 import { createNativeStackNavigator } from '@react-navigation/native-stack'
+import { Icon } from 'react-native-elements'
 
 import HomeScreen from './screens/home.screen'
 import KanjiDetailScreen from './screens/kanjiDetails.screen'
@@ -24,10 +25,26 @@ export default function Navigator() {
   return (
     <NavigationContainer>
       <Tab.Navigator
-        screenOptions={{
-          headerShown: false
-        }}>
-        <Tab.Screen name="Tools" component={HomeStack} />
+        screenOptions={({ route }) => ({
+          headerShown: false,
+
+          tabBarActiveTintColor: 'black',
+          tabBarInactiveTintColor: 'silver',
+          tabBarIcon: ({ focused, color, size = 22 }) => {
+            let iconName
+            switch (route.name) {
+              case 'Words':
+                iconName = 'file-tray-full'
+                break
+              default:
+            }
+            // You can return any component that you like here!
+            return (
+              <Icon name={iconName} type={'ionicon'} size={26} colo r={color} />
+            )
+          }
+        })}>
+        <Tab.Screen name="Words" component={HomeStack} />
         <Tab.Screen name="KanjiDetail" component={KanjiDetailScreen} />
       </Tab.Navigator>
     </NavigationContainer>
