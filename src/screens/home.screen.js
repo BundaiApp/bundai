@@ -13,17 +13,22 @@ import Kanji5 from '../util/jlpt5.json'
 export default function Home({ navigation: { navigate } }) {
   return (
     <View style={styles.container}>
-      <Text style={styles.header}>Kanji</Text>
       <View style={styles.blockHolder}>
-        <TouchableOpacity
-          style={styles.jlptBlock}
-          onPress={() => navigate('JlptKanji')}>
-          <Text style={styles.blockText}>JLPT 5</Text>
-        </TouchableOpacity>
-        <View style={styles.spacerH} />
-        <TouchableOpacity style={styles.strokeBlock}>
-          <Text style={styles.blockText}>Stroke Based</Text>
-        </TouchableOpacity>
+        <Text style={styles.h1}>Kanji</Text>
+        <Text style={styles.h3}>Japanese characters</Text>
+        <Text style={styles.h4}>With meanings & pronunciations</Text>
+
+        <View style={styles.basicRow}>
+          <TouchableOpacity
+            style={styles.jlptBlock}
+            onPress={() => navigate('JlptKanji')}>
+            <Text style={styles.h2}>JLPT</Text>
+          </TouchableOpacity>
+          <View style={styles.spacerH} />
+          <TouchableOpacity style={styles.jlptBlock}>
+            <Text style={styles.h2}>Strokes</Text>
+          </TouchableOpacity>
+        </View>
       </View>
     </View>
   )
@@ -32,43 +37,62 @@ export default function Home({ navigation: { navigate } }) {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    alignItems: 'center'
+    alignItems: 'center',
+    paddingVertical: '3%'
   },
   blockHolder: {
-    width: '100%',
-    flexDirection: 'row',
-    //backgroundColor: 'skyblue',
-    justifyContent: 'center'
+    width: '90%',
+    paddingHorizontal: '5%',
+    borderRadius: 20,
+    paddingVertical: 10,
+    backgroundColor: 'lightyellow'
   },
   jlptBlock: {
-    backgroundColor: 'orange',
-    borderRadius: 5,
+    backgroundColor: 'gold',
+    borderRadius: 15,
     width: '45%',
     justifyContent: 'center',
     alignItems: 'center'
   },
   strokeBlock: {
     backgroundColor: 'lightgreen',
-    borderRadius: 5,
+    borderRadius: 15,
     width: '45%',
-    justifyContent: 'center',
     alignItems: 'center'
   },
-  header: {
+  h1: {
     fontWeight: 'bold',
     fontSize: 20,
-    alignSelf: 'flex-start',
-    marginLeft: '3%',
-    marginVertical: '2%'
+    alignSelf: 'flex-start'
   },
-  blockText: {
-    fontWeight: '500',
-    fontSize: 20,
-    paddingVertical: '15%',
-    paddingHorizontal: '3%'
+  h2: {
+    fontWeight: '400',
+    fontSize: 18,
+    paddingVertical: '8%',
+    paddingHorizontal: '10%',
+    fontFamily: 'menlo'
+  },
+  h3: {
+    fontWeight: '300',
+    fontSize: 18,
+    paddingVertical: '1%',
+    fontFamily: 'menlo',
+    color: 'gray'
+  },
+  h4: {
+    fontWeight: '300',
+    fontSize: 15,
+    paddingBottom: '2%',
+    fontFamily: 'menlo',
+    color: 'silver'
   },
   spacerH: {
     width: '4%',
     height: '1%'
+  },
+  basicRow: {
+    flexDirection: 'row',
+    justifyContent: 'center',
+    alignItems: 'center'
   }
 })
