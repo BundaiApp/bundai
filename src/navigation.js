@@ -29,13 +29,23 @@ export default function Navigator() {
           headerShown: false,
 
           tabBarActiveTintColor: 'black',
-          tabBarInactiveTintColor: 'silver',
+          tabBarInactiveTintColor: 'dimgray',
           tabBarIcon: ({ focused, color, size = 22 }) => {
             let iconName
             switch (route.name) {
               case 'Words':
                 iconName = 'file-tray-full'
                 break
+              case 'Exam':
+                iconName = 'document-sharp'
+                break
+              case 'Game':
+                iconName = 'game-controller'
+                break
+              case 'Talk':
+                iconName = 'mic-circle'
+                break
+
               default:
             }
             // You can return any component that you like here!
@@ -45,7 +55,9 @@ export default function Navigator() {
           }
         })}>
         <Tab.Screen name="Words" component={HomeStack} />
-        <Tab.Screen name="KanjiDetail" component={KanjiDetailScreen} />
+        <Tab.Screen name="Exam" component={KanjiDetailScreen} />
+        <Tab.Screen name="Game" component={KanjiDetailScreen} />
+        <Tab.Screen name="Talk" component={KanjiDetailScreen} />
       </Tab.Navigator>
     </NavigationContainer>
   )
