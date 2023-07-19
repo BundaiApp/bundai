@@ -18,15 +18,19 @@ export default function Home({ navigation: { navigate } }) {
         <Text style={styles.h3}>Japanese characters</Text>
         <Text style={styles.h4}>With meanings & pronunciations</Text>
 
+        <View style={styles.spacerH2} />
+
         <View style={styles.basicRow}>
           <TouchableOpacity
             style={styles.jlptBlock}
             onPress={() => navigate('JlptKanji')}>
             <Text style={styles.h2}>JLPT</Text>
+            <Text style={styles.h5}>N1-N5</Text>
           </TouchableOpacity>
           <View style={styles.spacerH} />
           <TouchableOpacity style={styles.jlptBlock}>
             <Text style={styles.h2}>Strokes</Text>
+            <Text style={styles.h5}>1000 感じ</Text>
           </TouchableOpacity>
         </View>
       </View>
@@ -50,8 +54,9 @@ const styles = StyleSheet.create({
   jlptBlock: {
     backgroundColor: 'gold',
     borderRadius: 15,
-    width: '45%',
-    justifyContent: 'center',
+    width: '50%',
+    flexDirection: 'row',
+    justifyContent: 'space-between',
     alignItems: 'center'
   },
   strokeBlock: {
@@ -75,9 +80,9 @@ const styles = StyleSheet.create({
   h3: {
     fontWeight: '300',
     fontSize: 18,
-    paddingVertical: '1%',
+    paddingVertical: '2%',
     fontFamily: 'menlo',
-    color: 'gray'
+    color: 'dimgray'
   },
   h4: {
     fontWeight: '300',
@@ -86,9 +91,21 @@ const styles = StyleSheet.create({
     fontFamily: 'menlo',
     color: 'silver'
   },
+  h5: {
+    width: '30%',
+    fontWeight: '300',
+    fontSize: 12,
+    paddingBottom: '2%',
+    fontFamily: 'menlo',
+    color: 'dimgray'
+  },
   spacerH: {
     width: '4%',
     height: '1%'
+  },
+  spacerH2: {
+    width: '4%',
+    height: '3%'
   },
   basicRow: {
     flexDirection: 'row',
