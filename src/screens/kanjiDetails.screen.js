@@ -9,7 +9,8 @@ import {
 } from 'react-native'
 
 export default function KanjiDetail({ navigation: { navigate }, route }) {
-  const { kanjiName, meanings } = route.params.paramsData
+  const { kanjiName, meanings, readings_kun, readings_on } =
+    route.params.paramsData
 
   useEffect(() => {
     console.log(route.params.paramsData)
@@ -18,9 +19,20 @@ export default function KanjiDetail({ navigation: { navigate }, route }) {
   return (
     <View style={styles.container}>
       <View style={styles.headerHolder}>
-        <Text style={styles.heading}>Kanji Detail</Text>
+        <Text style={styles.header}>{kanjiName}</Text>
+        {meanings.map(item => (
+          <Text style={styles.text}>{item}</Text>
+        ))}
 
-        <Text style={styles.heading}>{kanjiName}</Text>
+        <Text style={styles.text}> ####### Kunyomi ###########</Text>
+        {readings_kun.map(item => (
+          <Text style={styles.text}>{item}</Text>
+        ))}
+
+        <Text style={styles.text}> ######## Onyomi ##########</Text>
+        {readings_on.map(item => (
+          <Text style={styles.text}>{item}</Text>
+        ))}
       </View>
     </View>
   )
@@ -29,17 +41,19 @@ export default function KanjiDetail({ navigation: { navigate }, route }) {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-    paddingTop: '15%',
+    paddingTop: '2%',
     paddingHorizontal: '5%'
   },
-  heading: {
+  header: {
     fontWeight: 'bold',
     fontSize: 20
   },
   headerHolder: {
     alignItems: 'flex-start',
     width: '90%'
+  },
+  text: {
+    fontWeight: '400',
+    fontSize: 20
   }
 })
