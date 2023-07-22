@@ -1,15 +1,16 @@
 import React from 'react'
 import { NavigationContainer } from '@react-navigation/native'
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs'
-import { createNativeStackNavigator } from '@react-navigation/native-stack'
+import { createStackNavigator } from '@react-navigation/stack'
 import { Icon } from 'react-native-elements'
 
 import HomeScreen from './screens/home.screen'
 import KanjiDetailScreen from './screens/kanjiDetails.screen'
 import JlptKanjiScreen from './screens/jlptKanji.screen'
+import ExamScreen from './screens/exam.screen'
 
 export default function Navigator() {
-  const Stack = createNativeStackNavigator()
+  const Stack = createStackNavigator()
   const Tab = createBottomTabNavigator()
 
   function HomeStack() {
@@ -55,9 +56,9 @@ export default function Navigator() {
           }
         })}>
         <Tab.Screen name="Words" component={HomeStack} />
-        <Tab.Screen name="Exam" component={KanjiDetailScreen} />
-        <Tab.Screen name="Game" component={KanjiDetailScreen} />
-        <Tab.Screen name="Talk" component={KanjiDetailScreen} />
+        <Tab.Screen name="Exam" component={ExamScreen} />
+        <Tab.Screen name="Game" component={ExamScreen} />
+        <Tab.Screen name="Talk" component={ExamScreen} />
       </Tab.Navigator>
     </NavigationContainer>
   )
