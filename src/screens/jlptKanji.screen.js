@@ -1,16 +1,37 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import {
   View,
   Text,
   TouchableOpacity,
   StyleSheet,
   ScrollView,
-  FlatList
+  FlatList,
+  useWindowDimensions
 } from 'react-native'
 
 import Kanji5 from '../util/jlpt5.json'
+import Kanji4 from '../util/jlpt4.json'
 
 export default function Home({ navigation: { navigate } }) {
+  const { height, width } = useWindowDimensions()
+
+  const [col, setCol] = useState(7)
+
+  useEffect(() => {
+    switch (width) {
+      case width < 650:
+        setCol(5)
+        break
+
+      case width < 400:
+        setCol(3)
+        break
+      default:
+        7
+        break
+    }
+  }, [width])
+
   return (
     <View style={styles.container}>
       <View style={styles.headerHolder}>
@@ -18,7 +39,25 @@ export default function Home({ navigation: { navigate } }) {
       </View>
       <FlatList
         data={Kanji5}
-        numColumns={5}
+        numColumns={col}
+        contentContainerStyle={styles.flatList}
+        showsVerticalScrollIndicator={false}
+        renderItem={({ item }) => (
+          <TouchableOpacity
+            style={styles.block}
+            onPress={() => navigate('KanjiDetail', { paramsData: item })}>
+            <Text style={styles.kanjiBlock}>{item.kanjiName}</Text>
+          </TouchableOpacity>
+        )}
+        keyExtractor={item => item.kanjiName}
+      />
+
+      <View style={styles.headerHolder}>
+        <Text style={styles.heading}>JLPT 4</Text>
+      </View>
+      <FlatList
+        data={Kanji4}
+        numColumns={col}
         contentContainerStyle={styles.flatList}
         showsVerticalScrollIndicator={false}
         renderItem={({ item }) => (
@@ -37,8 +76,6 @@ export default function Home({ navigation: { navigate } }) {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
     paddingHorizontal: '5%'
   },
   kanjiBlock: {
