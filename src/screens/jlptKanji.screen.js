@@ -18,18 +18,14 @@ export default function Home({ navigation: { navigate } }) {
   const [col, setCol] = useState(7)
 
   useEffect(() => {
-    switch (width) {
-      case width < 650:
-        setCol(5)
-        break
-
-      case width < 400:
-        setCol(3)
-        break
-      default:
-        7
-        break
-    }
+    // if (width < 650) {
+    //   setCol(5)
+    // } else if (width < 400) {
+    //   setCol(3)
+    // } else {
+    //   setCol(7)
+    // }
+    console.log(width)
   }, [width])
 
   return (
@@ -89,6 +85,7 @@ const styles = StyleSheet.create({
     paddingBottom: '5%'
   },
   block: {
+    flex: 1,
     marginVertical: '2%',
     marginHorizontal: '2%',
     borderWidth: 1,
