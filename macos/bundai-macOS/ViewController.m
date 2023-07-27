@@ -24,9 +24,7 @@
   [rootView setFrame:[view bounds]];
   //[rootView setAutoresizingMask:(NSViewMinXMargin | NSViewMaxXMargin | NSViewMinYMargin | NSViewMaxYMargin )];
   
-  //set min size Replace the values with your desired minimum size (e.g., 400x400)
-  NSWindow *window = self.view.window;
-  [window setMinSize:NSMakeSize(400, 400)];
+
 }
 
 @end

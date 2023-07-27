@@ -9,12 +9,11 @@ import {
 } from 'react-native'
 
 export default function KanjiDetail({ navigation: { navigate }, route }) {
-  const { kanjiName, meanings, readings_kun, readings_on } =
-    route.params.paramsData
+  const { kanjiName, meanings, kun, on } = route.params.paramsData
 
-  useEffect(() => {
-    console.log(route.params.paramsData)
-  }, [])
+  // useEffect(() => {
+  //   console.log(route.params.paramsData)
+  // }, [])
 
   return (
     <View style={styles.container}>
@@ -25,12 +24,12 @@ export default function KanjiDetail({ navigation: { navigate }, route }) {
         ))}
 
         <Text style={styles.text}> ####### Kunyomi ###########</Text>
-        {readings_kun.map(item => (
+        {on.map(item => (
           <Text style={styles.text}>{item}</Text>
         ))}
 
         <Text style={styles.text}> ######## Onyomi ##########</Text>
-        {readings_on.map(item => (
+        {kun.map(item => (
           <Text style={styles.text}>{item}</Text>
         ))}
       </View>

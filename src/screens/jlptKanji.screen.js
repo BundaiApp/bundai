@@ -6,66 +6,39 @@ import {
   StyleSheet,
   ScrollView,
   FlatList,
-  useWindowDimensions
+  SectionList
 } from 'react-native'
 
 import Kanji5 from '../util/jlpt5.json'
 import Kanji4 from '../util/jlpt4.json'
+import Kanji3 from '../util/jlpt3.json'
 
 export default function Home({ navigation: { navigate } }) {
-  const { height, width } = useWindowDimensions()
-
-  const [col, setCol] = useState(7)
-
-  useEffect(() => {
-    // if (width < 650) {
-    //   setCol(5)
-    // } else if (width < 400) {
-    //   setCol(3)
-    // } else {
-    //   setCol(7)
-    // }
-    console.log(width)
-  }, [width])
+  let arr = {
+    JLPT5: Kanji5,
+    JLPT4: Kanji4,
+    JLPT3: Kanji3
+  }
 
   return (
-    <View style={styles.container}>
-      <View style={styles.headerHolder}>
-        <Text style={styles.heading}>JLPT 5</Text>
-      </View>
-      <FlatList
-        data={Kanji5}
-        numColumns={col}
-        contentContainerStyle={styles.flatList}
-        showsVerticalScrollIndicator={false}
-        renderItem={({ item }) => (
-          <TouchableOpacity
-            style={styles.block}
-            onPress={() => navigate('KanjiDetail', { paramsData: item })}>
-            <Text style={styles.kanjiBlock}>{item.kanjiName}</Text>
-          </TouchableOpacity>
-        )}
-        keyExtractor={item => item.kanjiName}
-      />
-
-      <View style={styles.headerHolder}>
-        <Text style={styles.heading}>JLPT 4</Text>
-      </View>
-      <FlatList
-        data={Kanji4}
-        numColumns={col}
-        contentContainerStyle={styles.flatList}
-        showsVerticalScrollIndicator={false}
-        renderItem={({ item }) => (
-          <TouchableOpacity
-            style={styles.block}
-            onPress={() => navigate('KanjiDetail', { paramsData: item })}>
-            <Text style={styles.kanjiBlock}>{item.kanjiName}</Text>
-          </TouchableOpacity>
-        )}
-        keyExtractor={item => item.kanjiName}
-      />
-    </View>
+    <FlatList
+      keyExtractor={item => item}
+      data={Object.keys(arr)}
+      showsVerticalScrollIndicator={false}
+      contentContainerStyle={styles.container}
+      renderItem={({ item }) => (
+        <View style={styles.basicRow}>
+          <Text>{item}</Text>
+          {arr[item].map(i => (
+            <TouchableOpacity
+              style={styles.block}
+              onPress={() => navigate('KanjiDetail', { paramsData: i })}>
+              <Text style={styles.title}>{i.kanjiName}</Text>
+            </TouchableOpacity>
+          ))}
+        </View>
+      )}
+    />
   )
 }
 
@@ -85,7 +58,6 @@ const styles = StyleSheet.create({
     paddingBottom: '5%'
   },
   block: {
-    flex: 1,
     marginVertical: '2%',
     marginHorizontal: '2%',
     borderWidth: 1,
@@ -103,5 +75,20 @@ const styles = StyleSheet.create({
     width: '90%',
     marginTop: '2%',
     marginBottom: '1%'
+  },
+  basicRow: {
+    height: '30%'
   }
 })
+
+// renderItem={({ item }) => (
+//           <FlatList
+//             data={item}
+//             renderItem={({ i }) => (
+//               <TouchableOpacity style={styles.block}>
+//                 <Text style={styles.title}>{i.kanjiName}</Text>
+//               </TouchableOpacity>
+//             )}
+//           />
+//         )}
+//
