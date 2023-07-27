@@ -8,6 +8,10 @@ import {
   FlatList,
   SectionList
 } from 'react-native'
+import {
+  widthPercentageToDP as wp,
+  heightPercentageToDP as hp
+} from 'react-native-responsive-screen'
 
 import Kanji5 from '../util/jlpt5.json'
 import Kanji4 from '../util/jlpt4.json'
@@ -34,13 +38,15 @@ export default function Home({ navigation: { navigate } }) {
       </View>
 
       <Text style={styles.heading}>JLPT4</Text>
-      {Kanji4.map(item => (
-        <TouchableOpacity
-          style={styles.block}
-          onPress={() => navigate('KanjiDetail', { paramsData: item })}>
-          <Text style={styles.kanjiText}>{item.kanjiName}</Text>
-        </TouchableOpacity>
-      ))}
+      <View style={styles.wrapBox}>
+        {Kanji4.map(item => (
+          <TouchableOpacity
+            style={styles.block}
+            onPress={() => navigate('KanjiDetail', { paramsData: item })}>
+            <Text style={styles.kanjiText}>{item.kanjiName}</Text>
+          </TouchableOpacity>
+        ))}
+      </View>
     </ScrollView>
   )
 }
@@ -57,6 +63,8 @@ const styles = StyleSheet.create({
     paddingVertical: '1%'
   },
   block: {
+    width: wp('12%'),
+    height: wp('12%'),
     marginVertical: '2%',
     marginHorizontal: '2%',
     borderWidth: 1,
@@ -68,5 +76,10 @@ const styles = StyleSheet.create({
   heading: {
     fontWeight: 'bold',
     fontSize: 20
+  },
+  wrapBox: {
+    flexWrap: true,
+    flexDirection: 'row',
+    flex: 1
   }
 })
