@@ -16,8 +16,10 @@ import {
 import Kanji5 from '../util/jlpt5.json'
 import Kanji4 from '../util/jlpt4.json'
 import Kanji3 from '../util/jlpt3.json'
+import Kanji2 from '../util/jlpt2.json'
+import Kanji1 from '../util/jlpt1.json'
 
-export default function Home({ navigation: { navigate } }) {
+export default function Kanji({ navigation: { navigate } }) {
   let arr = {
     JLPT5: Kanji5,
     JLPT4: Kanji4,
@@ -26,6 +28,7 @@ export default function Home({ navigation: { navigate } }) {
 
   return (
     <ScrollView>
+      <View style={styles.spacer} />
       <Text style={styles.heading}>JLPT5</Text>
       <View style={styles.wrapBox}>
         {Kanji5.map(item => (
@@ -37,6 +40,8 @@ export default function Home({ navigation: { navigate } }) {
         ))}
       </View>
 
+      <View style={styles.spacer} />
+
       <Text style={styles.heading}>JLPT4</Text>
       <View style={styles.wrapBox}>
         {Kanji4.map(item => (
@@ -47,6 +52,47 @@ export default function Home({ navigation: { navigate } }) {
           </TouchableOpacity>
         ))}
       </View>
+
+      <View style={styles.spacer} />
+
+      <Text style={styles.heading}>JLPT3</Text>
+      <View style={styles.wrapBox}>
+        {Kanji3.map(item => (
+          <TouchableOpacity
+            style={styles.block}
+            onPress={() => navigate('KanjiDetail', { paramsData: item })}>
+            <Text style={styles.kanjiText}>{item.kanjiName}</Text>
+          </TouchableOpacity>
+        ))}
+      </View>
+
+      <View style={styles.spacer} />
+
+      <Text style={styles.heading}>JLPT2</Text>
+      <View style={styles.wrapBox}>
+        {Kanji2.map(item => (
+          <TouchableOpacity
+            style={styles.block}
+            onPress={() => navigate('KanjiDetail', { paramsData: item })}>
+            <Text style={styles.kanjiText}>{item.kanjiName}</Text>
+          </TouchableOpacity>
+        ))}
+      </View>
+
+      <View style={styles.spacer} />
+
+      <Text style={styles.heading}>JLPT1</Text>
+      <View style={styles.wrapBox}>
+        {Kanji1.map(item => (
+          <TouchableOpacity
+            style={styles.block}
+            onPress={() => navigate('KanjiDetail', { paramsData: item })}>
+            <Text style={styles.kanjiText}>{item.kanjiName}</Text>
+          </TouchableOpacity>
+        ))}
+      </View>
+
+      <View style={styles.spacer} />
     </ScrollView>
   )
 }
@@ -75,11 +121,18 @@ const styles = StyleSheet.create({
   },
   heading: {
     fontWeight: 'bold',
-    fontSize: 20
+    fontSize: 20,
+    marginLeft: wp('4%'),
+    marginVertical: hp('2%')
   },
   wrapBox: {
+    flex: 1,
     flexWrap: true,
     flexDirection: 'row',
-    flex: 1
+    paddingHorizontal: wp('2%'),
+    backgroundColor: 'lightgray'
+  },
+  spacer: {
+    height: hp('2%')
   }
 })
