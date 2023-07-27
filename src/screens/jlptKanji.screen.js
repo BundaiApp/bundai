@@ -21,24 +21,27 @@ export default function Home({ navigation: { navigate } }) {
   }
 
   return (
-    <FlatList
-      keyExtractor={item => item}
-      data={Object.keys(arr)}
-      showsVerticalScrollIndicator={false}
-      contentContainerStyle={styles.container}
-      renderItem={({ item }) => (
-        <View style={styles.basicRow}>
-          <Text>{item}</Text>
-          {arr[item].map(i => (
-            <TouchableOpacity
-              style={styles.block}
-              onPress={() => navigate('KanjiDetail', { paramsData: i })}>
-              <Text style={styles.title}>{i.kanjiName}</Text>
-            </TouchableOpacity>
-          ))}
-        </View>
-      )}
-    />
+    <ScrollView>
+      <Text style={styles.heading}>JLPT5</Text>
+      <View style={styles.wrapBox}>
+        {Kanji5.map(item => (
+          <TouchableOpacity
+            style={styles.block}
+            onPress={() => navigate('KanjiDetail', { paramsData: item })}>
+            <Text style={styles.kanjiText}>{item.kanjiName}</Text>
+          </TouchableOpacity>
+        ))}
+      </View>
+
+      <Text style={styles.heading}>JLPT4</Text>
+      {Kanji4.map(item => (
+        <TouchableOpacity
+          style={styles.block}
+          onPress={() => navigate('KanjiDetail', { paramsData: item })}>
+          <Text style={styles.kanjiText}>{item.kanjiName}</Text>
+        </TouchableOpacity>
+      ))}
+    </ScrollView>
   )
 }
 
@@ -47,15 +50,11 @@ const styles = StyleSheet.create({
     flex: 1,
     paddingHorizontal: '5%'
   },
-  kanjiBlock: {
+  kanjiText: {
     fontSize: 30,
     fontWeight: '500',
     paddingHorizontal: '2%',
     paddingVertical: '1%'
-  },
-  flatList: {
-    width: '100%',
-    paddingBottom: '5%'
   },
   block: {
     marginVertical: '2%',
@@ -69,26 +68,5 @@ const styles = StyleSheet.create({
   heading: {
     fontWeight: 'bold',
     fontSize: 20
-  },
-  headerHolder: {
-    alignItems: 'flex-start',
-    width: '90%',
-    marginTop: '2%',
-    marginBottom: '1%'
-  },
-  basicRow: {
-    height: '30%'
   }
 })
-
-// renderItem={({ item }) => (
-//           <FlatList
-//             data={item}
-//             renderItem={({ i }) => (
-//               <TouchableOpacity style={styles.block}>
-//                 <Text style={styles.title}>{i.kanjiName}</Text>
-//               </TouchableOpacity>
-//             )}
-//           />
-//         )}
-//
