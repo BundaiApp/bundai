@@ -18,7 +18,15 @@ const SectionHeader = ({ title }) => (
   </View>
 )
 
-const KanjiList = ({ navigate, data }) => {
+const Separator = () => <View style={styles.separator} />
+
+const KanjiList = ({ navigate }) => {
+  // Combine your data and sections
+  const data = [
+    { section: 'JLPT5', data: Kanji5 },
+    { section: 'JLPT4', data: Kanji4 }
+  ]
+
   const renderItem = ({ item }) => (
     <TouchableOpacity
       style={styles.block}
@@ -27,36 +35,25 @@ const KanjiList = ({ navigate, data }) => {
     </TouchableOpacity>
   )
 
+  const renderSectionHeader = ({ section: { section } }) => (
+    <SectionHeader title={section} />
+  )
+
   return (
     <FlatList
       data={data}
       renderItem={renderItem}
       keyExtractor={item => item.kanjiName}
       numColumns={columns}
+      ItemSeparatorComponent={Separator}
+      ListHeaderComponent={<View style={styles.spacer} />}
+      ListFooterComponent={<View style={styles.spacer} />}
+      renderSectionHeader={renderSectionHeader}
     />
   )
 }
 
-const YourComponent = ({ navigate }) => {
-  return (
-    <View style={styles.container}>
-      <SectionHeader title="JLPT5" />
-      <KanjiList data={Kanji5} navigate={navigate} />
-
-      <View style={styles.spacer} />
-
-      <SectionHeader title="JLPT4" />
-      <KanjiList data={Kanji4} navigate={navigate} />
-    </View>
-  )
-}
-
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    paddingHorizontal: 10,
-    paddingVertical: 20
-  },
   sectionHeader: {
     backgroundColor: '#f2f2f2',
     padding: 8
@@ -64,6 +61,9 @@ const styles = StyleSheet.create({
   sectionHeaderText: {
     fontWeight: 'bold',
     fontSize: 18
+  },
+  separator: {
+    height: 10
   },
   block: {
     flex: 1,
@@ -81,4 +81,4 @@ const styles = StyleSheet.create({
   }
 })
 
-export default YourComponent
+export default KanjiList
