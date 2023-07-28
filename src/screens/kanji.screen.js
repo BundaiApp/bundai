@@ -4,8 +4,7 @@ import {
   Text,
   FlatList,
   TouchableOpacity,
-  StyleSheet,
-  SafeAreaView
+  StyleSheet
 } from 'react-native'
 import {
   widthPercentageToDP as wp,
@@ -61,17 +60,15 @@ const YourComponent = ({ navigation: { navigate } }) => {
   const keyExtractor = (item, index) => `${item.kanjiName}_${index}`
 
   return (
-    <SafeAreaView>
-      <FlatList
-        data={data}
-        renderItem={renderItem}
-        keyExtractor={keyExtractor}
-        numColumns={columns}
-        ItemSeparatorComponent={Separator}
-        style={styles.flatList} // background color of the FlatList
-        contentContainerStyle={styles.flatListContent} // background color of the content
-      />
-    </SafeAreaView>
+    <FlatList
+      data={data}
+      renderItem={renderItem}
+      keyExtractor={keyExtractor}
+      numColumns={columns}
+      ItemSeparatorComponent={Separator}
+      style={styles.flatList} // background color of the FlatList
+      contentContainerStyle={styles.flatListContent} // background color of the content
+    />
   )
 }
 

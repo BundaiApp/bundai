@@ -13,24 +13,22 @@ export default function KanjiDetail({ navigation: { navigate }, route }) {
   const { kanjiName, meanings, kun, on } = route.params.paramsData
 
   return (
-    <SafeAreaView style={styles.container}>
-      <View style={styles.headerHolder}>
-        <Text style={styles.header}>{kanjiName}</Text>
-        {meanings.map(item => (
-          <Text style={styles.text}>{item}</Text>
-        ))}
+    <View style={styles.container}>
+      <Text style={styles.header}>{kanjiName}</Text>
+      {meanings.map(item => (
+        <Text style={styles.text}>{item}</Text>
+      ))}
 
-        <Text style={styles.text}> ####### Kunyomi ###########</Text>
-        {on.map(item => (
-          <Text style={styles.text}>{item}</Text>
-        ))}
+      <Text style={styles.text}> ####### Kunyomi ###########</Text>
+      {on.map(item => (
+        <Text style={styles.text}>{item}</Text>
+      ))}
 
-        <Text style={styles.text}> ######## Onyomi ##########</Text>
-        {kun.map(item => (
-          <Text style={styles.text}>{item}</Text>
-        ))}
-      </View>
-    </SafeAreaView>
+      <Text style={styles.text}> ######## Onyomi ##########</Text>
+      {kun.map(item => (
+        <Text style={styles.text}>{item}</Text>
+      ))}
+    </View>
   )
 }
 
