@@ -7,6 +7,10 @@ import {
   ScrollView,
   FlatList
 } from 'react-native'
+import {
+  widthPercentageToDP as wp,
+  heightPercentageToDP as hp
+} from 'react-native-responsive-screen'
 
 import Kanji5 from '../util/jlpt5.json'
 
@@ -32,6 +36,17 @@ export default function Home({ navigation: { navigate } }) {
             <Text style={styles.h2}>Strokes</Text>
             <Text style={styles.h5}>1000 感じ</Text>
           </TouchableOpacity>
+        </View>
+
+        <View style={styles.spacerV} />
+        <View style={styles.jlptRow}>
+          {new Array(5).fill(1).map((i, index) => (
+            <TouchableOpacity
+              style={styles.smallBlock}
+              onPress={() => navigate('JlptKanji')}>
+              <Text style={styles.h3}>JLPT {5 - index}</Text>
+            </TouchableOpacity>
+          ))}
         </View>
       </View>
     </View>
@@ -59,6 +74,16 @@ const styles = StyleSheet.create({
     justifyContent: 'space-between',
     alignItems: 'center'
   },
+  smallBlock: {
+    backgroundColor: 'gold',
+    borderRadius: 10,
+    width: '15%',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    paddingVertical: hp('1%'),
+    rowGap: wp('2%')
+  },
+
   strokeBlock: {
     backgroundColor: 'lightgreen',
     borderRadius: 15,
@@ -79,7 +104,7 @@ const styles = StyleSheet.create({
   },
   h3: {
     fontWeight: '300',
-    fontSize: 18,
+    fontSize: 10,
     paddingVertical: '2%',
     fontFamily: 'menlo',
     color: 'dimgray'
@@ -111,5 +136,13 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     justifyContent: 'center',
     alignItems: 'center'
+  },
+  jlptRow: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    width: wp('80%')
+  },
+  spacerV: {
+    height: hp('1%')
   }
 })

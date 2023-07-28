@@ -33,7 +33,7 @@ const YourComponent = ({ navigation: { navigate } }) => {
   const combineDataWithSections = data => {
     let combinedData = []
     data.forEach((sectionData, index) => {
-      combinedData.push({ section: `JLPT${index + 1}`, isHeader: true })
+      combinedData.push({ section: `JLPT${5 - index}`, isHeader: true })
       combinedData = combinedData.concat(
         sectionData.map(item => ({ ...item, isHeader: false }))
       )
