@@ -12,20 +12,8 @@ import {
   heightPercentageToDP as hp
 } from 'react-native-responsive-screen'
 
-import Kanji5 from '../util/jlpt5.json'
-import Kanji4 from '../util/jlpt4.json'
-import Kanji3 from '../util/jlpt3.json'
-import Kanji2 from '../util/jlpt2.json'
-import Kanji1 from '../util/jlpt1.json'
-import Strokes from '../util/strokesAll.json'
-
-const kanjiDataMap = {
-  5: Kanji5,
-  4: Kanji4,
-  3: Kanji3,
-  2: Kanji2,
-  1: Kanji1
-}
+import StrokesKanji from '../util/strokesAll.json'
+import JlptKanji from '../util/jlptAll.json'
 
 function TemplateKanji({ navigation: { navigate }, route }) {
   const { jlptLevel, strokes } = route.params
@@ -33,31 +21,29 @@ function TemplateKanji({ navigation: { navigate }, route }) {
   const [arr, setArr] = useState([])
 
   useEffect(() => {
-    const kanjiData = setArr(kanjiDataMap[jlptLevel] || Kanji5)
-  }, [jlptLevel])
+    if (!jlptLevel) {
+      setArr(StrokesKanji[strokes])
+      console.log('strokes')
+    } else {
+      setArr(JlptKanji[jlptLevel])
+      console.log('jlpt')
+    }
+  }, [jlptLevel, strokes])
 
   return (
-    <SafeAreaView style={styles.container}>
-      <View style={styles.sectionHeader}>
-        <Text style={styles.sectionHeaderText}>
-          {strokes ? `Kanjis with ${strokes} Strokes ` : `JLPT ${jlptLevel}`}
-        </Text>
-      </View>
-
-      <FlatList
-        data={strokes ? Strokes[strokes] : arr}
-        renderItem={({ item }) => (
-          <TouchableOpacity
-            style={styles.block}
-            onPress={() => navigate('KanjiDetail', { paramsData: item })}>
-            <Text style={styles.kanjiText}>{item.kanjiName}</Text>
-          </TouchableOpacity>
-        )}
-        numColumns={5}
-        style={styles.flatList} // background color of the FlatList
-        contentContainerStyle={styles.flatListContent} // background color of the content
-      />
-    </SafeAreaView>
+    <FlatList
+      data={arr}
+      renderItem={({ item }) => (
+        <TouchableOpacity
+          style={styles.block}
+          onPress={() => navigate('KanjiDetail', { paramsData: item })}>
+          <Text style={styles.kanjiText}>{item.kanjiName}</Text>
+        </TouchableOpacity>
+      )}
+      numColumns={5}
+      style={styles.flatList} // background color of the FlatList
+      contentContainerStyle={styles.flatListContent} // background color of the content
+    />
   )
 }
 
@@ -80,7 +66,8 @@ const styles = StyleSheet.create({
   },
   // background color of the FlatList
   flatList: {
-    backgroundColor: 'white'
+    backgroundColor: 'white',
+    paddingHorizontal: '3%'
   },
   sectionHeaderText: {
     fontWeight: 'bold',

@@ -13,8 +13,6 @@ import {
   heightPercentageToDP as hp
 } from 'react-native-responsive-screen'
 
-import Kanji5 from '../util/jlpt5.json'
-
 export default function Home({ navigation: { navigate } }) {
   const [topic, setTopic] = useState()
 
