@@ -29,7 +29,7 @@ const SectionHeader = ({ title }) => (
 
 const Separator = () => <View style={styles.separator} />
 
-const YourComponent = ({ navigate }) => {
+const YourComponent = ({ navigation: { navigate } }) => {
   const combineDataWithSections = data => {
     let combinedData = []
     data.forEach((sectionData, index) => {
