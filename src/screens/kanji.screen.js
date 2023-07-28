@@ -6,7 +6,10 @@ import {
   TouchableOpacity,
   StyleSheet
 } from 'react-native'
-
+import {
+  widthPercentageToDP as wp,
+  heightPercentageToDP as hp
+} from 'react-native-responsive-screen'
 import Kanji5 from '../util/jlpt5.json'
 import Kanji4 from '../util/jlpt4.json'
 
@@ -20,12 +23,17 @@ const SectionHeader = ({ title }) => (
 
 const Separator = () => <View style={styles.separator} />
 
-const KanjiList = ({ navigate }) => {
-  // Combine your data and sections
-  const data = [
-    { section: 'JLPT5', data: Kanji5 },
-    { section: 'JLPT4', data: Kanji4 }
-  ]
+const YourComponent = ({ navigate }) => {
+  const combineData = data => {
+    let combinedData = []
+    data.forEach((sectionData, index) => {
+      combinedData.push({ section: `JLPT${index + 1}` })
+      combinedData = combinedData.concat(sectionData)
+    })
+    return combinedData
+  }
+
+  const data = combineData([Kanji5, Kanji4])
 
   const renderItem = ({ item }) => (
     <TouchableOpacity
@@ -46,9 +54,6 @@ const KanjiList = ({ navigate }) => {
       keyExtractor={item => item.kanjiName}
       numColumns={columns}
       ItemSeparatorComponent={Separator}
-      ListHeaderComponent={<View style={styles.spacer} />}
-      ListFooterComponent={<View style={styles.spacer} />}
-      renderSectionHeader={renderSectionHeader}
     />
   )
 }
@@ -63,7 +68,7 @@ const styles = StyleSheet.create({
     fontSize: 18
   },
   separator: {
-    height: 10
+    height: hp('1%')
   },
   block: {
     flex: 1,
@@ -81,4 +86,4 @@ const styles = StyleSheet.create({
   }
 })
 
-export default KanjiList
+export default YourComponent
