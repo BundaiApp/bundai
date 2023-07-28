@@ -22,7 +22,7 @@
   [view addSubview:rootView];
   [rootView setBackgroundColor:[NSColor windowBackgroundColor]];
   [rootView setFrame:[view bounds]];
-  //[rootView setAutoresizingMask:(NSViewMinXMargin | NSViewMaxXMargin | NSViewMinYMargin | NSViewMaxYMargin )];
+  [rootView setAutoresizingMask:(NSViewMinXMargin | NSViewMaxXMargin | NSViewMinYMargin | NSViewMaxYMargin )];
   
 
 }

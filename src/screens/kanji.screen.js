@@ -110,7 +110,7 @@ const styles = StyleSheet.create({
   },
   kanjiText: {
     fontSize: 30,
-    fontWeight: 500
+    fontWeight: '500'
   }
 })
 

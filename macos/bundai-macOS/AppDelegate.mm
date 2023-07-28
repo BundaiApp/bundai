@@ -27,9 +27,9 @@
     NSWindow *window = [NSApplication sharedApplication].mainWindow;
     [window setMinSize:NSMakeSize(400, 400)]; // Replace the values with your desired minimum size (e.g., 400x400)
   
-  // Logging the window size and minSize
-   NSLog(@"Current Window Size: %@", NSStringFromSize(window.frame.size));
-   NSLog(@"minSize: %@", NSStringFromSize(window.minSize));
+  //Logging the window size and minSize
+  //NSLog(@"Current Window Size: %@", NSStringFromSize(window.frame.size));
+  //NSLog(@"minSize: %@", NSStringFromSize(window.minSize));
   
   return [super applicationDidFinishLaunching:notification];
   

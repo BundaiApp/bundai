@@ -7,11 +7,7 @@
     "meanings": ["Power", "Strength", "Strong", "Strain", "Bear Up", "Exert"],
     "on": ["りょく", "りき", "りい"],
     "kun": ["ちから"],
-    "wk_level": 1,
     "wk_meanings": ["Power", "^Strength"],
-    "wk_on": ["りょく", "りき"],
-    "wk_kun": ["!ちから"],
-    "wk_radicals": ["Power"],
     "jlpt": 4
   },
   {
@@ -22,11 +18,7 @@
     "meanings": ["Mouth"],
     "on": ["こう", "く"],
     "kun": ["くち"],
-    "wk_level": 1,
     "wk_meanings": ["Mouth"],
-    "wk_on": ["こう", "^く"],
-    "wk_kun": ["!くち"],
-    "wk_radicals": ["Mouth"],
     "jlpt": 4
   },
   {
@@ -37,11 +29,7 @@
     "meanings": ["Craft", "Construction", "Katakana E Radical (no. 48)"],
     "on": ["こう", "く", "ぐ"],
     "kun": [],
-    "wk_level": 1,
     "wk_meanings": ["Construction", "^Industry"],
-    "wk_on": ["こう", "^く"],
-    "wk_kun": [],
-    "wk_radicals": ["Construction"],
     "jlpt": 4
   },
   {
@@ -52,11 +40,7 @@
     "meanings": ["Evening"],
     "on": ["せき"],
     "kun": ["ゆう"],
-    "wk_level": 2,
     "wk_meanings": ["Evening"],
-    "wk_on": ["!せき"],
-    "wk_kun": ["ゆう"],
-    "wk_radicals": ["Evening"],
     "jlpt": 4
   },
   {
@@ -67,11 +51,7 @@
     "meanings": ["Hand"],
     "on": ["しゅ", "ず"],
     "kun": ["て", "て-", "-て", "た-"],
-    "wk_level": 2,
     "wk_meanings": ["Hand"],
-    "wk_on": ["!しゅ"],
-    "wk_kun": ["て"],
-    "wk_radicals": ["Hand"],
     "jlpt": 4
   },
   {
@@ -91,11 +71,7 @@
     ],
     "on": ["ぶん", "もん"],
     "kun": ["ふみ", "あや"],
-    "wk_level": 2,
     "wk_meanings": ["Writing", "^Sentence"],
-    "wk_on": ["ぶん", "もん"],
-    "wk_kun": [],
-    "wk_radicals": ["Writing"],
     "jlpt": 4
   },
   {
@@ -106,11 +82,7 @@
     "meanings": ["Dog"],
     "on": ["けん"],
     "kun": ["いぬ", "いぬ-"],
-    "wk_level": 2,
     "wk_meanings": ["Dog"],
-    "wk_on": ["!けん"],
-    "wk_kun": ["いぬ"],
-    "wk_radicals": ["Dog"],
     "jlpt": 4
   },
   {
@@ -121,11 +93,7 @@
     "meanings": ["Correct", "Justice", "Righteous", "10**40"],
     "on": ["せい", "しょう"],
     "kun": ["ただ.しい", "ただ.す", "まさ", "まさ.に"],
-    "wk_level": 2,
     "wk_meanings": ["Correct"],
-    "wk_on": ["せい", "しょう"],
-    "wk_kun": ["!ただ", "!まさ"],
-    "wk_radicals": ["Ground", "Stop"],
     "jlpt": 4
   },
   {
@@ -136,11 +104,7 @@
     "meanings": ["Rice Field", "Rice Paddy"],
     "on": ["でん"],
     "kun": ["た"],
-    "wk_level": 2,
     "wk_meanings": ["Rice Paddy", "^Rice Field", "^Field"],
-    "wk_on": ["!でん"],
-    "wk_kun": ["た"],
-    "wk_radicals": ["Rice Paddy"],
     "jlpt": 4
   },
   {
@@ -159,11 +123,7 @@
     ],
     "on": ["もく", "ぼく"],
     "kun": ["め", "-め", "ま-"],
-    "wk_level": 2,
     "wk_meanings": ["Eye"],
-    "wk_on": ["!もく"],
-    "wk_kun": ["め"],
-    "wk_radicals": ["Eye"],
     "jlpt": 4
   },
   {
@@ -185,11 +145,7 @@
       "-だ.て",
       "-だ.てる"
     ],
-    "wk_level": 2,
     "wk_meanings": ["Stand"],
-    "wk_on": ["りつ", "りゅう"],
-    "wk_kun": ["!た"],
-    "wk_radicals": ["Stand"],
     "jlpt": 4
   },
   {
@@ -200,11 +156,7 @@
     "meanings": ["Beginning", "Former Time", "Origin"],
     "on": ["げん", "がん"],
     "kun": ["もと"],
-    "wk_level": 3,
     "wk_meanings": ["Origin"],
-    "wk_on": ["げん", "がん"],
-    "wk_kun": ["!もと"],
-    "wk_radicals": ["Origin"],
     "jlpt": 4
   },
   {
@@ -215,11 +167,7 @@
     "meanings": ["Public", "Prince", "Official", "Governmental"],
     "on": ["こう", "く"],
     "kun": ["おおやけ"],
-    "wk_level": 3,
     "wk_meanings": ["Public"],
-    "wk_on": ["こう"],
-    "wk_kun": [],
-    "wk_radicals": ["Fins", "Private"],
     "jlpt": 4
   },
   {
@@ -241,11 +189,7 @@
       "-き.れ",
       "-ぎ.れ"
     ],
-    "wk_level": 3,
     "wk_meanings": ["Cut"],
-    "wk_on": ["せつ"],
-    "wk_kun": ["!き"],
-    "wk_radicals": ["Seven", "Sword"],
     "jlpt": 4
   },
   {
@@ -256,11 +200,7 @@
     "meanings": ["Few", "Little"],
     "on": ["しょう"],
     "kun": ["すく.ない", "すこ.し"],
-    "wk_level": 3,
     "wk_meanings": ["Few", "^A Little"],
-    "wk_on": ["しょう"],
-    "wk_kun": ["!すこ"],
-    "wk_radicals": ["Small", "Slide"],
     "jlpt": 4
   },
   {
@@ -271,11 +211,7 @@
     "meanings": ["Heart", "Mind", "Spirit", "Heart Radical (no. 61)"],
     "on": ["しん"],
     "kun": ["こころ", "-ごころ"],
-    "wk_level": 3,
     "wk_meanings": ["Heart"],
-    "wk_on": ["しん"],
-    "wk_kun": ["!こころ"],
-    "wk_radicals": ["Heart"],
     "jlpt": 4
   },
   {
@@ -286,11 +222,7 @@
     "meanings": ["Direction", "Person", "Alternative"],
     "on": ["ほう"],
     "kun": ["かた", "-かた", "-がた"],
-    "wk_level": 3,
     "wk_meanings": ["Direction", "^Way"],
-    "wk_on": ["ほう"],
-    "wk_kun": ["!かた"],
-    "wk_radicals": ["Direction"],
     "jlpt": 4
   },
   {
@@ -301,11 +233,7 @@
     "meanings": ["Cow"],
     "on": ["ぎゅう"],
     "kun": ["うし"],
-    "wk_level": 3,
     "wk_meanings": ["Cow"],
-    "wk_on": ["ぎゅう"],
-    "wk_kun": ["!うし"],
-    "wk_radicals": ["Cow"],
     "jlpt": 4
   },
   {
@@ -331,11 +259,7 @@
       "-さ.す",
       "-さ.し"
     ],
-    "wk_level": 3,
     "wk_meanings": ["Stop"],
-    "wk_on": ["し"],
-    "wk_kun": ["!と", "!や"],
-    "wk_radicals": ["Stop"],
     "jlpt": 4
   },
   {
@@ -346,11 +270,7 @@
     "meanings": ["Elder Brother", "Big Brother"],
     "on": ["けい", "きょう"],
     "kun": ["あに"],
-    "wk_level": 5,
     "wk_meanings": ["Older Brother", "^Big Brother", "^Elder Brother"],
-    "wk_on": ["きょう"],
-    "wk_kun": ["!あに"],
-    "wk_radicals": ["Mouth", "Legs"],
     "jlpt": 4
   },
   {
@@ -361,11 +281,7 @@
     "meanings": ["Winter"],
     "on": ["とう"],
     "kun": ["ふゆ"],
-    "wk_level": 3,
     "wk_meanings": ["Winter"],
-    "wk_on": ["!とう"],
-    "wk_kun": ["ふゆ"],
-    "wk_radicals": ["Winter", "Two"],
     "jlpt": 4
   },
   {
@@ -376,11 +292,7 @@
     "meanings": ["Old"],
     "on": ["こ"],
     "kun": ["ふる.い", "ふる-", "-ふる.す"],
-    "wk_level": 3,
     "wk_meanings": ["Old"],
-    "wk_on": ["こ"],
-    "wk_kun": ["!ふる"],
-    "wk_radicals": ["Old"],
     "jlpt": 4
   },
   {
@@ -391,11 +303,7 @@
     "meanings": ["Pedestal", "A Stand", "Counter For Machines And Vehicles"],
     "on": ["だい", "たい"],
     "kun": ["うてな", "われ", "つかさ"],
-    "wk_level": 3,
     "wk_meanings": ["Machine"],
-    "wk_on": ["だい", "^たい"],
-    "wk_kun": [],
-    "wk_radicals": ["Private", "Mouth"],
     "jlpt": 4
   },
   {
@@ -406,11 +314,7 @@
     "meanings": ["Wide", "Broad", "Spacious"],
     "on": ["こう"],
     "kun": ["ひろ.い", "ひろ.まる", "ひろ.める", "ひろ.がる", "ひろ.げる"],
-    "wk_level": 3,
     "wk_meanings": ["Wide"],
-    "wk_on": ["!こう"],
-    "wk_kun": ["ひろ"],
-    "wk_radicals": ["Canopy", "Private"],
     "jlpt": 4
   },
   {
@@ -421,11 +325,7 @@
     "meanings": ["Utilize", "Business", "Service", "Use", "Employ"],
     "on": ["よう"],
     "kun": ["もち.いる"],
-    "wk_level": 3,
     "wk_meanings": ["Task", "^Use"],
-    "wk_on": ["よう"],
-    "wk_kun": ["!もち"],
-    "wk_radicals": ["Task"],
     "jlpt": 4
   },
   {
@@ -436,11 +336,7 @@
     "meanings": ["Generation", "World", "Society", "Public"],
     "on": ["せい", "せ", "そう"],
     "kun": ["よ"],
-    "wk_level": 4,
     "wk_meanings": ["World", "^Generation"],
-    "wk_on": ["せ", "せい"],
-    "wk_kun": ["!よ"],
-    "wk_radicals": ["World"],
     "jlpt": 4
   },
   {
@@ -451,11 +347,7 @@
     "meanings": ["Lord", "Chief", "Master", "Main Thing", "Principal"],
     "on": ["しゅ", "す", "しゅう"],
     "kun": ["ぬし", "おも", "あるじ"],
-    "wk_level": 4,
     "wk_meanings": ["Master", "^Main"],
-    "wk_on": ["しゅ"],
-    "wk_kun": ["!おも", "!ぬし"],
-    "wk_radicals": ["Master"],
     "jlpt": 4
   },
   {
@@ -488,11 +380,7 @@
       "よ",
       "しろ"
     ],
-    "wk_level": 4,
     "wk_meanings": ["Substitute", "^Replace", "^Period", "^Age"],
-    "wk_on": ["だい"],
-    "wk_kun": ["!か", "!かわ", "!しろ"],
-    "wk_radicals": ["Leader", "Ceremony"],
     "jlpt": 4
   },
   {
@@ -503,11 +391,7 @@
     "meanings": ["Copy", "Be Photographed", "Describe"],
     "on": ["しゃ", "じゃ"],
     "kun": ["うつ.す", "うつ.る", "うつ-", "うつ.し"],
-    "wk_level": 4,
     "wk_meanings": ["Copy"],
-    "wk_on": ["しゃ"],
-    "wk_kun": ["!うつ"],
-    "wk_radicals": ["Forehead", "Ground", "Beggar"],
     "jlpt": 4
   },
   {
@@ -526,11 +410,7 @@
     ],
     "on": ["きょ", "こ"],
     "kun": ["さ.る", "-さ.る"],
-    "wk_level": 4,
     "wk_meanings": ["Past"],
-    "wk_on": ["きょ", "こ"],
-    "wk_kun": ["!さ"],
-    "wk_radicals": ["Dirt", "Private"],
     "jlpt": 4
   },
   {
@@ -541,11 +421,7 @@
     "meanings": ["Character", "Letter", "Word", "Section Of Village"],
     "on": ["じ"],
     "kun": ["あざ", "あざな", "-な"],
-    "wk_level": 4,
     "wk_meanings": ["Letter", "^Character", "^Symbol"],
-    "wk_on": ["じ"],
-    "wk_kun": [],
-    "wk_radicals": ["Roof", "Child"],
     "jlpt": 4
   },
   {
@@ -556,11 +432,7 @@
     "meanings": ["Early", "Fast"],
     "on": ["そう", "さっ"],
     "kun": ["はや.い", "はや", "はや-", "はや.まる", "はや.める", "さ-"],
-    "wk_level": 4,
     "wk_meanings": ["Early", "^Fast", "^Quick"],
-    "wk_on": ["そう"],
-    "wk_kun": ["!はや", "!さ"],
-    "wk_radicals": ["Sun", "Cross"],
     "jlpt": 4
   },
   {
@@ -571,11 +443,7 @@
     "meanings": ["Town", "Village", "Block", "Street"],
     "on": ["ちょう"],
     "kun": ["まち"],
-    "wk_level": 4,
     "wk_meanings": ["Town"],
-    "wk_on": ["ちょう"],
-    "wk_kun": ["!まち"],
-    "wk_radicals": ["Rice Paddy", "Street"],
     "jlpt": 4
   },
   {
@@ -586,11 +454,7 @@
     "meanings": ["Flower"],
     "on": ["か", "け"],
     "kun": ["はな"],
-    "wk_level": 4,
     "wk_meanings": ["Flower"],
-    "wk_on": ["!か", "!け"],
-    "wk_kun": ["はな"],
-    "wk_radicals": ["Flowers", "Leader", "Spoon"],
     "jlpt": 4
   },
   {
@@ -601,11 +465,7 @@
     "meanings": ["Red"],
     "on": ["せき", "しゃく"],
     "kun": ["あか", "あか-", "あか.い", "あか.らむ", "あか.らめる"],
-    "wk_level": 4,
     "wk_meanings": ["Red"],
-    "wk_on": ["!せき"],
-    "wk_kun": ["あか"],
-    "wk_radicals": ["Red"],
     "jlpt": 4
   },
   {
@@ -621,11 +481,7 @@
     ],
     "on": ["そく"],
     "kun": ["あし", "た.りる", "た.る", "た.す"],
-    "wk_level": 4,
     "wk_meanings": ["Foot", "^Leg", "^Sufficient"],
-    "wk_on": ["そく"],
-    "wk_kun": ["!あし", "!た"],
-    "wk_radicals": ["Foot"],
     "jlpt": 4
   },
   {
@@ -636,11 +492,7 @@
     "meanings": ["Negative", "Non-", "Bad", "Ugly", "Clumsy"],
     "on": ["ふ", "ぶ"],
     "kun": [],
-    "wk_level": 4,
     "wk_meanings": ["Not"],
-    "wk_on": ["ふ"],
-    "wk_kun": [],
-    "wk_radicals": ["Not"],
     "jlpt": 4
   },
   {
@@ -651,11 +503,7 @@
     "meanings": ["Attend", "Doing", "Official", "Serve"],
     "on": ["し", "じ"],
     "kun": ["つか.える"],
-    "wk_level": 4,
     "wk_meanings": ["Doing", "^Do"],
-    "wk_on": ["し"],
-    "wk_kun": ["!つか"],
-    "wk_radicals": ["Leader", "Samurai"],
     "jlpt": 4
   },
   {
@@ -673,11 +521,7 @@
     ],
     "on": ["かい", "え"],
     "kun": ["あ.う", "あ.わせる", "あつ.まる"],
-    "wk_level": 5,
     "wk_meanings": ["Meet"],
-    "wk_on": ["かい"],
-    "wk_kun": ["!あ"],
-    "wk_radicals": ["Meet"],
     "jlpt": 4
   },
   {
@@ -688,11 +532,7 @@
     "meanings": ["Same", "Agree", "Equal"],
     "on": ["どう"],
     "kun": ["おな.じ"],
-    "wk_level": 5,
     "wk_meanings": ["Same"],
-    "wk_on": ["どう"],
-    "wk_kun": ["!おな"],
-    "wk_radicals": ["Mustache", "Ground"],
     "jlpt": 4
   },
   {
@@ -703,11 +543,7 @@
     "meanings": ["Many", "Frequent", "Much"],
     "on": ["た"],
     "kun": ["おお.い", "まさ.に", "まさ.る"],
-    "wk_level": 5,
     "wk_meanings": ["Many", "^Much", "^Lots Of"],
-    "wk_on": ["た"],
-    "wk_kun": ["!おお"],
-    "wk_radicals": ["Evening"],
     "jlpt": 4
   },
   {
@@ -718,11 +554,7 @@
     "meanings": ["Consider", "Think Over"],
     "on": ["こう"],
     "kun": ["かんが.える", "かんが.え"],
-    "wk_level": 5,
     "wk_meanings": ["Think", "^Consider"],
-    "wk_on": ["こう"],
-    "wk_kun": ["!かんが"],
-    "wk_radicals": ["Coffin", "Beggar"],
     "jlpt": 4
   },
   {
@@ -733,11 +565,7 @@
     "meanings": ["Meat"],
     "on": ["にく"],
     "kun": ["しし"],
-    "wk_level": 5,
     "wk_meanings": ["Meat"],
-    "wk_on": ["にく"],
-    "wk_kun": [],
-    "wk_radicals": ["Meat"],
     "jlpt": 4
   },
   {
@@ -748,11 +576,7 @@
     "meanings": ["Oneself"],
     "on": ["じ", "し"],
     "kun": ["みずか.ら", "おの.ずから", "おの.ずと"],
-    "wk_level": 5,
     "wk_meanings": ["Self"],
-    "wk_on": ["じ", "し"],
-    "wk_kun": [],
-    "wk_radicals": ["Self"],
     "jlpt": 4
   },
   {
@@ -763,11 +587,7 @@
     "meanings": ["Color"],
     "on": ["しょく", "しき"],
     "kun": ["いろ"],
-    "wk_level": 5,
     "wk_meanings": ["Color"],
-    "wk_on": ["!しき", "!しょく"],
-    "wk_kun": ["いろ"],
-    "wk_radicals": ["Color"],
     "jlpt": 4
   },
   {
@@ -784,11 +604,7 @@
     ],
     "on": ["たい", "てい"],
     "kun": ["からだ", "かたち"],
-    "wk_level": 5,
     "wk_meanings": ["Body"],
-    "wk_on": ["たい"],
-    "wk_kun": ["!からだ"],
-    "wk_radicals": ["Leader", "Book"],
     "jlpt": 4
   },
   {
@@ -799,11 +615,7 @@
     "meanings": ["Make", "Production", "Prepare", "Build"],
     "on": ["さく", "さ"],
     "kun": ["つく.る", "つく.り", "-づく.り"],
-    "wk_level": 5,
     "wk_meanings": ["Make"],
-    "wk_on": ["さく", "さ"],
-    "wk_kun": ["!つく"],
-    "wk_radicals": ["Leader", "Key"],
     "jlpt": 4
   },
   {
@@ -814,11 +626,7 @@
     "meanings": ["Map", "Drawing", "Plan", "Extraordinary", "Audacious"],
     "on": ["ず", "と"],
     "kun": ["え", "はか.る"],
-    "wk_level": 5,
     "wk_meanings": ["Diagram"],
-    "wk_on": ["ず", "と"],
-    "wk_kun": ["!え", "!はか"],
-    "wk_radicals": ["Mouth", "Treasure", "Ice"],
     "jlpt": 4
   },
   {
@@ -829,11 +637,7 @@
     "meanings": ["Sell"],
     "on": ["ばい"],
     "kun": ["う.る", "う.れる"],
-    "wk_level": 9,
     "wk_meanings": ["Sell"],
-    "wk_on": ["ばい"],
-    "wk_kun": ["!う"],
-    "wk_radicals": ["Samurai", "Forehead", "Legs"],
     "jlpt": 4
   },
   {
@@ -844,11 +648,7 @@
     "meanings": ["Younger Brother", "Faithful Service To Elders"],
     "on": ["てい", "だい", "で"],
     "kun": ["おとうと"],
-    "wk_level": 5,
     "wk_meanings": ["Younger Brother", "^Little Brother"],
-    "wk_on": ["だい", "で", "^てい"],
-    "wk_kun": ["!おとうと"],
-    "wk_radicals": ["Horns", "Bow", "Stick", "Slide"],
     "jlpt": 4
   },
   {
@@ -859,11 +659,7 @@
     "meanings": ["Company", "Firm", "Office", "Association", "Shrine"],
     "on": ["しゃ"],
     "kun": ["やしろ"],
-    "wk_level": 5,
     "wk_meanings": ["Company"],
-    "wk_on": ["しゃ"],
-    "wk_kun": ["!やしろ"],
-    "wk_radicals": ["Spirit", "Dirt"],
     "jlpt": 4
   },
   {
@@ -874,11 +670,7 @@
     "meanings": ["Say", "Word"],
     "on": ["げん", "ごん"],
     "kun": ["い.う", "こと"],
-    "wk_level": 5,
     "wk_meanings": ["Say"],
-    "wk_on": ["げん", "^ごん"],
-    "wk_kun": ["!い", "!こと"],
-    "wk_radicals": ["Say"],
     "jlpt": 4
   },
   {
@@ -889,11 +681,7 @@
     "meanings": ["Run"],
     "on": ["そう"],
     "kun": ["はし.る"],
-    "wk_level": 5,
     "wk_meanings": ["Run"],
-    "wk_on": ["そう"],
-    "wk_kun": ["!はし"],
-    "wk_radicals": ["Run"],
     "jlpt": 4
   },
   {
@@ -904,11 +692,7 @@
     "meanings": ["Near", "Early", "Akin", "Tantamount"],
     "on": ["きん", "こん"],
     "kun": ["ちか.い"],
-    "wk_level": 5,
     "wk_meanings": ["Near", "^Close"],
-    "wk_on": ["きん", "^こん"],
-    "wk_kun": ["!ちか"],
-    "wk_radicals": ["Scooter", "Axe"],
     "jlpt": 4
   },
   {
@@ -928,11 +712,7 @@
       "す.かす",
       "むな.しい"
     ],
-    "wk_level": 5,
     "wk_meanings": ["Sky"],
-    "wk_on": ["くう"],
-    "wk_kun": ["!そら", "!あ", "!から", "!す"],
-    "wk_radicals": ["Roof", "Legs", "Construction"],
     "jlpt": 4
   },
   {
@@ -943,11 +723,7 @@
     "meanings": ["Blue", "Green"],
     "on": ["せい", "しょう"],
     "kun": ["あお", "あお-", "あお.い"],
-    "wk_level": 5,
     "wk_meanings": ["Blue"],
-    "wk_on": ["せい", "しょう"],
-    "wk_kun": ["!あお"],
-    "wk_radicals": ["Blue"],
     "jlpt": 4
   },
   {
@@ -958,11 +734,7 @@
     "meanings": ["Sound", "Noise"],
     "on": ["おん", "いん", "-のん"],
     "kun": ["おと", "ね"],
-    "wk_level": 5,
     "wk_meanings": ["Sound"],
-    "wk_on": ["おん"],
-    "wk_kun": ["!おと", "!ね"],
-    "wk_radicals": ["Stand", "Sun"],
     "jlpt": 4
   },
   {
@@ -973,11 +745,7 @@
     "meanings": ["Ground", "Earth"],
     "on": ["ち", "じ"],
     "kun": [],
-    "wk_level": 6,
     "wk_meanings": ["Earth", "^Ground"],
-    "wk_on": ["ち", "^じ"],
-    "wk_kun": [],
-    "wk_radicals": ["Dirt", "Alligator"],
     "jlpt": 4
   },
   {
@@ -996,11 +764,7 @@
     ],
     "on": ["あん"],
     "kun": ["やす.い", "やす.まる", "やす", "やす.らか"],
-    "wk_level": 6,
     "wk_meanings": ["Relax", "^Cheap"],
-    "wk_on": ["あん"],
-    "wk_kun": ["!やす"],
-    "wk_radicals": ["Roof", "Woman"],
     "jlpt": 4
   },
   {
@@ -1011,11 +775,7 @@
     "meanings": ["Possess", "Have", "Exist", "Happen", "Occur", "Approx"],
     "on": ["ゆう", "う"],
     "kun": ["あ.る"],
-    "wk_level": 6,
     "wk_meanings": ["Have"],
-    "wk_on": ["ゆう", "^う"],
-    "wk_kun": ["!あ"],
-    "wk_radicals": ["Narwhal", "Moon"],
     "jlpt": 4
   },
   {
@@ -1026,11 +786,7 @@
     "meanings": ["Death", "Die"],
     "on": ["し"],
     "kun": ["し.ぬ", "し.に-"],
-    "wk_level": 6,
     "wk_meanings": ["Death"],
-    "wk_on": ["し"],
-    "wk_kun": ["!し"],
-    "wk_radicals": ["Yakuza", "Spoon"],
     "jlpt": 4
   },
   {
@@ -1041,11 +797,7 @@
     "meanings": ["Capital", "10**16"],
     "on": ["きょう", "けい", "きん"],
     "kun": ["みやこ"],
-    "wk_level": 6,
     "wk_meanings": ["Capital"],
-    "wk_on": ["きょう"],
-    "wk_kun": ["!みやこ"],
-    "wk_radicals": ["Lid", "Mouth", "Small"],
     "jlpt": 4
   },
   {
@@ -1056,11 +808,7 @@
     "meanings": ["Night", "Evening"],
     "on": ["や"],
     "kun": ["よ", "よる"],
-    "wk_level": 6,
     "wk_meanings": ["Night", "^Evening"],
-    "wk_on": ["や"],
-    "wk_kun": ["!よ", "!よる"],
-    "wk_radicals": ["Lid", "Leader", "Winter", "Drop"],
     "jlpt": 4
   },
   {
@@ -1071,11 +819,7 @@
     "meanings": ["Younger Sister"],
     "on": ["まい"],
     "kun": ["いもうと"],
-    "wk_level": 6,
     "wk_meanings": ["Younger Sister", "^Little Sister"],
-    "wk_on": ["まい"],
-    "wk_kun": ["!いもうと"],
-    "wk_radicals": ["Woman", "Jet"],
     "jlpt": 4
   },
   {
@@ -1086,11 +830,7 @@
     "meanings": ["Elder Sister"],
     "on": ["し"],
     "kun": ["あね", "はは"],
-    "wk_level": 6,
     "wk_meanings": ["Older Sister", "^Big Sister", "^Elder Sister"],
-    "wk_on": ["し"],
-    "wk_kun": ["!お", "!あね", "!ねえ"],
-    "wk_radicals": ["Woman", "City"],
     "jlpt": 4
   },
   {
@@ -1101,11 +841,7 @@
     "meanings": ["Store", "Shop"],
     "on": ["てん"],
     "kun": ["みせ", "たな"],
-    "wk_level": 6,
     "wk_meanings": ["Shop", "^Store"],
-    "wk_on": ["てん"],
-    "wk_kun": ["!みせ"],
-    "wk_radicals": ["Canopy", "Fortune"],
     "jlpt": 4
   },
   {
@@ -1127,11 +863,7 @@
       "あ.くる",
       "あ.かす"
     ],
-    "wk_level": 6,
     "wk_meanings": ["Bright"],
-    "wk_on": ["めい"],
-    "wk_kun": ["!あ", "!あか", "!あき"],
-    "wk_radicals": ["Sun", "Moon"],
     "jlpt": 4
   },
   {
@@ -1142,11 +874,7 @@
     "meanings": ["Walk", "Counter For Steps"],
     "on": ["ほ", "ぶ", "ふ"],
     "kun": ["ある.く", "あゆ.む"],
-    "wk_level": 6,
     "wk_meanings": ["Walk"],
-    "wk_on": ["ほ"],
-    "wk_kun": ["!ある", "!あゆ"],
-    "wk_radicals": ["Stop", "Small", "Slide"],
     "jlpt": 4
   },
   {
@@ -1157,11 +885,7 @@
     "meanings": ["Brush-stroke", "Picture"],
     "on": ["が", "かく", "え", "かい"],
     "kun": ["えが.く", "かく.する", "かぎ.る", "はかりごと", "はか.る"],
-    "wk_level": 6,
     "wk_meanings": ["Drawing", "^Picture", "^Painting"],
-    "wk_on": ["が", "かく"],
-    "wk_kun": [],
-    "wk_radicals": ["Leaf", "Rice Paddy", "Box"],
     "jlpt": 4
   },
   {
@@ -1172,11 +896,7 @@
     "meanings": ["Know", "Wisdom"],
     "on": ["ち"],
     "kun": ["し.る", "し.らせる"],
-    "wk_level": 6,
     "wk_meanings": ["Know"],
-    "wk_on": ["ち"],
-    "wk_kun": ["!し"],
-    "wk_radicals": ["Arrow", "Mouth"],
     "jlpt": 4
   },
   {
@@ -1187,11 +907,7 @@
     "meanings": ["Room", "Apartment", "Chamber", "Greenhouse", "Cellar"],
     "on": ["しつ"],
     "kun": ["むろ"],
-    "wk_level": 6,
     "wk_meanings": ["Room"],
-    "wk_on": ["しつ"],
-    "wk_kun": [],
-    "wk_radicals": ["Roof", "Ground", "Private", "Dirt"],
     "jlpt": 4
   },
   {
@@ -1202,11 +918,7 @@
     "meanings": ["Think"],
     "on": ["し"],
     "kun": ["おも.う", "おもえら.く", "おぼ.す"],
-    "wk_level": 6,
     "wk_meanings": ["Think", "^Thought"],
-    "wk_on": ["し"],
-    "wk_kun": ["!おも"],
-    "wk_radicals": ["Rice Paddy", "Heart"],
     "jlpt": 4
   },
   {
@@ -1217,11 +929,7 @@
     "meanings": ["Sea", "Ocean"],
     "on": ["かい"],
     "kun": ["うみ"],
-    "wk_level": 6,
     "wk_meanings": ["Sea", "^Ocean"],
-    "wk_on": ["かい"],
-    "wk_kun": ["!うみ"],
-    "wk_radicals": ["Tsunami", "Gun", "Window"],
     "jlpt": 4
   },
   {
@@ -1232,11 +940,7 @@
     "meanings": ["Tea"],
     "on": ["ちゃ", "さ"],
     "kun": [],
-    "wk_level": 6,
     "wk_meanings": ["Tea"],
-    "wk_on": ["ちゃ", "さ"],
-    "wk_kun": [],
-    "wk_radicals": ["Flowers", "Hat", "Angel"],
     "jlpt": 4
   },
   {
@@ -1247,7 +951,6 @@
     "meanings": ["By Means Of", "Because", "In View Of", "Compared With"],
     "on": ["い"],
     "kun": ["もっ.て"],
-    "wk_level": 7,
     "wk_meanings": [
       "From",
       "^Since",
@@ -1255,9 +958,6 @@
       "^With",
       "^By Means Of"
     ],
-    "wk_on": ["い"],
-    "wk_kun": [],
-    "wk_radicals": ["Lion", "Drop", "Person"],
     "jlpt": 4
   },
   {
@@ -1268,11 +968,7 @@
     "meanings": ["Summer"],
     "on": ["か", "が", "げ"],
     "kun": ["なつ"],
-    "wk_level": 7,
     "wk_meanings": ["Summer"],
-    "wk_on": ["!げ", "!か", "!が"],
-    "wk_kun": ["なつ"],
-    "wk_radicals": ["Leaf", "Eye", "Winter"],
     "jlpt": 4
   },
   {
@@ -1290,11 +986,7 @@
     ],
     "on": ["か", "け"],
     "kun": ["いえ", "や", "うち"],
-    "wk_level": 7,
     "wk_meanings": ["House", "^Home"],
-    "wk_on": ["か", "^け"],
-    "wk_kun": ["!いえ", "!や", "!うち"],
-    "wk_radicals": ["Roof", "Pig"],
     "jlpt": 4
   },
   {
@@ -1305,11 +997,7 @@
     "meanings": ["Paper"],
     "on": ["し"],
     "kun": ["かみ"],
-    "wk_level": 7,
     "wk_meanings": ["Paper"],
-    "wk_on": ["!し"],
-    "wk_kun": ["かみ"],
-    "wk_radicals": ["Thread", "Clan"],
     "jlpt": 4
   },
   {
@@ -1335,11 +1023,7 @@
       "-どお.し",
       "かよ.う"
     ],
-    "wk_level": 7,
     "wk_meanings": ["Pass Through"],
-    "wk_on": ["つう"],
-    "wk_kun": ["!とお", "!かよ"],
-    "wk_radicals": ["Scooter", "Mama", "Task"],
     "jlpt": 4
   },
   {
@@ -1350,11 +1034,7 @@
     "meanings": ["Strong"],
     "on": ["きょう", "ごう"],
     "kun": ["つよ.い", "つよ.まる", "つよ.める", "し.いる", "こわ.い"],
-    "wk_level": 7,
     "wk_meanings": ["Strong", "^Strength"],
-    "wk_on": ["きょう"],
-    "wk_kun": ["!つよ"],
-    "wk_radicals": ["Bow", "Private", "Insect"],
     "jlpt": 4
   },
   {
@@ -1365,11 +1045,7 @@
     "meanings": ["Teach", "Faith", "Doctrine"],
     "on": ["きょう"],
     "kun": ["おし.える", "おそ.わる"],
-    "wk_level": 7,
     "wk_meanings": ["Teach"],
-    "wk_on": ["きょう"],
-    "wk_kun": ["!おし", "!おそ"],
-    "wk_radicals": ["Teacher", "Winter"],
     "jlpt": 4
   },
   {
@@ -1380,11 +1056,7 @@
     "meanings": ["Logic", "Arrangement", "Reason", "Justice", "Truth"],
     "on": ["り"],
     "kun": ["ことわり"],
-    "wk_level": 7,
     "wk_meanings": ["Reason"],
-    "wk_on": ["り"],
-    "wk_kun": ["!ことわり"],
-    "wk_radicals": ["King", "Village"],
     "jlpt": 4
   },
   {
@@ -1395,11 +1067,7 @@
     "meanings": ["Week"],
     "on": ["しゅう"],
     "kun": [],
-    "wk_level": 7,
     "wk_meanings": ["Week"],
-    "wk_on": ["しゅう"],
-    "wk_kun": [],
-    "wk_radicals": ["Scooter", "Circumference"],
     "jlpt": 4
   },
   {
@@ -1410,11 +1078,7 @@
     "meanings": ["Fish"],
     "on": ["ぎょ"],
     "kun": ["うお", "さかな", "-ざかな"],
-    "wk_level": 7,
     "wk_meanings": ["Fish"],
-    "wk_on": ["ぎょ"],
-    "wk_kun": ["!さかな"],
-    "wk_radicals": ["Fish"],
     "jlpt": 4
   },
   {
@@ -1425,11 +1089,7 @@
     "meanings": ["Bird", "Chicken"],
     "on": ["ちょう"],
     "kun": ["とり"],
-    "wk_level": 7,
     "wk_meanings": ["Bird"],
-    "wk_on": ["ちょう"],
-    "wk_kun": ["!とり"],
-    "wk_radicals": ["Bird"],
     "jlpt": 4
   },
   {
@@ -1440,11 +1100,7 @@
     "meanings": ["Black"],
     "on": ["こく"],
     "kun": ["くろ", "くろ.ずむ", "くろ.い"],
-    "wk_level": 7,
     "wk_meanings": ["Black"],
-    "wk_on": ["こく"],
-    "wk_kun": ["!くろ"],
-    "wk_radicals": ["Black"],
     "jlpt": 4
   },
   {
@@ -1455,11 +1111,7 @@
     "meanings": ["Dwell", "Reside", "Live", "Inhabit"],
     "on": ["じゅう", "ぢゅう", "ちゅう"],
     "kun": ["す.む", "す.まう", "-ず.まい"],
-    "wk_level": 8,
     "wk_meanings": ["Dwelling", "^Reside", "^Dwell"],
-    "wk_on": ["じゅう"],
-    "wk_kun": ["!す"],
-    "wk_radicals": ["Leader", "Master"],
     "jlpt": 4
   },
   {
@@ -1470,11 +1122,7 @@
     "meanings": ["Doctor", "Medicine"],
     "on": ["い"],
     "kun": ["い.やす", "い.する", "くすし"],
-    "wk_level": 8,
     "wk_meanings": ["Medicine"],
-    "wk_on": ["い"],
-    "wk_kun": [],
-    "wk_radicals": ["Cage", "Arrow"],
     "jlpt": 4
   },
   {
@@ -1485,11 +1133,7 @@
     "meanings": ["Research", "Study"],
     "on": ["きゅう", "く"],
     "kun": ["きわ.める"],
-    "wk_level": 8,
     "wk_meanings": ["Research"],
-    "wk_on": ["きゅう"],
-    "wk_kun": ["!きわ"],
-    "wk_radicals": ["Hole", "Nine"],
     "jlpt": 4
   },
   {
@@ -1500,11 +1144,7 @@
     "meanings": ["Someone", "Person"],
     "on": ["しゃ"],
     "kun": ["もの"],
-    "wk_level": 8,
     "wk_meanings": ["Someone", "^Somebody"],
-    "wk_on": ["しゃ"],
-    "wk_kun": ["!もの"],
-    "wk_radicals": ["Coffin", "Sun"],
     "jlpt": 4
   },
   {
@@ -1515,11 +1155,7 @@
     "meanings": ["Polish", "Study Of", "Sharpen"],
     "on": ["けん"],
     "kun": ["と.ぐ"],
-    "wk_level": 8,
     "wk_meanings": ["Sharpen"],
-    "wk_on": ["けん"],
-    "wk_kun": ["!と"],
-    "wk_radicals": ["Stone", "Lantern"],
     "jlpt": 4
   },
   {
@@ -1530,11 +1166,7 @@
     "meanings": ["Location", "Place"],
     "on": ["じょう", "ちょう"],
     "kun": ["ば"],
-    "wk_level": 8,
     "wk_meanings": ["Location", "^Place"],
-    "wk_on": ["じょう"],
-    "wk_kun": ["!ば"],
-    "wk_radicals": ["Dirt", "Easy"],
     "jlpt": 4
   },
   {
@@ -1552,11 +1184,7 @@
     ],
     "on": ["ちょう"],
     "kun": ["あさ"],
-    "wk_level": 8,
     "wk_meanings": ["Morning"],
-    "wk_on": ["!ちょう"],
-    "wk_kun": ["あさ"],
-    "wk_radicals": ["Cross", "Sun", "Moon"],
     "jlpt": 4
   },
   {
@@ -1567,11 +1195,7 @@
     "meanings": ["Solution", "Answer"],
     "on": ["とう"],
     "kun": ["こた.える", "こた.え"],
-    "wk_level": 8,
     "wk_meanings": ["Answer", "^Response", "^Reply"],
-    "wk_on": ["!とう"],
-    "wk_kun": ["こた"],
-    "wk_radicals": ["Bamboo", "Suit"],
     "jlpt": 4
   },
   {
@@ -1582,11 +1206,7 @@
     "meanings": ["Buy"],
     "on": ["ばい"],
     "kun": ["か.う"],
-    "wk_level": 8,
     "wk_meanings": ["Buy"],
-    "wk_on": ["!ばい"],
-    "wk_kun": ["か"],
-    "wk_radicals": ["Net", "Shellfish"],
     "jlpt": 4
   },
   {
@@ -1605,11 +1225,7 @@
     ],
     "on": ["どう", "とう"],
     "kun": ["みち", "いう"],
-    "wk_level": 8,
     "wk_meanings": ["Road", "^Street", "^Path", "^Way"],
-    "wk_on": ["どう"],
-    "wk_kun": ["!みち"],
-    "wk_radicals": ["Scooter", "Neck"],
     "jlpt": 4
   },
   {
@@ -1620,11 +1236,7 @@
     "meanings": ["Music", "Comfort", "Ease"],
     "on": ["がく", "らく", "ごう"],
     "kun": ["たの.しい", "たの.しむ", "この.む"],
-    "wk_level": 8,
     "wk_meanings": ["Comfort", "^Ease", "^Pleasure"],
-    "wk_on": ["らく", "がく"],
-    "wk_kun": ["!たの"],
-    "wk_radicals": ["White", "Ice", "Tree"],
     "jlpt": 4
   },
   {
@@ -1635,11 +1247,7 @@
     "meanings": ["Matter", "Thing", "Fact", "Business", "Reason", "Possibly"],
     "on": ["じ", "ず"],
     "kun": ["こと", "つか.う", "つか.える"],
-    "wk_level": 9,
     "wk_meanings": ["Action", "^Matter", "^Thing"],
-    "wk_on": ["じ"],
-    "wk_kun": ["!こと", "!つか"],
-    "wk_radicals": ["Cross", "Mouth", "Brush"],
     "jlpt": 4
   },
   {
@@ -1658,11 +1266,7 @@
     ],
     "on": ["し"],
     "kun": ["つか.う", "つか.い", "-つか.い", "-づか.い"],
-    "wk_level": 9,
     "wk_meanings": ["Use"],
-    "wk_on": ["し"],
-    "wk_kun": ["!つか"],
-    "wk_radicals": ["Leader", "Ground", "History"],
     "jlpt": 4
   },
   {
@@ -1673,11 +1277,7 @@
     "meanings": ["Commence", "Begin"],
     "on": ["し"],
     "kun": ["はじ.める", "-はじ.める", "はじ.まる"],
-    "wk_level": 10,
     "wk_meanings": ["Begin", "^Start"],
-    "wk_on": ["し"],
-    "wk_kun": ["!はじ"],
-    "wk_radicals": ["Woman", "Machine"],
     "jlpt": 4
   },
   {
@@ -1688,11 +1288,7 @@
     "meanings": ["Clothing", "Admit", "Obey", "Discharge"],
     "on": ["ふく"],
     "kun": [],
-    "wk_level": 9,
     "wk_meanings": ["Clothes", "^Clothing"],
-    "wk_on": ["ふく"],
-    "wk_kun": [],
-    "wk_radicals": ["Moon", "Stamp", "Stool"],
     "jlpt": 4
   },
   {
@@ -1703,11 +1299,7 @@
     "meanings": ["Thing", "Object", "Matter"],
     "on": ["ぶつ", "もつ"],
     "kun": ["もの", "もの-"],
-    "wk_level": 9,
     "wk_meanings": ["Thing"],
-    "wk_on": ["ぶつ", "^もつ"],
-    "wk_kun": ["!もの"],
-    "wk_radicals": ["Cow", "Wing"],
     "jlpt": 4
   },
   {
@@ -1718,11 +1310,7 @@
     "meanings": ["Roof", "House", "Shop", "Dealer", "Seller"],
     "on": ["おく"],
     "kun": ["や"],
-    "wk_level": 9,
     "wk_meanings": ["Roof", "^Shop", "^Store"],
-    "wk_on": ["!おく"],
-    "wk_kun": ["や"],
-    "wk_radicals": ["Flag", "Ground", "Private", "Dirt"],
     "jlpt": 4
   },
   {
@@ -1740,11 +1328,7 @@
     ],
     "on": ["ど", "と", "たく"],
     "kun": ["たび", "-た.い"],
-    "wk_level": 9,
     "wk_meanings": ["Degrees", "^Occurrence"],
-    "wk_on": ["ど", "たく"],
-    "wk_kun": ["!たび"],
-    "wk_radicals": ["Yurt", "Stool"],
     "jlpt": 4
   },
   {
@@ -1755,11 +1339,7 @@
     "meanings": ["Wait", "Depend On"],
     "on": ["たい"],
     "kun": ["ま.つ", "-ま.ち"],
-    "wk_level": 12,
     "wk_meanings": ["Wait"],
-    "wk_on": ["たい"],
-    "wk_kun": ["!ま"],
-    "wk_radicals": ["Loiter", "Temple"],
     "jlpt": 4
   },
   {
@@ -1770,11 +1350,7 @@
     "meanings": ["Hold", "Have"],
     "on": ["じ"],
     "kun": ["も.つ", "-も.ち", "も.てる"],
-    "wk_level": 9,
     "wk_meanings": ["Hold"],
-    "wk_on": ["じ"],
-    "wk_kun": ["!も"],
-    "wk_radicals": ["Fingers", "Temple"],
     "jlpt": 4
   },
   {
@@ -1785,11 +1361,7 @@
     "meanings": ["World", "Boundary"],
     "on": ["かい"],
     "kun": [],
-    "wk_level": 9,
     "wk_meanings": ["World"],
-    "wk_on": ["かい"],
-    "wk_kun": [],
-    "wk_radicals": ["Rice Paddy", "Jammed In"],
     "jlpt": 4
   },
   {
@@ -1808,11 +1380,7 @@
     ],
     "on": ["はつ", "ほつ"],
     "kun": ["た.つ", "あば.く", "おこ.る", "つか.わす", "はな.つ"],
-    "wk_level": 9,
     "wk_meanings": ["Departure"],
-    "wk_on": ["はつ"],
-    "wk_kun": [],
-    "wk_radicals": ["Tent", "Lantern"],
     "jlpt": 4
   },
   {
@@ -1823,11 +1391,7 @@
     "meanings": ["Escort", "Send"],
     "on": ["そう"],
     "kun": ["おく.る"],
-    "wk_level": 9,
     "wk_meanings": ["Send"],
-    "wk_on": ["そう"],
-    "wk_kun": ["!おく"],
-    "wk_radicals": ["Scooter", "Horns", "Heaven"],
     "jlpt": 4
   },
   {
@@ -1855,11 +1419,7 @@
       "かさ.なる",
       "おも"
     ],
-    "wk_level": 9,
     "wk_meanings": ["Heavy"],
-    "wk_on": ["じゅう", "^ちょう"],
-    "wk_kun": ["!おも", "!かさ", "!え"],
-    "wk_radicals": ["Heavy"],
     "jlpt": 4
   },
   {
@@ -1870,11 +1430,7 @@
     "meanings": ["Rouse", "Wake Up", "Get Up"],
     "on": ["き"],
     "kun": ["お.きる", "お.こる", "お.こす", "おこ.す", "た.つ"],
-    "wk_level": 10,
     "wk_meanings": ["Wake Up"],
-    "wk_on": ["!き"],
-    "wk_kun": ["お"],
-    "wk_radicals": ["Run", "Oneself"],
     "jlpt": 4
   },
   {
@@ -1885,11 +1441,7 @@
     "meanings": ["Inst.", "Institution", "Temple", "Mansion", "School"],
     "on": ["いん"],
     "kun": [],
-    "wk_level": 10,
     "wk_meanings": ["Institution"],
-    "wk_on": ["いん"],
-    "wk_kun": [],
-    "wk_radicals": ["Building", "Roof", "Origin"],
     "jlpt": 4
   },
   {
@@ -1900,11 +1452,7 @@
     "meanings": ["End", "Finish"],
     "on": ["しゅう"],
     "kun": ["お.わる", "-お.わる", "おわ.る", "お.える", "つい", "つい.に"],
-    "wk_level": 10,
     "wk_meanings": ["End", "^Finish"],
-    "wk_on": ["しゅう"],
-    "wk_kun": ["!おわ", "!お"],
-    "wk_radicals": ["Thread", "Winter", "Two"],
     "jlpt": 4
   },
   {
@@ -1915,11 +1463,7 @@
     "meanings": ["Learn"],
     "on": ["しゅう", "じゅ"],
     "kun": ["なら.う", "なら.い"],
-    "wk_level": 10,
     "wk_meanings": ["Learn"],
-    "wk_on": ["しゅう"],
-    "wk_kun": ["!なら"],
-    "wk_radicals": ["Feathers", "White"],
     "jlpt": 4
   },
   {
@@ -1939,11 +1483,7 @@
       "うつ.る",
       "くる.めく"
     ],
-    "wk_level": 10,
     "wk_meanings": ["Revolve"],
-    "wk_on": ["てん"],
-    "wk_kun": ["!ころ"],
-    "wk_radicals": ["Car", "Cloud"],
     "jlpt": 4
   },
   {
@@ -1963,11 +1503,7 @@
     ],
     "on": ["うん"],
     "kun": ["はこ.ぶ"],
-    "wk_level": 10,
     "wk_meanings": ["Carry", "^Luck"],
-    "wk_on": ["うん"],
-    "wk_kun": ["!はこ"],
-    "wk_radicals": ["Scooter", "Forehead", "Car"],
     "jlpt": 4
   },
   {
@@ -1978,11 +1514,7 @@
     "meanings": ["Open", "Unfold", "Unseal"],
     "on": ["かい"],
     "kun": ["ひら.く", "ひら.き", "-びら.き", "ひら.ける", "あ.く", "あ.ける"],
-    "wk_level": 10,
     "wk_meanings": ["Open"],
-    "wk_on": ["かい"],
-    "wk_kun": ["!あ", "!ひら"],
-    "wk_radicals": ["Gate", "Lantern"],
     "jlpt": 4
   },
   {
@@ -1993,11 +1525,7 @@
     "meanings": ["Gather", "Meet", "Congregate", "Swarm", "Flock"],
     "on": ["しゅう"],
     "kun": ["あつ.まる", "あつ.める", "つど.う"],
-    "wk_level": 10,
     "wk_meanings": ["Collect", "^Gather"],
-    "wk_on": ["しゅう"],
-    "wk_kun": ["!あつ"],
-    "wk_radicals": ["Turkey", "Tree"],
     "jlpt": 4
   },
   {
@@ -2008,11 +1536,7 @@
     "meanings": ["Drink", "Smoke", "Take"],
     "on": ["いん", "おん"],
     "kun": ["の.む", "-の.み"],
-    "wk_level": 10,
     "wk_meanings": ["Drink"],
-    "wk_on": ["!いん"],
-    "wk_kun": ["の"],
-    "wk_radicals": ["Eat", "Lack"],
     "jlpt": 4
   },
   {
@@ -2023,11 +1547,7 @@
     "meanings": ["Business", "Vocation", "Arts", "Performance"],
     "on": ["ぎょう", "ごう"],
     "kun": ["わざ"],
-    "wk_level": 10,
     "wk_meanings": ["Business"],
-    "wk_on": ["ぎょう"],
-    "wk_kun": [],
-    "wk_radicals": ["Spikes", "Sheep", "Fins"],
     "jlpt": 4
   },
   {
@@ -2038,11 +1558,7 @@
     "meanings": ["Sino-", "China"],
     "on": ["かん"],
     "kun": [],
-    "wk_level": 10,
     "wk_meanings": ["Chinese", "^China"],
-    "wk_on": ["かん"],
-    "wk_kun": [],
-    "wk_radicals": ["Tsunami", "Chinese"],
     "jlpt": 4
   },
   {
@@ -2053,11 +1569,7 @@
     "meanings": ["Song", "Sing"],
     "on": ["か"],
     "kun": ["うた", "うた.う"],
-    "wk_level": 10,
     "wk_meanings": ["Song", "^Sing"],
-    "wk_on": ["か"],
-    "wk_kun": ["!うた"],
-    "wk_radicals": ["Lip Ring", "Lack"],
     "jlpt": 4
   },
   {
@@ -2074,11 +1586,7 @@
     ],
     "on": ["しん"],
     "kun": ["おや", "おや-", "した.しい", "した.しむ"],
-    "wk_level": 10,
     "wk_meanings": ["Parent"],
-    "wk_on": ["しん"],
-    "wk_kun": ["!おや", "!した"],
-    "wk_radicals": ["Stand", "Tree", "See"],
     "jlpt": 4
   },
   {
@@ -2089,11 +1597,7 @@
     "meanings": ["Ill", "Sick"],
     "on": ["びょう", "へい"],
     "kun": ["や.む", "-や.み", "やまい"],
-    "wk_level": 10,
     "wk_meanings": ["Sick", "^Sickness", "^Ill", "^Illness"],
-    "wk_on": ["びょう"],
-    "wk_kun": ["!や", "!やまい"],
-    "wk_radicals": ["Sick", "Dynamite"],
     "jlpt": 4
   },
   {
@@ -2112,11 +1616,7 @@
     ],
     "on": ["べつ"],
     "kun": ["わか.れる", "わ.ける"],
-    "wk_level": 11,
     "wk_meanings": ["Separate"],
-    "wk_on": ["べつ"],
-    "wk_kun": ["!わか"],
-    "wk_radicals": ["Mouth", "Sword", "Knife"],
     "jlpt": 4
   },
   {
@@ -2136,11 +1636,7 @@
     ],
     "on": ["ちゅう"],
     "kun": ["そそ.ぐ", "さ.す", "つ.ぐ"],
-    "wk_level": 11,
     "wk_meanings": ["Pour"],
-    "wk_on": ["ちゅう"],
-    "wk_kun": ["!そそ", "!さ", "!つ"],
-    "wk_radicals": ["Tsunami", "Master"],
     "jlpt": 4
   },
   {
@@ -2151,11 +1647,7 @@
     "meanings": ["Ocean", "Sea", "Foreign", "Western Style"],
     "on": ["よう"],
     "kun": [],
-    "wk_level": 11,
     "wk_meanings": ["Western Style", "^Ocean"],
-    "wk_on": ["よう"],
-    "wk_kun": [],
-    "wk_radicals": ["Tsunami", "Sheep"],
     "jlpt": 4
   },
   {
@@ -2166,11 +1658,7 @@
     "meanings": ["Special"],
     "on": ["とく"],
     "kun": [],
-    "wk_level": 11,
     "wk_meanings": ["Special"],
-    "wk_on": ["とく"],
-    "wk_kun": [],
-    "wk_radicals": ["Cow", "Temple"],
     "jlpt": 4
   },
   {
@@ -2190,11 +1678,7 @@
     ],
     "on": ["い"],
     "kun": [],
-    "wk_level": 11,
     "wk_meanings": ["Idea"],
-    "wk_on": ["い"],
-    "wk_kun": [],
-    "wk_radicals": ["Sound", "Heart"],
     "jlpt": 4
   },
   {
@@ -2205,11 +1689,7 @@
     "meanings": ["Flavor", "Taste"],
     "on": ["み"],
     "kun": ["あじ", "あじ.わう"],
-    "wk_level": 11,
     "wk_meanings": ["Flavor", "^Taste"],
-    "wk_on": ["み"],
-    "wk_kun": ["!あじ"],
-    "wk_radicals": ["Mouth", "Jet"],
     "jlpt": 4
   },
   {
@@ -2227,11 +1707,7 @@
     ],
     "on": ["べん"],
     "kun": ["つと.める"],
-    "wk_level": 12,
     "wk_meanings": ["Exertion"],
-    "wk_on": ["べん"],
-    "wk_kun": [],
-    "wk_radicals": ["Excuse", "Power"],
     "jlpt": 4
   },
   {
@@ -2242,11 +1718,7 @@
     "meanings": ["Trip", "Travel"],
     "on": ["りょ"],
     "kun": ["たび"],
-    "wk_level": 12,
     "wk_meanings": ["Trip", "^Travel"],
-    "wk_on": ["りょ"],
-    "wk_kun": ["!たび"],
-    "wk_radicals": ["Direction", "Gun", "Tofu"],
     "jlpt": 4
   },
   {
@@ -2257,11 +1729,7 @@
     "meanings": ["Employee", "Member", "Number", "The One In Charge"],
     "on": ["いん"],
     "kun": [],
-    "wk_level": 12,
     "wk_meanings": ["Member"],
-    "wk_on": ["いん"],
-    "wk_kun": [],
-    "wk_radicals": ["Mouth", "Shellfish"],
     "jlpt": 4
   },
   {
@@ -2272,11 +1740,7 @@
     "meanings": ["Move", "Motion", "Change", "Confusion", "Shift", "Shake"],
     "on": ["どう"],
     "kun": ["うご.く", "うご.かす"],
-    "wk_level": 12,
     "wk_meanings": ["Move"],
-    "wk_on": ["どう"],
-    "wk_kun": ["!うご"],
-    "wk_radicals": ["Heavy", "Power"],
     "jlpt": 4
   },
   {
@@ -2297,11 +1761,7 @@
       "いずくんぞ",
       "にく.む"
     ],
-    "wk_level": 12,
     "wk_meanings": ["Bad", "^Evil"],
-    "wk_on": ["あく", "^お"],
-    "wk_kun": ["!わる"],
-    "wk_radicals": ["Asia", "Heart"],
     "jlpt": 4
   },
   {
@@ -2312,11 +1772,7 @@
     "meanings": ["Tribe", "Family"],
     "on": ["ぞく"],
     "kun": [],
-    "wk_level": 12,
     "wk_meanings": ["Tribe", "^Family"],
-    "wk_on": ["ぞく"],
-    "wk_kun": [],
-    "wk_radicals": ["Direction", "Gun", "Arrow"],
     "jlpt": 4
   },
   {
@@ -2327,11 +1783,7 @@
     "meanings": ["Don", "Arrive", "Wear", "Counter For Suits Of Clothing"],
     "on": ["ちゃく", "じゃく"],
     "kun": ["き.る", "-ぎ", "き.せる", "-き.せ", "つ.く", "つ.ける"],
-    "wk_level": 12,
     "wk_meanings": ["Wear", "^Arrive"],
-    "wk_on": ["ちゃく"],
-    "wk_kun": ["!き", "!つ"],
-    "wk_radicals": ["Horns", "King", "Slide", "Eye"],
     "jlpt": 4
   },
   {
@@ -2342,11 +1794,7 @@
     "meanings": ["Plains", "Field", "Rustic", "Civilian Life"],
     "on": ["や", "しょ"],
     "kun": ["の", "の-"],
-    "wk_level": 12,
     "wk_meanings": ["Field"],
-    "wk_on": ["や"],
-    "wk_kun": ["!の"],
-    "wk_radicals": ["Village", "Beforehand"],
     "jlpt": 4
   },
   {
@@ -2357,11 +1805,7 @@
     "meanings": ["Wind", "Air", "Style", "Manner"],
     "on": ["ふう", "ふ"],
     "kun": ["かぜ", "かざ-", "-かぜ"],
-    "wk_level": 7,
     "wk_meanings": ["Wind", "^Style"],
-    "wk_on": ["ふう", "ふ"],
-    "wk_kun": ["!かぜ"],
-    "wk_radicals": ["Table", "Slide", "Insect"],
     "jlpt": 4
   },
   {
@@ -2372,11 +1816,7 @@
     "meanings": ["New"],
     "on": ["しん"],
     "kun": ["あたら.しい", "あら.た", "あら-", "にい-"],
-    "wk_level": 9,
     "wk_meanings": ["New"],
-    "wk_on": ["しん"],
-    "wk_kun": ["!あたら", "!あら", "!にい"],
-    "wk_radicals": ["Stand", "Tree", "Axe"],
     "jlpt": 4
   },
   {
@@ -2387,11 +1827,7 @@
     "meanings": ["Question", "Ask", "Problem"],
     "on": ["もん"],
     "kun": ["と.う", "と.い", "とん"],
-    "wk_level": 13,
     "wk_meanings": ["Problem"],
-    "wk_on": ["もん"],
-    "wk_kun": ["!と", "!とん"],
-    "wk_radicals": ["Gate", "Mouth"],
     "jlpt": 4
   },
   {
@@ -2402,11 +1838,7 @@
     "meanings": ["Silver"],
     "on": ["ぎん"],
     "kun": ["しろがね"],
-    "wk_level": 13,
     "wk_meanings": ["Silver"],
-    "wk_on": ["ぎん"],
-    "wk_kun": [],
-    "wk_radicals": ["Gold", "Root"],
     "jlpt": 4
   },
   {
@@ -2417,11 +1849,7 @@
     "meanings": ["Topic", "Subject"],
     "on": ["だい"],
     "kun": [],
-    "wk_level": 13,
     "wk_meanings": ["Topic"],
-    "wk_on": ["だい"],
-    "wk_kun": [],
-    "wk_radicals": ["Sun", "Correct", "Geoduck"],
     "jlpt": 4
   },
   {
@@ -2432,11 +1860,7 @@
     "meanings": ["Building", "Mansion", "Large Building", "Palace"],
     "on": ["かん"],
     "kun": ["やかた", "たて"],
-    "wk_level": 13,
     "wk_meanings": ["Public Building"],
-    "wk_on": ["かん"],
-    "wk_kun": [],
-    "wk_radicals": ["Eat", "Roof", "Bear"],
     "jlpt": 4
   },
   {
@@ -2447,11 +1871,7 @@
     "meanings": ["Station"],
     "on": ["えき"],
     "kun": [],
-    "wk_level": 13,
     "wk_meanings": ["Station", "^Train Station"],
-    "wk_on": ["えき"],
-    "wk_kun": [],
-    "wk_radicals": ["Horse", "Shrimp"],
     "jlpt": 4
   },
   {
@@ -2462,11 +1882,7 @@
     "meanings": ["Fee", "Materials"],
     "on": ["りょう"],
     "kun": [],
-    "wk_level": 13,
     "wk_meanings": ["Fee", "^Material"],
-    "wk_on": ["りょう"],
-    "wk_kun": [],
-    "wk_radicals": ["Rice", "Ladle"],
     "jlpt": 4
   },
   {
@@ -2477,11 +1893,7 @@
     "meanings": ["Reflect", "Reflection", "Projection"],
     "on": ["えい"],
     "kun": ["うつ.る", "うつ.す", "は.える", "-ば.え"],
-    "wk_level": 13,
     "wk_meanings": ["Reflect", "^Reflection"],
-    "wk_on": ["えい"],
-    "wk_kun": ["!うつ", "!は"],
-    "wk_radicals": ["Sun", "Center"],
     "jlpt": 4
   },
   {
@@ -2492,11 +1904,7 @@
     "meanings": ["Private", "I", "Me"],
     "on": ["し"],
     "kun": ["わたくし", "わたし"],
-    "wk_level": 6,
     "wk_meanings": ["I", "^Private"],
-    "wk_on": ["し"],
-    "wk_kun": ["!わたし"],
-    "wk_radicals": ["Grain", "Private"],
     "jlpt": 4
   },
   {
@@ -2507,11 +1915,7 @@
     "meanings": ["Homecoming", "Arrive At", "Lead To", "Result In"],
     "on": ["き"],
     "kun": ["かえ.る", "かえ.す", "おく.る", "とつ.ぐ"],
-    "wk_level": 15,
     "wk_meanings": ["Return", "^Return Home"],
-    "wk_on": ["!き"],
-    "wk_kun": ["かえ"],
-    "wk_radicals": ["Knife", "Wolverine", "Forehead", "Towel"],
     "jlpt": 4
   },
   {
@@ -2522,11 +1926,7 @@
     "meanings": ["Springtime", "Spring (season)"],
     "on": ["しゅん"],
     "kun": ["はる"],
-    "wk_level": 15,
     "wk_meanings": ["Spring"],
-    "wk_on": ["!しゅん"],
-    "wk_kun": ["はる"],
-    "wk_radicals": ["Spring", "Sun"],
     "jlpt": 4
   },
   {
@@ -2537,11 +1937,7 @@
     "meanings": ["Daytime", "Noon"],
     "on": ["ちゅう"],
     "kun": ["ひる"],
-    "wk_level": 15,
     "wk_meanings": ["Noon"],
-    "wk_on": ["!ちゅう"],
-    "wk_kun": ["ひる"],
-    "wk_radicals": ["Shrimp", "Sun", "Ground"],
     "jlpt": 4
   },
   {
@@ -2552,11 +1948,7 @@
     "meanings": ["Autumn"],
     "on": ["しゅう"],
     "kun": ["あき", "とき"],
-    "wk_level": 15,
     "wk_meanings": ["Autumn", "^Fall"],
-    "wk_on": [],
-    "wk_kun": ["あき"],
-    "wk_radicals": ["Grain", "Fire"],
     "jlpt": 4
   },
   {
@@ -2567,11 +1959,7 @@
     "meanings": ["Plot", "Plan", "Scheme", "Measure"],
     "on": ["けい"],
     "kun": ["はか.る", "はか.らう"],
-    "wk_level": 15,
     "wk_meanings": ["Measure", "^Measurement"],
-    "wk_on": ["けい"],
-    "wk_kun": ["!はか"],
-    "wk_radicals": ["Say", "Cross"],
     "jlpt": 4
   },
   {
@@ -2582,11 +1970,7 @@
     "meanings": ["Build"],
     "on": ["けん", "こん"],
     "kun": ["た.てる", "た.て", "-だ.て", "た.つ"],
-    "wk_level": 15,
     "wk_meanings": ["Build", "^Construct"],
-    "wk_on": ["けん"],
-    "wk_kun": ["!た"],
-    "wk_radicals": ["Yoga", "Brush"],
     "jlpt": 4
   },
   {
@@ -2597,11 +1981,7 @@
     "meanings": ["England", "English", "Hero", "Outstanding", "Calyx"],
     "on": ["えい"],
     "kun": ["はなぶさ"],
-    "wk_level": 15,
     "wk_meanings": ["England", "^English"],
-    "wk_on": ["えい"],
-    "wk_kun": [],
-    "wk_radicals": ["Flowers", "Center"],
     "jlpt": 4
   },
   {
@@ -2612,11 +1992,7 @@
     "meanings": ["Meal", "Boiled Rice"],
     "on": ["はん"],
     "kun": ["めし"],
-    "wk_level": 15,
     "wk_meanings": ["Meal", "^Food"],
-    "wk_on": ["はん"],
-    "wk_kun": ["!めし"],
-    "wk_radicals": ["Eat", "Anti"],
     "jlpt": 4
   },
   {
@@ -2627,11 +2003,7 @@
     "meanings": ["Weekday"],
     "on": ["よう"],
     "kun": [],
-    "wk_level": 16,
     "wk_meanings": ["Weekday", "^Day Of The Week"],
-    "wk_on": ["よう"],
-    "wk_kun": [],
-    "wk_radicals": ["Sun", "Wolverine", "Turkey"],
     "jlpt": 4
   },
   {
@@ -2648,11 +2020,7 @@
     ],
     "on": ["ひん", "ほん"],
     "kun": ["しな"],
-    "wk_level": 16,
     "wk_meanings": ["Product", "^Article", "^Goods", "^Products"],
-    "wk_on": ["ひん"],
-    "wk_kun": ["!しな"],
-    "wk_radicals": ["Products"],
     "jlpt": 4
   },
   {
@@ -2663,11 +2031,7 @@
     "meanings": ["Hurry", "Emergency", "Sudden", "Steep"],
     "on": ["きゅう"],
     "kun": ["いそ.ぐ", "いそ.ぎ", "せ.く"],
-    "wk_level": 16,
     "wk_meanings": ["Hurry"],
-    "wk_on": ["きゅう"],
-    "wk_kun": ["!いそ"],
-    "wk_radicals": ["Prison", "Wolverine", "Heart"],
     "jlpt": 4
   },
   {
@@ -2678,11 +2042,7 @@
     "meanings": ["True", "Reality", "Buddhist Sect"],
     "on": ["しん"],
     "kun": ["ま", "ま-", "まこと"],
-    "wk_level": 16,
     "wk_meanings": ["Reality"],
-    "wk_on": ["しん"],
-    "wk_kun": ["!ま"],
-    "wk_radicals": ["Pope", "Ground", "Fins"],
     "jlpt": 4
   },
   {
@@ -2693,11 +2053,7 @@
     "meanings": ["Public Chamber", "Hall"],
     "on": ["どう"],
     "kun": [],
-    "wk_level": 17,
     "wk_meanings": ["Hall", "^Public Chamber"],
-    "wk_on": ["どう"],
-    "wk_kun": [],
-    "wk_radicals": ["Viking", "Mouth", "Dirt"],
     "jlpt": 4
   },
   {
@@ -2708,11 +2064,7 @@
     "meanings": ["Test", "Try", "Attempt", "Experiment", "Ordeal"],
     "on": ["し"],
     "kun": ["こころ.みる", "ため.す"],
-    "wk_level": 9,
     "wk_meanings": ["Try", "^Attempt"],
-    "wk_on": ["し"],
-    "wk_kun": ["!こころ", "!ため"],
-    "wk_radicals": ["Say", "Ceremony", "Construction"],
     "jlpt": 4
   },
   {
@@ -2723,11 +2075,7 @@
     "meanings": ["Borrow", "Rent"],
     "on": ["しゃく"],
     "kun": ["か.りる"],
-    "wk_level": 18,
     "wk_meanings": ["Borrow"],
-    "wk_on": ["しゃく"],
-    "wk_kun": ["!か"],
-    "wk_radicals": ["Leader", "Long Ago"],
     "jlpt": 4
   },
   {
@@ -2738,11 +2086,7 @@
     "meanings": ["Verification", "Effect", "Testing"],
     "on": ["けん", "げん"],
     "kun": ["あかし", "しるし", "ため.す", "ためし"],
-    "wk_level": 9,
     "wk_meanings": ["Test"],
-    "wk_on": ["けん"],
-    "wk_kun": ["!ため", "!ためし"],
-    "wk_radicals": ["Horse", "Squid"],
     "jlpt": 4
   },
   {
@@ -2753,11 +2097,7 @@
     "meanings": ["Substance", "Quality", "Matter", "Temperament"],
     "on": ["しつ", "しち", "ち"],
     "kun": ["たち", "ただ.す", "もと", "わりふ"],
-    "wk_level": 24,
     "wk_meanings": ["Quality"],
-    "wk_on": ["しつ", "^しち"],
-    "wk_kun": [],
-    "wk_radicals": ["Axe", "Shellfish"],
     "jlpt": 4
   },
   {
@@ -2768,11 +2108,7 @@
     "meanings": ["Lend"],
     "on": ["たい"],
     "kun": ["か.す", "か.し-", "かし-"],
-    "wk_level": 27,
     "wk_meanings": ["Lend"],
-    "wk_on": ["!たい"],
-    "wk_kun": ["か"],
-    "wk_radicals": ["Substitute", "Shellfish"],
     "jlpt": 4
   }
 ]
