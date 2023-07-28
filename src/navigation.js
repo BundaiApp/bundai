@@ -8,6 +8,7 @@ import HomeScreen from './screens/home.screen'
 import KanjiDetailScreen from './screens/kanjiDetails.screen'
 import KanjiScreen from './screens/kanji.screen'
 import ExamScreen from './screens/exam.screen'
+import KanjiTemplateScreen from './screens/kanjiTemplate.screen'
 
 export default function Navigator() {
   const Stack = createStackNavigator()
@@ -15,10 +16,14 @@ export default function Navigator() {
 
   function HomeStack() {
     return (
-      <Stack.Navigator>
+      <Stack.Navigator
+        screenOptions={{
+          headerShown: false
+        }}>
         <Stack.Screen name="Home" component={HomeScreen} />
         <Stack.Screen name="KanjiDetail" component={KanjiDetailScreen} />
         <Stack.Screen name="JlptKanji" component={KanjiScreen} />
+        <Stack.Screen name="KanjiTemplate" component={KanjiTemplateScreen} />
       </Stack.Navigator>
     )
   }

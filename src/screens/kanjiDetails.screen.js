@@ -5,18 +5,15 @@ import {
   TouchableOpacity,
   StyleSheet,
   ScrollView,
-  FlatList
+  FlatList,
+  SafeAreaView
 } from 'react-native'
 
 export default function KanjiDetail({ navigation: { navigate }, route }) {
   const { kanjiName, meanings, kun, on } = route.params.paramsData
 
-  // useEffect(() => {
-  //   console.log(route.params.paramsData)
-  // }, [])
-
   return (
-    <View style={styles.container}>
+    <SafeAreaView style={styles.container}>
       <View style={styles.headerHolder}>
         <Text style={styles.header}>{kanjiName}</Text>
         {meanings.map(item => (
@@ -33,7 +30,7 @@ export default function KanjiDetail({ navigation: { navigate }, route }) {
           <Text style={styles.text}>{item}</Text>
         ))}
       </View>
-    </View>
+    </SafeAreaView>
   )
 }
 
