@@ -43,7 +43,9 @@ export default function Home({ navigation: { navigate } }) {
           {new Array(5).fill(1).map((i, index) => (
             <TouchableOpacity
               style={styles.smallBlock}
-              onPress={() => navigate('JlptKanji')}>
+              onPress={() =>
+                navigate('KanjiTemplate', { paramsData: 5 - index })
+              }>
               <Text style={styles.h3}>JLPT {5 - index}</Text>
             </TouchableOpacity>
           ))}
