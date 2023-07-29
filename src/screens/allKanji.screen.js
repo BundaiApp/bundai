@@ -31,9 +31,10 @@ const YourComponent = ({ navigation: { navigate }, route }) => {
       for (let i = 5; i >= 1; i--) {
         const jlptLevel = i.toString()
         if (data[jlptLevel] && data[jlptLevel].length > 0) {
+          const chunkedData = chunkArray(data[jlptLevel], columns)
           sections.push({
             title: `JLPT${jlptLevel}`,
-            data: data[jlptLevel]
+            data: chunkedData
           })
         }
       }
@@ -41,9 +42,10 @@ const YourComponent = ({ navigation: { navigate }, route }) => {
       for (let i = 1; i <= Object.keys(data).length; i++) {
         const strokesCount = i.toString()
         if (data[strokesCount] && data[strokesCount].length > 0) {
+          const chunkedData = chunkArray(data[strokesCount], columns)
           sections.push({
             title: `Strokes Count ${strokesCount}`,
-            data: data[strokesCount]
+            data: chunkedData
           })
         }
       }
@@ -52,21 +54,36 @@ const YourComponent = ({ navigation: { navigate }, route }) => {
     return sections
   }
 
+  const chunkArray = (array, chunkSize) => {
+    const chunkedArray = []
+    let index = 0
+    while (index < array.length) {
+      chunkedArray.push(array.slice(index, index + chunkSize))
+      index += chunkSize
+    }
+    return chunkedArray
+  }
+
   const data = combineDataWithSections(strokes ? StrokesData : JlptData)
 
   const renderItem = ({ item }) => (
-    <TouchableOpacity
-      style={styles.block}
-      onPress={() => navigate('KanjiDetail', { paramsData: item })}>
-      <Text style={styles.kanjiText}>{item.kanjiName}</Text>
-    </TouchableOpacity>
+    <View style={styles.row}>
+      {item.map((kanjiItem, index) => (
+        <TouchableOpacity
+          key={index}
+          style={styles.block}
+          onPress={() => navigate('KanjiDetail', { paramsData: kanjiItem })}>
+          <Text style={styles.kanjiText}>{kanjiItem.kanjiName}</Text>
+        </TouchableOpacity>
+      ))}
+    </View>
   )
 
   const renderSectionHeader = ({ section }) => (
     <SectionHeader title={section.title} />
   )
 
-  const keyExtractor = (item, index) => `${item.kanjiName}_${index}`
+  const keyExtractor = (item, index) => `item_${index}`
 
   return (
     <SectionList
@@ -74,7 +91,6 @@ const YourComponent = ({ navigation: { navigate }, route }) => {
       renderItem={renderItem}
       renderSectionHeader={renderSectionHeader}
       keyExtractor={keyExtractor}
-      numColumns={columns}
       ItemSeparatorComponent={Separator}
       style={styles.sectionList} // background color of the SectionList
     />
@@ -97,6 +113,10 @@ const styles = StyleSheet.create({
   },
   separator: {
     height: hp('1%')
+  },
+  row: {
+    flexDirection: 'row',
+    justifyContent: 'space-between'
   },
   block: {
     flex: 1,
