@@ -2,7 +2,7 @@ import React from 'react'
 import {
   View,
   Text,
-  FlatList,
+  SectionList,
   TouchableOpacity,
   StyleSheet
 } from 'react-native'
@@ -16,74 +16,103 @@ import StrokesData from '../util/strokesAll.json'
 
 const columns = 5 // Number of columns you want
 
-const SectionHeader = ({ strokesCount }) => (
-  <View style={styles.sectionHeaderWrapper}>
-    <View style={styles.sectionHeader}>
-      <Text style={styles.sectionHeaderText}>
-        {strokesCount} Stroke{strokesCount === 1 ? null : 's'}{' '}
-      </Text>
-    </View>
-  </View>
+const SectionHeader = ({ title }) => (
+  <Text style={styles.sectionHeaderText}>{title}</Text>
 )
 
-function AllKanji() {
-  return (
-    <FlatList
-      data={Object.keys(StrokesData)}
-      renderItem={({ item }) => (
-        <View style={styles.basicRow}>
-          <SectionHeader strokesCount={item} />
+const Separator = () => <View style={styles.separator} />
 
-          {StrokesData[item].map(i => (
-            <TouchableOpacity
-              style={styles.block}
-              onPress={() => navigate('KanjiDetail', { paramsData: item })}>
-              <Text style={styles.kanjiText}>{i.kanjiName}</Text>
-            </TouchableOpacity>
-          ))}
-        </View>
-      )}
+const YourComponent = ({ navigation: { navigate }, route }) => {
+  const { strokes, jlpt } = route.params
+
+  const combineDataWithSections = data => {
+    const sections = []
+    if (jlpt) {
+      for (let i = 5; i >= 1; i--) {
+        const jlptLevel = i.toString()
+        if (data[jlptLevel] && data[jlptLevel].length > 0) {
+          sections.push({
+            title: `JLPT${jlptLevel}`,
+            data: data[jlptLevel]
+          })
+        }
+      }
+    } else {
+      for (let i = 1; i <= Object.keys(data).length; i++) {
+        const strokesCount = i.toString()
+        if (data[strokesCount] && data[strokesCount].length > 0) {
+          sections.push({
+            title: `Strokes Count ${strokesCount}`,
+            data: data[strokesCount]
+          })
+        }
+      }
+    }
+
+    return sections
+  }
+
+  const data = combineDataWithSections(strokes ? StrokesData : JlptData)
+
+  const renderItem = ({ item }) => (
+    <TouchableOpacity
+      style={styles.block}
+      onPress={() => navigate('KanjiDetail', { paramsData: item })}>
+      <Text style={styles.kanjiText}>{item.kanjiName}</Text>
+    </TouchableOpacity>
+  )
+
+  const renderSectionHeader = ({ section }) => (
+    <SectionHeader title={section.title} />
+  )
+
+  const keyExtractor = (item, index) => `${item.kanjiName}_${index}`
+
+  return (
+    <SectionList
+      sections={data}
+      renderItem={renderItem}
+      renderSectionHeader={renderSectionHeader}
+      keyExtractor={keyExtractor}
+      numColumns={columns}
+      ItemSeparatorComponent={Separator}
+      style={styles.sectionList} // background color of the SectionList
     />
   )
 }
 
 const styles = StyleSheet.create({
-  sectionHeaderWrapper: {
-    width: '100%', // Take up the full width of the FlatList
-    backgroundColor: 'white'
-  },
-  sectionHeader: {
-    paddingHorizontal: hp('1%'),
-    paddingVertical: hp('2.5%'),
-    justifyContent: 'center'
+  sectionList: {
+    backgroundColor: 'white',
+    paddingBottom: hp('5%'),
+    paddingHorizontal: wp('3%') // Adjust horizontal padding to control the space between items
   },
   sectionHeaderText: {
     width: '100%',
     fontWeight: 'bold',
-    fontSize: 18
+    fontSize: 18,
+    paddingVertical: hp('2.5%'),
+    paddingHorizontal: hp('1%'),
+    backgroundColor: 'white'
+  },
+  separator: {
+    height: hp('1%')
   },
   block: {
-    width: wp('12%'),
-    height: wp('12%'),
+    flex: 1,
+    margin: wp('1%'), // Adjust the margin to control the space between items
+    padding: 10,
     alignItems: 'center',
     justifyContent: 'center',
     borderWidth: 3,
     borderColor: 'black',
-    borderRadius: wp('3%'),
-    margin: wp('1%'),
-    // Adjust the margin to control the space between items
     backgroundColor: 'khaki',
-    marginBottom: '1%'
+    borderRadius: wp('3%')
   },
   kanjiText: {
     fontSize: 30,
     fontWeight: '500'
-  },
-  basicRow: {
-    flexDirection: 'row',
-    flexWrap: true,
-    backgroundColor: 'silver'
   }
 })
 
-export default AllKanji
+export default YourComponent
