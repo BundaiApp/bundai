@@ -6,7 +6,7 @@ import { Icon } from 'react-native-elements'
 
 import HomeScreen from './screens/home.screen'
 import KanjiDetailScreen from './screens/kanjiDetails.screen'
-import KanjiScreen from './screens/kanji.screen'
+import KanjiScreen from './screens/allKanji.screen'
 import ExamScreen from './screens/exam.screen'
 import KanjiTemplateScreen from './screens/kanjiTemplate.screen'
 

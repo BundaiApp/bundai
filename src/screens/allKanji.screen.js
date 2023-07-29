@@ -11,11 +11,7 @@ import {
   heightPercentageToDP as hp
 } from 'react-native-responsive-screen'
 
-import Kanji5 from '../util/jlpt5.json'
-import Kanji4 from '../util/jlpt4.json'
-import Kanji3 from '../util/jlpt3.json'
-import Kanji2 from '../util/jlpt2.json'
-import Kanji1 from '../util/jlpt1.json'
+import KanjiData from '../util/jlptAll.json'
 
 const columns = 5 // Number of columns you want
 
@@ -31,17 +27,19 @@ const Separator = () => <View style={styles.separator} />
 
 const YourComponent = ({ navigation: { navigate } }) => {
   const combineDataWithSections = data => {
-    let combinedData = []
-    data.forEach((sectionData, index) => {
-      combinedData.push({ section: `JLPT${5 - index}`, isHeader: true })
-      combinedData = combinedData.concat(
-        sectionData.map(item => ({ ...item, isHeader: false }))
-      )
-    })
+    const combinedData = []
+    Object.entries(data)
+      .reverse()
+      .forEach(([jlptLevel, kanjiArray]) => {
+        combinedData.push({ section: `JLPT${jlptLevel}`, isHeader: true })
+        combinedData.push(
+          ...kanjiArray.map(item => ({ ...item, isHeader: false }))
+        )
+      })
     return combinedData
   }
 
-  const data = combineDataWithSections([Kanji5, Kanji4, Kanji3, Kanji2, Kanji1])
+  const data = combineDataWithSections(KanjiData)
 
   const renderItem = ({ item }) => {
     if (item.isHeader) {
