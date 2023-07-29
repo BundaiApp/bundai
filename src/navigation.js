@@ -6,7 +6,7 @@ import { Icon } from 'react-native-elements'
 
 import HomeScreen from './screens/home.screen'
 import KanjiDetailScreen from './screens/kanjiDetails.screen'
-import KanjiScreen from './screens/allKanji.screen'
+import AllKanji from './screens/allKanji.screen'
 import ExamScreen from './screens/exam.screen'
 import KanjiTemplateScreen from './screens/kanjiTemplate.screen'
 
@@ -19,7 +19,7 @@ export default function Navigator() {
       <Stack.Navigator>
         <Stack.Screen name="Home" component={HomeScreen} />
         <Stack.Screen name="KanjiDetail" component={KanjiDetailScreen} />
-        <Stack.Screen name="JlptKanji" component={KanjiScreen} />
+        <Stack.Screen name="AllKanji" component={AllKanji} />
         <Stack.Screen name="KanjiTemplate" component={KanjiTemplateScreen} />
       </Stack.Navigator>
     )

@@ -17,7 +17,11 @@ import StrokesData from '../util/strokesAll.json'
 const columns = 5 // Number of columns you want
 
 const SectionHeader = ({ title }) => (
-  <Text style={styles.sectionHeaderText}>{title}</Text>
+  <View style={styles.sectionHeaderWrapper}>
+    <View style={styles.sectionHeader}>
+      <Text style={styles.sectionHeaderText}>{title}</Text>
+    </View>
+  </View>
 )
 
 const Separator = () => <View style={styles.separator} />
@@ -28,27 +32,41 @@ const YourComponent = ({ navigation: { navigate }, route }) => {
   const combineDataWithSections = data => {
     const combinedData = []
     if (jlpt) {
-      Object.entries(data)
-        .reverse()
-        .forEach(([jlptLevel, kanjiArray]) => {
+      for (let i = 5; i >= 1; i--) {
+        const jlptLevel = i.toString()
+        if (data[jlptLevel]) {
           combinedData.push({
             section: `JLPT${jlptLevel}`,
             isHeader: true
           })
           combinedData.push(
-            ...kanjiArray.map(item => ({ ...item, isHeader: false }))
+            ...data[jlptLevel].map(item => ({ ...item, isHeader: false }))
           )
-        })
+        } else {
+          combinedData.push({
+            section: `JLPT${jlptLevel}`,
+            isHeader: true
+          })
+        }
+      }
     } else {
-      Object.entries(data).forEach(([strokes, kanjiArray]) => {
-        combinedData.push({
-          section: `Strokes Count ${strokes}`,
-          isHeader: true
-        })
-        combinedData.push(
-          ...kanjiArray.map(item => ({ ...item, isHeader: false }))
-        )
-      })
+      for (let i = 1; i <= Object.keys(data).length; i++) {
+        const strokesCount = i.toString()
+        if (data[strokesCount]) {
+          combinedData.push({
+            section: `Strokes Count ${strokesCount}`,
+            isHeader: true
+          })
+          combinedData.push(
+            ...data[strokesCount].map(item => ({ ...item, isHeader: false }))
+          )
+        } else {
+          combinedData.push({
+            section: `Strokes Count ${strokesCount}`,
+            isHeader: true
+          })
+        }
+      }
     }
     return combinedData
   }
@@ -72,22 +90,28 @@ const YourComponent = ({ navigation: { navigate }, route }) => {
   const keyExtractor = (item, index) => `${item.kanjiName}_${index}`
 
   return (
-    <FlatList
-      data={data}
-      renderItem={renderItem}
-      keyExtractor={keyExtractor}
-      numColumns={columns}
-      ItemSeparatorComponent={Separator}
-      style={styles.flatList} // background color of the FlatList
-      contentContainerStyle={styles.flatListContent} // background color of the content
-    />
+    <View style={styles.container}>
+      <FlatList
+        data={data}
+        renderItem={renderItem}
+        keyExtractor={keyExtractor}
+        numColumns={columns}
+        ItemSeparatorComponent={Separator}
+        style={styles.flatList} // background color of the FlatList
+        contentContainerStyle={styles.flatListContent} // background color of the content
+      />
+    </View>
   )
 }
 
 const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: 'white',
+    paddingHorizontal: wp('3%') // Adjust horizontal padding to control the space between items
+  },
   sectionHeaderWrapper: {
-    height: hp('2%'),
-    width: '90%' // Take up the full width of the FlatList
+    width: '100%' // Take up the full width of the FlatList
   },
   sectionHeader: {
     paddingHorizontal: hp('1%'),
@@ -96,9 +120,7 @@ const styles = StyleSheet.create({
     backgroundColor: 'white'
   },
   flatListContent: {
-    backgroundColor: 'white',
-    paddingBottom: hp('5%'),
-    paddingHorizontal: wp('3%') // Adjust horizontal padding to control the space between items
+    paddingBottom: hp('5%')
   },
   flatList: {
     backgroundColor: 'white'
@@ -113,14 +135,14 @@ const styles = StyleSheet.create({
   },
   block: {
     flex: 1,
-    margin: wp('1%'), // Adjust the margin to control the space between items
-    padding: 10,
+    aspectRatio: 1, // Maintain a square shape for the blocks
     alignItems: 'center',
     justifyContent: 'center',
     borderWidth: 3,
     borderColor: 'black',
     backgroundColor: 'white',
-    borderRadius: wp('3%')
+    borderRadius: wp('3%'),
+    margin: wp('1%') // Adjust the margin to control the space between items
   },
   kanjiText: {
     fontSize: 30,
