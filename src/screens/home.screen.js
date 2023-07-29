@@ -65,7 +65,9 @@ export default function Home({ navigation: { navigate } }) {
                   styles.smallBlock,
                   { backgroundColor: 'khaki', width: '22%' }
                 ]}
-                onPress={() => navigate('JlptKanji')}>
+                onPress={() =>
+                  navigate('AllKanji', { jlpt: true, strokes: false })
+                }>
                 <Text style={styles.h3}>All Kanji</Text>
               </TouchableOpacity>
             </>
@@ -91,7 +93,9 @@ export default function Home({ navigation: { navigate } }) {
                   styles.smallBlock,
                   { backgroundColor: 'tan', width: '22%' }
                 ]}
-                onPress={() => navigate('JlptKanji')}>
+                onPress={() =>
+                  navigate('AllKanji', { strokes: true, jlpt: false })
+                }>
                 <Text style={styles.h3}>All Kanji</Text>
               </TouchableOpacity>
             </>

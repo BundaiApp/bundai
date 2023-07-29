@@ -8,8 +8,6 @@ import {
   FlatList
 } from 'react-native'
 
-import Kanji5 from '../util/jlpt5.json'
-
 export default function Exam({ navigation: { navigate } }) {
   return (
     <View style={styles.container}>

@@ -11,35 +11,49 @@ import {
   heightPercentageToDP as hp
 } from 'react-native-responsive-screen'
 
-import KanjiData from '../util/jlptAll.json'
+import JlptData from '../util/jlptAll.json'
+import StrokesData from '../util/strokesAll.json'
 
 const columns = 5 // Number of columns you want
 
 const SectionHeader = ({ title }) => (
-  <View style={styles.sectionHeaderWrapper}>
-    <View style={styles.sectionHeader}>
-      <Text style={styles.sectionHeaderText}>{title}</Text>
-    </View>
-  </View>
+  <Text style={styles.sectionHeaderText}>{title}</Text>
 )
 
 const Separator = () => <View style={styles.separator} />
 
-const YourComponent = ({ navigation: { navigate } }) => {
+const YourComponent = ({ navigation: { navigate }, route }) => {
+  const { strokes, jlpt } = route.params
+
   const combineDataWithSections = data => {
     const combinedData = []
-    Object.entries(data)
-      .reverse()
-      .forEach(([jlptLevel, kanjiArray]) => {
-        combinedData.push({ section: `JLPT${jlptLevel}`, isHeader: true })
+    if (jlpt) {
+      Object.entries(data)
+        .reverse()
+        .forEach(([jlptLevel, kanjiArray]) => {
+          combinedData.push({
+            section: `JLPT${jlptLevel}`,
+            isHeader: true
+          })
+          combinedData.push(
+            ...kanjiArray.map(item => ({ ...item, isHeader: false }))
+          )
+        })
+    } else {
+      Object.entries(data).forEach(([strokes, kanjiArray]) => {
+        combinedData.push({
+          section: `Strokes Count ${strokes}`,
+          isHeader: true
+        })
         combinedData.push(
           ...kanjiArray.map(item => ({ ...item, isHeader: false }))
         )
       })
+    }
     return combinedData
   }
 
-  const data = combineDataWithSections(KanjiData)
+  const data = combineDataWithSections(strokes ? StrokesData : JlptData)
 
   const renderItem = ({ item }) => {
     if (item.isHeader) {
@@ -72,7 +86,8 @@ const YourComponent = ({ navigation: { navigate } }) => {
 
 const styles = StyleSheet.create({
   sectionHeaderWrapper: {
-    width: '100%' // Take up the full width of the FlatList
+    height: hp('2%'),
+    width: '90%' // Take up the full width of the FlatList
   },
   sectionHeader: {
     paddingHorizontal: hp('1%'),
@@ -80,15 +95,16 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     backgroundColor: 'white'
   },
-  // background color of the content
   flatListContent: {
-    backgroundColor: 'white'
+    backgroundColor: 'white',
+    paddingBottom: hp('5%'),
+    paddingHorizontal: wp('3%') // Adjust horizontal padding to control the space between items
   },
-  // background color of the FlatList
   flatList: {
     backgroundColor: 'white'
   },
   sectionHeaderText: {
+    width: '100%',
     fontWeight: 'bold',
     fontSize: 18
   },
@@ -97,7 +113,7 @@ const styles = StyleSheet.create({
   },
   block: {
     flex: 1,
-    margin: wp('1%'),
+    margin: wp('1%'), // Adjust the margin to control the space between items
     padding: 10,
     alignItems: 'center',
     justifyContent: 'center',
