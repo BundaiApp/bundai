@@ -184,8 +184,7 @@ const styles = StyleSheet.create({
   jlptRow: {
     flexDirection: 'row',
     justifyContent: 'space-between',
-    //    backgroundColor: 'green',
-    flexWrap: true
+    flexWrap: 'wrap'
   },
   smallBlock: {
     backgroundColor: 'gold',

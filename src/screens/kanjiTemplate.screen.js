@@ -23,10 +23,8 @@ function TemplateKanji({ navigation: { navigate }, route }) {
   useEffect(() => {
     if (!jlptLevel) {
       setArr(StrokesKanji[strokes])
-      console.log('strokes')
     } else {
       setArr(JlptKanji[jlptLevel])
-      console.log('jlpt')
     }
   }, [jlptLevel, strokes])
 
@@ -84,7 +82,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     borderWidth: 3,
     borderColor: 'black',
-    backgroundColor: 'white',
+    backgroundColor: 'khaki',
     borderRadius: wp('3%')
   },
   kanjiText: {
