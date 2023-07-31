@@ -22,7 +22,7 @@ const SectionHeader = ({ title }) => (
 
 const Separator = () => <View style={styles.separator} />
 
-const YourComponent = ({ navigation: { navigate }, route }) => {
+const AllKanjiComponent = ({ navigation: { navigate }, route }) => {
   const { strokes, jlpt } = route.params
 
   const combineDataWithSections = data => {
@@ -135,4 +135,4 @@ const styles = StyleSheet.create({
   }
 })
 
-export default YourComponent
+export default AllKanjiComponent
