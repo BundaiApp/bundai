@@ -13,6 +13,30 @@ import {
   heightPercentageToDP as hp
 } from 'react-native-responsive-screen'
 
+const SmallBlock = ({ handlePress, blockHeader, sub }) => (
+  <TouchableOpacity
+    style={blockHeader === 'JLPT' ? styles.jlptBlock : styles.strokeBlock}
+    onPress={handlePress}>
+    <Text style={styles.h2}>{blockHeader}</Text>
+    <Text style={styles.h5}>{sub}</Text>
+  </TouchableOpacity>
+)
+
+const Pill = ({ index, handlePress, subject, level, isAll }) => (
+  <TouchableOpacity
+    key={index ?? '1'} // Add a key prop for the map function
+    style={isAll ? styles.pillTan : styles.pill}
+    onPress={handlePress}>
+    <Text style={styles.h3}>
+      {isAll ? 'All Kanji' : subject === 'jlpt' ? 'N' : null}
+      {isAll ? null : subject === 'jlpt' ? level - index : index + 1}
+    </Text>
+  </TouchableOpacity>
+)
+
+const VerticalSpacer = ({ height }) => <View style={{ height: `${height}%` }} />
+const HorizontalSpacer = ({ width }) => <View style={{ width: `${width}%` }} />
+
 export default function Home({ navigation: { navigate } }) {
   const [topic, setTopic] = useState()
 
@@ -23,81 +47,73 @@ export default function Home({ navigation: { navigate } }) {
         <Text style={styles.h3}>Japanese characters</Text>
         <Text style={styles.h4}>With meanings & pronunciations</Text>
 
-        <View style={styles.spacerH2} />
+        <VerticalSpacer height={3} />
 
         <View style={styles.basicRow}>
-          <TouchableOpacity
-            style={styles.jlptBlock}
-            onPress={() => setTopic('jlpt')}>
-            <Text style={styles.h2}>JLPT</Text>
-            <Text style={styles.h5}>N1-N5</Text>
-          </TouchableOpacity>
-          <View style={styles.spacerH} />
-          <TouchableOpacity
-            style={styles.strokeBlock}
-            onPress={() => setTopic('strokes')}>
-            <Text style={styles.h2}>Strokes</Text>
-            <Text style={styles.h5}>1-24</Text>
-          </TouchableOpacity>
+          <SmallBlock
+            handlePress={() => setTopic('jlpt')}
+            blockHeader={'JLPT'}
+            sub={'N1-N5'}
+          />
+          <HorizontalSpacer width={5} />
+          <SmallBlock
+            handlePress={() => setTopic('strokes')}
+            blockHeader={'Strokes'}
+            sub={'1-24'}
+          />
         </View>
 
-        <View style={styles.spacerV} />
-        <View style={styles.spacerV} />
+        <VerticalSpacer height={5} />
 
         <View style={styles.jlptRow}>
           {topic === 'jlpt' ? (
             <>
               {new Array(5).fill(1).map((i, index) => (
-                <TouchableOpacity
-                  key={index} // Add a key prop for the map function
-                  style={styles.smallBlock}
-                  onPress={() =>
+                <Pill
+                  index={index}
+                  level={5}
+                  subject={'jlpt'}
+                  isAll={false}
+                  handlePress={() =>
                     navigate('KanjiTemplate', {
                       jlptLevel: 5 - index,
                       strokes: false
                     })
-                  }>
-                  <Text style={styles.h3}>JLPT {5 - index}</Text>
-                </TouchableOpacity>
+                  }
+                />
               ))}
-              <TouchableOpacity
-                style={[
-                  styles.smallBlock,
-                  { backgroundColor: 'khaki', width: '22%' }
-                ]}
-                onPress={() =>
+              <Pill
+                subject={'jlpt'}
+                isAll={true}
+                handlePress={() =>
                   navigate('AllKanji', { jlpt: true, strokes: false })
-                }>
-                <Text style={styles.h3}>All Kanji</Text>
-              </TouchableOpacity>
+                }
+              />
             </>
           ) : null}
 
           {topic === 'strokes' ? (
             <>
               {new Array(24).fill(1).map((i, index) => (
-                <TouchableOpacity
-                  key={index} // Add a key prop for the map function
-                  style={[styles.smallBlock, { backgroundColor: 'tan' }]}
-                  onPress={() =>
+                <Pill
+                  subject={'strokes'}
+                  isAll={false}
+                  index={index}
+                  handlePress={() =>
                     navigate('KanjiTemplate', {
                       jlptLevel: false,
                       strokes: index + 1
                     })
-                  }>
-                  <Text style={styles.h3}>{index + 1}</Text>
-                </TouchableOpacity>
+                  }
+                />
               ))}
-              <TouchableOpacity
-                style={[
-                  styles.smallBlock,
-                  { backgroundColor: 'tan', width: '22%' }
-                ]}
-                onPress={() =>
+              <Pill
+                subject={'strokes'}
+                isAll={true}
+                handlePress={() =>
                   navigate('AllKanji', { strokes: true, jlpt: false })
-                }>
-                <Text style={styles.h3}>All Kanji</Text>
-              </TouchableOpacity>
+                }
+              />
             </>
           ) : null}
         </View>
@@ -168,14 +184,6 @@ const styles = StyleSheet.create({
     fontFamily: 'menlo',
     color: 'dimgray'
   },
-  spacerH: {
-    width: '4%',
-    height: '1%'
-  },
-  spacerH2: {
-    width: '4%',
-    height: '3%'
-  },
   basicRow: {
     flexDirection: 'row',
     justifyContent: 'center',
@@ -186,7 +194,7 @@ const styles = StyleSheet.create({
     justifyContent: 'space-between',
     flexWrap: 'wrap'
   },
-  smallBlock: {
+  pill: {
     backgroundColor: 'gold',
     borderRadius: 10,
     width: '18%',
@@ -196,8 +204,14 @@ const styles = StyleSheet.create({
     marginRight: '2%',
     marginBottom: '2%'
   },
-
-  spacerV: {
-    height: '2%'
+  pillTan: {
+    backgroundColor: 'tan',
+    borderRadius: 10,
+    width: '22%',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    paddingVertical: hp('1%'),
+    marginRight: '2%',
+    marginBottom: '2%'
   }
 })
