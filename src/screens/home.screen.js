@@ -46,7 +46,7 @@ const Pill = ({ index, handlePress, subject, level, isAll }) => (
     onPress={handlePress}>
     <Text style={styles.subtitleText}>
       {isAll ? 'All' : subject === 'JLPT' ? 'N' : null}
-      {isAll ? null : subject === 'jlpt' ? level - index : index + 1}
+      {isAll ? null : subject === 'JLPT' ? level - index : index + 1}
     </Text>
   </TouchableOpacity>
 )
