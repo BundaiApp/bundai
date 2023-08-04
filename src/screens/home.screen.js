@@ -244,15 +244,5 @@ const styles = StyleSheet.create({
     paddingVertical: hp('1%'),
     marginRight: '2%',
     marginBottom: '2%'
-  },
-  pillTan: {
-    backgroundColor: 'tan',
-    borderRadius: 10,
-    width: '22%',
-    justifyContent: 'space-between',
-    alignItems: 'center',
-    paddingVertical: hp('1%'),
-    marginRight: '2%',
-    marginBottom: '2%'
   }
 })
