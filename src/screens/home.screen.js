@@ -13,12 +13,26 @@ import {
   heightPercentageToDP as hp
 } from 'react-native-responsive-screen'
 
+const whichColor = blockHeader => {
+  switch (blockHeader) {
+    case 'Stroke':
+      return 'tan'
+      break
+    case 'JLPT':
+      return 'gold'
+      break
+    case 'Grade':
+      return 'moccasin'
+      break
+    default:
+      return 'plum'
+      break
+  }
+}
+
 const SmallBlock = ({ handlePress, blockHeader, sub }) => (
   <TouchableOpacity
-    style={[
-      styles.jlptBlock,
-      { backgroundColor: blockHeader === 'strokes' ? 'khaki' : 'gold' }
-    ]}
+    style={[styles.jlptBlock, { backgroundColor: whichColor(blockHeader) }]}
     onPress={handlePress}>
     <Text style={styles.headerMedium}>{blockHeader}</Text>
     <Text style={styles.subtitleText}>{sub}</Text>
@@ -27,10 +41,10 @@ const SmallBlock = ({ handlePress, blockHeader, sub }) => (
 
 const Pill = ({ index, handlePress, subject, level, isAll }) => (
   <TouchableOpacity
-    style={isAll ? styles.pillTan : styles.pill}
+    style={[styles.pill, { backgroundColor: whichColor(subject) }]}
     onPress={handlePress}>
-    <Text style={styles.h3}>
-      {isAll ? 'All Kanji' : subject === 'jlpt' ? 'N' : null}
+    <Text style={styles.subtitleText}>
+      {isAll ? 'All' : subject === 'JLPT' ? 'N' : null}
       {isAll ? null : subject === 'jlpt' ? level - index : index + 1}
     </Text>
   </TouchableOpacity>
@@ -63,7 +77,7 @@ export default function Home({ navigation: { navigate } }) {
             sub={'1-24'}
           />
           <SmallBlock
-            handlePress={() => setTopic('grade')}
+            handlePress={() => setTopic('grades')}
             blockHeader={'Grade'}
             sub={'1-9'}
           />
@@ -79,7 +93,7 @@ export default function Home({ navigation: { navigate } }) {
                   key={index}
                   index={index}
                   level={5}
-                  subject={'jlpt'}
+                  subject={'JLPT'}
                   isAll={false}
                   handlePress={() =>
                     navigate('KanjiTemplate', {
@@ -90,7 +104,7 @@ export default function Home({ navigation: { navigate } }) {
                 />
               ))}
               <Pill
-                subject={'jlpt'}
+                subject={'tan'}
                 isAll={true}
                 handlePress={() =>
                   navigate('AllKanji', { jlpt: true, strokes: false })
@@ -105,7 +119,7 @@ export default function Home({ navigation: { navigate } }) {
                 <Pill
                   key={index}
                   index={index}
-                  subject={'strokes'}
+                  subject={'Stroke'}
                   isAll={false}
                   handlePress={() =>
                     navigate('KanjiTemplate', {
@@ -116,10 +130,41 @@ export default function Home({ navigation: { navigate } }) {
                 />
               ))}
               <Pill
-                subject={'strokes'}
+                subject={'tan'}
                 isAll={true}
                 handlePress={() =>
                   navigate('AllKanji', { strokes: true, jlpt: false })
+                }
+              />
+            </>
+          ) : null}
+
+          {topic === 'grades' ? (
+            <>
+              {new Array(9).fill(1).map((i, index) => (
+                <Pill
+                  key={index}
+                  index={index}
+                  subject={'Grade'}
+                  isAll={false}
+                  handlePress={() =>
+                    navigate('KanjiTemplate', {
+                      jlptLevel: false,
+                      strokes: false,
+                      grades: index + 1
+                    })
+                  }
+                />
+              ))}
+              <Pill
+                subject={'tan'}
+                isAll={true}
+                handlePress={() =>
+                  navigate('AllKanji', {
+                    grades: true,
+                    strokes: false,
+                    jlpt: false
+                  })
                 }
               />
             </>
