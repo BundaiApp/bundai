@@ -15,16 +15,18 @@ import {
 
 const SmallBlock = ({ handlePress, blockHeader, sub }) => (
   <TouchableOpacity
-    style={blockHeader === 'JLPT' ? styles.jlptBlock : styles.strokeBlock}
+    style={[
+      styles.jlptBlock,
+      { backgroundColor: blockHeader === 'strokes' ? 'khaki' : 'gold' }
+    ]}
     onPress={handlePress}>
-    <Text style={styles.h2}>{blockHeader}</Text>
-    <Text style={styles.h5}>{sub}</Text>
+    <Text style={styles.headerMedium}>{blockHeader}</Text>
+    <Text style={styles.subtitleText}>{sub}</Text>
   </TouchableOpacity>
 )
 
 const Pill = ({ index, handlePress, subject, level, isAll }) => (
   <TouchableOpacity
-    key={index ?? '1'} // Add a key prop for the map function
     style={isAll ? styles.pillTan : styles.pill}
     onPress={handlePress}>
     <Text style={styles.h3}>
@@ -55,11 +57,15 @@ export default function Home({ navigation: { navigate } }) {
             blockHeader={'JLPT'}
             sub={'N1-N5'}
           />
-          <HorizontalSpacer width={5} />
           <SmallBlock
             handlePress={() => setTopic('strokes')}
-            blockHeader={'Strokes'}
+            blockHeader={'Stroke'}
             sub={'1-24'}
+          />
+          <SmallBlock
+            handlePress={() => setTopic('grade')}
+            blockHeader={'Grade'}
+            sub={'1-9'}
           />
         </View>
 
@@ -70,6 +76,7 @@ export default function Home({ navigation: { navigate } }) {
             <>
               {new Array(5).fill(1).map((i, index) => (
                 <Pill
+                  key={index}
                   index={index}
                   level={5}
                   subject={'jlpt'}
@@ -96,9 +103,10 @@ export default function Home({ navigation: { navigate } }) {
             <>
               {new Array(24).fill(1).map((i, index) => (
                 <Pill
+                  key={index}
+                  index={index}
                   subject={'strokes'}
                   isAll={false}
-                  index={index}
                   handlePress={() =>
                     navigate('KanjiTemplate', {
                       jlptLevel: false,
@@ -137,30 +145,19 @@ const styles = StyleSheet.create({
   },
   jlptBlock: {
     backgroundColor: 'gold',
-    borderRadius: 15,
-    width: '50%',
-    flexDirection: 'row',
-    justifyContent: 'space-between',
-    alignItems: 'center'
-  },
-  strokeBlock: {
-    backgroundColor: 'tan',
-    borderRadius: 15,
-    width: '50%',
-    flexDirection: 'row',
-    justifyContent: 'space-between',
-    alignItems: 'center'
+    borderRadius: 10,
+    width: '30%',
+    alignItems: 'center',
+    paddingVertical: '3%'
   },
   h1: {
     fontWeight: 'bold',
     fontSize: 20,
     alignSelf: 'flex-start'
   },
-  h2: {
+  headerMedium: {
     fontWeight: '400',
     fontSize: 18,
-    paddingVertical: '8%',
-    paddingHorizontal: '10%',
     fontFamily: 'menlo'
   },
   h3: {
@@ -177,8 +174,7 @@ const styles = StyleSheet.create({
     fontFamily: 'menlo',
     color: 'silver'
   },
-  h5: {
-    width: '30%',
+  subtitleText: {
     fontWeight: '300',
     fontSize: 12,
     fontFamily: 'menlo',
@@ -186,7 +182,7 @@ const styles = StyleSheet.create({
   },
   basicRow: {
     flexDirection: 'row',
-    justifyContent: 'center',
+    justifyContent: 'space-between',
     alignItems: 'center'
   },
   jlptRow: {
