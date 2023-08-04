@@ -53,6 +53,24 @@ const Pill = ({ index, handlePress, subject, level, isAll }) => (
 const VerticalSpacer = ({ height }) => <View style={{ height: `${height}%` }} />
 const HorizontalSpacer = ({ width }) => <View style={{ width: `${width}%` }} />
 
+const topics = [
+  {
+    topicName: 'jlpt',
+    header: 'JLPT',
+    subtitle: 'N1-N5'
+  },
+  {
+    topicName: 'strokes',
+    header: 'Stroke',
+    subtitle: '1-24'
+  },
+  {
+    topicName: 'grades',
+    header: 'Grade',
+    subtitle: '1-9'
+  }
+]
+
 export default function Home({ navigation: { navigate } }) {
   const [topic, setTopic] = useState()
 
@@ -66,21 +84,14 @@ export default function Home({ navigation: { navigate } }) {
         <VerticalSpacer height={3} />
 
         <View style={styles.basicRow}>
-          <SmallBlock
-            handlePress={() => setTopic('jlpt')}
-            blockHeader={'JLPT'}
-            sub={'N1-N5'}
-          />
-          <SmallBlock
-            handlePress={() => setTopic('strokes')}
-            blockHeader={'Stroke'}
-            sub={'1-24'}
-          />
-          <SmallBlock
-            handlePress={() => setTopic('grades')}
-            blockHeader={'Grade'}
-            sub={'1-9'}
-          />
+          {topics.map(i => (
+            <SmallBlock
+              key={i.topicName}
+              handlePress={() => setTopic(i.topicName)}
+              blockHeader={i.header}
+              sub={i.subtitle}
+            />
+          ))}
         </View>
 
         <VerticalSpacer height={5} />
@@ -97,8 +108,7 @@ export default function Home({ navigation: { navigate } }) {
                   isAll={false}
                   handlePress={() =>
                     navigate('KanjiTemplate', {
-                      jlptLevel: 5 - index,
-                      strokes: false
+                      jlptLevel: 5 - index
                     })
                   }
                 />
@@ -106,9 +116,7 @@ export default function Home({ navigation: { navigate } }) {
               <Pill
                 subject={'tan'}
                 isAll={true}
-                handlePress={() =>
-                  navigate('AllKanji', { jlpt: true, strokes: false })
-                }
+                handlePress={() => navigate('AllKanji', { jlpt: true })}
               />
             </>
           ) : null}
@@ -123,7 +131,6 @@ export default function Home({ navigation: { navigate } }) {
                   isAll={false}
                   handlePress={() =>
                     navigate('KanjiTemplate', {
-                      jlptLevel: false,
                       strokes: index + 1
                     })
                   }
@@ -132,9 +139,7 @@ export default function Home({ navigation: { navigate } }) {
               <Pill
                 subject={'tan'}
                 isAll={true}
-                handlePress={() =>
-                  navigate('AllKanji', { strokes: true, jlpt: false })
-                }
+                handlePress={() => navigate('AllKanji', { strokes: true })}
               />
             </>
           ) : null}
@@ -149,8 +154,6 @@ export default function Home({ navigation: { navigate } }) {
                   isAll={false}
                   handlePress={() =>
                     navigate('KanjiTemplate', {
-                      jlptLevel: false,
-                      strokes: false,
                       grades: index + 1
                     })
                   }
@@ -159,13 +162,7 @@ export default function Home({ navigation: { navigate } }) {
               <Pill
                 subject={'tan'}
                 isAll={true}
-                handlePress={() =>
-                  navigate('AllKanji', {
-                    grades: true,
-                    strokes: false,
-                    jlpt: false
-                  })
-                }
+                handlePress={() => navigate('AllKanji', { grades: true })}
               />
             </>
           ) : null}

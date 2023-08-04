@@ -12,21 +12,20 @@ import {
   heightPercentageToDP as hp
 } from 'react-native-responsive-screen'
 
-import StrokesKanji from '../util/strokesAll.json'
-import JlptKanji from '../util/jlptAll.json'
+import Strokes from '../util/strokesAll.json'
+import Jlpt from '../util/jlptAll.json'
+import Grades from '../util/gradesAll.json'
 
 function TemplateKanji({ navigation: { navigate }, route }) {
-  const { jlptLevel, strokes } = route.params
+  const { jlptLevel, strokes, grades } = route.params
 
   const [arr, setArr] = useState([])
 
   useEffect(() => {
-    if (!jlptLevel) {
-      setArr(StrokesKanji[strokes])
-    } else {
-      setArr(JlptKanji[jlptLevel])
-    }
-  }, [jlptLevel, strokes])
+    if (jlptLevel) setArr(Jlpt[jlptLevel])
+    if (strokes) setArr(Strokes[strokes])
+    if (grades) setArr(Grades[grades])
+  }, [jlptLevel, strokes, grades])
 
   return (
     <FlatList

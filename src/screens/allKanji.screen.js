@@ -13,6 +13,7 @@ import {
 
 import JlptData from '../util/jlptAll.json'
 import StrokesData from '../util/strokesAll.json'
+import GradesData from '../util/gradesAll.json'
 
 const columns = 5 // Number of columns you want
 
@@ -23,7 +24,7 @@ const SectionHeader = ({ title }) => (
 const Separator = () => <View style={styles.separator} />
 
 const AllKanjiComponent = ({ navigation: { navigate }, route }) => {
-  const { strokes, jlpt } = route.params
+  const { jlpt, strokes, grades } = route.params
 
   const combineDataWithSections = data => {
     const sections = []
@@ -38,13 +39,24 @@ const AllKanjiComponent = ({ navigation: { navigate }, route }) => {
           })
         }
       }
-    } else {
+    } else if (strokes) {
       for (let i = 1; i <= Object.keys(data).length; i++) {
         const strokesCount = i.toString()
         if (data[strokesCount] && data[strokesCount].length > 0) {
           const chunkedData = chunkArray(data[strokesCount], columns)
           sections.push({
             title: `Strokes Count ${strokesCount}`,
+            data: chunkedData
+          })
+        }
+      }
+    } else if (grades) {
+      for (let i = 1; i <= Object.keys(data).length; i++) {
+        const gradesCount = i.toString()
+        if (data[gradesCount] && data[gradesCount].length > 0) {
+          const chunkedData = chunkArray(data[gradesCount], columns)
+          sections.push({
+            title: `Grade ${gradesCount}`,
             data: chunkedData
           })
         }
@@ -64,7 +76,13 @@ const AllKanjiComponent = ({ navigation: { navigate }, route }) => {
     return chunkedArray
   }
 
-  const data = combineDataWithSections(strokes ? StrokesData : JlptData)
+  const whichTypeOfData = () => {
+    if (strokes) return StrokesData
+    if (jlpt) return JlptData
+    if (grades) return GradesData
+  }
+
+  const data = combineDataWithSections(whichTypeOfData())
 
   const renderItem = ({ item }) => (
     <View style={styles.row}>
