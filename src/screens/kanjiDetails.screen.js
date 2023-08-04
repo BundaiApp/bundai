@@ -14,19 +14,27 @@ export default function KanjiDetail({ navigation: { navigate }, route }) {
 
   return (
     <View style={styles.container}>
-      <Text style={styles.header}>{kanjiName}</Text>
+      <Text style={styles.kanji}>{kanjiName}</Text>
+
+      <Text style={styles.header}>Meanings</Text>
       {meanings.map(item => (
-        <Text style={styles.text}>{item}</Text>
+        <Text style={styles.text} key={item}>
+          {item}
+        </Text>
       ))}
 
-      <Text style={styles.text}> ####### Kunyomi ###########</Text>
+      <Text style={styles.text}> Kunyomi Readings</Text>
       {on.map(item => (
-        <Text style={styles.text}>{item}</Text>
+        <Text style={styles.text} key={item}>
+          {item}
+        </Text>
       ))}
 
-      <Text style={styles.text}> ######## Onyomi ##########</Text>
+      <Text style={styles.text}>Onyomi Readings</Text>
       {kun.map(item => (
-        <Text style={styles.text}>{item}</Text>
+        <Text style={styles.text} key={item}>
+          {item}
+        </Text>
       ))}
     </View>
   )
@@ -35,19 +43,23 @@ export default function KanjiDetail({ navigation: { navigate }, route }) {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    paddingTop: '2%',
-    paddingHorizontal: '5%'
-  },
-  header: {
-    fontWeight: 'bold',
-    fontSize: 20
-  },
-  headerHolder: {
-    alignItems: 'flex-start',
-    width: '90%'
+    paddingTop: '2%'
   },
   text: {
     fontWeight: '400',
     fontSize: 20
+  },
+  kanji: {
+    fontWeight: '600',
+    fontSize: 100,
+    alignSelf: 'center'
+  },
+  header: {
+    fontWeight: '400',
+    fontSize: 30,
+    width: '100%',
+    alignSelf: 'flex-start',
+    backgroundColor: 'wheat',
+    paddingLeft: '5%'
   }
 })

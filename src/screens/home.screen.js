@@ -16,16 +16,16 @@ import {
 const whichColor = blockHeader => {
   switch (blockHeader) {
     case 'Stroke':
-      return 'tan'
+      return 'palegoldenrod'
       break
     case 'JLPT':
-      return 'gold'
+      return 'thistle'
       break
     case 'Grade':
       return 'moccasin'
       break
     default:
-      return 'plum'
+      return 'lightskyblue'
       break
   }
 }
@@ -35,6 +35,7 @@ const SmallBlock = ({ handlePress, blockHeader, sub }) => (
     style={[styles.jlptBlock, { backgroundColor: whichColor(blockHeader) }]}
     onPress={handlePress}>
     <Text style={styles.headerMedium}>{blockHeader}</Text>
+    <VerticalSpacer height={2} />
     <Text style={styles.subtitleText}>{sub}</Text>
   </TouchableOpacity>
 )
@@ -78,7 +79,9 @@ export default function Home({ navigation: { navigate } }) {
     <SafeAreaView style={styles.container}>
       <View style={styles.blockHolder}>
         <Text style={styles.h1}>Kanji</Text>
-        <Text style={styles.h3}>Japanese characters</Text>
+        <VerticalSpacer height={2} />
+        <Text style={styles.h4}>Japanese characters</Text>
+        <VerticalSpacer height={2} />
         <Text style={styles.h4}>With meanings & pronunciations</Text>
 
         <VerticalSpacer height={3} />
@@ -183,7 +186,7 @@ const styles = StyleSheet.create({
     paddingHorizontal: '5%',
     borderRadius: 20,
     paddingVertical: '4%',
-    backgroundColor: 'lightyellow'
+    backgroundColor: 'honeydew'
   },
   jlptBlock: {
     backgroundColor: 'gold',
@@ -195,7 +198,8 @@ const styles = StyleSheet.create({
   h1: {
     fontWeight: 'bold',
     fontSize: 20,
-    alignSelf: 'flex-start'
+    alignSelf: 'flex-start',
+    fontFamily: 'menlo'
   },
   headerMedium: {
     fontWeight: '400',
@@ -212,9 +216,8 @@ const styles = StyleSheet.create({
   h4: {
     fontWeight: '300',
     fontSize: 15,
-    paddingBottom: '2%',
     fontFamily: 'menlo',
-    color: 'silver'
+    color: 'gray'
   },
   subtitleText: {
     fontWeight: '300',
