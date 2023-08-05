@@ -21,6 +21,10 @@ function TemplateKanji({ navigation: { navigate }, route }) {
 
   const [arr, setArr] = useState([])
 
+  function navigateToDetailScreen(item) {
+    navigate('KanjiDetail', { paramsData: item })
+  }
+
   useEffect(() => {
     if (jlptLevel) setArr(Jlpt[jlptLevel])
     if (strokes) setArr(Strokes[strokes])
@@ -33,7 +37,7 @@ function TemplateKanji({ navigation: { navigate }, route }) {
       renderItem={({ item }) => (
         <TouchableOpacity
           style={styles.block}
-          onPress={() => navigate('KanjiDetail', { paramsData: item })}>
+          onPress={() => navigateToDetailScreen(item)}>
           <Text style={styles.kanjiText}>{item.kanjiName}</Text>
         </TouchableOpacity>
       )}

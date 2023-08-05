@@ -77,6 +77,8 @@ export default function Home({ navigation: { navigate } }) {
 
   return (
     <SafeAreaView style={styles.container}>
+      <VerticalSpacer height={3} />
+
       <View style={styles.blockHolder}>
         <Text style={styles.h1}>Kanji</Text>
         <VerticalSpacer height={2} />
@@ -178,18 +180,16 @@ export default function Home({ navigation: { navigate } }) {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    alignItems: 'center',
-    paddingVertical: '3%'
+    alignItems: 'center'
   },
   blockHolder: {
     width: '95%',
     paddingHorizontal: '5%',
     borderRadius: 20,
-    paddingVertical: '4%',
+    paddingTop: '7%',
     backgroundColor: 'honeydew'
   },
   jlptBlock: {
-    backgroundColor: 'gold',
     borderRadius: 10,
     width: '30%',
     alignItems: 'center',
