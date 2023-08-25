@@ -211,7 +211,12 @@ export default function Home({ navigation: { navigate } }) {
           {words.map(i => (
             <SmallBlock
               handlePress={() =>
-                navigate('AllKanji', { grades: false, strokes: false })
+                navigate('KanjiTemplate', {
+                  jlptLevel: false,
+                  grades: false,
+                  strokes: false,
+                  verbs: true
+                })
               }
               blockHeader={i.header}
               sub={i.subtitle}

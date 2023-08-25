@@ -15,9 +15,10 @@ import {
 import Strokes from '../util/strokesAll.json'
 import Jlpt from '../util/jlptAll.json'
 import Grades from '../util/gradesAll.json'
+import Verbs from '../util/verbs.json'
 
 function TemplateKanji({ navigation: { navigate }, route }) {
-  const { jlptLevel, strokes, grades } = route.params
+  const { jlptLevel, strokes, grades, verbs } = route.params
 
   const [arr, setArr] = useState([])
 
@@ -29,6 +30,7 @@ function TemplateKanji({ navigation: { navigate }, route }) {
     if (jlptLevel) setArr(Jlpt[jlptLevel])
     if (strokes) setArr(Strokes[strokes])
     if (grades) setArr(Grades[grades])
+    if (verbs) setArr(Verbs)
   }, [jlptLevel, strokes, grades])
 
   return (
