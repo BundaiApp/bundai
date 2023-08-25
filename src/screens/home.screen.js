@@ -15,16 +15,12 @@ const whichColor = blockHeader => {
   switch (blockHeader) {
     case 'Stroke':
       return 'palegoldenrod'
-      break
     case 'JLPT':
       return 'thistle'
-      break
     case 'Grade':
       return 'moccasin'
-      break
     default:
       return 'lightskyblue'
-      break
   }
 }
 
@@ -171,6 +167,14 @@ export default function Home({ navigation: { navigate } }) {
           ) : null}
         </View>
       </View>
+
+      <View style={styles.blockHolder}>
+        <Text style={styles.h1}>Words 文甫</Text>
+        <VerticalSpacer height={2} />
+        <Text style={styles.h4}>Words with Hiragana</Text>
+        <VerticalSpacer height={2} />
+        <Text style={styles.h4}>With meanings & pronunciations</Text>
+      </View>
     </SafeAreaView>
   )
 }
@@ -178,14 +182,16 @@ export default function Home({ navigation: { navigate } }) {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    alignItems: 'center'
+    alignItems: 'center',
+    backgroundColor: 'ivory'
   },
   blockHolder: {
     width: '95%',
     paddingHorizontal: '5%',
     borderRadius: 20,
     paddingTop: '7%',
-    backgroundColor: 'honeydew'
+    marginBottom: '2%',
+    backgroundColor: 'beige'
   },
   jlptBlock: {
     borderRadius: 10,

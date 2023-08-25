@@ -41,7 +41,8 @@ export default function KanjiDetail({ route }) {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    paddingTop: '2%'
+    paddingTop: '2%',
+    backgroundColor: 'ivory'
   },
   kanji: {
     fontWeight: '600',

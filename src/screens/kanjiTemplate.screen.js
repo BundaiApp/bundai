@@ -49,9 +49,6 @@ function TemplateKanji({ navigation: { navigate }, route }) {
 }
 
 const styles = StyleSheet.create({
-  container: {
-    flex: 1
-  },
   sectionHeaderWrapper: {
     width: '100%' // Take up the full width of the FlatList
   },
@@ -63,11 +60,11 @@ const styles = StyleSheet.create({
   },
   // background color of the content
   flatListContent: {
-    backgroundColor: 'white'
+    backgroundColor: 'ivory'
   },
   // background color of the FlatList
   flatList: {
-    backgroundColor: 'white',
+    backgroundColor: 'ivory',
     paddingHorizontal: '3%'
   },
   sectionHeaderText: {
