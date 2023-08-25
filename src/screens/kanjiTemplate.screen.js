@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import {
-  View,
+  Platform,
   Text,
   FlatList,
   TouchableOpacity,
@@ -44,7 +44,9 @@ function TemplateKanji({ navigation: { navigate }, route }) {
             <Text style={styles.kanjiText}>{item.kanjiName}</Text>
           </TouchableOpacity>
         )}
-        numColumns={5}
+        numColumns={
+          verbs ? (Platform.OS != 'ios' && Platform.OS != 'android' ? 4 : 2) : 5
+        }
         style={styles.flatList} // background color of the FlatList
         contentContainerStyle={styles.flatListContent} // background color of the content
       />

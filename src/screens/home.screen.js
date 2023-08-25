@@ -215,7 +215,7 @@ export default function Home({ navigation: { navigate } }) {
                   jlptLevel: false,
                   grades: false,
                   strokes: false,
-                  verbs: true
+                  verbs: i.topicName === 'verbs' ?? false
                 })
               }
               blockHeader={i.header}
