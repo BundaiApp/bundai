@@ -15,10 +15,18 @@ const whichColor = blockHeader => {
   switch (blockHeader) {
     case 'Stroke':
       return 'palegoldenrod'
+    case 'Verbs':
+      return 'palegoldenrod'
     case 'JLPT':
+      return 'thistle'
+    case 'Nouns':
       return 'thistle'
     case 'Grade':
       return 'moccasin'
+    case 'Adj':
+      return 'moccasin'
+    case 'Adverbs':
+      return 'lightskyblue'
     default:
       return 'lightskyblue'
   }
@@ -63,6 +71,29 @@ const topics = [
     topicName: 'grades',
     header: 'Grade',
     subtitle: '1-9'
+  }
+]
+
+const words = [
+  {
+    topicName: 'verbs',
+    header: 'Verbs',
+    subtitle: '100 verbs'
+  },
+  {
+    topicName: 'nouns',
+    header: 'Nouns',
+    subtitle: '100 nouns'
+  },
+  {
+    topicName: 'adjectives',
+    header: 'Adj',
+    subtitle: '100 adjectives'
+  },
+  {
+    topicName: 'adverbs',
+    header: 'Adverbs',
+    subtitle: '100 Adverbs'
   }
 ]
 
@@ -174,6 +205,17 @@ export default function Home({ navigation: { navigate } }) {
         <Text style={styles.h4}>Words with Hiragana</Text>
         <VerticalSpacer height={2} />
         <Text style={styles.h4}>With meanings & pronunciations</Text>
+        <VerticalSpacer height={4} />
+
+        <View style={styles.wordsRow}>
+          {words.map(i => (
+            <SmallBlock
+              handlePress={() => setTopic(i.topicName)}
+              blockHeader={i.header}
+              sub={i.subtitle}
+            />
+          ))}
+        </View>
       </View>
     </SafeAreaView>
   )
@@ -190,7 +232,7 @@ const styles = StyleSheet.create({
     paddingHorizontal: '5%',
     borderRadius: 20,
     paddingTop: '7%',
-    marginBottom: '2%',
+    marginBottom: '5%',
     backgroundColor: 'beige'
   },
   jlptBlock: {
@@ -233,6 +275,12 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     justifyContent: 'space-between',
     alignItems: 'center'
+  },
+  wordsRow: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    flexWrap: 'wrap'
   },
   jlptRow: {
     flexDirection: 'row',
