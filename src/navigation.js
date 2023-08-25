@@ -16,7 +16,10 @@ export default function Navigator() {
 
   function HomeStack() {
     return (
-      <Stack.Navigator screenOptions={{ headerShown: false }}>
+      <Stack.Navigator
+        screenOptions={{
+          headerStyle: { backgroundColor: 'papayawhip' }
+        }}>
         <Stack.Screen name="Home" component={HomeScreen} />
         <Stack.Screen name="KanjiDetail" component={KanjiDetailScreen} />
         <Stack.Screen name="AllKanji" component={AllKanji} />

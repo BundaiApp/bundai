@@ -32,19 +32,21 @@ function TemplateKanji({ navigation: { navigate }, route }) {
   }, [jlptLevel, strokes, grades])
 
   return (
-    <FlatList
-      data={arr}
-      renderItem={({ item }) => (
-        <TouchableOpacity
-          style={styles.block}
-          onPress={() => navigateToDetailScreen(item)}>
-          <Text style={styles.kanjiText}>{item.kanjiName}</Text>
-        </TouchableOpacity>
-      )}
-      numColumns={5}
-      style={styles.flatList} // background color of the FlatList
-      contentContainerStyle={styles.flatListContent} // background color of the content
-    />
+    <SafeAreaView>
+      <FlatList
+        data={arr}
+        renderItem={({ item }) => (
+          <TouchableOpacity
+            style={styles.block}
+            onPress={() => navigateToDetailScreen(item)}>
+            <Text style={styles.kanjiText}>{item.kanjiName}</Text>
+          </TouchableOpacity>
+        )}
+        numColumns={5}
+        style={styles.flatList} // background color of the FlatList
+        contentContainerStyle={styles.flatListContent} // background color of the content
+      />
+    </SafeAreaView>
   )
 }
 

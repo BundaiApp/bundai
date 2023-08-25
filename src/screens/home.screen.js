@@ -88,7 +88,7 @@ const words = [
   {
     topicName: 'adjectives',
     header: 'Adj',
-    subtitle: '100 adjectives'
+    subtitle: 'adjectives'
   },
   {
     topicName: 'adverbs',
@@ -210,7 +210,9 @@ export default function Home({ navigation: { navigate } }) {
         <View style={styles.wordsRow}>
           {words.map(i => (
             <SmallBlock
-              handlePress={() => setTopic(i.topicName)}
+              handlePress={() =>
+                navigate('AllKanji', { grades: false, strokes: false })
+              }
               blockHeader={i.header}
               sub={i.subtitle}
             />
@@ -239,7 +241,8 @@ const styles = StyleSheet.create({
     borderRadius: 10,
     width: '30%',
     alignItems: 'center',
-    paddingVertical: '3%'
+    paddingVertical: '3%',
+    marginBottom: '2%'
   },
   h1: {
     fontWeight: 'bold',
