@@ -1,25 +1,17 @@
-import React, { useState, useEffect } from 'react'
-import {
-  View,
-  Text,
-  TouchableOpacity,
-  StyleSheet,
-  ScrollView,
-  FlatList,
-  SafeAreaView
-} from 'react-native'
+import React from 'react'
+import { View, Text, StyleSheet, ScrollView } from 'react-native'
 
-const Pill = ({ index, subject }) => (
+const Pill = ({ subject }) => (
   <View style={styles.pill}>
     <Text style={styles.subtitleText}>{subject}</Text>
   </View>
 )
 
-export default function KanjiDetail({ navigation: { navigate }, route }) {
+export default function KanjiDetail({ route }) {
   const { kanjiName, meanings, kun, on } = route.params.paramsData
 
   return (
-    <View style={styles.container}>
+    <ScrollView contentContainerStyle={styles.container}>
       <Text style={styles.kanji}>{kanjiName}</Text>
 
       <Text style={styles.header}>Meanings</Text>
@@ -42,7 +34,7 @@ export default function KanjiDetail({ navigation: { navigate }, route }) {
           <Pill key={item} index={index} subject={item} />
         ))}
       </View>
-    </View>
+    </ScrollView>
   )
 }
 
