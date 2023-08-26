@@ -17,9 +17,20 @@ import Jlpt from '../util/jlptAll.json'
 import Grades from '../util/gradesAll.json'
 import Verbs from '../util/verbs.json'
 import Nouns from '../util/nouns.json'
+import Adjectives from '../util/adj.json'
+import Adverbs from '../util/adverbs.json'
 
 function TemplateKanji({ navigation: { navigate }, route }) {
-  const { jlptLevel, strokes, grades, verbs, isWord, nouns } = route.params
+  const {
+    jlptLevel,
+    strokes,
+    grades,
+    isWord,
+    nouns,
+    verbs,
+    adjectives,
+    adverbs
+  } = route.params
 
   const [arr, setArr] = useState([])
 
@@ -33,6 +44,8 @@ function TemplateKanji({ navigation: { navigate }, route }) {
     if (grades) setArr(Grades[grades])
     if (verbs) setArr(Verbs)
     if (nouns) setArr(Nouns)
+    if (adjectives) setArr(Adjectives)
+    if (adverbs) setArr(Adverbs)
   }, [jlptLevel, strokes, grades])
 
   return (

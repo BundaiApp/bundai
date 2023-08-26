@@ -1,0 +1,793 @@
+[
+  { "kanjiName": "今", "hiragana": "いま", "meanings": ["now"] },
+  { "kanjiName": "昨日", "hiragana": "きのう", "meanings": ["yesterday"] },
+  { "kanjiName": "明日", "hiragana": "あした", "meanings": ["tomorrow"] },
+  {
+    "kanjiName": "すぐ",
+    "hiragana": "すぐ",
+    "meanings": ["immediately", "right away"]
+  },
+  { "kanjiName": "まだ", "hiragana": "まだ", "meanings": ["still", "yet"] },
+  {
+    "kanjiName": "もう",
+    "hiragana": "もう",
+    "meanings": ["already", "anymore"]
+  },
+  {
+    "kanjiName": "ちょうど",
+    "hiragana": "ちょうど",
+    "meanings": ["exactly", "just"]
+  },
+  {
+    "kanjiName": "とても",
+    "hiragana": "とても",
+    "meanings": ["very", "extremely"]
+  },
+  {
+    "kanjiName": "あまり",
+    "hiragana": "あまり",
+    "meanings": ["not very", "not much"]
+  },
+  { "kanjiName": "少し", "hiragana": "すこし", "meanings": ["a little"] },
+  {
+    "kanjiName": "だんだん",
+    "hiragana": "だんだん",
+    "meanings": ["gradually"]
+  },
+  {
+    "kanjiName": "ほとんど",
+    "hiragana": "ほとんど",
+    "meanings": ["almost", "mostly"]
+  },
+  {
+    "kanjiName": "全く",
+    "hiragana": "まったく",
+    "meanings": ["completely", "entirely"]
+  },
+  {
+    "kanjiName": "まさに",
+    "hiragana": "まさに",
+    "meanings": ["exactly", "surely"]
+  },
+  {
+    "kanjiName": "どうしても",
+    "hiragana": "どうしても",
+    "meanings": ["no matter what", "by all means"]
+  },
+  {
+    "kanjiName": "どうやら",
+    "hiragana": "どうやら",
+    "meanings": ["seems like", "apparently"]
+  },
+  {
+    "kanjiName": "たくさん",
+    "hiragana": "たくさん",
+    "meanings": ["a lot", "many"]
+  },
+  {
+    "kanjiName": "もしかしたら",
+    "hiragana": "もしかしたら",
+    "meanings": ["perhaps", "maybe"]
+  },
+  { "kanjiName": "すでに", "hiragana": "すでに", "meanings": ["already"] },
+  { "kanjiName": "いつも", "hiragana": "いつも", "meanings": ["always"] },
+  {
+    "kanjiName": "だいたい",
+    "hiragana": "だいたい",
+    "meanings": ["mostly", "approximately"]
+  },
+  {
+    "kanjiName": "必ず",
+    "hiragana": "かならず",
+    "meanings": ["without fail", "certainly"]
+  },
+  {
+    "kanjiName": "もちろん",
+    "hiragana": "もちろん",
+    "meanings": ["of course"]
+  },
+  {
+    "kanjiName": "あまり",
+    "hiragana": "あまり",
+    "meanings": ["not very", "not much"]
+  },
+  {
+    "kanjiName": "ときどき",
+    "hiragana": "ときどき",
+    "meanings": ["sometimes"]
+  },
+  {
+    "kanjiName": "たくさん",
+    "hiragana": "たくさん",
+    "meanings": ["a lot", "many"]
+  },
+  {
+    "kanjiName": "少なくとも",
+    "hiragana": "すくなくとも",
+    "meanings": ["at least"]
+  },
+  {
+    "kanjiName": "最も",
+    "hiragana": "もっとも",
+    "meanings": ["most", "extremely"]
+  },
+  { "kanjiName": "全然", "hiragana": "ぜんぜん", "meanings": ["not at all"] },
+  {
+    "kanjiName": "だいぶ",
+    "hiragana": "だいぶ",
+    "meanings": ["quite", "very"]
+  },
+  {
+    "kanjiName": "だいたい",
+    "hiragana": "だいたい",
+    "meanings": ["mostly", "approximately"]
+  },
+  {
+    "kanjiName": "もう少し",
+    "hiragana": "もうすこし",
+    "meanings": ["a little more"]
+  },
+  {
+    "kanjiName": "どんどん",
+    "hiragana": "どんどん",
+    "meanings": ["steadily", "rapidly"]
+  },
+  {
+    "kanjiName": "どうしても",
+    "hiragana": "どうしても",
+    "meanings": ["no matter what", "by all means"]
+  },
+  {
+    "kanjiName": "しばしば",
+    "hiragana": "しばしば",
+    "meanings": ["often", "frequently"]
+  },
+  {
+    "kanjiName": "まだまだ",
+    "hiragana": "まだまだ",
+    "meanings": ["still more", "not yet"]
+  },
+  {
+    "kanjiName": "あちこち",
+    "hiragana": "あちこち",
+    "meanings": ["here and there"]
+  },
+  {
+    "kanjiName": "そろそろ",
+    "hiragana": "そろそろ",
+    "meanings": ["soon", "gradually"]
+  },
+  {
+    "kanjiName": "ちょっと",
+    "hiragana": "ちょっと",
+    "meanings": ["a little", "a bit"]
+  },
+  {
+    "kanjiName": "もう少し",
+    "hiragana": "もうすこし",
+    "meanings": ["a little more"]
+  },
+  { "kanjiName": "ずっと", "hiragana": "ずっと", "meanings": ["much", "far"] },
+  {
+    "kanjiName": "結構",
+    "hiragana": "けっこう",
+    "meanings": ["quite", "splendid"]
+  },
+  {
+    "kanjiName": "やっぱり",
+    "hiragana": "やっぱり",
+    "meanings": ["as expected", "after all"]
+  },
+  {
+    "kanjiName": "それほど",
+    "hiragana": "それほど",
+    "meanings": ["to that extent", "not that much"]
+  },
+  {
+    "kanjiName": "同じく",
+    "hiragana": "おなじく",
+    "meanings": ["likewise", "same here"]
+  },
+  {
+    "kanjiName": "特に",
+    "hiragana": "とくに",
+    "meanings": ["particularly", "especially"]
+  },
+  {
+    "kanjiName": "必ずしも",
+    "hiragana": "かならずしも",
+    "meanings": ["not necessarily"]
+  },
+  {
+    "kanjiName": "すっかり",
+    "hiragana": "すっかり",
+    "meanings": ["completely", "thoroughly"]
+  },
+  {
+    "kanjiName": "普通に",
+    "hiragana": "ふつうに",
+    "meanings": ["normally", "usually"]
+  },
+  {
+    "kanjiName": "だって",
+    "hiragana": "だって",
+    "meanings": ["because", "but"]
+  },
+  {
+    "kanjiName": "もしかしたら",
+    "hiragana": "もしかしたら",
+    "meanings": ["perhaps", "maybe"]
+  },
+  {
+    "kanjiName": "必ず",
+    "hiragana": "かならず",
+    "meanings": ["without fail", "certainly"]
+  },
+  {
+    "kanjiName": "まず",
+    "hiragana": "まず",
+    "meanings": ["first", "to start with"]
+  },
+  {
+    "kanjiName": "大体",
+    "hiragana": "だいたい",
+    "meanings": ["generally", "approximately"]
+  },
+  {
+    "kanjiName": "実は",
+    "hiragana": "じつは",
+    "meanings": ["actually", "in fact"]
+  },
+  {
+    "kanjiName": "きちんと",
+    "hiragana": "きちんと",
+    "meanings": ["properly", "neatly"]
+  },
+  { "kanjiName": "一度", "hiragana": "いちど", "meanings": ["once"] },
+  {
+    "kanjiName": "もちろん",
+    "hiragana": "もちろん",
+    "meanings": ["of course"]
+  },
+  {
+    "kanjiName": "一応",
+    "hiragana": "いちおう",
+    "meanings": ["tentatively", "for now"]
+  },
+  {
+    "kanjiName": "例えば",
+    "hiragana": "たとえば",
+    "meanings": ["for example"]
+  },
+  {
+    "kanjiName": "ちゃんと",
+    "hiragana": "ちゃんと",
+    "meanings": ["properly", "precisely"]
+  },
+  {
+    "kanjiName": "どうか",
+    "hiragana": "どうか",
+    "meanings": ["please", "somehow"]
+  },
+  {
+    "kanjiName": "とにかく",
+    "hiragana": "とにかく",
+    "meanings": ["anyhow", "anyway"]
+  },
+  {
+    "kanjiName": "まあまあ",
+    "hiragana": "まあまあ",
+    "meanings": ["so-so", "passable"]
+  },
+  {
+    "kanjiName": "絶対に",
+    "hiragana": "ぜったいに",
+    "meanings": ["absolutely"]
+  },
+  {
+    "kanjiName": "どうしても",
+    "hiragana": "どうしても",
+    "meanings": ["no matter what", "by all means"]
+  },
+  { "kanjiName": "全然", "hiragana": "ぜんぜん", "meanings": ["not at all"] },
+  {
+    "kanjiName": "きっと",
+    "hiragana": "きっと",
+    "meanings": ["surely", "certainly"]
+  },
+  {
+    "kanjiName": "やはり",
+    "hiragana": "やはり",
+    "meanings": ["as expected", "still"]
+  },
+  {
+    "kanjiName": "たまたま",
+    "hiragana": "たまたま",
+    "meanings": ["by chance", "accidentally"]
+  },
+  {
+    "kanjiName": "大分",
+    "hiragana": "だいぶ",
+    "meanings": ["considerably", "fairly"]
+  },
+  {
+    "kanjiName": "最初",
+    "hiragana": "さいしょ",
+    "meanings": ["at first", "initially"]
+  },
+  {
+    "kanjiName": "実際",
+    "hiragana": "じっさい",
+    "meanings": ["actually", "in reality"]
+  },
+  {
+    "kanjiName": "大概",
+    "hiragana": "たいがい",
+    "meanings": ["mostly", "probably"]
+  },
+  {
+    "kanjiName": "ふと",
+    "hiragana": "ふと",
+    "meanings": ["suddenly", "unexpectedly"]
+  },
+  {
+    "kanjiName": "要するに",
+    "hiragana": "ようするに",
+    "meanings": ["in short", "in a word"]
+  },
+  {
+    "kanjiName": "だいぶ",
+    "hiragana": "だいぶ",
+    "meanings": ["quite", "fairly"]
+  },
+  {
+    "kanjiName": "何か",
+    "hiragana": "なにか",
+    "meanings": ["something", "somehow"]
+  },
+  {
+    "kanjiName": "とても",
+    "hiragana": "とても",
+    "meanings": ["very", "extremely"]
+  },
+  {
+    "kanjiName": "たいてい",
+    "hiragana": "たいてい",
+    "meanings": ["usually", "generally"]
+  },
+  {
+    "kanjiName": "たいがい",
+    "hiragana": "たいがい",
+    "meanings": ["mostly", "probably"]
+  },
+  {
+    "kanjiName": "ほんとうに",
+    "hiragana": "ほんとうに",
+    "meanings": ["really", "truly"]
+  },
+  {
+    "kanjiName": "どうか",
+    "hiragana": "どうか",
+    "meanings": ["please", "somehow"]
+  },
+  { "kanjiName": "最後", "hiragana": "さいご", "meanings": ["last", "end"] },
+  {
+    "kanjiName": "ちょうど",
+    "hiragana": "ちょうど",
+    "meanings": ["exactly", "just"]
+  },
+  {
+    "kanjiName": "ほんと",
+    "hiragana": "ほんと",
+    "meanings": ["really", "truly"]
+  },
+  {
+    "kanjiName": "かなり",
+    "hiragana": "かなり",
+    "meanings": ["considerably", "fairly"]
+  },
+  {
+    "kanjiName": "たしかに",
+    "hiragana": "たしかに",
+    "meanings": ["certainly", "definitely"]
+  },
+  {
+    "kanjiName": "どうしても",
+    "hiragana": "どうしても",
+    "meanings": ["no matter what", "by all means"]
+  },
+  {
+    "kanjiName": "そうそう",
+    "hiragana": "そうそう",
+    "meanings": ["that's right", "exactly"]
+  },
+  { "kanjiName": "いつも", "hiragana": "いつも", "meanings": ["always"] },
+  {
+    "kanjiName": "すぐ",
+    "hiragana": "すぐ",
+    "meanings": ["immediately", "right away"]
+  },
+  {
+    "kanjiName": "実は",
+    "hiragana": "じつは",
+    "meanings": ["actually", "in fact"]
+  },
+  { "kanjiName": "まだ", "hiragana": "まだ", "meanings": ["still", "yet"] },
+  {
+    "kanjiName": "今度",
+    "hiragana": "こんど",
+    "meanings": ["this time", "next time"]
+  },
+  {
+    "kanjiName": "確かに",
+    "hiragana": "たしかに",
+    "meanings": ["certainly", "definitely"]
+  },
+  {
+    "kanjiName": "けっこう",
+    "hiragana": "けっこう",
+    "meanings": ["quite", "fairly"]
+  },
+  {
+    "kanjiName": "とにかく",
+    "hiragana": "とにかく",
+    "meanings": ["anyhow", "anyway"]
+  },
+  {
+    "kanjiName": "やはり",
+    "hiragana": "やはり",
+    "meanings": ["as expected", "still"]
+  },
+  {
+    "kanjiName": "最近",
+    "hiragana": "さいきん",
+    "meanings": ["recently", "lately"]
+  },
+  {
+    "kanjiName": "たぶん",
+    "hiragana": "たぶん",
+    "meanings": ["probably", "perhaps"]
+  },
+  {
+    "kanjiName": "どうも",
+    "hiragana": "どうも",
+    "meanings": ["thanks", "sorry"]
+  },
+  {
+    "kanjiName": "ちゃんと",
+    "hiragana": "ちゃんと",
+    "meanings": ["properly", "precisely"]
+  },
+  {
+    "kanjiName": "それぞれ",
+    "hiragana": "それぞれ",
+    "meanings": ["each", "respective"]
+  },
+  {
+    "kanjiName": "そのまま",
+    "hiragana": "そのまま",
+    "meanings": ["as it is", "just like that"]
+  },
+  {
+    "kanjiName": "ひとまず",
+    "hiragana": "ひとまず",
+    "meanings": ["for now", "for the moment"]
+  },
+  {
+    "kanjiName": "みんな",
+    "hiragana": "みんな",
+    "meanings": ["everyone", "everybody"]
+  },
+  {
+    "kanjiName": "だいたい",
+    "hiragana": "だいたい",
+    "meanings": ["generally", "roughly"]
+  },
+  {
+    "kanjiName": "けっこう",
+    "hiragana": "けっこう",
+    "meanings": ["quite", "fairly"]
+  },
+  {
+    "kanjiName": "かなり",
+    "hiragana": "かなり",
+    "meanings": ["considerably", "fairly"]
+  },
+  {
+    "kanjiName": "まず",
+    "hiragana": "まず",
+    "meanings": ["first of all", "to begin with"]
+  },
+  {
+    "kanjiName": "さっき",
+    "hiragana": "さっき",
+    "meanings": ["a while ago", "just now"]
+  },
+  {
+    "kanjiName": "すっかり",
+    "hiragana": "すっかり",
+    "meanings": ["completely", "entirely"]
+  },
+  {
+    "kanjiName": "まるで",
+    "hiragana": "まるで",
+    "meanings": ["just like", "as if"]
+  },
+  {
+    "kanjiName": "だって",
+    "hiragana": "だって",
+    "meanings": ["because", "but"]
+  },
+  {
+    "kanjiName": "いくら",
+    "hiragana": "いくら",
+    "meanings": ["no matter how much", "even if"]
+  },
+  {
+    "kanjiName": "ちょくちょく",
+    "hiragana": "ちょくちょく",
+    "meanings": ["often", "frequently"]
+  },
+  {
+    "kanjiName": "ひょっとして",
+    "hiragana": "ひょっとして",
+    "meanings": ["by any chance", "perhaps"]
+  },
+  {
+    "kanjiName": "どうやら",
+    "hiragana": "どうやら",
+    "meanings": ["it seems", "apparently"]
+  },
+  {
+    "kanjiName": "いくつか",
+    "hiragana": "いくつか",
+    "meanings": ["several", "some"]
+  },
+  {
+    "kanjiName": "なるほど",
+    "hiragana": "なるほど",
+    "meanings": ["I see", "I understand"]
+  },
+  {
+    "kanjiName": "たいしたことない",
+    "hiragana": "たいしたことない",
+    "meanings": ["It's nothing much", "no big deal"]
+  },
+  {
+    "kanjiName": "なんとなく",
+    "hiragana": "なんとなく",
+    "meanings": ["somehow or other", "for some reason"]
+  },
+  {
+    "kanjiName": "もちろん",
+    "hiragana": "もちろん",
+    "meanings": ["of course", "naturally"]
+  },
+  {
+    "kanjiName": "やっぱり",
+    "hiragana": "やっぱり",
+    "meanings": ["as I thought", "after all"]
+  },
+  {
+    "kanjiName": "ぜひ",
+    "hiragana": "ぜひ",
+    "meanings": ["by all means", "definitely"]
+  },
+  {
+    "kanjiName": "おそらく",
+    "hiragana": "おそらく",
+    "meanings": ["perhaps", "probably"]
+  },
+  {
+    "kanjiName": "やはり",
+    "hiragana": "やはり",
+    "meanings": ["as expected", "still"]
+  },
+  {
+    "kanjiName": "どうしても",
+    "hiragana": "どうしても",
+    "meanings": ["no matter what", "by all means"]
+  },
+  {
+    "kanjiName": "まあまあ",
+    "hiragana": "まあまあ",
+    "meanings": ["so-so", "passable"]
+  },
+  {
+    "kanjiName": "絶対に",
+    "hiragana": "ぜったいに",
+    "meanings": ["absolutely"]
+  },
+  {
+    "kanjiName": "どうしても",
+    "hiragana": "どうしても",
+    "meanings": ["no matter what", "by all means"]
+  },
+  { "kanjiName": "全然", "hiragana": "ぜんぜん", "meanings": ["not at all"] },
+  {
+    "kanjiName": "きっと",
+    "hiragana": "きっと",
+    "meanings": ["surely", "certainly"]
+  },
+  {
+    "kanjiName": "やはり",
+    "hiragana": "やはり",
+    "meanings": ["as expected", "still"]
+  },
+  {
+    "kanjiName": "たまたま",
+    "hiragana": "たまたま",
+    "meanings": ["by chance", "accidentally"]
+  },
+  {
+    "kanjiName": "大分",
+    "hiragana": "だいぶ",
+    "meanings": ["considerably", "fairly"]
+  },
+  {
+    "kanjiName": "最初",
+    "hiragana": "さいしょ",
+    "meanings": ["at first", "initially"]
+  },
+  {
+    "kanjiName": "実際",
+    "hiragana": "じっさい",
+    "meanings": ["actually", "in reality"]
+  },
+  {
+    "kanjiName": "大概",
+    "hiragana": "たいがい",
+    "meanings": ["mostly", "probably"]
+  },
+  {
+    "kanjiName": "ふと",
+    "hiragana": "ふと",
+    "meanings": ["suddenly", "unexpectedly"]
+  },
+  {
+    "kanjiName": "要するに",
+    "hiragana": "ようするに",
+    "meanings": ["in short", "in a word"]
+  },
+  {
+    "kanjiName": "だいぶ",
+    "hiragana": "だいぶ",
+    "meanings": ["quite", "fairly"]
+  },
+  {
+    "kanjiName": "何か",
+    "hiragana": "なにか",
+    "meanings": ["something", "somehow"]
+  },
+  {
+    "kanjiName": "とても",
+    "hiragana": "とても",
+    "meanings": ["very", "extremely"]
+  },
+  {
+    "kanjiName": "特に",
+    "hiragana": "とくに",
+    "meanings": ["especially", "particularly"]
+  },
+  {
+    "kanjiName": "もう少し",
+    "hiragana": "もうすこし",
+    "meanings": ["a little more", "a bit more"]
+  },
+  {
+    "kanjiName": "しばらく",
+    "hiragana": "しばらく",
+    "meanings": ["for a while", "a little while"]
+  },
+  {
+    "kanjiName": "どうしても",
+    "hiragana": "どうしても",
+    "meanings": ["no matter what", "by all means"]
+  },
+  {
+    "kanjiName": "同じく",
+    "hiragana": "おなじく",
+    "meanings": ["likewise", "also"]
+  },
+  {
+    "kanjiName": "結局",
+    "hiragana": "けっきょく",
+    "meanings": ["in the end", "after all"]
+  },
+  {
+    "kanjiName": "なぜなら",
+    "hiragana": "なぜなら",
+    "meanings": ["because", "the reason is"]
+  },
+  {
+    "kanjiName": "それで",
+    "hiragana": "それで",
+    "meanings": ["so", "therefore"]
+  },
+  {
+    "kanjiName": "きちんと",
+    "hiragana": "きちんと",
+    "meanings": ["properly", "neatly"]
+  },
+  {
+    "kanjiName": "なるたけ",
+    "hiragana": "なるたけ",
+    "meanings": ["as much as possible", "if possible"]
+  },
+  {
+    "kanjiName": "かなり",
+    "hiragana": "かなり",
+    "meanings": ["considerably", "fairly"]
+  },
+  {
+    "kanjiName": "実際に",
+    "hiragana": "じっさいに",
+    "meanings": ["actually", "in fact"]
+  },
+  {
+    "kanjiName": "早く",
+    "hiragana": "はやく",
+    "meanings": ["early", "quickly"]
+  },
+  {
+    "kanjiName": "必ず",
+    "hiragana": "かならず",
+    "meanings": ["without fail", "certainly"]
+  },
+  {
+    "kanjiName": "少し",
+    "hiragana": "すこし",
+    "meanings": ["a little", "a bit"]
+  },
+  { "kanjiName": "まだ", "hiragana": "まだ", "meanings": ["still", "yet"] },
+  {
+    "kanjiName": "今度",
+    "hiragana": "こんど",
+    "meanings": ["this time", "next time"]
+  },
+  {
+    "kanjiName": "確かに",
+    "hiragana": "たしかに",
+    "meanings": ["certainly", "definitely"]
+  },
+  {
+    "kanjiName": "けっこう",
+    "hiragana": "けっこう",
+    "meanings": ["quite", "fairly"]
+  },
+  {
+    "kanjiName": "とにかく",
+    "hiragana": "とにかく",
+    "meanings": ["anyhow", "anyway"]
+  },
+  {
+    "kanjiName": "やはり",
+    "hiragana": "やはり",
+    "meanings": ["as expected", "still"]
+  },
+  {
+    "kanjiName": "最近",
+    "hiragana": "さいきん",
+    "meanings": ["recently", "lately"]
+  },
+  {
+    "kanjiName": "たぶん",
+    "hiragana": "たぶん",
+    "meanings": ["probably", "perhaps"]
+  },
+  {
+    "kanjiName": "どうも",
+    "hiragana": "どうも",
+    "meanings": ["thanks", "sorry"]
+  },
+  {
+    "kanjiName": "ちゃんと",
+    "hiragana": "ちゃんと",
+    "meanings": ["properly", "precisely"]
+  },
+  {
+    "kanjiName": "それぞれ",
+    "hiragana": "それぞれ",
+    "meanings": ["each", "respective"]
+  }
+]

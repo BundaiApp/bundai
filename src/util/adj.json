@@ -1,0 +1,206 @@
+[
+  { "kanjiName": "赤い", "hiragana": "あかい", "meanings": ["red"] },
+  { "kanjiName": "青い", "hiragana": "あおい", "meanings": ["blue"] },
+  { "kanjiName": "黄色い", "hiragana": "きいろい", "meanings": ["yellow"] },
+  { "kanjiName": "白い", "hiragana": "しろい", "meanings": ["white"] },
+  { "kanjiName": "黒い", "hiragana": "くろい", "meanings": ["black"] },
+  {
+    "kanjiName": "大きい",
+    "hiragana": "おおきい",
+    "meanings": ["big", "large"]
+  },
+  {
+    "kanjiName": "小さい",
+    "hiragana": "ちいさい",
+    "meanings": ["small", "little"]
+  },
+  { "kanjiName": "新しい", "hiragana": "あたらしい", "meanings": ["new"] },
+  { "kanjiName": "古い", "hiragana": "ふるい", "meanings": ["old"] },
+  { "kanjiName": "高い", "hiragana": "たかい", "meanings": ["high", "tall"] },
+  { "kanjiName": "低い", "hiragana": "ひくい", "meanings": ["low", "short"] },
+  {
+    "kanjiName": "広い",
+    "hiragana": "ひろい",
+    "meanings": ["wide", "spacious"]
+  },
+  { "kanjiName": "狭い", "hiragana": "せまい", "meanings": ["narrow"] },
+  { "kanjiName": "暑い", "hiragana": "あつい", "meanings": ["hot", "warm"] },
+  { "kanjiName": "寒い", "hiragana": "さむい", "meanings": ["cold"] },
+  { "kanjiName": "涼しい", "hiragana": "すずしい", "meanings": ["cool"] },
+  { "kanjiName": "暗い", "hiragana": "くらい", "meanings": ["dark"] },
+  {
+    "kanjiName": "明るい",
+    "hiragana": "あかるい",
+    "meanings": ["bright", "light"]
+  },
+  {
+    "kanjiName": "美しい",
+    "hiragana": "うつくしい",
+    "meanings": ["beautiful"]
+  },
+  { "kanjiName": "醜い", "hiragana": "みにくい", "meanings": ["ugly"] },
+  {
+    "kanjiName": "嬉しい",
+    "hiragana": "うれしい",
+    "meanings": ["happy", "glad"]
+  },
+  { "kanjiName": "悲しい", "hiragana": "かなしい", "meanings": ["sad"] },
+  {
+    "kanjiName": "面白い",
+    "hiragana": "おもしろい",
+    "meanings": ["interesting", "funny"]
+  },
+  { "kanjiName": "退屈な", "hiragana": "たいくつな", "meanings": ["boring"] },
+  {
+    "kanjiName": "怖い",
+    "hiragana": "こわい",
+    "meanings": ["scary", "frightening"]
+  },
+  {
+    "kanjiName": "勇敢な",
+    "hiragana": "ゆうかんな",
+    "meanings": ["brave", "courageous"]
+  },
+  {
+    "kanjiName": "臆病な",
+    "hiragana": "おくびょうな",
+    "meanings": ["cowardly"]
+  },
+  {
+    "kanjiName": "優しい",
+    "hiragana": "やさしい",
+    "meanings": ["kind", "gentle"]
+  },
+  {
+    "kanjiName": "厳しい",
+    "hiragana": "きびしい",
+    "meanings": ["strict", "harsh"]
+  },
+  { "kanjiName": "安全な", "hiragana": "あんぜんな", "meanings": ["safe"] },
+  { "kanjiName": "危険な", "hiragana": "きけんな", "meanings": ["dangerous"] },
+  { "kanjiName": "新鮮な", "hiragana": "しんせんな", "meanings": ["fresh"] },
+  { "kanjiName": "汚い", "hiragana": "きたない", "meanings": ["dirty"] },
+  {
+    "kanjiName": "きれいな",
+    "hiragana": "きれいな",
+    "meanings": ["clean", "pretty"]
+  },
+  {
+    "kanjiName": "賑やかな",
+    "hiragana": "にぎやかな",
+    "meanings": ["lively", "busy"]
+  },
+  {
+    "kanjiName": "静かな",
+    "hiragana": "しずかな",
+    "meanings": ["quiet", "peaceful"]
+  },
+  { "kanjiName": "近い", "hiragana": "ちかい", "meanings": ["near", "close"] },
+  { "kanjiName": "遠い", "hiragana": "とおい", "meanings": ["far", "distant"] },
+  { "kanjiName": "速い", "hiragana": "はやい", "meanings": ["fast", "quick"] },
+  { "kanjiName": "遅い", "hiragana": "おそい", "meanings": ["slow"] },
+  { "kanjiName": "忙しい", "hiragana": "いそがしい", "meanings": ["busy"] },
+  { "kanjiName": "暇な", "hiragana": "ひまな", "meanings": ["free", "idle"] },
+  {
+    "kanjiName": "正しい",
+    "hiragana": "ただしい",
+    "meanings": ["correct", "right"]
+  },
+  { "kanjiName": "間違った", "hiragana": "まちがった", "meanings": ["wrong"] },
+  { "kanjiName": "自由な", "hiragana": "じゆうな", "meanings": ["free"] },
+  {
+    "kanjiName": "厳密な",
+    "hiragana": "げんみつな",
+    "meanings": ["strict", "precise"]
+  },
+  { "kanjiName": "不明な", "hiragana": "ふめいな", "meanings": ["unknown"] },
+  { "kanjiName": "有名な", "hiragana": "ゆうめいな", "meanings": ["famous"] },
+  {
+    "kanjiName": "無名な",
+    "hiragana": "むめいな",
+    "meanings": ["unknown", "anonymous"]
+  },
+  {
+    "kanjiName": "大切な",
+    "hiragana": "たいせつな",
+    "meanings": ["important", "precious"]
+  },
+  {
+    "kanjiName": "平凡な",
+    "hiragana": "へいぼんな",
+    "meanings": ["ordinary", "mediocre"]
+  },
+  { "kanjiName": "特別な", "hiragana": "とくべつな", "meanings": ["special"] },
+  {
+    "kanjiName": "大変な",
+    "hiragana": "たいへんな",
+    "meanings": ["difficult", "tough"]
+  },
+  {
+    "kanjiName": "簡単な",
+    "hiragana": "かんたんな",
+    "meanings": ["easy", "simple"]
+  },
+  { "kanjiName": "重い", "hiragana": "おもい", "meanings": ["heavy"] },
+  {
+    "kanjiName": "軽い",
+    "hiragana": "かるい",
+    "meanings": ["light", "not heavy"]
+  },
+  { "kanjiName": "良い", "hiragana": "いい", "meanings": ["good"] },
+  { "kanjiName": "悪い", "hiragana": "わるい", "meanings": ["bad"] },
+  { "kanjiName": "多い", "hiragana": "おおい", "meanings": ["many"] },
+  {
+    "kanjiName": "少ない",
+    "hiragana": "すくない",
+    "meanings": ["few", "little"]
+  },
+  { "kanjiName": "正直な", "hiragana": "しょうじきな", "meanings": ["honest"] },
+  {
+    "kanjiName": "偽りの",
+    "hiragana": "いつわりの",
+    "meanings": ["false", "fake"]
+  },
+  {
+    "kanjiName": "確かな",
+    "hiragana": "たしかな",
+    "meanings": ["certain", "sure"]
+  },
+  {
+    "kanjiName": "不確かな",
+    "hiragana": "ふたしかな",
+    "meanings": ["uncertain"]
+  },
+  {
+    "kanjiName": "面倒な",
+    "hiragana": "めんどうな",
+    "meanings": ["troublesome", "annoying"]
+  },
+  {
+    "kanjiName": "大きな",
+    "hiragana": "おおきな",
+    "meanings": ["large", "important"]
+  },
+  {
+    "kanjiName": "小さな",
+    "hiragana": "ちいさな",
+    "meanings": ["small", "little"]
+  },
+  {
+    "kanjiName": "急な",
+    "hiragana": "きゅうな",
+    "meanings": ["sudden", "urgent"]
+  },
+  { "kanjiName": "遅い", "hiragana": "おそい", "meanings": ["late"] },
+  { "kanjiName": "早い", "hiragana": "はやい", "meanings": ["early"] },
+  {
+    "kanjiName": "適切な",
+    "hiragana": "てきせつな",
+    "meanings": ["appropriate", "suitable"]
+  },
+  {
+    "kanjiName": "不適切な",
+    "hiragana": "ふてきせつな",
+    "meanings": ["inappropriate"]
+  }
+]

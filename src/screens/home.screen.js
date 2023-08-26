@@ -217,7 +217,15 @@ export default function Home({ navigation: { navigate } }) {
                   strokes: false,
                   verbs: i.topicName === 'verbs' ?? false,
                   nouns: i.topicName === 'nouns' ?? false,
-                  isWord: i.topicName === 'verbs' || 'nouns' ? true : false
+                  adjectives: i.topicName === 'adjectives' ?? false,
+                  adverbs: i.topicName === 'adverbs' ?? false,
+                  isWord:
+                    i.topicName === 'verbs' ||
+                    'nouns' ||
+                    'adjectives' ||
+                    'adverbs'
+                      ? true
+                      : false
                 })
               }
               blockHeader={i.header}
