@@ -8,7 +8,8 @@ const Pill = ({ subject }) => (
 )
 
 export default function KanjiDetail({ route }) {
-  const { kanjiName, meanings, kun, on } = route.params.paramsData
+  const { kanjiName, meanings, kun, on, hiragana } = route.params.paramsData
+  const { isWord } = route.params
 
   return (
     <ScrollView contentContainerStyle={styles.container}>
@@ -21,19 +22,30 @@ export default function KanjiDetail({ route }) {
         ))}
       </View>
 
-      <Text style={styles.header}> Kunyomi Readings</Text>
-      <View style={styles.pillHolder}>
-        {on.map((item, index) => (
-          <Pill key={item} index={index} subject={item} />
-        ))}
-      </View>
+      {isWord ? (
+        <>
+          <Text style={styles.header}>hiragana</Text>
+          <View style={styles.pillHolder}>
+            <Pill subject={hiragana} />
+          </View>
+        </>
+      ) : (
+        <>
+          <Text style={styles.header}> Kunyomi Readings</Text>
+          <View style={styles.pillHolder}>
+            {on.map((item, index) => (
+              <Pill key={item} index={index} subject={item} />
+            ))}
+          </View>
 
-      <Text style={styles.header}>Onyomi Readings</Text>
-      <View style={styles.pillHolder}>
-        {kun.map((item, index) => (
-          <Pill key={item} index={index} subject={item} />
-        ))}
-      </View>
+          <Text style={styles.header}>Onyomi Readings</Text>
+          <View style={styles.pillHolder}>
+            {kun.map((item, index) => (
+              <Pill key={item} index={index} subject={item} />
+            ))}
+          </View>
+        </>
+      )}
     </ScrollView>
   )
 }

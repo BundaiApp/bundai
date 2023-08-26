@@ -215,7 +215,9 @@ export default function Home({ navigation: { navigate } }) {
                   jlptLevel: false,
                   grades: false,
                   strokes: false,
-                  verbs: i.topicName === 'verbs' ?? false
+                  verbs: i.topicName === 'verbs' ?? false,
+                  nouns: i.topicName === 'nouns' ?? false,
+                  isWord: i.topicName === 'verbs' || 'nouns' ? true : false
                 })
               }
               blockHeader={i.header}

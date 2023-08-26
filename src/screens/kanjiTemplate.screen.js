@@ -16,14 +16,15 @@ import Strokes from '../util/strokesAll.json'
 import Jlpt from '../util/jlptAll.json'
 import Grades from '../util/gradesAll.json'
 import Verbs from '../util/verbs.json'
+import Nouns from '../util/nouns.json'
 
 function TemplateKanji({ navigation: { navigate }, route }) {
-  const { jlptLevel, strokes, grades, verbs } = route.params
+  const { jlptLevel, strokes, grades, verbs, isWord, nouns } = route.params
 
   const [arr, setArr] = useState([])
 
   function navigateToDetailScreen(item) {
-    navigate('KanjiDetail', { paramsData: item })
+    navigate('KanjiDetail', { paramsData: item, isWord })
   }
 
   useEffect(() => {
@@ -31,6 +32,7 @@ function TemplateKanji({ navigation: { navigate }, route }) {
     if (strokes) setArr(Strokes[strokes])
     if (grades) setArr(Grades[grades])
     if (verbs) setArr(Verbs)
+    if (nouns) setArr(Nouns)
   }, [jlptLevel, strokes, grades])
 
   return (
@@ -45,7 +47,11 @@ function TemplateKanji({ navigation: { navigate }, route }) {
           </TouchableOpacity>
         )}
         numColumns={
-          verbs ? (Platform.OS != 'ios' && Platform.OS != 'android' ? 4 : 2) : 5
+          isWord
+            ? Platform.OS != 'ios' && Platform.OS != 'android'
+              ? 3
+              : 2
+            : 5
         }
         style={styles.flatList} // background color of the FlatList
         contentContainerStyle={styles.flatListContent} // background color of the content
