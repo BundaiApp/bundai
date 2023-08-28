@@ -4,7 +4,8 @@ import {
   Text,
   TouchableOpacity,
   StyleSheet,
-  SafeAreaView
+  SafeAreaView,
+  ScrollView
 } from 'react-native'
 import {
   widthPercentageToDP as wp,
@@ -27,6 +28,10 @@ const whichColor = blockHeader => {
       return 'moccasin'
     case 'Adverbs':
       return 'lightskyblue'
+    case 'Hiragana':
+      return 'thistle'
+    case 'Katakana':
+      return 'moccasin'
     default:
       return 'lightskyblue'
   }
@@ -101,7 +106,9 @@ export default function Home({ navigation: { navigate } }) {
   const [topic, setTopic] = useState()
 
   return (
-    <SafeAreaView style={styles.container}>
+    <ScrollView
+      style={styles.scrollView}
+      contentContainerStyle={styles.contentContainer}>
       <VerticalSpacer height={3} />
 
       <View style={styles.blockHolder}>
@@ -234,15 +241,52 @@ export default function Home({ navigation: { navigate } }) {
           ))}
         </View>
       </View>
-    </SafeAreaView>
+
+      <View style={styles.blockHolder}>
+        <Text style={styles.h1}>Kana 仮名</Text>
+        <VerticalSpacer height={2} />
+        <Text style={styles.h4}>Hirgana & Katakana</Text>
+        <VerticalSpacer height={2} />
+        <Text style={styles.h4}>Letters of Japanese Language</Text>
+        <VerticalSpacer height={4} />
+
+        <View style={[styles.wordsRow, { justifyContent: 'flex-start' }]}>
+          <SmallBlock
+            handlePress={() =>
+              navigate('KanjiTemplate', {
+                hiragana: true
+              })
+            }
+            blockHeader={'Hiragana'}
+            sub={'Japanese letters'}
+          />
+
+          <HorizontalSpacer width={3} />
+
+          <SmallBlock
+            handlePress={() =>
+              navigate('KanjiTemplate', {
+                katakana: true
+              })
+            }
+            blockHeader={'Katakana'}
+            sub={'Letters for Foreign words'}
+          />
+        </View>
+      </View>
+    </ScrollView>
   )
 }
 
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    alignItems: 'center',
+  scrollView: {
+    height: '80%',
     backgroundColor: 'ivory'
+  },
+  contentContainer: {
+    alignItems: 'center',
+    backgroundColor: 'ivory',
+    paddingBottom: '50%'
   },
   blockHolder: {
     width: '95%',

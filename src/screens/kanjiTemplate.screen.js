@@ -19,6 +19,8 @@ import Verbs from '../util/verbs.json'
 import Nouns from '../util/nouns.json'
 import Adjectives from '../util/adj.json'
 import Adverbs from '../util/adverbs.json'
+import Katakana from '../util/katakana.json'
+import Hiragana from '../util/hiragana.json'
 
 function TemplateKanji({ navigation: { navigate }, route }) {
   const {
@@ -29,13 +31,19 @@ function TemplateKanji({ navigation: { navigate }, route }) {
     nouns,
     verbs,
     adjectives,
-    adverbs
+    adverbs,
+    katakana,
+    hiragana
   } = route.params
 
   const [arr, setArr] = useState([])
 
   function navigateToDetailScreen(item) {
-    navigate('KanjiDetail', { paramsData: item, isWord })
+    navigate('KanjiDetail', {
+      paramsData: item,
+      isWord,
+      isKana: hiragana || katakana
+    })
   }
 
   useEffect(() => {
@@ -46,6 +54,8 @@ function TemplateKanji({ navigation: { navigate }, route }) {
     if (nouns) setArr(Nouns)
     if (adjectives) setArr(Adjectives)
     if (adverbs) setArr(Adverbs)
+    if (hiragana) setArr(Hiragana)
+    if (katakana) setArr(Katakana)
   }, [jlptLevel, strokes, grades])
 
   return (

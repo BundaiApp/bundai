@@ -36,7 +36,7 @@ export default function Navigator() {
 
           tabBarActiveTintColor: 'black',
           tabBarInactiveTintColor: 'dimgray',
-          tabBarIcon: ({ focused, color, size = 22 }) => {
+          tabBarIcon: ({ color }) => {
             let iconName
             switch (route.name) {
               case 'Words':

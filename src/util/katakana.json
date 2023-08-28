@@ -1,0 +1,527 @@
+[
+  {
+    "kanjiName": "ア",
+    "meanings": "a",
+    "type": "gojuuon"
+  },
+  {
+    "kanjiName": "イ",
+    "meanings": "i",
+    "type": "gojuuon"
+  },
+  {
+    "kanjiName": "ウ",
+    "meanings": "u",
+    "type": "gojuuon"
+  },
+  {
+    "kanjiName": "エ",
+    "meanings": "e",
+    "type": "gojuuon"
+  },
+  {
+    "kanjiName": "オ",
+    "meanings": "o",
+    "type": "gojuuon"
+  },
+  {
+    "kanjiName": "カ",
+    "meanings": "ka",
+    "type": "gojuuon"
+  },
+  {
+    "kanjiName": "キ",
+    "meanings": "ki",
+    "type": "gojuuon"
+  },
+  {
+    "kanjiName": "ク",
+    "meanings": "ku",
+    "type": "gojuuon"
+  },
+  {
+    "kanjiName": "ケ",
+    "meanings": "ke",
+    "type": "gojuuon"
+  },
+  {
+    "kanjiName": "コ",
+    "meanings": "ko",
+    "type": "gojuuon"
+  },
+  {
+    "kanjiName": "サ",
+    "meanings": "sa",
+    "type": "gojuuon"
+  },
+  {
+    "kanjiName": "シ",
+    "meanings": "shi",
+    "type": "gojuuon"
+  },
+  {
+    "kanjiName": "ス",
+    "meanings": "su",
+    "type": "gojuuon"
+  },
+  {
+    "kanjiName": "セ",
+    "meanings": "se",
+    "type": "gojuuon"
+  },
+  {
+    "kanjiName": "ソ",
+    "meanings": "so",
+    "type": "gojuuon"
+  },
+  {
+    "kanjiName": "タ",
+    "meanings": "ta",
+    "type": "gojuuon"
+  },
+  {
+    "kanjiName": "チ",
+    "meanings": "chi",
+    "type": "gojuuon"
+  },
+  {
+    "kanjiName": "ツ",
+    "meanings": "tsu",
+    "type": "gojuuon"
+  },
+  {
+    "kanjiName": "テ",
+    "meanings": "te",
+    "type": "gojuuon"
+  },
+  {
+    "kanjiName": "ト",
+    "meanings": "to",
+    "type": "gojuuon"
+  },
+  {
+    "kanjiName": "ナ",
+    "meanings": "na",
+    "type": "gojuuon"
+  },
+  {
+    "kanjiName": "ニ",
+    "meanings": "ni",
+    "type": "gojuuon"
+  },
+  {
+    "kanjiName": "ヌ",
+    "meanings": "nu",
+    "type": "gojuuon"
+  },
+  {
+    "kanjiName": "ネ",
+    "meanings": "ne",
+    "type": "gojuuon"
+  },
+  {
+    "kanjiName": "ノ",
+    "meanings": "no",
+    "type": "gojuuon"
+  },
+  {
+    "kanjiName": "ハ",
+    "meanings": "ha",
+    "type": "gojuuon"
+  },
+  {
+    "kanjiName": "ヒ",
+    "meanings": "hi",
+    "type": "gojuuon"
+  },
+  {
+    "kanjiName": "フ",
+    "meanings": "hu",
+    "type": "gojuuon"
+  },
+  {
+    "kanjiName": "ヘ",
+    "meanings": "he",
+    "type": "gojuuon"
+  },
+  {
+    "kanjiName": "ホ",
+    "meanings": "ho",
+    "type": "gojuuon"
+  },
+  {
+    "kanjiName": "マ",
+    "meanings": "ma",
+    "type": "gojuuon"
+  },
+  {
+    "kanjiName": "ミ",
+    "meanings": "mi",
+    "type": "gojuuon"
+  },
+  {
+    "kanjiName": "ム",
+    "meanings": "mu",
+    "type": "gojuuon"
+  },
+  {
+    "kanjiName": "メ",
+    "meanings": "me",
+    "type": "gojuuon"
+  },
+  {
+    "kanjiName": "モ",
+    "meanings": "mo",
+    "type": "gojuuon"
+  },
+  {
+    "kanjiName": "ヤ",
+    "meanings": "ya",
+    "type": "gojuuon"
+  },
+  {
+    "kanjiName": "ユ",
+    "meanings": "yu",
+    "type": "gojuuon"
+  },
+  {
+    "kanjiName": "ヨ",
+    "meanings": "yo",
+    "type": "gojuuon"
+  },
+  {
+    "kanjiName": "ラ",
+    "meanings": "ra",
+    "type": "gojuuon"
+  },
+  {
+    "kanjiName": "リ",
+    "meanings": "ri",
+    "type": "gojuuon"
+  },
+  {
+    "kanjiName": "ル",
+    "meanings": "ru",
+    "type": "gojuuon"
+  },
+  {
+    "kanjiName": "レ",
+    "meanings": "re",
+    "type": "gojuuon"
+  },
+  {
+    "kanjiName": "ロ",
+    "meanings": "ro",
+    "type": "gojuuon"
+  },
+  {
+    "kanjiName": "ワ",
+    "meanings": "wa",
+    "type": "gojuuon"
+  },
+  {
+    "kanjiName": "ヲ",
+    "meanings": "wo",
+    "type": "gojuuon"
+  },
+  {
+    "kanjiName": "ン",
+    "meanings": "n",
+    "type": "gojuuon"
+  },
+  {
+    "kanjiName": "ガ",
+    "meanings": "ga",
+    "type": "dakuon"
+  },
+  {
+    "kanjiName": "ギ",
+    "meanings": "gi",
+    "type": "dakuon"
+  },
+  {
+    "kanjiName": "グ",
+    "meanings": "gu",
+    "type": "dakuon"
+  },
+  {
+    "kanjiName": "ゲ",
+    "meanings": "ge",
+    "type": "dakuon"
+  },
+  {
+    "kanjiName": "ゴ",
+    "meanings": "go",
+    "type": "dakuon"
+  },
+  {
+    "kanjiName": "ザ",
+    "meanings": "za",
+    "type": "dakuon"
+  },
+  {
+    "kanjiName": "ジ",
+    "meanings": "ji",
+    "type": "dakuon"
+  },
+  {
+    "kanjiName": "ズ",
+    "meanings": "zu",
+    "type": "dakuon"
+  },
+  {
+    "kanjiName": "ゼ",
+    "meanings": "ze",
+    "type": "dakuon"
+  },
+  {
+    "kanjiName": "ゾ",
+    "meanings": "zo",
+    "type": "dakuon"
+  },
+  {
+    "kanjiName": "ダ",
+    "meanings": "da",
+    "type": "dakuon"
+  },
+  {
+    "kanjiName": "ヂ",
+    "meanings": "ji",
+    "type": "dakuon"
+  },
+  {
+    "kanjiName": "ヅ",
+    "meanings": "zu",
+    "type": "dakuon"
+  },
+  {
+    "kanjiName": "デ",
+    "meanings": "de",
+    "type": "dakuon"
+  },
+  {
+    "kanjiName": "ド",
+    "meanings": "do",
+    "type": "dakuon"
+  },
+  {
+    "kanjiName": "バ",
+    "meanings": "ba",
+    "type": "dakuon"
+  },
+  {
+    "kanjiName": "ビ",
+    "meanings": "bi",
+    "type": "dakuon"
+  },
+  {
+    "kanjiName": "ブ",
+    "meanings": "bu",
+    "type": "dakuon"
+  },
+  {
+    "kanjiName": "ベ",
+    "meanings": "be",
+    "type": "dakuon"
+  },
+  {
+    "kanjiName": "ボ",
+    "meanings": "bo",
+    "type": "dakuon"
+  },
+  {
+    "kanjiName": "パ",
+    "meanings": "pa",
+    "type": "handakuon"
+  },
+  {
+    "kanjiName": "ピ",
+    "meanings": "pi",
+    "type": "handakuon"
+  },
+  {
+    "kanjiName": "プ",
+    "meanings": "pu",
+    "type": "handakuon"
+  },
+  {
+    "kanjiName": "ペ",
+    "meanings": "pe",
+    "type": "handakuon"
+  },
+  {
+    "kanjiName": "ポ",
+    "meanings": "po",
+    "type": "handakuon"
+  },
+  {
+    "kanjiName": "ッ",
+    "meanings": "(pause)",
+    "type": "sokuon"
+  },
+  {
+    "kanjiName": "キャ",
+    "meanings": "kya",
+    "type": "youon"
+  },
+  {
+    "kanjiName": "キュ",
+    "meanings": "kyu",
+    "type": "youon"
+  },
+  {
+    "kanjiName": "キョ",
+    "meanings": "kyo",
+    "type": "youon"
+  },
+  {
+    "kanjiName": "シャ",
+    "meanings": "sha",
+    "type": "youon"
+  },
+  {
+    "kanjiName": "シュ",
+    "meanings": "shu",
+    "type": "youon"
+  },
+  {
+    "kanjiName": "ショ",
+    "meanings": "sho",
+    "type": "youon"
+  },
+  {
+    "kanjiName": "チャ",
+    "meanings": "cha",
+    "type": "youon"
+  },
+  {
+    "kanjiName": "チュ",
+    "meanings": "chu",
+    "type": "youon"
+  },
+  {
+    "kanjiName": "チョ",
+    "meanings": "cho",
+    "type": "youon"
+  },
+  {
+    "kanjiName": "ニャ",
+    "meanings": "nya",
+    "type": "youon"
+  },
+  {
+    "kanjiName": "ニュ",
+    "meanings": "nyu",
+    "type": "youon"
+  },
+  {
+    "kanjiName": "ニョ",
+    "meanings": "nyo",
+    "type": "youon"
+  },
+  {
+    "kanjiName": "ヒャ",
+    "meanings": "hya",
+    "type": "youon"
+  },
+  {
+    "kanjiName": "ヒュ",
+    "meanings": "hyu",
+    "type": "youon"
+  },
+  {
+    "kanjiName": "ヒョ",
+    "meanings": "hyo",
+    "type": "youon"
+  },
+  {
+    "kanjiName": "ミャ",
+    "meanings": "mya",
+    "type": "youon"
+  },
+  {
+    "kanjiName": "ミュ",
+    "meanings": "myu",
+    "type": "youon"
+  },
+  {
+    "kanjiName": "ミョ",
+    "meanings": "myo",
+    "type": "youon"
+  },
+  {
+    "kanjiName": "リャ",
+    "meanings": "rya",
+    "type": "youon"
+  },
+  {
+    "kanjiName": "リュ",
+    "meanings": "ryu",
+    "type": "youon"
+  },
+  {
+    "kanjiName": "リョ",
+    "meanings": "ryo",
+    "type": "youon"
+  },
+  {
+    "kanjiName": "ギャ",
+    "meanings": "gya",
+    "type": "youon"
+  },
+  {
+    "kanjiName": "ギュ",
+    "meanings": "gyu",
+    "type": "youon"
+  },
+  {
+    "kanjiName": "ギョ",
+    "meanings": "gyo",
+    "type": "youon"
+  },
+  {
+    "kanjiName": "ジャ",
+    "meanings": "ja",
+    "type": "youon"
+  },
+  {
+    "kanjiName": "ジュ",
+    "meanings": "ju",
+    "type": "youon"
+  },
+  {
+    "kanjiName": "ジョ",
+    "meanings": "jo",
+    "type": "youon"
+  },
+  {
+    "kanjiName": "ビャ",
+    "meanings": "bya",
+    "type": "youon"
+  },
+  {
+    "kanjiName": "ビュ",
+    "meanings": "byu",
+    "type": "youon"
+  },
+  {
+    "kanjiName": "ビョ",
+    "meanings": "byo",
+    "type": "youon"
+  },
+  {
+    "kanjiName": "ピャ",
+    "meanings": "pya",
+    "type": "youon"
+  },
+  {
+    "kanjiName": "ピュ",
+    "meanings": "pyu",
+    "type": "youon"
+  },
+  {
+    "kanjiName": "ピョ",
+    "meanings": "pyo",
+    "type": "youon"
+  }
+]

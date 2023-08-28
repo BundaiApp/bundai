@@ -9,7 +9,7 @@ const Pill = ({ subject }) => (
 
 export default function KanjiDetail({ route }) {
   const { kanjiName, meanings, kun, on, hiragana } = route.params.paramsData
-  const { isWord } = route.params
+  const { isWord, isKana } = route.params
 
   return (
     <ScrollView contentContainerStyle={styles.container}>
@@ -17,12 +17,16 @@ export default function KanjiDetail({ route }) {
 
       <Text style={styles.header}>Meanings</Text>
       <View style={styles.pillHolder}>
-        {meanings.map((item, index) => (
-          <Pill key={item} index={index} subject={item} />
-        ))}
+        {typeof meanings != 'string' ? (
+          meanings.map((item, index) => (
+            <Pill key={item} index={index} subject={item} />
+          ))
+        ) : (
+          <Pill subject={meanings} />
+        )}
       </View>
 
-      {isWord ? (
+      {isKana ? null : isWord ? (
         <>
           <Text style={styles.header}>hiragana</Text>
           <View style={styles.pillHolder}>
