@@ -145,7 +145,8 @@ export default function Home({ navigation: { navigate } }) {
                   isAll={false}
                   handlePress={() =>
                     navigate('KanjiTemplate', {
-                      jlptLevel: 5 - index
+                      jlptLevel: 5 - index,
+                      title: `JLPT Level ${5 - index}`
                     })
                   }
                 />
