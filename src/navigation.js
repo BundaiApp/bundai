@@ -23,7 +23,11 @@ export default function Navigator() {
         <Stack.Screen name="Home" component={HomeScreen} />
         <Stack.Screen name="KanjiDetail" component={KanjiDetailScreen} />
         <Stack.Screen name="AllKanji" component={AllKanji} />
-        <Stack.Screen name="KanjiTemplate" component={KanjiTemplateScreen} />
+        <Stack.Screen
+          name="KanjiTemplate"
+          component={KanjiTemplateScreen}
+          options={({ route }) => ({ headerTitle: route.params.title })}
+        />
       </Stack.Navigator>
     )
   }
