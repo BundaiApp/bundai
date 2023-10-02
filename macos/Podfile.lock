@@ -248,6 +248,8 @@ PODS:
   - React-jsinspector (0.71.23)
   - React-logger (0.71.23):
     - glog
+  - react-native-sqlite-2 (3.6.2):
+    - React-Core
   - React-perflogger (0.71.23)
   - React-RCTActionSheet (0.71.23):
     - React-Core/RCTActionSheetHeaders (= 0.71.23)
@@ -353,6 +355,7 @@ DEPENDENCIES:
   - React-jsiexecutor (from `../node_modules/react-native-macos/ReactCommon/jsiexecutor`)
   - React-jsinspector (from `../node_modules/react-native-macos/ReactCommon/jsinspector`)
   - React-logger (from `../node_modules/react-native-macos/ReactCommon/logger`)
+  - react-native-sqlite-2 (from `../node_modules/react-native-sqlite-2`)
   - React-perflogger (from `../node_modules/react-native-macos/ReactCommon/reactperflogger`)
   - React-RCTActionSheet (from `../node_modules/react-native-macos/Libraries/ActionSheetIOS`)
   - React-RCTAnimation (from `../node_modules/react-native-macos/Libraries/NativeAnimation`)
@@ -412,6 +415,8 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native-macos/ReactCommon/jsinspector"
   React-logger:
     :path: "../node_modules/react-native-macos/ReactCommon/logger"
+  react-native-sqlite-2:
+    :path: "../node_modules/react-native-sqlite-2"
   React-perflogger:
     :path: "../node_modules/react-native-macos/ReactCommon/reactperflogger"
   React-RCTActionSheet:
@@ -462,6 +467,7 @@ SPEC CHECKSUMS:
   React-jsiexecutor: bcc845ab7c79102da5b5d58f0a01931996bd4bbf
   React-jsinspector: 3d9f98ddcb2c861126f05c827754f9ce40a38050
   React-logger: 294f06dac218562214f4990a3a69efd03731a807
+  react-native-sqlite-2: 21c4a9d439e92193a8712c68492731c014671b53
   React-perflogger: bdf8219f93df00c44a78d69e7885eaa846c51321
   React-RCTActionSheet: e158091dd59419f5b07a82009e8273a8de683527
   React-RCTAnimation: 78de017c13a5a451f0c4424dcdef66a4b37d1c99
