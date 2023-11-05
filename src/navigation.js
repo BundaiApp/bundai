@@ -4,11 +4,15 @@ import { createBottomTabNavigator } from '@react-navigation/bottom-tabs'
 import { createStackNavigator } from '@react-navigation/stack'
 import { Icon } from 'react-native-elements'
 
+//Words stack
 import HomeScreen from './screens/home.screen'
 import KanjiDetailScreen from './screens/kanjiDetails.screen'
 import AllKanji from './screens/allKanji.screen'
-import ExamScreen from './screens/exam.screen'
 import KanjiTemplateScreen from './screens/kanjiTemplate.screen'
+
+//Other Screens
+import ExamScreen from './screens/exam.screen'
+import QuizScreen from './screens/quiz.screen'
 
 export default function Navigator() {
   const Stack = createStackNavigator()
@@ -37,7 +41,6 @@ export default function Navigator() {
       <Tab.Navigator
         screenOptions={({ route }) => ({
           headerShown: false,
-
           tabBarActiveTintColor: 'black',
           tabBarInactiveTintColor: 'dimgray',
           tabBarIcon: ({ color }) => {
@@ -55,7 +58,9 @@ export default function Navigator() {
               case 'Talk':
                 iconName = 'mic-circle'
                 break
-
+              case 'Quiz':
+                iconName = 'book'
+                break
               default:
             }
             // You can return any component that you like here!
@@ -65,6 +70,7 @@ export default function Navigator() {
           }
         })}>
         <Tab.Screen name="Words" component={HomeStack} />
+        <Tab.Screen name="Quiz" component={QuizScreen} />
         <Tab.Screen name="Exam" component={ExamScreen} />
         <Tab.Screen name="Game" component={ExamScreen} />
         <Tab.Screen name="Talk" component={ExamScreen} />
