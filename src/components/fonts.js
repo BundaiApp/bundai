@@ -3,14 +3,17 @@ import { StyleSheet } from 'react-native'
 export const FONTS = StyleSheet.create({
 	// ################# Bold ##################
 	bold36: {
+		fontWeight: 'bold',
 		fontFamily: 'Menlo',
 		fontSize: 36
 	},
 	bold46: {
+		fontWeight: 'bold',
 		fontFamily: 'Menlo',
 		fontSize: 46
 	},
 	bold24: {
+		fontWeight: 'bold',
 		fontFamily: 'Menlo',
 		fontSize: 24
 	},
@@ -19,26 +22,32 @@ export const FONTS = StyleSheet.create({
 		fontSize: 21
 	},
 	bold18: {
+		fontWeight: 'bold',
 		fontFamily: 'Menlo',
 		fontSize: 18
 	},
 	bold16: {
+		fontWeight: 'bold',
 		fontFamily: 'Menlo',
 		fontSize: 16
 	},
 	bold14: {
+		fontWeight: 'bold',
 		fontFamily: 'Menlo',
 		fontSize: 14
 	},
 	bold12: {
+		fontWeight: 'bold',
 		fontFamily: 'Menlo',
 		fontSize: 12
 	},
 	bold11: {
+		fontWeight: 'bold',
 		fontFamily: 'Menlo',
 		fontSize: 11
 	},
 	bold10: {
+		fontWeight: 'bold',
 		fontFamily: 'Menlo',
 		fontSize: 10
 	},

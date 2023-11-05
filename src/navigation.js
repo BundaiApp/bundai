@@ -12,69 +12,67 @@ import KanjiTemplateScreen from './screens/kanjiTemplate.screen'
 
 //Other Screens
 import ExamScreen from './screens/exam.screen'
-import QuizScreen from './screens/quiz.screen'
+import { QuizScreen } from './screens/quiz.screen'
 
 export default function Navigator() {
-  const Stack = createStackNavigator()
-  const Tab = createBottomTabNavigator()
+	const Stack = createStackNavigator()
+	const Tab = createBottomTabNavigator()
 
-  function HomeStack() {
-    return (
-      <Stack.Navigator
-        screenOptions={{
-          headerStyle: { backgroundColor: 'papayawhip' }
-        }}>
-        <Stack.Screen name="Home" component={HomeScreen} />
-        <Stack.Screen name="KanjiDetail" component={KanjiDetailScreen} />
-        <Stack.Screen name="AllKanji" component={AllKanji} />
-        <Stack.Screen
-          name="KanjiTemplate"
-          component={KanjiTemplateScreen}
-          options={({ route }) => ({ headerTitle: route.params.title })}
-        />
-      </Stack.Navigator>
-    )
-  }
+	function HomeStack() {
+		return (
+			<Stack.Navigator
+				screenOptions={{
+					headerStyle: { backgroundColor: 'papayawhip' }
+				}}>
+				<Stack.Screen name="Home" component={HomeScreen} />
+				<Stack.Screen name="KanjiDetail" component={KanjiDetailScreen} />
+				<Stack.Screen name="AllKanji" component={AllKanji} />
+				<Stack.Screen
+					name="KanjiTemplate"
+					component={KanjiTemplateScreen}
+					options={({ route }) => ({ headerTitle: route.params.title })}
+				/>
+			</Stack.Navigator>
+		)
+	}
 
-  return (
-    <NavigationContainer>
-      <Tab.Navigator
-        screenOptions={({ route }) => ({
-          headerShown: false,
-          tabBarActiveTintColor: 'black',
-          tabBarInactiveTintColor: 'dimgray',
-          tabBarIcon: ({ color }) => {
-            let iconName
-            switch (route.name) {
-              case 'Words':
-                iconName = 'file-tray-full'
-                break
-              case 'Exam':
-                iconName = 'document-sharp'
-                break
-              case 'Game':
-                iconName = 'game-controller'
-                break
-              case 'Talk':
-                iconName = 'mic-circle'
-                break
-              case 'Quiz':
-                iconName = 'book'
-                break
-              default:
-            }
-            // You can return any component that you like here!
-            return (
-              <Icon name={iconName} type={'ionicon'} size={26} colo r={color} />
-            )
-          }
-        })}>
-        <Tab.Screen name="Words" component={HomeStack} />
-        <Tab.Screen name="Quiz" component={QuizScreen} />
-        <Tab.Screen name="Exam" component={ExamScreen} />
-        <Tab.Screen name="Game" component={ExamScreen} />
-        <Tab.Screen name="Talk" component={ExamScreen} />
-      </Tab.Navigator>
-    </NavigationContainer>
-  )
+	return (
+		<NavigationContainer>
+			<Tab.Navigator
+				screenOptions={({ route }) => ({
+					headerShown: false,
+					tabBarActiveTintColor: 'black',
+					tabBarInactiveTintColor: 'dimgray',
+					tabBarIcon: ({ color }) => {
+						let iconName
+						switch (route.name) {
+							case 'Words':
+								iconName = 'file-tray-full'
+								break
+							case 'Exam':
+								iconName = 'document-sharp'
+								break
+							case 'Game':
+								iconName = 'game-controller'
+								break
+							case 'Talk':
+								iconName = 'mic-circle'
+								break
+							case 'Quiz':
+								iconName = 'book'
+								break
+							default:
+						}
+						// You can return any component that you like here!
+						return <Icon name={iconName} type={'ionicon'} size={26} colo r={color} />
+					}
+				})}>
+				<Tab.Screen name="Words" component={HomeStack} />
+				<Tab.Screen name="Quiz" component={QuizScreen} />
+				<Tab.Screen name="Exam" component={ExamScreen} />
+				<Tab.Screen name="Game" component={ExamScreen} />
+				<Tab.Screen name="Talk" component={ExamScreen} />
+			</Tab.Navigator>
+		</NavigationContainer>
+	)
 }
