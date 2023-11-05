@@ -47,9 +47,7 @@ export default function QuizSettings({ navigation: { navigate } }) {
 			<View style={styles.buttonContainer}>
 				<TouchableOpacity
 					style={styles.quizButton}
-					onPress={() => {
-						navigate('Quiz')
-					}}>
+					onPress={() => navigate('QuizEngine', { questionsArray: selected })}>
 					<Text style={styles.buttonText}>Start Quiz</Text>
 				</TouchableOpacity>
 			</View>

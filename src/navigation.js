@@ -10,10 +10,13 @@ import KanjiDetailScreen from './screens/kanjiDetails.screen'
 import AllKanji from './screens/allKanji.screen'
 import KanjiTemplateScreen from './screens/kanjiTemplate.screen'
 
-//Other Screens
-import ExamScreen from './screens/exam.screen'
+//Quiz Screens
 import { QuizScreen } from './screens/quiz.screen'
-import QuizSettings from './screens/quizSettings.screen'
+import QuizSettingScreen from './screens/quizSettings.screen'
+import QuizEngineScreen from './screens/quizEngine.screen'
+
+//exam screen
+import ExamScreen from './screens/exam.screen'
 
 export default function Navigator() {
 	const Stack = createStackNavigator()
@@ -44,7 +47,8 @@ export default function Navigator() {
 					headerStyle: { backgroundColor: 'papayawhip' }
 				}}>
 				<Stack.Screen name="QuizHome" component={QuizScreen} />
-				<Stack.Screen name="QuizSettings" component={QuizSettings} />
+				<Stack.Screen name="QuizSettings" component={QuizSettingScreen} />
+				<Stack.Screen name="QuizEngine" component={QuizEngineScreen} />
 			</Stack.Navigator>
 		)
 	}

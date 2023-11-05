@@ -2,6 +2,11 @@ import { StyleSheet } from 'react-native'
 
 export const FONTS = StyleSheet.create({
 	// ################# Bold ##################
+	bold60: {
+		fontWeight: 'bold',
+		fontFamily: 'Menlo',
+		fontSize: 60
+	},
 	bold36: {
 		fontWeight: 'bold',
 		fontFamily: 'Menlo',
