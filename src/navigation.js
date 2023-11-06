@@ -13,7 +13,7 @@ import KanjiTemplateScreen from './screens/kanjiTemplate.screen'
 //Quiz Screens
 import { QuizScreen } from './screens/quiz.screen'
 import QuizSettings from './screens/quizSettings.screen'
-import QuizEngine from './screens/quizEngine.screen'
+import { QuizEngine } from './screens/quizEngine.screen'
 //import QuizResult from '../screens/quizResult.screen'
 
 //exam screen

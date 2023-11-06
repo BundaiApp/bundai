@@ -1,17 +1,21 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import { View, Text, StyleSheet, TouchableOpacity } from 'react-native'
 
 //utils
 import { FONTS } from '../components/fonts'
 
-const QuizScreen = ({ navigation, route }) => {
+export const QuizEngine = ({ navigation, route }) => {
+	//route params
 	const { questionsArray } = route.params
+	//state
 	const [number, setNumber] = useState(0)
+	const [selectedAns, setSelectedAns] = useState(null)
 
-	// handle answer press
-	const handlePressOption = (answer) => {
+	const moveToNextQuestion = () => {
+		//set the next question
 		if (number != questionsArray.length - 1) {
 			setNumber(number + 1)
+			setSelectedAns(null)
 		} else if (number === questionsArray.length - 1) {
 			navigation.popToTop()
 		}
@@ -22,15 +26,32 @@ const QuizScreen = ({ navigation, route }) => {
 			<View style={styles.topSection}>
 				<Text style={styles.kanjiText}>{questionsArray[number].kanjiName}</Text>
 			</View>
+
 			<View style={styles.bottomSection}>
 				{questionsArray[number].quizAnswers.map((answer, index) => (
 					<TouchableOpacity
 						key={index}
-						style={styles.option}
-						onPress={() => handlePressOption(answer)}>
+						style={[
+							styles.option,
+							{
+								backgroundColor:
+									selectedAns === answer
+										? questionsArray[number].meanings.includes(answer)
+											? 'mediumaquamarine'
+											: 'salmon'
+										: 'white'
+							}
+						]}
+						onPress={() => setSelectedAns(answer)}>
 						<Text style={styles.optionText}>{answer}</Text>
 					</TouchableOpacity>
 				))}
+			</View>
+
+			<View style={styles.buttonContainer}>
+				<TouchableOpacity style={styles.quizButton} onPress={moveToNextQuestion}>
+					<Text style={styles.buttonText}>Continue</Text>
+				</TouchableOpacity>
 			</View>
 		</View>
 	)
@@ -41,18 +62,30 @@ const styles = StyleSheet.create({
 		flex: 1,
 		backgroundColor: 'beige'
 	},
+
+	//3 sections
 	topSection: {
-		flex: 1,
+		flex: 3 / 2,
 		justifyContent: 'center',
 		alignItems: 'center'
 	},
-	kanjiText: {
-		...FONTS.bold60
-	},
 	bottomSection: {
+		flex: 1,
 		flexDirection: 'row',
 		flexWrap: 'wrap',
 		justifyContent: 'space-around'
+	},
+	buttonContainer: {
+		flex: 1 / 5,
+		width: '100%',
+		paddingHorizontal: '5%',
+		justifyContent: 'center',
+		alignItems: 'center',
+		paddingBottom: 20
+	},
+
+	kanjiText: {
+		...FONTS.bold60
 	},
 	option: {
 		width: '45%', // Approximate for two columns, adjust as needed
@@ -67,12 +100,15 @@ const styles = StyleSheet.create({
 		fontSize: 20,
 		color: '#333'
 	},
-
-	flatListItem: {
-		flex: 1,
+	buttonText: {
+		...FONTS.bold18,
+		marginVertical: 15
+	},
+	quizButton: {
 		width: '100%',
-		height: '100%'
+		borderRadius: 20,
+		backgroundColor: 'khaki',
+		justifyContent: 'center',
+		alignItems: 'center'
 	}
 })
-
-export default QuizScreen
