@@ -16,7 +16,7 @@ export default function Home({ navigation: { navigate } }) {
 			<VerticalSpacer height={3} />
 
 			<View style={styles.blockHolder}>
-				<TextBlock t1={'Kanji'} t2={'Japanese characters'} t3={'With meanings & pronunciations'} />
+				<TextBlock tx1={'Kanji'} tx2={'Japanese characters'} tx3={'With meanings & pronunciations'} />
 
 				<VerticalSpacer height={3} />
 
@@ -96,7 +96,7 @@ export default function Home({ navigation: { navigate } }) {
 			</View>
 
 			<View style={styles.blockHolder}>
-				<TextBlock t1={'Words 文甫'} t2={'Words with Hiragana'} t3={'With meanings & pronunciations'} />
+				<TextBlock tx1={'Words 文甫'} tx2={'Words with Hiragana'} tx3={'With meanings & pronunciations'} />
 
 				<View style={styles.wordsRow}>
 					{words.map((i) => (
@@ -122,7 +122,7 @@ export default function Home({ navigation: { navigate } }) {
 			</View>
 
 			<View style={styles.blockHolder}>
-				<TextBlock t1={'Kana 仮名'} t2={'Hirgana & Katakana'} t3={'Letters of Japanese Language'} />
+				<TextBlock tx1={'Kana 仮名'} tx2={'Hirgana & Katakana'} tx3={'Letters of Japanese Language'} />
 
 				<View style={[styles.wordsRow, { justifyContent: 'flex-start' }]}>
 					<SmallBlock
