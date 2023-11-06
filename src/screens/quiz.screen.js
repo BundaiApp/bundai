@@ -16,7 +16,7 @@ export const QuizScreen = ({ navigation: { navigate } }) => {
 						tx1={'Spaced Repetition System'}
 						tx1Color={'white'}
 						tx2={'Quiz'}
-						tx2Color={'yellow'}
+						tx2Color={'dimgray'}
 						tx3={'Retain what you learned'}
 						tx3Color={'white'}
 					/>
@@ -28,7 +28,7 @@ export const QuizScreen = ({ navigation: { navigate } }) => {
 					tx1={'Test your Knowledge'}
 					tx1Color={'dimgray'}
 					tx2={'Quiz'}
-					tx2Color={'#3F5EFB'}
+					tx2Color={'lightskyblue'}
 					tx3={'Choose either SRS or Instant Quiz'}
 					tx3Color={'gray'}
 				/>
@@ -51,11 +51,11 @@ export const QuizScreen = ({ navigation: { navigate } }) => {
 const styles = StyleSheet.create({
 	safeArea: {
 		flex: 1,
-		backgroundColor: '#3F5EFB'
+		backgroundColor: 'lightskyblue'
 	},
 	topSection: {
 		flex: 1,
-		backgroundColor: '#3F5EFB',
+		backgroundColor: 'lightskyblue',
 		paddingHorizontal: 20,
 		justifyContent: 'flex-end',
 		paddingBottom: 30
