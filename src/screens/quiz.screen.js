@@ -78,8 +78,8 @@ const styles = StyleSheet.create({
 		justifyContent: 'center',
 		alignItems: 'center',
 		backgroundColor: 'beige',
-		width: wp('40%'),
-		height: wp('40%'),
+		width: '45%',
+		height: '80%',
 		borderRadius: wp('5%'),
 		marginRight: 20
 	}
