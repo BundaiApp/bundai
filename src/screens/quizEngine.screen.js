@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState } from 'react'
 import { View, Text, StyleSheet, TouchableOpacity } from 'react-native'
 
 //utils
@@ -12,12 +12,16 @@ export const QuizEngine = ({ navigation, route }) => {
 	const [selectedAns, setSelectedAns] = useState(null)
 
 	const moveToNextQuestion = () => {
-		//set the next question
-		if (number != questionsArray.length - 1) {
-			setNumber(number + 1)
-			setSelectedAns(null)
-		} else if (number === questionsArray.length - 1) {
-			navigation.popToTop()
+		if (!selectedAns) {
+			alert('Choose an answer first')
+		} else {
+			//set the next question
+			if (number != questionsArray.length - 1) {
+				setNumber(number + 1)
+				setSelectedAns(null)
+			} else if (number === questionsArray.length - 1) {
+				navigation.popToTop()
+			}
 		}
 	}
 
