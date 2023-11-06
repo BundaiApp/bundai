@@ -1,50 +1,32 @@
-import React from 'react'
-import { View, Text, StyleSheet, TouchableOpacity, FlatList } from 'react-native'
-import { widthPercentageToDP as wp, heightPercentageToDP as hp } from 'react-native-responsive-screen'
+import React, { useState } from 'react'
+import { View, Text, StyleSheet, TouchableOpacity } from 'react-native'
 
 //utils
 import { FONTS } from '../components/fonts'
 
 const QuizScreen = ({ route }) => {
 	const { questionsArray } = route.params
+	const [number, setNumber] = useState(0)
 
-	// Example function to handle option press
-	const handlePressOption = (option) => {
-		console.log('Option selected:', option)
-		// Here you might set the state, navigate to the next question, etc.
-	}
-
-	const FlatListItem = ({ item }) => {
-		return (
-			<View style={styles.flatListItem}>
-				<View style={styles.topSection}>
-					<Text style={styles.kanjiText}>{item.kanjiName}</Text>
-				</View>
-				<View style={styles.bottomSection}>
-					{[item.meanings[0], 'wrong answer', 'another wrong answer', 'wrong'].map((answer, index) => (
-						<TouchableOpacity key={index} style={styles.option} onPress={() => handlePressOption(answer)}>
-							<Text style={styles.optionText}>{answer}</Text>
-						</TouchableOpacity>
-					))}
-				</View>
-			</View>
-		)
+	// handle answer press
+	const handlePressOption = (answer) => {
+		if (number != arr.length) {
+			setNumber(number + 1)
+		}
 	}
 
 	return (
 		<View style={styles.container}>
-			<FlatList
-				data={questionsArray}
-				renderItem={({ item }) => <FlatListItem item={item} />}
-				showsVerticalScrollIndicator={false}
-				horizontal={true}
-				pagingEnabled
-				getItemLayout={(questionsArray, index) => ({
-					length: wp('100%'),
-					offset: wp('100%') * index,
-					index
-				})}
-			/>
+			<View style={styles.topSection}>
+				<Text style={styles.kanjiText}>{questionsArray[number].kanjiName}</Text>
+			</View>
+			<View style={styles.bottomSection}>
+				{[questionsArray[number].meanings[0], 'wrong answer', 'another wrong answer', 'wrong'].map((answer, index) => (
+					<TouchableOpacity key={index} style={styles.option} onPress={() => handlePressOption(answer)}>
+						<Text style={styles.optionText}>{answer}</Text>
+					</TouchableOpacity>
+				))}
+			</View>
 		</View>
 	)
 }
@@ -65,10 +47,7 @@ const styles = StyleSheet.create({
 	bottomSection: {
 		flexDirection: 'row',
 		flexWrap: 'wrap',
-		justifyContent: 'space-around',
-		backgroundColor: 'red',
-		borderColor: 'white',
-		borderWidth: 3
+		justifyContent: 'space-around'
 	},
 	option: {
 		width: '45%', // Approximate for two columns, adjust as needed
