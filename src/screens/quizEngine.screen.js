@@ -23,16 +23,14 @@ const QuizScreen = ({ navigation, route }) => {
 				<Text style={styles.kanjiText}>{questionsArray[number].kanjiName}</Text>
 			</View>
 			<View style={styles.bottomSection}>
-				{[questionsArray[number].meanings[0], 'wrong answer', 'another wrong answer', 'wrong'].map(
-					(answer, index) => (
-						<TouchableOpacity
-							key={index}
-							style={styles.option}
-							onPress={() => handlePressOption(answer)}>
-							<Text style={styles.optionText}>{answer}</Text>
-						</TouchableOpacity>
-					)
-				)}
+				{questionsArray[number].quizAnswers.map((answer, index) => (
+					<TouchableOpacity
+						key={index}
+						style={styles.option}
+						onPress={() => handlePressOption(answer)}>
+						<Text style={styles.optionText}>{answer}</Text>
+					</TouchableOpacity>
+				))}
 			</View>
 		</View>
 	)
