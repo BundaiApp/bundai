@@ -1,11 +1,11 @@
 import React, { useState } from 'react'
 import { View, Text, TouchableOpacity, StyleSheet, FlatList } from 'react-native'
 import { widthPercentageToDP as wp } from 'react-native-responsive-screen'
-import { PanGestureHandler, State } from 'react-native-gesture-handler'
 
 //components
 import { Pill } from '../components/blocks'
 import { FONTS } from '../components/fonts'
+import { VerticalSpacer } from '../components/spacers'
 
 //utils
 import Jlpt from '../util/jlptAll.json'
@@ -20,6 +20,13 @@ export default function QuizSettings({ navigation: { navigate } }) {
 			: setSelected([...selected, item])
 	}
 
+	const selectAll = () => {
+		return setSelected([...selected, ...Jlpt[jlptLevel]])
+	}
+
+	const unSelectAll = () => {
+		return setSelected([])
+	}
 	const checkThenNavigate = () => {
 		return selected.length === 0
 			? alert('please select some kanji')
@@ -30,7 +37,7 @@ export default function QuizSettings({ navigation: { navigate } }) {
 		<View style={styles.container}>
 			<Text style={styles.text}>JLPT</Text>
 			<View style={styles.row}>
-				{new Array(5).fill(1).map((i, index) => (
+				{new Array(5).fill(1).map((_, index) => (
 					<Pill
 						key={index}
 						index={index}
@@ -55,9 +62,20 @@ export default function QuizSettings({ navigation: { navigate } }) {
 							<Text style={styles.kanjiText}>{item.kanjiName}</Text>
 						</TouchableOpacity>
 					)}
-					numColumns={5}
+					numColumns={Platform.OS != 'ios' && Platform.OS != 'android' ? 7 : 5}
 					showsVerticalScrollIndicator={false}
 				/>
+			</View>
+
+			<VerticalSpacer height={1} />
+
+			<View style={styles.buttonsRow}>
+				<TouchableOpacity style={styles.selectButton} onPress={selectAll}>
+					<Text style={styles.buttonText}>select all</Text>
+				</TouchableOpacity>
+				<TouchableOpacity style={styles.selectButton} onPress={unSelectAll}>
+					<Text style={styles.buttonText}>unselect all</Text>
+				</TouchableOpacity>
 			</View>
 
 			<View style={styles.buttonContainer}>
@@ -119,6 +137,13 @@ const styles = StyleSheet.create({
 		justifyContent: 'center',
 		alignItems: 'center'
 	},
+	selectButton: {
+		width: '45%',
+		borderRadius: 20,
+		backgroundColor: 'khaki',
+		justifyContent: 'center',
+		alignItems: 'center'
+	},
 	buttonText: {
 		...FONTS.bold18,
 		marginVertical: 15
@@ -128,5 +153,10 @@ const styles = StyleSheet.create({
 		width: '100%',
 		justifyContent: 'flex-end',
 		paddingBottom: 20
+	},
+	buttonsRow: {
+		flexDirection: 'row',
+		justifyContent: 'space-around',
+		width: '100%'
 	}
 })
