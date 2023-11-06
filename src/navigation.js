@@ -81,7 +81,7 @@ export default function Navigator() {
 							default:
 						}
 						// You can return any component that you like here!
-						return <Icon name={iconName} type={'ionicon'} size={26} colo r={color} />
+						return <Icon name={iconName} type={'ionicon'} size={26} color={color} />
 					}
 				})}>
 				<Tab.Screen name="Words" component={HomeStack} />
