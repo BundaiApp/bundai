@@ -13,6 +13,18 @@ export default function QuizSettings({ navigation: { navigate } }) {
 	const [jlptLevel, setJlptLevel] = useState(5)
 	const [selected, setSelected] = useState([])
 
+	const checkIfSelected = (item) => {
+		return selected.includes(item)
+			? setSelected(selected.filter((i) => i !== item))
+			: setSelected([...selected, item])
+	}
+
+	const checkThenNavigate = () => {
+		return selected.length === 0
+			? alert('please select some kanji')
+			: navigate('QuizEngine', { questionsArray: selected })
+	}
+
 	return (
 		<View style={styles.container}>
 			<Text style={styles.text}>JLPT</Text>
@@ -34,8 +46,11 @@ export default function QuizSettings({ navigation: { navigate } }) {
 					data={Jlpt[jlptLevel]}
 					renderItem={({ item }) => (
 						<TouchableOpacity
-							style={[styles.block, { backgroundColor: selected.includes(item) ? 'khaki' : 'white' }]}
-							onPress={() => setSelected([...selected, item])}>
+							style={[
+								styles.block,
+								{ backgroundColor: selected.includes(item) ? 'khaki' : 'white' }
+							]}
+							onPress={() => checkIfSelected(item)}>
 							<Text style={styles.kanjiText}>{item.kanjiName}</Text>
 						</TouchableOpacity>
 					)}
@@ -45,9 +60,7 @@ export default function QuizSettings({ navigation: { navigate } }) {
 			</View>
 
 			<View style={styles.buttonContainer}>
-				<TouchableOpacity
-					style={styles.quizButton}
-					onPress={() => navigate('QuizEngine', { questionsArray: selected })}>
+				<TouchableOpacity style={styles.quizButton} onPress={checkThenNavigate}>
 					<Text style={styles.buttonText}>Start Quiz</Text>
 				</TouchableOpacity>
 			</View>
