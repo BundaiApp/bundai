@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { View, Text, TouchableOpacity, StyleSheet, FlatList } from 'react-native'
 import { widthPercentageToDP as wp } from 'react-native-responsive-screen'
+import { PanGestureHandler, State } from 'react-native-gesture-handler'
 
 //components
 import { Pill } from '../components/blocks'
@@ -129,16 +130,3 @@ const styles = StyleSheet.create({
 		paddingBottom: 20
 	}
 })
-
-// <Text style={styles.text}>Grade</Text>
-// 			<View style={styles.scrollViewContainer}>
-// 				<ScrollView horizontal={true}>
-// 					<>
-// 						{new Array(24).fill(1).map((i, index) => (
-// 							<Pill key={index} index={index} subject={'Stroke'} isAll={false} handlePress={() => console.log('aa')} />
-// 						))}
-// 						<Pill subject={'JLPT'} isAll={true} handlePress={() => navigate('AllKanji', { strokes: true })} />
-// 					</>
-// 				</ScrollView>
-// 			</View>
-//

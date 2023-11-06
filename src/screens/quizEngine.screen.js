@@ -4,14 +4,16 @@ import { View, Text, StyleSheet, TouchableOpacity } from 'react-native'
 //utils
 import { FONTS } from '../components/fonts'
 
-const QuizScreen = ({ route }) => {
+const QuizScreen = ({ navigation, route }) => {
 	const { questionsArray } = route.params
 	const [number, setNumber] = useState(0)
 
 	// handle answer press
 	const handlePressOption = (answer) => {
-		if (number != arr.length) {
+		if (number != questionsArray.length - 1) {
 			setNumber(number + 1)
+		} else if (number === questionsArray.length - 1) {
+			navigation.popToTop()
 		}
 	}
 
@@ -21,11 +23,16 @@ const QuizScreen = ({ route }) => {
 				<Text style={styles.kanjiText}>{questionsArray[number].kanjiName}</Text>
 			</View>
 			<View style={styles.bottomSection}>
-				{[questionsArray[number].meanings[0], 'wrong answer', 'another wrong answer', 'wrong'].map((answer, index) => (
-					<TouchableOpacity key={index} style={styles.option} onPress={() => handlePressOption(answer)}>
-						<Text style={styles.optionText}>{answer}</Text>
-					</TouchableOpacity>
-				))}
+				{[questionsArray[number].meanings[0], 'wrong answer', 'another wrong answer', 'wrong'].map(
+					(answer, index) => (
+						<TouchableOpacity
+							key={index}
+							style={styles.option}
+							onPress={() => handlePressOption(answer)}>
+							<Text style={styles.optionText}>{answer}</Text>
+						</TouchableOpacity>
+					)
+				)}
 			</View>
 		</View>
 	)
