@@ -42,6 +42,7 @@ export default function QuizSettings({ navigation: { navigate } }) {
     return setSelected([])
   }
   const checkThenNavigate = () => {
+    console.log(selected)
     return selected.length === 0
       ? alert('please select some kanji')
       : navigate('QuizEngine', { questionsArray: selected })
