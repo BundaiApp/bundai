@@ -8,12 +8,23 @@ import { FONTS } from '../components/fonts'
 import { VerticalSpacer } from '../components/spacers'
 
 //utils
-import Jlpt from '../util/jlptAll.json'
 import { topics, words, whichColor } from '../util/constants'
+
+//data
+import Jlpt from '../util/jlptAll.json'
+import Strokes from '../util/strokesAll.json'
+import Grades from '../util/gradesAll.json'
+import Verbs from '../util/verbs.json'
+import Nouns from '../util/nouns.json'
+import Adjectives from '../util/adj.json'
+import Adverbs from '../util/adverbs.json'
+import Katakana from '../util/katakana.json'
+import Hiragana from '../util/hiragana.json'
 
 export default function QuizSettings({ navigation: { navigate } }) {
   const [type, setType] = useState('jlpt')
   const [jlptLevel, setJlptLevel] = useState(5)
+  const [level, setLevel] = useState(5)
   const [selected, setSelected] = useState([])
 
   const checkIfSelected = (item) => {
@@ -41,6 +52,18 @@ export default function QuizSettings({ navigation: { navigate } }) {
     grades: 9
   }
 
+  const dataTypes = {
+    jlpt: Jlpt,
+    strokes: Strokes,
+    grades: Grades,
+    verbs: Verbs,
+    nouns: Nouns,
+    adjectives: Adjectives,
+    adverbs: Adverbs,
+    hiragana: Hiragana,
+    katakana: Katakana
+  }
+
   return (
     <View style={styles.container}>
       <View style={styles.row}>
@@ -54,19 +77,58 @@ export default function QuizSettings({ navigation: { navigate } }) {
         ))}
       </View>
 
-      <View style={styles.row}>
-        {Object.keys(types).includes(type)
-          ? new Array(types[type])
+      <View style={styles.jlptRow}>
+        {type === 'jlpt'
+          ? new Array(5)
               .fill(1)
               .map((i, index) => (
-                <Pill key={index} index={index} subject={'JLPT'} level={5} isAll={false} />
+                <Pill
+                  key={index}
+                  index={index}
+                  level={5}
+                  subject={'JLPT'}
+                  isAll={false}
+                  handlePress={() => setLevel(5 - index)}
+                />
+              ))
+          : null}
+
+        {type === 'strokes'
+          ? new Array(24)
+              .fill(1)
+              .map((i, index) => (
+                <Pill
+                  key={index}
+                  index={index}
+                  subject={'Stroke'}
+                  isAll={false}
+                  handlePress={() => setLevel(index + 1)}
+                />
+              ))
+          : null}
+
+        {type === 'grades'
+          ? new Array(9)
+              .fill(1)
+              .map((i, index) => (
+                <Pill
+                  key={index}
+                  index={index}
+                  subject={'Grade'}
+                  isAll={false}
+                  handlePress={() => setLevel(index + 1)}
+                />
               ))
           : null}
       </View>
 
       <View style={styles.flatlist}>
         <FlatList
-          data={Jlpt[jlptLevel]}
+          data={
+            type === 'jlpt' || type === 'strokes' || type === 'grades'
+              ? dataTypes[type][level]
+              : dataTypes[type]
+          }
           renderItem={({ item }) => (
             <TouchableOpacity
               style={[
@@ -188,6 +250,11 @@ const styles = StyleSheet.create({
     fontSize: 12,
     fontFamily: 'menlo',
     color: 'dimgray'
+  },
+  jlptRow: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    flexWrap: 'wrap'
   }
 })
 
