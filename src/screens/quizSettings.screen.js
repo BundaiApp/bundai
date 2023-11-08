@@ -23,7 +23,6 @@ import Hiragana from '../util/hiragana.json'
 
 export default function QuizSettings({ navigation: { navigate } }) {
   const [type, setType] = useState('jlpt')
-  const [jlptLevel, setJlptLevel] = useState(5)
   const [level, setLevel] = useState(5)
   const [selected, setSelected] = useState([])
 
@@ -121,7 +120,13 @@ export default function QuizSettings({ navigation: { navigate } }) {
           : null}
       </View>
 
-      <View style={styles.flatlist}>
+      <View
+        style={[
+          styles.flatlist,
+          {
+            height: type === 'strokes' ? '40%' : '50%'
+          }
+        ]}>
         <FlatList
           data={
             type === 'jlpt' || type === 'strokes' || type === 'grades'
@@ -132,13 +137,14 @@ export default function QuizSettings({ navigation: { navigate } }) {
             <TouchableOpacity
               style={[
                 styles.block,
-                { backgroundColor: selected.includes(item) ? 'khaki' : 'white' }
+                { backgroundColor: selected.includes(item) ? 'khaki' : 'white' },
+                { width: type === 'jlpt' || type === 'strokes' || type === 'grades' ? 50 : 100 }
               ]}
               onPress={() => checkIfSelected(item)}>
               <Text style={styles.kanjiText}>{item.kanjiName}</Text>
             </TouchableOpacity>
           )}
-          numColumns={Platform.OS != 'ios' && Platform.OS != 'android' ? 7 : 5}
+          numColumns={Platform.OS != 'ios' && Platform.OS != 'android' ? 7 : 3}
           showsVerticalScrollIndicator={false}
         />
       </View>
@@ -181,7 +187,6 @@ const styles = StyleSheet.create({
 
   flatlist: {
     width: '100%',
-    height: '60%',
     backgroundColor: '#C4C4B0',
     borderRadius: 20,
     padding: 5,
@@ -189,7 +194,6 @@ const styles = StyleSheet.create({
     alignItems: 'center'
   },
   block: {
-    width: 50,
     height: 50,
     margin: wp('1%'),
     padding: 10,
