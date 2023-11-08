@@ -34,7 +34,9 @@ export default function QuizSettings({ navigation: { navigate } }) {
   }
 
   const selectAll = () => {
-    return setSelected([...selected, ...Jlpt[jlptLevel]])
+    return type === 'jlpt' || type === 'strokes' || type === 'grades'
+      ? setSelected([...selected, ...dataTypes[type][level]])
+      : setSelected([...selected, ...dataTypes[type]])
   }
 
   const unSelectAll = () => {
@@ -44,12 +46,6 @@ export default function QuizSettings({ navigation: { navigate } }) {
     return selected.length === 0
       ? alert('please select some kanji')
       : navigate('QuizEngine', { questionsArray: selected })
-  }
-
-  const types = {
-    jlpt: 5,
-    strokes: 24,
-    grades: 9
   }
 
   const dataTypes = {
@@ -88,6 +84,7 @@ export default function QuizSettings({ navigation: { navigate } }) {
                   level={5}
                   subject={'JLPT'}
                   isAll={false}
+                  isSelected={level === 5 - index}
                   handlePress={() => setLevel(5 - index)}
                 />
               ))
@@ -102,6 +99,7 @@ export default function QuizSettings({ navigation: { navigate } }) {
                   index={index}
                   subject={'Stroke'}
                   isAll={false}
+                  isSelected={level === index + 1}
                   handlePress={() => setLevel(index + 1)}
                 />
               ))
@@ -116,6 +114,7 @@ export default function QuizSettings({ navigation: { navigate } }) {
                   index={index}
                   subject={'Grade'}
                   isAll={false}
+                  isSelected={level === index + 1}
                   handlePress={() => setLevel(index + 1)}
                 />
               ))
