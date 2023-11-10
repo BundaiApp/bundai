@@ -1,346 +1,1335 @@
 [
-  { "kanjiName": "する", "hiragana": "する", "meanings": ["to do"] },
-  { "kanjiName": "行く", "hiragana": "いく", "meanings": ["to go"] },
-  { "kanjiName": "来る", "hiragana": "くる", "meanings": ["to come"] },
+  {
+    "kanjiName": "する",
+    "hiragana": "する",
+    "meanings": [
+      "to do"
+    ],
+    "quizAnswers": [
+      "to do",
+      "to meet",
+      "to ride",
+      "to play"
+    ]
+  },
+  {
+    "kanjiName": "行く",
+    "hiragana": "いく",
+    "meanings": [
+      "to go"
+    ],
+    "quizAnswers": [
+      "to become",
+      "to go",
+      "to cut",
+      "to see"
+    ]
+  },
+  {
+    "kanjiName": "来る",
+    "hiragana": "くる",
+    "meanings": [
+      "to come"
+    ],
+    "quizAnswers": [
+      "to be able to use",
+      "to stop",
+      "to come",
+      "to know"
+    ]
+  },
   {
     "kanjiName": "見る",
     "hiragana": "みる",
-    "meanings": ["to see", "to watch"]
+    "meanings": [
+      "to see",
+      "to watch"
+    ],
+    "quizAnswers": [
+      "to make wait",
+      "to see",
+      "to wear",
+      "to be made to do (passive causative form)"
+    ]
   },
   {
     "kanjiName": "聞く",
     "hiragana": "きく",
-    "meanings": ["to listen", "to ask"]
+    "meanings": [
+      "to listen",
+      "to ask"
+    ],
+    "quizAnswers": [
+      "to descend",
+      "to watch",
+      "to cook",
+      "to listen"
+    ]
   },
-  { "kanjiName": "言う", "hiragana": "いう", "meanings": ["to say"] },
+  {
+    "kanjiName": "言う",
+    "hiragana": "いう",
+    "meanings": [
+      "to say"
+    ],
+    "quizAnswers": [
+      "to give",
+      "to say",
+      "to leave",
+      "to go"
+    ]
+  },
   {
     "kanjiName": "ある",
     "hiragana": "ある",
-    "meanings": ["to be (used with inanimate objects)"]
+    "meanings": [
+      "to be (used with inanimate objects)"
+    ],
+    "quizAnswers": [
+      "to become",
+      "to turn on",
+      "to have",
+      "to be (used with inanimate objects)"
+    ]
   },
-  { "kanjiName": "なる", "hiragana": "なる", "meanings": ["to become"] },
-  { "kanjiName": "食べる", "hiragana": "たべる", "meanings": ["to eat"] },
-  { "kanjiName": "飲む", "hiragana": "のむ", "meanings": ["to drink"] },
-  { "kanjiName": "読む", "hiragana": "よむ", "meanings": ["to read"] },
-  { "kanjiName": "書く", "hiragana": "かく", "meanings": ["to write"] },
+  {
+    "kanjiName": "なる",
+    "hiragana": "なる",
+    "meanings": [
+      "to become"
+    ],
+    "quizAnswers": [
+      "to read",
+      "to turn on",
+      "to become",
+      "to cook"
+    ]
+  },
+  {
+    "kanjiName": "食べる",
+    "hiragana": "たべる",
+    "meanings": [
+      "to eat"
+    ],
+    "quizAnswers": [
+      "to eat",
+      "to take a walk",
+      "to get up",
+      "to change"
+    ]
+  },
+  {
+    "kanjiName": "飲む",
+    "hiragana": "のむ",
+    "meanings": [
+      "to drink"
+    ],
+    "quizAnswers": [
+      "to come",
+      "to be able to use",
+      "to drink",
+      "to live"
+    ]
+  },
+  {
+    "kanjiName": "読む",
+    "hiragana": "よむ",
+    "meanings": [
+      "to read"
+    ],
+    "quizAnswers": [
+      "to read",
+      "to take a walk",
+      "to see",
+      "to write"
+    ]
+  },
+  {
+    "kanjiName": "書く",
+    "hiragana": "かく",
+    "meanings": [
+      "to write"
+    ],
+    "quizAnswers": [
+      "to have",
+      "to leave",
+      "to write",
+      "to come"
+    ]
+  },
   {
     "kanjiName": "起きる",
     "hiragana": "おきる",
-    "meanings": ["to get up", "to wake up"]
+    "meanings": [
+      "to get up",
+      "to wake up"
+    ],
+    "quizAnswers": [
+      "to make a call",
+      "to make wait",
+      "to get up",
+      "to drop"
+    ]
   },
-  { "kanjiName": "寝る", "hiragana": "ねる", "meanings": ["to sleep"] },
-  { "kanjiName": "知る", "hiragana": "しる", "meanings": ["to know"] },
-  { "kanjiName": "学ぶ", "hiragana": "まなぶ", "meanings": ["to learn"] },
-  { "kanjiName": "教える", "hiragana": "おしえる", "meanings": ["to teach"] },
-  { "kanjiName": "考える", "hiragana": "かんがえる", "meanings": ["to think"] },
-  { "kanjiName": "使う", "hiragana": "つかう", "meanings": ["to use"] },
-  { "kanjiName": "買う", "hiragana": "かう", "meanings": ["to buy"] },
-  { "kanjiName": "売る", "hiragana": "うる", "meanings": ["to sell"] },
-  { "kanjiName": "送る", "hiragana": "おくる", "meanings": ["to send"] },
-  { "kanjiName": "貸す", "hiragana": "かす", "meanings": ["to lend"] },
-  { "kanjiName": "借りる", "hiragana": "かりる", "meanings": ["to borrow"] },
-  { "kanjiName": "歩く", "hiragana": "あるく", "meanings": ["to walk"] },
-  { "kanjiName": "待つ", "hiragana": "まつ", "meanings": ["to wait"] },
-  { "kanjiName": "着る", "hiragana": "きる", "meanings": ["to wear"] },
+  {
+    "kanjiName": "寝る",
+    "hiragana": "ねる",
+    "meanings": [
+      "to sleep"
+    ],
+    "quizAnswers": [
+      "to shop",
+      "to sleep",
+      "to be visible",
+      "to insert"
+    ]
+  },
+  {
+    "kanjiName": "知る",
+    "hiragana": "しる",
+    "meanings": [
+      "to know"
+    ],
+    "quizAnswers": [
+      "to travel",
+      "to say",
+      "to listen",
+      "to know"
+    ]
+  },
+  {
+    "kanjiName": "学ぶ",
+    "hiragana": "まなぶ",
+    "meanings": [
+      "to learn"
+    ],
+    "quizAnswers": [
+      "to create",
+      "to learn",
+      "to pick up",
+      "to take"
+    ]
+  },
+  {
+    "kanjiName": "教える",
+    "hiragana": "おしえる",
+    "meanings": [
+      "to teach"
+    ],
+    "quizAnswers": [
+      "to teach",
+      "to open",
+      "to gain",
+      "to cost"
+    ]
+  },
+  {
+    "kanjiName": "考える",
+    "hiragana": "かんがえる",
+    "meanings": [
+      "to think"
+    ],
+    "quizAnswers": [
+      "to drink",
+      "to take time",
+      "to create",
+      "to think"
+    ]
+  },
+  {
+    "kanjiName": "使う",
+    "hiragana": "つかう",
+    "meanings": [
+      "to use"
+    ],
+    "quizAnswers": [
+      "to depart",
+      "to use",
+      "to cook",
+      "to make wait"
+    ]
+  },
+  {
+    "kanjiName": "買う",
+    "hiragana": "かう",
+    "meanings": [
+      "to buy"
+    ],
+    "quizAnswers": [
+      "to walk",
+      "to send",
+      "to buy",
+      "to be (used with inanimate objects)"
+    ]
+  },
+  {
+    "kanjiName": "売る",
+    "hiragana": "うる",
+    "meanings": [
+      "to sell"
+    ],
+    "quizAnswers": [
+      "to see",
+      "to buy",
+      "to sell",
+      "to die"
+    ]
+  },
+  {
+    "kanjiName": "送る",
+    "hiragana": "おくる",
+    "meanings": [
+      "to send"
+    ],
+    "quizAnswers": [
+      "to be able to use",
+      "to send",
+      "to get off",
+      "to close"
+    ]
+  },
+  {
+    "kanjiName": "貸す",
+    "hiragana": "かす",
+    "meanings": [
+      "to lend"
+    ],
+    "quizAnswers": [
+      "to wait",
+      "to watch",
+      "to cook",
+      "to lend"
+    ]
+  },
+  {
+    "kanjiName": "借りる",
+    "hiragana": "かりる",
+    "meanings": [
+      "to borrow"
+    ],
+    "quizAnswers": [
+      "to drop",
+      "to borrow",
+      "to sleep",
+      "to close"
+    ]
+  },
+  {
+    "kanjiName": "歩く",
+    "hiragana": "あるく",
+    "meanings": [
+      "to walk"
+    ],
+    "quizAnswers": [
+      "to go",
+      "to walk",
+      "to close",
+      "to finish"
+    ]
+  },
+  {
+    "kanjiName": "待つ",
+    "hiragana": "まつ",
+    "meanings": [
+      "to wait"
+    ],
+    "quizAnswers": [
+      "to feign",
+      "to wait",
+      "to swim",
+      "to live"
+    ]
+  },
+  {
+    "kanjiName": "着る",
+    "hiragana": "きる",
+    "meanings": [
+      "to wear"
+    ],
+    "quizAnswers": [
+      "to go out",
+      "to rest",
+      "to obtain",
+      "to wear"
+    ]
+  },
   {
     "kanjiName": "脱ぐ",
     "hiragana": "ぬぐ",
-    "meanings": ["to take off (clothes)"]
+    "meanings": [
+      "to take off (clothes)"
+    ],
+    "quizAnswers": [
+      "to take off (clothes)",
+      "to begin",
+      "to arrive",
+      "to make listen"
+    ]
   },
-  { "kanjiName": "遊ぶ", "hiragana": "あそぶ", "meanings": ["to play"] },
-  { "kanjiName": "泳ぐ", "hiragana": "およぐ", "meanings": ["to swim"] },
+  {
+    "kanjiName": "遊ぶ",
+    "hiragana": "あそぶ",
+    "meanings": [
+      "to play"
+    ],
+    "quizAnswers": [
+      "to play",
+      "to fall",
+      "to hold",
+      "to arrive"
+    ]
+  },
+  {
+    "kanjiName": "泳ぐ",
+    "hiragana": "およぐ",
+    "meanings": [
+      "to swim"
+    ],
+    "quizAnswers": [
+      "to swim",
+      "to be visible",
+      "to gain",
+      "to come"
+    ]
+  },
   {
     "kanjiName": "話す",
     "hiragana": "はなす",
-    "meanings": ["to talk", "to speak"]
+    "meanings": [
+      "to talk",
+      "to speak"
+    ],
+    "quizAnswers": [
+      "to give",
+      "to know",
+      "to talk",
+      "to be (used with inanimate objects)"
+    ]
   },
   {
     "kanjiName": "買い物する",
     "hiragana": "かいものする",
-    "meanings": ["to shop"]
+    "meanings": [
+      "to shop"
+    ],
+    "quizAnswers": [
+      "to fall",
+      "to depart",
+      "to listen",
+      "to shop"
+    ]
   },
   {
     "kanjiName": "料理する",
     "hiragana": "りょうりする",
-    "meanings": ["to cook"]
+    "meanings": [
+      "to cook"
+    ],
+    "quizAnswers": [
+      "to fall",
+      "to play",
+      "to wear",
+      "to cook"
+    ]
   },
   {
     "kanjiName": "勉強する",
     "hiragana": "べんきょうする",
-    "meanings": ["to study"]
+    "meanings": [
+      "to study"
+    ],
+    "quizAnswers": [
+      "to turn on",
+      "to take a break",
+      "to make listen",
+      "to study"
+    ]
   },
   {
     "kanjiName": "散歩する",
     "hiragana": "さんぽする",
-    "meanings": ["to take a walk"]
+    "meanings": [
+      "to take a walk"
+    ],
+    "quizAnswers": [
+      "to be able to say",
+      "to turn on",
+      "to take a walk",
+      "to make (causative form)"
+    ]
   },
   {
     "kanjiName": "旅行する",
     "hiragana": "りょこうする",
-    "meanings": ["to travel"]
+    "meanings": [
+      "to travel"
+    ],
+    "quizAnswers": [
+      "to turn on",
+      "to travel",
+      "to feign",
+      "to arrive"
+    ]
   },
   {
     "kanjiName": "睡眠する",
     "hiragana": "すいみんする",
-    "meanings": ["to sleep"]
+    "meanings": [
+      "to sleep"
+    ],
+    "quizAnswers": [
+      "to sleep",
+      "to know",
+      "to watch",
+      "to open"
+    ]
   },
   {
     "kanjiName": "休む",
     "hiragana": "やすむ",
-    "meanings": ["to rest", "to take a break"]
+    "meanings": [
+      "to rest",
+      "to take a break"
+    ],
+    "quizAnswers": [
+      "to rest",
+      "to ask",
+      "to become",
+      "to make listen"
+    ]
   },
   {
     "kanjiName": "運転する",
     "hiragana": "うんてんする",
-    "meanings": ["to drive"]
+    "meanings": [
+      "to drive"
+    ],
+    "quizAnswers": [
+      "to pick up",
+      "to fall",
+      "to write",
+      "to drive"
+    ]
   },
   {
     "kanjiName": "乗る",
     "hiragana": "のる",
-    "meanings": ["to ride", "to board"]
+    "meanings": [
+      "to ride",
+      "to board"
+    ],
+    "quizAnswers": [
+      "to ride",
+      "to make teach",
+      "to live",
+      "to use"
+    ]
   },
   {
     "kanjiName": "降りる",
     "hiragana": "おりる",
-    "meanings": ["to get off", "to descend"]
+    "meanings": [
+      "to get off",
+      "to descend"
+    ],
+    "quizAnswers": [
+      "to get off",
+      "to close",
+      "to depart",
+      "to sleep"
+    ]
   },
-  { "kanjiName": "切る", "hiragana": "きる", "meanings": ["to cut"] },
+  {
+    "kanjiName": "切る",
+    "hiragana": "きる",
+    "meanings": [
+      "to cut"
+    ],
+    "quizAnswers": [
+      "to buy (something from someone)",
+      "to take time",
+      "to walk",
+      "to cut"
+    ]
+  },
   {
     "kanjiName": "買い取る",
     "hiragana": "かいとる",
-    "meanings": ["to buy (something from someone)"]
+    "meanings": [
+      "to buy (something from someone)"
+    ],
+    "quizAnswers": [
+      "to leave",
+      "to sleep",
+      "to see",
+      "to buy (something from someone)"
+    ]
   },
   {
     "kanjiName": "救う",
     "hiragana": "すくう",
-    "meanings": ["to save", "to rescue"]
+    "meanings": [
+      "to save",
+      "to rescue"
+    ],
+    "quizAnswers": [
+      "to provide",
+      "to save",
+      "to sleep",
+      "to say"
+    ]
   },
-  { "kanjiName": "信じる", "hiragana": "しんじる", "meanings": ["to believe"] },
+  {
+    "kanjiName": "信じる",
+    "hiragana": "しんじる",
+    "meanings": [
+      "to believe"
+    ],
+    "quizAnswers": [
+      "to create",
+      "to say",
+      "to believe",
+      "to borrow"
+    ]
+  },
   {
     "kanjiName": "出発する",
     "hiragana": "しゅっぱつする",
-    "meanings": ["to depart"]
+    "meanings": [
+      "to depart"
+    ],
+    "quizAnswers": [
+      "to pick up",
+      "to rest",
+      "to depart",
+      "to ask"
+    ]
   },
   {
     "kanjiName": "到着する",
     "hiragana": "とうちゃくする",
-    "meanings": ["to arrive"]
+    "meanings": [
+      "to arrive"
+    ],
+    "quizAnswers": [
+      "to make a call",
+      "to drop",
+      "to arrive",
+      "to inform"
+    ]
   },
   {
     "kanjiName": "始める",
     "hiragana": "はじめる",
-    "meanings": ["to start", "to begin"]
+    "meanings": [
+      "to start",
+      "to begin"
+    ],
+    "quizAnswers": [
+      "to start",
+      "to become",
+      "to be visible",
+      "to make go"
+    ]
   },
   {
     "kanjiName": "終わる",
     "hiragana": "おわる",
-    "meanings": ["to finish", "to end"]
+    "meanings": [
+      "to finish",
+      "to end"
+    ],
+    "quizAnswers": [
+      "to finish",
+      "to depart",
+      "to leave",
+      "to wear"
+    ]
   },
-  { "kanjiName": "生きる", "hiragana": "いきる", "meanings": ["to live"] },
-  { "kanjiName": "死ぬ", "hiragana": "しぬ", "meanings": ["to die"] },
+  {
+    "kanjiName": "生きる",
+    "hiragana": "いきる",
+    "meanings": [
+      "to live"
+    ],
+    "quizAnswers": [
+      "to become",
+      "to sleep",
+      "to live",
+      "to watch"
+    ]
+  },
+  {
+    "kanjiName": "死ぬ",
+    "hiragana": "しぬ",
+    "meanings": [
+      "to die"
+    ],
+    "quizAnswers": [
+      "to die",
+      "to wait",
+      "to shop",
+      "to pretend"
+    ]
+  },
   {
     "kanjiName": "出る",
     "hiragana": "でる",
-    "meanings": ["to leave", "to exit"]
+    "meanings": [
+      "to leave",
+      "to exit"
+    ],
+    "quizAnswers": [
+      "to fall",
+      "to drink",
+      "to leave",
+      "to die"
+    ]
   },
-  { "kanjiName": "入る", "hiragana": "はいる", "meanings": ["to enter"] },
+  {
+    "kanjiName": "入る",
+    "hiragana": "はいる",
+    "meanings": [
+      "to enter"
+    ],
+    "quizAnswers": [
+      "to put in",
+      "to drop",
+      "to have",
+      "to enter"
+    ]
+  },
   {
     "kanjiName": "分かる",
     "hiragana": "わかる",
-    "meanings": ["to understand"]
+    "meanings": [
+      "to understand"
+    ],
+    "quizAnswers": [
+      "to turn on",
+      "to drive",
+      "to understand",
+      "to drink"
+    ]
   },
-  { "kanjiName": "忘れる", "hiragana": "わすれる", "meanings": ["to forget"] },
+  {
+    "kanjiName": "忘れる",
+    "hiragana": "わすれる",
+    "meanings": [
+      "to forget"
+    ],
+    "quizAnswers": [
+      "to get up",
+      "to change",
+      "to begin",
+      "to forget"
+    ]
+  },
   {
     "kanjiName": "覚える",
     "hiragana": "おぼえる",
-    "meanings": ["to memorize", "to remember"]
+    "meanings": [
+      "to memorize",
+      "to remember"
+    ],
+    "quizAnswers": [
+      "to give",
+      "to start",
+      "to memorize",
+      "to be able to use"
+    ]
   },
   {
     "kanjiName": "思う",
     "hiragana": "おもう",
-    "meanings": ["to think", "to feel"]
+    "meanings": [
+      "to think",
+      "to feel"
+    ],
+    "quizAnswers": [
+      "to think",
+      "to leave",
+      "to rest",
+      "to gain"
+    ]
   },
   {
     "kanjiName": "得る",
     "hiragana": "える",
-    "meanings": ["to gain", "to obtain"]
+    "meanings": [
+      "to gain",
+      "to obtain"
+    ],
+    "quizAnswers": [
+      "to make listen",
+      "to start",
+      "to borrow",
+      "to gain"
+    ]
   },
-  { "kanjiName": "失う", "hiragana": "うしなう", "meanings": ["to lose"] },
+  {
+    "kanjiName": "失う",
+    "hiragana": "うしなう",
+    "meanings": [
+      "to lose"
+    ],
+    "quizAnswers": [
+      "to meet",
+      "to take time",
+      "to occur",
+      "to lose"
+    ]
+  },
   {
     "kanjiName": "与える",
     "hiragana": "あたえる",
-    "meanings": ["to give", "to provide"]
+    "meanings": [
+      "to give",
+      "to provide"
+    ],
+    "quizAnswers": [
+      "to remember",
+      "to give",
+      "to inform",
+      "to search"
+    ]
   },
-  { "kanjiName": "待つ", "hiragana": "まつ", "meanings": ["to wait"] },
+  {
+    "kanjiName": "待つ",
+    "hiragana": "まつ",
+    "meanings": [
+      "to wait"
+    ],
+    "quizAnswers": [
+      "to know (be aware of)",
+      "to wait",
+      "to buy (something from someone)",
+      "to be visible"
+    ]
+  },
   {
     "kanjiName": "待たせる",
     "hiragana": "またせる",
-    "meanings": ["to make wait"]
+    "meanings": [
+      "to make wait"
+    ],
+    "quizAnswers": [
+      "to make",
+      "to cut",
+      "to lose",
+      "to make wait"
+    ]
   },
   {
     "kanjiName": "行かせる",
     "hiragana": "いかせる",
-    "meanings": ["to make go"]
+    "meanings": [
+      "to make go"
+    ],
+    "quizAnswers": [
+      "to take out",
+      "to buy (something from someone)",
+      "to make go",
+      "to fall"
+    ]
   },
   {
     "kanjiName": "言わせる",
     "hiragana": "いわせる",
-    "meanings": ["to make say"]
+    "meanings": [
+      "to make say"
+    ],
+    "quizAnswers": [
+      "to say",
+      "to sleep",
+      "to make say",
+      "to turn on"
+    ]
   },
   {
     "kanjiName": "食べさせる",
     "hiragana": "たべさせる",
-    "meanings": ["to make eat"]
+    "meanings": [
+      "to make eat"
+    ],
+    "quizAnswers": [
+      "to make eat",
+      "to buy (something from someone)",
+      "to memorize",
+      "to fall"
+    ]
   },
   {
     "kanjiName": "させる",
     "hiragana": "させる",
-    "meanings": ["to make (causative form)"]
+    "meanings": [
+      "to make (causative form)"
+    ],
+    "quizAnswers": [
+      "to swim",
+      "to provide",
+      "to wait",
+      "to make (causative form)"
+    ]
   },
   {
     "kanjiName": "させられる",
     "hiragana": "させられる",
-    "meanings": ["to be made to do (passive causative form)"]
+    "meanings": [
+      "to be made to do (passive causative form)"
+    ],
+    "quizAnswers": [
+      "to meet",
+      "to leave",
+      "to be made to do (passive causative form)",
+      "to lose"
+    ]
   },
   {
     "kanjiName": "聞かせる",
     "hiragana": "きかせる",
-    "meanings": ["to make listen"]
+    "meanings": [
+      "to make listen"
+    ],
+    "quizAnswers": [
+      "to pretend",
+      "to make listen",
+      "to show",
+      "to fall"
+    ]
   },
   {
     "kanjiName": "知らせる",
     "hiragana": "しらせる",
-    "meanings": ["to inform"]
+    "meanings": [
+      "to inform"
+    ],
+    "quizAnswers": [
+      "to make a call",
+      "to inform",
+      "to feel",
+      "to drop"
+    ]
   },
   {
     "kanjiName": "教えさせる",
     "hiragana": "おしえさせる",
-    "meanings": ["to make teach"]
+    "meanings": [
+      "to make teach"
+    ],
+    "quizAnswers": [
+      "to ask",
+      "to make teach",
+      "to forget",
+      "to memorize"
+    ]
   },
   {
     "kanjiName": "読ませる",
     "hiragana": "よませる",
-    "meanings": ["to make read"]
+    "meanings": [
+      "to make read"
+    ],
+    "quizAnswers": [
+      "to lose",
+      "to learn",
+      "to make read",
+      "to travel"
+    ]
   },
-  { "kanjiName": "見せる", "hiragana": "みせる", "meanings": ["to show"] },
+  {
+    "kanjiName": "見せる",
+    "hiragana": "みせる",
+    "meanings": [
+      "to show"
+    ],
+    "quizAnswers": [
+      "to happen",
+      "to wake up",
+      "to be made to do (passive causative form)",
+      "to show"
+    ]
+  },
   {
     "kanjiName": "見せかける",
     "hiragana": "みせかける",
-    "meanings": ["to pretend", "to feign"]
+    "meanings": [
+      "to pretend",
+      "to feign"
+    ],
+    "quizAnswers": [
+      "to drink",
+      "to attach",
+      "to pretend",
+      "to exit"
+    ]
   },
   {
     "kanjiName": "持つ",
     "hiragana": "もつ",
-    "meanings": ["to have", "to hold"]
+    "meanings": [
+      "to have",
+      "to hold"
+    ],
+    "quizAnswers": [
+      "to have",
+      "to create",
+      "to attach",
+      "to ride"
+    ]
   },
   {
     "kanjiName": "かかる",
     "hiragana": "かかる",
-    "meanings": ["to take time", "to cost"]
+    "meanings": [
+      "to take time",
+      "to cost"
+    ],
+    "quizAnswers": [
+      "to do",
+      "to cut",
+      "to take time",
+      "to take a walk"
+    ]
   },
   {
     "kanjiName": "かける",
     "hiragana": "かける",
-    "meanings": ["to put on (glasses)", "to make a call"]
+    "meanings": [
+      "to put on (glasses)",
+      "to make a call"
+    ],
+    "quizAnswers": [
+      "to make listen",
+      "to make",
+      "to put on (glasses)",
+      "to listen"
+    ]
   },
   {
     "kanjiName": "落ちる",
     "hiragana": "おちる",
-    "meanings": ["to fall", "to drop"]
+    "meanings": [
+      "to fall",
+      "to drop"
+    ],
+    "quizAnswers": [
+      "to shut",
+      "to finish",
+      "to make listen",
+      "to fall"
+    ]
   },
-  { "kanjiName": "開ける", "hiragana": "あける", "meanings": ["to open"] },
+  {
+    "kanjiName": "開ける",
+    "hiragana": "あける",
+    "meanings": [
+      "to open"
+    ],
+    "quizAnswers": [
+      "to put",
+      "to make listen",
+      "to open",
+      "to pretend"
+    ]
+  },
   {
     "kanjiName": "閉める",
     "hiragana": "しめる",
-    "meanings": ["to close", "to shut"]
+    "meanings": [
+      "to close",
+      "to shut"
+    ],
+    "quizAnswers": [
+      "to close",
+      "to speak",
+      "to return (something)",
+      "to find"
+    ]
   },
   {
     "kanjiName": "知っている",
     "hiragana": "しっている",
-    "meanings": ["to know (be aware of)"]
+    "meanings": [
+      "to know (be aware of)"
+    ],
+    "quizAnswers": [
+      "to find",
+      "to obtain",
+      "to know (be aware of)",
+      "to believe"
+    ]
   },
-  { "kanjiName": "会う", "hiragana": "あう", "meanings": ["to meet"] },
-  { "kanjiName": "見つける", "hiragana": "みつける", "meanings": ["to find"] },
+  {
+    "kanjiName": "会う",
+    "hiragana": "あう",
+    "meanings": [
+      "to meet"
+    ],
+    "quizAnswers": [
+      "to meet",
+      "to open",
+      "to use",
+      "to travel"
+    ]
+  },
+  {
+    "kanjiName": "見つける",
+    "hiragana": "みつける",
+    "meanings": [
+      "to find"
+    ],
+    "quizAnswers": [
+      "to make eat",
+      "to gain",
+      "to save",
+      "to find"
+    ]
+  },
   {
     "kanjiName": "見える",
     "hiragana": "みえる",
-    "meanings": ["to be visible", "to come into view"]
+    "meanings": [
+      "to be visible",
+      "to come into view"
+    ],
+    "quizAnswers": [
+      "to be visible",
+      "to eat",
+      "to drop",
+      "to borrow"
+    ]
   },
   {
     "kanjiName": "起こる",
     "hiragana": "おこる",
-    "meanings": ["to happen", "to occur"]
+    "meanings": [
+      "to happen",
+      "to occur"
+    ],
+    "quizAnswers": [
+      "to board",
+      "to speak",
+      "to become",
+      "to happen"
+    ]
   },
   {
     "kanjiName": "落ちる",
     "hiragana": "おちる",
-    "meanings": ["to fall", "to drop"]
+    "meanings": [
+      "to fall",
+      "to drop"
+    ],
+    "quizAnswers": [
+      "to fall",
+      "to memorize",
+      "to close",
+      "to happen"
+    ]
   },
   {
     "kanjiName": "出す",
     "hiragana": "だす",
-    "meanings": ["to take out", "to hand in"]
+    "meanings": [
+      "to take out",
+      "to hand in"
+    ],
+    "quizAnswers": [
+      "to search",
+      "to take out",
+      "to come",
+      "to study"
+    ]
   },
   {
     "kanjiName": "取る",
     "hiragana": "とる",
-    "meanings": ["to take", "to pick up"]
+    "meanings": [
+      "to take",
+      "to pick up"
+    ],
+    "quizAnswers": [
+      "to ride",
+      "to take",
+      "to speak",
+      "to cook"
+    ]
   },
   {
     "kanjiName": "置く",
     "hiragana": "おく",
-    "meanings": ["to put", "to place"]
+    "meanings": [
+      "to put",
+      "to place"
+    ],
+    "quizAnswers": [
+      "to eat",
+      "to put",
+      "to have",
+      "to search"
+    ]
   },
   {
     "kanjiName": "探す",
     "hiragana": "さがす",
-    "meanings": ["to search", "to look for"]
+    "meanings": [
+      "to search",
+      "to look for"
+    ],
+    "quizAnswers": [
+      "to search",
+      "to be made to do (passive causative form)",
+      "to create",
+      "to occur"
+    ]
   },
   {
     "kanjiName": "作る",
     "hiragana": "つくる",
-    "meanings": ["to make", "to create"]
+    "meanings": [
+      "to make",
+      "to create"
+    ],
+    "quizAnswers": [
+      "to make",
+      "to board",
+      "to end",
+      "to go out"
+    ]
   },
-  { "kanjiName": "止める", "hiragana": "とめる", "meanings": ["to stop"] },
+  {
+    "kanjiName": "止める",
+    "hiragana": "とめる",
+    "meanings": [
+      "to stop"
+    ],
+    "quizAnswers": [
+      "to stop",
+      "to be (used with inanimate objects)",
+      "to see",
+      "to study"
+    ]
+  },
   {
     "kanjiName": "入れる",
     "hiragana": "いれる",
-    "meanings": ["to put in", "to insert"]
+    "meanings": [
+      "to put in",
+      "to insert"
+    ],
+    "quizAnswers": [
+      "to go",
+      "to leave",
+      "to put in",
+      "to feel"
+    ]
   },
-  { "kanjiName": "変える", "hiragana": "かえる", "meanings": ["to change"] },
+  {
+    "kanjiName": "変える",
+    "hiragana": "かえる",
+    "meanings": [
+      "to change"
+    ],
+    "quizAnswers": [
+      "to change",
+      "to shop",
+      "to come",
+      "to sleep"
+    ]
+  },
   {
     "kanjiName": "出かける",
     "hiragana": "でかける",
-    "meanings": ["to go out", "to leave"]
+    "meanings": [
+      "to go out",
+      "to leave"
+    ],
+    "quizAnswers": [
+      "to be visible",
+      "to go out",
+      "to speak",
+      "to sleep"
+    ]
   },
   {
     "kanjiName": "返す",
     "hiragana": "かえす",
-    "meanings": ["to return (something)"]
+    "meanings": [
+      "to return (something)"
+    ],
+    "quizAnswers": [
+      "to walk",
+      "to make teach",
+      "to make listen",
+      "to return (something)"
+    ]
   },
   {
     "kanjiName": "続ける",
     "hiragana": "つづける",
-    "meanings": ["to continue"]
+    "meanings": [
+      "to continue"
+    ],
+    "quizAnswers": [
+      "to return (something)",
+      "to be able to use",
+      "to drive",
+      "to continue"
+    ]
   },
   {
     "kanjiName": "言える",
     "hiragana": "いえる",
-    "meanings": ["to be able to say"]
+    "meanings": [
+      "to be able to say"
+    ],
+    "quizAnswers": [
+      "to be able to say",
+      "to shut",
+      "to depart",
+      "to ride"
+    ]
   },
   {
     "kanjiName": "使える",
     "hiragana": "つかえる",
-    "meanings": ["to be able to use"]
+    "meanings": [
+      "to be able to use"
+    ],
+    "quizAnswers": [
+      "to leave",
+      "to be able to use",
+      "to insert",
+      "to make a call"
+    ]
   },
   {
     "kanjiName": "出る",
     "hiragana": "でる",
-    "meanings": ["to appear", "to come out"]
+    "meanings": [
+      "to appear",
+      "to come out"
+    ],
+    "quizAnswers": [
+      "to close",
+      "to appear",
+      "to save",
+      "to send"
+    ]
   },
   {
     "kanjiName": "つける",
     "hiragana": "つける",
-    "meanings": ["to attach", "to turn on"]
+    "meanings": [
+      "to attach",
+      "to turn on"
+    ],
+    "quizAnswers": [
+      "to speak",
+      "to buy (something from someone)",
+      "to attach",
+      "to board"
+    ]
   }
 ]
