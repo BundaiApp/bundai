@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { View, Text, TouchableOpacity, StyleSheet, FlatList, ScrollView } from 'react-native'
+import { View, Text, TouchableOpacity, StyleSheet, FlatList } from 'react-native'
 import { widthPercentageToDP as wp } from 'react-native-responsive-screen'
 
 //components
@@ -8,7 +8,7 @@ import { FONTS } from '../components/fonts'
 import { VerticalSpacer } from '../components/spacers'
 
 //utils
-import { topics, words, whichColor } from '../util/constants'
+import { topics, words, kana } from '../util/constants'
 
 //data
 import Jlpt from '../util/jlptAll.json'
@@ -42,7 +42,6 @@ export default function QuizSettings({ navigation: { navigate } }) {
     return setSelected([])
   }
   const checkThenNavigate = () => {
-    console.log(selected)
     return selected.length === 0
       ? alert('please select some kanji')
       : navigate('QuizEngine', { questionsArray: selected })
@@ -63,7 +62,7 @@ export default function QuizSettings({ navigation: { navigate } }) {
   return (
     <View style={styles.container}>
       <View style={styles.row}>
-        {[...topics, ...words].map((item) => (
+        {[...topics, ...words, ...kana].map((item) => (
           <TouchableOpacity
             style={styles.pill}
             key={item.header}
