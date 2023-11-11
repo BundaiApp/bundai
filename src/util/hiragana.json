@@ -2,2416 +2,1366 @@
   {
     "kanjiName": "あ",
     "meanings": [
-      [
-        "a"
-      ]
+      "a"
     ],
     "type": "gojuuon",
     "quizAnswers": [
-      [
-        "kya"
-      ],
-      [
-        "do"
-      ],
-      [
-        "ryo"
-      ],
-      [
-        "a"
-      ]
+      "kya",
+      "do",
+      "ryo",
+      "a"
     ]
   },
   {
     "kanjiName": "い",
     "meanings": [
-      [
-        "i"
-      ]
+      "i"
     ],
     "type": "gojuuon",
     "quizAnswers": [
-      [
-        "myu"
-      ],
-      [
-        "do"
-      ],
-      [
-        "mo"
-      ],
-      [
-        "i"
-      ]
+      "myu",
+      "do",
+      "mo",
+      "i"
     ]
   },
   {
     "kanjiName": "う",
     "meanings": [
-      [
-        "u"
-      ]
+      "u"
     ],
     "type": "gojuuon",
     "quizAnswers": [
-      [
-        "tsu"
-      ],
-      [
-        "ki"
-      ],
-      [
-        "u"
-      ],
-      [
-        "bo"
-      ]
+      "tsu",
+      "ki",
+      "u",
+      "bo"
     ]
   },
   {
     "kanjiName": "え",
     "meanings": [
-      [
-        "e"
-      ]
+      "e"
     ],
     "type": "gojuuon",
     "quizAnswers": [
-      [
-        "e"
-      ],
-      [
-        "go"
-      ],
-      [
-        "wo"
-      ],
-      [
-        "pa"
-      ]
+      "e",
+      "go",
+      "wo",
+      "pa"
     ]
   },
   {
     "kanjiName": "お",
     "meanings": [
-      [
-        "o"
-      ]
+      "o"
     ],
     "type": "gojuuon",
     "quizAnswers": [
-      [
-        "o"
-      ],
-      [
-        "shi"
-      ],
-      [
-        "sho"
-      ],
-      [
-        "shu"
-      ]
+      "o",
+      "shi",
+      "sho",
+      "shu"
     ]
   },
   {
     "kanjiName": "か",
     "meanings": [
-      [
-        "ka"
-      ]
+      "ka"
     ],
     "type": "gojuuon",
     "quizAnswers": [
-      [
-        "pya"
-      ],
-      [
-        "pa"
-      ],
-      [
-        "ya"
-      ],
-      [
-        "ka"
-      ]
+      "pya",
+      "pa",
+      "ya",
+      "ka"
     ]
   },
   {
     "kanjiName": "き",
     "meanings": [
-      [
-        "ki"
-      ]
+      "ki"
     ],
     "type": "gojuuon",
     "quizAnswers": [
-      [
-        "ki"
-      ],
-      [
-        "ya"
-      ],
-      [
-        "nyu"
-      ],
-      [
-        "(pause)"
-      ]
+      "ki",
+      "ya",
+      "nyu",
+      "(pause)"
     ]
   },
   {
     "kanjiName": "く",
     "meanings": [
-      [
-        "ku"
-      ]
+      "ku"
     ],
     "type": "gojuuon",
     "quizAnswers": [
-      [
-        "ge"
-      ],
-      [
-        "ku"
-      ],
-      [
-        "yu"
-      ],
-      [
-        "me"
-      ]
+      "ge",
+      "ku",
+      "yu",
+      "me"
     ]
   },
   {
     "kanjiName": "け",
     "meanings": [
-      [
-        "ke"
-      ]
+      "ke"
     ],
     "type": "gojuuon",
     "quizAnswers": [
-      [
-        "ke"
-      ],
-      [
-        "ko"
-      ],
-      [
-        "a"
-      ],
-      [
-        "da"
-      ]
+      "ke",
+      "ko",
+      "a",
+      "da"
     ]
   },
   {
     "kanjiName": "こ",
     "meanings": [
-      [
-        "ko"
-      ]
+      "ko"
     ],
     "type": "gojuuon",
     "quizAnswers": [
-      [
-        "ko"
-      ],
-      [
-        "nya"
-      ],
-      [
-        "wo"
-      ],
-      [
-        "bu"
-      ]
+      "ko",
+      "nya",
+      "wo",
+      "bu"
     ]
   },
   {
     "kanjiName": "さ",
     "meanings": [
-      [
-        "sa"
-      ]
+      "sa"
     ],
     "type": "gojuuon",
     "quizAnswers": [
-      [
-        "shu"
-      ],
-      [
-        "hyo"
-      ],
-      [
-        "cho"
-      ],
-      [
-        "sa"
-      ]
+      "shu",
+      "hyo",
+      "cho",
+      "sa"
     ]
   },
   {
     "kanjiName": "し",
     "meanings": [
-      [
-        "shi"
-      ]
+      "shi"
     ],
     "type": "gojuuon",
     "quizAnswers": [
-      [
-        "shi"
-      ],
-      [
-        "hyo"
-      ],
-      [
-        "hya"
-      ],
-      [
-        "mu"
-      ]
+      "shi",
+      "hyo",
+      "hya",
+      "mu"
     ]
   },
   {
     "kanjiName": "す",
     "meanings": [
-      [
-        "su"
-      ]
+      "su"
     ],
     "type": "gojuuon",
     "quizAnswers": [
-      [
-        "hya"
-      ],
-      [
-        "su"
-      ],
-      [
-        "mo"
-      ],
-      [
-        "pi"
-      ]
+      "hya",
+      "su",
+      "mo",
+      "pi"
     ]
   },
   {
     "kanjiName": "せ",
     "meanings": [
-      [
-        "se"
-      ]
+      "se"
     ],
     "type": "gojuuon",
     "quizAnswers": [
-      [
-        "pe"
-      ],
-      [
-        "se"
-      ],
-      [
-        "po"
-      ],
-      [
-        "ma"
-      ]
+      "pe",
+      "se",
+      "po",
+      "ma"
     ]
   },
   {
     "kanjiName": "そ",
     "meanings": [
-      [
-        "so"
-      ]
+      "so"
     ],
     "type": "gojuuon",
     "quizAnswers": [
-      [
-        "so"
-      ],
-      [
-        "sho"
-      ],
-      [
-        "nu"
-      ],
-      [
-        "hyo"
-      ]
+      "so",
+      "sho",
+      "nu",
+      "hyo"
     ]
   },
   {
     "kanjiName": "た",
     "meanings": [
-      [
-        "ta"
-      ]
+      "ta"
     ],
     "type": "gojuuon",
     "quizAnswers": [
-      [
-        "pu"
-      ],
-      [
-        "kyu"
-      ],
-      [
-        "zu"
-      ],
-      [
-        "ta"
-      ]
+      "pu",
+      "kyu",
+      "zu",
+      "ta"
     ]
   },
   {
     "kanjiName": "ち",
     "meanings": [
-      [
-        "chi"
-      ]
+      "chi"
     ],
     "type": "gojuuon",
     "quizAnswers": [
-      [
-        "chi"
-      ],
-      [
-        "he"
-      ],
-      [
-        "u"
-      ],
-      [
-        "kya"
-      ]
+      "chi",
+      "he",
+      "u",
+      "kya"
     ]
   },
   {
     "kanjiName": "つ",
     "meanings": [
-      [
-        "tsu"
-      ]
+      "tsu"
     ],
     "type": "gojuuon",
     "quizAnswers": [
-      [
-        "tsu"
-      ],
-      [
-        "ba"
-      ],
-      [
-        "pe"
-      ],
-      [
-        "pyu"
-      ]
+      "tsu",
+      "ba",
+      "pe",
+      "pyu"
     ]
   },
   {
     "kanjiName": "て",
     "meanings": [
-      [
-        "te"
-      ]
+      "te"
     ],
     "type": "gojuuon",
     "quizAnswers": [
-      [
-        "hya"
-      ],
-      [
-        "ji"
-      ],
-      [
-        "te"
-      ],
-      [
-        "se"
-      ]
+      "hya",
+      "ji",
+      "te",
+      "se"
     ]
   },
   {
     "kanjiName": "と",
     "meanings": [
-      [
-        "to"
-      ]
+      "to"
     ],
     "type": "gojuuon",
     "quizAnswers": [
-      [
-        "pe"
-      ],
-      [
-        "to"
-      ],
-      [
-        "so"
-      ],
-      [
-        "sho"
-      ]
+      "pe",
+      "to",
+      "so",
+      "sho"
     ]
   },
   {
     "kanjiName": "な",
     "meanings": [
-      [
-        "na"
-      ]
+      "na"
     ],
     "type": "gojuuon",
     "quizAnswers": [
-      [
-        "byo"
-      ],
-      [
-        "na"
-      ],
-      [
-        "pi"
-      ],
-      [
-        "ni"
-      ]
+      "byo",
+      "na",
+      "pi",
+      "ni"
     ]
   },
   {
     "kanjiName": "に",
     "meanings": [
-      [
-        "ni"
-      ]
+      "ni"
     ],
     "type": "gojuuon",
     "quizAnswers": [
-      [
-        "ni"
-      ],
-      [
-        "wo"
-      ],
-      [
-        "kyu"
-      ],
-      [
-        "o"
-      ]
+      "ni",
+      "wo",
+      "kyu",
+      "o"
     ]
   },
   {
     "kanjiName": "ぬ",
     "meanings": [
-      [
-        "nu"
-      ]
+      "nu"
     ],
     "type": "gojuuon",
     "quizAnswers": [
-      [
-        "nu"
-      ],
-      [
-        "i"
-      ],
-      [
-        "sho"
-      ],
-      [
-        "ji"
-      ]
+      "nu",
+      "i",
+      "sho",
+      "ji"
     ]
   },
   {
     "kanjiName": "ね",
     "meanings": [
-      [
-        "ne"
-      ]
+      "ne"
     ],
     "type": "gojuuon",
     "quizAnswers": [
-      [
-        "bi"
-      ],
-      [
-        "ne"
-      ],
-      [
-        "nyu"
-      ],
-      [
-        "sa"
-      ]
+      "bi",
+      "ne",
+      "nyu",
+      "sa"
     ]
   },
   {
     "kanjiName": "の",
     "meanings": [
-      [
-        "no"
-      ]
+      "no"
     ],
     "type": "gojuuon",
     "quizAnswers": [
-      [
-        "no"
-      ],
-      [
-        "ro"
-      ],
-      [
-        "se"
-      ],
-      [
-        "gu"
-      ]
+      "no",
+      "ro",
+      "se",
+      "gu"
     ]
   },
   {
     "kanjiName": "は",
     "meanings": [
-      [
-        "ha"
-      ]
+      "ha"
     ],
     "type": "gojuuon",
     "quizAnswers": [
-      [
-        "ha"
-      ],
-      [
-        "de"
-      ],
-      [
-        "sa"
-      ],
-      [
-        "gyo"
-      ]
+      "ha",
+      "de",
+      "sa",
+      "gyo"
     ]
   },
   {
     "kanjiName": "ひ",
     "meanings": [
-      [
-        "hi"
-      ]
+      "hi"
     ],
     "type": "gojuuon",
     "quizAnswers": [
-      [
-        "ze"
-      ],
-      [
-        "hi"
-      ],
-      [
-        "jo"
-      ],
-      [
-        "nyu"
-      ]
+      "ze",
+      "hi",
+      "jo",
+      "nyu"
     ]
   },
   {
     "kanjiName": "ふ",
     "meanings": [
-      [
-        "hu"
-      ]
+      "hu"
     ],
     "type": "gojuuon",
     "quizAnswers": [
-      [
-        "ze"
-      ],
-      [
-        "to"
-      ],
-      [
-        "hu"
-      ],
-      [
-        "wa"
-      ]
+      "ze",
+      "to",
+      "hu",
+      "wa"
     ]
   },
   {
     "kanjiName": "へ",
     "meanings": [
-      [
-        "he"
-      ]
+      "he"
     ],
     "type": "gojuuon",
     "quizAnswers": [
-      [
-        "hi"
-      ],
-      [
-        "pe"
-      ],
-      [
-        "cha"
-      ],
-      [
-        "he"
-      ]
+      "hi",
+      "pe",
+      "cha",
+      "he"
     ]
   },
   {
     "kanjiName": "ほ",
     "meanings": [
-      [
-        "ho"
-      ]
+      "ho"
     ],
     "type": "gojuuon",
     "quizAnswers": [
-      [
-        "ho"
-      ],
-      [
-        "myo"
-      ],
-      [
-        "pyu"
-      ],
-      [
-        "nu"
-      ]
+      "ho",
+      "myo",
+      "pyu",
+      "nu"
     ]
   },
   {
     "kanjiName": "ま",
     "meanings": [
-      [
-        "ma"
-      ]
+      "ma"
     ],
     "type": "gojuuon",
     "quizAnswers": [
-      [
-        "hu"
-      ],
-      [
-        "ge"
-      ],
-      [
-        "i"
-      ],
-      [
-        "ma"
-      ]
+      "hu",
+      "ge",
+      "i",
+      "ma"
     ]
   },
   {
     "kanjiName": "み",
     "meanings": [
-      [
-        "mi"
-      ]
+      "mi"
     ],
     "type": "gojuuon",
     "quizAnswers": [
-      [
-        "zu"
-      ],
-      [
-        "mi"
-      ],
-      [
-        "rya"
-      ],
-      [
-        "nyo"
-      ]
+      "zu",
+      "mi",
+      "rya",
+      "nyo"
     ]
   },
   {
     "kanjiName": "む",
     "meanings": [
-      [
-        "mu"
-      ]
+      "mu"
     ],
     "type": "gojuuon",
     "quizAnswers": [
-      [
-        "mu"
-      ],
-      [
-        "chu"
-      ],
-      [
-        "so"
-      ],
-      [
-        "hyu"
-      ]
+      "mu",
+      "chu",
+      "so",
+      "hyu"
     ]
   },
   {
     "kanjiName": "め",
     "meanings": [
-      [
-        "me"
-      ]
+      "me"
     ],
     "type": "gojuuon",
     "quizAnswers": [
-      [
-        "me"
-      ],
-      [
-        "gi"
-      ],
-      [
-        "to"
-      ],
-      [
-        "pyu"
-      ]
+      "me",
+      "gi",
+      "to",
+      "pyu"
     ]
   },
   {
     "kanjiName": "も",
     "meanings": [
-      [
-        "mo"
-      ]
+      "mo"
     ],
     "type": "gojuuon",
     "quizAnswers": [
-      [
-        "u"
-      ],
-      [
-        "so"
-      ],
-      [
-        "mo"
-      ],
-      [
-        "sa"
-      ]
+      "u",
+      "so",
+      "mo",
+      "sa"
     ]
   },
   {
     "kanjiName": "や",
     "meanings": [
-      [
-        "ya"
-      ]
+      "ya"
     ],
     "type": "gojuuon",
     "quizAnswers": [
-      [
-        "ya"
-      ],
-      [
-        "ma"
-      ],
-      [
-        "n"
-      ],
-      [
-        "su"
-      ]
+      "ya",
+      "ma",
+      "n",
+      "su"
     ]
   },
   {
     "kanjiName": "ゆ",
     "meanings": [
-      [
-        "yu"
-      ]
+      "yu"
     ],
     "type": "gojuuon",
     "quizAnswers": [
-      [
-        "rya"
-      ],
-      [
-        "byo"
-      ],
-      [
-        "yu"
-      ],
-      [
-        "shu"
-      ]
+      "rya",
+      "byo",
+      "yu",
+      "shu"
     ]
   },
   {
     "kanjiName": "よ",
     "meanings": [
-      [
-        "yo"
-      ]
+      "yo"
     ],
     "type": "gojuuon",
     "quizAnswers": [
-      [
-        "byo"
-      ],
-      [
-        "yo"
-      ],
-      [
-        "be"
-      ],
-      [
-        "do"
-      ]
+      "byo",
+      "yo",
+      "be",
+      "do"
     ]
   },
   {
     "kanjiName": "ら",
     "meanings": [
-      [
-        "ra"
-      ]
+      "ra"
     ],
     "type": "gojuuon",
     "quizAnswers": [
-      [
-        "ra"
-      ],
-      [
-        "pya"
-      ],
-      [
-        "ma"
-      ],
-      [
-        "pu"
-      ]
+      "ra",
+      "pya",
+      "ma",
+      "pu"
     ]
   },
   {
     "kanjiName": "り",
     "meanings": [
-      [
-        "ri"
-      ]
+      "ri"
     ],
     "type": "gojuuon",
     "quizAnswers": [
-      [
-        "to"
-      ],
-      [
-        "sha"
-      ],
-      [
-        "re"
-      ],
-      [
-        "ri"
-      ]
+      "to",
+      "sha",
+      "re",
+      "ri"
     ]
   },
   {
     "kanjiName": "る",
     "meanings": [
-      [
-        "ru"
-      ]
+      "ru"
     ],
     "type": "gojuuon",
     "quizAnswers": [
-      [
-        "ko"
-      ],
-      [
-        "chu"
-      ],
-      [
-        "ja"
-      ],
-      [
-        "ru"
-      ]
+      "ko",
+      "chu",
+      "ja",
+      "ru"
     ]
   },
   {
     "kanjiName": "れ",
     "meanings": [
-      [
-        "re"
-      ]
+      "re"
     ],
     "type": "gojuuon",
     "quizAnswers": [
-      [
-        "re"
-      ],
-      [
-        "hyo"
-      ],
-      [
-        "ba"
-      ],
-      [
-        "mo"
-      ]
+      "re",
+      "hyo",
+      "ba",
+      "mo"
     ]
   },
   {
     "kanjiName": "ろ",
     "meanings": [
-      [
-        "ro"
-      ]
+      "ro"
     ],
     "type": "gojuuon",
     "quizAnswers": [
-      [
-        "to"
-      ],
-      [
-        "pyo"
-      ],
-      [
-        "pi"
-      ],
-      [
-        "ro"
-      ]
+      "to",
+      "pyo",
+      "pi",
+      "ro"
     ]
   },
   {
     "kanjiName": "わ",
     "meanings": [
-      [
-        "wa"
-      ]
+      "wa"
     ],
     "type": "gojuuon",
     "quizAnswers": [
-      [
-        "wa"
-      ],
-      [
-        "zu"
-      ],
-      [
-        "hyo"
-      ],
-      [
-        "ya"
-      ]
+      "wa",
+      "zu",
+      "hyo",
+      "ya"
     ]
   },
   {
     "kanjiName": "を",
     "meanings": [
-      [
-        "wo"
-      ]
+      "wo"
     ],
     "type": "gojuuon",
     "quizAnswers": [
-      [
-        "wo"
-      ],
-      [
-        "wa"
-      ],
-      [
-        "ru"
-      ],
-      [
-        "ko"
-      ]
+      "wo",
+      "wa",
+      "ru",
+      "ko"
     ]
   },
   {
     "kanjiName": "ん",
     "meanings": [
-      [
-        "n"
-      ]
+      "n"
     ],
     "type": "gojuuon",
     "quizAnswers": [
-      [
-        "ju"
-      ],
-      [
-        "mya"
-      ],
-      [
-        "gya"
-      ],
-      [
-        "n"
-      ]
+      "ju",
+      "mya",
+      "gya",
+      "n"
     ]
   },
   {
     "kanjiName": "が",
     "meanings": [
-      [
-        "ga"
-      ]
+      "ga"
     ],
     "type": "dakuon",
     "quizAnswers": [
-      [
-        "ga"
-      ],
-      [
-        "ki"
-      ],
-      [
-        "gyo"
-      ],
-      [
-        "pu"
-      ]
+      "ga",
+      "ki",
+      "gyo",
+      "pu"
     ]
   },
   {
     "kanjiName": "ぎ",
     "meanings": [
-      [
-        "gi"
-      ]
+      "gi"
     ],
     "type": "dakuon",
     "quizAnswers": [
-      [
-        "gi"
-      ],
-      [
-        "myo"
-      ],
-      [
-        "wa"
-      ],
-      [
-        "nyu"
-      ]
+      "gi",
+      "myo",
+      "wa",
+      "nyu"
     ]
   },
   {
     "kanjiName": "ぐ",
     "meanings": [
-      [
-        "gu"
-      ]
+      "gu"
     ],
     "type": "dakuon",
     "quizAnswers": [
-      [
-        "gu"
-      ],
-      [
-        "na"
-      ],
-      [
-        "ho"
-      ],
-      [
-        "ryo"
-      ]
+      "gu",
+      "na",
+      "ho",
+      "ryo"
     ]
   },
   {
     "kanjiName": "げ",
     "meanings": [
-      [
-        "ge"
-      ]
+      "ge"
     ],
     "type": "dakuon",
     "quizAnswers": [
-      [
-        "pu"
-      ],
-      [
-        "ge"
-      ],
-      [
-        "ma"
-      ],
-      [
-        "jo"
-      ]
+      "pu",
+      "ge",
+      "ma",
+      "jo"
     ]
   },
   {
     "kanjiName": "ご",
     "meanings": [
-      [
-        "go"
-      ]
+      "go"
     ],
     "type": "dakuon",
     "quizAnswers": [
-      [
-        "ra"
-      ],
-      [
-        "ni"
-      ],
-      [
-        "jo"
-      ],
-      [
-        "go"
-      ]
+      "ra",
+      "ni",
+      "jo",
+      "go"
     ]
   },
   {
     "kanjiName": "ざ",
     "meanings": [
-      [
-        "za"
-      ]
+      "za"
     ],
     "type": "dakuon",
     "quizAnswers": [
-      [
-        "cho"
-      ],
-      [
-        "za"
-      ],
-      [
-        "ba"
-      ],
-      [
-        "ku"
-      ]
+      "cho",
+      "za",
+      "ba",
+      "ku"
     ]
   },
   {
     "kanjiName": "じ",
     "meanings": [
-      [
-        "ji"
-      ]
+      "ji"
     ],
     "type": "dakuon",
     "quizAnswers": [
-      [
-        "ji"
-      ],
-      [
-        "n"
-      ],
-      [
-        "yu"
-      ],
-      [
-        "do"
-      ]
+      "ji",
+      "n",
+      "yu",
+      "do"
     ]
   },
   {
     "kanjiName": "ず",
     "meanings": [
-      [
-        "zu"
-      ]
+      "zu"
     ],
     "type": "dakuon",
     "quizAnswers": [
-      [
-        "zu"
-      ],
-      [
-        "sho"
-      ],
-      [
-        "pu"
-      ],
-      [
-        "ge"
-      ]
+      "zu",
+      "sho",
+      "pu",
+      "ge"
     ]
   },
   {
     "kanjiName": "ぜ",
     "meanings": [
-      [
-        "ze"
-      ]
+      "ze"
     ],
     "type": "dakuon",
     "quizAnswers": [
-      [
-        "ze"
-      ],
-      [
-        "mi"
-      ],
-      [
-        "shi"
-      ],
-      [
-        "ta"
-      ]
+      "ze",
+      "mi",
+      "shi",
+      "ta"
     ]
   },
   {
     "kanjiName": "ぞ",
     "meanings": [
-      [
-        "zo"
-      ]
+      "zo"
     ],
     "type": "dakuon",
     "quizAnswers": [
-      [
-        "do"
-      ],
-      [
-        "pyu"
-      ],
-      [
-        "ni"
-      ],
-      [
-        "zo"
-      ]
+      "do",
+      "pyu",
+      "ni",
+      "zo"
     ]
   },
   {
     "kanjiName": "だ",
     "meanings": [
-      [
-        "da"
-      ]
+      "da"
     ],
     "type": "dakuon",
     "quizAnswers": [
-      [
-        "gu"
-      ],
-      [
-        "pu"
-      ],
-      [
-        "gi"
-      ],
-      [
-        "da"
-      ]
+      "gu",
+      "pu",
+      "gi",
+      "da"
     ]
   },
   {
     "kanjiName": "ぢ",
     "meanings": [
-      [
-        "ji"
-      ]
+      "ji"
     ],
     "type": "dakuon",
     "quizAnswers": [
-      [
-        "myo"
-      ],
-      [
-        "gyo"
-      ],
-      [
-        "ba"
-      ],
-      [
-        "ji"
-      ]
+      "myo",
+      "gyo",
+      "ba",
+      "ji"
     ]
   },
   {
     "kanjiName": "づ",
     "meanings": [
-      [
-        "zu"
-      ]
+      "zu"
     ],
     "type": "dakuon",
     "quizAnswers": [
-      [
-        "zu"
-      ],
-      [
-        "pi"
-      ],
-      [
-        "gi"
-      ],
-      [
-        "cho"
-      ]
+      "zu",
+      "pi",
+      "gi",
+      "cho"
     ]
   },
   {
     "kanjiName": "で",
     "meanings": [
-      [
-        "de"
-      ]
+      "de"
     ],
     "type": "dakuon",
     "quizAnswers": [
-      [
-        "de"
-      ],
-      [
-        "(pause)"
-      ],
-      [
-        "bya"
-      ],
-      [
-        "do"
-      ]
+      "de",
+      "(pause)",
+      "bya",
+      "do"
     ]
   },
   {
     "kanjiName": "ど",
     "meanings": [
-      [
-        "do"
-      ]
+      "do"
     ],
     "type": "dakuon",
     "quizAnswers": [
-      [
-        "do"
-      ],
-      [
-        "gyo"
-      ],
-      [
-        "bya"
-      ],
-      [
-        "ki"
-      ]
+      "do",
+      "gyo",
+      "bya",
+      "ki"
     ]
   },
   {
     "kanjiName": "ば",
     "meanings": [
-      [
-        "ba"
-      ]
+      "ba"
     ],
     "type": "dakuon",
     "quizAnswers": [
-      [
-        "ba"
-      ],
-      [
-        "nu"
-      ],
-      [
-        "cha"
-      ],
-      [
-        "pu"
-      ]
+      "ba",
+      "nu",
+      "cha",
+      "pu"
     ]
   },
   {
     "kanjiName": "び",
     "meanings": [
-      [
-        "bi"
-      ]
+      "bi"
     ],
     "type": "dakuon",
     "quizAnswers": [
-      [
-        "bi"
-      ],
-      [
-        "mya"
-      ],
-      [
-        "ni"
-      ],
-      [
-        "su"
-      ]
+      "bi",
+      "mya",
+      "ni",
+      "su"
     ]
   },
   {
     "kanjiName": "ぶ",
     "meanings": [
-      [
-        "bu"
-      ]
+      "bu"
     ],
     "type": "dakuon",
     "quizAnswers": [
-      [
-        "re"
-      ],
-      [
-        "bu"
-      ],
-      [
-        "ma"
-      ],
-      [
-        "a"
-      ]
+      "re",
+      "bu",
+      "ma",
+      "a"
     ]
   },
   {
     "kanjiName": "べ",
     "meanings": [
-      [
-        "be"
-      ]
+      "be"
     ],
     "type": "dakuon",
     "quizAnswers": [
-      [
-        "ne"
-      ],
-      [
-        "hya"
-      ],
-      [
-        "chu"
-      ],
-      [
-        "be"
-      ]
+      "ne",
+      "hya",
+      "chu",
+      "be"
     ]
   },
   {
     "kanjiName": "ぼ",
     "meanings": [
-      [
-        "bo"
-      ]
+      "bo"
     ],
     "type": "dakuon",
     "quizAnswers": [
-      [
-        "bo"
-      ],
-      [
-        "myo"
-      ],
-      [
-        "chu"
-      ],
-      [
-        "to"
-      ]
+      "bo",
+      "myo",
+      "chu",
+      "to"
     ]
   },
   {
     "kanjiName": "ぱ",
     "meanings": [
-      [
-        "pa"
-      ]
+      "pa"
     ],
     "type": "handakuon",
     "quizAnswers": [
-      [
-        "pyu"
-      ],
-      [
-        "hya"
-      ],
-      [
-        "jo"
-      ],
-      [
-        "pa"
-      ]
+      "pyu",
+      "hya",
+      "jo",
+      "pa"
     ]
   },
   {
     "kanjiName": "ぴ",
     "meanings": [
-      [
-        "pi"
-      ]
+      "pi"
     ],
     "type": "handakuon",
     "quizAnswers": [
-      [
-        "bi"
-      ],
-      [
-        "hyo"
-      ],
-      [
-        "pi"
-      ],
-      [
-        "jo"
-      ]
+      "bi",
+      "hyo",
+      "pi",
+      "jo"
     ]
   },
   {
     "kanjiName": "ぷ",
     "meanings": [
-      [
-        "pu"
-      ]
+      "pu"
     ],
     "type": "handakuon",
     "quizAnswers": [
-      [
-        "(pause)"
-      ],
-      [
-        "pu"
-      ],
-      [
-        "ha"
-      ],
-      [
-        "nya"
-      ]
+      "(pause)",
+      "pu",
+      "ha",
+      "nya"
     ]
   },
   {
     "kanjiName": "ぺ",
     "meanings": [
-      [
-        "pe"
-      ]
+      "pe"
     ],
     "type": "handakuon",
     "quizAnswers": [
-      [
-        "ya"
-      ],
-      [
-        "be"
-      ],
-      [
-        "yo"
-      ],
-      [
-        "pe"
-      ]
+      "ya",
+      "be",
+      "yo",
+      "pe"
     ]
   },
   {
     "kanjiName": "ぽ",
     "meanings": [
-      [
-        "po"
-      ]
+      "po"
     ],
     "type": "handakuon",
     "quizAnswers": [
-      [
-        "po"
-      ],
-      [
-        "e"
-      ],
-      [
-        "su"
-      ],
-      [
-        "shu"
-      ]
+      "po",
+      "e",
+      "su",
+      "shu"
     ]
   },
   {
     "kanjiName": "っ",
     "meanings": [
-      [
-        "(pause)"
-      ]
+      "(pause)"
     ],
     "type": "sokuon",
     "quizAnswers": [
-      [
-        "cho"
-      ],
-      [
-        "(pause)"
-      ],
-      [
-        "pa"
-      ],
-      [
-        "za"
-      ]
+      "cho",
+      "(pause)",
+      "pa",
+      "za"
     ]
   },
   {
     "kanjiName": "きゃ",
     "meanings": [
-      [
-        "kya"
-      ]
+      "kya"
     ],
     "type": "youon",
     "quizAnswers": [
-      [
-        "ze"
-      ],
-      [
-        "ne"
-      ],
-      [
-        "kya"
-      ],
-      [
-        "ji"
-      ]
+      "ze",
+      "ne",
+      "kya",
+      "ji"
     ]
   },
   {
     "kanjiName": "きゅ",
     "meanings": [
-      [
-        "kyu"
-      ]
+      "kyu"
     ],
     "type": "youon",
     "quizAnswers": [
-      [
-        "gyo"
-      ],
-      [
-        "byu"
-      ],
-      [
-        "te"
-      ],
-      [
-        "kyu"
-      ]
+      "gyo",
+      "byu",
+      "te",
+      "kyu"
     ]
   },
   {
     "kanjiName": "きょ",
     "meanings": [
-      [
-        "kyo"
-      ]
+      "kyo"
     ],
     "type": "youon",
     "quizAnswers": [
-      [
-        "pya"
-      ],
-      [
-        "he"
-      ],
-      [
-        "ya"
-      ],
-      [
-        "kyo"
-      ]
+      "pya",
+      "he",
+      "ya",
+      "kyo"
     ]
   },
   {
     "kanjiName": "しゃ",
     "meanings": [
-      [
-        "sha"
-      ]
+      "sha"
     ],
     "type": "youon",
     "quizAnswers": [
-      [
-        "sha"
-      ],
-      [
-        "ri"
-      ],
-      [
-        "me"
-      ],
-      [
-        "su"
-      ]
+      "sha",
+      "ri",
+      "me",
+      "su"
     ]
   },
   {
     "kanjiName": "しゅ",
     "meanings": [
-      [
-        "shu"
-      ]
+      "shu"
     ],
     "type": "youon",
     "quizAnswers": [
-      [
-        "de"
-      ],
-      [
-        "pyu"
-      ],
-      [
-        "ku"
-      ],
-      [
-        "shu"
-      ]
+      "de",
+      "pyu",
+      "ku",
+      "shu"
     ]
   },
   {
     "kanjiName": "しょ",
     "meanings": [
-      [
-        "sho"
-      ]
+      "sho"
     ],
     "type": "youon",
     "quizAnswers": [
-      [
-        "ga"
-      ],
-      [
-        "pa"
-      ],
-      [
-        "hya"
-      ],
-      [
-        "sho"
-      ]
+      "ga",
+      "pa",
+      "hya",
+      "sho"
     ]
   },
   {
     "kanjiName": "ちゃ",
     "meanings": [
-      [
-        "cha"
-      ]
+      "cha"
     ],
     "type": "youon",
     "quizAnswers": [
-      [
-        "cha"
-      ],
-      [
-        "ju"
-      ],
-      [
-        "pi"
-      ],
-      [
-        "ga"
-      ]
+      "cha",
+      "ju",
+      "pi",
+      "ga"
     ]
   },
   {
     "kanjiName": "ちゅ",
     "meanings": [
-      [
-        "chu"
-      ]
+      "chu"
     ],
     "type": "youon",
     "quizAnswers": [
-      [
-        "chu"
-      ],
-      [
-        "ro"
-      ],
-      [
-        "pyo"
-      ],
-      [
-        "byu"
-      ]
+      "chu",
+      "ro",
+      "pyo",
+      "byu"
     ]
   },
   {
     "kanjiName": "ちょ",
     "meanings": [
-      [
-        "cho"
-      ]
+      "cho"
     ],
     "type": "youon",
     "quizAnswers": [
-      [
-        "kyo"
-      ],
-      [
-        "cho"
-      ],
-      [
-        "hyu"
-      ],
-      [
-        "ha"
-      ]
+      "kyo",
+      "cho",
+      "hyu",
+      "ha"
     ]
   },
   {
     "kanjiName": "にゃ",
     "meanings": [
-      [
-        "nya"
-      ]
+      "nya"
     ],
     "type": "youon",
     "quizAnswers": [
-      [
-        "nya"
-      ],
-      [
-        "hi"
-      ],
-      [
-        "bi"
-      ],
-      [
-        "sha"
-      ]
+      "nya",
+      "hi",
+      "bi",
+      "sha"
     ]
   },
   {
     "kanjiName": "にゅ",
     "meanings": [
-      [
-        "nyu"
-      ]
+      "nyu"
     ],
     "type": "youon",
     "quizAnswers": [
-      [
-        "ge"
-      ],
-      [
-        "po"
-      ],
-      [
-        "nyu"
-      ],
-      [
-        "ma"
-      ]
+      "ge",
+      "po",
+      "nyu",
+      "ma"
     ]
   },
   {
     "kanjiName": "にょ",
     "meanings": [
-      [
-        "nyo"
-      ]
+      "nyo"
     ],
     "type": "youon",
     "quizAnswers": [
-      [
-        "gyu"
-      ],
-      [
-        "hi"
-      ],
-      [
-        "sho"
-      ],
-      [
-        "nyo"
-      ]
+      "gyu",
+      "hi",
+      "sho",
+      "nyo"
     ]
   },
   {
     "kanjiName": "ひゃ",
     "meanings": [
-      [
-        "hya"
-      ]
+      "hya"
     ],
     "type": "youon",
     "quizAnswers": [
-      [
-        "ro"
-      ],
-      [
-        "ba"
-      ],
-      [
-        "hya"
-      ],
-      [
-        "na"
-      ]
+      "ro",
+      "ba",
+      "hya",
+      "na"
     ]
   },
   {
     "kanjiName": "ひゅ",
     "meanings": [
-      [
-        "hyu"
-      ]
+      "hyu"
     ],
     "type": "youon",
     "quizAnswers": [
-      [
-        "hyu"
-      ],
-      [
-        "byo"
-      ],
-      [
-        "cho"
-      ],
-      [
-        "ta"
-      ]
+      "hyu",
+      "byo",
+      "cho",
+      "ta"
     ]
   },
   {
     "kanjiName": "ひょ",
     "meanings": [
-      [
-        "hyo"
-      ]
+      "hyo"
     ],
     "type": "youon",
     "quizAnswers": [
-      [
-        "ga"
-      ],
-      [
-        "te"
-      ],
-      [
-        "pyu"
-      ],
-      [
-        "hyo"
-      ]
+      "ga",
+      "te",
+      "pyu",
+      "hyo"
     ]
   },
   {
     "kanjiName": "みゃ",
     "meanings": [
-      [
-        "mya"
-      ]
+      "mya"
     ],
     "type": "youon",
     "quizAnswers": [
-      [
-        "wa"
-      ],
-      [
-        "mya"
-      ],
-      [
-        "ri"
-      ],
-      [
-        "pu"
-      ]
+      "wa",
+      "mya",
+      "ri",
+      "pu"
     ]
   },
   {
     "kanjiName": "みゅ",
     "meanings": [
-      [
-        "myu"
-      ]
+      "myu"
     ],
     "type": "youon",
     "quizAnswers": [
-      [
-        "pyu"
-      ],
-      [
-        "ta"
-      ],
-      [
-        "myu"
-      ],
-      [
-        "te"
-      ]
+      "pyu",
+      "ta",
+      "myu",
+      "te"
     ]
   },
   {
     "kanjiName": "みょ",
     "meanings": [
-      [
-        "myo"
-      ]
+      "myo"
     ],
     "type": "youon",
     "quizAnswers": [
-      [
-        "myo"
-      ],
-      [
-        "ji"
-      ],
-      [
-        "da"
-      ],
-      [
-        "ryu"
-      ]
+      "myo",
+      "ji",
+      "da",
+      "ryu"
     ]
   },
   {
     "kanjiName": "りゃ",
     "meanings": [
-      [
-        "rya"
-      ]
+      "rya"
     ],
     "type": "youon",
     "quizAnswers": [
-      [
-        "rya"
-      ],
-      [
-        "myu"
-      ],
-      [
-        "hi"
-      ],
-      [
-        "chu"
-      ]
+      "rya",
+      "myu",
+      "hi",
+      "chu"
     ]
   },
   {
     "kanjiName": "りゅ",
     "meanings": [
-      [
-        "ryu"
-      ]
+      "ryu"
     ],
     "type": "youon",
     "quizAnswers": [
-      [
-        "ryu"
-      ],
-      [
-        "hi"
-      ],
-      [
-        "ho"
-      ],
-      [
-        "ji"
-      ]
+      "ryu",
+      "hi",
+      "ho",
+      "ji"
     ]
   },
   {
     "kanjiName": "りょ",
     "meanings": [
-      [
-        "ryo"
-      ]
+      "ryo"
     ],
     "type": "youon",
     "quizAnswers": [
-      [
-        "ryo"
-      ],
-      [
-        "to"
-      ],
-      [
-        "kyu"
-      ],
-      [
-        "hyo"
-      ]
+      "ryo",
+      "to",
+      "kyu",
+      "hyo"
     ]
   },
   {
     "kanjiName": "ぎゃ",
     "meanings": [
-      [
-        "gya"
-      ]
+      "gya"
     ],
     "type": "youon",
     "quizAnswers": [
-      [
-        "ro"
-      ],
-      [
-        "ke"
-      ],
-      [
-        "byu"
-      ],
-      [
-        "gya"
-      ]
+      "ro",
+      "ke",
+      "byu",
+      "gya"
     ]
   },
   {
     "kanjiName": "ぎゅ",
     "meanings": [
-      [
-        "gyu"
-      ]
+      "gyu"
     ],
     "type": "youon",
     "quizAnswers": [
-      [
-        "ro"
-      ],
-      [
-        "ru"
-      ],
-      [
-        "nu"
-      ],
-      [
-        "gyu"
-      ]
+      "ro",
+      "ru",
+      "nu",
+      "gyu"
     ]
   },
   {
     "kanjiName": "ぎょ",
     "meanings": [
-      [
-        "gyo"
-      ]
+      "gyo"
     ],
     "type": "youon",
     "quizAnswers": [
-      [
-        "gyo"
-      ],
-      [
-        "hi"
-      ],
-      [
-        "ryo"
-      ],
-      [
-        "hyu"
-      ]
+      "gyo",
+      "hi",
+      "ryo",
+      "hyu"
     ]
   },
   {
     "kanjiName": "じゃ",
     "meanings": [
-      [
-        "ja"
-      ]
+      "ja"
     ],
     "type": "youon",
     "quizAnswers": [
-      [
-        "kyo"
-      ],
-      [
-        "tsu"
-      ],
-      [
-        "zo"
-      ],
-      [
-        "ja"
-      ]
+      "kyo",
+      "tsu",
+      "zo",
+      "ja"
     ]
   },
   {
     "kanjiName": "じゅ",
     "meanings": [
-      [
-        "ju"
-      ]
+      "ju"
     ],
     "type": "youon",
     "quizAnswers": [
-      [
-        "ju"
-      ],
-      [
-        "gyu"
-      ],
-      [
-        "ji"
-      ],
-      [
-        "se"
-      ]
+      "ju",
+      "gyu",
+      "ji",
+      "se"
     ]
   },
   {
     "kanjiName": "じょ",
     "meanings": [
-      [
-        "jo"
-      ]
+      "jo"
     ],
     "type": "youon",
     "quizAnswers": [
-      [
-        "sho"
-      ],
-      [
-        "mo"
-      ],
-      [
-        "jo"
-      ],
-      [
-        "kya"
-      ]
+      "sho",
+      "mo",
+      "jo",
+      "kya"
     ]
   },
   {
     "kanjiName": "びゃ",
     "meanings": [
-      [
-        "bya"
-      ]
+      "bya"
     ],
     "type": "youon",
     "quizAnswers": [
-      [
-        "shi"
-      ],
-      [
-        "bya"
-      ],
-      [
-        "ja"
-      ],
-      [
-        "sho"
-      ]
+      "shi",
+      "bya",
+      "ja",
+      "sho"
     ]
   },
   {
     "kanjiName": "びゅ",
     "meanings": [
-      [
-        "byu"
-      ]
+      "byu"
     ],
     "type": "youon",
     "quizAnswers": [
-      [
-        "ju"
-      ],
-      [
-        "te"
-      ],
-      [
-        "pe"
-      ],
-      [
-        "byu"
-      ]
+      "ju",
+      "te",
+      "pe",
+      "byu"
     ]
   },
   {
     "kanjiName": "びょ",
     "meanings": [
-      [
-        "byo"
-      ]
+      "byo"
     ],
     "type": "youon",
     "quizAnswers": [
-      [
-        "to"
-      ],
-      [
-        "yu"
-      ],
-      [
-        "nyo"
-      ],
-      [
-        "byo"
-      ]
+      "to",
+      "yu",
+      "nyo",
+      "byo"
     ]
   },
   {
     "kanjiName": "ぴゃ",
     "meanings": [
-      [
-        "pya"
-      ]
+      "pya"
     ],
     "type": "youon",
     "quizAnswers": [
-      [
-        "pya"
-      ],
-      [
-        "sho"
-      ],
-      [
-        "bu"
-      ],
-      [
-        "ru"
-      ]
+      "pya",
+      "sho",
+      "bu",
+      "ru"
     ]
   },
   {
     "kanjiName": "ぴゅ",
     "meanings": [
-      [
-        "pyu"
-      ]
+      "pyu"
     ],
     "type": "youon",
     "quizAnswers": [
-      [
-        "ru"
-      ],
-      [
-        "pyu"
-      ],
-      [
-        "sho"
-      ],
-      [
-        "ji"
-      ]
+      "ru",
+      "pyu",
+      "sho",
+      "ji"
     ]
   },
   {
     "kanjiName": "ぴょ",
     "meanings": [
-      [
-        "pyo"
-      ]
+      "pyo"
     ],
     "type": "youon",
     "quizAnswers": [
-      [
-        "te"
-      ],
-      [
-        "ji"
-      ],
-      [
-        "ru"
-      ],
-      [
-        "pyo"
-      ]
+      "te",
+      "ji",
+      "ru",
+      "pyo"
     ]
   }
 ]
