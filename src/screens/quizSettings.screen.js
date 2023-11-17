@@ -149,7 +149,7 @@ export default function QuizSettings({ navigation: { navigate } }) {
         />
       </View>
 
-      <VerticalSpacer height={1} />
+      <VerticalSpacer height={Platform.OS != 'ios' && Platform.OS != 'android' ? 3 : 10} />
 
       <View style={styles.buttonsRow}>
         <TouchableOpacity style={styles.selectButton} onPress={selectAll}>
@@ -195,13 +195,13 @@ const styles = StyleSheet.create({
   },
   block: {
     height: 50,
-    margin: wp('1%'),
+    margin: 10,
     padding: 10,
     alignItems: 'center',
     justifyContent: 'center',
     borderWidth: 2,
     borderColor: 'black',
-    borderRadius: wp('3%')
+    borderRadius: 10
   },
   kanjiText: {
     fontSize: 22,
