@@ -14,83 +14,84 @@ import KanjiTemplateScreen from './screens/kanjiTemplate.screen'
 import { QuizScreen } from './screens/quiz.screen'
 import QuizSettings from './screens/quizSettings.screen'
 import { QuizEngine } from './screens/quizEngine.screen'
-//import QuizResult from '../screens/quizResult.screen'
+import { SRS_HOME } from './screens/srsHome.screen'
 
 //exam screen
 import { ExamScreen } from './screens/exam.screen'
 
 export default function Navigator() {
-	const Stack = createStackNavigator()
-	const Tab = createBottomTabNavigator()
+  const Stack = createStackNavigator()
+  const Tab = createBottomTabNavigator()
 
-	function HomeStack() {
-		return (
-			<Stack.Navigator
-				screenOptions={{
-					headerStyle: { backgroundColor: 'papayawhip' }
-				}}>
-				<Stack.Screen name="Home" component={HomeScreen} />
-				<Stack.Screen name="KanjiDetail" component={KanjiDetailScreen} />
-				<Stack.Screen name="AllKanji" component={AllKanji} />
-				<Stack.Screen
-					name="KanjiTemplate"
-					component={KanjiTemplateScreen}
-					options={({ route }) => ({ headerTitle: route.params.title })}
-				/>
-			</Stack.Navigator>
-		)
-	}
+  function HomeStack() {
+    return (
+      <Stack.Navigator
+        screenOptions={{
+          headerStyle: { backgroundColor: 'papayawhip' }
+        }}>
+        <Stack.Screen name="Home" component={HomeScreen} />
+        <Stack.Screen name="KanjiDetail" component={KanjiDetailScreen} />
+        <Stack.Screen name="AllKanji" component={AllKanji} />
+        <Stack.Screen
+          name="KanjiTemplate"
+          component={KanjiTemplateScreen}
+          options={({ route }) => ({ headerTitle: route.params.title })}
+        />
+      </Stack.Navigator>
+    )
+  }
 
-	function QuizStack() {
-		return (
-			<Stack.Navigator
-				screenOptions={{
-					headerStyle: { backgroundColor: 'papayawhip' }
-				}}>
-				<Stack.Screen name="QuizHome" component={QuizScreen} />
-				<Stack.Screen name="QuizSettings" component={QuizSettings} />
-				<Stack.Screen name="QuizEngine" component={QuizEngine} />
-			</Stack.Navigator>
-		)
-	}
+  function QuizStack() {
+    return (
+      <Stack.Navigator
+        screenOptions={{
+          headerStyle: { backgroundColor: 'papayawhip' }
+        }}>
+        <Stack.Screen name="QuizHome" component={QuizScreen} />
+        <Stack.Screen name="QuizSettings" component={QuizSettings} />
+        <Stack.Screen name="QuizEngine" component={QuizEngine} />
+        <Stack.Screen name="SRS_Home" component={SRS_HOME} />
+      </Stack.Navigator>
+    )
+  }
 
-	return (
-		<NavigationContainer>
-			<Tab.Navigator
-				screenOptions={({ route }) => ({
-					headerShown: false,
-					tabBarActiveTintColor: 'black',
-					tabBarInactiveTintColor: 'dimgray',
-					tabBarIcon: ({ color }) => {
-						let iconName
-						switch (route.name) {
-							case 'Words':
-								iconName = 'file-tray-full'
-								break
-							case 'Exam':
-								iconName = 'document-sharp'
-								break
-							case 'Game':
-								iconName = 'game-controller'
-								break
-							case 'Talk':
-								iconName = 'mic-circle'
-								break
-							case 'Quiz':
-								iconName = 'book'
-								break
-							default:
-						}
-						// You can return any component that you like here!
-						return <Icon name={iconName} type={'ionicon'} size={26} color={color} />
-					}
-				})}>
-				<Tab.Screen name="Words" component={HomeStack} />
-				<Tab.Screen name="Quiz" component={QuizStack} />
-				<Tab.Screen name="Exam" component={ExamScreen} />
-				<Tab.Screen name="Game" component={ExamScreen} />
-				<Tab.Screen name="Talk" component={ExamScreen} />
-			</Tab.Navigator>
-		</NavigationContainer>
-	)
+  return (
+    <NavigationContainer>
+      <Tab.Navigator
+        screenOptions={({ route }) => ({
+          headerShown: false,
+          tabBarActiveTintColor: 'black',
+          tabBarInactiveTintColor: 'dimgray',
+          tabBarIcon: ({ color }) => {
+            let iconName
+            switch (route.name) {
+              case 'Words':
+                iconName = 'file-tray-full'
+                break
+              case 'Exam':
+                iconName = 'document-sharp'
+                break
+              case 'Game':
+                iconName = 'game-controller'
+                break
+              case 'Talk':
+                iconName = 'mic-circle'
+                break
+              case 'Quiz':
+                iconName = 'book'
+                break
+              default:
+            }
+            // You can return any component that you like here!
+            return <Icon name={iconName} type={'ionicon'} size={26} color={color} />
+          }
+        })}>
+        <Tab.Screen name="Words" component={HomeStack} />
+        <Tab.Screen name="Quiz" component={QuizStack} />
+        <Tab.Screen name="Exam" component={ExamScreen} />
+        <Tab.Screen name="Game" component={ExamScreen} />
+        <Tab.Screen name="Talk" component={ExamScreen} />
+      </Tab.Navigator>
+    </NavigationContainer>
+  )
 }

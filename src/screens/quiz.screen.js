@@ -23,7 +23,7 @@ export const QuizScreen = ({ navigation: { navigate } }) => {
 
       <View style={styles.bottomSection}>
         <View style={styles.boxRow}>
-          <TouchableOpacity style={styles.box}>
+          <TouchableOpacity style={styles.box} onPress={() => navigate('SRS_Home')}>
             <Text style={{ ...FONTS.bold24 }}>SRS</Text>
           </TouchableOpacity>
           <TouchableOpacity style={styles.box} onPress={() => navigate('QuizSettings')}>
