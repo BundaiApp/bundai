@@ -82,7 +82,8 @@ const styles = StyleSheet.create({
   },
 
   kanjiText: {
-    ...FONTS.bold60
+    fontSize: 200,
+    fontWeight: 'bold'
   },
   option: {
     width: '45%', // Approximate for two columns, adjust as needed
@@ -94,7 +95,7 @@ const styles = StyleSheet.create({
     borderRadius: 10
   },
   optionText: {
-    fontSize: 20,
+    fontSize: 22,
     color: '#333'
   },
   buttonText: {

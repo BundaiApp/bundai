@@ -124,7 +124,7 @@ export default function QuizSettings({ navigation: { navigate } }) {
         style={[
           styles.flatlist,
           {
-            height: type === 'strokes' ? '40%' : '50%'
+            height: type === 'strokes' ? '30%' : '40%'
           }
         ]}>
         <FlatList
