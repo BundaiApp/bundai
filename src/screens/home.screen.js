@@ -139,7 +139,7 @@ export default function Home({ navigation: { navigate } }) {
             blockHeader={'Hiragana'}
             sub={'Japanese letters'}
           />
-          <HorizontalSpacer width={3} />
+          <HorizontalSpacer width={10} />
           <SmallBlock
             handlePress={() =>
               navigate('KanjiTemplate', {
