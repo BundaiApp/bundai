@@ -13,15 +13,14 @@ export const QuizEngine = ({ navigation, route }) => {
 
   const moveToNextQuestion = (answer) => {
     setSelectedAns(answer)
-
-    const timer = setTimeout(() => {
+    setTimeout(() => {
       if (number !== questionsArray.length - 1) {
         setNumber(number + 1)
         setSelectedAns(null)
       } else {
         navigation.popToTop()
       }
-    }, 1000) // Adjust the delay as needed
+    }, 500) // Adjust the delay as needed
   }
 
   return (
