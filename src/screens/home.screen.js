@@ -13,13 +13,11 @@ export default function Home({ navigation: { navigate } }) {
 
   return (
     <ScrollView style={styles.scrollView} contentContainerStyle={styles.contentContainer}>
-      <VerticalSpacer height={3} />
+      <VerticalSpacer height={15} />
 
       <View style={styles.blockHolder}>
         <TextBlock tx1={'Kanji'} tx2={'Japanese characters'} />
-
-        <VerticalSpacer height={3} />
-
+        <VerticalSpacer height={5} />
         <View style={styles.basicRow}>
           {topics.map((i) => (
             <SmallBlock
@@ -30,9 +28,7 @@ export default function Home({ navigation: { navigate } }) {
             />
           ))}
         </View>
-
         <VerticalSpacer height={5} />
-
         <View style={styles.jlptRow}>
           {topic === 'jlpt' ? (
             <>
@@ -58,7 +54,6 @@ export default function Home({ navigation: { navigate } }) {
               />
             </>
           ) : null}
-
           {topic === 'strokes' ? (
             <>
               {new Array(24).fill(1).map((i, index) => (
@@ -81,7 +76,6 @@ export default function Home({ navigation: { navigate } }) {
               />
             </>
           ) : null}
-
           {topic === 'grades' ? (
             <>
               {new Array(9).fill(1).map((i, index) => (
@@ -109,7 +103,6 @@ export default function Home({ navigation: { navigate } }) {
 
       <View style={styles.blockHolder}>
         <TextBlock tx1={'Words 文甫'} tx2={'Words with Hiragana'} />
-
         <View style={styles.wordsRow}>
           {words.map((i) => (
             <SmallBlock
@@ -135,12 +128,7 @@ export default function Home({ navigation: { navigate } }) {
       </View>
 
       <View style={styles.blockHolder}>
-        <TextBlock
-          tx1={'Kana 仮名'}
-          tx2={'Hirgana & Katakana'}
-          tx3={'Letters of Japanese Language'}
-        />
-
+        <TextBlock tx1={'Hirgana & Katakana 仮名'} tx2={'Letters of Japanese Language'} />
         <View style={[styles.wordsRow, { justifyContent: 'flex-start' }]}>
           <SmallBlock
             handlePress={() =>
@@ -151,9 +139,7 @@ export default function Home({ navigation: { navigate } }) {
             blockHeader={'Hiragana'}
             sub={'Japanese letters'}
           />
-
           <HorizontalSpacer width={3} />
-
           <SmallBlock
             handlePress={() =>
               navigate('KanjiTemplate', {
@@ -165,40 +151,12 @@ export default function Home({ navigation: { navigate } }) {
           />
         </View>
       </View>
-
-      <View style={styles.blockHolder}>
-        <TextBlock tx1={'Words 文甫'} tx2={'Words with Hiragana'} />
-
-        <View style={styles.wordsRow}>
-          {words.map((i) => (
-            <SmallBlock
-              key={i.topicName}
-              handlePress={() =>
-                navigate('KanjiTemplate', {
-                  jlptLevel: false,
-                  grades: false,
-                  strokes: false,
-                  verbs: i.topicName === 'verbs' ?? false,
-                  nouns: i.topicName === 'nouns' ?? false,
-                  adjectives: i.topicName === 'adjectives' ?? false,
-                  adverbs: i.topicName === 'adverbs' ?? false,
-                  isWord:
-                    i.topicName === 'verbs' || 'nouns' || 'adjectives' || 'adverbs' ? true : false
-                })
-              }
-              blockHeader={i.header}
-              sub={i.subtitle}
-            />
-          ))}
-        </View>
-      </View>
     </ScrollView>
   )
 }
 
 const styles = StyleSheet.create({
   scrollView: {
-    height: '80%',
     backgroundColor: 'ivory'
   },
   contentContainer: {
@@ -210,8 +168,8 @@ const styles = StyleSheet.create({
     width: '95%',
     paddingHorizontal: '5%',
     borderRadius: 20,
-    paddingTop: '7%',
-    marginBottom: '5%',
+    paddingVertical: 18,
+    marginBottom: 15,
     backgroundColor: 'beige'
   },
   jlptBlock: {
