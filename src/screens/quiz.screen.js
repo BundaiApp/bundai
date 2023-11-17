@@ -66,8 +66,8 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     backgroundColor: 'beige',
     width: '45%',
-    height: '80%',
-    borderRadius: wp('5%'),
-    marginRight: 20
+    height: 100,
+    borderRadius: 10,
+    marginRight: 15
   }
 })
