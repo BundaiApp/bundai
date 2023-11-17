@@ -64,7 +64,10 @@ export default function QuizSettings({ navigation: { navigate } }) {
       <View style={styles.row}>
         {[...topics, ...words, ...kana].map((item) => (
           <TouchableOpacity
-            style={styles.pill}
+            style={[
+              styles.pill,
+              { backgroundColor: type == item.topicName ? 'lightskyblue' : 'khaki' }
+            ]}
             key={item.header}
             onPress={() => setType(item.topicName)}>
             <Text style={styles.pillText}>{item.header}</Text>
@@ -237,9 +240,7 @@ const styles = StyleSheet.create({
     width: '100%'
   },
 
-  //pill component
   pill: {
-    backgroundColor: 'gold',
     borderRadius: 10,
     width: '18%',
     justifyContent: 'space-between',

@@ -14,9 +14,9 @@ export const QuizScreen = ({ navigation: { navigate } }) => {
         <View styles={styles.textBlockContainer}>
           <HeroTextBlock
             tx2={'Memorise'}
-            tx2Color={'yellow'}
+            tx2Color={'black'}
             tx3={'Spaced Repetition System'}
-            tx3Color={'white'}
+            tx3Color={'dimgray'}
           />
         </View>
       </View>
