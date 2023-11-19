@@ -128,7 +128,7 @@ export default function Home({ navigation: { navigate } }) {
       </View>
 
       <View style={styles.blockHolder}>
-        <TextBlock tx1={'Hirgana & Katakana 仮名'} tx2={'Letters of Japanese Language'} />
+        <TextBlock tx1={'Hirgana & Katakana'} tx2={'Letters of Japanese Language'} />
         <View style={[styles.wordsRow, { justifyContent: 'flex-start' }]}>
           <SmallBlock
             handlePress={() =>
