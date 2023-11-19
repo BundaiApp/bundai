@@ -1,72 +1,95 @@
-export const SrsFunction = () => {
-  const sqlite3 = require('sqlite3').verbose()
-  const db = new sqlite3.Database('./srs.db')
+import React, { useEffect, useState } from 'react'
+import SQLite from 'react-native-sqlite-2'
 
-  // Step 1: Setup the database
-  db.serialize(() => {
-    db.run(`CREATE TABLE IF NOT EXISTS flashcards (
-    id INTEGER PRIMARY KEY AUTOINCREMENT,
-    kanjiName TEXT,
-    hiragana TEXT,
-    meanings TEXT,
-    firstSeen DATE,
-    lastSeen DATE,
-    rating INTEGER,
-    nextReview DATE
-  )`)
+export const SrsFunction = () => {
+  const [db, setDb] = useState(null)
+
+  // Example Kanji data in state (This would be set based on your application's flow)
+  const [kanjiData] = useState({
+    kanjiName: '人',
+    hiragana: 'ひと',
+    meanings: ['person'],
+    quizAnswers: ['old', 'mountain', 'person', 'cat']
   })
 
+  // Initialize the database
+  useEffect(() => {
+    const database = SQLite.openDatabase('srs.db', '1.0', '', 1)
+    setDb(database)
+    database.transaction((tx) => {
+      tx.executeSql(`CREATE TABLE IF NOT EXISTS flashcards (
+        id INTEGER PRIMARY KEY AUTOINCREMENT,
+        kanjiName TEXT UNIQUE,
+        hiragana TEXT,
+        meanings TEXT,
+        firstSeen DATE,
+        lastSeen DATE,
+        rating INTEGER,
+        nextReview DATE
+      )`)
+    })
+
+    return () => {
+      database.close()
+    }
+  }, [])
+
+  // Function to check if Kanji exists and insert if not
+  useEffect(() => {
+    if (db && kanjiData) {
+      db.transaction((tx) => {
+        tx.executeSql(
+          `SELECT * FROM flashcards WHERE kanjiName = ?`,
+          [kanjiData.kanjiName],
+          (_, { rows }) => {
+            if (rows.length === 0) {
+              addFlashcard(kanjiData)
+            }
+          }
+        )
+      })
+    }
+  }, [db, kanjiData])
+
+  //function to calculate next review date
+  function calculateNextReview(rating, lastSeen) {
+    const reviewIntervals = { 1: 1, 2: 2, 3: 4, 4: 7 } // Days until next review
+    const today = lastSeen ? new Date(lastSeen) : new Date()
+    return new Date(today.setDate(today.getDate() + (reviewIntervals[rating] || 1)))
+  }
+
   // Function to add flashcards to the database
-  function addFlashcard(flashcard) {
+  const addFlashcard = (flashcard) => {
+    if (!db) return
+
     const { kanjiName, hiragana, meanings } = flashcard
+    const initialRating = 1 // Default initial rating
+    const nextReview = calculateNextReview(initialRating).toISOString()
     const firstSeen = new Date().toISOString()
 
-    db.run(
-      `INSERT INTO flashcards (kanjiName, hiragana, meanings, firstSeen, nextReview)
-          VALUES (?, ?, ?, ?, ?)`,
-      [kanjiName, hiragana, JSON.stringify(meanings), firstSeen, firstSeen],
-      function (err) {
-        if (err) {
-          return console.error(err.message)
-        }
-        console.log(`A row has been inserted with rowid ${this.lastID}`)
-      }
-    )
+    db.transaction((tx) => {
+      tx.executeSql(
+        `INSERT INTO flashcards (kanjiName, hiragana, meanings, firstSeen, nextReview, lastSeen, rating)
+         VALUES (?, ?, ?, ?, ?)`,
+        [
+          kanjiName,
+          hiragana,
+          JSON.stringify(meanings),
+          firstSeen,
+          nextReview,
+          firstSeen,
+          initialRating
+        ],
+        (_, { insertId }) => console.log(`A row has been inserted with rowid ${insertId}`),
+        (tx, error) => console.error(error.message)
+      )
+    })
   }
 
-  // Step 2: Import data from JSON
-  const flashcards = require('./jlptAll.json') // Assuming this is your JSON file path
-  flashcards.forEach(addFlashcard)
+  // The rest of your component rendering goes here...
 
-  // Step 3: Define the scheduling logic
-  function calculateNextReview(rating) {
-    // Basic example: If the rating is 4 (good), then schedule 4 days later, etc.
-    const today = new Date()
-    return new Date(today.setDate(today.getDate() + rating))
-  }
-
-  // Step 4: Update records after review
-  function updateReview(kanjiName, newRating) {
-    const lastSeen = new Date().toISOString()
-    const nextReview = calculateNextReview(newRating).toISOString()
-
-    db.run(
-      `UPDATE flashcards SET lastSeen = ?, rating = ?, nextReview = ?
-          WHERE kanjiName = ?`,
-      [lastSeen, newRating, nextReview, kanjiName],
-      function (err) {
-        if (err) {
-          return console.error(err.message)
-        }
-        console.log(`Row(s) updated: ${this.changes}`)
-      }
-    )
-  }
-
-  // Example usage: Reviewing a flashcard
-  // Let's say you reviewed the flashcard "見る" and rated it as 3 (good)
-  updateReview('見る', 3)
-
-  // Don't forget to close the database after all operations are done
-  db.close()
+  return (
+    // Render your component UI here
+    <div>{/* UI elements */}</div>
+  )
 }
