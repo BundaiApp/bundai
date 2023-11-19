@@ -45,7 +45,7 @@ export default function Navigator() {
     return (
       <Stack.Navigator
         screenOptions={{
-          headerStyle: { backgroundColor: 'papayawhip' }
+          headerStyle: { backgroundColor: 'khaki' }
         }}>
         <Stack.Screen name="QuizHome" component={QuizScreen} />
         <Stack.Screen name="QuizSettings" component={QuizSettings} />

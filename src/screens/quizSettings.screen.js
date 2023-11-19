@@ -198,8 +198,9 @@ const styles = StyleSheet.create({
   },
   block: {
     height: 50,
-    margin: 10,
-    padding: 10,
+    marginHorizontal: 5,
+    marginVertical: 3,
+    padding: 8,
     alignItems: 'center',
     justifyContent: 'center',
     borderWidth: 2,
@@ -208,7 +209,7 @@ const styles = StyleSheet.create({
   },
   kanjiText: {
     fontSize: 22,
-    fontWeight: '500'
+    fontWeight: '400'
   },
   quizButton: {
     width: '100%',
