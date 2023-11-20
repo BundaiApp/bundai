@@ -10,7 +10,7 @@ const Pill = ({ subject }) => (
 
 export default function KanjiDetail({ route }) {
   const { isWord, isKana } = route.params
-  const { kanjiName, meanings, kun, on, hiragana } = route.params.paramsData
+  const { kanjiName, meanings, kun, on, hiragana, quizAnswers } = route.params.paramsData
 
   const [db, setDb] = useState(null)
 
@@ -27,7 +27,8 @@ export default function KanjiDetail({ route }) {
         firstSeen DATE,
         lastSeen DATE,
         rating INTEGER,
-        nextReview DATE
+        nextReview DATE,
+        quizAnswers TEXT
       )`)
 
       tx.executeSql('SELECT * FROM `flashcards`', [], function (tx, res) {
@@ -37,9 +38,7 @@ export default function KanjiDetail({ route }) {
       })
     })
 
-    return () => {
-      database.close()
-    }
+    //return () => database.close()
   }, [])
 
   // Function to check if Kanji exists and insert if not
@@ -51,7 +50,7 @@ export default function KanjiDetail({ route }) {
           [kanjiName],
           (_, { rows }) => {
             if (rows.length === 0) {
-              addFlashcard({ kanjiName, meanings, hiragana, on, kun })
+              addFlashcard({ kanjiName, meanings, hiragana, on, kun, quizAnswers })
             }
           }
         )
@@ -77,9 +76,18 @@ export default function KanjiDetail({ route }) {
 
     db.transaction((tx) => {
       tx.executeSql(
-        `INSERT INTO flashcards (kanjiName, hiragana, meanings, firstSeen, nextReview, lastSeen, rating)
-         VALUES (?, ?, ?, ?, ?, ?, ?)`,
-        [kanjiName, on, JSON.stringify(meanings), firstSeen, nextReview, firstSeen, initialRating],
+        `INSERT INTO flashcards (kanjiName, hiragana, meanings, firstSeen, nextReview, lastSeen, rating, quizAnswers)
+         VALUES (?, ?, ?, ?, ?, ?, ?, ?)`,
+        [
+          kanjiName,
+          on,
+          JSON.stringify(meanings),
+          firstSeen,
+          nextReview,
+          firstSeen,
+          initialRating,
+          quizAnswers
+        ],
         (_, { insertId }) => console.log(`A row has been inserted with rowid ${insertId}`),
         (tx, error) => console.error(error.message)
       )
