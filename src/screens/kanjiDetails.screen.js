@@ -24,18 +24,12 @@ export default function KanjiDetail({ route }) {
         kanjiName TEXT UNIQUE,
         hiragana TEXT,
         meanings TEXT,
-        firstSeen DATE,
-        lastSeen DATE,
+        firstSeen TEXT,
+        lastSeen TEXT,
         rating INTEGER,
-        nextReview DATE,
+        nextReview TEXT,
         quizAnswers TEXT
       )`)
-
-      tx.executeSql('SELECT * FROM `flashcards`', [], function (tx, res) {
-        for (let i = 0; i < res.rows.length; ++i) {
-          console.log('item:', res.rows.item(i))
-        }
-      })
     })
 
     //return () => database.close()
@@ -62,7 +56,8 @@ export default function KanjiDetail({ route }) {
   function calculateNextReview(rating, lastSeen) {
     const reviewIntervals = { 1: 1, 2: 2, 3: 4, 4: 7 } // Days until next review
     const today = lastSeen ? new Date(lastSeen) : new Date()
-    return new Date(today.setDate(today.getDate() + (reviewIntervals[rating] || 1)))
+    const nextReviewDate = new Date(today.setDate(today.getDate()))
+    return nextReviewDate.toISOString().split('T')[0] // Returns 'YYYY-MM-DD'
   }
 
   // Function to add flashcards to the database
@@ -71,8 +66,10 @@ export default function KanjiDetail({ route }) {
 
     const { kanjiName, meanings, on } = flashcard
     const initialRating = 1 // Default initial rating
-    const nextReview = calculateNextReview(initialRating).toISOString()
-    const firstSeen = new Date().toISOString()
+    const nextReview = calculateNextReview(initialRating, new Date().toISOString())
+    const firstSeen = new Date().toISOString().split('T')[0] // 'YYYY-MM-DD'
+
+    console.log(nextReview, firstSeen)
 
     db.transaction((tx) => {
       tx.executeSql(

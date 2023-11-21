@@ -6,6 +6,7 @@ import { FONTS } from '../components/fonts'
 //components
 import { HeroTextBlock } from '../components/textBlock'
 
+//"SELECT * FROM flashcards WHERE date(nextReview) = '2023-11-25'",
 export const QuizScreen = ({ navigation: { navigate } }) => {
   const [data, setData] = useState([])
 
@@ -13,10 +14,33 @@ export const QuizScreen = ({ navigation: { navigate } }) => {
   useEffect(() => {
     const database = SQLite.openDatabase('srs.db', '1.0', '', 1)
     database.transaction((tx) => {
+      tx.executeSql(`CREATE TABLE IF NOT EXISTS flashcards (
+        id INTEGER PRIMARY KEY AUTOINCREMENT,
+        kanjiName TEXT UNIQUE,
+        hiragana TEXT,
+        meanings TEXT,
+        firstSeen TEXT,
+        lastSeen TEXT,
+        rating INTEGER,
+        nextReview TEXT,
+        quizAnswers TEXT
+      )`)
+    })
+    //return () => database.close()
+  }, [])
+
+  // Initialize the database
+  useEffect(() => {
+    const database = SQLite.openDatabase('srs.db', '1.0', '', 1)
+
+    let d = new Date().toISOString().split('T')[0]
+
+    database.transaction((tx) => {
       // get the data from sqlite
       tx.executeSql(
-        "SELECT *, date('now') AS currentDate FROM flashcards",
-        [],
+        'SELECT * FROM flashcards WHERE nextReview =?',
+        [d],
+        // 'SELECT * FROM flashcards',
         function async(tx, res) {
           let tempData = []
           for (let i = 0; i < res.rows.length; ++i) {
@@ -33,11 +57,9 @@ export const QuizScreen = ({ navigation: { navigate } }) => {
             tempData.push({ ...row, quizAnswers: quizAnswersArray, meanings: meaningsArray })
           }
           setData(tempData) // Set state once after collecting all data
-          console.log(data)
-          console.log(tempData)
         },
-        function (tx, err) {
-          console.error('Error:', err)
+        function (tx, error) {
+          console.error('Query error:', error)
         }
       )
     })

@@ -14,6 +14,20 @@ export const SRS_HOME = ({ navigation, route }) => {
 
   const moveToNextQuestion = (answer) => {
     setSelectedAns(answer)
+    // make changes to sqlite3 item so nextReview date is changed
+    if (questionsArray[number].meanings.includes(answer)) {
+      //find it in sqlite3
+      //nextReviewDate
+      //lastSeen
+      //rating
+      console.log('right')
+    } else {
+      console.log('wrong')
+      //nextReviewDate
+      //lastSeen
+      //rating
+    }
+
     setTimeout(() => {
       if (number !== questionsArray.length - 1) {
         setNumber(number + 1)
@@ -23,10 +37,6 @@ export const SRS_HOME = ({ navigation, route }) => {
       }
     }, 500) // Adjust the delay as needed
   }
-
-  useEffect(() => {
-    console.log(questionsArray)
-  }, [])
 
   return (
     <View style={styles.container}>
