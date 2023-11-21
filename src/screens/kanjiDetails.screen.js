@@ -80,7 +80,7 @@ export default function KanjiDetail({ route }) {
          VALUES (?, ?, ?, ?, ?, ?, ?, ?)`,
         [
           kanjiName,
-          JSON.stringify(on),
+          isKana ? '' : isWord ? hiragana : JSON.stringify(on),
           JSON.stringify(meanings),
           firstSeen,
           nextReview,
