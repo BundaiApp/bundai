@@ -69,7 +69,7 @@ export default function KanjiDetail({ route }) {
   const addFlashcard = (flashcard) => {
     if (!db) return
 
-    const { kanjiName, hiragana, meanings, on, kun } = flashcard
+    const { kanjiName, meanings, on } = flashcard
     const initialRating = 1 // Default initial rating
     const nextReview = calculateNextReview(initialRating).toISOString()
     const firstSeen = new Date().toISOString()
@@ -80,19 +80,20 @@ export default function KanjiDetail({ route }) {
          VALUES (?, ?, ?, ?, ?, ?, ?, ?)`,
         [
           kanjiName,
-          on,
+          JSON.stringify(on),
           JSON.stringify(meanings),
           firstSeen,
           nextReview,
           firstSeen,
           initialRating,
-          quizAnswers
+          JSON.stringify(quizAnswers)
         ],
         (_, { insertId }) => console.log(`A row has been inserted with rowid ${insertId}`),
         (tx, error) => console.error(error.message)
       )
     })
   }
+
   return (
     <ScrollView contentContainerStyle={styles.container}>
       <Text style={styles.kanji}>{kanjiName}</Text>
