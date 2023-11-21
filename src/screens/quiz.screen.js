@@ -1,13 +1,50 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import { View, Text, StyleSheet, SafeAreaView, TouchableOpacity } from 'react-native'
-import { widthPercentageToDP as wp } from 'react-native-responsive-screen'
+import SQLite from 'react-native-sqlite-2'
+//util
 import { FONTS } from '../components/fonts'
-
 //components
-//import { VerticalSpacer } from '../components/spacers'
 import { HeroTextBlock } from '../components/textBlock'
 
 export const QuizScreen = ({ navigation: { navigate } }) => {
+  const [data, setData] = useState([])
+
+  // Initialize the database
+  useEffect(() => {
+    const database = SQLite.openDatabase('srs.db', '1.0', '', 1)
+    database.transaction((tx) => {
+      // get the data from sqlite
+      tx.executeSql(
+        "SELECT *, date('now') AS currentDate FROM flashcards",
+        [],
+        function async(tx, res) {
+          let tempData = []
+          for (let i = 0; i < res.rows.length; ++i) {
+            let row = res.rows.item(i)
+            let quizAnswersArray
+            try {
+              quizAnswersArray = JSON.parse(row.quizAnswers || '[]')
+              meaningsArray = JSON.parse(row.meanings || '[]')
+            } catch (e) {
+              // Handle the error or set a default value if JSON parsing fails
+              quizAnswersArray = []
+            }
+            // Construct the full data object including parsed quizAnswers
+            tempData.push({ ...row, quizAnswers: quizAnswersArray, meanings: meaningsArray })
+          }
+          setData(tempData) // Set state once after collecting all data
+          console.log(data)
+          console.log(tempData)
+        },
+        function (tx, err) {
+          console.error('Error:', err)
+        }
+      )
+    })
+    // Cleanup if necessary
+    //return () => database.close()
+  }, [])
+
   return (
     <SafeAreaView style={styles.safeArea}>
       <View style={styles.topSection}>
@@ -23,7 +60,9 @@ export const QuizScreen = ({ navigation: { navigate } }) => {
 
       <View style={styles.bottomSection}>
         <View style={styles.boxRow}>
-          <TouchableOpacity style={styles.box} onPress={() => navigate('SRS_Home')}>
+          <TouchableOpacity
+            style={styles.box}
+            onPress={() => navigate('SRS_Home', { questionsArray: data })}>
             <Text style={{ ...FONTS.bold24 }}>SRS</Text>
           </TouchableOpacity>
           <TouchableOpacity style={styles.box} onPress={() => navigate('QuizSettings')}>
