@@ -54,9 +54,10 @@ export default function KanjiDetail({ route }) {
 
   //function to calculate next review date
   function calculateNextReview(rating, lastSeen) {
-    const reviewIntervals = { 1: 1, 2: 2, 3: 4, 4: 7 } // Days until next review
+    const reviewIntervals = { 1: 1, 2: 2, 3: 4, 4: 7, 5: 30, 6: 120 } // Days until next review
     const today = lastSeen ? new Date(lastSeen) : new Date()
     const nextReviewDate = new Date(today.setDate(today.getDate() + (reviewIntervals[rating] || 1)))
+    // const nextReviewDate = new Date(today.setDate(today.getDate()))
     return nextReviewDate.toISOString().split('T')[0] // Returns 'YYYY-MM-DD'
   }
 
@@ -68,8 +69,6 @@ export default function KanjiDetail({ route }) {
     const initialRating = 1 // Default initial rating
     const nextReview = calculateNextReview(initialRating, new Date().toISOString())
     const firstSeen = new Date().toISOString().split('T')[0] // 'YYYY-MM-DD'
-
-    console.log(nextReview, firstSeen)
 
     db.transaction((tx) => {
       tx.executeSql(

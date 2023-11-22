@@ -113,7 +113,12 @@ export const QuizScreen = ({ navigation: { navigate } }) => {
         <View style={styles.boxRow}>
           <TouchableOpacity
             style={styles.box}
-            onPress={() => navigate('SRS_Home', { questionsArray: data })}>
+            onPress={() => {
+              console.log(data, allData)
+              data.length === 0
+                ? alert('Nothing to review')
+                : navigate('SRS_Home', { questionsArray: data })
+            }}>
             <Text style={{ ...FONTS.bold24 }}>SRS</Text>
             {data.length === 0 ? null : (
               <View style={styles.notificationCircle}>

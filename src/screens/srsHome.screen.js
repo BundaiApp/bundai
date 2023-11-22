@@ -4,7 +4,7 @@ import SQLite from 'react-native-sqlite-2'
 //utils
 import { FONTS } from '../components/fonts'
 
-const reviewIntervals = { 1: 1, 2: 2, 3: 4, 4: 7 } // Days until next review
+const reviewIntervals = { 1: 1, 2: 2, 3: 7, 4: 14, 5: 30, 6: 120 } // Days until next review
 
 export const SRS_HOME = ({ navigation, route }) => {
   //route params
@@ -14,24 +14,15 @@ export const SRS_HOME = ({ navigation, route }) => {
   const [selectedAns, setSelectedAns] = useState(null)
 
   //find it in sqlite3 & update nextReviewDate & lastSeen
-  const updateNextReviewDate = (flashcardId, newReviewDate, newLastSeenDate) => {
+  const updateNextReviewDate = (flashcardId, newReviewDate, newLastSeenDate, rating) => {
     //initialise db
     const database = SQLite.openDatabase('srs.db', '1.0', '', 1)
-
     if (!database) return
-    console.log(
-      'newLastSeenDate: ',
-      newLastSeenDate,
-      'newReviewDate: ',
-      newReviewDate,
-      'flashcardId: ',
-      flashcardId
-    )
 
     database.transaction((tx) => {
       tx.executeSql(
-        'UPDATE flashcards SET nextReview = ?  WHERE id = ?',
-        [newReviewDate, flashcardId],
+        'UPDATE flashcards SET nextReview = ?, lastSeen = ?, rating = ? WHERE id = ?',
+        [newReviewDate, newLastSeenDate, rating, flashcardId],
         (_, result) => {
           console.log(`Updated flashcard with id ${flashcardId}:`, result)
         },
@@ -43,24 +34,24 @@ export const SRS_HOME = ({ navigation, route }) => {
   }
 
   const moveToNextQuestion = (answer) => {
-    let rating = 1
-    let nextReview
-    let newLastSeenDate
-
     setSelectedAns(answer)
+
+    let rating = questionsArray[number].rating
+    let nextReview
+    const newLastSeenDate = new Date().toISOString().split('T')[0]
+
     if (questionsArray[number].meanings.includes(answer)) {
-      //do rating
-      rating = 2
-      newLastSeenDate = new Date().toISOString().split('T')[0]
-      //nextReview date
-      nextReview = new Date(new Date().setDate(new Date().getDate() + reviewIntervals[rating]))
+      nextReview = new Date(new Date().setDate(new Date().getDate() + reviewIntervals[rating++]))
         .toISOString()
         .split('T')[0]
-      // make changes to sqlite3 item so nextReview date is changed
-      updateNextReviewDate(questionsArray[number].id, nextReview, newLastSeenDate)
+      updateNextReviewDate(questionsArray[number].id, nextReview, newLastSeenDate, rating++)
       console.log('right')
     } else {
       console.log('wrong')
+      nextReview = new Date(new Date().setDate(new Date().getDate() + reviewIntervals[rating--]))
+        .toISOString()
+        .split('T')[0]
+      updateNextReviewDate(questionsArray[number].id, nextReview, newLastSeenDate, rating--)
     }
 
     setTimeout(() => {
