@@ -4,28 +4,63 @@ import SQLite from 'react-native-sqlite-2'
 //utils
 import { FONTS } from '../components/fonts'
 
+const reviewIntervals = { 1: 1, 2: 2, 3: 4, 4: 7 } // Days until next review
+
 export const SRS_HOME = ({ navigation, route }) => {
   //route params
   const { questionsArray } = route.params
-
   //state
   const [number, setNumber] = useState(0)
   const [selectedAns, setSelectedAns] = useState(null)
 
+  //find it in sqlite3 & update nextReviewDate & lastSeen
+  const updateNextReviewDate = (flashcardId, newReviewDate, newLastSeenDate) => {
+    //initialise db
+    const database = SQLite.openDatabase('srs.db', '1.0', '', 1)
+
+    if (!database) return
+    console.log(
+      'newLastSeenDate: ',
+      newLastSeenDate,
+      'newReviewDate: ',
+      newReviewDate,
+      'flashcardId: ',
+      flashcardId
+    )
+
+    database.transaction((tx) => {
+      tx.executeSql(
+        'UPDATE flashcards SET nextReview = ?  WHERE id = ?',
+        [newReviewDate, flashcardId],
+        (_, result) => {
+          console.log(`Updated flashcard with id ${flashcardId}:`, result)
+        },
+        (tx, error) => {
+          console.error('Update error:', error)
+        }
+      )
+    })
+  }
+
   const moveToNextQuestion = (answer) => {
+    let rating = 1
+    let nextReview
+    let newLastSeenDate
+
     setSelectedAns(answer)
-    // make changes to sqlite3 item so nextReview date is changed
     if (questionsArray[number].meanings.includes(answer)) {
-      //find it in sqlite3
-      //nextReviewDate
-      //lastSeen
-      //rating
+      //do rating
+      rating = 2
+      newLastSeenDate = new Date().toISOString().split('T')[0]
+      //nextReview date
+      nextReview = new Date(new Date().setDate(new Date().getDate() + reviewIntervals[rating]))
+        .toISOString()
+        .split('T')[0]
+      // make changes to sqlite3 item so nextReview date is changed
+      updateNextReviewDate(questionsArray[number].id, nextReview, newLastSeenDate)
       console.log('right')
     } else {
       console.log('wrong')
-      //nextReviewDate
-      //lastSeen
-      //rating
     }
 
     setTimeout(() => {
@@ -40,9 +75,11 @@ export const SRS_HOME = ({ navigation, route }) => {
 
   return (
     <View style={styles.container}>
-      <View style={styles.topSection}>
+      <TouchableOpacity
+        style={styles.topSection}
+        onPress={() => console.log(questionsArray[number])}>
         <Text style={styles.kanjiText}>{questionsArray[number].kanjiName}</Text>
-      </View>
+      </TouchableOpacity>
 
       <View style={styles.bottomSection}>
         {questionsArray[number].quizAnswers.map((answer, index) => (

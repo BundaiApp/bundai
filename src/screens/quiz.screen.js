@@ -10,18 +10,19 @@ import { HeroTextBlock } from '../components/textBlock'
 //"SELECT * FROM flashcards WHERE date(nextReview) = '2023-11-25'",
 export const QuizScreen = ({ navigation: { navigate } }) => {
   const [data, setData] = useState([])
+  const [allData, setAllData] = useState([])
+
+  const database = SQLite.openDatabase('srs.db', '1.0', '', 1)
 
   // Initialize the database
   useFocusEffect(
     useCallback(() => {
-      const database = SQLite.openDatabase('srs.db', '1.0', '', 1)
-
       let d = new Date().toISOString().split('T')[0]
 
       database.transaction((tx) => {
-        // get the data from sqlite
+        // find upto todays questions
         tx.executeSql(
-          'SELECT * FROM flashcards WHERE nextReview =?',
+          'SELECT * FROM flashcards WHERE nextReview <=?',
           [d],
           // 'SELECT * FROM flashcards',
           function async(tx, res) {
@@ -45,13 +46,39 @@ export const QuizScreen = ({ navigation: { navigate } }) => {
             console.error('Query error:', error)
           }
         )
+
+        // all data
+        tx.executeSql(
+          'SELECT * FROM flashcards',
+          [],
+          function async(tx, res) {
+            let tempData = []
+            for (let i = 0; i < res.rows.length; ++i) {
+              let row = res.rows.item(i)
+              let quizAnswersArray
+              try {
+                quizAnswersArray = JSON.parse(row.quizAnswers || '[]')
+                meaningsArray = JSON.parse(row.meanings || '[]')
+              } catch (e) {
+                // Handle the error or set a default value if JSON parsing fails
+                quizAnswersArray = []
+              }
+              // Construct the full data object including parsed quizAnswers
+              tempData.push({ ...row, quizAnswers: quizAnswersArray, meanings: meaningsArray })
+            }
+            setAllData(tempData) // Set state once after collecting all data
+          },
+          function (tx, error) {
+            console.error('Query error:', error)
+          }
+        )
       })
       // Cleanup if necessary
       //return () => database.close()
     }, [])
   )
+
   useEffect(() => {
-    const database = SQLite.openDatabase('srs.db', '1.0', '', 1)
     database.transaction((tx) => {
       tx.executeSql(`CREATE TABLE IF NOT EXISTS flashcards (
         id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -88,9 +115,11 @@ export const QuizScreen = ({ navigation: { navigate } }) => {
             style={styles.box}
             onPress={() => navigate('SRS_Home', { questionsArray: data })}>
             <Text style={{ ...FONTS.bold24 }}>SRS</Text>
-            <View style={styles.notificationCircle}>
-              <Text style={styles.notificationText}>{data.length}</Text>
-            </View>
+            {data.length === 0 ? null : (
+              <View style={styles.notificationCircle}>
+                <Text style={styles.notificationText}>{data.length}</Text>
+              </View>
+            )}
           </TouchableOpacity>
           <TouchableOpacity style={styles.box} onPress={() => navigate('QuizSettings')}>
             <Text style={{ ...FONTS.bold24 }}>Instant Quiz</Text>
@@ -153,3 +182,28 @@ const styles = StyleSheet.create({
     color: 'white'
   }
 })
+
+// tx.executeSql(
+//           'SELECT * FROM flashcards',
+//           [],
+//           function async(tx, res) {
+//             let tempData = []
+//             for (let i = 0; i < res.rows.length; ++i) {
+//               let row = res.rows.item(i)
+//               let quizAnswersArray
+//               try {
+//                 quizAnswersArray = JSON.parse(row.quizAnswers || '[]')
+//                 meaningsArray = JSON.parse(row.meanings || '[]')
+//               } catch (e) {
+//                 // Handle the error or set a default value if JSON parsing fails
+//                 quizAnswersArray = []
+//               }
+//               // Construct the full data object including parsed quizAnswers
+//               tempData.push({ ...row, quizAnswers: quizAnswersArray, meanings: meaningsArray })
+//             }
+//             setAllData(tempData) // Set state once after collecting all data
+//           },
+//           function (tx, error) {
+//             console.error('Query error:', error)
+//           }
+//         )
