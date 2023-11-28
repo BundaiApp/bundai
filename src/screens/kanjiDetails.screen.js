@@ -56,7 +56,7 @@ export default function KanjiDetail({ route }) {
   function calculateNextReview(rating, lastSeen) {
     const reviewIntervals = { 1: 1, 2: 2, 3: 4, 4: 7, 5: 30, 6: 120 } // Days until next review
     const today = lastSeen ? new Date(lastSeen) : new Date()
-    const nextReviewDate = new Date(today.setDate(today.getDate() + (reviewIntervals[rating] || 1)))
+    const nextReviewDate = new Date(today.setDate(today.getDate()))
     // const nextReviewDate = new Date(today.setDate(today.getDate()))
     return nextReviewDate.toISOString().split('T')[0] // Returns 'YYYY-MM-DD'
   }
