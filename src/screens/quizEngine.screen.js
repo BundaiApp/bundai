@@ -1,11 +1,12 @@
 import React, { useState, useEffect } from 'react'
-import { View, Text, StyleSheet, TouchableOpacity } from 'react-native'
-import SQLite from 'react-native-sqlite-2'
+import { View, Text, StyleSheet, TouchableOpacity, useWindowDimensions } from 'react-native'
+import ProgressBar from 'react-native-progress/Bar'
 
 //utils
 import { FONTS } from '../components/fonts'
 
 export const QuizEngine = ({ navigation, route }) => {
+  const { width } = useWindowDimensions()
   //route params
   const { questionsArray } = route.params
   //state
@@ -23,8 +24,23 @@ export const QuizEngine = ({ navigation, route }) => {
       }
     }, 500) // Adjust the delay as needed
   }
+
+  useEffect(() => {
+    console.log(questionsArray.length, number)
+  }, [number])
+
   return (
     <View style={styles.container}>
+      <View style={styles.barHolder}>
+        <ProgressBar
+          progress={number / questionsArray.length}
+          color={'mediumaquamarine'}
+          borderColor={'silver'}
+          height={15}
+          width={width - 20}
+          animationType={'spring'}
+        />
+      </View>
       <View style={styles.topSection}>
         <Text style={styles.kanjiText}>{questionsArray[number].kanjiName}</Text>
       </View>
@@ -59,7 +75,11 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: 'beige'
   },
-
+  barHolder: {
+    justifyContent: 'center',
+    alignItems: 'center',
+    height: '5%'
+  },
   //3 sections
   topSection: {
     flex: 3 / 2,
