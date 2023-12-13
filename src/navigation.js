@@ -56,42 +56,40 @@ export default function Navigator() {
   }
 
   return (
-    <NavigationContainer>
-      <Tab.Navigator
-        screenOptions={({ route }) => ({
-          headerShown: false,
-          tabBarActiveTintColor: 'black',
-          tabBarInactiveTintColor: 'dimgray',
-          tabBarIcon: ({ color }) => {
-            let iconName
-            switch (route.name) {
-              case 'Words':
-                iconName = 'file-tray-full'
-                break
-              case 'Exam':
-                iconName = 'document-sharp'
-                break
-              case 'Game':
-                iconName = 'game-controller'
-                break
-              case 'Talk':
-                iconName = 'mic-circle'
-                break
-              case 'Quiz':
-                iconName = 'book'
-                break
-              default:
-            }
-            // You can return any component that you like here!
-            return <Icon name={iconName} type={'ionicon'} size={26} color={color} />
+    <Tab.Navigator
+      screenOptions={({ route }) => ({
+        headerShown: false,
+        tabBarActiveTintColor: 'black',
+        tabBarInactiveTintColor: 'dimgray',
+        tabBarIcon: ({ color }) => {
+          let iconName
+          switch (route.name) {
+            case 'Words':
+              iconName = 'file-tray-full'
+              break
+            case 'Exam':
+              iconName = 'document-sharp'
+              break
+            case 'Game':
+              iconName = 'game-controller'
+              break
+            case 'Talk':
+              iconName = 'mic-circle'
+              break
+            case 'Quiz':
+              iconName = 'book'
+              break
+            default:
           }
-        })}>
-        <Tab.Screen name="Words" component={HomeStack} />
-        <Tab.Screen name="Quiz" component={QuizStack} />
-        <Tab.Screen name="Exam" component={ExamScreen} />
-        <Tab.Screen name="Game" component={ExamScreen} />
-        <Tab.Screen name="Talk" component={ExamScreen} />
-      </Tab.Navigator>
-    </NavigationContainer>
+          // You can return any component that you like here!
+          return <Icon name={iconName} type={'ionicon'} size={26} color={color} />
+        }
+      })}>
+      <Tab.Screen name="Words" component={HomeStack} />
+      <Tab.Screen name="Quiz" component={QuizStack} />
+      <Tab.Screen name="Exam" component={ExamScreen} />
+      <Tab.Screen name="Game" component={ExamScreen} />
+      <Tab.Screen name="Talk" component={ExamScreen} />
+    </Tab.Navigator>
   )
 }
