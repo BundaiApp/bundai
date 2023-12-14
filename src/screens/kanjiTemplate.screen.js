@@ -1,5 +1,13 @@
 import React, { useEffect, useState } from 'react'
-import { Platform, Text, FlatList, TouchableOpacity, StyleSheet, SafeAreaView } from 'react-native'
+import {
+  Platform,
+  Text,
+  FlatList,
+  TouchableOpacity,
+  StyleSheet,
+  SafeAreaView,
+  View
+} from 'react-native'
 import {
   widthPercentageToDP as wp,
   heightPercentageToDP as hp
@@ -52,7 +60,7 @@ function TemplateKanji({ navigation: { navigate }, route }) {
   }, [jlptLevel, strokes, grades])
 
   return (
-    <SafeAreaView>
+    <View style={styles.container}>
       <FlatList
         data={arr}
         renderItem={({ item }) => (
@@ -64,19 +72,15 @@ function TemplateKanji({ navigation: { navigate }, route }) {
         style={styles.flatList} // background color of the FlatList
         contentContainerStyle={styles.flatListContent} // background color of the content
       />
-    </SafeAreaView>
+    </View>
   )
 }
 
 const styles = StyleSheet.create({
-  sectionHeaderWrapper: {
-    width: '100%' // Take up the full width of the FlatList
-  },
-  sectionHeader: {
-    paddingHorizontal: hp('1%'),
-    paddingVertical: hp('2.5%'),
-    justifyContent: 'center',
-    backgroundColor: 'white'
+  container: {
+    flex: 1,
+    paddingTop: '15%',
+    backgroundColor: 'ivory'
   },
   // background color of the content
   flatListContent: {

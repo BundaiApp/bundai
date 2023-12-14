@@ -29,7 +29,7 @@ export default function Navigator() {
     return (
       <Stack.Navigator
         screenOptions={{
-          headerStyle: { backgroundColor: 'papayawhip' }
+          headerShown: false
         }}>
         <Stack.Screen name="Home" component={HomeScreen} />
         <Stack.Screen name="KanjiDetail" component={KanjiDetailScreen} />

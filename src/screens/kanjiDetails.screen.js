@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import { View, Text, StyleSheet, ScrollView } from 'react-native'
-import SQLite from 'react-native-sqlite-2'
+import { View, Text, StyleSheet } from 'react-native'
 
 const Pill = ({ subject }) => (
   <View style={styles.pill}>
@@ -12,86 +11,8 @@ export default function KanjiDetail({ route }) {
   const { isWord, isKana } = route.params
   const { kanjiName, meanings, kun, on, hiragana, quizAnswers } = route.params.paramsData
 
-  const [db, setDb] = useState(null)
-
-  // Initialize the database
-  useEffect(() => {
-    const database = SQLite.openDatabase('srs.db', '1.0', '', 1)
-    setDb(database)
-    database.transaction((tx) => {
-      tx.executeSql(`CREATE TABLE IF NOT EXISTS flashcards (
-        id INTEGER PRIMARY KEY AUTOINCREMENT,
-        kanjiName TEXT UNIQUE,
-        hiragana TEXT,
-        meanings TEXT,
-        firstSeen TEXT,
-        lastSeen TEXT,
-        rating INTEGER,
-        nextReview TEXT,
-        quizAnswers TEXT
-      )`)
-    })
-
-    //return () => database.close()
-  }, [])
-
-  // Function to check if Kanji exists and insert if not
-  useEffect(() => {
-    if (db && kanjiName) {
-      db.transaction((tx) => {
-        tx.executeSql(
-          `SELECT * FROM flashcards WHERE kanjiName = ?`,
-          [kanjiName],
-          (_, { rows }) => {
-            if (rows.length === 0) {
-              addFlashcard({ kanjiName, meanings, hiragana, on, kun, quizAnswers })
-            }
-          }
-        )
-      })
-    }
-  }, [db, kanjiName])
-
-  //function to calculate next review date
-  function calculateNextReview(rating, lastSeen) {
-    const reviewIntervals = { 1: 1, 2: 2, 3: 4, 4: 7, 5: 30, 6: 120 } // Days until next review
-    const today = lastSeen ? new Date(lastSeen) : new Date()
-    const nextReviewDate = new Date(today.setDate(today.getDate()))
-    // const nextReviewDate = new Date(today.setDate(today.getDate()))
-    return nextReviewDate.toISOString().split('T')[0] // Returns 'YYYY-MM-DD'
-  }
-
-  // Function to add flashcards to the database
-  const addFlashcard = (flashcard) => {
-    if (!db) return
-
-    const { kanjiName, meanings, on } = flashcard
-    const initialRating = 1 // Default initial rating
-    const nextReview = calculateNextReview(initialRating, new Date().toISOString())
-    const firstSeen = new Date().toISOString().split('T')[0] // 'YYYY-MM-DD'
-
-    db.transaction((tx) => {
-      tx.executeSql(
-        `INSERT INTO flashcards (kanjiName, hiragana, meanings, firstSeen, nextReview, lastSeen, rating, quizAnswers)
-         VALUES (?, ?, ?, ?, ?, ?, ?, ?)`,
-        [
-          kanjiName,
-          isKana ? '' : isWord ? hiragana : JSON.stringify(on),
-          JSON.stringify(meanings),
-          firstSeen,
-          nextReview,
-          firstSeen,
-          initialRating,
-          JSON.stringify(quizAnswers)
-        ],
-        (_, { insertId }) => console.log(`A row has been inserted with rowid ${insertId}`),
-        (tx, error) => console.error(error.message)
-      )
-    })
-  }
-
   return (
-    <ScrollView contentContainerStyle={styles.container}>
+    <View style={styles.container}>
       <Text style={styles.kanji}>{kanjiName}</Text>
 
       <Text style={styles.header}>Meanings</Text>
@@ -127,14 +48,17 @@ export default function KanjiDetail({ route }) {
           </View>
         </>
       )}
-    </ScrollView>
+    </View>
   )
 }
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    paddingTop: '2%',
+    paddingTop: '15%',
+    backgroundColor: 'ivory'
+  },
+  scrollviewBackDrop: {
     backgroundColor: 'ivory'
   },
   kanji: {
