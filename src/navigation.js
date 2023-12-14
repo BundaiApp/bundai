@@ -1,5 +1,4 @@
 import React from 'react'
-import { NavigationContainer } from '@react-navigation/native'
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs'
 import { createStackNavigator } from '@react-navigation/stack'
 import { Icon } from 'react-native-elements'
@@ -18,6 +17,9 @@ import { SRS_HOME } from './screens/srsHome.screen'
 
 //exam screen
 import { ExamScreen } from './screens/exam.screen'
+
+//signup stack
+import SignUpScreen from './screens/signUp.screen'
 
 export default function Navigator() {
   const Stack = createStackNavigator()
@@ -89,7 +91,7 @@ export default function Navigator() {
       <Tab.Screen name="Quiz" component={QuizStack} />
       <Tab.Screen name="Exam" component={ExamScreen} />
       <Tab.Screen name="Game" component={ExamScreen} />
-      <Tab.Screen name="Talk" component={ExamScreen} />
+      <Tab.Screen name="Talk" component={SignUpScreen} />
     </Tab.Navigator>
   )
 }
