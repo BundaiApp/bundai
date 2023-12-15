@@ -76,7 +76,6 @@ export default function SignUp({ navigation: { navigate, goBack } }) {
         placeholder={'Password'}
         placeholderTextColor={'gray'}
         value={password}
-        autoCapitalize={false}
         onChangeText={(text) => setPassWord(text)}
       />
       <TextInput
