@@ -1,6 +1,5 @@
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 import { View, StyleSheet, Text, TouchableOpacity } from 'react-native'
-import SQLite from 'react-native-sqlite-2'
 //utils
 import { FONTS } from '../components/fonts'
 
@@ -13,26 +12,6 @@ export const SRS_HOME = ({ navigation, route }) => {
   const [number, setNumber] = useState(0)
   const [selectedAns, setSelectedAns] = useState(null)
 
-  //find it in sqlite3 & update nextReviewDate & lastSeen
-  const updateNextReviewDate = (flashcardId, newReviewDate, newLastSeenDate, rating) => {
-    //initialise db
-    const database = SQLite.openDatabase('srs.db', '1.0', '', 1)
-    if (!database) return
-
-    database.transaction((tx) => {
-      tx.executeSql(
-        'UPDATE flashcards SET nextReview = ?, lastSeen = ?, rating = ? WHERE id = ?',
-        [newReviewDate, newLastSeenDate, rating, flashcardId],
-        (_, result) => {
-          console.log(`Updated flashcard with id ${flashcardId}:`, result)
-        },
-        (tx, error) => {
-          console.error('Update error:', error)
-        }
-      )
-    })
-  }
-
   const moveToNextQuestion = (answer) => {
     setSelectedAns(answer)
 
@@ -41,17 +20,13 @@ export const SRS_HOME = ({ navigation, route }) => {
     const newLastSeenDate = new Date().toISOString().split('T')[0]
 
     if (questionsArray[number].meanings.includes(answer)) {
-      nextReview = new Date(new Date().setDate(new Date().getDate() + reviewIntervals[rating++]))
-        .toISOString()
-        .split('T')[0]
-      updateNextReviewDate(questionsArray[number].id, nextReview, newLastSeenDate, rating++)
+      // mutation to increase kanjis next review date
+      // rating++
       console.log('right')
     } else {
       console.log('wrong')
-      nextReview = new Date(new Date().setDate(new Date().getDate() + reviewIntervals[rating--]))
-        .toISOString()
-        .split('T')[0]
-      updateNextReviewDate(questionsArray[number].id, nextReview, newLastSeenDate, rating--)
+      // mutation to decrease kanjis next review date
+      // rating--
     }
 
     setTimeout(() => {

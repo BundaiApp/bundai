@@ -1,101 +1,15 @@
 import React, { useState, useEffect, useCallback } from 'react'
 import { View, Text, StyleSheet, SafeAreaView, TouchableOpacity } from 'react-native'
 import { useFocusEffect } from '@react-navigation/native'
-import SQLite from 'react-native-sqlite-2'
 //util
 import { FONTS } from '../components/fonts'
 //components
 import { HeroTextBlock } from '../components/textBlock'
 
-//"SELECT * FROM flashcards WHERE date(nextReview) = '2023-11-25'",
 export const QuizScreen = ({ navigation: { navigate } }) => {
   const [data, setData] = useState([])
   const [allData, setAllData] = useState([])
 
-  const database = SQLite.openDatabase('srs.db', '1.0', '', 1)
-
-  // Initialize the database
-  useFocusEffect(
-    useCallback(() => {
-      let d = new Date().toISOString().split('T')[0]
-
-      database.transaction((tx) => {
-        // find upto todays questions
-        tx.executeSql(
-          'SELECT * FROM flashcards WHERE nextReview <=?',
-          [d],
-          // 'SELECT * FROM flashcards',
-          function async(tx, res) {
-            let tempData = []
-            for (let i = 0; i < res.rows.length; ++i) {
-              let row = res.rows.item(i)
-              let quizAnswersArray
-              try {
-                quizAnswersArray = JSON.parse(row.quizAnswers || '[]')
-                meaningsArray = JSON.parse(row.meanings || '[]')
-              } catch (e) {
-                // Handle the error or set a default value if JSON parsing fails
-                quizAnswersArray = []
-              }
-              // Construct the full data object including parsed quizAnswers
-              tempData.push({ ...row, quizAnswers: quizAnswersArray, meanings: meaningsArray })
-            }
-            setData(tempData) // Set state once after collecting all data
-          },
-          function (tx, error) {
-            console.error('Query error:', error)
-          }
-        )
-
-        // all data
-        tx.executeSql(
-          'SELECT * FROM flashcards',
-          [],
-          function async(tx, res) {
-            let tempData = []
-            for (let i = 0; i < res.rows.length; ++i) {
-              let row = res.rows.item(i)
-              let quizAnswersArray
-              try {
-                quizAnswersArray = JSON.parse(row.quizAnswers || '[]')
-                meaningsArray = JSON.parse(row.meanings || '[]')
-              } catch (e) {
-                // Handle the error or set a default value if JSON parsing fails
-                quizAnswersArray = []
-              }
-              // Construct the full data object including parsed quizAnswers
-              tempData.push({ ...row, quizAnswers: quizAnswersArray, meanings: meaningsArray })
-            }
-            setAllData(tempData) // Set state once after collecting all data
-          },
-          function (tx, error) {
-            console.error('Query error:', error)
-          }
-        )
-      })
-      // Cleanup if necessary
-      //return () => database.close()
-    }, [])
-  )
-
-  useEffect(() => {
-    database.transaction((tx) => {
-      tx.executeSql(`CREATE TABLE IF NOT EXISTS flashcards (
-        id INTEGER PRIMARY KEY AUTOINCREMENT,
-        kanjiName TEXT UNIQUE,
-        hiragana TEXT,
-        meanings TEXT,
-        firstSeen TEXT,
-        lastSeen TEXT,
-        rating INTEGER,
-        nextReview TEXT,
-        quizAnswers TEXT
-      )`)
-    })
-    //return () => database.close()
-  }, [])
-
-  // Initialize the database
   return (
     <SafeAreaView style={styles.safeArea}>
       <View style={styles.topSection}>
@@ -114,10 +28,8 @@ export const QuizScreen = ({ navigation: { navigate } }) => {
           <TouchableOpacity
             style={styles.box}
             onPress={() => {
-              console.log(data, allData)
-              data.length === 0
-                ? alert('Nothing to review')
-                : navigate('SRS_Home', { questionsArray: data })
+              alert('Nothing to review')
+              //navigate('SRS_Home', { questionsArray: data })
             }}>
             <Text style={{ ...FONTS.bold24 }}>SRS</Text>
             {data.length === 0 ? null : (
@@ -187,28 +99,3 @@ const styles = StyleSheet.create({
     color: 'white'
   }
 })
-
-// tx.executeSql(
-//           'SELECT * FROM flashcards',
-//           [],
-//           function async(tx, res) {
-//             let tempData = []
-//             for (let i = 0; i < res.rows.length; ++i) {
-//               let row = res.rows.item(i)
-//               let quizAnswersArray
-//               try {
-//                 quizAnswersArray = JSON.parse(row.quizAnswers || '[]')
-//                 meaningsArray = JSON.parse(row.meanings || '[]')
-//               } catch (e) {
-//                 // Handle the error or set a default value if JSON parsing fails
-//                 quizAnswersArray = []
-//               }
-//               // Construct the full data object including parsed quizAnswers
-//               tempData.push({ ...row, quizAnswers: quizAnswersArray, meanings: meaningsArray })
-//             }
-//             setAllData(tempData) // Set state once after collecting all data
-//           },
-//           function (tx, error) {
-//             console.error('Query error:', error)
-//           }
-//         )
