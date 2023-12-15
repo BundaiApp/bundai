@@ -19,6 +19,7 @@ import { SRS_HOME } from './screens/srsHome.screen'
 //signup stack
 import LandingScreen from './screens/landing.screen'
 import SignUpScreen from './screens/signUp.screen'
+import LoginScreen from './screens/logIn.screen'
 
 //utils
 import AuthContext from './contexts/authContext'
@@ -66,6 +67,7 @@ function AuthStack() {
       }}>
       <Stack.Screen name="Landing" component={LandingScreen} />
       <Stack.Screen name="SignUp" component={SignUpScreen} />
+      <Stack.Screen name="Login" component={LoginScreen} />
     </Stack.Navigator>
   )
 }

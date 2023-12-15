@@ -14,11 +14,13 @@ export default function Landing({ navigation: { navigate } }) {
 
       <View style={styles.bottomContainer}>
         <TouchableOpacity style={styles.button} onPress={() => navigate('SignUp')}>
-          <Text style={styles.buttonText}>Login</Text>
+          <Text style={styles.buttonText}>Lets Learn Japanese</Text>
         </TouchableOpacity>
-
-        <TouchableOpacity style={styles.button} onPress={() => navigate('SignUp')}>
-          <Text style={styles.buttonText}>SignUp</Text>
+        <View style={styles.spacerH} />
+        <TouchableOpacity onPress={() => navigate('Login')}>
+          <Text style={[styles.subtitleText, { textDecorationLine: 'underline' }]}>
+            already have an account ? Log in
+          </Text>
         </TouchableOpacity>
       </View>
     </View>
@@ -64,5 +66,8 @@ const styles = StyleSheet.create({
     textAlign: 'center',
     paddingHorizontal: '5%',
     marginBottom: '2%'
+  },
+  spacerH: {
+    height: '2%'
   }
 })

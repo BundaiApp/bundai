@@ -5,23 +5,19 @@ import {
   heightPercentageToDP as hp
 } from 'react-native-responsive-screen'
 import { useMutation } from '@apollo/client'
-import AsyncStorage from '@react-native-async-storage/async-storage'
 
 //utils
 import { FONTS } from '../components/fonts'
 //graphQL
 import SIGN_UP from '../mutations/signUp.mutation.js'
-//utils
-import AuthContext from '../contexts/authContext'
 
-export default function SignUp({ navigation: { navigate, goBack } }) {
+export default function Login({ navigation: { navigate, goBack } }) {
   const [password, setPassWord] = useState(null)
   const [email, setEmail] = useState(null)
   const [username, setUsername] = useState(null)
+
   //mutation
   const [signUp, { loading }] = useMutation(SIGN_UP)
-  //context
-  const { auth, setAuth } = useContext(AuthContext)
 
   function validateEmail(email) {
     return String(email)
@@ -32,9 +28,7 @@ export default function SignUp({ navigation: { navigate, goBack } }) {
   }
 
   async function pass() {
-    if (username == null || username == '') {
-      ErrorNoti('error', 'Please set username')
-    } else if (email == null || email == '') {
+    if (email == null || email == '') {
       ErrorNoti('error', 'Please set email')
     } else if (password == null || password == '') {
       ErrorNoti('error', 'Please set password')
@@ -52,25 +46,7 @@ export default function SignUp({ navigation: { navigate, goBack } }) {
         }
       })
       if (data.signUp.errorMessage === null) {
-        await AsyncStorage.setItem('@userid', data.signUp.user._id)
-        await AsyncStorage.setItem('@token', data.signUp.token)
-        await AsyncStorage.setItem('@username', data.signUp.user.name)
-        await AsyncStorage.setItem('@verified', 'false')
-        await AsyncStorage.setItem('@passed', 'true')
-        await AsyncStorage.setItem('@email', data.signUp.user.email)
-        await AsyncStorage.setItem('@password', password)
-
-        //if (data.signUp.user._id != null) navigate('Verify')
-
-        await setAuth({
-          ...auth,
-          userid: data.signUp.user._id,
-          token: data.signUp.token,
-          username,
-          passed: true,
-          verified: false,
-          email: data.signUp.user.email
-        })
+        console.log(data)
       }
       if (data.signUp.errorMessage) {
         console.log(data.signUp.errorMessage)
@@ -110,7 +86,7 @@ export default function SignUp({ navigation: { navigate, goBack } }) {
         onChangeText={(text) => setUsername(text)}
       />
       <TouchableOpacity style={styles.button} onPress={() => pass()}>
-        <Text style={styles.buttonText}>Sign Up</Text>
+        <Text style={styles.buttonText}>Login</Text>
       </TouchableOpacity>
     </SafeAreaView>
   )
