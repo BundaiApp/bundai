@@ -23,7 +23,7 @@ export default function KanjiDetail({ route }) {
       variables: {
         userId: '1',
         kanjiName,
-        hiragana,
+        hiragana: isKana ? '' : isWord ? hiragana : on[0],
         meanings,
         quizAnswers
       }
