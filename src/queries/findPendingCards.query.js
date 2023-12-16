@@ -4,6 +4,7 @@ export default gql`
   query GetPendingFlashcards($userId: String!) {
     getPendingFlashCards(userId: $userId) {
       _id
+      userId
       kanjiName
       hiragana
       meanings

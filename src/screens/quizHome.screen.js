@@ -1,17 +1,46 @@
-import React, { useState, useEffect, useCallback } from 'react'
-import { View, Text, StyleSheet, SafeAreaView, TouchableOpacity } from 'react-native'
-import { useFocusEffect } from '@react-navigation/native'
+import React, { useEffect } from 'react'
+import {
+  View,
+  Text,
+  StyleSheet,
+  SafeAreaView,
+  TouchableOpacity,
+  ActivityIndicator
+} from 'react-native'
+import { useQuery } from '@apollo/client'
+//query
+import FIND_PENDING_FLASHCARDS from '../queries/findPendingCards.query'
 //util
 import { FONTS } from '../components/fonts'
 //components
 import { HeroTextBlock } from '../components/textBlock'
 
-export const QuizScreen = ({ navigation: { navigate } }) => {
-  const [data, setData] = useState([])
-  const [allData, setAllData] = useState([])
+export const QuizHome = ({ navigation: { navigate } }) => {
+  const { data, loading, error } = useQuery(FIND_PENDING_FLASHCARDS, {
+    variables: {
+      //userId: auth.userid
+      userId: '1'
+    }
+  })
+
+  if (loading) {
+    return (
+      <View style={styles.container}>
+        <ActivityIndicator size="large" color="green" />
+      </View>
+    )
+  }
+
+  if (error) {
+    return (
+      <View style={styles.container}>
+        <ActivityIndicator size="large" color="red" />
+      </View>
+    )
+  }
 
   return (
-    <SafeAreaView style={styles.safeArea}>
+    <SafeAreaView style={styles.container}>
       <View style={styles.topSection}>
         <View styles={styles.textBlockContainer}>
           <HeroTextBlock
@@ -28,13 +57,16 @@ export const QuizScreen = ({ navigation: { navigate } }) => {
           <TouchableOpacity
             style={styles.box}
             onPress={() => {
-              alert('Nothing to review')
-              //navigate('SRS_Home', { questionsArray: data })
+              if (data.getPendingFlashCards.length === 0) {
+                alert('Nothing to review')
+              } else {
+                navigate('SRSEngine', { questionsArray: data.getPendingFlashCards })
+              }
             }}>
             <Text style={{ ...FONTS.bold24 }}>SRS</Text>
-            {data.length === 0 ? null : (
+            {data.getPendingFlashCards.length === 0 ? null : (
               <View style={styles.notificationCircle}>
-                <Text style={styles.notificationText}>{data.length}</Text>
+                <Text style={styles.notificationText}>{data.getPendingFlashCards.length}</Text>
               </View>
             )}
           </TouchableOpacity>
@@ -48,7 +80,7 @@ export const QuizScreen = ({ navigation: { navigate } }) => {
 }
 
 const styles = StyleSheet.create({
-  safeArea: {
+  container: {
     flex: 1,
     backgroundColor: 'lightskyblue'
   },

@@ -11,10 +11,10 @@ import AllKanji from './screens/allKanji.screen'
 import KanjiTemplateScreen from './screens/kanjiTemplate.screen'
 
 //Quiz Screens
-import { QuizScreen } from './screens/quiz.screen'
+import { QuizHome } from './screens/quizHome.screen'
 import QuizSettings from './screens/quizSettings.screen'
 import { QuizEngine } from './screens/quizEngine.screen'
-import { SRS_HOME } from './screens/srsHome.screen'
+import { SRS_Engine } from './screens/srsEngine.screen'
 
 //signup stack
 import LandingScreen from './screens/landing.screen'
@@ -51,10 +51,10 @@ function QuizStack() {
       screenOptions={{
         headerStyle: { backgroundColor: 'khaki' }
       }}>
-      <Stack.Screen name="QuizHome" component={QuizScreen} />
+      <Stack.Screen name="QuizHome" component={QuizHome} />
       <Stack.Screen name="QuizSettings" component={QuizSettings} />
       <Stack.Screen name="QuizEngine" component={QuizEngine} />
-      <Stack.Screen name="SRS_Home" component={SRS_HOME} />
+      <Stack.Screen name="SRSEngine" component={SRS_Engine} />
     </Stack.Navigator>
   )
 }

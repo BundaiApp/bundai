@@ -5,7 +5,7 @@ import { FONTS } from '../components/fonts'
 
 const reviewIntervals = { 1: 1, 2: 2, 3: 7, 4: 14, 5: 30, 6: 120 } // Days until next review
 
-export const SRS_HOME = ({ navigation, route }) => {
+export const SRS_Engine = ({ navigation, route }) => {
   //route params
   const { questionsArray } = route.params
   //state
