@@ -44,6 +44,7 @@ export default function SignUp({ navigation: { navigate, goBack } }) {
         ErrorNoti('error', 'Invalid email')
         return
       }
+
       const { data } = await signUp({
         variables: {
           email,
@@ -51,6 +52,7 @@ export default function SignUp({ navigation: { navigate, goBack } }) {
           username
         }
       })
+
       if (data.signUp.errorMessage === null) {
         await AsyncStorage.setItem('@userid', data.signUp.user._id)
         await AsyncStorage.setItem('@token', data.signUp.token)

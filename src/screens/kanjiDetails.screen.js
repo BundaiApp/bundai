@@ -1,5 +1,9 @@
 import React, { useState, useEffect } from 'react'
 import { View, Text, StyleSheet } from 'react-native'
+import { useMutation } from '@apollo/client'
+
+//graphQL
+import ADD_FLASHCARD from '../mutations/addFlashCard.mutation'
 
 const Pill = ({ subject }) => (
   <View style={styles.pill}>
@@ -10,6 +14,25 @@ const Pill = ({ subject }) => (
 export default function KanjiDetail({ route }) {
   const { isWord, isKana } = route.params
   const { kanjiName, meanings, kun, on, hiragana, quizAnswers } = route.params.paramsData
+
+  //mutation
+  const [addFlashCard, { loading }] = useMutation(ADD_FLASHCARD)
+
+  async function addCard() {
+    await addFlashCard({
+      variables: {
+        userId: '1',
+        kanjiName,
+        hiragana,
+        meanings,
+        quizAnswers
+      }
+    })
+  }
+
+  useEffect(() => {
+    addCard()
+  }, [])
 
   return (
     <View style={styles.container}>
