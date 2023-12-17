@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React, { useEffect, useContext, useCallback } from 'react'
 import {
   View,
   Text,
@@ -8,20 +8,33 @@ import {
   ActivityIndicator
 } from 'react-native'
 import { useQuery } from '@apollo/client'
+import { useFocusEffect } from '@react-navigation/native'
 //query
 import FIND_PENDING_FLASHCARDS from '../queries/findPendingCards.query'
 //util
 import { FONTS } from '../components/fonts'
 //components
 import { HeroTextBlock } from '../components/textBlock'
+//utils
+import AuthContext from '../contexts/authContext'
 
 export const QuizHome = ({ navigation: { navigate } }) => {
-  const { data, loading, error } = useQuery(FIND_PENDING_FLASHCARDS, {
+  //context
+  const { auth } = useContext(AuthContext)
+
+  const { data, loading, error, refetch } = useQuery(FIND_PENDING_FLASHCARDS, {
     variables: {
-      //userId: auth.userid
-      userId: '1'
+      userId: auth.userid
     }
   })
+
+  useFocusEffect(
+    useCallback(() => {
+      ;(async function fetch() {
+        await refetch()
+      })()
+    }, [])
+  )
 
   if (loading) {
     return (
