@@ -73,7 +73,8 @@ export const QuizEngine = ({ navigation, route }) => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: 'beige'
+    backgroundColor: 'beige',
+    paddingTop: '15%'
   },
   barHolder: {
     justifyContent: 'center',

@@ -31,11 +31,21 @@ function HomeStack() {
   return (
     <Stack.Navigator
       screenOptions={{
-        headerShown: false
+        headerStyle: { backgroundColor: 'khaki' },
+        headerBackTitleVisible: false,
+        headerTintColor: 'black'
       }}>
-      <Stack.Screen name="Home" component={HomeScreen} />
-      <Stack.Screen name="KanjiDetail" component={KanjiDetailScreen} />
-      <Stack.Screen name="AllKanji" component={AllKanji} />
+      <Stack.Screen name="Home" component={HomeScreen} options={{ headerShown: false }} />
+      <Stack.Screen
+        name="KanjiDetail"
+        component={KanjiDetailScreen}
+        options={({ route }) => ({ headerTitle: route.params.title })}
+      />
+      <Stack.Screen
+        name="AllKanji"
+        component={AllKanji}
+        options={({ route }) => ({ headerTitle: route.params.title })}
+      />
       <Stack.Screen
         name="KanjiTemplate"
         component={KanjiTemplateScreen}
@@ -49,12 +59,18 @@ function QuizStack() {
   return (
     <Stack.Navigator
       screenOptions={{
-        headerStyle: { backgroundColor: 'khaki' }
+        headerStyle: { backgroundColor: 'khaki' },
+        headerBackTitleVisible: false,
+        headerTintColor: 'black'
       }}>
-      <Stack.Screen name="QuizHome" component={QuizHome} />
-      <Stack.Screen name="QuizSettings" component={QuizSettings} />
-      <Stack.Screen name="QuizEngine" component={QuizEngine} />
-      <Stack.Screen name="SRSEngine" component={SRS_Engine} />
+      <Stack.Screen name="QuizHome" component={QuizHome} options={{ headerShown: false }} />
+      <Stack.Screen
+        name="QuizSettings"
+        component={QuizSettings}
+        options={({ route }) => ({ headerTitle: 'Quiz Settings' })}
+      />
+      <Stack.Screen name="QuizEngine" component={QuizEngine} options={{ headerShown: false }} />
+      <Stack.Screen name="SRSEngine" component={SRS_Engine} options={{ headerShown: false }} />
     </Stack.Navigator>
   )
 }
@@ -63,9 +79,11 @@ function AuthStack() {
   return (
     <Stack.Navigator
       screenOptions={{
-        headerShown: false
+        headerStyle: { backgroundColor: 'thistle' },
+        headerBackTitleVisible: false,
+        headerTintColor: 'black'
       }}>
-      <Stack.Screen name="Landing" component={LandingScreen} />
+      <Stack.Screen name="Landing" component={LandingScreen} options={{ headerShown: false }} />
       <Stack.Screen name="SignUp" component={SignUpScreen} />
       <Stack.Screen name="Login" component={LoginScreen} />
     </Stack.Navigator>

@@ -1,13 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import {
-  Platform,
-  Text,
-  FlatList,
-  TouchableOpacity,
-  StyleSheet,
-  SafeAreaView,
-  View
-} from 'react-native'
+import { Platform, Text, FlatList, TouchableOpacity, StyleSheet, View } from 'react-native'
 import {
   widthPercentageToDP as wp,
   heightPercentageToDP as hp
@@ -43,7 +35,8 @@ function TemplateKanji({ navigation: { navigate }, route }) {
     navigate('KanjiDetail', {
       paramsData: item,
       isWord,
-      isKana: hiragana || katakana
+      isKana: hiragana || katakana,
+      title: item.kanjiName
     })
   }
 
@@ -79,7 +72,7 @@ function TemplateKanji({ navigation: { navigate }, route }) {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    paddingTop: '15%',
+    paddingTop: '2%',
     backgroundColor: 'ivory'
   },
   // background color of the content

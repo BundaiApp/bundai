@@ -80,7 +80,6 @@ export default function KanjiDetail({ route }) {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    paddingTop: '15%',
     backgroundColor: 'ivory'
   },
   scrollviewBackDrop: {
