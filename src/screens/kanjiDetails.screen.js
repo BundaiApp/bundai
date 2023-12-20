@@ -23,7 +23,7 @@ export default function KanjiDetail({ route }) {
   async function addCard() {
     await addFlashCard({
       variables: {
-        userId: auth.userid,
+        userId: auth.userId,
         kanjiName,
         hiragana: isKana ? '' : isWord ? hiragana : on[0],
         meanings,

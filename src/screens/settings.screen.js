@@ -29,10 +29,26 @@ export default function SettingScreen() {
     ])
   }
 
+  async function con() {
+    values = await AsyncStorage.multiGet([
+      '@verified',
+      '@passed',
+      '@email',
+      '@username',
+      '@token',
+      '@userId'
+    ])
+    console.log(values)
+  }
+
   return (
     <View style={styles.container}>
       <TouchableOpacity onPress={() => logout()}>
         <Text style={styles.text}>Settings</Text>
+      </TouchableOpacity>
+
+      <TouchableOpacity onPress={() => con()}>
+        <Text style={styles.text}>Console</Text>
       </TouchableOpacity>
     </View>
   )
