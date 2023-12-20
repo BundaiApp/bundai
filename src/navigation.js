@@ -1,9 +1,12 @@
-import React, { useState, useMemo, useEffect } from 'react'
+import React, { useState, useMemo, useEffect, useContext, useCallback } from 'react'
 import { ActivityIndicator } from 'react-native'
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs'
 import { createStackNavigator } from '@react-navigation/stack'
 import { Icon } from 'react-native-elements'
 import AsyncStorage from '@react-native-async-storage/async-storage'
+import { useQuery } from '@apollo/client'
+import { useFocusEffect } from '@react-navigation/native'
+
 //Words stack
 import HomeScreen from './screens/home.screen'
 import KanjiDetailScreen from './screens/kanjiDetails.screen'
@@ -25,6 +28,9 @@ import LoginScreen from './screens/logIn.screen'
 import SettingScreen from './screens/settings.screen'
 //utils
 import AuthContext from './contexts/authContext'
+
+//query
+import FIND_PENDING_FLASHCARDS from './queries/findPendingCards.query'
 
 const Stack = createStackNavigator()
 const Tab = createBottomTabNavigator()
@@ -101,6 +107,25 @@ function AuthStack() {
 }
 
 function TabNav() {
+  //context
+  const { auth } = useContext(AuthContext)
+
+  const { data, loading, refetch } = useQuery(FIND_PENDING_FLASHCARDS, {
+    variables: {
+      userId: auth.userId
+    }
+  })
+
+  useFocusEffect(
+    useCallback(() => {
+      ;(async function fetch() {
+        await refetch()
+      })()
+    }, [])
+  )
+
+  if (loading) return <ActivityIndicator size="small" color="green" />
+
   return (
     <Tab.Navigator
       screenOptions={({ route }) => ({
@@ -136,7 +161,14 @@ function TabNav() {
         }
       })}>
       <Tab.Screen name="Words" component={HomeStack} />
-      <Tab.Screen name="Quiz" component={QuizStack} />
+      <Tab.Screen
+        name="Quiz"
+        component={QuizStack}
+        options={{
+          tabBarBadge:
+            data?.getPendingFlashCards?.length === 0 ? null : data.getPendingFlashCards.length
+        }}
+      />
       <Tab.Screen name="Settings" component={SettingScreen} />
     </Tab.Navigator>
   )
