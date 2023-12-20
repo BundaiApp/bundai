@@ -5,19 +5,22 @@ import {
   heightPercentageToDP as hp
 } from 'react-native-responsive-screen'
 import { useMutation } from '@apollo/client'
+import AsyncStorage from '@react-native-async-storage/async-storage'
 
 //utils
 import { FONTS } from '../components/fonts'
 //graphQL
-import SIGN_UP from '../mutations/signUp.mutation.js'
+import LOG_IN from '../mutations/logIn.mutation'
+//utils
+import AuthContext from '../contexts/authContext'
 
 export default function Login({ navigation: { navigate, goBack } }) {
   const [password, setPassWord] = useState(null)
   const [email, setEmail] = useState(null)
-  const [username, setUsername] = useState(null)
-
   //mutation
-  const [signUp, { loading }] = useMutation(SIGN_UP)
+  const [logIn] = useMutation(LOG_IN)
+  //context
+  const { auth, setAuth } = useContext(AuthContext)
 
   function validateEmail(email) {
     return String(email)
@@ -38,17 +41,36 @@ export default function Login({ navigation: { navigate, goBack } }) {
         ErrorNoti('error', 'Invalid email')
         return
       }
-      const { data } = await signUp({
+      const { data } = await logIn({
         variables: {
           email,
-          password,
-          username
+          password
         }
       })
-      if (data.signUp.errorMessage === null) {
+
+      await AsyncStorage.multiSet([
+        ['@token', data.logIn.token],
+        ['@username', data.logIn.user.name],
+        ['@userId', data.logIn.user._id],
+        ['@email', data.logIn.user.email],
+        ['@verified', 'false'],
+        ['@passed', 'true']
+      ])
+
+      await setAuth({
+        ...auth,
+        token: data.logIn.token,
+        userId: data.logIn.user._id,
+        email: data.logIn.user.email,
+        username: data.logIn.user.name,
+        passed: true,
+        verified: false
+      })
+
+      if (data.logIn.errorMessage === null) {
         console.log(data)
       }
-      if (data.signUp.errorMessage) {
+      if (data.logIn.errorMessage) {
         console.log(data.signUp.errorMessage)
       }
       if (data.errors) {
@@ -69,21 +91,11 @@ export default function Login({ navigation: { navigate, goBack } }) {
       />
       <TextInput
         style={styles.textInput}
-        type
         secureTextEntry
         placeholder={'Password'}
         placeholderTextColor={'gray'}
         value={password}
         onChangeText={(text) => setPassWord(text)}
-      />
-      <TextInput
-        style={styles.textInput}
-        value={username}
-        secureTextEntry={false}
-        placeholder={'Name'}
-        placeholderTextColor={'gray'}
-        autoCapitalize={false}
-        onChangeText={(text) => setUsername(text)}
       />
       <TouchableOpacity style={styles.button} onPress={() => pass()}>
         <Text style={styles.buttonText}>Login</Text>

@@ -30,7 +30,7 @@ export default function Landing({ navigation: { navigate } }) {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: 'palegoldenrod',
+    backgroundColor: 'lightyellow',
     alignItems: 'center',
     paddingTop: '20%'
   },

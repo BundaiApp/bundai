@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useContext } from 'react'
+import React, { useState, useContext } from 'react'
 import { View, StyleSheet, Text, TouchableOpacity } from 'react-native'
 import { useMutation } from '@apollo/client'
 //utils
@@ -7,8 +7,6 @@ import { FONTS } from '../components/fonts'
 import CALCULATE_NEXT_REVIEW_DATE from '../mutations/calculateNextReviewDate.mutation'
 //utils
 import AuthContext from '../contexts/authContext'
-
-const reviewIntervals = { 1: 1, 2: 2, 3: 7, 4: 14, 5: 30, 6: 120 } // Days until next review
 
 export const SRS_Engine = ({ navigation, route }) => {
   //route params
@@ -23,11 +21,11 @@ export const SRS_Engine = ({ navigation, route }) => {
 
   const moveToNextQuestion = async (answer) => {
     setSelectedAns(answer)
-
+    let rating = questionsArray[number].rating
     // mutation to increase kanjis next review date
     await calculateNextReviewDate({
       variables: {
-        userId: auth.userid,
+        userId: auth.userId,
         kanjiName: questionsArray[number].kanjiName,
         rating: questionsArray[number].meanings.includes(answer) ? rating++ : rating--
       }
@@ -42,10 +40,6 @@ export const SRS_Engine = ({ navigation, route }) => {
       }
     }, 500) // Adjust the delay as needed
   }
-
-  useEffect(() => {
-    console.log(auth)
-  }, [])
 
   return (
     <View style={styles.container}>

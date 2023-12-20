@@ -24,7 +24,7 @@ export const QuizHome = ({ navigation: { navigate } }) => {
 
   const { data, loading, error, refetch } = useQuery(FIND_PENDING_FLASHCARDS, {
     variables: {
-      userId: auth.userid
+      userId: auth.userId
     }
   })
 

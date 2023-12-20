@@ -21,6 +21,8 @@ import LandingScreen from './screens/landing.screen'
 import SignUpScreen from './screens/signUp.screen'
 import LoginScreen from './screens/logIn.screen'
 
+//settings screen
+import SettingScreen from './screens/settings.screen'
 //utils
 import AuthContext from './contexts/authContext'
 
@@ -67,7 +69,7 @@ function QuizStack() {
       <Stack.Screen
         name="QuizSettings"
         component={QuizSettings}
-        options={({ route }) => ({ headerTitle: 'Quiz Settings' })}
+        options={() => ({ headerTitle: 'Quiz Settings' })}
       />
       <Stack.Screen name="QuizEngine" component={QuizEngine} options={{ headerShown: false }} />
       <Stack.Screen name="SRSEngine" component={SRS_Engine} options={{ headerShown: false }} />
@@ -84,8 +86,16 @@ function AuthStack() {
         headerTintColor: 'black'
       }}>
       <Stack.Screen name="Landing" component={LandingScreen} options={{ headerShown: false }} />
-      <Stack.Screen name="SignUp" component={SignUpScreen} />
-      <Stack.Screen name="Login" component={LoginScreen} />
+      <Stack.Screen
+        name="SignUp"
+        component={SignUpScreen}
+        options={() => ({ headerTitle: 'Sign Up' })}
+      />
+      <Stack.Screen
+        name="Login"
+        component={LoginScreen}
+        options={() => ({ headerTitle: 'Log In' })}
+      />
     </Stack.Navigator>
   )
 }
@@ -115,7 +125,11 @@ function TabNav() {
             case 'Quiz':
               iconName = 'book'
               break
+            case 'Settings':
+              iconName = 'cog'
+              break
             default:
+              iconName = 'book'
           }
           // You can return any component that you like here!
           return <Icon name={iconName} type={'ionicon'} size={26} color={color} />
@@ -123,6 +137,7 @@ function TabNav() {
       })}>
       <Tab.Screen name="Words" component={HomeStack} />
       <Tab.Screen name="Quiz" component={QuizStack} />
+      <Tab.Screen name="Settings" component={SettingScreen} />
     </Tab.Navigator>
   )
 }
@@ -145,7 +160,7 @@ export default function Navigator() {
     setIsLoading(true)
     const passed = await AsyncStorage.getItem('@passed')
     const username = await AsyncStorage.getItem('@username')
-    const userid = await AsyncStorage.getItem('@userid')
+    const userId = await AsyncStorage.getItem('@userId')
     const token = await AsyncStorage.getItem('@token')
     const avatar = await AsyncStorage.getItem('@avatar')
     const verified = await AsyncStorage.getItem('@verified')
@@ -155,7 +170,7 @@ export default function Navigator() {
     userInfo = {
       passed,
       username,
-      userid,
+      userId,
       token,
       avatar,
       verified,

@@ -54,24 +54,23 @@ export default function SignUp({ navigation: { navigate, goBack } }) {
       })
 
       if (data.signUp.errorMessage === null) {
-        await AsyncStorage.setItem('@userid', data.signUp.user._id)
-        await AsyncStorage.setItem('@token', data.signUp.token)
-        await AsyncStorage.setItem('@username', data.signUp.user.name)
-        await AsyncStorage.setItem('@verified', 'false')
-        await AsyncStorage.setItem('@passed', 'true')
-        await AsyncStorage.setItem('@email', data.signUp.user.email)
-        await AsyncStorage.setItem('@password', password)
-
-        //if (data.signUp.user._id != null) navigate('Verify')
+        await AsyncStorage.multiSet([
+          ['@userId', data.signUp.user._id],
+          ['@token', data.signUp.token],
+          ['@username', data.signUp.user.name],
+          ['@verified', 'false'],
+          ['@passed', 'true'],
+          ['@email', data.signUp.user.email]
+        ])
 
         await setAuth({
           ...auth,
-          userid: data.signUp.user._id,
           token: data.signUp.token,
+          userId: data.signUp.user._id,
+          email: data.signUp.user.email,
           username,
           passed: true,
-          verified: false,
-          email: data.signUp.user.email
+          verified: false
         })
       }
       if (data.signUp.errorMessage) {
@@ -95,7 +94,6 @@ export default function SignUp({ navigation: { navigate, goBack } }) {
       />
       <TextInput
         style={styles.textInput}
-        type
         secureTextEntry
         placeholder={'Password'}
         placeholderTextColor={'gray'}
@@ -121,7 +119,7 @@ export default function SignUp({ navigation: { navigate, goBack } }) {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: 'palegoldenrod',
+    backgroundColor: 'lightyellow',
     alignItems: 'center'
   },
   bigSpacer: {
