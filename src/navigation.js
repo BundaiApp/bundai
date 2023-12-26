@@ -124,8 +124,6 @@ function TabNav() {
     }, [])
   )
 
-  if (loading) return <ActivityIndicator size="small" color="green" />
-
   return (
     <Tab.Navigator
       screenOptions={({ route }) => ({
@@ -165,8 +163,11 @@ function TabNav() {
         name="Quiz"
         component={QuizStack}
         options={{
-          tabBarBadge:
-            data?.getPendingFlashCards?.length === 0 ? null : data.getPendingFlashCards.length
+          tabBarBadge: loading ? (
+            <ActivityIndicator size="small" color="green" />
+          ) : data?.getPendingFlashCards?.length === 0 ? null : (
+            data?.getPendingFlashCards?.length
+          )
         }}
       />
       <Tab.Screen name="Settings" component={SettingScreen} />
