@@ -47,7 +47,7 @@ function HomeStack() {
       <Stack.Screen
         name="KanjiDetail"
         component={KanjiDetailScreen}
-        options={({ route }) => ({ headerTitle: route.params.title })}
+        options={() => ({ headerTitle: ' ' })}
       />
       <Stack.Screen
         name="AllKanji"

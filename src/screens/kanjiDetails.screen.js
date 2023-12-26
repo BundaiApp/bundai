@@ -1,35 +1,85 @@
-import React from 'react'
-import { View, Text, StyleSheet, FlatList } from 'react-native'
-import {
-  widthPercentageToDP as wp,
-  heightPercentageToDP as hp
-} from 'react-native-responsive-screen'
+import React, { useState, useEffect, useRef } from 'react'
+import { View, Text, StyleSheet, FlatList, Dimensions } from 'react-native'
+import debounce from 'lodash/debounce'
+
+const windowWidth = Dimensions.get('window').width
 
 export default function KanjiDetail({ route }) {
-  const { wholeArr, itemIndex } = route.params
+  const { wholeArr, itemIndex, isWord, isKana } = route.params
+
+  const Pill = ({ subject }) => (
+    <View style={styles.pill}>
+      <Text style={styles.subtitleText}>{subject}</Text>
+    </View>
+  )
+
+  const handleScrollEnd = (event) => {
+    const { nativeEvent } = event
+    const contentOffsetX = nativeEvent.contentOffset?.x || nativeEvent.targetContentOffset?.x || 0
+    const currentIndex = Math.floor(contentOffsetX / windowWidth)
+    console.log('Current Index:', currentIndex)
+    // Do other operations based on currentIndex
+  }
+
+  function Page({ kanjiName, meanings, kun, on, hiragana, quizAnswers }) {
+    return (
+      <View style={styles.scrollviewBackDrop}>
+        <Text style={styles.kanji}>{kanjiName}</Text>
+        <Text style={styles.header}>Meanings</Text>
+        <View style={styles.pillHolder}>
+          {typeof meanings != 'string' ? (
+            meanings.map((item, index) => <Pill key={item} index={index} subject={item} />)
+          ) : (
+            <Pill subject={meanings} />
+          )}
+        </View>
+
+        {isKana ? null : isWord ? (
+          <>
+            <Text style={styles.header}>hiragana</Text>
+            <View style={styles.pillHolder}>
+              <Pill subject={hiragana} />
+            </View>
+          </>
+        ) : (
+          <>
+            <Text style={styles.header}> Kunyomi Readings</Text>
+            <View style={styles.pillHolder}>
+              {on.map((item, index) => (
+                <Pill key={item} index={index} subject={item} />
+              ))}
+            </View>
+
+            <Text style={styles.header}>Onyomi Readings</Text>
+            <View style={styles.pillHolder}>
+              {kun.map((item, index) => (
+                <Pill key={item} index={index} subject={item} />
+              ))}
+            </View>
+          </>
+        )}
+      </View>
+    )
+  }
 
   return (
-    <View style={styles.container}>
-      <FlatList
-        horizontal
-        pagingEnabled
-        data={wholeArr}
-        initialScrollIndex={itemIndex}
-        animated={true}
-        showsHorizontalScrollIndicator={false}
-        keyExtractor={(item, index) => `${item.kanjiName}_${index}`}
-        getItemLayout={(wholeArr, index) => ({
-          length: wp('100%'),
-          offset: wp('100%') * index,
-          index
-        })}
-        renderItem={({ item }) => (
-          <View style={styles.scrollviewBackDrop}>
-            <Text style={styles.kanji}>{item.kanjiName}</Text>
-          </View>
-        )}
-      />
-    </View>
+    <FlatList
+      horizontal
+      style={styles.container}
+      pagingEnabled
+      data={wholeArr}
+      initialScrollIndex={itemIndex}
+      animated={true}
+      showsHorizontalScrollIndicator={false}
+      keyExtractor={(item, index) => `${item.kanjiName}_${index}`}
+      getItemLayout={(wholeArr, index) => ({
+        length: windowWidth,
+        offset: windowWidth * index,
+        index
+      })}
+      onScrollEndDrag={(event) => handleScrollEnd(event)}
+      renderItem={({ item }) => Page(item)}
+    />
   )
 }
 
@@ -39,15 +89,11 @@ const styles = StyleSheet.create({
     backgroundColor: 'ivory'
   },
   scrollviewBackDrop: {
-    width: wp('100%'),
-    height: hp('100%'),
-    justifyContent: 'center',
-    alignItems: 'center',
-    backgroundColor: 'pink'
+    width: windowWidth
   },
   kanji: {
     fontWeight: '600',
-    fontSize: 100,
+    fontSize: 70,
     alignSelf: 'center'
   },
   header: {
