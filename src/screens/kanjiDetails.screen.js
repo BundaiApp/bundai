@@ -1,11 +1,19 @@
-import React, { useState, useEffect, useRef } from 'react'
+import React, { useState, useContext, useEffect } from 'react'
 import { View, Text, StyleSheet, FlatList, Dimensions } from 'react-native'
-import debounce from 'lodash/debounce'
+import { useMutation } from '@apollo/client'
+//utils
+import AuthContext from '../contexts/authContext'
+//graphQL
+import ADD_FLASHCARD from '../mutations/addFlashCard.mutation'
 
 const windowWidth = Dimensions.get('window').width
 
 export default function KanjiDetail({ route }) {
   const { wholeArr, itemIndex, isWord, isKana } = route.params
+  //context
+  const { auth } = useContext(AuthContext)
+  //mutation
+  const [addFlashCard] = useMutation(ADD_FLASHCARD)
 
   const Pill = ({ subject }) => (
     <View style={styles.pill}>
@@ -13,12 +21,25 @@ export default function KanjiDetail({ route }) {
     </View>
   )
 
-  const handleScrollEnd = (event) => {
+  async function addCard({ kanjiName, hiragana, on, meanings, quizAnswers }) {
+    await addFlashCard({
+      variables: {
+        userId: auth.userId,
+        kanjiName,
+        hiragana: isKana ? '' : isWord ? hiragana : on[0],
+        meanings,
+        quizAnswers
+      }
+    })
+  }
+
+  const handleScrollEnd = async (event) => {
     const { nativeEvent } = event
     const contentOffsetX = nativeEvent.contentOffset?.x || nativeEvent.targetContentOffset?.x || 0
     const currentIndex = Math.floor(contentOffsetX / windowWidth)
     console.log('Current Index:', currentIndex)
     // Do other operations based on currentIndex
+    addCard(wholeArr[currentIndex + 1])
   }
 
   function Page({ kanjiName, meanings, kun, on, hiragana, quizAnswers }) {
@@ -61,6 +82,11 @@ export default function KanjiDetail({ route }) {
       </View>
     )
   }
+
+  useEffect(() => {
+    console.log('just the first time the page loads', wholeArr[itemIndex])
+    addCard(wholeArr[itemIndex])
+  }, [])
 
   return (
     <FlatList
