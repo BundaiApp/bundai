@@ -5,8 +5,8 @@ import {
   heightPercentageToDP as hp
 } from 'react-native-responsive-screen'
 
-import Strokes from '../util/strokesAll.json'
 import Jlpt from '../util/jlptAll.json'
+import Strokes from '../util/strokesAll.json'
 import Grades from '../util/gradesAll.json'
 import Verbs from '../util/verbs.json'
 import Nouns from '../util/nouns.json'
@@ -31,9 +31,11 @@ function TemplateKanji({ navigation: { navigate }, route }) {
 
   const [arr, setArr] = useState([])
 
-  function navigateToDetailScreen(item) {
+  function navigateToDetailScreen(item, index) {
     navigate('KanjiDetail', {
       paramsData: item,
+      wholeArr: arr,
+      itemIndex: index,
       isWord,
       isKana: hiragana || katakana,
       title: item.kanjiName
@@ -56,8 +58,10 @@ function TemplateKanji({ navigation: { navigate }, route }) {
     <View style={styles.container}>
       <FlatList
         data={arr}
-        renderItem={({ item }) => (
-          <TouchableOpacity style={styles.block} onPress={() => navigateToDetailScreen(item)}>
+        renderItem={({ item, index }) => (
+          <TouchableOpacity
+            style={styles.block}
+            onPress={() => navigateToDetailScreen(item, index)}>
             <Text style={styles.kanjiText}>{item.kanjiName}</Text>
           </TouchableOpacity>
         )}
@@ -74,14 +78,17 @@ const styles = StyleSheet.create({
     flex: 1,
     paddingTop: '2%',
     backgroundColor: 'ivory'
+    //backgroundColor: '#C4C4B0'
   },
   // background color of the content
   flatListContent: {
     backgroundColor: 'ivory'
+    //backgroundColor: '#C4C4B0'
   },
   // background color of the FlatList
   flatList: {
     backgroundColor: 'ivory',
+    //backgroundColor: '#C4C4B0',
     paddingHorizontal: '3%'
   },
   sectionHeaderText: {
@@ -99,7 +106,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     borderWidth: 3,
     borderColor: 'black',
-    backgroundColor: 'khaki',
+    backgroundColor: 'white',
     borderRadius: 10
   },
   kanjiText: {

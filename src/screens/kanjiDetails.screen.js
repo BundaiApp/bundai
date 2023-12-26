@@ -1,78 +1,34 @@
-import React, { useEffect, useContext } from 'react'
-import { View, Text, StyleSheet } from 'react-native'
-import { useMutation } from '@apollo/client'
-//utils
-import AuthContext from '../contexts/authContext'
-//graphQL
-import ADD_FLASHCARD from '../mutations/addFlashCard.mutation'
-
-const Pill = ({ subject }) => (
-  <View style={styles.pill}>
-    <Text style={styles.subtitleText}>{subject}</Text>
-  </View>
-)
+import React from 'react'
+import { View, Text, StyleSheet, FlatList } from 'react-native'
+import {
+  widthPercentageToDP as wp,
+  heightPercentageToDP as hp
+} from 'react-native-responsive-screen'
 
 export default function KanjiDetail({ route }) {
-  const { isWord, isKana } = route.params
-  const { kanjiName, meanings, kun, on, hiragana, quizAnswers } = route.params.paramsData
-  //context
-  const { auth } = useContext(AuthContext)
-  //mutation
-  const [addFlashCard] = useMutation(ADD_FLASHCARD)
-
-  async function addCard() {
-    await addFlashCard({
-      variables: {
-        userId: auth.userId,
-        kanjiName,
-        hiragana: isKana ? '' : isWord ? hiragana : on[0],
-        meanings,
-        quizAnswers
-      }
-    })
-  }
-
-  useEffect(() => {
-    addCard()
-  }, [])
+  const { wholeArr, itemIndex } = route.params
 
   return (
     <View style={styles.container}>
-      <Text style={styles.kanji}>{kanjiName}</Text>
-
-      <Text style={styles.header}>Meanings</Text>
-      <View style={styles.pillHolder}>
-        {typeof meanings != 'string' ? (
-          meanings.map((item, index) => <Pill key={item} index={index} subject={item} />)
-        ) : (
-          <Pill subject={meanings} />
+      <FlatList
+        horizontal
+        pagingEnabled
+        data={wholeArr}
+        initialScrollIndex={itemIndex}
+        animated={true}
+        showsHorizontalScrollIndicator={false}
+        keyExtractor={(item, index) => `${item.kanjiName}_${index}`}
+        getItemLayout={(wholeArr, index) => ({
+          length: wp('100%'),
+          offset: wp('100%') * index,
+          index
+        })}
+        renderItem={({ item }) => (
+          <View style={styles.scrollviewBackDrop}>
+            <Text style={styles.kanji}>{item.kanjiName}</Text>
+          </View>
         )}
-      </View>
-
-      {isKana ? null : isWord ? (
-        <>
-          <Text style={styles.header}>hiragana</Text>
-          <View style={styles.pillHolder}>
-            <Pill subject={hiragana} />
-          </View>
-        </>
-      ) : (
-        <>
-          <Text style={styles.header}> Kunyomi Readings</Text>
-          <View style={styles.pillHolder}>
-            {on.map((item, index) => (
-              <Pill key={item} index={index} subject={item} />
-            ))}
-          </View>
-
-          <Text style={styles.header}>Onyomi Readings</Text>
-          <View style={styles.pillHolder}>
-            {kun.map((item, index) => (
-              <Pill key={item} index={index} subject={item} />
-            ))}
-          </View>
-        </>
-      )}
+      />
     </View>
   )
 }
@@ -83,7 +39,11 @@ const styles = StyleSheet.create({
     backgroundColor: 'ivory'
   },
   scrollviewBackDrop: {
-    backgroundColor: 'ivory'
+    width: wp('100%'),
+    height: hp('100%'),
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: 'pink'
   },
   kanji: {
     fontWeight: '600',
