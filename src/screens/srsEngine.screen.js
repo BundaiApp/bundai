@@ -43,11 +43,9 @@ export const SRS_Engine = ({ navigation, route }) => {
 
   return (
     <View style={styles.container}>
-      <TouchableOpacity
-        style={styles.topSection}
-        onPress={() => console.log(questionsArray[number])}>
+      <View style={styles.topSection}>
         <Text style={styles.kanjiText}>{questionsArray[number].kanjiName}</Text>
-      </TouchableOpacity>
+      </View>
 
       <View style={styles.bottomSection}>
         {questionsArray[number].quizAnswers.map((answer, index) => (
@@ -102,6 +100,10 @@ const styles = StyleSheet.create({
   },
 
   kanjiText: {
+    fontSize: 80,
+    fontWeight: 'bold'
+  },
+  kanjiTextBig: {
     fontSize: 200,
     fontWeight: 'bold'
   },

@@ -103,7 +103,7 @@ const styles = StyleSheet.create({
   },
 
   kanjiText: {
-    fontSize: 200,
+    fontSize: 100,
     fontWeight: 'bold'
   },
   option: {
