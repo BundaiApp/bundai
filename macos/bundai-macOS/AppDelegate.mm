@@ -1,65 +1,17 @@
 #import "AppDelegate.h"
 
-#import <React/RCTBridge.h>
 #import <React/RCTBundleURLProvider.h>
-#import <React/RCTRootView.h>
-#import "ViewController.h"
 
 @implementation AppDelegate
 
 - (void)applicationDidFinishLaunching:(NSNotification *)notification
 {
-    self.moduleName = @"bundai";
-    self.initialProps = @{};
-    
-    NSStatusBar *statusBar = [NSStatusBar systemStatusBar];
-    [self setStatusItem:[statusBar statusItemWithLength:NSVariableStatusItemLength]];
+  self.moduleName = @"bundai";
+  // You can add your custom initial props in the dictionary below.
+  // They will be passed down to the ViewController used by React Native.
+  self.initialProps = @{};
 
-    NSButton *button = [_statusItem button];
-    [self setJapaneseTextForButton:button];
-
-    [button setTarget:self];
-    [button setAction:@selector(showPopover:)];
-  
-  // Move the minSize setting here, where the window is available
-     NSWindow *window = [NSApplication sharedApplication].mainWindow;
-     [window setMinSize:NSMakeSize(400, 400)]; // Replace the values with your desired minimum size (e.g., 400x400)
-   
-   //Logging the window size and minSize
-   //NSLog(@"Current Window Size: %@", NSStringFromSize(window.frame.size));
-   //NSLog(@"minSize: %@", NSStringFromSize(window.minSize));
-  
-    return [super applicationDidFinishLaunching:notification];
-}
-
-- (void)showPopover:(id)sender {
-    NSPopover *popover = [[NSPopover alloc] init];
-    [popover setBehavior:NSPopoverBehaviorTransient];
-
-    NSViewController *popoverViewController = [ViewController new];
-    [popover setContentViewController:popoverViewController];
-
-    NSButton *statusButton = [_statusItem button];
-    [popover showRelativeToRect:[statusButton bounds] ofView:statusButton preferredEdge:NSMinYEdge];
-}
-
-- (void)setJapaneseTextForButton:(NSButton *)button {
-    NSString *japaneseText = @"文台"; // Replace this string with your desired Japanese text
-
-    NSDictionary *textAttributes = @{
-        NSFontAttributeName: [NSFont systemFontOfSize:14.0], // Adjust the font size as needed
-        NSForegroundColorAttributeName: [NSColor whiteColor] // Adjust the text color as needed
-    };
-
-    NSAttributedString *attributedString = [[NSAttributedString alloc] initWithString:japaneseText attributes:textAttributes];
-    NSSize textSize = [attributedString size];
-
-    NSImage *image = [[NSImage alloc] initWithSize:textSize];
-    [image lockFocus];
-    [attributedString drawAtPoint:NSZeroPoint];
-    [image unlockFocus];
-
-    [button setImage:image];
+  return [super applicationDidFinishLaunching:notification];
 }
 
 - (NSURL *)sourceURLForBridge:(RCTBridge *)bridge
@@ -86,4 +38,3 @@
 }
 
 @end
-
