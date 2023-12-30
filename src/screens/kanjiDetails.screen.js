@@ -104,7 +104,6 @@ export default function KanjiDetail({ route }) {
   }
 
   useEffect(() => {
-    console.log('just the first time the page loads', wholeArr[itemIndex])
     addCard(wholeArr[itemIndex])
   }, [])
 
