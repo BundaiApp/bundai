@@ -12,6 +12,8 @@
 		514201522437B4B40078DB4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 514201512437B4B40078DB4F /* Assets.xcassets */; };
 		514201552437B4B40078DB4F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 514201532437B4B40078DB4F /* Main.storyboard */; };
 		514201582437B4B40078DB4F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 514201572437B4B40078DB4F /* main.m */; };
+		88CC16F52B40599E0026E1C2 /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 88CC16F42B40599E0026E1C2 /* Ionicons.ttf */; };
+		88CC16F62B405A250026E1C2 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 514201562437B4B40078DB4F /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +27,7 @@
 		514201572437B4B40078DB4F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		514201592437B4B40078DB4F /* bundai.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = bundai.entitlements; sourceTree = "<group>"; };
 		692B837C9072C2F9AB797FD4 /* Pods-bundai-macOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bundai-macOS.release.xcconfig"; path = "Target Support Files/Pods-bundai-macOS/Pods-bundai-macOS.release.xcconfig"; sourceTree = "<group>"; };
+		88CC16F42B40599E0026E1C2 /* Ionicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ionicons.ttf; sourceTree = "<group>"; };
 		CADE7EFAD7D4E3B195A92562 /* Pods-bundai-macOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bundai-macOS.debug.xcconfig"; path = "Target Support Files/Pods-bundai-macOS/Pods-bundai-macOS.debug.xcconfig"; sourceTree = "<group>"; };
 		D16E71AF81D443EF638072B8 /* libPods-bundai-macOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-bundai-macOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
@@ -61,6 +64,7 @@
 		5142014A2437B4B30078DB4F /* bundai-macOS */ = {
 			isa = PBXGroup;
 			children = (
+				88CC16F32B40597D0026E1C2 /* Fonts */,
 				5142014B2437B4B30078DB4F /* AppDelegate.h */,
 				5142014C2437B4B30078DB4F /* AppDelegate.mm */,
 				514201512437B4B40078DB4F /* Assets.xcassets */,
@@ -102,13 +106,20 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		88CC16F32B40597D0026E1C2 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				88CC16F42B40599E0026E1C2 /* Ionicons.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		ADCA709C2C2CF906686942EC /* Pods */ = {
 			isa = PBXGroup;
 			children = (
 				CADE7EFAD7D4E3B195A92562 /* Pods-bundai-macOS.debug.xcconfig */,
 				692B837C9072C2F9AB797FD4 /* Pods-bundai-macOS.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -201,8 +212,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88CC16F62B405A250026E1C2 /* Info.plist in Resources */,
 				514201522437B4B40078DB4F /* Assets.xcassets in Resources */,
 				514201552437B4B40078DB4F /* Main.storyboard in Resources */,
+				88CC16F52B40599E0026E1C2 /* Ionicons.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
