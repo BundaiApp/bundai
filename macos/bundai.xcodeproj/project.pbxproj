@@ -64,7 +64,6 @@
 		5142014A2437B4B30078DB4F /* bundai-macOS */ = {
 			isa = PBXGroup;
 			children = (
-				88CC16F32B40597D0026E1C2 /* Fonts */,
 				5142014B2437B4B30078DB4F /* AppDelegate.h */,
 				5142014C2437B4B30078DB4F /* AppDelegate.mm */,
 				514201512437B4B40078DB4F /* Assets.xcassets */,
@@ -86,6 +85,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				88CC16F32B40597D0026E1C2 /* Fonts */,
 				5142014A2437B4B30078DB4F /* bundai-macOS */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				83CBBA001A601CBA00E9B192 /* Products */,

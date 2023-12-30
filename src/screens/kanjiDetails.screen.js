@@ -1,5 +1,5 @@
 import React, { useState, useContext, useEffect } from 'react'
-import { View, Text, StyleSheet, FlatList, Dimensions } from 'react-native'
+import { ScrollView, View, Text, StyleSheet, FlatList, Dimensions } from 'react-native'
 import { useMutation } from '@apollo/client'
 //utils
 import AuthContext from '../contexts/authContext'
@@ -15,9 +15,17 @@ export default function KanjiDetail({ route }) {
   //mutation
   const [addFlashCard] = useMutation(ADD_FLASHCARD)
 
-  const Pill = ({ subject }) => (
+  const Pill = ({ subject, meaning }) => (
     <View style={styles.pill}>
       <Text style={styles.subtitleText}>{subject}</Text>
+      <Text style={styles.subtitleText}>{meaning}</Text>
+    </View>
+  )
+
+  const KanjiBox = ({ kanji, meaning }) => (
+    <View style={styles.block}>
+      <Text style={styles.subtitleText}>{kanji}</Text>
+      <Text style={styles.subtitleText}>{meaning}</Text>
     </View>
   )
 
@@ -42,9 +50,9 @@ export default function KanjiDetail({ route }) {
     addCard(wholeArr[currentIndex + 1])
   }
 
-  function Page({ kanjiName, meanings, kun, on, hiragana, quizAnswers }) {
+  function Page({ kanjiName, meanings, kun, on, hiragana, quizAnswers, similars }) {
     return (
-      <View style={styles.scrollviewBackDrop}>
+      <ScrollView contentContainerStyle={styles.scrollviewBackDrop}>
         <Text style={styles.kanji}>{kanjiName}</Text>
         <Text style={styles.header}>Meanings</Text>
         <View style={styles.pillHolder}>
@@ -77,9 +85,21 @@ export default function KanjiDetail({ route }) {
                 <Pill key={item} index={index} subject={item} />
               ))}
             </View>
+
+            <Text style={styles.header}>Similar Kanjis</Text>
+            <View style={styles.pillHolder}>
+              {similars.map((item, index) => (
+                <KanjiBox
+                  key={item.kanjiName}
+                  index={index}
+                  kanji={item.kanji}
+                  meaning={item.meaning}
+                />
+              ))}
+            </View>
           </>
         )}
-      </View>
+      </ScrollView>
     )
   }
 
@@ -152,5 +172,15 @@ const styles = StyleSheet.create({
     fontWeight: '400',
     fontSize: 22,
     fontFamily: 'menlo'
+  },
+  block: {
+    margin: 5,
+    padding: 10,
+    alignItems: 'center',
+    justifyContent: 'center',
+    borderWidth: 3,
+    borderColor: 'black',
+    backgroundColor: 'white',
+    borderRadius: 10
   }
 })
