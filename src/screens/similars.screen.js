@@ -1,5 +1,5 @@
 import React from 'react'
-import { SafeAreaView, View, Text, SectionList, TouchableOpacity, StyleSheet } from 'react-native'
+import { SafeAreaView, View, Text, SectionList, StyleSheet } from 'react-native'
 import {
   widthPercentageToDP as wp,
   heightPercentageToDP as hp
@@ -43,7 +43,7 @@ const SimilarScreen = ({ navigation: { navigate } }) => {
       {item.map((kanjiItem, index) => (
         <View key={index} style={styles.block}>
           <Text style={styles.kanjiText}>{kanjiItem.kanji}</Text>
-          <Text>{kanjiItem.meaning}</Text>
+          <Text style={styles.kanjiMeaning}>{kanjiItem.meaning}</Text>
         </View>
       ))}
     </View>
@@ -103,6 +103,11 @@ const styles = StyleSheet.create({
   kanjiText: {
     fontSize: 30,
     fontWeight: '500'
+  },
+  kanjiMeaning: {
+    fontSize: 12,
+    fontWeight: '400',
+    color: 'gray'
   }
 })
 
