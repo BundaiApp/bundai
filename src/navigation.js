@@ -26,6 +26,8 @@ import LoginScreen from './screens/logIn.screen'
 
 //settings screen
 import SettingScreen from './screens/settings.screen'
+//Similar screen
+import SimilarScreen from './screens/similars.screen'
 //utils
 import AuthContext from './contexts/authContext'
 
@@ -136,7 +138,7 @@ function TabNav() {
             case 'Words':
               iconName = 'file-tray-full'
               break
-            case 'Exam':
+            case 'Similars':
               iconName = 'document-sharp'
               break
             case 'Game':
@@ -170,6 +172,7 @@ function TabNav() {
           )
         }}
       />
+      <Tab.Screen name="Similars" component={SimilarScreen} />
       <Tab.Screen name="Settings" component={SettingScreen} />
     </Tab.Navigator>
   )
