@@ -6,7 +6,8 @@ import {
   StyleSheet,
   FlatList,
   Dimensions,
-  TouchableOpacity
+  TouchableOpacity,
+  Platform
 } from 'react-native'
 import { useMutation } from '@apollo/client'
 import { Icon } from 'react-native-elements'
@@ -94,16 +95,24 @@ export default function KanjiDetail({ route }) {
   function Page({ kanjiName, meanings, kun, on, hiragana, similars }) {
     return (
       <ScrollView contentContainerStyle={styles.scrollviewBackDrop}>
-        <TouchableOpacity onPress={scrollLeft}>
-          <Icon name={'ios-arrow-back-circle'} type={'ionicon'} size={26} color={'gray'} />
-        </TouchableOpacity>
+        <View style={styles.sliderHolder}>
+          {Platform.OS != 'ios' && Platform.OS != 'android' ? (
+            <TouchableOpacity onPress={scrollLeft}>
+              <Icon name={'arrow-back-circle'} type={'ionicon'} size={26} color={'gray'} />
+            </TouchableOpacity>
+          ) : null}
+          <Text style={styles.kanji}>{kanjiName}</Text>
 
-        <TouchableOpacity onPress={scrollRight}>
-          <Icon name={'ios-arrow-forward-circle'} type={'ionicon'} size={26} color={'gray'} />
-        </TouchableOpacity>
+          {Platform.OS != 'ios' && Platform.OS != 'android' ? (
+            <TouchableOpacity onPress={scrollRight}>
+              <Icon name={'arrow-forward-circle'} type={'ionicon'} size={26} color={'gray'} />
+            </TouchableOpacity>
+          ) : null}
+        </View>
 
-        <Text style={styles.kanji}>{kanjiName}</Text>
-        <Text style={styles.header}>Meanings</Text>
+        <View style={styles.textHolder}>
+          <Text style={styles.header}>Meanings</Text>
+        </View>
         <View style={styles.pillHolder}>
           {typeof meanings != 'string' ? (
             meanings.map((item, index) => <Pill key={item} index={index} subject={item} />)
@@ -114,28 +123,36 @@ export default function KanjiDetail({ route }) {
 
         {isKana ? null : isWord ? (
           <>
-            <Text style={styles.header}>hiragana</Text>
+            <View style={styles.textHolder}>
+              <Text style={styles.header}>hiragana</Text>
+            </View>
             <View style={styles.pillHolder}>
               <Pill subject={hiragana} />
             </View>
           </>
         ) : (
           <>
-            <Text style={styles.header}> Kunyomi Readings</Text>
+            <View style={styles.textHolder}>
+              <Text style={styles.header}> Kunyomi Readings</Text>
+            </View>
             <View style={styles.pillHolder}>
               {on.map((item, index) => (
                 <Pill key={item} index={index} subject={item} />
               ))}
             </View>
 
-            <Text style={styles.header}>Onyomi Readings</Text>
+            <View style={styles.textHolder}>
+              <Text style={styles.header}>Onyomi Readings</Text>
+            </View>
             <View style={styles.pillHolder}>
               {kun.map((item, index) => (
                 <Pill key={item} index={index} subject={item} />
               ))}
             </View>
 
-            <Text style={styles.header}>Similar Kanjis</Text>
+            <View style={styles.textHolder}>
+              <Text style={styles.header}>Similar Kanjis</Text>
+            </View>
             <View style={styles.pillHolder}>
               {similars.map((item, index) => (
                 <KanjiBox
@@ -237,5 +254,14 @@ const styles = StyleSheet.create({
     borderColor: 'black',
     backgroundColor: 'white',
     borderRadius: 10
+  },
+  textHolder: {
+    paddingVertical: '1%',
+    backgroundColor: 'khaki'
+  },
+  sliderHolder: {
+    flexDirection: 'row',
+    justifyContent: 'space-around',
+    alignItems: 'center'
   }
 })
