@@ -1,7 +1,6 @@
 import React from 'react'
 import { AppRegistry, Platform, LogBox } from 'react-native'
 import { NavigationContainer } from '@react-navigation/native'
-import { GestureHandlerRootView } from 'react-native-gesture-handler'
 //apollo
 import { ApolloClient, InMemoryCache, ApolloProvider } from '@apollo/client'
 
@@ -23,11 +22,9 @@ function App() {
 
   return (
     <ApolloProvider client={client}>
-      <GestureHandlerRootView style={{ flex: 1 }}>
-        <NavigationContainer>
-          <Nav />
-        </NavigationContainer>
-      </GestureHandlerRootView>
+      <NavigationContainer>
+        <Nav />
+      </NavigationContainer>
     </ApolloProvider>
   )
 }
