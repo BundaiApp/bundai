@@ -1,6 +1,15 @@
-import React, { useState, useContext, useEffect } from 'react'
-import { ScrollView, View, Text, StyleSheet, FlatList, Dimensions, Platform } from 'react-native'
+import React, { useContext, useEffect, useRef, useState } from 'react'
+import {
+  ScrollView,
+  View,
+  Text,
+  StyleSheet,
+  FlatList,
+  Dimensions,
+  TouchableOpacity
+} from 'react-native'
 import { useMutation } from '@apollo/client'
+import { Icon } from 'react-native-elements'
 //utils
 import AuthContext from '../contexts/authContext'
 //graphQL
@@ -14,6 +23,10 @@ export default function KanjiDetail({ route }) {
   const { auth } = useContext(AuthContext)
   //mutation
   const [addFlashCard] = useMutation(ADD_FLASHCARD)
+  //scrollViewRef
+  const scrollViewRef = useRef()
+
+  const [currentX, setCurrentX] = useState(0)
 
   const Pill = ({ subject, meaning }) => (
     <View style={styles.pill}>
@@ -45,14 +58,50 @@ export default function KanjiDetail({ route }) {
     const { nativeEvent } = event
     const contentOffsetX = nativeEvent.contentOffset?.x || nativeEvent.targetContentOffset?.x || 0
     const currentIndex = Math.floor(contentOffsetX / windowWidth)
-    console.log('Current Index:', currentIndex)
+    setCurrentX(currentIndex)
     // Do other operations based on currentIndex
     addCard(wholeArr[currentIndex + 1])
+  }
+
+  // Scroll to the left
+  const scrollLeft = () => {
+    const prevIndex = Math.max(currentX - 1, 0) // Ensure we don't scroll past the first item.
+    const newX = prevIndex * windowWidth
+    if (
+      scrollViewRef.current &&
+      scrollViewRef.current._listRef &&
+      scrollViewRef.current._listRef.scrollToOffset
+    ) {
+      scrollViewRef.current._listRef.scrollToOffset({ offset: newX, animated: true })
+      setCurrentX(prevIndex) // Update current index.
+    }
+  }
+
+  // Scroll to the right
+  const scrollRight = () => {
+    const prevIndex = Math.max(currentX + 1, 0) // Ensure we don't scroll past the first item.
+    const newX = prevIndex * windowWidth
+    if (
+      scrollViewRef.current &&
+      scrollViewRef.current._listRef &&
+      scrollViewRef.current._listRef.scrollToOffset
+    ) {
+      scrollViewRef.current._listRef.scrollToOffset({ offset: newX, animated: true })
+      setCurrentX(prevIndex) // Update current index.
+    }
   }
 
   function Page({ kanjiName, meanings, kun, on, hiragana, similars }) {
     return (
       <ScrollView contentContainerStyle={styles.scrollviewBackDrop}>
+        <TouchableOpacity onPress={scrollLeft}>
+          <Icon name={'ios-arrow-back-circle'} type={'ionicon'} size={26} color={'gray'} />
+        </TouchableOpacity>
+
+        <TouchableOpacity onPress={scrollRight}>
+          <Icon name={'ios-arrow-forward-circle'} type={'ionicon'} size={26} color={'gray'} />
+        </TouchableOpacity>
+
         <Text style={styles.kanji}>{kanjiName}</Text>
         <Text style={styles.header}>Meanings</Text>
         <View style={styles.pillHolder}>
@@ -104,6 +153,7 @@ export default function KanjiDetail({ route }) {
   }
 
   useEffect(() => {
+    setCurrentX(itemIndex)
     addCard(wholeArr[itemIndex])
   }, [])
 
@@ -113,8 +163,9 @@ export default function KanjiDetail({ route }) {
       style={styles.container}
       pagingEnabled
       data={wholeArr}
+      ref={scrollViewRef}
+      initialNumToRender={3}
       initialScrollIndex={itemIndex}
-      animated={true}
       showsHorizontalScrollIndicator={false}
       keyExtractor={(item, index) => `${item.kanjiName}_${index}`}
       getItemLayout={(wholeArr, index) => ({
