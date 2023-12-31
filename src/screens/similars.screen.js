@@ -79,8 +79,7 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
     fontSize: 32,
     paddingVertical: hp('2.5%'),
-    paddingLeft: wp('3%'),
-    backgroundColor: 'lightyellow'
+    paddingLeft: wp('3%')
   },
   separator: {
     height: hp('1%')
@@ -108,7 +107,8 @@ const styles = StyleSheet.create({
     fontSize: 12,
     fontWeight: '400',
     color: 'gray'
-  }
+  },
+  SectionHeaderContainer: {}
 })
 
 export default SimilarScreen
