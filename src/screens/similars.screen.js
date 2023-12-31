@@ -80,7 +80,7 @@ const styles = StyleSheet.create({
     fontSize: 32,
     paddingVertical: hp('2.5%'),
     paddingLeft: wp('3%'),
-    backgroundColor: 'khaki'
+    backgroundColor: 'lightyellow'
   },
   separator: {
     height: hp('1%')

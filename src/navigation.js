@@ -176,6 +176,7 @@ function TabNav() {
           )
         }}
       />
+      <Tab.Screen name="Similars" component={SimilarScreen} />
       <Tab.Screen name="Settings" component={SettingScreen} />
     </Tab.Navigator>
   )
