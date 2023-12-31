@@ -166,8 +166,7 @@ export default function Home({ navigation: { navigate } }) {
 
 const styles = StyleSheet.create({
   scrollView: {
-    backgroundColor: 'ivory',
-    paddingTop: '15%'
+    backgroundColor: 'ivory'
   },
   contentContainer: {
     alignItems: 'center',

@@ -45,7 +45,11 @@ function HomeStack() {
         headerBackTitleVisible: false,
         headerTintColor: 'black'
       }}>
-      <Stack.Screen name="Home" component={HomeScreen} options={{ headerShown: false }} />
+      <Stack.Screen
+        name="Home"
+        component={HomeScreen}
+        options={{ headerStyle: { backgroundColor: 'papayawhip' } }}
+      />
       <Stack.Screen
         name="KanjiDetail"
         component={KanjiDetailScreen}
@@ -172,7 +176,6 @@ function TabNav() {
           )
         }}
       />
-      <Tab.Screen name="Similars" component={SimilarScreen} />
       <Tab.Screen name="Settings" component={SettingScreen} />
     </Tab.Navigator>
   )

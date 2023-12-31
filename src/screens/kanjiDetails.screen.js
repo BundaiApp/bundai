@@ -1,5 +1,5 @@
 import React, { useState, useContext, useEffect } from 'react'
-import { ScrollView, View, Text, StyleSheet, FlatList, Dimensions } from 'react-native'
+import { ScrollView, View, Text, StyleSheet, FlatList, Dimensions, Platform } from 'react-native'
 import { useMutation } from '@apollo/client'
 //utils
 import AuthContext from '../contexts/authContext'
@@ -9,7 +9,7 @@ import ADD_FLASHCARD from '../mutations/addFlashCard.mutation'
 const windowWidth = Dimensions.get('window').width
 
 export default function KanjiDetail({ route }) {
-  const { wholeArr, itemIndex, isWord, isKana } = route.params
+  const { wholeArr, itemIndex, isWord, isKana, paramsData } = route.params
   //context
   const { auth } = useContext(AuthContext)
   //mutation
@@ -50,7 +50,7 @@ export default function KanjiDetail({ route }) {
     addCard(wholeArr[currentIndex + 1])
   }
 
-  function Page({ kanjiName, meanings, kun, on, hiragana, quizAnswers, similars }) {
+  function Page({ kanjiName, meanings, kun, on, hiragana, similars }) {
     return (
       <ScrollView contentContainerStyle={styles.scrollviewBackDrop}>
         <Text style={styles.kanji}>{kanjiName}</Text>
@@ -90,7 +90,7 @@ export default function KanjiDetail({ route }) {
             <View style={styles.pillHolder}>
               {similars.map((item, index) => (
                 <KanjiBox
-                  key={item.kanjiName}
+                  key={item.kanji}
                   index={index}
                   kanji={item.kanji}
                   meaning={item.meaning}
@@ -138,15 +138,20 @@ const styles = StyleSheet.create({
   },
   kanji: {
     fontWeight: '600',
-    fontSize: 70,
+    fontSize: 120,
     alignSelf: 'center'
+  },
+  headerAlt: {
+    fontWeight: '400',
+    fontSize: 30,
+    alignSelf: 'flex-start',
+    backgroundColor: 'wheat',
+    paddingLeft: '5%'
   },
   header: {
     fontWeight: '400',
     fontSize: 30,
-    width: '100%',
     alignSelf: 'flex-start',
-    backgroundColor: 'wheat',
     paddingLeft: '5%'
   },
   pillHolder: {
