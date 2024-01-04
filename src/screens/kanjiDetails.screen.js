@@ -29,10 +29,9 @@ export default function KanjiDetail({ route }) {
 
   const [currentX, setCurrentX] = useState(0)
 
-  const Pill = ({ subject, meaning }) => (
+  const Pill = ({ subject }) => (
     <View style={styles.pill}>
       <Text style={styles.subtitleText}>{subject}</Text>
-      <Text style={styles.subtitleText}>{meaning}</Text>
     </View>
   )
 

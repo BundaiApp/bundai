@@ -28,6 +28,7 @@ import LoginScreen from './screens/logIn.screen'
 import SettingScreen from './screens/settings.screen'
 //Similar screen
 import SimilarScreen from './screens/similars.screen'
+import SimilarDetailScreen from './screens/similarDetail.screen'
 //utils
 import AuthContext from './contexts/authContext'
 
@@ -112,6 +113,28 @@ function AuthStack() {
   )
 }
 
+function SimilarStack() {
+  return (
+    <Stack.Navigator
+      screenOptions={{
+        headerStyle: { backgroundColor: 'thistle' },
+        headerBackTitleVisible: false,
+        headerTintColor: 'black'
+      }}>
+      <Stack.Screen
+        name="SimilarList"
+        component={SimilarScreen}
+        options={() => ({ headerTitle: 'Similar Kanjis' })}
+      />
+      <Stack.Screen
+        name="SimilarDetail"
+        component={SimilarDetailScreen}
+        options={({ route }) => ({ headerTitle: route.params.kanji })}
+      />
+    </Stack.Navigator>
+  )
+}
+
 function TabNav() {
   //context
   const { auth } = useContext(AuthContext)
@@ -176,7 +199,7 @@ function TabNav() {
           )
         }}
       />
-      <Tab.Screen name="Similars" component={SimilarScreen} />
+      <Tab.Screen name="Similars" component={SimilarStack} />
       <Tab.Screen name="Settings" component={SettingScreen} />
     </Tab.Navigator>
   )
