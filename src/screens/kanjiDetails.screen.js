@@ -19,7 +19,7 @@ import ADD_FLASHCARD from '../mutations/addFlashCard.mutation'
 const windowWidth = Dimensions.get('window').width
 
 export default function KanjiDetail({ route }) {
-  const { wholeArr, itemIndex, isWord, isKana, paramsData } = route.params
+  const { wholeArr, itemIndex, isWord, isKana } = route.params
   //context
   const { auth } = useContext(AuthContext)
   //mutation
@@ -153,7 +153,7 @@ export default function KanjiDetail({ route }) {
               <Text style={styles.header}>Similar Kanjis</Text>
             </View>
             <View style={styles.pillHolder}>
-              {similars.map((item, index) => (
+              {similars?.map((item, index) => (
                 <KanjiBox
                   key={item.kanji}
                   index={index}
