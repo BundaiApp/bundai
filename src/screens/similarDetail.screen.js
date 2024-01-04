@@ -1,22 +1,25 @@
 import React from 'react'
-import { View, Text, StyleSheet } from 'react-native'
+import { View, Text, ScrollView, StyleSheet } from 'react-native'
 
 export default function SimilarDetails({ route }) {
-  const { kanji, kanjiArray } = route.params
+  const { kanji, meaning, furigana, kanjiArray } = route.params
 
   return (
     <View style={styles.container}>
       <View style={styles.LeftColumn}>
         <Text style={styles.mainKanji}>{kanji}</Text>
+        <Text style={styles.meaning}>{meaning}</Text>
+        <Text style={styles.meaning}>{furigana}</Text>
       </View>
-      <View style={styles.column}>
+      <ScrollView style={styles.column}>
         {kanjiArray.map((item, index) => (
           <View key={index} style={styles.item}>
             <Text style={styles.kanji}>{item.kanji}</Text>
             <Text style={styles.meaning}>{item.meaning}</Text>
+            <Text style={styles.meaning}>{item.furigana}</Text>
           </View>
         ))}
-      </View>
+      </ScrollView>
     </View>
   )
 }
