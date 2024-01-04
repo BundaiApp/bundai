@@ -13,7 +13,9 @@ export default function SimilarScreen({ navigation: { navigate } }) {
           <TouchableOpacity
             key={item}
             style={styles.block}
-            onPress={() => navigate('SimilarDetail', { kanji: item })}>
+            onPress={() =>
+              navigate('SimilarDetail', { kanji: item, kanjiArray: SIMILAR_DATA[item] })
+            }>
             <Text style={styles.kanjiText}>{item}</Text>
           </TouchableOpacity>
         )}
