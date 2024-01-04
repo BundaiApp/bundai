@@ -1,12 +1,7 @@
-///const { kanji, kanjiArray } = route.params
-//export default function SimilarDetails() {
-//
-
 import React from 'react'
 import { View, Text, StyleSheet } from 'react-native'
 
 export default function SimilarDetails({ route }) {
-  // You would get kanjiArray from route.params
   const { kanji, kanjiArray } = route.params
 
   return (
@@ -19,7 +14,6 @@ export default function SimilarDetails({ route }) {
           <View key={index} style={styles.item}>
             <Text style={styles.kanji}>{item.kanji}</Text>
             <Text style={styles.meaning}>{item.meaning}</Text>
-            <Text style={styles.reading}>{item.reading}</Text>
           </View>
         ))}
       </View>
@@ -29,7 +23,9 @@ export default function SimilarDetails({ route }) {
 
 const styles = StyleSheet.create({
   container: {
+    flex: 1,
     flexDirection: 'row',
+    backgroundColor: 'ivory',
     padding: 16
   },
   LeftColumn: {

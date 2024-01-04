@@ -1,14 +1,34 @@
-import React from 'react'
-import { SafeAreaView, Text, FlatList, TouchableOpacity, StyleSheet } from 'react-native'
+import React, { useState } from 'react'
+import { SafeAreaView, Text, TextInput, FlatList, TouchableOpacity, StyleSheet } from 'react-native'
 import { heightPercentageToDP as hp } from 'react-native-responsive-screen'
 
 import SIMILAR_DATA from '../util/similar.json'
 
 export default function SimilarScreen({ navigation: { navigate } }) {
+  const [search, setSearch] = useState('')
+  const [filteredData, setFilteredData] = useState(Object.keys(SIMILAR_DATA))
+
+  const handleSearch = (text) => {
+    setSearch(text)
+    if (text) {
+      const newData = Object.keys(SIMILAR_DATA).filter((item) =>
+        item.toLowerCase().includes(text.toLowerCase())
+      )
+      setFilteredData(newData)
+    } else {
+      setFilteredData(Object.keys(SIMILAR_DATA))
+    }
+  }
   return (
     <SafeAreaView style={styles.container}>
+      <TextInput
+        style={styles.searchBar}
+        placeholder="Search here..."
+        value={search}
+        onChangeText={(text) => handleSearch(text)}
+      />
       <FlatList
-        data={Object.keys(SIMILAR_DATA)}
+        data={filteredData}
         renderItem={({ item }) => (
           <TouchableOpacity
             key={item}
@@ -20,8 +40,8 @@ export default function SimilarScreen({ navigation: { navigate } }) {
           </TouchableOpacity>
         )}
         numColumns={5}
-        style={styles.flatList} // background color of the FlatList
-        contentContainerStyle={styles.flatListContent} // background color of the content
+        style={styles.flatList}
+        contentContainerStyle={styles.flatListContent}
       />
     </SafeAreaView>
   )
@@ -45,13 +65,6 @@ const styles = StyleSheet.create({
     //backgroundColor: '#C4C4B0',
     paddingHorizontal: '3%'
   },
-  sectionHeaderText: {
-    fontWeight: 'bold',
-    fontSize: 18
-  },
-  separator: {
-    height: hp('1%')
-  },
   block: {
     flex: 1,
     margin: 5,
@@ -66,5 +79,13 @@ const styles = StyleSheet.create({
   kanjiText: {
     fontSize: 30,
     fontWeight: '500'
+  },
+  searchBar: {
+    height: 40,
+    borderWidth: 1,
+    paddingLeft: 10,
+    margin: 10,
+    borderColor: '#009688',
+    backgroundColor: 'white'
   }
 })
