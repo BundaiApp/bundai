@@ -33,22 +33,17 @@ export default function SignUp({ navigation: { navigate, goBack } }) {
 
   async function pass() {
     if (username == null || username == '') {
-      //ErrorNoti('error', 'Please set username')
-      console.log('set username')
+      ErrorNoti('error', 'Please set username')
     } else if (email == null || email == '') {
-      //ErrorNoti('error', 'Please set email')
-      console.log('set email')
+      ErrorNoti('error', 'Please set email')
     } else if (password == null || password == '') {
-      //ErrorNoti('error', 'Please set password')
-      console.log('set password')
+      ErrorNoti('error', 'Please set password')
     } else {
       const checkMail = validateEmail(email)
       if (!checkMail) {
-        // ErrorNoti('error', 'Invalid email')
-        console.log('bad email')
+        ErrorNoti('error', 'Invalid email')
         return
       }
-      console.log('main body hit')
       const { data } = await signUp({
         variables: {
           email,
@@ -56,8 +51,6 @@ export default function SignUp({ navigation: { navigate, goBack } }) {
           username
         }
       })
-
-      console.log(data)
 
       if (data.signUp.errorMessage === null) {
         await AsyncStorage.multiSet([
