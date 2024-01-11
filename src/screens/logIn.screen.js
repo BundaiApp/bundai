@@ -88,7 +88,6 @@ export default function Login() {
       }
 
       if (data.logIn.errorMessage) {
-        console.log(data)
         showMessage({
           message: `${data.logIn.errorMessage}`,
           type: 'danger'
