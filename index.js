@@ -1,6 +1,7 @@
 import React from 'react'
 import { AppRegistry, Platform, LogBox } from 'react-native'
 import { NavigationContainer } from '@react-navigation/native'
+import FlashMessage from 'react-native-flash-message'
 //apollo
 import { ApolloClient, InMemoryCache, ApolloProvider } from '@apollo/client'
 
@@ -25,6 +26,7 @@ function App() {
     <ApolloProvider client={client}>
       <NavigationContainer>
         <Nav />
+        <FlashMessage position="top" />
       </NavigationContainer>
     </ApolloProvider>
   )

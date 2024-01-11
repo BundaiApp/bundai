@@ -1,6 +1,7 @@
 import React, { useContext } from 'react'
 import { View, StyleSheet, Text, TouchableOpacity } from 'react-native'
 import AsyncStorage from '@react-native-async-storage/async-storage'
+import { showMessage } from 'react-native-flash-message'
 //utils
 import AuthContext from '../contexts/authContext'
 
@@ -41,6 +42,13 @@ export default function SettingScreen() {
     console.log(values)
   }
 
+  async function callError() {
+    showMessage({
+      message: 'Simple message',
+      type: 'info'
+    })
+  }
+
   return (
     <View style={styles.container}>
       <TouchableOpacity onPress={() => logout()}>
@@ -49,6 +57,10 @@ export default function SettingScreen() {
 
       <TouchableOpacity onPress={() => con()}>
         <Text style={styles.text}>Console</Text>
+      </TouchableOpacity>
+
+      <TouchableOpacity onPress={() => callError()}>
+        <Text style={styles.text}>test notification</Text>
       </TouchableOpacity>
     </View>
   )

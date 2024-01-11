@@ -32,7 +32,11 @@ export default function Login({ navigation: { navigate, goBack } }) {
 
   async function pass() {
     if (email == null || email == '') {
-      ErrorNoti('error', 'Please set email')
+      //ErrorNoti('error', 'Please set email')
+      showMessage({
+        message: 'Simple message',
+        type: 'info'
+      })
     } else if (password == null || password == '') {
       ErrorNoti('error', 'Please set password')
     } else {
