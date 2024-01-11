@@ -44,7 +44,7 @@ export default function SettingScreen() {
   return (
     <View style={styles.container}>
       <TouchableOpacity onPress={() => logout()}>
-        <Text style={styles.text}>Settings</Text>
+        <Text style={styles.text}>Log out</Text>
       </TouchableOpacity>
 
       <TouchableOpacity onPress={() => con()}>

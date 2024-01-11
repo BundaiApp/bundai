@@ -191,6 +191,7 @@ export default function KanjiDetail({ route }) {
       })}
       onScrollEndDrag={(event) => handleScrollEnd(event)}
       renderItem={({ item }) => Page(item)}
+      removeClippedSubviews={true}
     />
   )
 }

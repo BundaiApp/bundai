@@ -87,10 +87,12 @@ export default function Login({ navigation: { navigate, goBack } }) {
         value={email}
         placeholder={'x@example.com'}
         placeholderTextColor={'gray'}
+        autoCapitalize={'none'}
         onChangeText={(text) => setEmail(text)}
       />
       <TextInput
         style={styles.textInput}
+        autoCapitalize={'none'}
         secureTextEntry
         placeholder={'Password'}
         placeholderTextColor={'gray'}

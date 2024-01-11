@@ -19,7 +19,7 @@ export default function SignUp({ navigation: { navigate, goBack } }) {
   const [email, setEmail] = useState(null)
   const [username, setUsername] = useState(null)
   //mutation
-  const [signUp, { loading }] = useMutation(SIGN_UP)
+  const [signUp, { loading, error }] = useMutation(SIGN_UP)
   //context
   const { auth, setAuth } = useContext(AuthContext)
 
@@ -33,18 +33,22 @@ export default function SignUp({ navigation: { navigate, goBack } }) {
 
   async function pass() {
     if (username == null || username == '') {
-      ErrorNoti('error', 'Please set username')
+      //ErrorNoti('error', 'Please set username')
+      console.log('set username')
     } else if (email == null || email == '') {
-      ErrorNoti('error', 'Please set email')
+      //ErrorNoti('error', 'Please set email')
+      console.log('set email')
     } else if (password == null || password == '') {
-      ErrorNoti('error', 'Please set password')
+      //ErrorNoti('error', 'Please set password')
+      console.log('set password')
     } else {
       const checkMail = validateEmail(email)
       if (!checkMail) {
-        ErrorNoti('error', 'Invalid email')
+        // ErrorNoti('error', 'Invalid email')
+        console.log('bad email')
         return
       }
-
+      console.log('main body hit')
       const { data } = await signUp({
         variables: {
           email,
@@ -52,6 +56,8 @@ export default function SignUp({ navigation: { navigate, goBack } }) {
           username
         }
       })
+
+      console.log(data)
 
       if (data.signUp.errorMessage === null) {
         await AsyncStorage.multiSet([
@@ -73,11 +79,13 @@ export default function SignUp({ navigation: { navigate, goBack } }) {
           verified: false
         })
       }
+
       if (data.signUp.errorMessage) {
         console.log(data.signUp.errorMessage)
       }
+
       if (data.errors) {
-        console.log(data.signUp.errorMessage)
+        console.log(data.errors[0].message)
       }
     }
   }
@@ -90,6 +98,7 @@ export default function SignUp({ navigation: { navigate, goBack } }) {
         value={email}
         placeholder={'x@example.com'}
         placeholderTextColor={'gray'}
+        autoCapitalize={'none'}
         onChangeText={(text) => setEmail(text)}
       />
       <TextInput
@@ -97,6 +106,7 @@ export default function SignUp({ navigation: { navigate, goBack } }) {
         secureTextEntry
         placeholder={'Password'}
         placeholderTextColor={'gray'}
+        autoCapitalize={'none'}
         value={password}
         onChangeText={(text) => setPassWord(text)}
       />
@@ -106,7 +116,7 @@ export default function SignUp({ navigation: { navigate, goBack } }) {
         secureTextEntry={false}
         placeholder={'Name'}
         placeholderTextColor={'gray'}
-        autoCapitalize={false}
+        autoCapitalize={'none'}
         onChangeText={(text) => setUsername(text)}
       />
       <TouchableOpacity style={styles.button} onPress={() => pass()}>

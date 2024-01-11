@@ -14,7 +14,8 @@ function App() {
 
   const client = new ApolloClient({
     //uri: host,
-    uri: 'http://localhost:3000/graphql',
+    //uri: 'http://localhost:3000/graphql',
+    uri: 'https://bundai-6069a9444d4b.herokuapp.com/graphql',
     cache: new InMemoryCache({
       dataIdFromObject: (o) => o.id
     })
