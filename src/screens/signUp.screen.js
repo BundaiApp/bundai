@@ -1,12 +1,20 @@
-import React, { useState, useContext, useEffect } from 'react'
-import { SafeAreaView, StyleSheet, View, Text, TouchableOpacity, TextInput } from 'react-native'
+import React, { useState, useContext } from 'react'
+import {
+  SafeAreaView,
+  StyleSheet,
+  View,
+  Text,
+  TouchableOpacity,
+  TextInput,
+  ActivityIndicator
+} from 'react-native'
 import {
   widthPercentageToDP as wp,
   heightPercentageToDP as hp
 } from 'react-native-responsive-screen'
 import { useMutation } from '@apollo/client'
 import AsyncStorage from '@react-native-async-storage/async-storage'
-
+import { showMessage } from 'react-native-flash-message'
 //utils
 import { FONTS } from '../components/fonts'
 //graphQL
@@ -14,7 +22,7 @@ import SIGN_UP from '../mutations/signUp.mutation.js'
 //utils
 import AuthContext from '../contexts/authContext'
 
-export default function SignUp({ navigation: { navigate, goBack } }) {
+export default function SignUp() {
   const [password, setPassWord] = useState(null)
   const [email, setEmail] = useState(null)
   const [username, setUsername] = useState(null)
@@ -33,17 +41,30 @@ export default function SignUp({ navigation: { navigate, goBack } }) {
 
   async function pass() {
     if (username == null || username == '') {
-      ErrorNoti('error', 'Please set username')
+      showMessage({
+        message: 'Please set username',
+        type: 'danger'
+      })
     } else if (email == null || email == '') {
-      ErrorNoti('error', 'Please set email')
+      showMessage({
+        message: 'Please provide a valid email address',
+        type: 'danger'
+      })
     } else if (password == null || password == '') {
-      ErrorNoti('error', 'Please set password')
+      showMessage({
+        message: 'Please set a password',
+        type: 'danger'
+      })
     } else {
       const checkMail = validateEmail(email)
       if (!checkMail) {
-        ErrorNoti('error', 'Invalid email')
+        showMessage({
+          message: 'Invalid email',
+          type: 'danger'
+        })
         return
       }
+
       const { data } = await signUp({
         variables: {
           email,
@@ -74,11 +95,16 @@ export default function SignUp({ navigation: { navigate, goBack } }) {
       }
 
       if (data.signUp.errorMessage) {
-        console.log(data.signUp.errorMessage)
+        showMessage({
+          message: `${data.signUp.errorMessage}`,
+          type: 'danger'
+        })
       }
-
       if (data.errors) {
-        console.log(data.errors[0].message)
+        showMessage({
+          message: `${data.errors[0].message}`,
+          type: 'danger'
+        })
       }
     }
   }
@@ -107,14 +133,20 @@ export default function SignUp({ navigation: { navigate, goBack } }) {
         style={styles.textInput}
         value={username}
         secureTextEntry={false}
-        placeholder={'Name'}
+        placeholder={'Username'}
         placeholderTextColor={'gray'}
         autoCapitalize={'none'}
         onChangeText={(text) => setUsername(text)}
       />
-      <TouchableOpacity style={styles.button} onPress={() => pass()}>
-        <Text style={styles.buttonText}>Sign Up</Text>
-      </TouchableOpacity>
+      {loading ? (
+        <View style={styles.button}>
+          <ActivityIndicator size="small" color="green" />
+        </View>
+      ) : (
+        <TouchableOpacity style={styles.button} onPress={() => pass()}>
+          <Text style={styles.buttonText}>Sign Up</Text>
+        </TouchableOpacity>
+      )}
     </SafeAreaView>
   )
 }

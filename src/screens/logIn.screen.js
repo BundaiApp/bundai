@@ -1,12 +1,20 @@
-import React, { useState, useContext, useEffect } from 'react'
-import { SafeAreaView, StyleSheet, View, Text, TouchableOpacity, TextInput } from 'react-native'
+import React, { useState, useContext } from 'react'
+import {
+  SafeAreaView,
+  StyleSheet,
+  View,
+  Text,
+  TouchableOpacity,
+  TextInput,
+  ActivityIndicator
+} from 'react-native'
 import {
   widthPercentageToDP as wp,
   heightPercentageToDP as hp
 } from 'react-native-responsive-screen'
 import { useMutation } from '@apollo/client'
 import AsyncStorage from '@react-native-async-storage/async-storage'
-
+import { showMessage } from 'react-native-flash-message'
 //utils
 import { FONTS } from '../components/fonts'
 //graphQL
@@ -14,11 +22,11 @@ import LOG_IN from '../mutations/logIn.mutation'
 //utils
 import AuthContext from '../contexts/authContext'
 
-export default function Login({ navigation: { navigate, goBack } }) {
+export default function Login() {
   const [password, setPassWord] = useState(null)
   const [email, setEmail] = useState(null)
   //mutation
-  const [logIn] = useMutation(LOG_IN)
+  const [logIn, { loading, error }] = useMutation(LOG_IN)
   //context
   const { auth, setAuth } = useContext(AuthContext)
 
@@ -32,19 +40,25 @@ export default function Login({ navigation: { navigate, goBack } }) {
 
   async function pass() {
     if (email == null || email == '') {
-      //ErrorNoti('error', 'Please set email')
       showMessage({
-        message: 'Simple message',
-        type: 'info'
+        message: 'Please set email',
+        type: 'danger'
       })
     } else if (password == null || password == '') {
-      ErrorNoti('error', 'Please set password')
+      showMessage({
+        message: 'Please set password',
+        type: 'danger'
+      })
     } else {
       const checkMail = validateEmail(email)
       if (!checkMail) {
-        ErrorNoti('error', 'Invalid email')
+        showMessage({
+          message: 'Invalid Email',
+          type: 'danger'
+        })
         return
       }
+
       const { data } = await logIn({
         variables: {
           email,
@@ -52,33 +66,39 @@ export default function Login({ navigation: { navigate, goBack } }) {
         }
       })
 
-      await AsyncStorage.multiSet([
-        ['@token', data.logIn.token],
-        ['@username', data.logIn.user.name],
-        ['@userId', data.logIn.user._id],
-        ['@email', data.logIn.user.email],
-        ['@verified', 'false'],
-        ['@passed', 'true']
-      ])
-
-      await setAuth({
-        ...auth,
-        token: data.logIn.token,
-        userId: data.logIn.user._id,
-        email: data.logIn.user.email,
-        username: data.logIn.user.name,
-        passed: true,
-        verified: false
-      })
-
       if (data.logIn.errorMessage === null) {
-        console.log(data)
+        await AsyncStorage.multiSet([
+          ['@token', data.logIn.token],
+          ['@username', data.logIn.user.name],
+          ['@userId', data.logIn.user._id],
+          ['@email', data.logIn.user.email],
+          ['@verified', 'false'],
+          ['@passed', 'true']
+        ])
+
+        await setAuth({
+          ...auth,
+          token: data.logIn.token,
+          userId: data.logIn.user._id,
+          email: data.logIn.user.email,
+          username: data.logIn.user.name,
+          passed: true,
+          verified: false
+        })
       }
+
       if (data.logIn.errorMessage) {
-        console.log(data.signUp.errorMessage)
+        console.log(data)
+        showMessage({
+          message: `${data.logIn.errorMessage}`,
+          type: 'danger'
+        })
       }
       if (data.errors) {
-        console.log(data.signUp.errorMessage)
+        showMessage({
+          message: `${data.errors[0].message}`,
+          type: 'danger'
+        })
       }
     }
   }
@@ -103,9 +123,15 @@ export default function Login({ navigation: { navigate, goBack } }) {
         value={password}
         onChangeText={(text) => setPassWord(text)}
       />
-      <TouchableOpacity style={styles.button} onPress={() => pass()}>
-        <Text style={styles.buttonText}>Login</Text>
-      </TouchableOpacity>
+      {loading ? (
+        <View style={styles.button}>
+          <ActivityIndicator size="small" color="green" />
+        </View>
+      ) : (
+        <TouchableOpacity style={styles.button} onPress={() => pass()}>
+          <Text style={styles.buttonText}>Login</Text>
+        </TouchableOpacity>
+      )}
     </SafeAreaView>
   )
 }
