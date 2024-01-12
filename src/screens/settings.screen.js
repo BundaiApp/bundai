@@ -1,13 +1,15 @@
-import React, { useContext } from 'react'
+import React, { useContext, useEffect, useState } from 'react'
 import { View, StyleSheet, Text, TouchableOpacity } from 'react-native'
 import AsyncStorage from '@react-native-async-storage/async-storage'
 import { showMessage } from 'react-native-flash-message'
 //utils
 import AuthContext from '../contexts/authContext'
+import ProvideData from '../util/jlptArray'
 
 export default function SettingScreen() {
   //context
   const { setAuth } = useContext(AuthContext)
+  const [arr, setArr] = useState([])
 
   async function logout() {
     await setAuth({
@@ -49,6 +51,11 @@ export default function SettingScreen() {
     })
   }
 
+  function fetchData() {
+    let data = ProvideData('grade', 1)
+    console.log(data.length)
+  }
+
   return (
     <View style={styles.container}>
       <TouchableOpacity onPress={() => logout()}>
@@ -61,6 +68,10 @@ export default function SettingScreen() {
 
       <TouchableOpacity onPress={() => callError()}>
         <Text style={styles.text}>test notification</Text>
+      </TouchableOpacity>
+
+      <TouchableOpacity onPress={() => fetchData()}>
+        <Text style={styles.text}>Get Data</Text>
       </TouchableOpacity>
     </View>
   )

@@ -1,9 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { Platform, Text, FlatList, TouchableOpacity, StyleSheet, View } from 'react-native'
-import {
-  widthPercentageToDP as wp,
-  heightPercentageToDP as hp
-} from 'react-native-responsive-screen'
+import { heightPercentageToDP as hp } from 'react-native-responsive-screen'
 
 import Jlpt from '../util/jlptAll.json'
 import Strokes from '../util/strokesAll.json'
