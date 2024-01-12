@@ -1,36 +1,27 @@
 import React from 'react'
-import {
-  View,
-  Text,
-  SectionList,
-  TouchableOpacity,
-  StyleSheet
-} from 'react-native'
+import { View, Text, SectionList, TouchableOpacity, StyleSheet } from 'react-native'
 import {
   widthPercentageToDP as wp,
   heightPercentageToDP as hp
 } from 'react-native-responsive-screen'
 
-import JlptData from '../util/jlptAll.json'
-import StrokesData from '../util/strokesAll.json'
-import GradesData from '../util/gradesAll.json'
+import ProvideData from '../util/jlptArray'
 
 const columns = 5 // Number of columns you want
 
-const SectionHeader = ({ title }) => (
-  <Text style={styles.sectionHeaderText}>{title}</Text>
-)
+const SectionHeader = ({ title }) => <Text style={styles.sectionHeaderText}>{title}</Text>
 
 const Separator = () => <View style={styles.separator} />
 
 const AllKanjiComponent = ({ navigation: { navigate }, route }) => {
-  const { jlpt, strokes, grades } = route.params
+  const { type, jlpt, strokes, grades } = route.params
+  //const { wholeArr, itemIndex, isWord, isKana } = route.params
 
-  const combineDataWithSections = data => {
+  const combineDataWithSections = (data) => {
     const sections = []
     if (jlpt) {
       for (let i = 5; i >= 1; i--) {
-        const jlptLevel = i.toString()
+        const jlptLevel = i
         if (data[jlptLevel] && data[jlptLevel].length > 0) {
           const chunkedData = chunkArray(data[jlptLevel], columns)
           sections.push({
@@ -77,9 +68,9 @@ const AllKanjiComponent = ({ navigation: { navigate }, route }) => {
   }
 
   const whichTypeOfData = () => {
-    if (strokes) return StrokesData
-    if (jlpt) return JlptData
-    if (grades) return GradesData
+    if (strokes) return ProvideData('strokes', 1, true)
+    if (jlpt) return ProvideData('jlpt', 1, true)
+    if (grades) return ProvideData('grade', 1, true)
   }
 
   const data = combineDataWithSections(whichTypeOfData())
@@ -90,16 +81,25 @@ const AllKanjiComponent = ({ navigation: { navigate }, route }) => {
         <TouchableOpacity
           key={index}
           style={styles.block}
-          onPress={() => navigate('KanjiDetail', { paramsData: kanjiItem })}>
+          onPress={() =>
+            navigate('KanjiDetail', {
+              isWord: false,
+              isKana: false,
+              wholeArr: ProvideData(
+                type,
+                jlpt ? kanjiItem.jlpt : strokes ? kanjiItem.strokes : kanjiItem.grade,
+                false
+              ),
+              itemIndex: index
+            })
+          }>
           <Text style={styles.kanjiText}>{kanjiItem.kanjiName}</Text>
         </TouchableOpacity>
       ))}
     </View>
   )
 
-  const renderSectionHeader = ({ section }) => (
-    <SectionHeader title={section.title} />
-  )
+  const renderSectionHeader = ({ section }) => <SectionHeader title={section.title} />
 
   const keyExtractor = (item, index) => `item_${index}`
 

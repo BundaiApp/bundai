@@ -2,15 +2,14 @@ import React, { useEffect, useState } from 'react'
 import { Platform, Text, FlatList, TouchableOpacity, StyleSheet, View } from 'react-native'
 import { heightPercentageToDP as hp } from 'react-native-responsive-screen'
 
-import Jlpt from '../util/jlptAll.json'
-import Strokes from '../util/strokesAll.json'
-import Grades from '../util/gradesAll.json'
 import Verbs from '../util/verbs.json'
 import Nouns from '../util/nouns.json'
 import Adjectives from '../util/adj.json'
 import Adverbs from '../util/adverbs.json'
 import Katakana from '../util/katakana.json'
 import Hiragana from '../util/hiragana.json'
+
+import ProvideData from '../util/jlptArray'
 
 function TemplateKanji({ navigation: { navigate }, route }) {
   const {
@@ -40,16 +39,16 @@ function TemplateKanji({ navigation: { navigate }, route }) {
   }
 
   useEffect(() => {
-    if (jlptLevel) setArr(Jlpt[jlptLevel])
-    if (strokes) setArr(Strokes[strokes])
-    if (grades) setArr(Grades[grades])
+    if (jlptLevel) setArr(ProvideData('jlpt', jlptLevel))
+    if (strokes) setArr(ProvideData('strokes', strokes))
+    if (grades) setArr(ProvideData('grade', grades))
     if (verbs) setArr(Verbs)
     if (nouns) setArr(Nouns)
     if (adjectives) setArr(Adjectives)
     if (adverbs) setArr(Adverbs)
     if (hiragana) setArr(Hiragana)
     if (katakana) setArr(Katakana)
-  }, [jlptLevel, strokes, grades])
+  }, [])
 
   return (
     <View style={styles.container}>

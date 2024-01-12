@@ -107090,7 +107090,7 @@ let arr = [
   }
 ]
 
-export default function provideData(type, level) {
+export default function provideData(type, level, isAll) {
   let newObj = groupBy(arr, type)
-  return newObj[level]
+  return isAll ? newObj : newObj[level]
 }

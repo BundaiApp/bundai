@@ -12,8 +12,6 @@ import { topics, words, kana } from '../util/constants'
 
 //data
 import Jlpt from '../util/jlptAll.json'
-import Strokes from '../util/strokesAll.json'
-import Grades from '../util/gradesAll.json'
 import Verbs from '../util/verbs.json'
 import Nouns from '../util/nouns.json'
 import Adjectives from '../util/adj.json'
@@ -49,8 +47,8 @@ export default function QuizSettings({ navigation: { navigate } }) {
 
   const dataTypes = {
     jlpt: Jlpt,
-    strokes: Strokes,
-    grades: Grades,
+    strokes: Jlpt,
+    grades: Jlpt,
     verbs: Verbs,
     nouns: Nouns,
     adjectives: Adjectives,

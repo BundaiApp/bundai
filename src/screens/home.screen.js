@@ -52,7 +52,9 @@ export default function Home({ navigation: { navigate } }) {
               <Pill
                 subject={'tan'}
                 isAll={true}
-                handlePress={() => navigate('AllKanji', { jlpt: true, title: `All Kanji` })}
+                handlePress={() =>
+                  navigate('AllKanji', { type: 'jlpt', jlpt: true, title: `All Kanji` })
+                }
               />
             </>
           ) : null}
@@ -76,7 +78,9 @@ export default function Home({ navigation: { navigate } }) {
               <Pill
                 subject={'tan'}
                 isAll={true}
-                handlePress={() => navigate('AllKanji', { strokes: true, title: `All Kanji` })}
+                handlePress={() =>
+                  navigate('AllKanji', { type: 'strokes', strokes: true, title: `All Kanji` })
+                }
               />
             </>
           ) : null}
@@ -100,7 +104,9 @@ export default function Home({ navigation: { navigate } }) {
               <Pill
                 subject={'tan'}
                 isAll={true}
-                handlePress={() => navigate('AllKanji', { grades: true, title: 'All Kanji' })}
+                handlePress={() =>
+                  navigate('AllKanji', { type: 'grade', grades: true, title: 'All Kanji' })
+                }
               />
             </>
           ) : null}
