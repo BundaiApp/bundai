@@ -18,7 +18,7 @@ import ADD_FLASHCARD from '../mutations/addFlashCard.mutation'
 
 const windowWidth = Dimensions.get('window').width
 
-export default function KanjiDetail({ route }) {
+export default function KanjiDetail({ navigation, route }) {
   const { wholeArr, itemIndex, isWord, isKana } = route.params
   //context
   const { auth } = useContext(AuthContext)
@@ -150,7 +150,7 @@ export default function KanjiDetail({ route }) {
             </View>
 
             <View style={styles.textHolder}>
-              <Text style={styles.header}>Similar Kanjis</Text>
+              <Text style={styles.header}>Similar Kanjis - {kanjiName} </Text>
             </View>
             <View style={styles.pillHolder}>
               {similars?.map((item, index) => (

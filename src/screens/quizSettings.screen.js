@@ -11,7 +11,7 @@ import { VerticalSpacer } from '../components/spacers'
 import { topics, words, kana } from '../util/constants'
 
 //data
-import Jlpt from '../util/jlptAll.json'
+import ProvideData from '../util/jlptArray'
 import Verbs from '../util/verbs.json'
 import Nouns from '../util/nouns.json'
 import Adjectives from '../util/adj.json'
@@ -46,9 +46,9 @@ export default function QuizSettings({ navigation: { navigate } }) {
   }
 
   const dataTypes = {
-    jlpt: Jlpt,
-    strokes: Jlpt,
-    grades: Jlpt,
+    jlpt: ProvideData('jlpt', 1, true),
+    strokes: ProvideData('strokes', 1, true),
+    grades: ProvideData('grade', 1, true),
     verbs: Verbs,
     nouns: Nouns,
     adjectives: Adjectives,
