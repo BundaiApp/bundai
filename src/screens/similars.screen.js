@@ -19,6 +19,7 @@ export default function SimilarScreen({ navigation: { navigate } }) {
       setFilteredData(Object.keys(SIMILAR_DATA))
     }
   }
+
   return (
     <SafeAreaView style={styles.container}>
       <TextInput

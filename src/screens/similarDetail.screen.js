@@ -1,62 +1,95 @@
-import React from 'react'
-import { View, Text, ScrollView, StyleSheet } from 'react-native'
+import React, { useEffect } from 'react'
+import { View, Text, TouchableOpacity, StyleSheet, Dimensions } from 'react-native'
 
-export default function SimilarDetails({ route }) {
-  const { kanji, meaning, furigana, kanjiArray } = route.params
+const { width } = Dimensions.get('window')
+const radius = width * 0.3 // Radius of the circular menu
+
+const calculatePosition = (index, totalItems) => {
+  const angle = ((2 * Math.PI) / totalItems) * index - Math.PI / 2
+  const x = radius * Math.cos(angle) + width / 2 - 50 // Centering on the screen
+  const y = radius * Math.sin(angle) + width / 2 - 50 // Centering on the screen
+  return { top: y, left: x }
+}
+
+const MenuItem = ({ kanji, meaning, furigana }) => (
+  <TouchableOpacity style={styles.menuItem}>
+    <Text style={styles.menuText}>{kanji}</Text>
+    <Text style={styles.menuText}>{meaning}</Text>
+    <Text style={styles.menuText}>{furigana}</Text>
+  </TouchableOpacity>
+)
+
+const CircularMenu = ({ menuData }) => {
+  const filteredItems = menuData.filter((item) => !item.isMain)
+  const mainMenu = menuData.find((item) => item.isMain)
 
   return (
     <View style={styles.container}>
-      <View style={styles.LeftColumn}>
-        <Text style={styles.mainKanji}>{kanji}</Text>
-        <Text style={styles.meaning}>{meaning}</Text>
-        <Text style={styles.meaning}>{furigana}</Text>
+      <View style={[styles.menuContainer, { height: width, width }]}>
+        {filteredItems.map((item, index) => {
+          const position = calculatePosition(index, filteredItems.length)
+          return (
+            <View key={item.id} style={[styles.menuItemContainer, position]}>
+              <MenuItem {...item} />
+            </View>
+          )
+        })}
+        <View style={styles.mainMenuItemContainer}>
+          <MenuItem {...mainMenu} />
+        </View>
       </View>
-      <ScrollView style={styles.column}>
-        {kanjiArray.map((item, index) => (
-          <View key={index} style={styles.item}>
-            <Text style={styles.kanji}>{item.kanji}</Text>
-            <Text style={styles.meaning}>{item.meaning}</Text>
-            <Text style={styles.meaning}>{item.furigana}</Text>
-          </View>
-        ))}
-      </ScrollView>
     </View>
   )
+}
+
+export default function SimilarDetails({ route }) {
+  const { kanji, meaning, furigana, kanjiArray } = route.params
+  const menuData = [
+    {
+      kanji: kanji,
+      meaning,
+      furigana,
+      isMain: true
+    },
+    ...kanjiArray
+  ]
+
+  return <CircularMenu menuData={menuData} radius={150} />
 }
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    flexDirection: 'row',
-    backgroundColor: 'ivory',
-    padding: 16
-  },
-  LeftColumn: {
-    flex: 1,
+    alignItems: 'center',
     justifyContent: 'center',
-    alignItems: 'center'
+    backgroundColor: '#ffc059'
   },
-  column: {
-    flex: 1
+  menuContainer: {
+    position: 'relative',
+    alignItems: 'center',
+    justifyContent: 'center'
   },
-  mainKanji: {
-    fontSize: 48,
-    fontWeight: 'bold',
-    marginBottom: 8 // Add space below the main Kanji
+  menuItemContainer: {
+    position: 'absolute',
+    width: 100,
+    height: 100
   },
-  item: {
-    marginBottom: 8 // Add space between items
+  mainMenuItemContainer: {
+    position: 'absolute',
+    width: 100,
+    height: 100,
+    alignItems: 'center',
+    justifyContent: 'center'
   },
-  kanji: {
-    fontSize: 24,
-    fontWeight: 'bold'
+  menuItem: {
+    width: 100,
+    height: 100,
+    borderRadius: 50,
+    backgroundColor: '#fff',
+    alignItems: 'center',
+    justifyContent: 'center'
   },
-  meaning: {
-    fontSize: 18,
-    color: 'gray'
-  },
-  reading: {
-    fontSize: 16,
-    color: 'darkgray'
+  menuText: {
+    textAlign: 'center'
   }
 })
