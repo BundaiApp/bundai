@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import { View, Text, TouchableOpacity, StyleSheet, Dimensions } from 'react-native'
 
 const { width } = Dimensions.get('window')
@@ -6,14 +6,14 @@ const radius = width * 0.3 // Radius of the circular menu
 
 const calculatePosition = (index, totalItems) => {
   const angle = ((2 * Math.PI) / totalItems) * index - Math.PI / 2
-  const x = radius * Math.cos(angle) + width / 2 - 50 // Centering on the screen
-  const y = radius * Math.sin(angle) + width / 2 - 50 // Centering on the screen
+  const x = radius * Math.cos(angle) + width / 2 - 25 // Centering on the screen
+  const y = radius * Math.sin(angle) + width / 2 - 25 // Centering on the screen
   return { top: y, left: x }
 }
 
 const MenuItem = ({ kanji, meaning, furigana }) => (
   <TouchableOpacity style={styles.menuItem}>
-    <Text style={styles.menuText}>{kanji}</Text>
+    <Text style={styles.menuTextKanji}>{kanji}</Text>
     <Text style={styles.menuText}>{meaning}</Text>
     <Text style={styles.menuText}>{furigana}</Text>
   </TouchableOpacity>
@@ -82,14 +82,20 @@ const styles = StyleSheet.create({
     justifyContent: 'center'
   },
   menuItem: {
-    width: 100,
-    height: 100,
-    borderRadius: 50,
+    width: 60,
+    height: 60,
+    borderRadius: 30,
     backgroundColor: '#fff',
     alignItems: 'center',
     justifyContent: 'center'
   },
   menuText: {
-    textAlign: 'center'
+    textAlign: 'center',
+    fontSize: 12
+  },
+  menuTextKanji: {
+    fontWeight: 'bold',
+    textAlign: 'center',
+    fontSize: 18
   }
 })
