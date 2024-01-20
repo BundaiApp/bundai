@@ -1,21 +1,55 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { View, Text, TouchableOpacity, StyleSheet, Dimensions } from 'react-native'
+
+import DeviceType from '../util/widthChecker'
 
 const { width } = Dimensions.get('window')
 const radius = width * 0.3 // Radius of the circular menu
 
+const calculatedWidth = {
+  mobile: 70,
+  tablet: 120,
+  desktop: 140
+}
+
+const calculatedBigFontSize = {
+  mobile: 18,
+  tablet: 22,
+  desktop: 28
+}
+
+const calculatedSmallFontSize = {
+  mobile: 12,
+  tablet: 18,
+  desktop: 20
+}
+
 const calculatePosition = (index, totalItems) => {
   const angle = ((2 * Math.PI) / totalItems) * index - Math.PI / 2
-  const x = radius * Math.cos(angle) + width / 2 - 25 // Centering on the screen
-  const y = radius * Math.sin(angle) + width / 2 - 25 // Centering on the screen
+  const x = radius * Math.cos(angle) + width / 2 - calculatedWidth[DeviceType()] / 2 // Centering on the screen
+  const y = radius * Math.sin(angle) + width / 2 - calculatedWidth[DeviceType()] / 2 // Centering on the screen
   return { top: y, left: x }
 }
 
 const MenuItem = ({ kanji, meaning, furigana }) => (
-  <TouchableOpacity style={styles.menuItem}>
-    <Text style={styles.menuTextKanji}>{kanji}</Text>
-    <Text style={styles.menuText}>{meaning}</Text>
-    <Text style={styles.menuText}>{furigana}</Text>
+  <TouchableOpacity
+    style={[
+      styles.menuItem,
+      {
+        width: calculatedWidth[DeviceType()],
+        height: calculatedWidth[DeviceType()],
+        borderRadius: calculatedWidth[DeviceType()] / 2
+      }
+    ]}>
+    <Text style={[styles.menuTextKanji, { fontSize: calculatedBigFontSize[DeviceType()] }]}>
+      {kanji}
+    </Text>
+    <Text style={[styles.menuText, { fontSize: calculatedSmallFontSize[DeviceType()] }]}>
+      {meaning}
+    </Text>
+    <Text style={[styles.menuText, { fontSize: calculatedSmallFontSize[DeviceType()] }]}>
+      {furigana}
+    </Text>
   </TouchableOpacity>
 )
 
@@ -54,6 +88,10 @@ export default function SimilarDetails({ route }) {
     ...kanjiArray
   ]
 
+  useEffect(() => {
+    console.log(width)
+  }, [])
+
   return <CircularMenu menuData={menuData} radius={150} />
 }
 
@@ -82,9 +120,6 @@ const styles = StyleSheet.create({
     justifyContent: 'center'
   },
   menuItem: {
-    width: 60,
-    height: 60,
-    borderRadius: 30,
     backgroundColor: '#fff',
     alignItems: 'center',
     justifyContent: 'center'
