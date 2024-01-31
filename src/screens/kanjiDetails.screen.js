@@ -91,7 +91,7 @@ export default function KanjiDetail({ navigation, route }) {
     }
   }
 
-  function Page({ kanjiName, meanings, kun, on, hiragana, similars }) {
+  function Page({ kanjiName, meanings, kun, on, hiragana, similars, usedIn }) {
     return (
       <ScrollView contentContainerStyle={styles.scrollviewBackDrop}>
         <View style={styles.sliderHolder}>
@@ -150,10 +150,24 @@ export default function KanjiDetail({ navigation, route }) {
             </View>
 
             <View style={styles.textHolder}>
-              <Text style={styles.header}>Similar Kanjis - {kanjiName} </Text>
+              <Text style={styles.header}>Similar Kanjis {kanjiName} </Text>
             </View>
             <View style={styles.pillHolder}>
               {similars?.map((item, index) => (
+                <KanjiBox
+                  key={item.kanji}
+                  index={index}
+                  kanji={item.kanji}
+                  meaning={item.meaning}
+                />
+              ))}
+            </View>
+
+            <View style={styles.textHolder}>
+              <Text style={styles.header}>Words made with {kanjiName} </Text>
+            </View>
+            <View style={styles.pillHolder}>
+              {usedIn?.map((item, index) => (
                 <KanjiBox
                   key={item.kanji}
                   index={index}

@@ -39,7 +39,8 @@ export default function SimilarScreen({ navigation: { navigate } }) {
                 kanji: item,
                 meaning: SIMILAR_DATA[item].meaning,
                 furigana: SIMILAR_DATA[item].furigana,
-                kanjiArray: SIMILAR_DATA[item].related_kanji
+                kanjiArray: SIMILAR_DATA[item].related_kanji,
+                usedIn: SIMILAR_DATA[item].usedIn
               })
             }>
             <Text style={styles.kanjiText}>{item}</Text>

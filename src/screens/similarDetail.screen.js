@@ -77,10 +77,10 @@ const CircularMenu = ({ menuData }) => {
 }
 
 export default function SimilarDetails({ route }) {
-  const { kanji, meaning, furigana, kanjiArray } = route.params
+  const { kanji, meaning, furigana, kanjiArray, usedIn } = route.params
   const menuData = [
     {
-      kanji: kanji,
+      kanji,
       meaning,
       furigana,
       isMain: true
@@ -88,11 +88,22 @@ export default function SimilarDetails({ route }) {
     ...kanjiArray
   ]
 
-  useEffect(() => {
-    console.log(width)
-  }, [])
+  const usedWords = [
+    {
+      kanji,
+      meaning,
+      furigana,
+      isMain: true
+    },
+    ...usedIn
+  ]
 
-  return <CircularMenu menuData={menuData} radius={150} />
+  return (
+    <View style={styles.container}>
+      <CircularMenu menuData={menuData} radius={150} />
+      <CircularMenu menuData={usedWords} radius={150} />
+    </View>
+  )
 }
 
 const styles = StyleSheet.create({
