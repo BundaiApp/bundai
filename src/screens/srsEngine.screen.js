@@ -90,15 +90,6 @@ const styles = StyleSheet.create({
     flexWrap: 'wrap',
     justifyContent: 'space-around'
   },
-  buttonContainer: {
-    flex: 1 / 5,
-    width: '100%',
-    paddingHorizontal: '5%',
-    justifyContent: 'center',
-    alignItems: 'center',
-    paddingBottom: 20
-  },
-
   kanjiText: {
     fontSize: 80,
     fontWeight: 'bold'

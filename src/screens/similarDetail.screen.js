@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React, { useState } from 'react'
 import { View, Text, TouchableOpacity, StyleSheet, Dimensions } from 'react-native'
 
 import DeviceType from '../util/widthChecker'
@@ -78,6 +78,8 @@ const CircularMenu = ({ menuData }) => {
 
 export default function SimilarDetails({ route }) {
   const { kanji, meaning, furigana, kanjiArray, usedIn } = route.params
+  const [isSelectd, setIsSelected] = useState('similar')
+
   const menuData = [
     {
       kanji,
@@ -100,8 +102,35 @@ export default function SimilarDetails({ route }) {
 
   return (
     <View style={styles.container}>
-      <CircularMenu menuData={menuData} radius={150} />
-      <CircularMenu menuData={usedWords} radius={150} />
+      <View style={styles.basicRow}>
+        <TouchableOpacity
+          style={[
+            styles.tabTextHolder,
+            {
+              borderBottomColor: isSelectd === 'similar' ? 'blue' : 'gray',
+              borderBottomWidth: isSelectd === 'similar' ? 3 : 0
+            }
+          ]}
+          onPress={() => setIsSelected('similar')}>
+          <Text style={styles.tabText}>Similar kanji</Text>
+        </TouchableOpacity>
+        <TouchableOpacity
+          style={[
+            styles.tabTextHolder,
+            {
+              borderBottomColor: isSelectd === 'used' ? 'blue' : 'gray',
+              borderBottomWidth: isSelectd === 'used' ? 3 : 0
+            }
+          ]}
+          onPress={() => setIsSelected('used')}>
+          <Text style={styles.tabText}>Used in</Text>
+        </TouchableOpacity>
+      </View>
+      {isSelectd === 'used' ? (
+        <CircularMenu menuData={usedWords} radius={150} />
+      ) : (
+        <CircularMenu menuData={menuData} radius={150} />
+      )}
     </View>
   )
 }
@@ -111,7 +140,7 @@ const styles = StyleSheet.create({
     flex: 1,
     alignItems: 'center',
     justifyContent: 'center',
-    backgroundColor: '#ffc059'
+    backgroundColor: 'ivory'
   },
   menuContainer: {
     position: 'relative',
@@ -143,5 +172,21 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
     textAlign: 'center',
     fontSize: 18
+  },
+  basicRow: {
+    width: '100%',
+    flexDirection: 'row',
+    justifyContent: 'space-evenly',
+    borderBottomWidth: 2,
+    borderBottomColor: 'gray'
+  },
+  tabTextHolder: {
+    width: '50%',
+    paddingVertical: '3%',
+    justifyContent: 'center',
+    alignItems: 'center'
+  },
+  tabText: {
+    fontFamily: 'Menlo'
   }
 })
