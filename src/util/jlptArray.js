@@ -86,14 +86,7 @@ let arr = [
     strokes: 2,
     grade: 3,
     freq: 1312,
-    meanings: [
-      'Street',
-      'Ward',
-      'Town',
-      'Counter For Guns, Tools, Leaves Or Cakes Of Something',
-      'Even Number',
-      '4th Calendar Sign'
-    ],
+    meanings: ['Street', 'Ward', 'Town'],
     on: ['ちょう', 'てい', 'ちん', 'とう', 'ち'],
     kun: ['ひのと'],
     jlpt: 1,

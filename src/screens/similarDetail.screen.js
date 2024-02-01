@@ -8,7 +8,7 @@ import {
 import DeviceType from '../util/widthChecker'
 
 const { height, width } = Dimensions.get('window')
-const radius = width * 0.3 // Radius of the circular menu
+const radius = width * 0.2 // Radius of the circular menu
 
 const calculatedWidth = {
   mobile: 70,
@@ -102,7 +102,38 @@ export default function SimilarDetails({ route }) {
     ...usedIn
   ]
 
-  return (
+  const KanjiBox = ({ kanji, meaning }) => (
+    <View style={styles.block}>
+      <Text style={styles.subtitleText}>{kanji}</Text>
+      <Text style={styles.subtitleText}>{meaning}</Text>
+    </View>
+  )
+
+  return DeviceType() === 'desktop' ? (
+    <View style={styles.containerForMac}>
+      <View style={styles.firstCol}>
+        <View style={styles.textHolder}>
+          <Text style={styles.header}>Words made with {kanji}</Text>
+        </View>
+        <View style={styles.pillHolder}>
+          {usedIn?.map((item, index) => (
+            <KanjiBox key={item.kanji} index={index} kanji={item.kanji} meaning={item.meaning} />
+          ))}
+        </View>
+      </View>
+
+      <View style={styles.firstCol}>
+        <View style={styles.textHolder}>
+          <Text style={styles.header}>Kanjis similar to {kanji}</Text>
+        </View>
+        <View style={styles.pillHolder}>
+          {kanjiArray?.map((item, index) => (
+            <KanjiBox key={item.kanji} index={index} kanji={item.kanji} meaning={item.meaning} />
+          ))}
+        </View>
+      </View>
+    </View>
+  ) : (
     <View style={styles.container}>
       <View style={styles.topContainer}>
         <View style={styles.basicRow}>
@@ -148,6 +179,13 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     backgroundColor: 'ivory'
   },
+  containerForMac: {
+    flex: 1,
+    flexDirection: 'row',
+    justifyContent: 'space-around',
+    backgroundColor: 'ivory'
+  },
+
   topContainer: {
     backgroundColor: 'pink'
   },
@@ -158,8 +196,7 @@ const styles = StyleSheet.create({
 
   menuContainer: {
     alignItems: 'center',
-    justifyContent: 'center',
-    backgroundColor: 'gold'
+    justifyContent: 'center'
   },
   menuItemContainer: {
     position: 'absolute',
@@ -201,5 +238,31 @@ const styles = StyleSheet.create({
   },
   tabText: {
     fontFamily: 'Menlo'
+  },
+
+  subtitleText: {
+    fontWeight: '400',
+    fontSize: 22,
+    fontFamily: 'menlo'
+  },
+  block: {
+    margin: 5,
+    padding: 10,
+    alignItems: 'center',
+    justifyContent: 'center',
+    borderWidth: 3,
+    borderColor: 'black',
+    backgroundColor: 'white',
+    borderRadius: 10
+  },
+  textHolder: {
+    paddingVertical: '1%',
+    backgroundColor: 'khaki'
+  },
+  header: {
+    fontWeight: '400',
+    fontSize: 30,
+    alignSelf: 'flex-start',
+    paddingLeft: '5%'
   }
 })
