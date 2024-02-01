@@ -1,9 +1,13 @@
 import React, { useState } from 'react'
 import { View, Text, TouchableOpacity, StyleSheet, Dimensions } from 'react-native'
+import {
+  widthPercentageToDP as wp,
+  heightPercentageToDP as hp
+} from 'react-native-responsive-screen'
 
 import DeviceType from '../util/widthChecker'
 
-const { width } = Dimensions.get('window')
+const { height, width } = Dimensions.get('window')
 const radius = width * 0.3 // Radius of the circular menu
 
 const calculatedWidth = {
@@ -58,19 +62,17 @@ const CircularMenu = ({ menuData }) => {
   const mainMenu = menuData.find((item) => item.isMain)
 
   return (
-    <View style={styles.container}>
-      <View style={[styles.menuContainer, { height: width, width }]}>
-        {filteredItems.map((item, index) => {
-          const position = calculatePosition(index, filteredItems.length)
-          return (
-            <View key={item.id} style={[styles.menuItemContainer, position]}>
-              <MenuItem {...item} />
-            </View>
-          )
-        })}
-        <View style={styles.mainMenuItemContainer}>
-          <MenuItem {...mainMenu} />
-        </View>
+    <View style={[styles.menuContainer, { height: width, width }]}>
+      {filteredItems.map((item, index) => {
+        const position = calculatePosition(index, filteredItems.length)
+        return (
+          <View key={item.id} style={[styles.menuItemContainer, position]}>
+            <MenuItem {...item} />
+          </View>
+        )
+      })}
+      <View style={styles.mainMenuItemContainer}>
+        <MenuItem {...mainMenu} />
       </View>
     </View>
   )
@@ -102,35 +104,40 @@ export default function SimilarDetails({ route }) {
 
   return (
     <View style={styles.container}>
-      <View style={styles.basicRow}>
-        <TouchableOpacity
-          style={[
-            styles.tabTextHolder,
-            {
-              borderBottomColor: isSelectd === 'similar' ? 'blue' : 'gray',
-              borderBottomWidth: isSelectd === 'similar' ? 3 : 0
-            }
-          ]}
-          onPress={() => setIsSelected('similar')}>
-          <Text style={styles.tabText}>Similar kanji</Text>
-        </TouchableOpacity>
-        <TouchableOpacity
-          style={[
-            styles.tabTextHolder,
-            {
-              borderBottomColor: isSelectd === 'used' ? 'blue' : 'gray',
-              borderBottomWidth: isSelectd === 'used' ? 3 : 0
-            }
-          ]}
-          onPress={() => setIsSelected('used')}>
-          <Text style={styles.tabText}>Used in</Text>
-        </TouchableOpacity>
+      <View style={styles.topContainer}>
+        <View style={styles.basicRow}>
+          <TouchableOpacity
+            style={[
+              styles.tabTextHolder,
+              {
+                borderBottomColor: isSelectd === 'similar' ? 'blue' : 'gray',
+                borderBottomWidth: isSelectd === 'similar' ? 3 : 0
+              }
+            ]}
+            onPress={() => setIsSelected('similar')}>
+            <Text style={styles.tabText}>Similar kanji</Text>
+          </TouchableOpacity>
+          <TouchableOpacity
+            style={[
+              styles.tabTextHolder,
+              {
+                borderBottomColor: isSelectd === 'used' ? 'blue' : 'gray',
+                borderBottomWidth: isSelectd === 'used' ? 3 : 0
+              }
+            ]}
+            onPress={() => setIsSelected('used')}>
+            <Text style={styles.tabText}>Used in</Text>
+          </TouchableOpacity>
+        </View>
       </View>
-      {isSelectd === 'used' ? (
-        <CircularMenu menuData={usedWords} radius={150} />
-      ) : (
-        <CircularMenu menuData={menuData} radius={150} />
-      )}
+
+      <View style={styles.bottomContainer}>
+        {isSelectd === 'used' ? (
+          <CircularMenu menuData={usedWords} radius={150} />
+        ) : (
+          <CircularMenu menuData={menuData} radius={150} />
+        )}
+      </View>
     </View>
   )
 }
@@ -138,14 +145,21 @@ export default function SimilarDetails({ route }) {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    alignItems: 'center',
     justifyContent: 'center',
     backgroundColor: 'ivory'
   },
+  topContainer: {
+    backgroundColor: 'pink'
+  },
+  bottomContainer: {
+    flex: 1,
+    backgroundColor: 'lightblue'
+  },
+
   menuContainer: {
-    position: 'relative',
     alignItems: 'center',
-    justifyContent: 'center'
+    justifyContent: 'center',
+    backgroundColor: 'gold'
   },
   menuItemContainer: {
     position: 'absolute',
@@ -153,7 +167,6 @@ const styles = StyleSheet.create({
     height: 100
   },
   mainMenuItemContainer: {
-    position: 'absolute',
     width: 100,
     height: 100,
     alignItems: 'center',

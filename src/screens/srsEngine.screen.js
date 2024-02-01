@@ -123,24 +123,3 @@ const styles = StyleSheet.create({
     alignItems: 'center'
   }
 })
-
-// {data[number].quizAnswers.map((item) => (
-//         <TouchableOpacity
-//           key={index}
-//           style={[
-//             styles.option,
-//             {
-//               backgroundColor: selectedAns
-//                 ? selectedAns === answer
-//                   ? data[number].meanings.includes(answer)
-//                     ? 'mediumaquamarine'
-//                     : 'salmon'
-//                   : 'white'
-//                 : 'white'
-//             }
-//           ]}
-//           onPress={() => moveToNextQuestion(answer)}>
-//           <Text style={styles.optionText}>{answer}</Text>
-//         </TouchableOpacity>
-//       ))}
-//
