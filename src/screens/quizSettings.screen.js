@@ -168,7 +168,7 @@ export default function QuizSettings({ navigation: { navigate } }) {
       <View style={styles.buttonsRow}>
         <TouchableOpacity
           style={[
-            styles.selectButton,
+            styles.selectSmallButton,
             { backgroundColor: quizType === 'meaning' ? 'thistle' : 'khaki' }
           ]}
           onPress={() => setQuizType('meaning')}>
@@ -176,11 +176,19 @@ export default function QuizSettings({ navigation: { navigate } }) {
         </TouchableOpacity>
         <TouchableOpacity
           style={[
-            styles.selectButton,
-            { backgroundColor: quizType === 'japanese' ? 'thistle' : 'khaki' }
+            styles.selectSmallButton,
+            { backgroundColor: quizType === 'part' ? 'thistle' : 'khaki' }
           ]}
-          onPress={() => setQuizType('japanese')}>
-          <Text style={styles.buttonText}>japanese</Text>
+          onPress={() => setQuizType('part')}>
+          <Text style={styles.buttonText}>on</Text>
+        </TouchableOpacity>
+        <TouchableOpacity
+          style={[
+            styles.selectSmallButton,
+            { backgroundColor: quizType === 'full' ? 'thistle' : 'khaki' }
+          ]}
+          onPress={() => setQuizType('full')}>
+          <Text style={styles.buttonText}>kun</Text>
         </TouchableOpacity>
       </View>
 
@@ -241,6 +249,13 @@ const styles = StyleSheet.create({
   },
   selectButton: {
     width: '45%',
+    borderRadius: 20,
+    backgroundColor: 'khaki',
+    justifyContent: 'center',
+    alignItems: 'center'
+  },
+  selectSmallButton: {
+    width: '30%',
     borderRadius: 20,
     backgroundColor: 'khaki',
     justifyContent: 'center',

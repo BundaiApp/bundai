@@ -63,7 +63,7 @@ export const QuizEngine = ({ navigation, route }) => {
                 <Text style={styles.optionText}>{answer}</Text>
               </TouchableOpacity>
             ))
-          : quizType === 'japanese'
+          : quizType === 'part'
           ? questionsArray[number].quizAnswersOn.map((answer, index) => (
               <TouchableOpacity
                 key={index}
@@ -83,7 +83,25 @@ export const QuizEngine = ({ navigation, route }) => {
                 <Text style={styles.optionText}>{answer}</Text>
               </TouchableOpacity>
             ))
-          : null}
+          : questionsArray[number].quizAnswersKun.map((answer, index) => (
+              <TouchableOpacity
+                key={index}
+                style={[
+                  styles.option,
+                  {
+                    backgroundColor: selectedAns
+                      ? selectedAns === answer
+                        ? questionsArray[number].kun.includes(answer)
+                          ? 'mediumaquamarine'
+                          : 'salmon'
+                        : 'white'
+                      : 'white'
+                  }
+                ]}
+                onPress={() => moveToNextQuestion(answer)}>
+                <Text style={styles.optionText}>{answer}</Text>
+              </TouchableOpacity>
+            ))}
       </View>
     </View>
   )
