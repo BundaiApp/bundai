@@ -172,7 +172,7 @@ export default function QuizSettings({ navigation: { navigate } }) {
             { backgroundColor: quizType === 'meaning' ? 'thistle' : 'khaki' }
           ]}
           onPress={() => setQuizType('meaning')}>
-          <Text style={styles.buttonText}>meaning</Text>
+          <Text style={styles.buttonTextSmall}>meaning</Text>
         </TouchableOpacity>
         <TouchableOpacity
           style={[
@@ -180,7 +180,7 @@ export default function QuizSettings({ navigation: { navigate } }) {
             { backgroundColor: quizType === 'part' ? 'thistle' : 'khaki' }
           ]}
           onPress={() => setQuizType('part')}>
-          <Text style={styles.buttonText}>on</Text>
+          <Text style={styles.buttonTextSmall}>on</Text>
         </TouchableOpacity>
         <TouchableOpacity
           style={[
@@ -188,7 +188,15 @@ export default function QuizSettings({ navigation: { navigate } }) {
             { backgroundColor: quizType === 'full' ? 'thistle' : 'khaki' }
           ]}
           onPress={() => setQuizType('full')}>
-          <Text style={styles.buttonText}>kun</Text>
+          <Text style={styles.buttonTextSmall}>kun</Text>
+        </TouchableOpacity>
+        <TouchableOpacity
+          style={[
+            styles.selectSmallButton,
+            { backgroundColor: quizType === 'write' ? 'thistle' : 'khaki' }
+          ]}
+          onPress={() => setQuizType('write')}>
+          <Text style={styles.buttonTextSmall}>write</Text>
         </TouchableOpacity>
       </View>
 
@@ -255,7 +263,7 @@ const styles = StyleSheet.create({
     alignItems: 'center'
   },
   selectSmallButton: {
-    width: '30%',
+    width: '20%',
     borderRadius: 20,
     backgroundColor: 'khaki',
     justifyContent: 'center',
@@ -264,6 +272,10 @@ const styles = StyleSheet.create({
   buttonText: {
     ...FONTS.bold18,
     marginVertical: 15
+  },
+  buttonTextSmall: {
+    ...FONTS.bold14,
+    marginVertical: 5
   },
   buttonContainer: {
     flex: 1,

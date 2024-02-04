@@ -1,5 +1,12 @@
 import React, { useState, useEffect } from 'react'
-import { View, Text, StyleSheet, TouchableOpacity, useWindowDimensions } from 'react-native'
+import {
+  View,
+  Text,
+  StyleSheet,
+  TouchableOpacity,
+  TextInput,
+  useWindowDimensions
+} from 'react-native'
 import ProgressBar from 'react-native-progress/Bar'
 
 //utils
@@ -12,6 +19,7 @@ export const QuizEngine = ({ navigation, route }) => {
   //state
   const [number, setNumber] = useState(0)
   const [selectedAns, setSelectedAns] = useState(null)
+  const [kana, setKana] = useState(null)
 
   const moveToNextQuestion = (answer) => {
     setSelectedAns(answer)
@@ -19,6 +27,21 @@ export const QuizEngine = ({ navigation, route }) => {
       if (number !== questionsArray.length - 1) {
         setNumber(number + 1)
         setSelectedAns(null)
+      } else {
+        navigation.popToTop()
+      }
+    }, 500) // Adjust the delay as needed
+  }
+
+  const writeToNextQuestion = () => {
+    if (questionsArray[number].on.includes(kana)) {
+      console.log('show animation')
+    }
+
+    setTimeout(() => {
+      if (number !== questionsArray.length - 1) {
+        setNumber(number + 1)
+        setKana(null)
       } else {
         navigation.popToTop()
       }
@@ -43,65 +66,81 @@ export const QuizEngine = ({ navigation, route }) => {
       </View>
 
       <View style={styles.bottomSection}>
-        {quizType === 'meaning'
-          ? questionsArray[number].quizAnswers.map((answer, index) => (
-              <TouchableOpacity
-                key={index}
-                style={[
-                  styles.option,
-                  {
-                    backgroundColor: selectedAns
-                      ? selectedAns === answer
-                        ? questionsArray[number].meanings.includes(answer)
-                          ? 'mediumaquamarine'
-                          : 'salmon'
-                        : 'white'
+        {quizType === 'write' ? (
+          <>
+            <TextInput
+              style={styles.textInput}
+              value={kana}
+              placeholder={'ex- sword'}
+              placeholderTextColor={'gray'}
+              autoCapitalize={'none'}
+              onChangeText={(text) => setKana(text)}
+            />
+            <TouchableOpacity style={styles.button} onPress={() => writeToNextQuestion()}>
+              <Text style={styles.buttonText}>answer</Text>
+            </TouchableOpacity>
+          </>
+        ) : quizType === 'meaning' ? (
+          questionsArray[number].quizAnswers.map((answer, index) => (
+            <TouchableOpacity
+              key={index}
+              style={[
+                styles.option,
+                {
+                  backgroundColor: selectedAns
+                    ? selectedAns === answer
+                      ? questionsArray[number].meanings.includes(answer)
+                        ? 'mediumaquamarine'
+                        : 'salmon'
                       : 'white'
-                  }
-                ]}
-                onPress={() => moveToNextQuestion(answer)}>
-                <Text style={styles.optionText}>{answer}</Text>
-              </TouchableOpacity>
-            ))
-          : quizType === 'part'
-          ? questionsArray[number].quizAnswersOn.map((answer, index) => (
-              <TouchableOpacity
-                key={index}
-                style={[
-                  styles.option,
-                  {
-                    backgroundColor: selectedAns
-                      ? selectedAns === answer
-                        ? questionsArray[number].on.includes(answer)
-                          ? 'mediumaquamarine'
-                          : 'salmon'
-                        : 'white'
+                    : 'white'
+                }
+              ]}
+              onPress={() => moveToNextQuestion(answer)}>
+              <Text style={styles.optionText}>{answer}</Text>
+            </TouchableOpacity>
+          ))
+        ) : quizType === 'part' ? (
+          questionsArray[number].quizAnswersOn.map((answer, index) => (
+            <TouchableOpacity
+              key={index}
+              style={[
+                styles.option,
+                {
+                  backgroundColor: selectedAns
+                    ? selectedAns === answer
+                      ? questionsArray[number].on.includes(answer)
+                        ? 'mediumaquamarine'
+                        : 'salmon'
                       : 'white'
-                  }
-                ]}
-                onPress={() => moveToNextQuestion(answer)}>
-                <Text style={styles.optionText}>{answer}</Text>
-              </TouchableOpacity>
-            ))
-          : questionsArray[number].quizAnswersKun.map((answer, index) => (
-              <TouchableOpacity
-                key={index}
-                style={[
-                  styles.option,
-                  {
-                    backgroundColor: selectedAns
-                      ? selectedAns === answer
-                        ? questionsArray[number].kun.includes(answer)
-                          ? 'mediumaquamarine'
-                          : 'salmon'
-                        : 'white'
+                    : 'white'
+                }
+              ]}
+              onPress={() => moveToNextQuestion(answer)}>
+              <Text style={styles.optionText}>{answer}</Text>
+            </TouchableOpacity>
+          ))
+        ) : (
+          questionsArray[number].quizAnswersKun.map((answer, index) => (
+            <TouchableOpacity
+              key={index}
+              style={[
+                styles.option,
+                {
+                  backgroundColor: selectedAns
+                    ? selectedAns === answer
+                      ? questionsArray[number].kun.includes(answer)
+                        ? 'mediumaquamarine'
+                        : 'salmon'
                       : 'white'
-                  }
-                ]}
-                onPress={() => moveToNextQuestion(answer)}>
-                <Text style={styles.optionText}>{answer}</Text>
-              </TouchableOpacity>
-            ))}
+                    : 'white'
+                }
+              ]}
+              onPress={() => moveToNextQuestion(answer)}>
+              <Text style={styles.optionText}>{answer}</Text>
+            </TouchableOpacity>
+          ))
+        )}
       </View>
     </View>
   )
@@ -166,5 +205,27 @@ const styles = StyleSheet.create({
     backgroundColor: 'khaki',
     justifyContent: 'center',
     alignItems: 'center'
+  },
+  textInput: {
+    width: '80%',
+    borderBottomWidth: 0.5,
+    borderBottomColor: 'gray',
+    color: 'gray',
+    ...FONTS.regular14,
+    paddingBottom: '1%',
+    height: '7%'
+  },
+  button: {
+    marginTop: '20%',
+    height: '20%',
+    width: '80%',
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: 'black',
+    borderRadius: 10,
+    backgroundColor: 'thistle'
+  },
+  buttonText: {
+    ...FONTS.bold21
   }
 })
