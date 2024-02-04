@@ -23,6 +23,7 @@ export default function QuizSettings({ navigation: { navigate } }) {
   const [type, setType] = useState('jlpt')
   const [level, setLevel] = useState(5)
   const [selected, setSelected] = useState([])
+  const [quizType, setQuizType] = useState('meaning')
 
   const checkIfSelected = (item) => {
     return selected.includes(item)
@@ -39,10 +40,11 @@ export default function QuizSettings({ navigation: { navigate } }) {
   const unSelectAll = () => {
     return setSelected([])
   }
+
   const checkThenNavigate = () => {
     return selected.length === 0
       ? alert('please select some kanji')
-      : navigate('QuizEngine', { questionsArray: selected })
+      : navigate('QuizEngine', { questionsArray: selected, quizType })
   }
 
   const dataTypes = {
@@ -158,6 +160,27 @@ export default function QuizSettings({ navigation: { navigate } }) {
         </TouchableOpacity>
         <TouchableOpacity style={styles.selectButton} onPress={unSelectAll}>
           <Text style={styles.buttonText}>unselect all</Text>
+        </TouchableOpacity>
+      </View>
+
+      <VerticalSpacer height={Platform.OS != 'ios' && Platform.OS != 'android' ? 3 : 10} />
+
+      <View style={styles.buttonsRow}>
+        <TouchableOpacity
+          style={[
+            styles.selectButton,
+            { backgroundColor: quizType === 'meaning' ? 'thistle' : 'khaki' }
+          ]}
+          onPress={() => setQuizType('meaning')}>
+          <Text style={styles.buttonText}>meaning</Text>
+        </TouchableOpacity>
+        <TouchableOpacity
+          style={[
+            styles.selectButton,
+            { backgroundColor: quizType === 'japanese' ? 'thistle' : 'khaki' }
+          ]}
+          onPress={() => setQuizType('japanese')}>
+          <Text style={styles.buttonText}>japanese</Text>
         </TouchableOpacity>
       </View>
 

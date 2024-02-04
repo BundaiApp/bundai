@@ -8,7 +8,7 @@ import { FONTS } from '../components/fonts'
 export const QuizEngine = ({ navigation, route }) => {
   const { width } = useWindowDimensions()
   //route params
-  const { questionsArray } = route.params
+  const { questionsArray, quizType } = route.params
   //state
   const [number, setNumber] = useState(0)
   const [selectedAns, setSelectedAns] = useState(null)
@@ -25,10 +25,6 @@ export const QuizEngine = ({ navigation, route }) => {
     }, 500) // Adjust the delay as needed
   }
 
-  useEffect(() => {
-    console.log(questionsArray.length, number)
-  }, [number])
-
   return (
     <View style={styles.container}>
       <View style={styles.barHolder}>
@@ -41,30 +37,53 @@ export const QuizEngine = ({ navigation, route }) => {
           animationType={'spring'}
         />
       </View>
+
       <View style={styles.topSection}>
         <Text style={styles.kanjiText}>{questionsArray[number].kanjiName}</Text>
       </View>
 
       <View style={styles.bottomSection}>
-        {questionsArray[number].quizAnswers.map((answer, index) => (
-          <TouchableOpacity
-            key={index}
-            style={[
-              styles.option,
-              {
-                backgroundColor: selectedAns
-                  ? selectedAns === answer
-                    ? questionsArray[number].meanings.includes(answer)
-                      ? 'mediumaquamarine'
-                      : 'salmon'
-                    : 'white'
-                  : 'white'
-              }
-            ]}
-            onPress={() => moveToNextQuestion(answer)}>
-            <Text style={styles.optionText}>{answer}</Text>
-          </TouchableOpacity>
-        ))}
+        {quizType === 'meaning'
+          ? questionsArray[number].quizAnswers.map((answer, index) => (
+              <TouchableOpacity
+                key={index}
+                style={[
+                  styles.option,
+                  {
+                    backgroundColor: selectedAns
+                      ? selectedAns === answer
+                        ? questionsArray[number].meanings.includes(answer)
+                          ? 'mediumaquamarine'
+                          : 'salmon'
+                        : 'white'
+                      : 'white'
+                  }
+                ]}
+                onPress={() => moveToNextQuestion(answer)}>
+                <Text style={styles.optionText}>{answer}</Text>
+              </TouchableOpacity>
+            ))
+          : quizType === 'japanese'
+          ? questionsArray[number].quizAnswersOn.map((answer, index) => (
+              <TouchableOpacity
+                key={index}
+                style={[
+                  styles.option,
+                  {
+                    backgroundColor: selectedAns
+                      ? selectedAns === answer
+                        ? questionsArray[number].on.includes(answer)
+                          ? 'mediumaquamarine'
+                          : 'salmon'
+                        : 'white'
+                      : 'white'
+                  }
+                ]}
+                onPress={() => moveToNextQuestion(answer)}>
+                <Text style={styles.optionText}>{answer}</Text>
+              </TouchableOpacity>
+            ))
+          : null}
       </View>
     </View>
   )
