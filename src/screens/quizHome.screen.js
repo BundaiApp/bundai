@@ -38,15 +38,15 @@ export const QuizHome = ({ navigation: { navigate } }) => {
 
   if (loading) {
     return (
-      <View style={styles.container}>
-        <ActivityIndicator size="large" color="green" />
+      <View style={styles.containerForLoading}>
+        <ActivityIndicator size="large" color="white" />
       </View>
     )
   }
 
   if (error) {
     return (
-      <View style={styles.container}>
+      <View style={styles.containerForLoading}>
         <ActivityIndicator size="large" color="red" />
       </View>
     )
@@ -96,6 +96,12 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: 'lightskyblue'
+  },
+  containerForLoading: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: 'thistle'
   },
   topSection: {
     flex: 1,
