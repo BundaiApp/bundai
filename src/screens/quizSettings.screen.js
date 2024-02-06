@@ -24,6 +24,7 @@ export default function QuizSettings({ navigation: { navigate } }) {
   const [level, setLevel] = useState(5)
   const [selected, setSelected] = useState([])
   const [quizType, setQuizType] = useState('meaning')
+  const [isWritten, setIsWritten] = useState(false)
 
   const checkIfSelected = (item) => {
     return selected.includes(item)
@@ -37,14 +38,10 @@ export default function QuizSettings({ navigation: { navigate } }) {
       : setSelected([...selected, ...dataTypes[type]])
   }
 
-  const unSelectAll = () => {
-    return setSelected([])
-  }
-
   const checkThenNavigate = () => {
     return selected.length === 0
       ? alert('please select some kanji')
-      : navigate('QuizEngine', { questionsArray: selected, quizType })
+      : navigate('QuizEngine', { questionsArray: selected, quizType, isWritten })
   }
 
   const dataTypes = {
@@ -158,8 +155,23 @@ export default function QuizSettings({ navigation: { navigate } }) {
         <TouchableOpacity style={styles.selectButton} onPress={selectAll}>
           <Text style={styles.buttonText}>select all</Text>
         </TouchableOpacity>
-        <TouchableOpacity style={styles.selectButton} onPress={unSelectAll}>
+        <TouchableOpacity style={styles.selectButton} onPress={() => setSelected([])}>
           <Text style={styles.buttonText}>unselect all</Text>
+        </TouchableOpacity>
+      </View>
+
+      <VerticalSpacer height={Platform.OS != 'ios' && Platform.OS != 'android' ? 3 : 10} />
+
+      <View style={styles.buttonsRow}>
+        <TouchableOpacity
+          style={[styles.selectButton, { backgroundColor: isWritten ? 'thistle' : 'khaki' }]}
+          onPress={() => setIsWritten(!isWritten)}>
+          <Text style={styles.buttonText}>Written</Text>
+        </TouchableOpacity>
+        <TouchableOpacity
+          style={[styles.selectButton, { backgroundColor: isWritten ? 'khaki' : 'thistle' }]}
+          onPress={() => setIsWritten(!isWritten)}>
+          <Text style={styles.buttonText}>MCQ</Text>
         </TouchableOpacity>
       </View>
 
@@ -189,14 +201,6 @@ export default function QuizSettings({ navigation: { navigate } }) {
           ]}
           onPress={() => setQuizType('full')}>
           <Text style={styles.buttonTextSmall}>kun</Text>
-        </TouchableOpacity>
-        <TouchableOpacity
-          style={[
-            styles.selectSmallButton,
-            { backgroundColor: quizType === 'write' ? 'thistle' : 'khaki' }
-          ]}
-          onPress={() => setQuizType('write')}>
-          <Text style={styles.buttonTextSmall}>write</Text>
         </TouchableOpacity>
       </View>
 
@@ -263,7 +267,7 @@ const styles = StyleSheet.create({
     alignItems: 'center'
   },
   selectSmallButton: {
-    width: '20%',
+    width: '25%',
     borderRadius: 20,
     backgroundColor: 'khaki',
     justifyContent: 'center',
@@ -271,11 +275,11 @@ const styles = StyleSheet.create({
   },
   buttonText: {
     ...FONTS.bold18,
-    marginVertical: 15
+    marginVertical: 10
   },
   buttonTextSmall: {
     ...FONTS.bold14,
-    marginVertical: 5
+    marginVertical: 10
   },
   buttonContainer: {
     flex: 1,

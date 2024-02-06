@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState } from 'react'
 import {
   View,
   Text,
@@ -7,19 +7,25 @@ import {
   TextInput,
   useWindowDimensions
 } from 'react-native'
-import ProgressBar from 'react-native-progress/Bar'
+import { toHiragana } from 'wanakana'
 
 //utils
 import { FONTS } from '../components/fonts'
 
 export const QuizEngine = ({ navigation, route }) => {
-  const { width } = useWindowDimensions()
   //route params
-  const { questionsArray, quizType } = route.params
+  const { questionsArray, quizType, isWritten } = route.params
   //state
   const [number, setNumber] = useState(0)
   const [selectedAns, setSelectedAns] = useState(null)
   const [kana, setKana] = useState(null)
+  const [textAnswer, setIsTextAnswer] = useState('static')
+
+  function returnColor() {
+    if (textAnswer === 'right') return 'lightgreen'
+    if (textAnswer === 'wrong') return 'red'
+    if (textAnswer === 'static') return 'thistle'
+  }
 
   const moveToNextQuestion = (answer) => {
     setSelectedAns(answer)
@@ -34,14 +40,11 @@ export const QuizEngine = ({ navigation, route }) => {
   }
 
   const writeToNextQuestion = () => {
-    if (questionsArray[number].on.includes(kana)) {
-      console.log('show animation')
-    }
-
     setTimeout(() => {
       if (number !== questionsArray.length - 1) {
         setNumber(number + 1)
         setKana(null)
+        setIsTextAnswer('static')
       } else {
         navigation.popToTop()
       }
@@ -50,33 +53,71 @@ export const QuizEngine = ({ navigation, route }) => {
 
   return (
     <View style={styles.container}>
-      <View style={styles.barHolder}>
-        <ProgressBar
-          progress={number / questionsArray.length}
-          color={'mediumaquamarine'}
-          borderColor={'silver'}
-          height={15}
-          width={width - 20}
-          animationType={'spring'}
-        />
-      </View>
+      <View style={styles.barHolder}></View>
 
       <View style={styles.topSection}>
         <Text style={styles.kanjiText}>{questionsArray[number].kanjiName}</Text>
       </View>
 
       <View style={styles.bottomSection}>
-        {quizType === 'write' ? (
+        {isWritten ? (
           <>
             <TextInput
               style={styles.textInput}
               value={kana}
-              placeholder={'ex- sword'}
+              placeholder={'write your answer here'}
               placeholderTextColor={'gray'}
               autoCapitalize={'none'}
-              onChangeText={(text) => setKana(text)}
+              onChangeText={(text) => {
+                if (quizType === 'on' || quizType === 'kun') {
+                  let ans = toHiragana(text)
+                  setKana(ans)
+                } else {
+                  setKana(text)
+                }
+              }}
             />
-            <TouchableOpacity style={styles.button} onPress={() => writeToNextQuestion()}>
+            <TouchableOpacity
+              style={[
+                styles.button,
+                {
+                  backgroundColor: returnColor()
+                }
+              ]}
+              onPress={() => {
+                if (quizType === 'on') {
+                  console.log('in on')
+                  if (questionsArray[number].on.includes(kana)) {
+                    // some indication that answer was right
+                    setIsTextAnswer('right')
+                  } else {
+                    setIsTextAnswer('wrong')
+                  }
+                }
+
+                if (quizType === 'kun') {
+                  console.log('in kun')
+                  if (questionsArray[number].kun.includes(kana)) {
+                    setIsTextAnswer('right')
+                  } else {
+                    setIsTextAnswer('wrong')
+                  }
+                }
+
+                if (quizType === 'meaning') {
+                  if (
+                    questionsArray[number].meanings.includes(
+                      kana[0].toUpperCase() + kana.substring(1)
+                    )
+                  ) {
+                    setIsTextAnswer('right')
+                  } else {
+                    setIsTextAnswer('wrong')
+                  }
+                }
+
+                writeToNextQuestion()
+              }}>
               <Text style={styles.buttonText}>answer</Text>
             </TouchableOpacity>
           </>
@@ -213,10 +254,10 @@ const styles = StyleSheet.create({
     color: 'gray',
     ...FONTS.regular14,
     paddingBottom: '1%',
-    height: '7%'
+    height: '15%'
   },
   button: {
-    marginTop: '20%',
+    marginTop: '10%',
     height: '20%',
     width: '80%',
     justifyContent: 'center',
