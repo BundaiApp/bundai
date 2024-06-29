@@ -53,7 +53,7 @@ export const QuizEngine = ({ navigation, route }) => {
 
   return (
     <View style={styles.container}>
-      <View style={styles.barHolder}></View>
+      <View style={styles.barHolder} />
 
       <View style={styles.topSection}>
         <Text style={styles.kanjiText}>{questionsArray[number].kanjiName}</Text>
@@ -115,7 +115,6 @@ export const QuizEngine = ({ navigation, route }) => {
                     setIsTextAnswer('wrong')
                   }
                 }
-
                 writeToNextQuestion()
               }}>
               <Text style={styles.buttonText}>answer</Text>

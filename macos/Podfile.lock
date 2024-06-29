@@ -1017,6 +1017,11 @@ PODS:
     - React-perflogger (= 0.73.1)
   - RNCAsyncStorage (1.21.0):
     - React-Core
+  - RNReanimated (3.6.1):
+    - glog
+    - RCT-Folly (= 2022.05.16.00)
+    - React-Core
+    - ReactCommon/turbomodule/core
   - SocketRocket (0.7.0)
   - Yoga (1.14.0)
 
@@ -1070,6 +1075,7 @@ DEPENDENCIES:
   - React-utils (from `../node_modules/react-native-macos/ReactCommon/react/utils`)
   - ReactCommon/turbomodule/core (from `../node_modules/react-native-macos/ReactCommon`)
   - "RNCAsyncStorage (from `../node_modules/@react-native-async-storage/async-storage`)"
+  - RNReanimated (from `../node_modules/react-native-reanimated`)
   - Yoga (from `../node_modules/react-native-macos/ReactCommon/yoga`)
 
 SPEC REPOS:
@@ -1172,6 +1178,8 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native-macos/ReactCommon"
   RNCAsyncStorage:
     :path: "../node_modules/@react-native-async-storage/async-storage"
+  RNReanimated:
+    :path: "../node_modules/react-native-reanimated"
   Yoga:
     :path: "../node_modules/react-native-macos/ReactCommon/yoga"
 
@@ -1224,9 +1232,10 @@ SPEC CHECKSUMS:
   React-utils: 9b1df4c7eb86a02607d61db23652559780031449
   ReactCommon: a148b33a9a482017bba50b068e0110dd85e12660
   RNCAsyncStorage: 618d03a5f52fbccb3d7010076bc54712844c18ef
+  RNReanimated: 57f436e7aa3d277fbfed05e003230b43428157c0
   SocketRocket: abac6f5de4d4d62d24e11868d7a2f427e0ef940d
   Yoga: 5f6d85ca2ac7a018ea0ff4c3da3e5514a3f2149c
 
 PODFILE CHECKSUM: 18b6083879c7a98a8edd2f3361f7e3def7861896
 
-COCOAPODS: 1.12.1
+COCOAPODS: 1.15.2

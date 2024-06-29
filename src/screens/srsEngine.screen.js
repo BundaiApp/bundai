@@ -20,6 +20,7 @@ export const SRS_Engine = ({ navigation, route }) => {
   const [calculateNextReviewDate] = useMutation(CALCULATE_NEXT_REVIEW_DATE)
 
   const moveToNextQuestion = async (answer) => {
+    console.log('hey now')
     setSelectedAns(answer)
     let rating = questionsArray[number].rating
     // mutation to increase kanjis next review date
