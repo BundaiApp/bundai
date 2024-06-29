@@ -79,7 +79,7 @@ export default function QuizSettings({ navigation: { navigate } }) {
     <View style={styles.container}>
       {/* #################  first container ################## */}
       {/* #################  first container ################## */}
-      <View style={styles.firstContainer}>
+      <View style={[styles.firstContainer, { flex: Platform.OS === 'ios' ? 1 : 2 }]}>
         {[...topics, ...words, ...kana].map((item) => (
           <TouchableOpacity
             style={[
@@ -96,55 +96,22 @@ export default function QuizSettings({ navigation: { navigate } }) {
       {/* #################  second container ################## */}
       {/* #################  second container ################## */}
 
-      {type === 'jlpt' || type === 'strokes' || type === 'grades' ? (
-        <View style={styles.secondContainer}>
-          <ScrollView>
-            {type === 'jlpt'
-              ? new Array(5)
-                  .fill(1)
-                  .map((i, index) => (
-                    <Pill
-                      key={index}
-                      index={index}
-                      level={5}
-                      subject={'JLPT'}
-                      isAll={false}
-                      isSelected={level === 5 - index}
-                      handlePress={() => setLevel(5 - index)}
-                    />
-                  ))
-              : null}
-            {type === 'strokes'
-              ? new Array(24)
-                  .fill(1)
-                  .map((i, index) => (
-                    <Pill
-                      key={index}
-                      index={index}
-                      subject={'Stroke'}
-                      isAll={false}
-                      isSelected={level === index + 1}
-                      handlePress={() => setLevel(index + 1)}
-                    />
-                  ))
-              : null}
-            {type === 'grades'
-              ? new Array(9)
-                  .fill(1)
-                  .map((i, index) => (
-                    <Pill
-                      key={index}
-                      index={index}
-                      subject={'Grade'}
-                      isAll={false}
-                      isSelected={level === index + 1}
-                      handlePress={() => setLevel(index + 1)}
-                    />
-                  ))
-              : null}
-          </ScrollView>
-        </View>
-      ) : null}
+      <View style={styles.secondContainer}>
+        <ScrollView horizontal>
+          {type === 'jlpt'
+            ? new Array(5).fill(1).map((i, index) => (
+                <TouchableOpacity
+                  style={styles.pillForSecondRow}
+                  onPress={() => setLevel(5 - index)}>
+                  <Text style={styles.buttonTextSmall}>
+                    {'N'}
+                    {5 - index}
+                  </Text>
+                </TouchableOpacity>
+              ))
+            : null}
+        </ScrollView>
+      </View>
 
       {/* #################  third container ################## */}
       {/* #################  third container ################## */}
@@ -172,7 +139,7 @@ export default function QuizSettings({ navigation: { navigate } }) {
         />
       </View>
 
-      <VerticalSpacer height={Platform.OS != 'ios' && Platform.OS != 'android' ? 3 : 10} />
+      <VerticalSpacer height={Platform.OS != 'ios' && Platform.OS != 'android' ? 2 : 10} />
 
       {/* #################  fourth container ################## */}
       {/* #################  fourth container ################## */}
@@ -189,8 +156,6 @@ export default function QuizSettings({ navigation: { navigate } }) {
           </TouchableOpacity>
         </View>
 
-        <VerticalSpacer height={Platform.OS != 'ios' && Platform.OS != 'android' ? 3 : 10} />
-
         <View style={styles.buttonsRow}>
           <TouchableOpacity
             style={[styles.selectButton, { backgroundColor: isWritten ? 'thistle' : 'khaki' }]}
@@ -203,8 +168,6 @@ export default function QuizSettings({ navigation: { navigate } }) {
             <Text style={styles.buttonText}>MCQ</Text>
           </TouchableOpacity>
         </View>
-
-        <VerticalSpacer height={Platform.OS != 'ios' && Platform.OS != 'android' ? 1 : 10} />
 
         <View style={styles.buttonsRow}>
           <TouchableOpacity
@@ -234,6 +197,8 @@ export default function QuizSettings({ navigation: { navigate } }) {
         </View>
       </View>
 
+      {/* ################# last container ################## */}
+      {/* ################# last container ################## */}
       <View style={styles.endContainer}>
         <TouchableOpacity style={styles.quizButton} onPress={checkThenNavigate}>
           <Text style={styles.buttonText}>Start Quiz</Text>
@@ -253,13 +218,11 @@ const styles = StyleSheet.create({
 
   // various flex values for sub containers
   firstContainer: {
-    flex: 1,
     flexDirection: 'row',
     flexWrap: 'wrap'
   },
   secondContainer: {
-    flex: 1,
-    flexDirection: 'row'
+    flex: 1
   },
   flatlist: {
     flex: 3,
@@ -346,6 +309,7 @@ const styles = StyleSheet.create({
   },
 
   pill: {
+    backgroundColor: 'red',
     borderRadius: 10,
     width: '18%',
     justifyContent: 'space-between',
@@ -362,5 +326,15 @@ const styles = StyleSheet.create({
   },
   text: {
     ...FONTS.bold24
+  },
+
+  pillForSecondRow: {
+    width: 100,
+    height: 40,
+    marginBottom: 5,
+    marginRight: 5,
+    backgroundColor: 'lightblue',
+    justifyContent: 'center',
+    alignItems: 'center'
   }
 })
