@@ -22,7 +22,7 @@ export const QuizEngine = ({ navigation, route }) => {
   const [textAnswer, setIsTextAnswer] = useState('static')
 
   function returnColor() {
-    if (textAnswer === 'right') return 'lightgreen'
+    if (textAnswer === 'right') return 'mediumaquamarine'
     if (textAnswer === 'wrong') return 'red'
     if (textAnswer === 'static') return 'thistle'
   }

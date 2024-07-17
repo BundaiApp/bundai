@@ -11,7 +11,11 @@ import { name as appName } from './app.json'
 //main app
 function App() {
   const host =
-    Platform.OS === 'ios' ? 'http://localhost:3000/graphql' : 'http://10.0.2.2:3000/graphql'
+    Platform.OS === 'ios'
+      ? 'http://localhost:3000/graphql'
+      : Platform.OS === 'android'
+      ? 'http://10.0.2.2:3000/graphql'
+      : 'http://localhost:3000/graphql'
 
   const client = new ApolloClient({
     uri: host,
