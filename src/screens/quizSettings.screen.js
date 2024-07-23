@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useContext } from 'react'
 import { View, Text, TouchableOpacity, StyleSheet, FlatList, ScrollView } from 'react-native'
 import { widthPercentageToDP as wp } from 'react-native-responsive-screen'
 import { useMutation } from '@apollo/client'
@@ -10,6 +10,7 @@ import { VerticalSpacer } from '../components/spacers'
 
 //utils
 import { topics, words, kana } from '../util/constants'
+import AuthContext from '../contexts/authContext.js'
 
 //data
 import ProvideData from '../util/jlptArray'
@@ -30,17 +31,22 @@ export default function QuizSettings({ navigation: { navigate } }) {
   const [quizType, setQuizType] = useState('meaning')
   const [isWritten, setIsWritten] = useState(false)
 
+  //context
+  const { auth } = useContext(AuthContext)
+
   //mutation
-  const [addBulk] = useMutation(ADD_BULK_FLASHCARD)
+  const [addBulk, { loading }] = useMutation(ADD_BULK_FLASHCARD)
 
   async function addCardsInBulk() {
-    console.log(selected)
-
-    //let modifiedSelected = selected.map(item => ({ hiragana:  }))
+    let modifiedSelected = await selected.map((item) => ({
+      kanjiName: item.kanjiName,
+      meanings: item.meanings,
+      quizAnswers: item.quizAnswers
+    }))
     await addBulk({
       variables: {
         userId: auth.userId,
-        kanjis: selected
+        kanjis: modifiedSelected
       }
     })
   }
@@ -101,12 +107,33 @@ export default function QuizSettings({ navigation: { navigate } }) {
           {type === 'jlpt'
             ? new Array(5).fill(1).map((i, index) => (
                 <TouchableOpacity
+                  key={`jlpt${5 - index}`}
                   style={styles.pillForSecondRow}
                   onPress={() => setLevel(5 - index)}>
                   <Text style={styles.buttonTextSmall}>
                     {'N'}
                     {5 - index}
                   </Text>
+                </TouchableOpacity>
+              ))
+            : null}
+          {type === 'grades'
+            ? new Array(9).fill(1).map((i, index) => (
+                <TouchableOpacity
+                  key={`grades${index + 1}`}
+                  style={styles.pillForSecondRow}
+                  onPress={() => setLevel(index + 1)}>
+                  <Text style={styles.buttonTextSmall}>{index + 1}</Text>
+                </TouchableOpacity>
+              ))
+            : null}
+          {type === 'strokes'
+            ? new Array(24).fill(1).map((i, index) => (
+                <TouchableOpacity
+                  key={`stroke${index + 1}`}
+                  style={styles.pillForSecondRow}
+                  onPress={() => setLevel(index + 1)}>
+                  <Text style={styles.buttonTextSmall}>{index + 1}</Text>
                 </TouchableOpacity>
               ))
             : null}
@@ -146,14 +173,20 @@ export default function QuizSettings({ navigation: { navigate } }) {
       <View style={styles.selectionRow}>
         <View style={styles.buttonsRow}>
           <TouchableOpacity style={styles.selectButtonTopRow} onPress={selectAll}>
-            <Text style={styles.buttonTextTopRow}>select</Text>
+            <Text style={styles.buttonTextTopRow}>select all</Text>
           </TouchableOpacity>
           <TouchableOpacity style={styles.selectButtonTopRow} onPress={() => setSelected([])}>
             <Text style={styles.buttonTextTopRow}>unselect</Text>
           </TouchableOpacity>
-          <TouchableOpacity style={styles.selectButtonTopRow} onPress={() => addCardsInBulk()}>
-            <Text style={styles.buttonTextTopRow}>save</Text>
-          </TouchableOpacity>
+          {loading ? (
+            <View style={styles.selectButtonTopRow}>
+              <Text style={styles.buttonTextTopRow}>loading...</Text>
+            </View>
+          ) : (
+            <TouchableOpacity style={styles.selectButtonTopRow} onPress={() => addCardsInBulk()}>
+              <Text style={styles.buttonTextTopRow}>save all</Text>
+            </TouchableOpacity>
+          )}
         </View>
 
         <View style={styles.buttonsRow}>

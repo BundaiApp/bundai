@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import {
   View,
   Text,
@@ -51,6 +51,10 @@ export const QuizEngine = ({ navigation, route }) => {
     }, 500) // Adjust the delay as needed
   }
 
+  useEffect(() => {
+    console.log('quizType: ', quizType, 'isWritten', isWritten)
+  }, [])
+
   return (
     <View style={styles.container}>
       <View style={styles.barHolder} />
@@ -69,7 +73,7 @@ export const QuizEngine = ({ navigation, route }) => {
               placeholderTextColor={'gray'}
               autoCapitalize={'none'}
               onChangeText={(text) => {
-                if (quizType === 'on' || quizType === 'kun') {
+                if (quizType === 'part' || quizType === 'full') {
                   let ans = toHiragana(text)
                   setKana(ans)
                 } else {
@@ -85,8 +89,9 @@ export const QuizEngine = ({ navigation, route }) => {
                 }
               ]}
               onPress={() => {
-                if (quizType === 'on') {
+                if (quizType === 'part') {
                   console.log('in on')
+                  console.log(questionsArray[number])
                   if (questionsArray[number].on.includes(kana)) {
                     // some indication that answer was right
                     setIsTextAnswer('right')
@@ -95,8 +100,9 @@ export const QuizEngine = ({ navigation, route }) => {
                   }
                 }
 
-                if (quizType === 'kun') {
+                if (quizType === 'full') {
                   console.log('in kun')
+                  console.log(questionsArray[number])
                   if (questionsArray[number].kun.includes(kana)) {
                     setIsTextAnswer('right')
                   } else {

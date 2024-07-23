@@ -203,7 +203,6 @@ function TabNav() {
       />
       <Tab.Screen name="Similars" component={SimilarStack} />
       <Tab.Screen name="Settings" component={SettingScreen} />
-      <Tab.Screen name="Test" component={TestScreen} />
     </Tab.Navigator>
   )
 }

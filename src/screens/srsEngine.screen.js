@@ -22,15 +22,14 @@ export const SRS_Engine = ({ navigation, route }) => {
   const moveToNextQuestion = async (answer) => {
     setSelectedAns(answer)
     let rating = questionsArray[number].rating
-    // mutation to increase kanjis next review date
-    await calculateNextReviewDate({
+    // mutation to change kanjis next review date
+    let x = await calculateNextReviewDate({
       variables: {
         userId: auth.userId,
         kanjiName: questionsArray[number].kanjiName,
         rating: questionsArray[number].meanings.includes(answer) ? rating++ : rating--
       }
     })
-
     setTimeout(() => {
       if (number !== questionsArray.length - 1) {
         setNumber(number + 1)

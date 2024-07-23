@@ -9,6 +9,8 @@ import ProvideData from '../util/jlptArray'
 export default function SettingScreen() {
   //context
   const { setAuth } = useContext(AuthContext)
+  const [level, setLevel] = useState(1)
+  const [jlptArrayNumber, setJlptNumber] = useState(0)
   const [arr, setArr] = useState([])
 
   async function logout() {
@@ -51,9 +53,10 @@ export default function SettingScreen() {
     })
   }
 
-  function fetchData() {
-    let data = ProvideData('grade', 1)
-    console.log(data.length)
+  function fetchData(levelData) {
+    let data = ProvideData('jlpt', levelData)
+    setLevel(level)
+    setJlptNumber(data.length)
   }
 
   return (
@@ -70,9 +73,26 @@ export default function SettingScreen() {
         <Text style={styles.text}>test notification</Text>
       </TouchableOpacity>
 
-      <TouchableOpacity onPress={() => fetchData()}>
-        <Text style={styles.text}>Get Data</Text>
+      <TouchableOpacity onPress={() => fetchData(1)}>
+        <Text style={styles.text}>1</Text>
       </TouchableOpacity>
+      <TouchableOpacity onPress={() => fetchData(2)}>
+        <Text style={styles.text}>2</Text>
+      </TouchableOpacity>
+
+      <TouchableOpacity onPress={() => fetchData(3)}>
+        <Text style={styles.text}>3</Text>
+      </TouchableOpacity>
+
+      <TouchableOpacity onPress={() => fetchData(4)}>
+        <Text style={styles.text}>4</Text>
+      </TouchableOpacity>
+
+      <TouchableOpacity onPress={() => fetchData(5)}>
+        <Text style={styles.text}>5</Text>
+      </TouchableOpacity>
+
+      <Text style={styles.jlptLevel}> {jlptArrayNumber}</Text>
     </View>
   )
 }
@@ -83,5 +103,10 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
     backgroundColor: 'lightyellow'
+  },
+  jlptLevel: {
+    fontSize: 50,
+    fontWeight: 'bold',
+    color: 'green'
   }
 })

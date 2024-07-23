@@ -8,7 +8,7 @@ import {
 import DeviceType from '../util/widthChecker'
 
 const { height, width } = Dimensions.get('window')
-const radius = width * 0.2 // Radius of the circular menu
+const radius = width * 0.3 // Radius of the circular menu
 
 const calculatedWidth = {
   mobile: 70,
@@ -60,7 +60,6 @@ const MenuItem = ({ kanji, meaning, furigana }) => (
 const CircularMenu = ({ menuData }) => {
   const filteredItems = menuData.filter((item) => !item.isMain)
   const mainMenu = menuData.find((item) => item.isMain)
-
   return (
     <View style={[styles.menuContainer, { height: width, width }]}>
       {filteredItems.map((item, index) => {
@@ -146,7 +145,9 @@ export default function SimilarDetails({ route }) {
               }
             ]}
             onPress={() => setIsSelected('similar')}>
-            <Text style={styles.tabText}>Similar kanji</Text>
+            <Text style={[styles.tabText, { fontSize: calculatedBigFontSize[DeviceType()] }]}>
+              Similar kanji
+            </Text>
           </TouchableOpacity>
           <TouchableOpacity
             style={[
@@ -157,7 +158,9 @@ export default function SimilarDetails({ route }) {
               }
             ]}
             onPress={() => setIsSelected('used')}>
-            <Text style={styles.tabText}>Used in</Text>
+            <Text style={[styles.tabText, { fontSize: calculatedBigFontSize[DeviceType()] }]}>
+              Used in
+            </Text>
           </TouchableOpacity>
         </View>
       </View>
