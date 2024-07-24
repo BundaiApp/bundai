@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { SafeAreaView, Text, TextInput, FlatList, TouchableOpacity, StyleSheet } from 'react-native'
 import { heightPercentageToDP as hp } from 'react-native-responsive-screen'
+import { toHiragana } from 'wanakana'
 
 import SIMILAR_DATA from '../util/similar.json'
 
@@ -9,10 +10,11 @@ export default function SimilarScreen({ navigation: { navigate } }) {
   const [filteredData, setFilteredData] = useState(Object.keys(SIMILAR_DATA))
 
   const handleSearch = (text) => {
-    setSearch(text)
-    if (text) {
+    let transformedText = toHiragana(text)
+    setSearch(transformedText)
+    if (transformedText) {
       const newData = Object.keys(SIMILAR_DATA).filter((item) =>
-        item.toLowerCase().includes(text.toLowerCase())
+        item.toLowerCase().includes(transformedText.toLowerCase())
       )
       setFilteredData(newData)
     } else {

@@ -72,6 +72,22 @@ export const QuizEngine = ({ navigation, route }) => {
               placeholder={'write your answer here'}
               placeholderTextColor={'gray'}
               autoCapitalize={'none'}
+              onKeyPress={(e) => {
+                console.log(e.nativeEvent.key)
+                console.log(e.nativeEvent)
+                if (e.nativeEvent.key == 'Enter') {
+                  console.log('enter pressed')
+                  //writeToNextQuestion()
+                }
+                if (e.nativeEvent.key == 'Tab') {
+                  console.log('Tab pressed')
+                  //writeToNextQuestion()
+                }
+                if (e.nativeEvent.key == 'Ctrl') {
+                  console.log('Ctrl pressed')
+                  //writeToNextQuestion()
+                }
+              }}
               onChangeText={(text) => {
                 if (quizType === 'part' || quizType === 'full') {
                   let ans = toHiragana(text)
