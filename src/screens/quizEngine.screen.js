@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState, useEffect, useRef } from 'react'
 import {
   View,
   Text,
@@ -20,6 +20,8 @@ export const QuizEngine = ({ navigation, route }) => {
   const [selectedAns, setSelectedAns] = useState(null)
   const [kana, setKana] = useState(null)
   const [textAnswer, setIsTextAnswer] = useState('static')
+
+  const textIn = useRef(null)
 
   function returnColor() {
     if (textAnswer === 'right') return 'mediumaquamarine'
@@ -51,10 +53,6 @@ export const QuizEngine = ({ navigation, route }) => {
     }, 500) // Adjust the delay as needed
   }
 
-  useEffect(() => {
-    console.log('quizType: ', quizType, 'isWritten', isWritten)
-  }, [])
-
   return (
     <View style={styles.container}>
       <View style={styles.barHolder} />
@@ -72,22 +70,9 @@ export const QuizEngine = ({ navigation, route }) => {
               placeholder={'write your answer here'}
               placeholderTextColor={'gray'}
               autoCapitalize={'none'}
-              onKeyPress={(e) => {
-                console.log(e.nativeEvent.key)
-                console.log(e.nativeEvent)
-                if (e.nativeEvent.key == 'Enter') {
-                  console.log('enter pressed')
-                  //writeToNextQuestion()
-                }
-                if (e.nativeEvent.key == 'Tab') {
-                  console.log('Tab pressed')
-                  //writeToNextQuestion()
-                }
-                if (e.nativeEvent.key == 'Ctrl') {
-                  console.log('Ctrl pressed')
-                  //writeToNextQuestion()
-                }
-              }}
+              blurOnSubmit={false}
+              autoFocus={true}
+              ref={textIn}
               onChangeText={(text) => {
                 if (quizType === 'part' || quizType === 'full') {
                   let ans = toHiragana(text)
@@ -95,6 +80,44 @@ export const QuizEngine = ({ navigation, route }) => {
                 } else {
                   setKana(text)
                 }
+              }}
+              onSubmitEditing={(event) => {
+                if (quizType === 'part') {
+                  console.log('in on')
+                  console.log(questionsArray[number])
+                  if (questionsArray[number].on.includes(kana)) {
+                    // some indication that answer was right
+                    setIsTextAnswer('right')
+                  } else {
+                    setIsTextAnswer('wrong')
+                  }
+                }
+
+                if (quizType === 'full') {
+                  console.log('in kun')
+                  console.log(questionsArray[number])
+                  if (questionsArray[number].kun.includes(kana)) {
+                    setIsTextAnswer('right')
+                  } else {
+                    setIsTextAnswer('wrong')
+                  }
+                }
+
+                if (quizType === 'meaning') {
+                  if (
+                    questionsArray[number].meanings.includes(
+                      kana[0].toUpperCase() + kana.substring(1)
+                    )
+                  ) {
+                    setIsTextAnswer('right')
+                  } else {
+                    setIsTextAnswer('wrong')
+                  }
+                }
+                writeToNextQuestion()
+                setTimeout(() => {
+                  textIn.current.focus()
+                }, 1)
               }}
             />
             <TouchableOpacity
