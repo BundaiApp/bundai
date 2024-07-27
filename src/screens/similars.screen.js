@@ -10,11 +10,11 @@ export default function SimilarScreen({ navigation: { navigate } }) {
   const [filteredData, setFilteredData] = useState(Object.keys(SIMILAR_DATA))
 
   const handleSearch = (text) => {
-    let transformedText = toHiragana(text)
-    setSearch(transformedText)
-    if (transformedText) {
+    //let transformedText = toHiragana(text)
+    setSearch(text)
+    if (text) {
       const newData = Object.keys(SIMILAR_DATA).filter((item) =>
-        item.toLowerCase().includes(transformedText.toLowerCase())
+        item.toLowerCase().includes(text.toLowerCase())
       )
       setFilteredData(newData)
     } else {

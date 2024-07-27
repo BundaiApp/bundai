@@ -42,6 +42,14 @@ export default function KanjiDetail({ navigation, route }) {
     </View>
   )
 
+  const KanjiBoxForUsedIn = ({ kanji, meanings, furigana }) => (
+    <View style={styles.block}>
+      <Text style={styles.subtitleText}>{kanji}</Text>
+      <Text style={styles.subtitleTextSmall}>{furigana}</Text>
+      <Text style={styles.subtitleTextSmall}>{meanings}</Text>
+    </View>
+  )
+
   async function addCard({ kanjiName, hiragana, on, meanings, quizAnswers }) {
     await addFlashCard({
       variables: {
@@ -168,11 +176,12 @@ export default function KanjiDetail({ navigation, route }) {
             </View>
             <View style={styles.pillHolder}>
               {usedIn?.map((item, index) => (
-                <KanjiBox
+                <KanjiBoxForUsedIn
                   key={item.kanji}
                   index={index}
                   kanji={item.kanji}
-                  meaning={item.meaning}
+                  furigana={item.furigana}
+                  meanings={item.meanings}
                 />
               ))}
             </View>
@@ -257,6 +266,11 @@ const styles = StyleSheet.create({
   subtitleText: {
     fontWeight: '400',
     fontSize: 22,
+    fontFamily: 'menlo'
+  },
+  subtitleTextSmall: {
+    fontWeight: '400',
+    fontSize: 14,
     fontFamily: 'menlo'
   },
   block: {
