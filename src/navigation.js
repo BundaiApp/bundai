@@ -31,6 +31,8 @@ import SimilarScreen from './screens/similars.screen'
 import SimilarDetailScreen from './screens/similarDetail.screen'
 //TestScreen
 import TestScreen from './screens/test.screen.js'
+//Game Screen
+import GameScreen from './screens/game.screen.js'
 //utils
 import AuthContext from './contexts/authContext'
 
@@ -202,6 +204,7 @@ function TabNav() {
         }}
       />
       <Tab.Screen name="Similars" component={SimilarStack} />
+      <Tab.Screen name="Play" component={GameScreen} />
       <Tab.Screen name="Settings" component={SettingScreen} />
     </Tab.Navigator>
   )

@@ -104,7 +104,9 @@ let arr = [
         furigana: 'かくいつ',
         meanings: 'uniformity'
       }
-    ]
+    ],
+    quizAnswersOn: ['いち', 'し', 'こう', 'りん'],
+    quizAnswersKun: ['てすり', 'えら.ぶ', 'ひと-', 'いもうと']
   },
   {
     kanjiName: '二',
@@ -225,7 +227,9 @@ let arr = [
         furigana: 'ゆいいつふじ',
         meanings: 'one and only'
       }
-    ]
+    ],
+    quizAnswersOn: ['に', 'しゅ', 'しょう', 'えん'],
+    quizAnswersKun: ['の.べる', 'むし', 'とも', 'ふた']
   },
   {
     kanjiName: '九',
@@ -340,7 +344,9 @@ let arr = [
         furigana: 'だいく',
         meanings: 'ninth'
       }
-    ]
+    ],
+    quizAnswersOn: ['しん', 'がく', 'きゅう', 'い'],
+    quizAnswersKun: ['め.ぐる', 'はし', 'ここの', 'ほ.める']
   },
   {
     kanjiName: '七',
@@ -450,7 +456,9 @@ let arr = [
         furigana: 'せしうむひゃくさんじゅうしち',
         meanings: 'cesium-137'
       }
-    ]
+    ],
+    quizAnswersOn: ['かく', 'せい', 'しち', 'ねい'],
+    quizAnswersKun: ['すぎ', 'たに', 'なな', 'ひら.く']
   },
   {
     kanjiName: '人',
@@ -565,7 +573,9 @@ let arr = [
         furigana: 'だいにん',
         meanings: 'substitute'
       }
-    ]
+    ],
+    quizAnswersOn: ['えき', 'じん', 'かん', 'とう'],
+    quizAnswersKun: ['ひと', 'おとこ', '', 'は.く']
   },
   {
     kanjiName: '入',
@@ -670,7 +680,9 @@ let arr = [
         furigana: 'にゅうぎょ',
         meanings: "emperor's return to the imperial palace"
       }
-    ]
+    ],
+    quizAnswersOn: ['てい', 'にゅう', 'ばい', 'せい'],
+    quizAnswersKun: ['おさ.める', 'いもうと', 'い.る', '']
   },
   {
     kanjiName: '八',
@@ -780,7 +792,9 @@ let arr = [
         furigana: 'いちはつ',
         meanings: 'wall iris'
       }
-    ]
+    ],
+    quizAnswersOn: ['はち', 'とう', 'しょう', 'めん'],
+    quizAnswersKun: ['や', 'きた.える', 'わら', 'さかずき']
   },
   {
     kanjiName: '十',
@@ -905,7 +919,9 @@ let arr = [
         furigana: 'じっかい',
         meanings: 'ten times'
       }
-    ]
+    ],
+    quizAnswersOn: ['う', 'き', 'そう', 'じゅう'],
+    quizAnswersKun: ['ふ.く', 'きよ.い', 'とお', 'やす.む']
   },
   {
     kanjiName: '三',
@@ -1015,7 +1031,9 @@ let arr = [
         furigana: 'しそう',
         meanings: 'one four-of-a-kind and one three-of-a-kind in a dealt hand'
       }
-    ]
+    ],
+    quizAnswersOn: ['さん', 'しん', 'ちゅう', 'けつ'],
+    quizAnswersKun: ['おく.る', 'かえ.る', 'しか', 'み']
   },
   {
     kanjiName: '上',
@@ -1231,7 +1249,9 @@ let arr = [
         furigana: 'しゃんたん',
         meanings: 'top-grade Chinese soup stock'
       }
-    ]
+    ],
+    quizAnswersOn: ['ぼう', 'まん', 'じょう', 'さい'],
+    quizAnswersKun: ['や.める', 'ひら.く', 'ひく.い', 'うえ']
   },
   {
     kanjiName: '下',
@@ -1439,7 +1459,9 @@ let arr = [
         furigana: 'たいげ',
         meanings: 'leukorrhoea'
       }
-    ]
+    ],
+    quizAnswersOn: ['ちん', 'せい', 'せん', 'か'],
+    quizAnswersKun: ['し.ぬ', 'かた', 'した', 'ふね']
   },
   {
     kanjiName: '大',
@@ -1539,7 +1561,9 @@ let arr = [
         furigana: 'おんたい',
         meanings: 'boss'
       }
-    ]
+    ],
+    quizAnswersOn: ['だい', 'じ', 'こう', 'しょう'],
+    quizAnswersKun: ['もと', 'わか.れる', 'おお-', 'みなもと']
   },
   {
     kanjiName: '女',
@@ -1684,7 +1708,9 @@ let arr = [
         furigana: 'じょかん',
         meanings: 'court lady'
       }
-    ]
+    ],
+    quizAnswersOn: ['りん', 'はん', 'じょ', 'ぐう'],
+    quizAnswersKun: ['おんな', 'しりぞ.ける', 'ぬす.む', 'つぶ']
   },
   {
     kanjiName: '山',
@@ -1799,7 +1825,9 @@ let arr = [
         furigana: 'しゅみせん',
         meanings: 'Mount Sumeru (believed to be the centre of the Buddhist world)'
       }
-    ]
+    ],
+    quizAnswersOn: ['てい', 'ふ', 'じょう', 'さん'],
+    quizAnswersKun: ['たす.ける', 'ひら.く', 'しの.ぶ', 'やま']
   },
   {
     kanjiName: '川',
@@ -1894,7 +1922,9 @@ let arr = [
         furigana: 'しせん',
         meanings: 'Sichuan (China)'
       }
-    ]
+    ],
+    quizAnswersOn: ['きょう', 'せん', 'りん', 'さい'],
+    quizAnswersKun: ['かわ', 'の.せる', '', 'さかずき']
   },
   {
     kanjiName: '土',
@@ -2009,7 +2039,9 @@ let arr = [
         furigana: 'そっと',
         meanings: 'ends of the earth'
       }
-    ]
+    ],
+    quizAnswersOn: ['しゅつ', 'じょう', 'ど', 'たん'],
+    quizAnswersKun: ['ぬ.ぐ', '', 'つち', 'とお']
   },
   {
     kanjiName: '千',
@@ -2104,7 +2136,9 @@ let arr = [
         furigana: 'いちにんとうせん',
         meanings: 'being a match for a thousand'
       }
-    ]
+    ],
+    quizAnswersOn: ['ゆ', 'めん', 'ち', 'せん'],
+    quizAnswersKun: ['したが.う', '', 'ひき.いる', 'ち']
   },
   {
     kanjiName: '子',
@@ -2245,7 +2279,9 @@ let arr = [
         furigana: 'ちーといつ',
         meanings: 'seven pairs'
       }
-    ]
+    ],
+    quizAnswersOn: ['こん', 'けん', 'ちょう', 'し'],
+    quizAnswersKun: ['こ', 'や', '', 'つ.く']
   },
   {
     kanjiName: '小',
@@ -2330,7 +2366,9 @@ let arr = [
         furigana: 'ちゅうしょう',
         meanings: 'small and medium'
       }
-    ]
+    ],
+    quizAnswersOn: ['きん', 'てん', 'しょう', 'じゅう'],
+    quizAnswersKun: ['たい.ら', 'よしみ', 'ちい.さい', 'でく']
   },
   {
     kanjiName: '中',
@@ -2445,7 +2483,9 @@ let arr = [
         furigana: 'ほうちゅう',
         meanings: 'visit to China'
       }
-    ]
+    ],
+    quizAnswersOn: ['ちゅう', 'そ', 'ほ', 'こう'],
+    quizAnswersKun: ['ごと', 'なか', '', 'まが.い']
   },
   {
     kanjiName: '五',
@@ -2540,7 +2580,9 @@ let arr = [
         furigana: 'だいご',
         meanings: 'fifth'
       }
-    ]
+    ],
+    quizAnswersOn: ['こん', 'さい', 'ご', 'ゆ'],
+    quizAnswersKun: ['いつ', 'はなは.だ', 'あざ', 'お.る']
   },
   {
     kanjiName: '六',
@@ -2660,7 +2702,9 @@ let arr = [
         furigana: 'ろっき',
         meanings: 'yin'
       }
-    ]
+    ],
+    quizAnswersOn: ['らい', 'ろく', 'ほう', 'かく'],
+    quizAnswersKun: ['はや.い', 'む', '', 'へび']
   },
   {
     kanjiName: '円',
@@ -2775,7 +2819,9 @@ let arr = [
         furigana: 'どうしんえん',
         meanings: 'concentric circles'
       }
-    ]
+    ],
+    quizAnswersOn: ['すう', 'しゅう', 'えん', 'せい'],
+    quizAnswersKun: ['の', 'まる.い', 'おごそ.か', 'おもむき']
   },
   {
     kanjiName: '天',
@@ -2870,7 +2916,9 @@ let arr = [
         furigana: 'らくてん',
         meanings: 'optimism'
       }
-    ]
+    ],
+    quizAnswersOn: ['ちゅう', 'へん', 'てん', 'か'],
+    quizAnswersKun: ['かんが.える', 'え', 'あまつ', 'さか']
   },
   {
     kanjiName: '日',
@@ -2985,7 +3033,9 @@ let arr = [
         furigana: 'みそか',
         meanings: 'last day of the month'
       }
-    ]
+    ],
+    quizAnswersOn: ['ちょう', 'だい', 'らい', 'にち'],
+    quizAnswersKun: ['', 'ひ', 'の.びる', 'かんむり']
   },
   {
     kanjiName: '月',
@@ -3095,7 +3145,9 @@ let arr = [
         furigana: 'おしょうがつ',
         meanings: 'New Year (esp. first three days)'
       }
-    ]
+    ],
+    quizAnswersOn: ['せき', 'ぎょ', 'そく', 'げつ'],
+    quizAnswersKun: ['つき', 'えが.く', 'はり', 'かわ']
   },
   {
     kanjiName: '木',
@@ -3210,7 +3262,9 @@ let arr = [
         furigana: 'かすいもく',
         meanings: 'Tuesday'
       }
-    ]
+    ],
+    quizAnswersOn: ['そつ', 'ぼく', 'とう', 'しょう'],
+    quizAnswersKun: ['はな', '', 'うえ', 'き']
   },
   {
     kanjiName: '水',
@@ -3305,7 +3359,9 @@ let arr = [
         furigana: 'じょうすい',
         meanings: 'clean water'
       }
-    ]
+    ],
+    quizAnswersOn: ['り', 'とう', 'すい', 'ふん'],
+    quizAnswersKun: ['みず', 'う.ける', 'い.る', 'たび']
   },
   {
     kanjiName: '火',
@@ -3400,7 +3456,9 @@ let arr = [
         furigana: 'てんか',
         meanings: 'ignition'
       }
-    ]
+    ],
+    quizAnswersOn: ['せん', 'ひ', 'かん', 'か'],
+    quizAnswersKun: ['たか.い', 'ひ', 'すす.む', 'たのし.む']
   },
   {
     kanjiName: '出',
@@ -3510,7 +3568,9 @@ let arr = [
         furigana: 'すいとうぼ',
         meanings: 'cashbook'
       }
-    ]
+    ],
+    quizAnswersOn: ['まん', 'せつ', 'ごう', 'しゅつ'],
+    quizAnswersKun: ['で.る', '', 'あか', 'よろこ.ぶ']
   },
   {
     kanjiName: '右',
@@ -3620,7 +3680,9 @@ let arr = [
         furigana: 'じょうげさゆう',
         meanings: 'up and down'
       }
-    ]
+    ],
+    quizAnswersOn: ['けい', 'とう', 'だ', 'う'],
+    quizAnswersKun: ['うなが.す', 'みぎ', 'あきらか', 'つゆ']
   },
   {
     kanjiName: '四',
@@ -3745,7 +3807,9 @@ let arr = [
         furigana: 'たんそじゅうし',
         meanings: 'carbon-14'
       }
-    ]
+    ],
+    quizAnswersOn: ['じ', 'し', 'さ', 'すい'],
+    quizAnswersKun: ['とら', '', 'くさび', 'よ']
   },
   {
     kanjiName: '左',
@@ -3845,7 +3909,9 @@ let arr = [
         furigana: 'さかん',
         meanings: 'plasterer'
       }
-    ]
+    ],
+    quizAnswersOn: ['さ', 'かん', 'みん', 'きゅう'],
+    quizAnswersKun: ['でこ', '', 'つね', 'ひだり']
   },
   {
     kanjiName: '本',
@@ -3948,7 +4014,9 @@ let arr = [
         furigana: 'はいほん',
         meanings: 'distribution of books'
       }
-    ]
+    ],
+    quizAnswersOn: ['ほん', 'よう', 'だん', 'かん'],
+    quizAnswersKun: ['もと', '', 'ゆず', 'ある.く']
   },
   {
     kanjiName: '白',
@@ -4073,7 +4141,9 @@ let arr = [
         furigana: 'きょうこうけいはく',
         meanings: 'very truly yours'
       }
-    ]
+    ],
+    quizAnswersOn: ['か', 'はく', 'らん', 'さい'],
+    quizAnswersKun: ['ほろ.びる', 'しろ', 'う.つ', 'な.い']
   },
   {
     kanjiName: '万',
@@ -4188,7 +4258,9 @@ let arr = [
         furigana: 'きかいせんばん',
         meanings: 'very strange (mysterious'
       }
-    ]
+    ],
+    quizAnswersOn: ['へん', 'しょう', 'ふん', 'まん'],
+    quizAnswersKun: ['かた.い', 'はた', 'いわ.う', 'よろず']
   },
   {
     kanjiName: '今',
@@ -4293,7 +4365,9 @@ let arr = [
         furigana: 'きんじょう',
         meanings: 'His Majesty the Emperor'
       }
-    ]
+    ],
+    quizAnswersOn: ['こん', 'ぎ', 'か', 'さい'],
+    quizAnswersKun: ['ほど', 'いま', 'つち', 'と.る']
   },
   {
     kanjiName: '午',
@@ -4388,7 +4462,9 @@ let arr = [
         furigana: 'ていご',
         meanings: 'noon'
       }
-    ]
+    ],
+    quizAnswersOn: ['だく', 'とう', 'ご', 'かん'],
+    quizAnswersKun: ['みち', 'むろ', 'か.える', 'うま']
   },
   {
     kanjiName: '友',
@@ -4483,7 +4559,9 @@ let arr = [
         furigana: 'めいゆう',
         meanings: 'sworn friend'
       }
-    ]
+    ],
+    quizAnswersOn: ['ゆう', 'でん', 'せつ', 'へい'],
+    quizAnswersKun: ['とも', 'と.る', 'たま', 'いと']
   },
   {
     kanjiName: '父',
@@ -4578,7 +4656,9 @@ let arr = [
         furigana: 'ようふ',
         meanings: 'foster father'
       }
-    ]
+    ],
+    quizAnswersOn: ['ひ', 'ひん', 'とう', 'ふ'],
+    quizAnswersKun: ['', 'もよう.す', 'ほこ', 'ちち']
   },
   {
     kanjiName: '北',
@@ -4668,7 +4748,9 @@ let arr = [
         furigana: 'せいほく',
         meanings: 'north-west'
       }
-    ]
+    ],
+    quizAnswersOn: ['がい', 'めい', 'よう', 'ほく'],
+    quizAnswersKun: ['きた', '', 'よしみ', 'あな']
   },
   {
     kanjiName: '半',
@@ -4753,7 +4835,9 @@ let arr = [
         furigana: 'かはん',
         meanings: 'the greater part'
       }
-    ]
+    ],
+    quizAnswersOn: ['かん', 'か', 'はん', 'きゅう'],
+    quizAnswersKun: ['よろこ.び', 'なか.ば', 'つつし.む', 'ゆた.か']
   },
   {
     kanjiName: '外',
@@ -4888,7 +4972,9 @@ let arr = [
         furigana: 'げかい',
         meanings: 'surgeon'
       }
-    ]
+    ],
+    quizAnswersOn: ['すい', 'じ', 'がい', 'き'],
+    quizAnswersKun: ['そと', 'たび', 'よろこ.ぶ', 'はは']
   },
   {
     kanjiName: '母',
@@ -5003,7 +5089,9 @@ let arr = [
         furigana: 'くうぼ',
         meanings: 'aircraft carrier'
       }
-    ]
+    ],
+    quizAnswersOn: ['か', 'さ', 'かん', 'ぼ'],
+    quizAnswersKun: ['こずえ', 'はは', 'あと', 'あさ']
   },
   {
     kanjiName: '休',
@@ -5093,7 +5181,9 @@ let arr = [
         furigana: 'ていきゅう',
         meanings: 'regular holiday'
       }
-    ]
+    ],
+    quizAnswersOn: ['らん', 'きゅう', 'れい', 'けん'],
+    quizAnswersKun: ['ほうむ.る', 'また', 'やす.む', 'まね.く']
   },
   {
     kanjiName: '先',
@@ -5198,7 +5288,9 @@ let arr = [
         furigana: 'たがいせん',
         meanings: 'even game (esp. in go)'
       }
-    ]
+    ],
+    quizAnswersOn: ['せん', 'ちゅう', 'もう', 'じ'],
+    quizAnswersKun: ['うやま.う', 'に.る', 'さき', 'く.れる']
   },
   {
     kanjiName: '名',
@@ -5313,7 +5405,9 @@ let arr = [
         furigana: 'どうめい',
         meanings: 'same name'
       }
-    ]
+    ],
+    quizAnswersOn: ['きく', 'はい', 'めい', 'かく'],
+    quizAnswersKun: ['くば.る', 'かわ.く', 'お.う', 'な']
   },
   {
     kanjiName: '年',
@@ -5408,7 +5502,9 @@ let arr = [
         furigana: 'へいねん',
         meanings: 'non-leap year'
       }
-    ]
+    ],
+    quizAnswersOn: ['みん', 'ひ', 'ろう', 'ねん'],
+    quizAnswersKun: ['とし', 'え.る', 'あ.きる', '']
   },
   {
     kanjiName: '気',
@@ -5523,7 +5619,9 @@ let arr = [
         furigana: 'みずけ',
         meanings: 'water content'
       }
-    ]
+    ],
+    quizAnswersOn: ['きゅう', 'し', 'ざ', 'き'],
+    quizAnswersKun: ['いき', 'はざま', 'や', 'くわ.える']
   },
   {
     kanjiName: '百',
@@ -5613,7 +5711,9 @@ let arr = [
         furigana: 'ぼんぴゃく',
         meanings: 'various'
       }
-    ]
+    ],
+    quizAnswersOn: ['はく', 'ひゃく', 'し', 'ひ'],
+    quizAnswersKun: ['お.す', 'い.く', 'かたな', 'もも']
   },
   {
     kanjiName: '男',
@@ -5748,7 +5848,9 @@ let arr = [
         furigana: 'じなん',
         meanings: 'second son'
       }
-    ]
+    ],
+    quizAnswersOn: ['だん', 'いち', 'か', 'さん'],
+    quizAnswersKun: ['うと.い', 'こと', 'おとこ', 'せ.める']
   },
   {
     kanjiName: '見',
@@ -5848,7 +5950,9 @@ let arr = [
         furigana: 'せいけん',
         meanings: 'political views'
       }
-    ]
+    ],
+    quizAnswersOn: ['てい', 'けん', 'ふ', 'せつ'],
+    quizAnswersKun: ['', 'つよ.い', 'はし', 'み.る']
   },
   {
     kanjiName: '車',
@@ -5938,7 +6042,9 @@ let arr = [
         furigana: 'だいしゃ',
         meanings: 'platform truck'
       }
-    ]
+    ],
+    quizAnswersOn: ['とう', 'く', 'れい', 'しゃ'],
+    quizAnswersKun: ['もっ.て', 'くるま', '', 'わらべ']
   },
   {
     kanjiName: '毎',
@@ -6028,7 +6134,9 @@ let arr = [
         furigana: 'まいまい',
         meanings: 'each time'
       }
-    ]
+    ],
+    quizAnswersOn: ['ごう', 'ちゅう', 'まい', 'そ'],
+    quizAnswersKun: ['く.いる', 'ごと', 'ゆみ', '']
   },
   {
     kanjiName: '行',
@@ -6163,7 +6271,9 @@ let arr = [
         furigana: 'あんか',
         meanings: 'bed warmer'
       }
-    ]
+    ],
+    quizAnswersOn: ['ちょう', 'えき', 'こう', 'ぶ'],
+    quizAnswersKun: ['', 'い.く', 'いそ.ぐ', 'ほ']
   },
   {
     kanjiName: '西',
@@ -6278,7 +6388,9 @@ let arr = [
         furigana: 'すぺいん',
         meanings: 'Spain'
       }
-    ]
+    ],
+    quizAnswersOn: ['しゅう', 'せい', 'どう', 'しゅく'],
+    quizAnswersKun: ['おとうと', 'たの.しい', 'にし', 'かたき']
   },
   {
     kanjiName: '何',
@@ -6363,7 +6475,9 @@ let arr = [
         furigana: 'ひかかんきか',
         meanings: 'noncommutative geometry'
       }
-    ]
+    ],
+    quizAnswersOn: ['ばい', 'さん', 'か', 'し'],
+    quizAnswersKun: ['まつ', 'きも', 'なに', 'ひ']
   },
   {
     kanjiName: '来',
@@ -6508,7 +6622,9 @@ let arr = [
         furigana: 'さいらい',
         meanings: 'return'
       }
-    ]
+    ],
+    quizAnswersOn: ['りょう', 'こう', 'しょ', 'らい'],
+    quizAnswersKun: ['つくろ.う', 'か.りる', 'く.る', 'ひか.える']
   },
   {
     kanjiName: '学',
@@ -6588,7 +6704,9 @@ let arr = [
         furigana: 'ほういがく',
         meanings: 'forensic medicine'
       }
-    ]
+    ],
+    quizAnswersOn: ['よ', 'ごう', 'しょう', 'がく'],
+    quizAnswersKun: ['や.む', 'か.ける', 'まな.ぶ', '']
   },
   {
     kanjiName: '金',
@@ -6709,7 +6827,9 @@ let arr = [
         meanings:
           'Acanthopanax sciadophylloides (species of flowering plant related to the aralias)'
       }
-    ]
+    ],
+    quizAnswersOn: ['き', 'きん', 'れい', 'こく'],
+    quizAnswersKun: ['かね', 'たえ', 'う.れる', '']
   },
   {
     kanjiName: '雨',
@@ -6804,7 +6924,9 @@ let arr = [
         furigana: 'しぐれ',
         meanings: 'rain shower in late autumn (fall) or early winter'
       }
-    ]
+    ],
+    quizAnswersOn: ['そ', 'びょう', 'ゆう', 'う'],
+    quizAnswersKun: ['ひつじ', 'なお', 'あめ', 'あつ.い']
   },
   {
     kanjiName: '国',
@@ -6899,7 +7021,9 @@ let arr = [
         furigana: 'いこく',
         meanings: 'foreign country'
       }
-    ]
+    ],
+    quizAnswersOn: ['こく', 'せん', 'しょう', 'りょう'],
+    quizAnswersKun: ['きり', 'くに', 'くすり', 'ひちくど.い']
   },
   {
     kanjiName: '東',
@@ -6989,7 +7113,9 @@ let arr = [
         furigana: 'とうほくとう',
         meanings: 'east-northeast'
       }
-    ]
+    ],
+    quizAnswersOn: ['せつ', 'しょ', 'とう', 'はく'],
+    quizAnswersKun: ['みことのり', 'にご.る', 'ひがし', 'くら']
   },
   {
     kanjiName: '長',
@@ -7094,7 +7220,9 @@ let arr = [
         furigana: 'いちょう',
         meanings: 'medical director'
       }
-    ]
+    ],
+    quizAnswersOn: ['げん', 'ぎ', 'ろう', 'ちょう'],
+    quizAnswersKun: ['たかどの', 'つね', 'や.む', 'なが.い']
   },
   {
     kanjiName: '前',
@@ -7190,7 +7318,9 @@ let arr = [
         furigana: 'ふうぜん',
         meanings: 'where the wind blows'
       }
-    ]
+    ],
+    quizAnswersOn: ['ぜん', 'しゅく', 'しゅん', 'ねい'],
+    quizAnswersKun: ['まえ', 'は.く', 'まし.て', 'ともな.う']
   },
   {
     kanjiName: '南',
@@ -7295,7 +7425,9 @@ let arr = [
         furigana: 'なんかい',
         meanings: 'southern sea'
       }
-    ]
+    ],
+    quizAnswersOn: ['ほう', 'えい', 'なん', 'ちょう'],
+    quizAnswersKun: ['こおり', 'みなみ', '', 'かさ']
   },
   {
     kanjiName: '後',
@@ -7455,7 +7587,9 @@ let arr = [
         furigana: 'せんご',
         meanings: 'before and after'
       }
-    ]
+    ],
+    quizAnswersOn: ['ご', 'たん', 'こ', 'せつ'],
+    quizAnswersKun: ['のたま.う', 'のち', 'ふ.せる', '']
   },
   {
     kanjiName: '食',
@@ -7580,7 +7714,9 @@ let arr = [
         furigana: 'さいじき',
         meanings: 'morning meal (for priests'
       }
-    ]
+    ],
+    quizAnswersOn: ['ふ', 'ふん', 'しょ', 'しょく'],
+    quizAnswersKun: ['み.る', '', 'く.う', 'そ.える']
   },
   {
     kanjiName: '校',
@@ -7665,7 +7801,9 @@ let arr = [
         furigana: 'きょうしょ',
         meanings: 'collation'
       }
-    ]
+    ],
+    quizAnswersOn: ['こう', 'ふん', 'い', 'さつ'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '時',
@@ -7761,7 +7899,9 @@ let arr = [
         furigana: 'へいじ',
         meanings: 'peacetime'
       }
-    ]
+    ],
+    quizAnswersOn: ['じ', 'こう', 'たく', 'ぼう'],
+    quizAnswersKun: ['', 'さけ', 'たた.える', 'とき']
   },
   {
     kanjiName: '高',
@@ -7876,7 +8016,9 @@ let arr = [
         furigana: 'げっこう',
         meanings: 'excitement'
       }
-    ]
+    ],
+    quizAnswersOn: ['ゆう', 'こう', 'し', 'てき'],
+    quizAnswersKun: ['き.る', 'たか.い', 'また', '']
   },
   {
     kanjiName: '間',
@@ -8031,7 +8173,9 @@ let arr = [
         furigana: 'ろっぴゃっけん',
         meanings: 'roppyakken (type of game)'
       }
-    ]
+    ],
+    quizAnswersOn: ['ふ', 'かん', 'きん', 'きょう'],
+    quizAnswersKun: ['ひたい', 'ひろ.い', 'むな.しい', 'あいだ']
   },
   {
     kanjiName: '話',
@@ -8131,7 +8275,9 @@ let arr = [
         furigana: 'ひわ',
         meanings: 'secret story'
       }
-    ]
+    ],
+    quizAnswersOn: ['わ', 'はい', 'ちゅう', 'しゅ'],
+    quizAnswersKun: ['か.く', 'ひら.く', 'はな.す', 'ふ.む']
   },
   {
     kanjiName: '電',
@@ -8206,7 +8352,9 @@ let arr = [
         furigana: 'はいでん',
         meanings: 'distribution of electricity'
       }
-    ]
+    ],
+    quizAnswersOn: ['とう', 'はん', 'るい', 'でん'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '聞',
@@ -8316,7 +8464,9 @@ let arr = [
         furigana: 'しょうもん',
         meanings: 'sravaka (disciple of Buddha)'
       }
-    ]
+    ],
+    quizAnswersOn: ['ぶん', 'きつ', 'しょう', 'ひつ'],
+    quizAnswersKun: ['つま', 'かお.る', 'き.く', '']
   },
   {
     kanjiName: '語',
@@ -8406,7 +8556,9 @@ let arr = [
         furigana: 'ぞうご',
         meanings: 'coined word'
       }
-    ]
+    ],
+    quizAnswersOn: ['るい', 'しゅう', 'しゃく', 'ご'],
+    quizAnswersKun: ['', 'かた.る', 'あか', 'た.める']
   },
   {
     kanjiName: '読',
@@ -8512,7 +8664,9 @@ let arr = [
         meanings:
           'Idu (archaic writing system that uses Chinese characters to represent the Korean language)'
       }
-    ]
+    ],
+    quizAnswersOn: ['けい', 'どく', 'いき', 'ずい'],
+    quizAnswersKun: ['おし.える', 'おっと', 'よ.む', 'うすぎぬ']
   },
   {
     kanjiName: '生',
@@ -8751,7 +8905,9 @@ let arr = [
         furigana: 'しせい',
         meanings: 'life and death'
       }
-    ]
+    ],
+    quizAnswersOn: ['りゅう', 'し', 'ゆう', 'せい'],
+    quizAnswersKun: ['あまつさえ', 'い.きる', 'ころ.す', 'うたげ']
   },
   {
     kanjiName: '書',
@@ -8831,7 +8987,9 @@ let arr = [
         furigana: 'ぎていしょ',
         meanings: 'protocol'
       }
-    ]
+    ],
+    quizAnswersOn: ['き', 'ほう', 'しょ', 'えん'],
+    quizAnswersKun: ['やし', 'か.く', 'わざ', 'ばば']
   },
   {
     kanjiName: '力',
@@ -8947,7 +9105,9 @@ let arr = [
         furigana: 'ごうりょく',
         meanings: 'resultant force'
       }
-    ]
+    ],
+    quizAnswersOn: ['はい', 'しょう', 'たい', 'りょく'],
+    quizAnswersKun: ['かた.める', 'おおづな', 'たけ', 'ちから']
   },
   {
     kanjiName: '口',
@@ -9064,7 +9224,9 @@ let arr = [
         meanings:
           'day that is unlucky except between the auspicious hours of 11am and 1pm (in the traditional calendar)'
       }
-    ]
+    ],
+    quizAnswersOn: ['けん', 'き', 'こう', 'はく'],
+    quizAnswersKun: ['ひたい', 'はな.れる', 'くち', 'つ.く']
   },
   {
     kanjiName: '工',
@@ -9170,7 +9332,9 @@ let arr = [
         furigana: 'くめん',
         meanings: 'contrivance'
       }
-    ]
+    ],
+    quizAnswersOn: ['しん', 'し', 'こう', 'ひ'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '夕',
@@ -9266,7 +9430,9 @@ let arr = [
         furigana: 'いっせき',
         meanings: 'one evening'
       }
-    ]
+    ],
+    quizAnswersOn: ['せき', 'とう', 'くん', 'せん'],
+    quizAnswersKun: ['たくみ', 'ほね', 'うま', 'ゆう']
   },
   {
     kanjiName: '手',
@@ -9372,7 +9538,9 @@ let arr = [
         furigana: 'しょせいじょうず',
         meanings: 'knowing how to get on in the world'
       }
-    ]
+    ],
+    quizAnswersOn: ['そう', 'がん', 'しゅ', 'らい'],
+    quizAnswersKun: ['す.る', 'かぜ', 'たす.ける', 'て']
   },
   {
     kanjiName: '文',
@@ -9512,7 +9680,9 @@ let arr = [
         furigana: 'じょうもん',
         meanings: 'straw-rope pattern pressed into earthenware'
       }
-    ]
+    ],
+    quizAnswersOn: ['はい', 'ぶん', 'か', 'こう'],
+    quizAnswersKun: ['あぶら', '', 'しし', 'ふみ']
   },
   {
     kanjiName: '犬',
@@ -9608,7 +9778,9 @@ let arr = [
         furigana: 'ぽめらにあけん',
         meanings: 'Pomeranian (dog)'
       }
-    ]
+    ],
+    quizAnswersOn: ['けん', 'しき', 'かん', 'はく'],
+    quizAnswersKun: ['すな', 'いぬ', '', 'おも.んみる']
   },
   {
     kanjiName: '正',
@@ -9739,7 +9911,9 @@ let arr = [
         furigana: 'がしょう',
         meanings: 'A Happy New Year!'
       }
-    ]
+    ],
+    quizAnswersOn: ['かつ', 'せい', 'き', 'ざん'],
+    quizAnswersKun: ['はら.う', 'ひとつ', 'ただ.しい', '']
   },
   {
     kanjiName: '田',
@@ -9835,7 +10009,9 @@ let arr = [
         furigana: 'すいでん',
         meanings: '(water-filled) paddy field'
       }
-    ]
+    ],
+    quizAnswersOn: ['へん', 'こう', 'し', 'でん'],
+    quizAnswersKun: ['た', 'かたよ.る', 'かり', 'くす']
   },
   {
     kanjiName: '目',
@@ -9941,7 +10117,9 @@ let arr = [
         furigana: 'ふめんぼく',
         meanings: 'shame'
       }
-    ]
+    ],
+    quizAnswersOn: ['もく', 'きつ', 'ほう', 'ふつ'],
+    quizAnswersKun: ['たか.い', 'あつ.い', 'み.る', 'め']
   },
   {
     kanjiName: '立',
@@ -10068,7 +10246,9 @@ let arr = [
         furigana: 'ぞうりゅう',
         meanings: 'erecting (a temple'
       }
-    ]
+    ],
+    quizAnswersOn: ['りつ', 'せつ', 'き', 'てん'],
+    quizAnswersKun: ['', 'まど.う', 'た.つ', 'あた.る']
   },
   {
     kanjiName: '元',
@@ -10174,7 +10354,9 @@ let arr = [
         furigana: 'がんじつ',
         meanings: "New Year's Day"
       }
-    ]
+    ],
+    quizAnswersOn: ['げん', 'し', 'きょ', 'きょう'],
+    quizAnswersKun: ['はか', 'まき', 'もと', 'ちぢ.む']
   },
   {
     kanjiName: '公',
@@ -10276,7 +10458,9 @@ let arr = [
         meanings:
           'outcasts common around the Kyoto region from the Kamakura period to the Edo period'
       }
-    ]
+    ],
+    quizAnswersOn: ['だ', 'こう', 'きゅう', 'ら'],
+    quizAnswersKun: ['ね', 'いと', '', 'おおやけ']
   },
   {
     kanjiName: '切',
@@ -10418,7 +10602,9 @@ let arr = [
         furigana: 'ひよういっさい',
         meanings: 'all expenses'
       }
-    ]
+    ],
+    quizAnswersOn: ['せつ', 'せん', 'たい', 'いん'],
+    quizAnswersKun: ['し.く', 'き.る', 'たす.ける', 'な']
   },
   {
     kanjiName: '少',
@@ -10509,7 +10695,9 @@ let arr = [
         furigana: 'かしょう',
         meanings: 'too few'
       }
-    ]
+    ],
+    quizAnswersOn: ['こく', 'ぎゅう', 'かい', 'しょう'],
+    quizAnswersKun: ['あ.たる', 'すく.ない', '', 'きざ.す']
   },
   {
     kanjiName: '心',
@@ -10605,7 +10793,9 @@ let arr = [
         furigana: 'かいしん',
         meanings: 'congeniality'
       }
-    ]
+    ],
+    quizAnswersOn: ['か', 'しん', 'じょう', 'ちゅう'],
+    quizAnswersKun: ['あおぎり', 'つむ.ぐ', '', 'こころ']
   },
   {
     kanjiName: '方',
@@ -10701,7 +10891,9 @@ let arr = [
         furigana: 'うほう',
         meanings: 'right side'
       }
-    ]
+    ],
+    quizAnswersOn: ['しゅん', 'がん', 'ほう', 'し'],
+    quizAnswersKun: ['つくえ', 'つい.やす', 'かた', '']
   },
   {
     kanjiName: '牛',
@@ -10797,7 +10989,9 @@ let arr = [
         furigana: 'かいぎゅう',
         meanings: 'sirenian (any aquatic mammal of order Sirenia'
       }
-    ]
+    ],
+    quizAnswersOn: ['ぎゅう', 'せん', 'こう', 'よう'],
+    quizAnswersKun: ['うし', 'かみ', 'うたげ', 'ともな.う']
   },
   {
     kanjiName: '止',
@@ -10943,7 +11137,9 @@ let arr = [
         furigana: 'かいし',
         meanings: 'termination'
       }
-    ]
+    ],
+    quizAnswersOn: ['し', 'こう', 'しつ', 'ぞう'],
+    quizAnswersKun: ['もも', '', 'と.まる', 'さわ.る']
   },
   {
     kanjiName: '兄',
@@ -11049,7 +11245,9 @@ let arr = [
         furigana: 'けいし',
         meanings: 'brother and sister'
       }
-    ]
+    ],
+    quizAnswersOn: ['のう', 'ゆう', 'かん', 'けい'],
+    quizAnswersKun: ['きざはし', 'あに', '', 'ただ.す']
   },
   {
     kanjiName: '冬',
@@ -11145,7 +11343,9 @@ let arr = [
         furigana: 'しゅんかしゅうとう',
         meanings: 'spring'
       }
-    ]
+    ],
+    quizAnswersOn: ['さ', 'ぼ', 'とう', 'ほ'],
+    quizAnswersKun: ['しき.りに', 'しげ.る', 'ふゆ', 'つつし.む']
   },
   {
     kanjiName: '古',
@@ -11231,7 +11431,9 @@ let arr = [
         furigana: 'かいこ',
         meanings: 'reminiscence'
       }
-    ]
+    ],
+    quizAnswersOn: ['そ', 'こ', 'けん', 'く'],
+    quizAnswersKun: ['かがりび', 'ふる.い', 'せ', 'きぬ']
   },
   {
     kanjiName: '台',
@@ -11337,7 +11539,9 @@ let arr = [
         furigana: 'さいごのぶたい',
         meanings: 'final performance'
       }
-    ]
+    ],
+    quizAnswersOn: ['はく', 'な', 'だい', 'ぼつ'],
+    quizAnswersKun: ['', 'おもむき', 'うてな', 'あゆ']
   },
   {
     kanjiName: '広',
@@ -11438,7 +11642,9 @@ let arr = [
         furigana: 'こうこう',
         meanings: 'extensive'
       }
-    ]
+    ],
+    quizAnswersOn: ['ふん', 'ぞう', 'き', 'こう'],
+    quizAnswersKun: ['むし.ろ', 'え', 'む.れる', 'ひろ.い']
   },
   {
     kanjiName: '用',
@@ -11519,7 +11725,9 @@ let arr = [
         furigana: 'こうよう',
         meanings: 'use'
       }
-    ]
+    ],
+    quizAnswersOn: ['よう', 'ほ', 'きょ', 'きん'],
+    quizAnswersKun: ['やま', '', 'もち.いる', 'デシメートル']
   },
   {
     kanjiName: '世',
@@ -11635,7 +11843,9 @@ let arr = [
         furigana: 'きゅうせい',
         meanings: 'salvation'
       }
-    ]
+    ],
+    quizAnswersOn: ['きゅう', 'せい', 'にゅう', 'こん'],
+    quizAnswersKun: ['くち', 'わざ.と', 'へ.る', 'よ']
   },
   {
     kanjiName: '主',
@@ -11776,7 +11986,9 @@ let arr = [
         furigana: 'しゅうじゅう',
         meanings: 'master and servant'
       }
-    ]
+    ],
+    quizAnswersOn: ['ばん', 'う', 'しゅ', 'き'],
+    quizAnswersKun: ['き', 'ば.ける', 'ぬし', 'すわ.る']
   },
   {
     kanjiName: '代',
@@ -11979,7 +12191,9 @@ let arr = [
         furigana: 'きたい',
         meanings: 'uncommon'
       }
-    ]
+    ],
+    quizAnswersOn: ['てん', 'だい', 'ご', 'しょく'],
+    quizAnswersKun: ['お.ちる', 'か.わる', 'のぼ.る', 'よろ.しい']
   },
   {
     kanjiName: '写',
@@ -12075,7 +12289,9 @@ let arr = [
         furigana: 'かっしゃ',
         meanings: 'vivid description'
       }
-    ]
+    ],
+    quizAnswersOn: ['しゃ', 'たく', 'がん', 'ほう'],
+    quizAnswersKun: ['うつ.す', '', 'いの.る', 'ま.する']
   },
   {
     kanjiName: '去',
@@ -12176,7 +12392,9 @@ let arr = [
         furigana: 'ふていかこ',
         meanings: 'aorist tense (in Greek)'
       }
-    ]
+    ],
+    quizAnswersOn: ['し', 'きょ', 'ごう', 'しょう'],
+    quizAnswersKun: ['も.る', '', 'つ.む', 'さ.る']
   },
   {
     kanjiName: '字',
@@ -12277,7 +12495,9 @@ let arr = [
         furigana: 'えいじ',
         meanings: 'English letter'
       }
-    ]
+    ],
+    quizAnswersOn: ['おう', 'か', 'じ', 'よう'],
+    quizAnswersKun: ['', 'あざ', 'みや', 'あさ']
   },
   {
     kanjiName: '早',
@@ -12403,7 +12623,9 @@ let arr = [
         furigana: 'さっそく',
         meanings: 'at once'
       }
-    ]
+    ],
+    quizAnswersOn: ['ほう', 'こう', 'よく', 'そう'],
+    quizAnswersKun: ['はや.い', 'きざはし', 'お.す', 'くら.べる']
   },
   {
     kanjiName: '町',
@@ -12499,7 +12721,9 @@ let arr = [
         furigana: 'もんぜんまち',
         meanings: 'town originally built around a temple or shrine'
       }
-    ]
+    ],
+    quizAnswersOn: ['しょ', 'かん', 'ま', 'ちょう'],
+    quizAnswersKun: ['はだか', 'まち', 'えだ', 'かた-']
   },
   {
     kanjiName: '花',
@@ -12610,7 +12834,9 @@ let arr = [
         furigana: 'てんげ',
         meanings: 'flowers that bloom in the heavens'
       }
-    ]
+    ],
+    quizAnswersOn: ['とう', 'か', 'ほう', 'しき'],
+    quizAnswersKun: ['はな', '', 'く.う', 'まよ.う']
   },
   {
     kanjiName: '赤',
@@ -12736,7 +12962,9 @@ let arr = [
         furigana: 'しゃくどういろ',
         meanings: 'brown'
       }
-    ]
+    ],
+    quizAnswersOn: ['せき', 'かつ', 'さん', 'れい'],
+    quizAnswersKun: ['あか', 'お.す', 'つゆ', 'あ.げる']
   },
   {
     kanjiName: '足',
@@ -12852,7 +13080,9 @@ let arr = [
         furigana: 'どそく',
         meanings: 'shod feet'
       }
-    ]
+    ],
+    quizAnswersOn: ['こう', 'ばく', 'そく', 'けつ'],
+    quizAnswersKun: ['あし', 'きた', 'おろ.か', '']
   },
   {
     kanjiName: '不',
@@ -12938,7 +13168,9 @@ let arr = [
         furigana: 'ぶきみ',
         meanings: 'weird'
       }
-    ]
+    ],
+    quizAnswersOn: ['ふ', 'し', 'しょく', 'きゅう'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '仕',
@@ -13034,7 +13266,9 @@ let arr = [
         furigana: 'ちし',
         meanings: 'resignation'
       }
-    ]
+    ],
+    quizAnswersOn: ['こく', 'せん', 'し', 'に'],
+    quizAnswersKun: ['', 'みじ.め', 'つか.える', 'あい-']
   },
   {
     kanjiName: '会',
@@ -13146,7 +13380,9 @@ let arr = [
         meanings:
           'imperial event at which high monks recited the Golden Light Sutra to pray for national security and good harvests (held annually at the palace from the 8th to the 14th of the first lunar month'
       }
-    ]
+    ],
+    quizAnswersOn: ['はい', 'かい', 'う', 'がん'],
+    quizAnswersKun: ['こ.りる', 'あ.う', 'はか.る', '']
   },
   {
     kanjiName: '同',
@@ -13232,7 +13468,9 @@ let arr = [
         furigana: 'だいどう',
         meanings: 'general resemblance'
       }
-    ]
+    ],
+    quizAnswersOn: ['さ', 'たく', 'し', 'どう'],
+    quizAnswersKun: ['ともな.う', 'お.す', 'とびら', 'おな.じ']
   },
   {
     kanjiName: '多',
@@ -13318,7 +13556,9 @@ let arr = [
         furigana: 'さいた',
         meanings: 'most (numerous)'
       }
-    ]
+    ],
+    quizAnswersOn: ['た', 'ゆう', 'とう', 'ちん'],
+    quizAnswersKun: ['おお.い', 'あたら.しい', 'かれ', 'と.く']
   },
   {
     kanjiName: '考',
@@ -13409,7 +13649,9 @@ let arr = [
         furigana: 'ろんこう',
         meanings: 'study (of)'
       }
-    ]
+    ],
+    quizAnswersOn: ['えん', 'かん', 'こう', 'ぐ'],
+    quizAnswersKun: ['なら.す', 'ところ', 'み', 'かんが.える']
   },
   {
     kanjiName: '肉',
@@ -13505,7 +13747,9 @@ let arr = [
         furigana: 'ちゅうにく',
         meanings: 'medium build'
       }
-    ]
+    ],
+    quizAnswersOn: ['さん', 'かい', 'にく', 'おう'],
+    quizAnswersKun: ['うやま.う', 'しし', 'つ.ける', '']
   },
   {
     kanjiName: '自',
@@ -13621,7 +13865,9 @@ let arr = [
         furigana: 'おのがじし',
         meanings: 'each (and every one)'
       }
-    ]
+    ],
+    quizAnswersOn: ['さい', 'じ', 'きん', 'げん'],
+    quizAnswersKun: ['みずか.ら', 'うと.い', 'え', '']
   },
   {
     kanjiName: '色',
@@ -13732,7 +13978,9 @@ let arr = [
         furigana: 'ごくさいしき',
         meanings: 'richly colored'
       }
-    ]
+    ],
+    quizAnswersOn: ['しょく', 'しん', 'じ', 'こう'],
+    quizAnswersKun: ['デシメートル', 'いろ', '', 'か.ねる']
   },
   {
     kanjiName: '体',
@@ -13853,7 +14101,9 @@ let arr = [
         furigana: 'ふうてい',
         meanings: 'appearance'
       }
-    ]
+    ],
+    quizAnswersOn: ['れい', 'もう', 'はん', 'たい'],
+    quizAnswersKun: ['たましい', 'ふる.い', '', 'からだ']
   },
   {
     kanjiName: '作',
@@ -13964,7 +14214,9 @@ let arr = [
         furigana: 'あんていそうさ',
         meanings: 'stabilizing (stock) transaction'
       }
-    ]
+    ],
+    quizAnswersOn: ['しん', 'りょ', 'しょう', 'さく'],
+    quizAnswersKun: ['', 'つく.る', 'ぜろ', 'なぎ']
   },
   {
     kanjiName: '図',
@@ -14065,7 +14317,9 @@ let arr = [
         furigana: 'かくされたいと',
         meanings: 'hidden agenda'
       }
-    ]
+    ],
+    quizAnswersOn: ['こう', 'へい', 'ず', 'そう'],
+    quizAnswersKun: ['', 'わ', 'え', 'たくわ.える']
   },
   {
     kanjiName: '売',
@@ -14151,7 +14405,9 @@ let arr = [
         furigana: 'てんばい',
         meanings: 'resale'
       }
-    ]
+    ],
+    quizAnswersOn: ['さつ', 'び', 'ばい', 'よう'],
+    quizAnswersKun: ['さわ', '', 'う.える', 'う.る']
   },
   {
     kanjiName: '弟',
@@ -14257,7 +14513,9 @@ let arr = [
         furigana: 'でしいり',
         meanings: 'becoming a pupil (of)'
       }
-    ]
+    ],
+    quizAnswersOn: ['ふ', 'てい', 'お', 'てい'],
+    quizAnswersKun: ['き.く', 'のび.る', 'おとうと', 'うた']
   },
   {
     kanjiName: '社',
@@ -14348,7 +14606,9 @@ let arr = [
         furigana: 'おやがいしゃ',
         meanings: 'parent company'
       }
-    ]
+    ],
+    quizAnswersOn: ['しゃ', 'きん', 'ご', 'そく'],
+    quizAnswersKun: ['ひとつ', 'たす.ける', 'やしろ', 'いた.す']
   },
   {
     kanjiName: '言',
@@ -14474,7 +14734,9 @@ let arr = [
         furigana: 'にごん',
         meanings: 'double-dealing'
       }
-    ]
+    ],
+    quizAnswersOn: ['げん', 'れい', 'とく', 'が'],
+    quizAnswersKun: ['い.う', 'こころ', 'たの.しい', 'す.てる']
   },
   {
     kanjiName: '走',
@@ -14555,7 +14817,9 @@ let arr = [
         furigana: 'かいそう',
         meanings: 'fast moving'
       }
-    ]
+    ],
+    quizAnswersOn: ['そう', 'そん', 'しん', 'ねん'],
+    quizAnswersKun: ['いもうと', 'はし.る', 'よ.る', 'ほそ.い']
   },
   {
     kanjiName: '近',
@@ -14646,7 +14910,9 @@ let arr = [
         furigana: 'こんる',
         meanings: 'banishment (to a nearby province)'
       }
-    ]
+    ],
+    quizAnswersOn: ['か', 'きん', 'がん', 'きゅう'],
+    quizAnswersKun: ['みずか.ら', 'つか.れる', 'ひとえ', 'ちか.い']
   },
   {
     kanjiName: '空',
@@ -14792,7 +15058,9 @@ let arr = [
         furigana: 'ぼうくう',
         meanings: 'air defense'
       }
-    ]
+    ],
+    quizAnswersOn: ['ふ', 'そう', 'きん', 'くう'],
+    quizAnswersKun: ['くき', 'あぶ.ない', 'さ.く', 'そら']
   },
   {
     kanjiName: '青',
@@ -14918,7 +15186,9 @@ let arr = [
         furigana: 'はなろくしょう',
         meanings: 'Paris green'
       }
-    ]
+    ],
+    quizAnswersOn: ['とう', 'せい', 'じょう', 'ぼう'],
+    quizAnswersKun: ['お.る', 'あお', '', 'よわい']
   },
   {
     kanjiName: '音',
@@ -15054,7 +15324,9 @@ let arr = [
         furigana: 'とうおん',
         meanings: 'tō-on'
       }
-    ]
+    ],
+    quizAnswersOn: ['い', 'おん', 'しん', 'び'],
+    quizAnswersKun: ['かず', 'おと', 'わか.つ', 'の']
   },
   {
     kanjiName: '地',
@@ -15150,7 +15422,9 @@ let arr = [
         furigana: 'ついじ',
         meanings: 'mud wall with a roof'
       }
-    ]
+    ],
+    quizAnswersOn: ['らん', 'や', 'ち', 'き'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '安',
@@ -15266,7 +15540,9 @@ let arr = [
         furigana: 'いあん',
         meanings: 'solace'
       }
-    ]
+    ],
+    quizAnswersOn: ['そく', 'あん', 'がん', 'きん'],
+    quizAnswersKun: ['あおぎり', 'わた.る', 'そと', 'やす.い']
   },
   {
     kanjiName: '有',
@@ -15372,7 +15648,9 @@ let arr = [
         furigana: 'こうゆう',
         meanings: 'public ownership'
       }
-    ]
+    ],
+    quizAnswersOn: ['ゆう', 'けい', 'さい', 'ゆう'],
+    quizAnswersKun: ['あ.る', 'な.げる', 'やしろ', 'あ.る']
   },
   {
     kanjiName: '死',
@@ -15458,7 +15736,9 @@ let arr = [
         furigana: 'びょうし',
         meanings: 'death from disease'
       }
-    ]
+    ],
+    quizAnswersOn: ['ひょう', 'ざい', 'し', 'ふ'],
+    quizAnswersKun: ['かぜ', 'ひき', '', 'し.ぬ']
   },
   {
     kanjiName: '京',
@@ -15569,7 +15849,9 @@ let arr = [
         furigana: 'なんきん',
         meanings: 'Nanjing (China)'
       }
-    ]
+    ],
+    quizAnswersOn: ['か', 'と', 'こ', 'きょう'],
+    quizAnswersKun: ['しず-', 'みやこ', '', 'い.う']
   },
   {
     kanjiName: '夜',
@@ -15685,7 +15967,9 @@ let arr = [
         furigana: 'つや',
         meanings: 'all-night vigil over a body'
       }
-    ]
+    ],
+    quizAnswersOn: ['こう', 'や', 'ぼう', 'は'],
+    quizAnswersKun: ['へだ.たる', 'よ', 'こめ', 'みが.く']
   },
   {
     kanjiName: '妹',
@@ -15766,7 +16050,9 @@ let arr = [
         furigana: 'ていまい',
         meanings: 'younger brother and sister'
       }
-    ]
+    ],
+    quizAnswersOn: ['せい', 'まい', 'たく', 'し'],
+    quizAnswersKun: ['いもうと', '', 'いのち', 'ほとけ']
   },
   {
     kanjiName: '姉',
@@ -15857,7 +16143,9 @@ let arr = [
         furigana: 'けいし',
         meanings: 'brother and sister'
       }
-    ]
+    ],
+    quizAnswersOn: ['じゅう', 'し', 'けん', 'き'],
+    quizAnswersKun: ['く.う', 'ほ.す', 'あね', 'ひつじ']
   },
   {
     kanjiName: '店',
@@ -15968,7 +16256,9 @@ let arr = [
         furigana: 'どうてん',
         meanings: 'the same store'
       }
-    ]
+    ],
+    quizAnswersOn: ['き', 'い', 'けい', 'てん'],
+    quizAnswersKun: ['わ.く', 'さくら', 'みせ', 'あけ']
   },
   {
     kanjiName: '明',
@@ -16155,7 +16445,9 @@ let arr = [
         furigana: 'ほーちみん',
         meanings: 'Ho Chi Minh (1890-1969)'
       }
-    ]
+    ],
+    quizAnswersOn: ['そ', 'りょ', 'めい', 'かん'],
+    quizAnswersKun: ['あ.かり', 'しず-', 'う.つ', 'しろ']
   },
   {
     kanjiName: '歩',
@@ -16281,7 +16573,9 @@ let arr = [
         furigana: 'にふ',
         meanings: 'dropping two unpromoted pawns on the same file (illegal move)'
       }
-    ]
+    ],
+    quizAnswersOn: ['ほ', 'い', 'にん', 'きん'],
+    quizAnswersKun: ['くるま', 'お.わる', 'つぶ', 'ある.く']
   },
   {
     kanjiName: '画',
@@ -16407,7 +16701,9 @@ let arr = [
         furigana: 'かげえ',
         meanings: 'shadow picture'
       }
-    ]
+    ],
+    quizAnswersOn: ['しゅ', 'せい', 'が', 'らい'],
+    quizAnswersKun: ['えが.く', 'かく.す', 'かわ', 'ことば']
   },
   {
     kanjiName: '知',
@@ -16503,7 +16799,9 @@ let arr = [
         furigana: 'じゅくち',
         meanings: 'being familiar with'
       }
-    ]
+    ],
+    quizAnswersOn: ['さつ', 'ち', 'くん', 'ち'],
+    quizAnswersKun: ['とお.る', 'し.る', '', 'し.まる']
   },
   {
     kanjiName: '室',
@@ -16599,7 +16897,9 @@ let arr = [
         furigana: 'こうしつ',
         meanings: 'Imperial household'
       }
-    ]
+    ],
+    quizAnswersOn: ['てい', 'ば', 'ぎ', 'しつ'],
+    quizAnswersKun: ['かま.える', 'むろ', 'ひび.く', 'しばら.く']
   },
   {
     kanjiName: '思',
@@ -16685,7 +16985,9 @@ let arr = [
         furigana: 'あいし',
         meanings: 'sad feeling'
       }
-    ]
+    ],
+    quizAnswersOn: ['あん', 'し', 'ちん', 'きょう'],
+    quizAnswersKun: ['と.む', 'や.める', 'おも.う', 'う.ける']
   },
   {
     kanjiName: '海',
@@ -16781,7 +17083,9 @@ let arr = [
         furigana: 'ないかい',
         meanings: 'inland sea'
       }
-    ]
+    ],
+    quizAnswersOn: ['かい', 'たい', 'けい', 'かん'],
+    quizAnswersKun: ['な.れる', '', 'こわ.い', 'うみ']
   },
   {
     kanjiName: '茶',
@@ -16877,7 +17181,9 @@ let arr = [
         furigana: 'うたごえきっさ',
         meanings: 'utagoe coffeehouse'
       }
-    ]
+    ],
+    quizAnswersOn: ['せん', 'ちゃ', 'じゅう', 'れい'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '以',
@@ -16963,7 +17269,9 @@ let arr = [
         furigana: 'むらそい',
         meanings: 'spotbelly rockfish (Sebastes pachycephalus)'
       }
-    ]
+    ],
+    quizAnswersOn: ['しょう', 'い', 'かん', 'にん'],
+    quizAnswersKun: ['', 'もっ.て', 'まつ.る', 'あおぎり']
   },
   {
     kanjiName: '夏',
@@ -17080,7 +17388,9 @@ let arr = [
         furigana: 'はんげ',
         meanings: 'crow dipper (Pinellia tuber)'
       }
-    ]
+    ],
+    quizAnswersOn: ['ぎょう', 'しん', 'か', 'しょう'],
+    quizAnswersKun: ['', 'なつ', 'すす.ぐ', 'わた']
   },
   {
     kanjiName: '家',
@@ -17231,7 +17541,9 @@ let arr = [
         furigana: 'くげ',
         meanings: 'court noble'
       }
-    ]
+    ],
+    quizAnswersOn: ['りょう', 'ぜつ', 'か', 'お'],
+    quizAnswersKun: ['わか.れる', 'えだ', 'いえ', 'い.やす']
   },
   {
     kanjiName: '紙',
@@ -17327,7 +17639,9 @@ let arr = [
         furigana: 'せいし',
         meanings: 'papermaking'
       }
-    ]
+    ],
+    quizAnswersOn: ['えい', 'し', 'がい', 'き'],
+    quizAnswersKun: ['いもうと', 'かみ', 'と.ぶ', 'ふ.せる']
   },
   {
     kanjiName: '通',
@@ -17468,7 +17782,9 @@ let arr = [
         furigana: 'つういん',
         meanings: 'going to the hospital for regular treatment'
       }
-    ]
+    ],
+    quizAnswersOn: ['きん', 'きょう', 'じん', 'つう'],
+    quizAnswersKun: ['', 'あら.う', 'とお.る', 'ふ.る']
   },
   {
     kanjiName: '強',
@@ -17589,7 +17905,9 @@ let arr = [
         furigana: 'ごういん',
         meanings: 'overbearing'
       }
-    ]
+    ],
+    quizAnswersOn: ['ろく', 'ぎ', 'こう', 'きょう'],
+    quizAnswersKun: ['', 'つよ.い', 'おおやけ', 'たか.い']
   },
   {
     kanjiName: '教',
@@ -17675,7 +17993,9 @@ let arr = [
         furigana: 'せいきょう',
         meanings: 'orthodoxy'
       }
-    ]
+    ],
+    quizAnswersOn: ['ほう', 'きょう', 'めい', 'きょう'],
+    quizAnswersKun: ['にく.む', 'おど.す', 'おし.える', 'はか.る']
   },
   {
     kanjiName: '理',
@@ -17756,7 +18076,9 @@ let arr = [
         furigana: 'けいり',
         meanings: 'accounting'
       }
-    ]
+    ],
+    quizAnswersOn: ['そう', 'ひ', 'ふ', 'り'],
+    quizAnswersKun: ['', 'ことわり', 'お.いる', 'かんむり']
   },
   {
     kanjiName: '週',
@@ -17832,7 +18154,9 @@ let arr = [
         furigana: 'かくしゅう',
         meanings: 'every other week'
       }
-    ]
+    ],
+    quizAnswersOn: ['こう', 'しゅう', 'たん', 'しゅう'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '魚',
@@ -17943,7 +18267,9 @@ let arr = [
         furigana: 'ちぎょ',
         meanings: 'fry'
       }
-    ]
+    ],
+    quizAnswersOn: ['きょ', 'せん', 'ぎょ', 'ご'],
+    quizAnswersKun: ['とりで', 'うお', 'ひ.く', 'も']
   },
   {
     kanjiName: '鳥',
@@ -18039,7 +18365,9 @@ let arr = [
         furigana: 'あいちょう',
         meanings: 'pet bird'
       }
-    ]
+    ],
+    quizAnswersOn: ['ろん', 'ちょう', 'しゅう', 'きゅう'],
+    quizAnswersKun: ['むね', 'いた.る', 'とり', 'たわむ.れる']
   },
   {
     kanjiName: '黒',
@@ -18141,7 +18469,9 @@ let arr = [
         meanings:
           'second of nine traditional astrological signs (corresponding to Saturn and southwest)'
       }
-    ]
+    ],
+    quizAnswersOn: ['しゅく', 'こく', 'じゅう', 'わく'],
+    quizAnswersKun: ['きざはし', '', 'くろ', 'た.える']
   },
   {
     kanjiName: '住',
@@ -18227,7 +18557,9 @@ let arr = [
         furigana: 'あんじゅう',
         meanings: 'living in peace'
       }
-    ]
+    ],
+    quizAnswersOn: ['かい', 'そう', 'じゅう', 'えい'],
+    quizAnswersKun: ['すえ', 'き', 'す.む', 'さとい']
   },
   {
     kanjiName: '医',
@@ -18313,7 +18645,9 @@ let arr = [
         furigana: 'こうい',
         meanings: 'school doctor'
       }
-    ]
+    ],
+    quizAnswersOn: ['じ', 'はい', 'い', 'らく'],
+    quizAnswersKun: ['と.る', 'なお', 'さる', 'い.やす']
   },
   {
     kanjiName: '究',
@@ -18404,7 +18738,9 @@ let arr = [
         furigana: 'くっきょう',
         meanings: 'after all'
       }
-    ]
+    ],
+    quizAnswersOn: ['じょう', 'ちょう', 'きゅう', 'こう'],
+    quizAnswersKun: ['もっと.も', 'の', 'おおき.い', 'きわ.める']
   },
   {
     kanjiName: '者',
@@ -18495,7 +18831,9 @@ let arr = [
         furigana: 'かがいしゃ',
         meanings: 'perpetrator'
       }
-    ]
+    ],
+    quizAnswersOn: ['ろう', 'そう', 'しゃ', 'ちゅう'],
+    quizAnswersKun: ['むし', 'もの', 'しの.ぶ', 'にわとり']
   },
   {
     kanjiName: '研',
@@ -18576,7 +18914,9 @@ let arr = [
         furigana: 'ぎけん',
         meanings: 'technical research institute'
       }
-    ]
+    ],
+    quizAnswersOn: ['ちょう', 'じ', 'けん', 'い'],
+    quizAnswersKun: ['はら', 'と.ぐ', 'さいわ.い', 'くろがね']
   },
   {
     kanjiName: '場',
@@ -18672,7 +19012,9 @@ let arr = [
         furigana: 'かいじょう',
         meanings: 'opening (the doors of a venue)'
       }
-    ]
+    ],
+    quizAnswersOn: ['けつ', 'いん', 'じょう', 'えい'],
+    quizAnswersKun: ['ひろ.う', 'ば', 'さず.ける', '']
   },
   {
     kanjiName: '朝',
@@ -18768,7 +19110,9 @@ let arr = [
         furigana: 'おうちょう',
         meanings: 'dynasty'
       }
-    ]
+    ],
+    quizAnswersOn: ['きゅう', 'こう', 'ちょう', 'ど'],
+    quizAnswersKun: ['あらかじ.め', 'もり', '', 'あさ']
   },
   {
     kanjiName: '答',
@@ -18859,7 +19203,9 @@ let arr = [
         furigana: 'せいとう',
         meanings: 'correct answer'
       }
-    ]
+    ],
+    quizAnswersOn: ['はい', 'こく', 'ほう', 'とう'],
+    quizAnswersKun: ['かんが.える', 'こた.える', 'ちか.い', 'しるし']
   },
   {
     kanjiName: '買',
@@ -18940,7 +19286,9 @@ let arr = [
         furigana: 'じんしんばいばい',
         meanings: 'slave trade'
       }
-    ]
+    ],
+    quizAnswersOn: ['ばい', 'きょく', 'るい', 'にく'],
+    quizAnswersKun: ['か.う', 'さ.く', 'から', 'てのひら']
   },
   {
     kanjiName: '道',
@@ -19046,7 +19394,9 @@ let arr = [
         furigana: 'ふどう',
         meanings: 'inhuman'
       }
-    ]
+    ],
+    quizAnswersOn: ['べん', 'じゅ', 'どう', 'か'],
+    quizAnswersKun: ['', 'わす.れる', 'ひと', 'みち']
   },
   {
     kanjiName: '楽',
@@ -19162,7 +19512,9 @@ let arr = [
         furigana: 'さるがく',
         meanings: 'sarugaku (form of theatre popular in Japan during the 11th to 14th centuries)'
       }
-    ]
+    ],
+    quizAnswersOn: ['か', 'がく', 'ろう', 'わ'],
+    quizAnswersKun: ['あし', 'かえ.って', 'かさ', 'たの.しい']
   },
   {
     kanjiName: '事',
@@ -19263,7 +19615,9 @@ let arr = [
         furigana: 'ゆうじ',
         meanings: 'emergency'
       }
-    ]
+    ],
+    quizAnswersOn: ['きょう', 'じ', 'は', 'ろう'],
+    quizAnswersKun: ['こと', 'ぜろ', '', 'つつし.む']
   },
   {
     kanjiName: '使',
@@ -19364,7 +19718,9 @@ let arr = [
         furigana: 'じつりょくこうし',
         meanings: 'use of force'
       }
-    ]
+    ],
+    quizAnswersOn: ['よう', 'し', 'しゅ', 'おう'],
+    quizAnswersKun: ['おく.る', 'すばる', 'くさり', 'つか.う']
   },
   {
     kanjiName: '始',
@@ -19450,7 +19806,9 @@ let arr = [
         furigana: 'そうし',
         meanings: 'creation'
       }
-    ]
+    ],
+    quizAnswersOn: ['まつ', 'し', 'れつ', 'し'],
+    quizAnswersKun: ['ふく.らむ', 'はじ.める', '', 'はな']
   },
   {
     kanjiName: '服',
@@ -19526,7 +19884,9 @@ let arr = [
         furigana: 'ごふく',
         meanings: 'cloth (for Japanese clothes)'
       }
-    ]
+    ],
+    quizAnswersOn: ['れい', 'たい', 'ふく', 'かい'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '物',
@@ -19632,7 +19992,9 @@ let arr = [
         furigana: 'へいもつ',
         meanings: 'Shinto offerings'
       }
-    ]
+    ],
+    quizAnswersOn: ['がい', 'ぶつ', 'ひ', 'てい'],
+    quizAnswersKun: ['さ.す', 'もの', 'おか.す', 'きびし.い']
   },
   {
     kanjiName: '屋',
@@ -19728,7 +20090,9 @@ let arr = [
         furigana: 'とうや',
         meanings: 'rooftop structure'
       }
-    ]
+    ],
+    quizAnswersOn: ['おく', 'こく', 'おく', 'じょ'],
+    quizAnswersKun: ['かたよ.る', 'や', 'おや', 'ひのえ']
   },
   {
     kanjiName: '度',
@@ -19844,7 +20208,9 @@ let arr = [
         furigana: 'おくたく',
         meanings: 'guessing'
       }
-    ]
+    ],
+    quizAnswersOn: ['とう', 'のう', 'ど', 'どう'],
+    quizAnswersKun: ['いき', 'たび', 'ようや.く', 'たか.い']
   },
   {
     kanjiName: '待',
@@ -19930,7 +20296,9 @@ let arr = [
         furigana: 'ゆうたい',
         meanings: 'preferential treatment'
       }
-    ]
+    ],
+    quizAnswersOn: ['たい', 'おう', 'ひ', 'ざい'],
+    quizAnswersKun: ['ま.つ', 'われ', 'あきらか', 'あきな.う']
   },
   {
     kanjiName: '持',
@@ -20026,7 +20394,9 @@ let arr = [
         furigana: 'ごじ',
         meanings: 'defend and maintain'
       }
-    ]
+    ],
+    quizAnswersOn: ['し', 'やく', 'じ', 'しん'],
+    quizAnswersKun: ['も.つ', 'しと.やか', 'なえ', 'くも']
   },
   {
     kanjiName: '界',
@@ -20102,7 +20472,9 @@ let arr = [
         furigana: 'けいざいかい',
         meanings: 'economic world'
       }
-    ]
+    ],
+    quizAnswersOn: ['そう', 'とん', 'かい', 'ひ'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '発',
@@ -20211,7 +20583,9 @@ let arr = [
         furigana: 'はつぎ',
         meanings: 'proposal'
       }
-    ]
+    ],
+    quizAnswersOn: ['し', 'はつ', 'ぎゃく', 'ぞう'],
+    quizAnswersKun: ['', 'うま', 'た.つ', 'はさ.む']
   },
   {
     kanjiName: '送',
@@ -20292,7 +20666,9 @@ let arr = [
         furigana: 'いそう',
         meanings: 'transfer'
       }
-    ]
+    ],
+    quizAnswersOn: ['しゅう', 'めん', 'けい', 'そう'],
+    quizAnswersKun: ['おど.す', 'つぐな.う', 'おく.る', 'くすり']
   },
   {
     kanjiName: '重',
@@ -20457,7 +20833,9 @@ let arr = [
         furigana: 'ここのえ',
         meanings: 'ninefold'
       }
-    ]
+    ],
+    quizAnswersOn: ['じゅう', 'たく', 'ち', 'しゅう'],
+    quizAnswersKun: ['みや.び', 'え', 'つ.く', 'ぬま']
   },
   {
     kanjiName: '起',
@@ -20558,7 +20936,9 @@ let arr = [
         furigana: 'けっき',
         meanings: 'rising to action'
       }
-    ]
+    ],
+    quizAnswersOn: ['き', 'でん', 'てつ', 'ら'],
+    quizAnswersKun: ['お.きる', 'つる', 'ふえ', 'さっ.と']
   },
   {
     kanjiName: '院',
@@ -20634,7 +21014,9 @@ let arr = [
         furigana: 'きいん',
         meanings: 'go institution'
       }
-    ]
+    ],
+    quizAnswersOn: ['いん', 'ど', 'じょう', 'らん'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '終',
@@ -20740,7 +21122,9 @@ let arr = [
         furigana: 'さしゅう',
         meanings: 'end of service (esp. of an online server)'
       }
-    ]
+    ],
+    quizAnswersOn: ['さい', 'い', 'そう', 'しゅう'],
+    quizAnswersKun: ['なんじ', 'いた.る', '', 'お.わる']
   },
   {
     kanjiName: '習',
@@ -20851,7 +21235,9 @@ let arr = [
         furigana: 'きんじゅ',
         meanings: 'attendant'
       }
-    ]
+    ],
+    quizAnswersOn: ['しゅう', 'ぎ', 'ご', 'こ'],
+    quizAnswersKun: ['いそが.しい', 'きわ.める', 'かば', 'なら.う']
   },
   {
     kanjiName: '転',
@@ -20981,7 +21367,9 @@ let arr = [
         furigana: 'だいかいてん',
         meanings: 'giant slalom'
       }
-    ]
+    ],
+    quizAnswersOn: ['てん', 'に', 'さい', 'そ'],
+    quizAnswersKun: ['おもむ.ろに', 'きざ.む', '', 'ころ.がる']
   },
   {
     kanjiName: '運',
@@ -21062,7 +21450,9 @@ let arr = [
         furigana: 'めいうん',
         meanings: 'fate'
       }
-    ]
+    ],
+    quizAnswersOn: ['うん', 'こん', 'なん', 'ぜ'],
+    quizAnswersKun: ['おさ.める', 'の.む', 'かがや.く', 'はこ.ぶ']
   },
   {
     kanjiName: '開',
@@ -21168,7 +21558,9 @@ let arr = [
         furigana: 'ひこうかい',
         meanings: 'private'
       }
-    ]
+    ],
+    quizAnswersOn: ['せん', 'ちょう', 'こう', 'かい'],
+    quizAnswersKun: ['ひら.く', 'た.える', 'ぬ.る', 'まり']
   },
   {
     kanjiName: '集',
@@ -21259,7 +21651,9 @@ let arr = [
         furigana: 'かしゅう',
         meanings: 'collection of waka poems'
       }
-    ]
+    ],
+    quizAnswersOn: ['きん', 'えん', 'しん', 'しゅう'],
+    quizAnswersKun: ['あつ.まる', '', 'す.う', 'ひろ.い']
   },
   {
     kanjiName: '飲',
@@ -21355,7 +21749,9 @@ let arr = [
         furigana: 'おんじゅ',
         meanings: 'consumption of alcohol (as prohibited by one of the Buddhist precepts)'
       }
-    ]
+    ],
+    quizAnswersOn: ['しゃ', 'いん', 'ぼう', 'はい'],
+    quizAnswersKun: ['しばら.く', 'の.む', 'き', 'かわ']
   },
   {
     kanjiName: '業',
@@ -21471,7 +21867,9 @@ let arr = [
         furigana: 'しょうごう',
         meanings: 'right action'
       }
-    ]
+    ],
+    quizAnswersOn: ['ぎょう', 'ふく', 'だい', 'こう'],
+    quizAnswersKun: ['わざ', 'おこた.る', 'さ.える', 'さだ.める']
   },
   {
     kanjiName: '漢',
@@ -21547,7 +21945,9 @@ let arr = [
         furigana: 'もんがいかん',
         meanings: 'outsider'
       }
-    ]
+    ],
+    quizAnswersOn: ['かつ', 'そう', 'かん', 'だい'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '歌',
@@ -21653,7 +22053,9 @@ let arr = [
         furigana: 'わか',
         meanings: 'waka'
       }
-    ]
+    ],
+    quizAnswersOn: ['け', 'か', 'こう', 'けい'],
+    quizAnswersKun: ['はらわた', 'わずら.う', 'まゆみ', 'うた']
   },
   {
     kanjiName: '親',
@@ -21759,7 +22161,9 @@ let arr = [
         furigana: 'きんしん',
         meanings: 'near relative'
       }
-    ]
+    ],
+    quizAnswersOn: ['さい', 'しん', 'そう', 'きゅう'],
+    quizAnswersKun: ['', 'つち', 'おや', 'むか.える']
   },
   {
     kanjiName: '病',
@@ -21860,7 +22264,9 @@ let arr = [
         furigana: 'どうびょう',
         meanings: 'the same sickness'
       }
-    ]
+    ],
+    quizAnswersOn: ['てき', 'びょう', 'し', 'よう'],
+    quizAnswersKun: ['つる', '', 'かけはし', 'や.む']
   },
   {
     kanjiName: '別',
@@ -21946,7 +22352,9 @@ let arr = [
         furigana: 'こくべつ',
         meanings: 'farewell'
       }
-    ]
+    ],
+    quizAnswersOn: ['べつ', 'しょう', 'き', 'し'],
+    quizAnswersKun: ['おとうと', 'わか.れる', 'いもうと', 'たま']
   },
   {
     kanjiName: '注',
@@ -22046,7 +22454,9 @@ let arr = [
         furigana: 'とくちゅう',
         meanings: 'special order (goods)'
       }
-    ]
+    ],
+    quizAnswersOn: ['そく', 'こん', 'ちゅう', 'ぶ'],
+    quizAnswersKun: ['かすみ', 'そそ.ぐ', 'み', 'くるま']
   },
   {
     kanjiName: '洋',
@@ -22122,7 +22532,9 @@ let arr = [
         furigana: 'かんたいへいよう',
         meanings: 'Pacific Rim'
       }
-    ]
+    ],
+    quizAnswersOn: ['しゅう', 'よう', 'とう', 'れん'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '特',
@@ -22198,7 +22610,9 @@ let arr = [
         furigana: 'ざいとく',
         meanings: 'Special Permission to Stay in Japan'
       }
-    ]
+    ],
+    quizAnswersOn: ['けい', 'とく', 'かい', 'しゃ'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '意',
@@ -22274,7 +22688,9 @@ let arr = [
         furigana: 'そうい',
         meanings: 'consensus'
       }
-    ]
+    ],
+    quizAnswersOn: ['ぼう', 'ば', 'ぞく', 'い'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '味',
@@ -22375,7 +22791,9 @@ let arr = [
         furigana: 'かみ',
         meanings: 'seasoning'
       }
-    ]
+    ],
+    quizAnswersOn: ['み', 'かん', 'へん', 'けい'],
+    quizAnswersKun: ['さ.す', 'かえり.みる', 'いろど.る', 'あじ']
   },
   {
     kanjiName: '勉',
@@ -22456,7 +22874,9 @@ let arr = [
         furigana: 'のこべん',
         meanings: 'staying behind after school to do private study'
       }
-    ]
+    ],
+    quizAnswersOn: ['べん', 'しゃ', 'ご', 'きょう'],
+    quizAnswersKun: ['まつ', 'あらし', 'つと.める', '']
   },
   {
     kanjiName: '旅',
@@ -22552,7 +22972,9 @@ let arr = [
         furigana: 'しゅうりょ',
         meanings: 'excursion'
       }
-    ]
+    ],
+    quizAnswersOn: ['すい', 'に', 'りょ', 'そう'],
+    quizAnswersKun: ['つたな.い', 'くわ.える', 'たび', 'とら']
   },
   {
     kanjiName: '員',
@@ -22628,7 +23050,9 @@ let arr = [
         furigana: 'しっこういいん',
         meanings: 'executive committee'
       }
-    ]
+    ],
+    quizAnswersOn: ['いん', 'ちょう', 'ばん', 'こう'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '動',
@@ -22719,7 +23143,9 @@ let arr = [
         furigana: 'いどう',
         meanings: '(personnel) change'
       }
-    ]
+    ],
+    quizAnswersOn: ['き', 'ざん', 'どう', 'てき'],
+    quizAnswersKun: ['あずさ', 'うご.く', '', 'くば.る']
   },
   {
     kanjiName: '悪',
@@ -22865,7 +23291,9 @@ let arr = [
         furigana: 'こうお',
         meanings: 'likes and dislikes'
       }
-    ]
+    ],
+    quizAnswersOn: ['とう', 'しん', 'あく', 'お'],
+    quizAnswersKun: ['ただ.し', 'かた', 'わる.い', 'し.る']
   },
   {
     kanjiName: '族',
@@ -22941,7 +23369,9 @@ let arr = [
         furigana: 'おうぞく',
         meanings: 'royalty'
       }
-    ]
+    ],
+    quizAnswersOn: ['しゃ', 'けつ', 'かん', 'ぞく'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '着',
@@ -23057,7 +23487,9 @@ let arr = [
         furigana: 'とんちゃく',
         meanings: 'being concerned about or mindful of'
       }
-    ]
+    ],
+    quizAnswersOn: ['ちょう', 'さい', 'ちゃく', 'まい'],
+    quizAnswersKun: ['いろど.る', 'ひろ.う', '', 'き.る']
   },
   {
     kanjiName: '野',
@@ -23153,7 +23585,9 @@ let arr = [
         furigana: 'ざいや',
         meanings: 'out of office'
       }
-    ]
+    ],
+    quizAnswersOn: ['い', 'せき', 'か', 'や'],
+    quizAnswersKun: ['', 'お.ちる', 'の', 'さ.げる']
   },
   {
     kanjiName: '風',
@@ -23269,7 +23703,9 @@ let arr = [
         furigana: 'はふ',
         meanings: 'gable'
       }
-    ]
+    ],
+    quizAnswersOn: ['お', 'ふう', 'ちょう', 'けい'],
+    quizAnswersKun: ['しめ.す', 'かぜ', 'おそ.う', 'あきらか']
   },
   {
     kanjiName: '新',
@@ -23365,7 +23801,9 @@ let arr = [
         furigana: 'かいしん',
         meanings: 'reformation'
       }
-    ]
+    ],
+    quizAnswersOn: ['しん', 'きょう', 'そく', 'じ'],
+    quizAnswersKun: ['たっと.い', 'あたら.しい', 'とな.える', 'すぐ.れる']
   },
   {
     kanjiName: '問',
@@ -23471,7 +23909,9 @@ let arr = [
         furigana: 'ちょうもん',
         meanings: 'condolence call'
       }
-    ]
+    ],
+    quizAnswersOn: ['とう', 'もん', 'えい', 'たく'],
+    quizAnswersKun: ['もっと.も', 'と.う', 'のり', 'なお']
   },
   {
     kanjiName: '銀',
@@ -23557,7 +23997,9 @@ let arr = [
         furigana: 'すいぎん',
         meanings: 'mercury (Hg)'
       }
-    ]
+    ],
+    quizAnswersOn: ['ねん', 'ぐう', 'ぎん', 'ぞく'],
+    quizAnswersKun: ['', 'はた', 'つま', 'しろがね']
   },
   {
     kanjiName: '題',
@@ -23633,7 +24075,9 @@ let arr = [
         furigana: 'めいだい',
         meanings: 'proposition'
       }
-    ]
+    ],
+    quizAnswersOn: ['くん', 'だい', 'し', 'しょう'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '館',
@@ -23729,7 +24173,9 @@ let arr = [
         furigana: 'こうかん',
         meanings: 'official residence'
       }
-    ]
+    ],
+    quizAnswersOn: ['きょう', 'しょう', 'かん', 'じょう'],
+    quizAnswersKun: ['うかが.う', 'さかん', 'おごそ.か', 'やかた']
   },
   {
     kanjiName: '駅',
@@ -23805,7 +24251,9 @@ let arr = [
         furigana: 'しゅうちゃくえき',
         meanings: 'terminal station'
       }
-    ]
+    ],
+    quizAnswersOn: ['えき', 'きょ', 'たい', 'か'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '料',
@@ -23881,7 +24329,9 @@ let arr = [
         furigana: 'しようりょう',
         meanings: 'use fee'
       }
-    ]
+    ],
+    quizAnswersOn: ['さい', 'はい', 'りょう', 'りん'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '映',
@@ -23972,7 +24422,9 @@ let arr = [
         furigana: 'かいえい',
         meanings: 'beginning of a screening (at a movie theatre)'
       }
-    ]
+    ],
+    quizAnswersOn: ['えい', 'たい', 'けつ', 'ど'],
+    quizAnswersKun: ['', 'く.れる', 'うつ.る', 'くば.る']
   },
   {
     kanjiName: '私',
@@ -24073,7 +24525,9 @@ let arr = [
         furigana: 'めっし',
         meanings: 'selflessness'
       }
-    ]
+    ],
+    quizAnswersOn: ['こう', 'げん', 'し', 'れつ'],
+    quizAnswersKun: ['つぼね', '', 'いと', 'わたくし']
   },
   {
     kanjiName: '帰',
@@ -24159,7 +24613,9 @@ let arr = [
         furigana: 'かいき',
         meanings: 'return (to)'
       }
-    ]
+    ],
+    quizAnswersOn: ['かん', 'せん', 'き', 'しゅう'],
+    quizAnswersKun: ['', 'うら.む', 'よい', 'かえ.る']
   },
   {
     kanjiName: '春',
@@ -24255,7 +24711,9 @@ let arr = [
         furigana: 'ばいしゅん',
         meanings: 'prostitution'
       }
-    ]
+    ],
+    quizAnswersOn: ['ちょう', 'げん', 'しゅん', 'さ'],
+    quizAnswersKun: ['やわ.らか', 'はる', 'まつりごと', '']
   },
   {
     kanjiName: '昼',
@@ -24351,7 +24809,9 @@ let arr = [
         furigana: 'しゅんちゅう',
         meanings: 'spring day (which seems long and quiet)'
       }
-    ]
+    ],
+    quizAnswersOn: ['ちゅう', 'しょう', 'すい', 'ばつ'],
+    quizAnswersKun: ['ひる', 'つち', '', 'あき']
   },
   {
     kanjiName: '秋',
@@ -24457,7 +24917,9 @@ let arr = [
         furigana: 'ちゅうしゅう',
         meanings: '15th day of the 8th lunar month'
       }
-    ]
+    ],
+    quizAnswersOn: ['りく', 'しゅう', 'こう', 'はく'],
+    quizAnswersKun: ['くつ', 'す.む', 'あぶら', 'あき']
   },
   {
     kanjiName: '計',
@@ -24543,7 +25005,9 @@ let arr = [
         furigana: 'すいけい',
         meanings: 'estimate'
       }
-    ]
+    ],
+    quizAnswersOn: ['けい', 'こく', 'たん', 'きん'],
+    quizAnswersKun: ['かわ', 'な.る', 'う.ける', 'はか.る']
   },
   {
     kanjiName: '建',
@@ -24649,7 +25113,9 @@ let arr = [
         furigana: 'さいこん',
         meanings: '(temple or shrine) rebuilding'
       }
-    ]
+    ],
+    quizAnswersOn: ['けん', 'けん', 'ぞう', 'ふん'],
+    quizAnswersKun: ['たえ', 'た.てる', 'その', 'えだ']
   },
   {
     kanjiName: '英',
@@ -24730,7 +25196,9 @@ let arr = [
         furigana: 'わえい',
         meanings: 'Japanese-English'
       }
-    ]
+    ],
+    quizAnswersOn: ['びょう', 'しゅく', 'けん', 'えい'],
+    quizAnswersKun: ['たっと.い', 'ほが.らか', 'おさ.める', 'はなぶさ']
   },
   {
     kanjiName: '飯',
@@ -24826,7 +25294,9 @@ let arr = [
         furigana: 'せきはん',
         meanings: 'red rice (beans and mochi) for auspicious occasions'
       }
-    ]
+    ],
+    quizAnswersOn: ['か', 'たい', 'ひ', 'はん'],
+    quizAnswersKun: ['け', 'めし', 'ほどこ.す', 'まろ']
   },
   {
     kanjiName: '曜',
@@ -24902,7 +25372,9 @@ let arr = [
         furigana: 'すくよう',
         meanings: 'form of astrology based on the Xiuyaojing'
       }
-    ]
+    ],
+    quizAnswersOn: ['ち', 'よう', 'けん', 'しょう'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '品',
@@ -25013,7 +25485,9 @@ let arr = [
         furigana: 'くほん',
         meanings: "nine levels of Amitabha's Pure Land"
       }
-    ]
+    ],
+    quizAnswersOn: ['し', 'せん', 'けい', 'ひん'],
+    quizAnswersKun: ['しな', '', 'の.びる', 'たけ']
   },
   {
     kanjiName: '急',
@@ -25109,7 +25583,9 @@ let arr = [
         furigana: 'かいきゅう',
         meanings: 'rapid express (train)'
       }
-    ]
+    ],
+    quizAnswersOn: ['そう', 'ぶつ', 'れい', 'きゅう'],
+    quizAnswersKun: ['うお', 'な', 'すず', 'いそ.ぐ']
   },
   {
     kanjiName: '真',
@@ -25215,7 +25691,9 @@ let arr = [
         furigana: 'はくしん',
         meanings: 'realistic'
       }
-    ]
+    ],
+    quizAnswersOn: ['しん', 'ぐん', 'さい', 'い'],
+    quizAnswersKun: ['くぼ.む', 'ま', 'くも.る', '']
   },
   {
     kanjiName: '堂',
@@ -25291,7 +25769,9 @@ let arr = [
         furigana: 'ぎじどう',
         meanings: 'assembly hall'
       }
-    ]
+    ],
+    quizAnswersOn: ['りゅう', 'し', 'か', 'どう'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '試',
@@ -25382,7 +25862,9 @@ let arr = [
         furigana: 'こうし',
         meanings: 'test'
       }
-    ]
+    ],
+    quizAnswersOn: ['き', 'こう', 'し', 'はい'],
+    quizAnswersKun: ['こころ.みる', 'おど.す', '', 'ほうむ.る']
   },
   {
     kanjiName: '借',
@@ -25468,7 +25950,9 @@ let arr = [
         furigana: 'ちんたいしゃく',
         meanings: 'renting'
       }
-    ]
+    ],
+    quizAnswersOn: ['', 'しゃく', 'ぼ', 'はい'],
+    quizAnswersKun: ['か.りる', 'の', 'ひさ.しい', 'から.い']
   },
   {
     kanjiName: '験',
@@ -25574,7 +26058,9 @@ let arr = [
         furigana: 'れいげん',
         meanings: 'miraculous efficacy'
       }
-    ]
+    ],
+    quizAnswersOn: ['や', 'けん', 'よう', 'ちん'],
+    quizAnswersKun: ['あかし', 'かた', '', 'かず']
   },
   {
     kanjiName: '質',
@@ -25695,7 +26181,9 @@ let arr = [
         furigana: 'りゅうしち',
         meanings: 'forfeiting a pawned article'
       }
-    ]
+    ],
+    quizAnswersOn: ['おう', 'しつ', 'か', 'きゅう'],
+    quizAnswersKun: ['', 'もと', 'はし', 'たち']
   },
   {
     kanjiName: '貸',
@@ -25776,7 +26264,9 @@ let arr = [
         furigana: 'しゃくたい',
         meanings: 'loan'
       }
-    ]
+    ],
+    quizAnswersOn: ['しょう', 'こう', 'や', 'たい'],
+    quizAnswersKun: ['か.す', 'にしき', 'ひな', 'いきお.い']
   },
   {
     kanjiName: '才',
@@ -25851,7 +26341,9 @@ let arr = [
         furigana: 'えいさい',
         meanings: 'genius'
       }
-    ]
+    ],
+    quizAnswersOn: ['へん', 'しょく', 'し', 'さい'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '王',
@@ -25926,7 +26418,9 @@ let arr = [
         furigana: 'だいおう',
         meanings: 'great king'
       }
-    ]
+    ],
+    quizAnswersOn: ['げん', 'ちょう', 'おう', 'こう'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '石',
@@ -26056,7 +26550,9 @@ let arr = [
         furigana: 'いっこく',
         meanings: 'one koku (measure)'
       }
-    ]
+    ],
+    quizAnswersOn: ['しゅう', 'さん', 'せき', 'たん'],
+    quizAnswersKun: ['かけ.る', 'あらかじ.め', 'いし', 'つと.める']
   },
   {
     kanjiName: '内',
@@ -26171,7 +26667,9 @@ let arr = [
         furigana: 'かいだい',
         meanings: 'the whole country'
       }
-    ]
+    ],
+    quizAnswersOn: ['じゅう', 'ない', 'しょう', 'きょう'],
+    quizAnswersKun: ['', 'うち', 'がら', 'うす.い']
   },
   {
     kanjiName: '太',
@@ -26281,7 +26779,9 @@ let arr = [
         furigana: 'あかはた',
         meanings: 'blacktip grouper (species of fish'
       }
-    ]
+    ],
+    quizAnswersOn: ['たい', 'ご', 'きゅう', 'かん'],
+    quizAnswersKun: ['', 'ふと.い', 'かず', 'たね']
   },
   {
     kanjiName: '引',
@@ -26371,7 +26871,9 @@ let arr = [
         furigana: 'きゅういん',
         meanings: 'absorption'
       }
-    ]
+    ],
+    quizAnswersOn: ['いん', 'き', 'し', 'う'],
+    quizAnswersKun: ['はこ', 'きず', 'かわ.く', 'ひ.く']
   },
   {
     kanjiName: '市',
@@ -26466,7 +26968,9 @@ let arr = [
         furigana: 'でんえんとし',
         meanings: 'garden city'
       }
-    ]
+    ],
+    quizAnswersOn: ['そう', 'げつ', 'はち', 'し'],
+    quizAnswersKun: ['かり', 'ゆび', 'いち', 'つる']
   },
   {
     kanjiName: '他',
@@ -26561,7 +27065,9 @@ let arr = [
         furigana: 'はいた',
         meanings: 'exclusion'
       }
-    ]
+    ],
+    quizAnswersOn: ['もう', 'た', 'りょう', 'じ'],
+    quizAnswersKun: ['おとろ.える', 'さとい', 'ほか', 'ね.る']
   },
   {
     kanjiName: '号',
@@ -26636,7 +27142,9 @@ let arr = [
         furigana: 'ふごう',
         meanings: 'sign'
       }
-    ]
+    ],
+    quizAnswersOn: ['ろく', 'し', 'こう', 'ごう'],
+    quizAnswersKun: ['みや', 'さけ.ぶ', 'か.ける', 'お.す']
   },
   {
     kanjiName: '平',
@@ -26776,7 +27284,9 @@ let arr = [
         furigana: 'ひょうしょう',
         meanings: 'first tone in old Chinese phonetics'
       }
-    ]
+    ],
+    quizAnswersOn: ['へい', 'しゅう', 'こう', 'えん'],
+    quizAnswersKun: ['たい.ら', 'つよ.い', 'はがね', 'した.う']
   },
   {
     kanjiName: '打',
@@ -26876,7 +27386,9 @@ let arr = [
         furigana: 'だーす',
         meanings: 'dozen'
       }
-    ]
+    ],
+    quizAnswersOn: ['だ', 'こん', 'こう', 'りょう'],
+    quizAnswersKun: ['', 'しお', 'う.つ', 'もう.す']
   },
   {
     kanjiName: '申',
@@ -26981,7 +27493,9 @@ let arr = [
         furigana: 'ぐしん',
         meanings: 'offering a full report to a superior'
       }
-    ]
+    ],
+    quizAnswersOn: ['あん', 'しん', 'ぎん', 'しょう'],
+    quizAnswersKun: ['み', '', 'ひる', 'もう.す']
   },
   {
     kanjiName: '礼',
@@ -27077,7 +27591,9 @@ let arr = [
         furigana: 'きみょうちょうらい',
         meanings: 'most formal form of a prayer'
       }
-    ]
+    ],
+    quizAnswersOn: ['どう', 'さん', 'れい', 'ちん'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '耳',
@@ -27172,7 +27688,9 @@ let arr = [
         furigana: 'がいじ',
         meanings: 'external ear'
       }
-    ]
+    ],
+    quizAnswersOn: ['そく', 'じ', 'そう', 'り'],
+    quizAnswersKun: ['ひい.でる', 'きそ.う', 'みみ', 'みかど']
   },
   {
     kanjiName: '交',
@@ -27303,7 +27821,9 @@ let arr = [
         furigana: 'こっこう',
         meanings: 'diplomatic relations'
       }
-    ]
+    ],
+    quizAnswersOn: ['こう', 'はく', 'かん', 'ごう'],
+    quizAnswersKun: ['まじ.わる', 'つき', '', 'お.びる']
   },
   {
     kanjiName: '光',
@@ -27408,7 +27928,9 @@ let arr = [
         furigana: 'はっこう',
         meanings: 'emission (of light)'
       }
-    ]
+    ],
+    quizAnswersOn: ['か', 'こう', 'こう', 'き'],
+    quizAnswersKun: ['うるし', '', 'そ.える', 'ひか.る']
   },
   {
     kanjiName: '回',
@@ -27518,7 +28040,9 @@ let arr = [
         furigana: 'えこうげ',
         meanings: 'closing recital that transfers the merit of the service to a buddha'
       }
-    ]
+    ],
+    quizAnswersOn: ['きん', 'じ', 'かい', 'りょう'],
+    quizAnswersKun: ['まわ.る', 'た.める', 'ゆび', 'おそ.い']
   },
   {
     kanjiName: '当',
@@ -27648,7 +28172,9 @@ let arr = [
         furigana: 'かとう',
         meanings: 'excessive'
       }
-    ]
+    ],
+    quizAnswersOn: ['ま', 'き', 'とう', 'てき'],
+    quizAnswersKun: ['あかつき', '', 'き', 'あ.たる']
   },
   {
     kanjiName: '米',
@@ -27768,7 +28294,9 @@ let arr = [
         furigana: 'はくまい',
         meanings: 'polished rice'
       }
-    ]
+    ],
+    quizAnswersOn: ['じょ', 'ご', 'べい', 'そう'],
+    quizAnswersKun: ['あらわ.す', 'おど.る', 'こめ', 'ほのお']
   },
   {
     kanjiName: '声',
@@ -27883,7 +28411,9 @@ let arr = [
         furigana: 'じょうしょう',
         meanings: 'rising tone (in Chinese)'
       }
-    ]
+    ],
+    quizAnswersOn: ['どう', 'しゅ', 'せい', 'こ'],
+    quizAnswersKun: ['つ.める', 'あゆ', 'こえ', 'く.れる']
   },
   {
     kanjiName: '形',
@@ -28033,7 +28563,9 @@ let arr = [
         furigana: 'おおぎょう',
         meanings: 'exaggerated'
       }
-    ]
+    ],
+    quizAnswersOn: ['けい', 'ちょう', 'りゅう', 'ひん'],
+    quizAnswersKun: ['みち', 'かた', 'おちい.る', 'ま']
   },
   {
     kanjiName: '草',
@@ -28128,7 +28660,9 @@ let arr = [
         furigana: 'きそう',
         meanings: 'drafting (e.g. a bill)'
       }
-    ]
+    ],
+    quizAnswersOn: ['ほう', 'そう', 'しゅん', 'ばく'],
+    quizAnswersKun: ['あきら.か', 'くさ', 'ひな', 'こば.む']
   },
   {
     kanjiName: '化',
@@ -28238,7 +28772,9 @@ let arr = [
         furigana: 'きょうけ',
         meanings: 'guidance'
       }
-    ]
+    ],
+    quizAnswersOn: ['か', 'き', 'きゅう', 'げい'],
+    quizAnswersKun: ['は.ぜる', 'ば.ける', 'おとこ', 'はと']
   },
   {
     kanjiName: '両',
@@ -28313,7 +28849,9 @@ let arr = [
         furigana: 'じゅうりょう',
         meanings: 'second highest division'
       }
-    ]
+    ],
+    quizAnswersOn: ['りょう', 'さ', 'どう', 'ぎょう'],
+    quizAnswersKun: ['くせ', '', 'てる', 'うれ.える']
   },
   {
     kanjiName: '全',
@@ -28408,7 +28946,9 @@ let arr = [
         furigana: 'たいぜん',
         meanings: 'complete collection'
       }
-    ]
+    ],
+    quizAnswersOn: ['かく', 'こ', 'ま', 'ぜん'],
+    quizAnswersKun: ['はやぶさ', 'まった.く', 'おん-', 'やくしょ']
   },
   {
     kanjiName: '向',
@@ -28560,7 +29100,9 @@ let arr = [
         furigana: 'せいこう',
         meanings: 'inclination'
       }
-    ]
+    ],
+    quizAnswersOn: ['ろう', 'こう', 'けい', 'げき'],
+    quizAnswersKun: ['む.く', 'へりくだ.る', '', 'そ.う']
   },
   {
     kanjiName: '曲',
@@ -28662,7 +29204,9 @@ let arr = [
         furigana: 'めいきょく',
         meanings: 'famous piece of music'
       }
-    ]
+    ],
+    quizAnswersOn: ['ちん', 'ふつ', 'きょく', 'さい'],
+    quizAnswersKun: ['にく.む', 'のぞ.く', 'うえ', 'ま.がる']
   },
   {
     kanjiName: '次',
@@ -28782,7 +29326,9 @@ let arr = [
         furigana: 'ろじ',
         meanings: 'way'
       }
-    ]
+    ],
+    quizAnswersOn: ['きゅう', 'じょう', 'しょう', 'じ'],
+    quizAnswersKun: ['くるわ', 'さだ', 'く.ちる', 'つ.ぐ']
   },
   {
     kanjiName: '直',
@@ -28927,7 +29473,9 @@ let arr = [
         furigana: 'じかに',
         meanings: 'directly'
       }
-    ]
+    ],
+    quizAnswersOn: ['しゃ', 'ちょく', 'が', 'い'],
+    quizAnswersKun: ['ただ.ちに', 'さら', 'いこ.い', 'とき']
   },
   {
     kanjiName: '活',
@@ -29017,7 +29565,9 @@ let arr = [
         furigana: 'しゅうかつ',
         meanings: 'job hunting'
       }
-    ]
+    ],
+    quizAnswersOn: ['かつ', 'り', 'まつ', 'ぞく'],
+    quizAnswersKun: ['き.く', 'い.きる', 'し.ぬ', 'し.める']
   },
   {
     kanjiName: '点',
@@ -29122,7 +29672,9 @@ let arr = [
         furigana: 'どうてん',
         meanings: 'same score'
       }
-    ]
+    ],
+    quizAnswersOn: ['き', 'せん', 'てん', 'たん'],
+    quizAnswersKun: ['つ.ける', 'しず-', 'ふし', 'うと.い']
   },
   {
     kanjiName: '科',
@@ -29197,7 +29749,9 @@ let arr = [
         furigana: 'いか',
         meanings: 'medical science'
       }
-    ]
+    ],
+    quizAnswersOn: ['か', 'か', 'い', 'し'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '首',
@@ -29292,7 +29846,9 @@ let arr = [
         furigana: 'ひゃくにんいっしゅ',
         meanings: '(Ogura) Hyakunin Isshu'
       }
-    ]
+    ],
+    quizAnswersOn: ['にゅう', 'てつ', 'しゅ', 'れい'],
+    quizAnswersKun: ['くび', 'たに', 'ゆえ', '']
   },
   {
     kanjiName: '欠',
@@ -29397,7 +29953,9 @@ let arr = [
         furigana: 'あびらうんけん',
         meanings: 'a-bi-ra-un-ken (mantra directed to Vairocana)'
       }
-    ]
+    ],
+    quizAnswersOn: ['けつ', 'きょ', 'かく', 'なん'],
+    quizAnswersKun: ['す.い', 'ば.ける', 'か.ける', '']
   },
   {
     kanjiName: '由',
@@ -29512,7 +30070,9 @@ let arr = [
         furigana: 'ゆいしょある',
         meanings: 'venerable'
       }
-    ]
+    ],
+    quizAnswersOn: ['ゆ', 'ひょう', 'もう', 'しゃく'],
+    quizAnswersKun: ['かが.やく', 'ただ.し', 'よし', 'かど']
   },
   {
     kanjiName: '民',
@@ -29607,7 +30167,9 @@ let arr = [
         furigana: 'こうみん',
         meanings: 'citizen'
       }
-    ]
+    ],
+    quizAnswersOn: ['しん', 'めい', 'みん', 'とう'],
+    quizAnswersKun: ['たみ', 'ひさ.しい', 'うで', 'うし']
   },
   {
     kanjiName: '付',
@@ -29753,7 +30315,9 @@ let arr = [
         furigana: 'かいふ',
         meanings: 'transmitting'
       }
-    ]
+    ],
+    quizAnswersOn: ['せん', 'しん', 'ふ', 'しゃ'],
+    quizAnswersKun: ['けわ.しい', 'ほぼ', 'つ.ける', 'さ.す']
   },
   {
     kanjiName: '失',
@@ -29838,7 +30402,9 @@ let arr = [
         furigana: 'てきしつ',
         meanings: 'error made by the enemy or opposing team'
       }
-    ]
+    ],
+    quizAnswersOn: ['しょく', 'しつ', 'はん', 'い'],
+    quizAnswersKun: ['か.つ', 'きも', 'うしな.う', 'くちすす.ぐ']
   },
   {
     kanjiName: '必',
@@ -29913,7 +30479,9 @@ let arr = [
         furigana: 'ひつじゅ',
         meanings: 'necessary'
       }
-    ]
+    ],
+    quizAnswersOn: ['けん', 'ひつ', 'てん', 'ほ'],
+    quizAnswersKun: ['よ.い', 'かなら.ず', 'やど.る', 'ひいらぎ']
   },
   {
     kanjiName: '未',
@@ -30047,7 +30615,9 @@ let arr = [
         furigana: 'みずのとひつじ',
         meanings: 'Water Sheep (20th term of the sexagenary cycle'
       }
-    ]
+    ],
+    quizAnswersOn: ['み', 'しゅう', 'し', 'きん'],
+    quizAnswersKun: ['いま.だ', 'なこうど', 'かべ', '']
   },
   {
     kanjiName: '末',
@@ -30177,7 +30747,9 @@ let arr = [
         furigana: 'まつえい',
         meanings: 'descendant'
       }
-    ]
+    ],
+    quizAnswersOn: ['かい', 'べん', 'しょう', 'まつ'],
+    quizAnswersKun: ['いくさ', 'すえ', '', 'おか']
   },
   {
     kanjiName: '記',
@@ -30257,7 +30829,9 @@ let arr = [
         furigana: 'さき',
         meanings: 'undermentioned (statement)'
       }
-    ]
+    ],
+    quizAnswersOn: ['ほう', 'き', 'ふ', 'たい'],
+    quizAnswersKun: ['お.す', 'しる.す', 'たす.ける', '']
   },
   {
     kanjiName: '組',
@@ -30366,7 +30940,9 @@ let arr = [
         furigana: 'かいそ',
         meanings: 'reorganization'
       }
-    ]
+    ],
+    quizAnswersOn: ['がん', 'ねん', 'そ', 'じ'],
+    quizAnswersKun: ['すぎ', 'くすり', 'く.む', 'ともえ']
   },
   {
     kanjiName: '船',
@@ -30461,7 +31037,9 @@ let arr = [
         furigana: 'おおぶね',
         meanings: 'large boat'
       }
-    ]
+    ],
+    quizAnswersOn: ['とう', 'せん', 'たん', 'しょう'],
+    quizAnswersKun: ['', 'ただ.す', 'たて', 'ふね']
   },
   {
     kanjiName: '雪',
@@ -30556,7 +31134,9 @@ let arr = [
         furigana: 'ゆうせつ',
         meanings: 'melted snow'
       }
-    ]
+    ],
+    quizAnswersOn: ['き', 'ぼう', 'せつ', 'こう'],
+    quizAnswersKun: ['こ.い', 'やわ.らか', 'ゆき', 'しの.ぐ']
   },
   {
     kanjiName: '支',
@@ -30646,7 +31226,9 @@ let arr = [
         furigana: 'えと',
         meanings: 'sexagenary cycle'
       }
-    ]
+    ],
+    quizAnswersOn: ['しん', 'ねん', 'し', 'けん'],
+    quizAnswersKun: ['よ.る', '', 'たか', 'ささ.える']
   },
   {
     kanjiName: '助',
@@ -30751,7 +31333,9 @@ let arr = [
         furigana: 'かいじょ',
         meanings: 'help'
       }
-    ]
+    ],
+    quizAnswersOn: ['じょ', 'せい', 'てん', 'さつ'],
+    quizAnswersKun: ['やなぎ', 'たす.ける', 'おおき.い', 'あかつき']
   },
   {
     kanjiName: '君',
@@ -30846,7 +31430,9 @@ let arr = [
         furigana: 'めいくん',
         meanings: 'wise ruler'
       }
-    ]
+    ],
+    quizAnswersOn: ['くん', 'む', 'かん', 'れい'],
+    quizAnswersKun: ['さび', 'ぬ.ぐ', 'おも.う', 'きみ']
   },
   {
     kanjiName: '対',
@@ -30951,7 +31537,9 @@ let arr = [
         furigana: 'そうつい',
         meanings: 'duality'
       }
-    ]
+    ],
+    quizAnswersOn: ['かん', 'き', 'ちょう', 'たい'],
+    quizAnswersKun: ['かがみ', 'あいて', 'ひとみ', 'きざ.む']
   },
   {
     kanjiName: '局',
@@ -31055,7 +31643,9 @@ let arr = [
         furigana: 'かいきょく',
         meanings: 'opening (of a broadcasting station'
       }
-    ]
+    ],
+    quizAnswersOn: ['か', 'さい', 'ゆう', 'きょく'],
+    quizAnswersKun: ['', 'むらさき', 'それがし', 'つぼね']
   },
   {
     kanjiName: '役',
@@ -31150,7 +31740,9 @@ let arr = [
         furigana: 'しゅうえき',
         meanings: 'being placed on duty'
       }
-    ]
+    ],
+    quizAnswersOn: ['ばい', 'やく', 'えん', 'じょう'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '投',
@@ -31240,7 +31832,9 @@ let arr = [
         furigana: 'けいとう',
         meanings: 'relieving the (starting) pitcher'
       }
-    ]
+    ],
+    quizAnswersOn: ['とう', 'てん', 'か', 'そ'],
+    quizAnswersKun: ['ふで', 'ひ.く', '', 'な.げる']
   },
   {
     kanjiName: '決',
@@ -31330,7 +31924,9 @@ let arr = [
         furigana: 'きょうこうさいけつ',
         meanings: 'forced passage (of a bill'
       }
-    ]
+    ],
+    quizAnswersOn: ['せい', 'らん', 'けつ', 'ぎ'],
+    quizAnswersKun: ['お.ちる', 'き.める', 'はか.る', 'くび']
   },
   {
     kanjiName: '馬',
@@ -31445,7 +32041,9 @@ let arr = [
         furigana: 'きば',
         meanings: 'horse riding'
       }
-    ]
+    ],
+    quizAnswersOn: ['ば', 'どう', 'かつ', 'けい'],
+    quizAnswersKun: ['いさぎよ.い', 'つち', 'こよみ', 'うま']
   },
   {
     kanjiName: '番',
@@ -31535,7 +32133,9 @@ let arr = [
         furigana: 'はるいちばん',
         meanings: 'first storm of spring'
       }
-    ]
+    ],
+    quizAnswersOn: ['ばん', 'に', 'か', 'せん'],
+    quizAnswersKun: ['つが.い', '', 'いたずら', 'かつら']
   },
   {
     kanjiName: '絵',
@@ -31620,7 +32220,9 @@ let arr = [
         furigana: 'ふみえ',
         meanings: 'fumi-e'
       }
-    ]
+    ],
+    quizAnswersOn: ['かい', 'しょう', 'たい', 'ちょう'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '数',
@@ -31740,7 +32342,9 @@ let arr = [
         furigana: 'しゅーぱい',
         meanings: 'suited tiles'
       }
-    ]
+    ],
+    quizAnswersOn: ['こう', 'かく', 'すう', 'おう'],
+    quizAnswersKun: ['たお.れる', 'あつ.い', 'うし', 'かず']
   },
   {
     kanjiName: '所',
@@ -31875,7 +32479,9 @@ let arr = [
         furigana: 'ずいしょ',
         meanings: 'everywhere'
       }
-    ]
+    ],
+    quizAnswersOn: ['しょ', 'じょう', 'まん', 'こう'],
+    quizAnswersKun: ['ところ', 'つぶ', 'くすり', 'の.ぶ']
   },
   {
     kanjiName: '具',
@@ -31967,7 +32573,9 @@ let arr = [
         furigana: 'かなぐ',
         meanings: 'metal fittings'
       }
-    ]
+    ],
+    quizAnswersOn: ['がく', 'かん', 'そん', 'ぐ'],
+    quizAnswersKun: ['かさ', 'そな.える', 'おく.る', 'よめ']
   },
   {
     kanjiName: '受',
@@ -32052,7 +32660,9 @@ let arr = [
         furigana: 'しゅうじゅ',
         meanings: 'reception'
       }
-    ]
+    ],
+    quizAnswersOn: ['ぎ', 'らん', 'やく', 'じゅ'],
+    quizAnswersKun: ['こと', 'う.ける', 'さ.す', 'おおむ.ね']
   },
   {
     kanjiName: '和',
@@ -32177,7 +32787,9 @@ let arr = [
         furigana: 'かいわ',
         meanings: 'gentle mutual affection'
       }
-    ]
+    ],
+    quizAnswersOn: ['わ', 'だん', 'し', 'じゅく'],
+    quizAnswersKun: ['', 'さいわ.い', 'むつ.まじい', 'やわ.らぐ']
   },
   {
     kanjiName: '定',
@@ -32287,7 +32899,9 @@ let arr = [
         furigana: 'かいてい',
         meanings: 'revision (of a rule'
       }
-    ]
+    ],
+    quizAnswersOn: ['てい', 'そ', 'てん', 'けん'],
+    quizAnswersKun: ['', 'ひるがえ.る', 'さだ.める', 'ま.じる']
   },
   {
     kanjiName: '実',
@@ -32422,7 +33036,9 @@ let arr = [
         furigana: 'こじつ',
         meanings: 'ancient practices'
       }
-    ]
+    ],
+    quizAnswersOn: ['', 'けい', 'ごう', 'じつ'],
+    quizAnswersKun: ['い.る', 'みつ.ぐ', 'み', 'はや.い']
   },
   {
     kanjiName: '泳',
@@ -32502,7 +33118,9 @@ let arr = [
         furigana: 'ちゃくいえい',
         meanings: 'swimming fully-clothed'
       }
-    ]
+    ],
+    quizAnswersOn: ['しゃく', 'いん', 'えい', 'じゅつ'],
+    quizAnswersKun: ['およ.ぐ', '', 'つか.う', 'ふだ']
   },
   {
     kanjiName: '苦',
@@ -32612,7 +33230,9 @@ let arr = [
         furigana: 'びょうく',
         meanings: 'pain of sickness'
       }
-    ]
+    ],
+    quizAnswersOn: ['じん', 'じ', 'こう', 'く'],
+    quizAnswersKun: ['', 'かる.い', 'たてまつ.る', 'くる.しい']
   },
   {
     kanjiName: '表',
@@ -32722,7 +33342,9 @@ let arr = [
         furigana: 'いひょう',
         meanings: 'surprise'
       }
-    ]
+    ],
+    quizAnswersOn: ['しゃ', 'ぶ', 'ひょう', 'れい'],
+    quizAnswersKun: ['つと.める', 'かが.む', 'おもて', 'く.ちる']
   },
   {
     kanjiName: '部',
@@ -32806,7 +33428,9 @@ let arr = [
         furigana: 'とうぶ',
         meanings: 'head'
       }
-    ]
+    ],
+    quizAnswersOn: ['まつ', 'たい', 'ぶ', 'ご'],
+    quizAnswersKun: ['', 'さと', 'おさ.める', '-べ']
   },
   {
     kanjiName: '乗',
@@ -32905,7 +33529,9 @@ let arr = [
         furigana: 'そうじょう',
         meanings: 'multiplication'
       }
-    ]
+    ],
+    quizAnswersOn: ['ほう', 'ばつ', 'じょう', 'しん'],
+    quizAnswersKun: ['ふみ', 'しお', 'の.る', 'まか.せる']
   },
   {
     kanjiName: '客',
@@ -33000,7 +33626,9 @@ let arr = [
         furigana: 'ひんきゃく',
         meanings: 'guest of honour'
       }
-    ]
+    ],
+    quizAnswersOn: ['きゃく', 'はい', 'こう', 'ろう'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '相',
@@ -33105,7 +33733,9 @@ let arr = [
         furigana: 'さいしょう',
         meanings: 'prime minister'
       }
-    ]
+    ],
+    quizAnswersOn: ['こく', 'ほう', 'はく', 'そう'],
+    quizAnswersKun: ['は.る', '', 'うけたまわ.る', 'あい-']
   },
   {
     kanjiName: '美',
@@ -33205,7 +33835,9 @@ let arr = [
         furigana: 'いざなみ',
         meanings: 'Izanami (Shinto goddess)'
       }
-    ]
+    ],
+    quizAnswersOn: ['そく', 'び', 'しょう', 'ぜつ'],
+    quizAnswersKun: ['すえ', '', 'かれ', 'うつく.しい']
   },
   {
     kanjiName: '負',
@@ -33305,7 +33937,9 @@ let arr = [
         furigana: 'ひふ',
         meanings: 'non-negative'
       }
-    ]
+    ],
+    quizAnswersOn: ['む', 'さ', 'こく', 'ふ'],
+    quizAnswersKun: ['ま.ける', 'くちびる', 'ぬし', 'はや.い']
   },
   {
     kanjiName: '談',
@@ -33380,7 +34014,9 @@ let arr = [
         furigana: 'こうだん',
         meanings: 'storytelling (of war chronicles'
       }
-    ]
+    ],
+    quizAnswersOn: ['かん', 'けん', 'へい', 'だん'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '要',
@@ -33470,7 +34106,9 @@ let arr = [
         furigana: 'ほうよう',
         meanings: 'Buddhist memorial service'
       }
-    ]
+    ],
+    quizAnswersOn: ['よう', 'そう', 'へん', 'じ'],
+    quizAnswersKun: ['い.る', 'と.らえる', 'か.ける', 'わら']
   },
   {
     kanjiName: '勝',
@@ -33580,7 +34218,9 @@ let arr = [
         furigana: 'かいしょう',
         meanings: 'sweeping victory'
       }
-    ]
+    ],
+    quizAnswersOn: ['か', 'ちゃく', 'しょう', 'わ'],
+    quizAnswersKun: ['に.げる', '-じ', 'か.つ', 'とお.る']
   },
   {
     kanjiName: '速',
@@ -33670,7 +34310,9 @@ let arr = [
         furigana: 'かいそく',
         meanings: 'high speed'
       }
-    ]
+    ],
+    quizAnswersOn: ['しゃ', 'きく', 'そく', 'せい'],
+    quizAnswersKun: ['はや.い', 'よろこ.ぶ', '', 'しか']
   },
   {
     kanjiName: '配',
@@ -33750,7 +34392,9 @@ let arr = [
         furigana: 'たくはい',
         meanings: 'home delivery'
       }
-    ]
+    ],
+    quizAnswersOn: ['こ', 'さい', 'はい', 'かく'],
+    quizAnswersKun: ['くば.る', 'しるし', 'おどろ.く', 'たが.い']
   },
   {
     kanjiName: '酒',
@@ -33845,7 +34489,9 @@ let arr = [
         furigana: 'せいしゅ',
         meanings: 'refined sake'
       }
-    ]
+    ],
+    quizAnswersOn: ['しゅ', 'ちょう', 'ぎょう', 'ろう'],
+    quizAnswersKun: ['あけ', 'みなもと', 'さけ', 'ひつじ']
   },
   {
     kanjiName: '進',
@@ -33935,7 +34581,9 @@ let arr = [
         furigana: 'るいしん',
         meanings: 'successive promotion'
       }
-    ]
+    ],
+    quizAnswersOn: ['ゆう', 'しつ', 'しん', 'そつ'],
+    quizAnswersKun: ['', 'すす.む', 'しら.げる', 'で.る']
   },
   {
     kanjiName: '落',
@@ -34040,7 +34688,9 @@ let arr = [
         furigana: 'とうらく',
         meanings: 'result (of an election)'
       }
-    ]
+    ],
+    quizAnswersOn: ['しょう', 'こう', 'きゅう', 'らく'],
+    quizAnswersKun: ['まゆずみ', 'お.ちる', 'いずみ', 'あお']
   },
   {
     kanjiName: '葉',
@@ -34145,7 +34795,9 @@ let arr = [
         furigana: 'ぜんとうよう',
         meanings: 'frontal lobe'
       }
-    ]
+    ],
+    quizAnswersOn: ['よう', 'てん', 'わ', 'しょう'],
+    quizAnswersKun: ['でこ', 'は', 'あ.てる', '']
   },
   {
     kanjiName: '路',
@@ -34245,7 +34897,9 @@ let arr = [
         furigana: 'るか',
         meanings: 'St Luke'
       }
-    ]
+    ],
+    quizAnswersOn: ['ろ', 'しゅう', 'れき', 'ふ'],
+    quizAnswersKun: ['きざはし', 'こ.げる', '-じ', 'はだか']
   },
   {
     kanjiName: '鳴',
@@ -34345,7 +34999,9 @@ let arr = [
         furigana: 'あめい',
         meanings: 'frog calling'
       }
-    ]
+    ],
+    quizAnswersOn: ['こう', 'しょう', 'しゃ', 'めい'],
+    quizAnswersKun: ['な.く', 'がら', 'あさひ', 'すみ']
   },
   {
     kanjiName: '横',
@@ -34440,7 +35096,9 @@ let arr = [
         furigana: 'せんおう',
         meanings: 'arbitrariness'
       }
-    ]
+    ],
+    quizAnswersOn: ['おう', 'そん', 'し', 'えき'],
+    quizAnswersKun: ['とばり', 'おのれ', 'ゆた.か', 'よこ']
   },
   {
     kanjiName: '調',
@@ -34556,7 +35214,9 @@ let arr = [
         furigana: 'くうちょう',
         meanings: 'air conditioning'
       }
-    ]
+    ],
+    quizAnswersOn: ['せん', 'ちょう', 'き', 'こう'],
+    quizAnswersKun: ['すず.しい', 'おし.える', 'しら.べる', 'さいわ.い']
   },
   {
     kanjiName: '頭',
@@ -34716,7 +35376,9 @@ let arr = [
         furigana: 'とりかぶと',
         meanings: 'aconite (esp. species Aconitum japonicum)'
       }
-    ]
+    ],
+    quizAnswersOn: ['こう', 'じ', 'る', 'とう'],
+    quizAnswersKun: ['へ.る', 'おさ.める', 'すぐ.れる', 'あたま']
   },
   {
     kanjiName: '顔',
@@ -34811,7 +35473,9 @@ let arr = [
         furigana: 'どうがん',
         meanings: "child's face"
       }
-    ]
+    ],
+    quizAnswersOn: ['かん', 'てい', 'らん', 'がん'],
+    quizAnswersKun: ['の.る', '', 'かお', 'わら']
   },
   {
     kanjiName: '最',
@@ -34886,7 +35550,9 @@ let arr = [
         furigana: 'さいあく',
         meanings: 'worst'
       }
-    ]
+    ],
+    quizAnswersOn: ['さい', 'ふう', 'り', 'けつ'],
+    quizAnswersKun: ['', 'こころ', 'たよ.り', 'もっと.も']
   },
   {
     kanjiName: '争',
@@ -34971,7 +35637,9 @@ let arr = [
         furigana: 'せいそう',
         meanings: 'political strife'
       }
-    ]
+    ],
+    quizAnswersOn: ['しゃく', 'そう', 'ま', 'じょ'],
+    quizAnswersKun: ['したが.う', 'あらそ.う', 'こころ.みる', '']
   },
   {
     kanjiName: '伝',
@@ -35095,7 +35763,9 @@ let arr = [
         furigana: 'てんそう',
         meanings: 'delivering a message to the emperor'
       }
-    ]
+    ],
+    quizAnswersOn: ['き', 'でん', 'ぼう', 'ひょう'],
+    quizAnswersKun: ['', 'つた.わる', 'な', 'むく.いる']
   },
   {
     kanjiName: '共',
@@ -35200,7 +35870,9 @@ let arr = [
         furigana: 'ちゅうきょう',
         meanings: 'Chinese Communist Party'
       }
-    ]
+    ],
+    quizAnswersOn: ['きょう', 'しょう', 'しゅう', 'おつ'],
+    quizAnswersKun: ['つわもの', 'へだ.てる', '', 'とも']
   },
   {
     kanjiName: '好',
@@ -35310,7 +35982,9 @@ let arr = [
         furigana: 'どうこう',
         meanings: 'similar tastes'
       }
-    ]
+    ],
+    quizAnswersOn: ['きん', 'ちょう', 'こう', 'かく'],
+    quizAnswersKun: ['たの.む', 'ちぢ.む', 'すみ', 'この.む']
   },
   {
     kanjiName: '成',
@@ -35415,7 +36089,9 @@ let arr = [
         furigana: 'じょうじゅ',
         meanings: 'fulfillment'
       }
-    ]
+    ],
+    quizAnswersOn: ['ど', 'せい', 'ぼう', 'たん'],
+    quizAnswersKun: ['するど.い', 'な.る', 'あつ.い', '']
   },
   {
     kanjiName: '老',
@@ -35500,7 +36176,9 @@ let arr = [
         furigana: 'けいろう',
         meanings: 'respect for the aged'
       }
-    ]
+    ],
+    quizAnswersOn: ['ご', 'ち', 'よ', 'ろう'],
+    quizAnswersKun: ['あき.らか', 'さいわ.い', 'お.いる', 'やす.んじる']
   },
   {
     kanjiName: '位',
@@ -35605,7 +36283,9 @@ let arr = [
         furigana: 'こうい',
         meanings: 'dignity'
       }
-    ]
+    ],
+    quizAnswersOn: ['い', 'き', 'とん', 'せん'],
+    quizAnswersKun: ['しの.ぶ', 'ぬさ', 'せま.い', 'くらい']
   },
   {
     kanjiName: '初',
@@ -35720,7 +36400,9 @@ let arr = [
         furigana: 'げんしょ',
         meanings: 'origin'
       }
-    ]
+    ],
+    quizAnswersOn: ['しょ', 'おう', 'しゅう', 'ぼう'],
+    quizAnswersKun: ['', 'そら', 'はじ.め', 'な.み']
   },
   {
     kanjiName: '利',
@@ -35800,7 +36482,9 @@ let arr = [
         furigana: 'すいり',
         meanings: 'utilization of water'
       }
-    ]
+    ],
+    quizAnswersOn: ['にゅう', 'りょう', 'り', 'るい'],
+    quizAnswersKun: ['ゆき', 'き.く', 'あまね.く', 'みささぎ']
   },
   {
     kanjiName: '努',
@@ -35870,7 +36554,9 @@ let arr = [
         furigana: 'どりょく',
         meanings: 'effort'
       }
-    ]
+    ],
+    quizAnswersOn: ['ど', 'ちゅう', 'せん', 'じゅう'],
+    quizAnswersKun: ['あぶ.ない', 'つと.める', '', 'た.く']
   },
   {
     kanjiName: '労',
@@ -35975,7 +36661,9 @@ let arr = [
         furigana: 'こうろう',
         meanings: 'meritorious deed'
       }
-    ]
+    ],
+    quizAnswersOn: ['めい', 'ろう', 'しん', 'せい'],
+    quizAnswersKun: ['おそ.う', 'ろう.する', 'と.ける', 'ほ']
   },
   {
     kanjiName: '命',
@@ -36085,7 +36773,9 @@ let arr = [
         furigana: 'あんしんりつめい',
         meanings: 'spiritual peace and enlightenment'
       }
-    ]
+    ],
+    quizAnswersOn: ['し', 'とう', 'きく', 'めい'],
+    quizAnswersKun: ['いのち', 'もっぱ.ら', 'めぐ.る', 'また']
   },
   {
     kanjiName: '放',
@@ -36185,7 +36875,9 @@ let arr = [
         furigana: 'せいかいほう',
         meanings: 'sexual liberation'
       }
-    ]
+    ],
+    quizAnswersOn: ['やく', 'ほう', 'げん', 'しょう'],
+    quizAnswersKun: ['ずきん', 'はな.す', 'た.える', '']
   },
   {
     kanjiName: '昔',
@@ -36280,7 +36972,9 @@ let arr = [
         furigana: 'おうせき',
         meanings: 'ancient times'
       }
-    ]
+    ],
+    quizAnswersOn: ['りん', 'こん', 'せき', 'そう'],
+    quizAnswersKun: ['', 'むかし', 'も', 'ひた.す']
   },
   {
     kanjiName: '育',
@@ -36380,7 +37074,9 @@ let arr = [
         furigana: 'しゃかいきょういく',
         meanings: 'social education'
       }
-    ]
+    ],
+    quizAnswersOn: ['かい', 'しゅう', 'し', 'いく'],
+    quizAnswersKun: ['かなら.ず', 'ふた', 'いま', 'そだ.つ']
   },
   {
     kanjiName: '指',
@@ -36485,7 +37181,9 @@ let arr = [
         furigana: 'しょくし',
         meanings: 'index finger'
       }
-    ]
+    ],
+    quizAnswersOn: ['し', 'かん', 'しょう', 'ぎ'],
+    quizAnswersKun: ['ゆび', 'たま', 'のき', 'ひそ.む']
   },
   {
     kanjiName: '神',
@@ -36600,7 +37298,9 @@ let arr = [
         furigana: 'しゃくじん',
         meanings: 'stone which is worshipped'
       }
-    ]
+    ],
+    quizAnswersOn: ['ない', 'し', 'ふ', 'しん'],
+    quizAnswersKun: ['ぜに', 'ほうき', 'かみ', 'ぬ.る']
   },
   {
     kanjiName: '追',
@@ -36685,7 +37385,9 @@ let arr = [
         furigana: 'もうつい',
         meanings: 'hot pursuit'
       }
-    ]
+    ],
+    quizAnswersOn: ['つい', 'ほう', 'ひょう', 'ゆう'],
+    quizAnswersKun: ['', 'いち', 'あま.る', 'お.う']
   },
   {
     kanjiName: '戦',
@@ -36800,7 +37502,9 @@ let arr = [
         furigana: 'かいせん',
         meanings: 'event with ... rounds'
       }
-    ]
+    ],
+    quizAnswersOn: ['にん', 'とう', 'こ', 'せん'],
+    quizAnswersKun: ['いくさ', 'ひ.く', '', 'さら']
   },
   {
     kanjiName: '良',
@@ -36895,7 +37599,9 @@ let arr = [
         furigana: 'せんりょう',
         meanings: 'member of parliament'
       }
-    ]
+    ],
+    quizAnswersOn: ['ぼう', 'りょう', 'しゅう', 'あい'],
+    quizAnswersKun: ['ほね', 'たか.い', 'よ.い', 'えが.く']
   },
   {
     kanjiName: '便',
@@ -37000,7 +37706,9 @@ let arr = [
         furigana: 'ぞうびん',
         meanings: 'increase in the number of flights'
       }
-    ]
+    ],
+    quizAnswersOn: ['あん', 'べん', 'こう', 'おう'],
+    quizAnswersKun: ['く.れる', 'ひろ.い', '', 'たよ.り']
   },
   {
     kanjiName: '働',
@@ -37070,7 +37778,9 @@ let arr = [
         furigana: 'しゅうどう',
         meanings: 'being employed'
       }
-    ]
+    ],
+    quizAnswersOn: ['どう', 'ほく', 'じょ', 'やく'],
+    quizAnswersKun: ['つつし.む', 'はたら.く', 'ほう', 'お.す']
   },
   {
     kanjiName: '庭',
@@ -37165,7 +37875,9 @@ let arr = [
         furigana: 'えいてい',
         meanings: 'open space within a barracks compound'
       }
-    ]
+    ],
+    quizAnswersOn: ['きゅう', 'てい', 'とく', 'さく'],
+    quizAnswersKun: ['にわ', 'わく', 'ひび.く', '']
   },
   {
     kanjiName: '息',
@@ -37260,7 +37972,9 @@ let arr = [
         furigana: 'しゅうそく',
         meanings: 'cessation'
       }
-    ]
+    ],
+    quizAnswersOn: ['や', 'しょ', 'そく', 'けつ'],
+    quizAnswersKun: ['かて', 'おおとり', 'よ.る', 'いき']
   },
   {
     kanjiName: '流',
@@ -37375,7 +38089,9 @@ let arr = [
         furigana: 'ちゅうる',
         meanings: 'banishment (to a somewhat distant province)'
       }
-    ]
+    ],
+    quizAnswersOn: ['い', 'りゅう', 'せい', 'しょう'],
+    quizAnswersKun: ['したが.う', 'かな.でる', 'ひと-', 'なが.れる']
   },
   {
     kanjiName: '消',
@@ -37460,7 +38176,9 @@ let arr = [
         furigana: 'あいまいせいかいしょう',
         meanings: 'disambiguation'
       }
-    ]
+    ],
+    quizAnswersOn: ['はい', 'しょう', 'み', 'がい'],
+    quizAnswersKun: ['うら', 'うら.む', '', 'き.える']
   },
   {
     kanjiName: '都',
@@ -37565,7 +38283,9 @@ let arr = [
         furigana: 'つごう',
         meanings: 'circumstances'
       }
-    ]
+    ],
+    quizAnswersOn: ['と', 'こう', 'しん', 'しょう'],
+    quizAnswersKun: ['ほとけ', 'ひく.い', 'たの.しい', 'みやこ']
   },
   {
     kanjiName: '商',
@@ -37645,7 +38365,9 @@ let arr = [
         furigana: 'がしょう',
         meanings: 'picture dealer'
       }
-    ]
+    ],
+    quizAnswersOn: ['こう', 'いん', 'しょう', 'い'],
+    quizAnswersKun: ['あきな.う', 'ひび.く', 'くだん', 'つくえ']
   },
   {
     kanjiName: '深',
@@ -37740,7 +38462,9 @@ let arr = [
         furigana: 'さいしん',
         meanings: 'deepest'
       }
-    ]
+    ],
+    quizAnswersOn: ['しん', 'しょく', 'けん', 'なん'],
+    quizAnswersKun: ['おお.う', 'たい.ら', 'ふか.い', 'さむらい']
   },
   {
     kanjiName: '球',
@@ -37835,7 +38559,9 @@ let arr = [
         furigana: 'せいきゅう',
         meanings: "(pitcher's) control"
       }
-    ]
+    ],
+    quizAnswersOn: ['き', 'せつ', 'か', 'きゅう'],
+    quizAnswersKun: ['たま', 'あに', 'つね', '']
   },
   {
     kanjiName: '陽',
@@ -37920,7 +38646,9 @@ let arr = [
         furigana: 'いんよう',
         meanings: 'cosmic dual forces'
       }
-    ]
+    ],
+    quizAnswersOn: ['ろう', 'ひ', 'よう', 'おう'],
+    quizAnswersKun: ['のぼ.る', 'ひ', 'おく.る', 'わか.つ']
   },
   {
     kanjiName: '寒',
@@ -38000,7 +38728,9 @@ let arr = [
         furigana: 'ぼうかん',
         meanings: 'protection against cold'
       }
-    ]
+    ],
+    quizAnswersOn: ['かん', 'は', 'いん', 'きく'],
+    quizAnswersKun: ['お.く', '', 'え', 'さむ.い']
   },
   {
     kanjiName: '悲',
@@ -38095,7 +38825,9 @@ let arr = [
         furigana: 'むじひ',
         meanings: 'merciless'
       }
-    ]
+    ],
+    quizAnswersOn: ['ひ', 'そう', 'ゆう', 'ほ'],
+    quizAnswersKun: ['', 'ほっ.する', 'み.る', 'かな.しい']
   },
   {
     kanjiName: '期',
@@ -38190,7 +38922,9 @@ let arr = [
         furigana: 'ひごうのさいご',
         meanings: 'unnatural death'
       }
-    ]
+    ],
+    quizAnswersOn: ['み', 'き', 'はん', 'こう'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '歯',
@@ -38310,7 +39044,9 @@ let arr = [
         furigana: 'せいし',
         meanings: 'teething'
       }
-    ]
+    ],
+    quizAnswersOn: ['こう', 'とう', 'そう', 'し'],
+    quizAnswersKun: ['よわい', 'しりぞ.ける', 'と.じる', 'ととの.える']
   },
   {
     kanjiName: '港',
@@ -38395,7 +39131,9 @@ let arr = [
         furigana: 'かいこう',
         meanings: 'port'
       }
-    ]
+    ],
+    quizAnswersOn: ['さい', 'やく', 'こう', 'せつ'],
+    quizAnswersKun: ['く.しき', 'よ.う', 'は', 'みなと']
   },
   {
     kanjiName: '登',
@@ -38490,7 +39228,9 @@ let arr = [
         furigana: 'のと',
         meanings: 'Noto (former province located in the north of present-day Ishikawa Prefecture)'
       }
-    ]
+    ],
+    quizAnswersOn: ['よう', 'とう', 'じ', 'とう'],
+    quizAnswersKun: ['のぼ.る', 'かべ', '', 'ばば']
   },
   {
     kanjiName: '亡',
@@ -38605,7 +39345,9 @@ let arr = [
         furigana: 'そんもう',
         meanings: 'loss'
       }
-    ]
+    ],
+    quizAnswersOn: ['たい', 'ぼう', 'たん', 'そう'],
+    quizAnswersKun: ['つ.ける', 'な.い', 'えら.い', '']
   },
   {
     kanjiName: '合',
@@ -38755,7 +39497,9 @@ let arr = [
         furigana: 'かっぱ',
         meanings: 'raincoat'
       }
-    ]
+    ],
+    quizAnswersOn: ['だん', 'せつ', 'こう', 'ごう'],
+    quizAnswersKun: ['から.む', 'あお', 'あ.う', 'えが.く']
   },
   {
     kanjiName: '予',
@@ -38835,7 +39579,9 @@ let arr = [
         furigana: 'しっこうゆうよ',
         meanings: 'stay of execution'
       }
-    ]
+    ],
+    quizAnswersOn: ['よ', 'しゅう', 'せい', 'さつ'],
+    quizAnswersKun: ['あらかじ.め', 'ほ.す', 'かき', '']
   },
   {
     kanjiName: '反',
@@ -38970,7 +39716,9 @@ let arr = [
         furigana: 'ほぐかご',
         meanings: 'wastebasket'
       }
-    ]
+    ],
+    quizAnswersOn: ['はん', 'すい', 'ざい', 'けつ'],
+    quizAnswersKun: ['は.ねる', 'そ.る', '', '-ばら']
   },
   {
     kanjiName: '返',
@@ -39060,7 +39808,9 @@ let arr = [
         furigana: 'おうへん',
         meanings: 'round trip'
       }
-    ]
+    ],
+    quizAnswersOn: ['へん', 'きょう', 'だい', 'がく'],
+    quizAnswersKun: ['かり', '', 'かえ.す', 'あ.る']
   },
   {
     kanjiName: '宿',
@@ -39175,7 +39925,9 @@ let arr = [
         furigana: 'とかきぼし',
         meanings: 'Chinese Legs constellation (one of the 28 mansions)'
       }
-    ]
+    ],
+    quizAnswersOn: ['さい', 'しゅく', 'ぎん', 'こ'],
+    quizAnswersKun: ['やど', 'と.ぐ', 'おそれ', '']
   },
   {
     kanjiName: '想',
@@ -39270,7 +40022,9 @@ let arr = [
         furigana: 'おあいそ',
         meanings: 'compliments'
       }
-    ]
+    ],
+    quizAnswersOn: ['ちょう', 'けん', 'そう', 'ほう'],
+    quizAnswersKun: ['', 'ひだり', 'む.く', 'おも.う']
   },
   {
     kanjiName: '感',
@@ -39345,7 +40099,9 @@ let arr = [
         furigana: 'たいかん',
         meanings: 'bodily sensation'
       }
-    ]
+    ],
+    quizAnswersOn: ['し', 'ちつ', 'かん', 'しゃ'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '暗',
@@ -39440,7 +40196,9 @@ let arr = [
         furigana: 'めいあん',
         meanings: 'gloom'
       }
-    ]
+    ],
+    quizAnswersOn: ['こう', 'まい', 'か', 'あん'],
+    quizAnswersKun: ['は.る', 'ご', 'くら.い', 'あぶら']
   },
   {
     kanjiName: '様',
@@ -39545,7 +40303,9 @@ let arr = [
         furigana: 'いちよう',
         meanings: 'uniform'
       }
-    ]
+    ],
+    quizAnswersOn: ['もう', 'ばく', 'よう', 'ちゅう'],
+    quizAnswersKun: ['いまし.める', 'はた', 'さま', 'たて']
   },
   {
     kanjiName: '福',
@@ -39620,7 +40380,9 @@ let arr = [
         furigana: 'けいふく',
         meanings: 'happy event'
       }
-    ]
+    ],
+    quizAnswersOn: ['とう', 'ふく', 'きん', 'し'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '殺',
@@ -39735,7 +40497,9 @@ let arr = [
         furigana: 'さいせつ',
         meanings: 'Saisetsu'
       }
-    ]
+    ],
+    quizAnswersOn: ['さつ', 'おく', 'し', 'けん'],
+    quizAnswersKun: ['', 'ころ.す', 'たか.い', 'つの.る']
   },
   {
     kanjiName: '然',
@@ -39860,7 +40624,9 @@ let arr = [
         furigana: 'じねん',
         meanings: 'occurring naturally (without human influence)'
       }
-    ]
+    ],
+    quizAnswersOn: ['かん', 'ぜん', 'こう', 'たい'],
+    quizAnswersKun: ['しず.む', 'たわら', 'しか', 'ひちくど.い']
   },
   {
     kanjiName: '熱',
@@ -39945,7 +40711,9 @@ let arr = [
         furigana: 'げねつ',
         meanings: 'lowering a fever'
       }
-    ]
+    ],
+    quizAnswersOn: ['けん', 'ねつ', 'こう', 'が'],
+    quizAnswersKun: ['こた.える', 'あつ.い', '', 'おも']
   },
   {
     kanjiName: '選',
@@ -40040,7 +40808,9 @@ let arr = [
         furigana: 'こうせん',
         meanings: 'public election'
       }
-    ]
+    ],
+    quizAnswersOn: ['きょ', 'ぼく', 'せん', 'ぎょ'],
+    quizAnswersKun: ['お.ちる', 'えら.ぶ', 'すぐ.れる', 'ところ']
   },
   {
     kanjiName: '願',
@@ -40120,7 +40890,9 @@ let arr = [
         furigana: 'きがん',
         meanings: 'prayer (for something)'
       }
-    ]
+    ],
+    quizAnswersOn: ['かつ', 'えつ', 'がん', 'き'],
+    quizAnswersKun: ['え', 'ふみ', '', 'ねが.う']
   },
   {
     kanjiName: '情',
@@ -40220,7 +40992,9 @@ let arr = [
         furigana: 'けいせい',
         meanings: 'beauty'
       }
-    ]
+    ],
+    quizAnswersOn: ['まん', 'しょく', 'じょう', 'くん'],
+    quizAnswersKun: ['やまと', 'たず.ねる', 'なさ.け', 'な']
   },
   {
     kanjiName: '疑',
@@ -40300,7 +41074,9 @@ let arr = [
         furigana: 'かいぎ',
         meanings: 'doubt'
       }
-    ]
+    ],
+    quizAnswersOn: ['ぎ', 'ねん', 'そ', 'こう'],
+    quizAnswersKun: ['', 'うたが.う', 'かた', 'けもの']
   },
   {
     kanjiName: '皆',
@@ -40405,7 +41181,9 @@ let arr = [
         furigana: 'しっかい',
         meanings: 'all'
       }
-    ]
+    ],
+    quizAnswersOn: ['かい', 'が', 'けい', 'おく'],
+    quizAnswersKun: ['はこ.ぶ', 'しお', 'き.く', 'みな']
   },
   {
     kanjiName: '例',
@@ -40490,7 +41268,9 @@ let arr = [
         furigana: 'ていれい',
         meanings: 'regular'
       }
-    ]
+    ],
+    quizAnswersOn: ['れい', 'か', 'さい', 'しょう'],
+    quizAnswersKun: ['か.りる', 'たと.える', '', 'ふじ']
   },
   {
     kanjiName: '参',
@@ -40592,7 +41372,9 @@ let arr = [
         furigana: 'しんし',
         meanings: 'of uneven heights or lengths'
       }
-    ]
+    ],
+    quizAnswersOn: ['さん', 'しょう', 'ぶ', 'わん'],
+    quizAnswersKun: ['まい.る', 'か', 'しず.む', '']
   },
   {
     kanjiName: '完',
@@ -40667,7 +41449,9 @@ let arr = [
         furigana: 'ついかん',
         meanings: 'subsequent completion'
       }
-    ]
+    ],
+    quizAnswersOn: ['たい', 'しゅう', 'かん', 'めい'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '念',
@@ -40742,7 +41526,9 @@ let arr = [
         furigana: 'つうねん',
         meanings: 'common idea'
       }
-    ]
+    ],
+    quizAnswersOn: ['ねん', 'し', 'かい', 'ほ'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '折',
@@ -40862,7 +41648,9 @@ let arr = [
         furigana: 'しゃくぶく',
         meanings: 'preaching down'
       }
-    ]
+    ],
+    quizAnswersOn: ['ろ', 'さい', 'せつ', 'けい'],
+    quizAnswersKun: ['はと', 'こと', 'お-', 'お.る']
   },
   {
     kanjiName: '望',
@@ -40967,7 +41755,9 @@ let arr = [
         furigana: 'しゅくぼう',
         meanings: 'long-cherished desire'
       }
-    ]
+    ],
+    quizAnswersOn: ['ぼう', 'けん', 'たい', 'れい'],
+    quizAnswersKun: ['よ.い', '', 'のぞ.む', 'つち']
   },
   {
     kanjiName: '束',
@@ -41092,7 +41882,9 @@ let arr = [
         furigana: 'くちやくそく',
         meanings: 'verbal promise'
       }
-    ]
+    ],
+    quizAnswersOn: ['そく', 'きん', 'ぼ', 'とう'],
+    quizAnswersKun: ['', 'おさ.める', 'かわ.く', 'たば']
   },
   {
     kanjiName: '残',
@@ -41187,7 +41979,9 @@ let arr = [
         furigana: 'いざん',
         meanings: 'persistence'
       }
-    ]
+    ],
+    quizAnswersOn: ['てつ', 'へん', 'ざん', 'へい'],
+    quizAnswersKun: ['さとい', 'かたど.る', 'あら.ず', 'のこ.る']
   },
   {
     kanjiName: '求',
@@ -41287,7 +42081,9 @@ let arr = [
         furigana: 'ごんぐ',
         meanings: 'earnest aspiration (to go to paradise)'
       }
-    ]
+    ],
+    quizAnswersOn: ['じつ', 'しつ', 'きゅう', 'ばく'],
+    quizAnswersKun: ['た.える', 'は', 'はじ.め', 'もと.める']
   },
   {
     kanjiName: '約',
@@ -41377,7 +42173,9 @@ let arr = [
         furigana: 'せいやく',
         meanings: 'conclusion of a contract'
       }
-    ]
+    ],
+    quizAnswersOn: ['かん', 'き', 'けん', 'やく'],
+    quizAnswersKun: ['つづ.まる', 'しおり', '', 'あが.る']
   },
   {
     kanjiName: '性',
@@ -41477,7 +42275,9 @@ let arr = [
         furigana: 'こりしょう',
         meanings: 'tendency to become totally absorbed in something'
       }
-    ]
+    ],
+    quizAnswersOn: ['せい', 'にち', 'さ', 'けん'],
+    quizAnswersKun: ['さが', 'くく.る', 'かがみ', 'わ.く']
   },
   {
     kanjiName: '格',
@@ -41587,7 +42387,9 @@ let arr = [
         furigana: 'ごうてんじょう',
         meanings: 'coffered ceiling'
       }
-    ]
+    ],
+    quizAnswersOn: ['るい', 'かく', 'けつ', 'き'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '能',
@@ -41682,7 +42484,9 @@ let arr = [
         furigana: 'げいのう',
         meanings: 'public entertainment'
       }
-    ]
+    ],
+    quizAnswersOn: ['とう', 'せい', 'のう', 'はん'],
+    quizAnswersKun: ['ま', 'したが.う', 'よ.く', 'まよ.う']
   },
   {
     kanjiName: '術',
@@ -41777,7 +42581,9 @@ let arr = [
         furigana: 'せんせいじゅつ',
         meanings: 'astrology'
       }
-    ]
+    ],
+    quizAnswersOn: ['きち', 'じゅう', 'じゅつ', 'し'],
+    quizAnswersKun: ['すべ', 'うば.う', 'きさき', 'き.る']
   },
   {
     kanjiName: '晴',
@@ -41872,7 +42678,9 @@ let arr = [
         furigana: 'いんせい',
         meanings: 'unsettled (fine and cloudy) weather'
       }
-    ]
+    ],
+    quizAnswersOn: ['まん', 'せい', 'でい', 'ちょう'],
+    quizAnswersKun: ['は.れる', 'う.える', 'ちち', 'な.み']
   },
   {
     kanjiName: '列',
@@ -41962,7 +42770,9 @@ let arr = [
         furigana: 'かみつれ',
         meanings: 'German chamomile (Matricaria recutita)'
       }
-    ]
+    ],
+    quizAnswersOn: ['しょう', 'き', 'さん', 'れつ'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '式',
@@ -42037,7 +42847,9 @@ let arr = [
         furigana: 'かたしき',
         meanings: 'model (e.g. of a vehicle)'
       }
-    ]
+    ],
+    quizAnswersOn: ['そう', 'けつ', 'ねつ', 'しき'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '信',
@@ -42112,7 +42924,9 @@ let arr = [
         furigana: 'がいしん',
         meanings: 'external communication'
       }
-    ]
+    ],
+    quizAnswersOn: ['へい', 'せつ', 'しん', 'ほん'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '単',
@@ -42202,7 +43016,9 @@ let arr = [
         furigana: 'していたん',
         meanings: 'designated money trust'
       }
-    ]
+    ],
+    quizAnswersOn: ['たん', 'にゅう', 'み', 'せい'],
+    quizAnswersKun: ['ふし', 'ひとえ', 'お', 'もんめ']
   },
   {
     kanjiName: '変',
@@ -42297,7 +43113,9 @@ let arr = [
         furigana: 'いへん',
         meanings: 'unusual event'
       }
-    ]
+    ],
+    quizAnswersOn: ['れい', 'へん', 'まい', 'しゅう'],
+    quizAnswersKun: ['ゆえ', 'か.わる', '', 'くらい']
   },
   {
     kanjiName: '夫',
@@ -42437,7 +43255,9 @@ let arr = [
         furigana: 'うきょうのだいぶ',
         meanings: 'Ukyō no Daibu (title under the ritsuryō system)'
       }
-    ]
+    ],
+    quizAnswersOn: ['かい', 'ふ', 'せん', 'とう'],
+    quizAnswersKun: ['うなが.す', 'な.く', 'おっと', '']
   },
   {
     kanjiName: '昨',
@@ -42512,7 +43332,9 @@ let arr = [
         furigana: 'いっさくさく',
         meanings: 'three (days'
       }
-    ]
+    ],
+    quizAnswersOn: ['じょう', 'たん', 'こ', 'さく'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '法',
@@ -42627,7 +43449,9 @@ let arr = [
         furigana: 'ほけきょう',
         meanings: 'Lotus Sutra'
       }
-    ]
+    ],
+    quizAnswersOn: ['きゅう', 'おう', 'さい', 'ほう'],
+    quizAnswersKun: ['のり', '', 'とりで', 'と.ける']
   },
   {
     kanjiName: '晩',
@@ -42702,7 +43526,9 @@ let arr = [
         furigana: 'おばん',
         meanings: 'evening'
       }
-    ]
+    ],
+    quizAnswersOn: ['ぎ', 'はい', 'らく', 'ばん'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '猫',
@@ -42797,7 +43623,9 @@ let arr = [
         furigana: 'せいびょう',
         meanings: 'adult cat'
       }
-    ]
+    ],
+    quizAnswersOn: ['びょう', 'えん', 'じん', 'こう'],
+    quizAnswersKun: ['なさ.け', 'いが', 'ねこ', 'うしな.う']
   },
   {
     kanjiName: '園',
@@ -42892,7 +43720,9 @@ let arr = [
         furigana: 'れいえん',
         meanings: '(garden) cemetery'
       }
-    ]
+    ],
+    quizAnswersOn: ['ぜつ', 'えん', 'かん', 'しゅん'],
+    quizAnswersKun: ['かたき', 'その', '', 'か.ける']
   },
   {
     kanjiName: '遠',
@@ -42992,7 +43822,9 @@ let arr = [
         furigana: 'くおん',
         meanings: 'eternity'
       }
-    ]
+    ],
+    quizAnswersOn: ['えん', 'てい', 'こう', 'おう'],
+    quizAnswersKun: ['きた', 'とお.い', '', 'おもて']
   },
   {
     kanjiName: '係',
@@ -43097,7 +43929,9 @@ let arr = [
         furigana: 'さんかくかんけい',
         meanings: 'love triangle'
       }
-    ]
+    ],
+    quizAnswersOn: ['じん', 'とつ', 'ふつ', 'けい'],
+    quizAnswersKun: ['おも.んみる', 'かか.る', 'ただ', 'たば']
   },
   {
     kanjiName: '取',
@@ -43224,7 +44058,9 @@ let arr = [
         furigana: 'ちょうしゅ',
         meanings: 'hearing (of a statement'
       }
-    ]
+    ],
+    quizAnswersOn: ['よう', 'きん', 'しゅ', 'べん'],
+    quizAnswersKun: ['', 'やど', 'もり', 'と.る']
   },
   {
     kanjiName: '守',
@@ -43374,7 +44210,9 @@ let arr = [
         furigana: 'いるす',
         meanings: 'pretending to be out'
       }
-    ]
+    ],
+    quizAnswersOn: ['しゅ', 'ほう', 'めい', 'ない'],
+    quizAnswersKun: ['まも.る', '', 'もと', 'うば.う']
   },
   {
     kanjiName: '幸',
@@ -43489,7 +44327,9 @@ let arr = [
         furigana: 'ぎょうき',
         meanings: 'imperial visit'
       }
-    ]
+    ],
+    quizAnswersOn: ['しゃ', 'そう', 'こう', 'こう'],
+    quizAnswersKun: ['', 'たちばな', 'さいわ.い', 'つか.れる']
   },
   {
     kanjiName: '箱',
@@ -43574,7 +44414,9 @@ let arr = [
         furigana: 'しょそう',
         meanings: 'bookcase'
       }
-    ]
+    ],
+    quizAnswersOn: ['そう', 'かく', 'ぞう', 'ふく'],
+    quizAnswersKun: ['はこ', 'う.れる', 'お.す', '']
   },
   {
     kanjiName: '面',
@@ -43699,7 +44541,9 @@ let arr = [
         furigana: 'たいめん',
         meanings: 'meeting face-to-face'
       }
-    ]
+    ],
+    quizAnswersOn: ['れい', 'ぎょ', 'てき', 'めん'],
+    quizAnswersKun: ['はずかし.める', 'おも', 'なが.れる', 'うつ.る']
   },
   {
     kanjiName: '喜',
@@ -43784,7 +44628,9 @@ let arr = [
         furigana: 'ひき',
         meanings: 'joys and sorrows'
       }
-    ]
+    ],
+    quizAnswersOn: ['けい', 'き', 'きゅう', 'じょう'],
+    quizAnswersKun: ['よろこ.ぶ', '', 'すべ.て', 'かえ.る']
   },
   {
     kanjiName: '治',
@@ -43910,7 +44756,9 @@ let arr = [
         furigana: 'ちほうじち',
         meanings: 'local (governmental) autonomy'
       }
-    ]
+    ],
+    quizAnswersOn: ['じ', 'とう', 'れつ', 'しょう'],
+    quizAnswersKun: ['こころ', 'きら.う', 'ひとつ', 'おさ.める']
   },
   {
     kanjiName: '笑',
@@ -44000,7 +44848,9 @@ let arr = [
         furigana: 'れいしょう',
         meanings: 'sneer'
       }
-    ]
+    ],
+    quizAnswersOn: ['しょう', 'ゆう', 'どう', 'けい'],
+    quizAnswersKun: ['わら.う', 'う', 'なに', 'おか']
   },
   {
     kanjiName: '辞',
@@ -44085,7 +44935,9 @@ let arr = [
         furigana: 'しゅうじ',
         meanings: 'figure of speech'
       }
-    ]
+    ],
+    quizAnswersOn: ['しゅ', 'じ', 'そう', 'ぎょう'],
+    quizAnswersKun: ['すく.う', 'や.める', 'すす.める', 'やど.る']
   },
   {
     kanjiName: '関',
@@ -44191,7 +45043,9 @@ let arr = [
         furigana: 'つうかん',
         meanings: 'customs clearance'
       }
-    ]
+    ],
+    quizAnswersOn: ['ゆう', 'らく', 'かん', 'こう'],
+    quizAnswersKun: ['ばっ.する', 'ゆみ', 'せき', 'きよ.い']
   },
   {
     kanjiName: '政',
@@ -44293,7 +45147,9 @@ let arr = [
         furigana: 'せっしょう',
         meanings: 'regency'
       }
-    ]
+    ],
+    quizAnswersOn: ['てき', 'はん', 'せい', 'しゅう'],
+    quizAnswersKun: ['', 'ひら.く', 'まつりごと', 'お.ちる']
   },
   {
     kanjiName: '留',
@@ -44413,7 +45269,9 @@ let arr = [
         furigana: 'やなぎだる',
         meanings: 'The Willow Barrel (collection of Edo-period senryu) (abbr)'
       }
-    ]
+    ],
+    quizAnswersOn: ['しゅん', 'りゅう', 'ぜつ', 'けい'],
+    quizAnswersKun: ['し.く', 'みちび.く', 'さと', 'と.める']
   },
   {
     kanjiName: '険',
@@ -44504,7 +45362,9 @@ let arr = [
         furigana: 'しゃかいほけん',
         meanings: 'social insurance'
       }
-    ]
+    ],
+    quizAnswersOn: ['ほう', 'ぼう', 'けん', 'しょ'],
+    quizAnswersKun: ['くば.る', 'とら', 'けわ.しい', '']
   },
   {
     kanjiName: '危',
@@ -44594,7 +45454,9 @@ let arr = [
         furigana: 'あんき',
         meanings: 'fate'
       }
-    ]
+    ],
+    quizAnswersOn: ['こう', 'きょう', 'き', 'かん'],
+    quizAnswersKun: ['くら', 'あぶ.ない', 'もり', 'くだん']
   },
   {
     kanjiName: '存',
@@ -44694,7 +45556,9 @@ let arr = [
         furigana: 'きょうぞん',
         meanings: 'coexistence'
       }
-    ]
+    ],
+    quizAnswersOn: ['りょう', 'べい', 'ぼ', 'そん'],
+    quizAnswersKun: ['ながら.える', 'すす.む', 'かわ.く', 'はだ']
   },
   {
     kanjiName: '原',
@@ -44798,7 +45662,9 @@ let arr = [
         furigana: 'こうげん',
         meanings: 'antigen'
       }
-    ]
+    ],
+    quizAnswersOn: ['しょう', 'とう', 'げん', 'そう'],
+    quizAnswersKun: ['たから', 'すぎ', 'ふき', 'はら']
   },
   {
     kanjiName: '薬',
@@ -44883,7 +45749,9 @@ let arr = [
         furigana: 'いやく',
         meanings: 'medicine'
       }
-    ]
+    ],
+    quizAnswersOn: ['へい', 'れき', 'ふん', 'やく'],
+    quizAnswersKun: ['こい', 'はか.る', '', 'くすり']
   },
   {
     kanjiName: '側',
@@ -45013,7 +45881,9 @@ let arr = [
         furigana: 'たいそく',
         meanings: 'side of a body'
       }
-    ]
+    ],
+    quizAnswersOn: ['かい', 'き', 'そく', 'かん'],
+    quizAnswersKun: ['とぼ.しい', '', 'あつ.まる', 'かわ']
   },
   {
     kanjiName: '席',
@@ -45098,7 +45968,9 @@ let arr = [
         furigana: 'じせき',
         meanings: 'associate'
       }
-    ]
+    ],
+    quizAnswersOn: ['けん', 'じょう', 'かい', 'せき'],
+    quizAnswersKun: ['ずきん', 'むしろ', 'ふえ', 'つよ.い']
   },
   {
     kanjiName: '敗',
@@ -45178,7 +46050,9 @@ let arr = [
         furigana: 'れいはい',
         meanings: 'losing without scoring'
       }
-    ]
+    ],
+    quizAnswersOn: ['しゅ', 'ち', 'るい', 'はい'],
+    quizAnswersKun: ['', 'つつし.む', 'まる.い', 'やぶ.れる']
   },
   {
     kanjiName: '果',
@@ -45278,7 +46152,9 @@ let arr = [
         furigana: 'けんきゅうけっか',
         meanings: 'results of a scientific investigation'
       }
-    ]
+    ],
+    quizAnswersOn: ['し', 'りょう', 'か', 'う'],
+    quizAnswersKun: ['は.たす', 'たま.う', 'なつ', 'こ.える']
   },
   {
     kanjiName: '因',
@@ -45368,7 +46244,9 @@ let arr = [
         furigana: 'しょういん',
         meanings: 'cause of victory'
       }
-    ]
+    ],
+    quizAnswersOn: ['ぞう', 'ちゅう', 'いん', 'だ'],
+    quizAnswersKun: ['たか.い', 'よ.る', 'わく', 'えり']
   },
   {
     kanjiName: '常',
@@ -45472,7 +46350,9 @@ let arr = [
         furigana: 'けいじょう',
         meanings: 'ordinary'
       }
-    ]
+    ],
+    quizAnswersOn: ['こう', 'じゅん', 'じょう', 'やく'],
+    quizAnswersKun: ['つち', 'すす.む', 'つね', 'かま.える']
   },
   {
     kanjiName: '識',
@@ -45562,7 +46442,9 @@ let arr = [
         furigana: 'もくてきいしき',
         meanings: 'sense of purpose'
       }
-    ]
+    ],
+    quizAnswersOn: ['ぼう', 'り', 'こん', 'しき'],
+    quizAnswersKun: ['あかし', 'あつ.まる', 'し.る', 'さえぎ.る']
   },
   {
     kanjiName: '非',
@@ -45647,7 +46529,9 @@ let arr = [
         furigana: 'りひ',
         meanings: 'right and wrong'
       }
-    ]
+    ],
+    quizAnswersOn: ['か', 'ひ', 'もく', 'らく'],
+    quizAnswersKun: ['みだ.りに', 'あら.ず', '', 'おも.う']
   },
   {
     kanjiName: '官',
@@ -45722,7 +46606,9 @@ let arr = [
         furigana: 'じえいかん',
         meanings: 'Japanese Self-Defense Force official'
       }
-    ]
+    ],
+    quizAnswersOn: ['かん', 'きん', 'よう', 'が'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '察',
@@ -45792,7 +46678,9 @@ let arr = [
         furigana: 'ていさつ',
         meanings: 'scouting'
       }
-    ]
+    ],
+    quizAnswersOn: ['おん', 'さん', 'しょう', 'さつ'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '愛',
@@ -45897,7 +46785,9 @@ let arr = [
         furigana: 'どうせいあい',
         meanings: 'homosexuality'
       }
-    ]
+    ],
+    quizAnswersOn: ['あい', 'ご', 'じょ', 'し'],
+    quizAnswersKun: ['は', 'いと.しい', 'きり', '']
   },
   {
     kanjiName: '警',
@@ -45977,7 +46867,9 @@ let arr = [
         furigana: 'ふけい',
         meanings: 'prefectural police (Osaka or Kyoto)'
       }
-    ]
+    ],
+    quizAnswersOn: ['ひつ', 'じょう', 'ゆ', 'けい'],
+    quizAnswersKun: ['め', 'しぶ', 'かど', 'いまし.める']
   },
   {
     kanjiName: '覚',
@@ -46072,7 +46964,9 @@ let arr = [
         furigana: 'さいかく',
         meanings: 'ready wit'
       }
-    ]
+    ],
+    quizAnswersOn: ['けい', 'ひ', 'かく', 'こん'],
+    quizAnswersKun: ['みなみ', 'おぼ.える', 'き', 'さけ.ぶ']
   },
   {
     kanjiName: '説',
@@ -46162,7 +47056,9 @@ let arr = [
         furigana: 'ぜんこくゆうぜい',
         meanings: 'nationwide election campaign'
       }
-    ]
+    ],
+    quizAnswersOn: ['そう', 'せつ', 'じょう', 'かん'],
+    quizAnswersKun: ['と.く', '', 'ひだり', 'たす.ける']
   },
   {
     kanjiName: '告',
@@ -46242,7 +47138,9 @@ let arr = [
         furigana: 'かいこく',
         meanings: 'admonition'
       }
-    ]
+    ],
+    quizAnswersOn: ['こく', 'しゅん', 'せん', 'ちゅう'],
+    quizAnswersKun: ['やかた', 'た.く', 'まか.り-', 'つ.げる']
   },
   {
     kanjiName: '種',
@@ -46337,7 +47235,9 @@ let arr = [
         furigana: 'ぎょうしゅ',
         meanings: 'type of industry'
       }
-    ]
+    ],
+    quizAnswersOn: ['かん', 'しょう', 'ひ', 'しゅ'],
+    quizAnswersKun: ['つたな.い', 'べに', 'うら', 'たね']
   },
   {
     kanjiName: '達',
@@ -46427,7 +47327,9 @@ let arr = [
         furigana: 'じゅうたんさんそうだ',
         meanings: 'sodium bicarbonate'
       }
-    ]
+    ],
+    quizAnswersOn: ['すい', 'たつ', 'ふん', 'のう'],
+    quizAnswersKun: ['-たち', 'まど.う', '', 'の.む']
   },
   {
     kanjiName: '類',
@@ -46512,7 +47414,9 @@ let arr = [
         furigana: 'ぎょかいるい',
         meanings: 'marine products'
       }
-    ]
+    ],
+    quizAnswersOn: ['るい', 'ほ', 'か', 'えん'],
+    quizAnswersKun: ['か.ねる', 'みどり', 'たい', 'たぐ.い']
   },
   {
     kanjiName: '報',
@@ -46592,7 +47496,9 @@ let arr = [
         furigana: 'ちゅういほう',
         meanings: 'warning (e.g. for a storm)'
       }
-    ]
+    ],
+    quizAnswersOn: ['しゅん', 'ほう', 'げん', 'そく'],
+    quizAnswersKun: ['まき', 'いさぎよ.い', 'むく.いる', 'くさ']
   },
   {
     kanjiName: '等',
@@ -46677,7 +47583,9 @@ let arr = [
         furigana: 'とうとう',
         meanings: 'etc.'
       }
-    ]
+    ],
+    quizAnswersOn: ['う', 'い', 'とう', 'かん'],
+    quizAnswersKun: ['', 'ひと.しい', 'よ', 'まゆずみ']
   },
   {
     kanjiName: '座',
@@ -46757,7 +47665,9 @@ let arr = [
         furigana: 'どうざ',
         meanings: 'sitting together'
       }
-    ]
+    ],
+    quizAnswersOn: ['てい', 'きょ', 'ま', 'ざ'],
+    quizAnswersKun: ['', 'すわ.る', 'にわ', 'はげ.しい']
   },
   {
     kanjiName: '忘',
@@ -46837,7 +47747,9 @@ let arr = [
         furigana: 'びぼう',
         meanings: 'reminder'
       }
-    ]
+    ],
+    quizAnswersOn: ['そん', 'み', 'しょう', 'ぼう'],
+    quizAnswersKun: ['わす.れる', 'つ.ける', 'くろ', 'かす.か']
   },
   {
     kanjiName: '洗',
@@ -46917,7 +47829,9 @@ let arr = [
         furigana: 'はいせん',
         meanings: 'small vessel or bowl in which sake cups are rinsed'
       }
-    ]
+    ],
+    quizAnswersOn: ['しん', 'せん', 'ほう', 'か'],
+    quizAnswersKun: ['あら.う', 'や', 'むな.しい', 'ふえ']
   },
   {
     kanjiName: '許',
@@ -47017,7 +47931,9 @@ let arr = [
         furigana: 'せんばいとっきょ',
         meanings: 'patent'
       }
-    ]
+    ],
+    quizAnswersOn: ['ぞう', 'でん', 'ろく', 'きょ'],
+    quizAnswersKun: ['こ.える', 'しき.りに', 'な', 'ゆる.す']
   },
   {
     kanjiName: '静',
@@ -47142,7 +48058,9 @@ let arr = [
         furigana: 'ねはんじゃくじょう',
         meanings: 'enlightenment leads to serenity'
       }
-    ]
+    ],
+    quizAnswersOn: ['でん', 'てい', 'せい', 'こう'],
+    quizAnswersKun: ['しず-', '', 'つた', 'かわ']
   },
   {
     kanjiName: '煙',
@@ -47247,7 +48165,9 @@ let arr = [
         furigana: 'こくえん',
         meanings: 'black smoke'
       }
-    ]
+    ],
+    quizAnswersOn: ['ぜつ', 'えん', 'ぎ', 'じょ'],
+    quizAnswersKun: ['けむ.る', 'こし', 'と.げる', '']
   },
   {
     kanjiName: '加',
@@ -47332,7 +48252,9 @@ let arr = [
         furigana: 'ばいか',
         meanings: 'doubling'
       }
-    ]
+    ],
+    quizAnswersOn: ['か', 'とう', 'やく', 'ふ'],
+    quizAnswersKun: ['くわ.える', '', 'なし', 'よし']
   },
   {
     kanjiName: '容',
@@ -47412,7 +48334,9 @@ let arr = [
         furigana: 'じゅよう',
         meanings: 'reception'
       }
-    ]
+    ],
+    quizAnswersOn: ['せき', 'ひょう', 'ばい', 'よう'],
+    quizAnswersKun: ['お.ちる', 'さ.す', 'い.れる', 'あた.える']
   },
   {
     kanjiName: '易',
@@ -47523,7 +48447,9 @@ let arr = [
         furigana: 'なんい',
         meanings: '(relative) difficulty'
       }
-    ]
+    ],
+    quizAnswersOn: ['ろく', 'えき', 'しゃ', 'やく'],
+    quizAnswersKun: ['ぬま', 'その', 'やさ.しい', 'これ']
   },
   {
     kanjiName: '財',
@@ -47613,7 +48539,9 @@ let arr = [
         furigana: 'さいふのひもをしめる',
         meanings: 'to tighten the purse strings'
       }
-    ]
+    ],
+    quizAnswersOn: ['ざい', 'けん', 'さん', 'こう'],
+    quizAnswersKun: ['それがし', 'ち', 'たから', 'ひ']
   },
   {
     kanjiName: '若',
@@ -47753,7 +48681,9 @@ let arr = [
         furigana: 'むぎはんにゃ',
         meanings: 'beer'
       }
-    ]
+    ],
+    quizAnswersOn: ['ま', 'こん', 'えい', 'じゃく'],
+    quizAnswersKun: ['いくさ', 'わか.い', 'ひく.い', 'やなぎ']
   },
   {
     kanjiName: '忙',
@@ -47833,7 +48763,9 @@ let arr = [
         furigana: 'はんぼう',
         meanings: 'busy'
       }
-    ]
+    ],
+    quizAnswersOn: ['かん', 'ゆう', 'てん', 'ぼう'],
+    quizAnswersKun: ['いそが.しい', 'たくわ.える', 'わか.る', 'は.れる']
   },
   {
     kanjiName: '徒',
@@ -47940,7 +48872,9 @@ let arr = [
         furigana: 'がくと',
         meanings: 'student'
       }
-    ]
+    ],
+    quizAnswersOn: ['こう', 'と', 'は', 'げん'],
+    quizAnswersKun: ['ね', 'かえり.みる', 'か.つ', 'いたずら']
   },
   {
     kanjiName: '得',
@@ -48042,7 +48976,9 @@ let arr = [
         furigana: 'たいとく',
         meanings: 'mastery'
       }
-    ]
+    ],
+    quizAnswersOn: ['ちょう', 'じゃく', 'せつ', 'とく'],
+    quizAnswersKun: ['え.る', 'くき', 'もう.ける', 'かな.える']
   },
   {
     kanjiName: '続',
@@ -48137,7 +49073,9 @@ let arr = [
         furigana: 'しょくにほんぎ',
         meanings: 'Shoku Nihongi (second of the six classical Japanese history texts)'
       }
-    ]
+    ],
+    quizAnswersOn: ['きょう', 'ぞく', 'よ', 'よう'],
+    quizAnswersKun: ['た.める', 'つづ.く', 'いと', '']
   },
   {
     kanjiName: '連',
@@ -48227,7 +49165,9 @@ let arr = [
         furigana: 'じょうれん',
         meanings: 'regular customer'
       }
-    ]
+    ],
+    quizAnswersOn: ['りん', 'ち', 'そう', 'れん'],
+    quizAnswersKun: ['まし.て', 'いど.む', 'つら.なる', 'は.く']
   },
   {
     kanjiName: '困',
@@ -48307,7 +49247,9 @@ let arr = [
         furigana: 'ぜったいてきひんこん',
         meanings: 'absolute poverty'
       }
-    ]
+    ],
+    quizAnswersOn: ['かい', 'ふ', 'き', 'こん'],
+    quizAnswersKun: ['', 'き.く', 'こま.る', 'すじ']
   },
   {
     kanjiName: '機',
@@ -48406,7 +49348,9 @@ let arr = [
         furigana: 'ゆうき',
         meanings: 'organic'
       }
-    ]
+    ],
+    quizAnswersOn: ['き', 'じゅん', 'とう', 'たん'],
+    quizAnswersKun: ['ば.ける', 'なんじ', 'たぐ.い', 'はた']
   },
   {
     kanjiName: '飛',
@@ -48496,7 +49440,9 @@ let arr = [
         furigana: 'ちゅうひ',
         meanings: 'center fly'
       }
-    ]
+    ],
+    quizAnswersOn: ['やく', 'あく', 'ひ', 'こう'],
+    quizAnswersKun: ['と.ぶ', 'もろ', 'えら.い', 'あらが.う']
   },
   {
     kanjiName: '害',
@@ -48571,7 +49517,9 @@ let arr = [
         furigana: 'しょうがい',
         meanings: 'injury'
       }
-    ]
+    ],
+    quizAnswersOn: ['しゅう', 'がい', 'なん', 'わ'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '余',
@@ -48681,7 +49629,9 @@ let arr = [
         furigana: 'きゅうよ',
         meanings: 'extremity'
       }
-    ]
+    ],
+    quizAnswersOn: ['せん', 'ろう', 'よ', 'ちょう'],
+    quizAnswersKun: ['みにく.い', 'まも.る', 'あじ', 'あま.る']
   },
   {
     kanjiName: '難',
@@ -48776,7 +49726,9 @@ let arr = [
         furigana: 'かいなん',
         meanings: 'accident at sea'
       }
-    ]
+    ],
+    quizAnswersOn: ['ちん', 'めい', 'しょ', 'なん'],
+    quizAnswersKun: ['かた.い', 'そ.める', 'おご.る', '']
   },
   {
     kanjiName: '確',
@@ -48866,7 +49818,9 @@ let arr = [
         furigana: 'せいかく',
         meanings: 'detailed and accurate'
       }
-    ]
+    ],
+    quizAnswersOn: ['かく', 'きょう', 'かい', 'ぎゃく'],
+    quizAnswersKun: ['へ.る', 'たし.か', 'あさ', 'おく.れる']
   },
   {
     kanjiName: '在',
@@ -48951,7 +49905,9 @@ let arr = [
         furigana: 'かいざい',
         meanings: 'existing (between)'
       }
-    ]
+    ],
+    quizAnswersOn: ['しょう', 'ざい', 'ふ', 'こう'],
+    quizAnswersKun: ['', 'みと.める', 'まち', 'あ.る']
   },
   {
     kanjiName: '夢',
@@ -49051,7 +50007,9 @@ let arr = [
         furigana: 'かいむ',
         meanings: 'strange dream'
       }
-    ]
+    ],
+    quizAnswersOn: ['む', 'ひつ', 'はん', 'しゅう'],
+    quizAnswersKun: ['きみ', 'むね', 'しの.ぐ', 'ゆめ']
   },
   {
     kanjiName: '産',
@@ -49146,7 +50104,9 @@ let arr = [
         furigana: 'すいさん',
         meanings: 'aquatic products'
       }
-    ]
+    ],
+    quizAnswersOn: ['さん', 'お', 'せつ', 'きゅう'],
+    quizAnswersKun: ['の', 'や.む', 'しぼ.る', 'う.む']
   },
   {
     kanjiName: '倒',
@@ -49256,7 +50216,9 @@ let arr = [
         furigana: 'ふうとう',
         meanings: 'falling due to a strong wind'
       }
-    ]
+    ],
+    quizAnswersOn: ['ゆい', 'とう', 'けい', 'ちょ'],
+    quizAnswersKun: ['へ.る', '', 'ひら.く', 'たお.れる']
   },
   {
     kanjiName: '妻',
@@ -49351,7 +50313,9 @@ let arr = [
         furigana: 'ごさい',
         meanings: 'second wife'
       }
-    ]
+    ],
+    quizAnswersOn: ['れき', 'し', 'さい', 'らく'],
+    quizAnswersKun: ['ひと.しい', 'たま', 'しし', 'つま']
   },
   {
     kanjiName: '議',
@@ -49426,7 +50390,9 @@ let arr = [
         furigana: 'にほんがくじゅつかいぎ',
         meanings: 'Science Council of Japan'
       }
-    ]
+    ],
+    quizAnswersOn: ['ちょう', 'らく', 'ぎ', 'りょう'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '犯',
@@ -49516,7 +50482,9 @@ let arr = [
         furigana: 'じゅうはん',
         meanings: 'felony'
       }
-    ]
+    ],
+    quizAnswersOn: ['はん', 'おう', 'じゅ', 'きょ'],
+    quizAnswersKun: ['いこ.い', 'おか.す', 'たきぎ', 'つぼ']
   },
   {
     kanjiName: '罪',
@@ -49611,7 +50579,9 @@ let arr = [
         furigana: 'こうざい',
         meanings: 'merits and demerits'
       }
-    ]
+    ],
+    quizAnswersOn: ['じゅ', 'こう', 'とう', 'ざい'],
+    quizAnswersKun: ['', 'つみ', 'と.める', 'てのひら']
   },
   {
     kanjiName: '論',
@@ -49691,7 +50661,9 @@ let arr = [
         furigana: 'たいろん',
         meanings: 'arguing face to face'
       }
-    ]
+    ],
+    quizAnswersOn: ['ろん', 'ゆう', 'かい', 'か'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '経',
@@ -49811,7 +50783,9 @@ let arr = [
         furigana: 'かんきん',
         meanings: 'silent furigana of the sutras'
       }
-    ]
+    ],
+    quizAnswersOn: ['けい', 'せい', 'ゆ', 'ぐう'],
+    quizAnswersKun: ['', 'へ.る', 'つつ.む', 'てすり']
   },
   {
     kanjiName: '済',
@@ -49929,7 +50903,9 @@ let arr = [
         furigana: 'せいび',
         meanings: 'achieving virtue'
       }
-    ]
+    ],
+    quizAnswersOn: ['い', 'さい', 'しゅ', 'き'],
+    quizAnswersKun: ['す.む', 'うた.う', 'わた', 'あたい']
   },
   {
     kanjiName: '判',
@@ -50024,7 +51000,9 @@ let arr = [
         furigana: 'おおばん',
         meanings: 'large size (paper'
       }
-    ]
+    ],
+    quizAnswersOn: ['きょ', 'や', 'ま', 'はん'],
+    quizAnswersKun: ['しも', 'わか.る', 'いのち', 'ほのお']
   },
   {
     kanjiName: '制',
@@ -50099,7 +51077,9 @@ let arr = [
         furigana: 'ていせい',
         meanings: 'imperial government'
       }
-    ]
+    ],
+    quizAnswersOn: ['せい', 'か', 'しん', 'えん'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '務',
@@ -50179,7 +51159,9 @@ let arr = [
         furigana: 'がいむ',
         meanings: 'foreign affairs'
       }
-    ]
+    ],
+    quizAnswersOn: ['しつ', 'ぜん', 'し', 'む'],
+    quizAnswersKun: ['ふね', 'つと.める', 'かわ', 'や']
   },
   {
     kanjiName: '資',
@@ -50262,7 +51244,9 @@ let arr = [
         furigana: 'がいし',
         meanings: 'foreign capital (e.g. in a company)'
       }
-    ]
+    ],
+    quizAnswersOn: ['はい', 'のう', 'しゅう', 'し'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '権',
@@ -50353,7 +51337,9 @@ let arr = [
         furigana: 'ごんぐうじ',
         meanings: 'associate chief priest'
       }
-    ]
+    ],
+    quizAnswersOn: ['けん', 'しゅ', 'ひん', 'はん'],
+    quizAnswersKun: ['おもり', 'み.る', 'すで.に', 'きも']
   },
   {
     kanjiName: '件',
@@ -50433,7 +51419,9 @@ let arr = [
         furigana: 'ようけん',
         meanings: 'important matter'
       }
-    ]
+    ],
+    quizAnswersOn: ['じゅ', 'けん', 'がん', 'さい'],
+    quizAnswersKun: ['ゆう', 'くだん', 'すな', '']
   },
   {
     kanjiName: '断',
@@ -50534,7 +51522,9 @@ let arr = [
         furigana: 'じゅうだん',
         meanings: 'running through (north-south)'
       }
-    ]
+    ],
+    quizAnswersOn: ['し', 'み', 'とく', 'だん'],
+    quizAnswersKun: ['つむ.ぐ', 'おく.る', 'た.つ', '']
   },
   {
     kanjiName: '任',
@@ -50619,7 +51609,9 @@ let arr = [
         furigana: 'ざいにん',
         meanings: 'being in office'
       }
-    ]
+    ],
+    quizAnswersOn: ['ま', 'こく', 'こう', 'にん'],
+    quizAnswersKun: ['', 'か', 'まか.せる', 'つい.やす']
   },
   {
     kanjiName: '責',
@@ -50699,7 +51691,9 @@ let arr = [
         furigana: 'いんせき',
         meanings: 'taking responsibility'
       }
-    ]
+    ],
+    quizAnswersOn: ['せき', 'きん', 'てん', 'じょ'],
+    quizAnswersKun: ['しか', 'い.る', 'せ.める', 'むかし']
   },
   {
     kanjiName: '増',
@@ -50804,7 +51798,9 @@ let arr = [
         furigana: 'るいぞう',
         meanings: 'successive or progressive increases'
       }
-    ]
+    ],
+    quizAnswersOn: ['ぞう', 'ち', 'げん', 'じょ'],
+    quizAnswersKun: ['え', 'さか.える', 'はか.る', 'ま.す']
   },
   {
     kanjiName: '解',
@@ -50953,7 +51949,9 @@ let arr = [
         furigana: 'ぎげ',
         meanings: 'explanation (of the meaning)'
       }
-    ]
+    ],
+    quizAnswersOn: ['しょう', 'げん', 'ぼう', 'かい'],
+    quizAnswersKun: ['やど.る', 'かた', 'お.く', 'と.く']
   },
   {
     kanjiName: '際',
@@ -51053,7 +52051,9 @@ let arr = [
         furigana: 'えんじょこうさい',
         meanings: 'paid dating (esp. with an underage girl; oft. involving selling of sex)'
       }
-    ]
+    ],
+    quizAnswersOn: ['さい', 'ちょう', 'けつ', 'ぶん'],
+    quizAnswersKun: ['おか', 'きわ', 'よわい', 'よ.ぶ']
   },
   {
     kanjiName: '認',
@@ -51138,7 +52138,9 @@ let arr = [
         furigana: 'ついにん',
         meanings: 'ratification'
       }
-    ]
+    ],
+    quizAnswersOn: ['よう', 'ごう', 'き', 'にん'],
+    quizAnswersKun: ['はだ', '', 'みと.める', 'ま.く']
   },
   {
     kanjiName: '過',
@@ -51249,7 +52251,9 @@ let arr = [
         furigana: 'ゆしゅつちょうか',
         meanings: 'excess of exports'
       }
-    ]
+    ],
+    quizAnswersOn: ['りん', 'しゅう', 'か', 'ぎゅう'],
+    quizAnswersKun: ['よろ.しい', 'ね', '', 'す.ぎる']
   },
   {
     kanjiName: '寝',
@@ -51329,7 +52333,9 @@ let arr = [
         furigana: 'しんぐ',
         meanings: 'bedding'
       }
-    ]
+    ],
+    quizAnswersOn: ['き', 'だん', 'しん', 'ちゅう'],
+    quizAnswersKun: ['ほこ.る', 'はし', 'ね.る', 'ほうむ.る']
   },
   {
     kanjiName: '置',
@@ -51409,7 +52415,9 @@ let arr = [
         furigana: 'とうち',
         meanings: 'turning upside down'
       }
-    ]
+    ],
+    quizAnswersOn: ['ち', 'きょ', 'しゅう', 'さつ'],
+    quizAnswersKun: ['', 'お.く', 'と.ける', 'あら.う']
   },
   {
     kanjiName: '費',
@@ -51494,7 +52502,9 @@ let arr = [
         furigana: 'こうさいひ',
         meanings: 'entertainment expenses'
       }
-    ]
+    ],
+    quizAnswersOn: ['れい', 'しょう', 'こ', 'ひ'],
+    quizAnswersKun: ['かげ', 'ひ', 'つい.やす', 'こ.える']
   },
   {
     kanjiName: '示',
@@ -51599,7 +52609,9 @@ let arr = [
         furigana: 'ないじ',
         meanings: 'unofficial announcement'
       }
-    ]
+    ],
+    quizAnswersOn: ['か', 'ちゅう', 'でい', 'じ'],
+    quizAnswersKun: ['とり', 'まこと', 'しめ.す', 'いつわ.る']
   },
   {
     kanjiName: '観',
@@ -51679,7 +52691,9 @@ let arr = [
         furigana: 'せいかん',
         meanings: 'watchful waiting'
       }
-    ]
+    ],
+    quizAnswersOn: ['かん', 'こう', 'ゆう', 'えん'],
+    quizAnswersKun: ['そそ.る', 'かめ', 'み.る', '']
   },
   {
     kanjiName: '値',
@@ -51789,7 +52803,9 @@ let arr = [
         furigana: 'いきち',
         meanings: 'threshold (amount'
       }
-    ]
+    ],
+    quizAnswersOn: ['しん', 'ばく', 'ち', 'こう'],
+    quizAnswersKun: ['ね', 'ごと.し', 'きわ.める', 'くすり']
   },
   {
     kanjiName: '吸',
@@ -51869,7 +52885,9 @@ let arr = [
         furigana: 'がいこきゅう',
         meanings: 'external respiration'
       }
-    ]
+    ],
+    quizAnswersOn: ['かい', 'きょう', 'こう', 'きゅう'],
+    quizAnswersKun: ['あけ', 'あたま', '', 'す.う']
   },
   {
     kanjiName: '状',
@@ -51944,7 +52962,9 @@ let arr = [
         furigana: 'けいじょう',
         meanings: 'shape'
       }
-    ]
+    ],
+    quizAnswersOn: ['なつ', 'じょう', 'いん', 'のう'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '収',
@@ -52029,7 +53049,9 @@ let arr = [
         furigana: 'ぞうしゅう',
         meanings: 'increase in yield'
       }
-    ]
+    ],
+    quizAnswersOn: ['ほう', 'こう', 'ゆ', 'しゅう'],
+    quizAnswersKun: ['おさ.める', 'しと.やか', 'ね.る', '']
   },
   {
     kanjiName: '職',
@@ -52114,7 +53136,9 @@ let arr = [
         furigana: 'ゆうしょく',
         meanings: 'holding a job'
       }
-    ]
+    ],
+    quizAnswersOn: ['しょく', 'えん', 'かん', 'き'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '規',
@@ -52189,7 +53213,9 @@ let arr = [
         furigana: 'せいき',
         meanings: 'regular'
       }
-    ]
+    ],
+    quizAnswersOn: ['ゆう', 'しつ', 'き', 'じん'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '割',
@@ -52319,7 +53345,9 @@ let arr = [
         furigana: 'とうかつ',
         meanings: 'equal cleavage (embryology)'
       }
-    ]
+    ],
+    quizAnswersOn: ['かん', 'いん', 'せん', 'かつ'],
+    quizAnswersKun: ['うつわ', '', 'ち.る', 'わ.る']
   },
   {
     kanjiName: '演',
@@ -52394,7 +53422,9 @@ let arr = [
         furigana: 'さいえん',
         meanings: 'another showing (of a play)'
       }
-    ]
+    ],
+    quizAnswersOn: ['ばい', 'とう', 'えん', 'さく'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '師',
@@ -52469,7 +53499,9 @@ let arr = [
         furigana: 'しかいし',
         meanings: 'dentist'
       }
-    ]
+    ],
+    quizAnswersOn: ['じ', 'ばつ', 'し', 'よく'],
+    quizAnswersKun: ['ひく.い', 'いくさ', 'あら.う', 'う']
   },
   {
     kanjiName: '備',
@@ -52559,7 +53591,9 @@ let arr = [
         furigana: 'むぼうび',
         meanings: 'defenseless'
       }
-    ]
+    ],
+    quizAnswersOn: ['こう', 'び', 'せん', 'ぜん'],
+    quizAnswersKun: ['やしな.う', 'そな.える', 'みみ', 'はらわた']
   },
   {
     kanjiName: '優',
@@ -52679,7 +53713,9 @@ let arr = [
         furigana: 'かいゆう',
         meanings: 'actor or performer with fascinating acting and appearance'
       }
-    ]
+    ],
+    quizAnswersOn: ['こう', 'ゆう', 'のう', 'けん'],
+    quizAnswersKun: ['おど.す', 'きざ.す', 'やさ.しい', 'たま']
   },
   {
     kanjiName: '宅',
@@ -52754,7 +53790,9 @@ let arr = [
         furigana: 'かたく',
         meanings: 'domicile'
       }
-    ]
+    ],
+    quizAnswersOn: ['こう', 'たく', 'ぎ', 'く'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '現',
@@ -52859,7 +53897,9 @@ let arr = [
         furigana: 'たいげん',
         meanings: 'personification'
       }
-    ]
+    ],
+    quizAnswersOn: ['げん', 'し', 'けん', 'げん'],
+    quizAnswersKun: ['あらわ.れる', 'ひるがえ.る', '', 'こい']
   },
   {
     kanjiName: '呼',
@@ -52944,7 +53984,9 @@ let arr = [
         furigana: 'てんこ',
         meanings: 'roll-call'
       }
-    ]
+    ],
+    quizAnswersOn: ['よう', 'こ', 'じゅ', 'し'],
+    quizAnswersKun: ['たび', 'よ.ぶ', 'ひと.しい', '']
   },
   {
     kanjiName: '違',
@@ -53054,7 +54096,9 @@ let arr = [
         furigana: 'ひい',
         meanings: 'illegality'
       }
-    ]
+    ],
+    quizAnswersOn: ['てい', 'い', 'ふう', 'そく'],
+    quizAnswersKun: ['かがや.く', 'のっと.る', 'ちが.う', 'あき']
   },
   {
     kanjiName: '差',
@@ -53154,7 +54198,9 @@ let arr = [
         furigana: 'ちんぎんかくさ',
         meanings: 'pay gap'
       }
-    ]
+    ],
+    quizAnswersOn: ['しゅう', 'きつ', 'ぼう', 'さ'],
+    quizAnswersKun: ['と.る', '', 'たて', 'さ.す']
   },
   {
     kanjiName: '供',
@@ -53300,7 +54346,9 @@ let arr = [
         furigana: 'おうぐ',
         meanings: 'arhat (meritorious person'
       }
-    ]
+    ],
+    quizAnswersOn: ['へき', 'きょう', 'ひょう', 'きん'],
+    quizAnswersKun: ['みずうみ', 'わか.れる', 'そな.える', '']
   },
   {
     kanjiName: '限',
@@ -53395,7 +54443,9 @@ let arr = [
         furigana: 'ゆうげん',
         meanings: 'finite'
       }
-    ]
+    ],
+    quizAnswersOn: ['かい', 'げん', 'どう', 'ぼう'],
+    quizAnswersKun: ['いの.る', 'ゆる.い', 'デシメートル', 'かぎ.る']
   },
   {
     kanjiName: '与',
@@ -53495,7 +54545,9 @@ let arr = [
         furigana: 'ぞうよ',
         meanings: 'donation'
       }
-    ]
+    ],
+    quizAnswersOn: ['けい', 'ほう', 'ぐ', 'よ'],
+    quizAnswersKun: ['あた.える', 'むく.いる', '', 'きた']
   },
   {
     kanjiName: '渡',
@@ -53585,7 +54637,9 @@ let arr = [
         furigana: 'じょうと',
         meanings: 'transfer'
       }
-    ]
+    ],
+    quizAnswersOn: ['と', 'こう', 'ちょう', 'ぼう'],
+    quizAnswersKun: ['わた.る', 'はやし', '', 'すく.ない']
   },
   {
     kanjiName: '景',
@@ -53660,7 +54714,9 @@ let arr = [
         furigana: 'さっぷうけい',
         meanings: 'dreary'
       }
-    ]
+    ],
+    quizAnswersOn: ['てい', 'ひつ', 'けい', 'じょう'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '抜',
@@ -53785,7 +54841,9 @@ let arr = [
         furigana: 'けいばつ',
         meanings: 'scintillating'
       }
-    ]
+    ],
+    quizAnswersOn: ['らん', 'ろく', 'ばつ', 'じゅう'],
+    quizAnswersKun: ['', 'むね', 'はか', 'ぬ.く']
   },
   {
     kanjiName: '候',
@@ -53880,7 +54938,9 @@ let arr = [
         furigana: 'しょうこう',
         meanings: 'symptoms'
       }
-    ]
+    ],
+    quizAnswersOn: ['そ', 'こう', 'し', 'けつ'],
+    quizAnswersKun: ['そうろう', 'たけ', 'およ.そ', 'けわ.しい']
   },
   {
     kanjiName: '構',
@@ -53970,7 +55030,9 @@ let arr = [
         furigana: 'そとがまえ',
         meanings: 'outward appearance (of a house)'
       }
-    ]
+    ],
+    quizAnswersOn: ['ふく', 'ちく', 'ねい', 'こう'],
+    quizAnswersKun: ['みや', 'たたか.う', 'ま.う', 'かま.える']
   },
   {
     kanjiName: '捕',
@@ -54088,7 +55150,9 @@ let arr = [
         furigana: 'さいたいほ',
         meanings: 'rearrest'
       }
-    ]
+    ],
+    quizAnswersOn: ['ほ', 'ど', 'にゅう', 'えき'],
+    quizAnswersKun: ['うお', 'と.らえる', 'うし', 'もっと.も']
   },
   {
     kanjiName: '慣',
@@ -54173,7 +55237,9 @@ let arr = [
         furigana: 'こうばいしゅうかん',
         meanings: 'buying habit'
       }
-    ]
+    ],
+    quizAnswersOn: ['かん', 'しょう', 'しゅ', 'ひつ'],
+    quizAnswersKun: ['たす.ける', 'うけたまわ.る', 'な.れる', '']
   },
   {
     kanjiName: '満',
@@ -54263,7 +55329,9 @@ let arr = [
         furigana: 'ほうまん',
         meanings: 'stout'
       }
-    ]
+    ],
+    quizAnswersOn: ['ほう', 'まん', 'きょう', 'こう'],
+    quizAnswersKun: ['つま.しい', 'み.ちる', 'あせ', 'いし']
   },
   {
     kanjiName: '掛',
@@ -54386,7 +55454,9 @@ let arr = [
         furigana: 'けいりゅう',
         meanings: 'music suspension'
       }
-    ]
+    ],
+    quizAnswersOn: ['し', 'ほう', 'ぜつ', 'かい'],
+    quizAnswersKun: ['か.ける', 'いが', 'ひろ.い', 'とぼ.しい']
   },
   {
     kanjiName: '居',
@@ -54481,7 +55551,9 @@ let arr = [
         furigana: 'こじ',
         meanings: 'grhapati (layman; sometimes used as a posthumous suffix)'
       }
-    ]
+    ],
+    quizAnswersOn: ['ろう', 'きょ', 'かん', 'ちく'],
+    quizAnswersKun: ['もろ', '', 'かがや.き', 'い.る']
   },
   {
     kanjiName: '突',
@@ -54576,7 +55648,9 @@ let arr = [
         furigana: 'ひだんせいしょうとつ',
         meanings: 'inelastic collision'
       }
-    ]
+    ],
+    quizAnswersOn: ['そう', 'い', 'しゅう', 'とつ'],
+    quizAnswersKun: ['つ.く', '', 'くも.る', 'たから']
   },
   {
     kanjiName: '招',
@@ -54646,7 +55720,9 @@ let arr = [
         furigana: 'しょうしゅう',
         meanings: 'call'
       }
-    ]
+    ],
+    quizAnswersOn: ['ほう', 'しょう', 'あい', 'ちょう'],
+    quizAnswersKun: ['あ.たる', 'くろ', 'まね.く', 'あおい']
   },
   {
     kanjiName: '段',
@@ -54741,7 +55817,9 @@ let arr = [
         furigana: 'いったん',
         meanings: 'one-tenth hectare'
       }
-    ]
+    ],
+    quizAnswersOn: ['か', 'てい', 'だん', 'だん'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '腹',
@@ -54836,7 +55914,9 @@ let arr = [
         furigana: 'かいふく',
         meanings: 'making an incision in the abdomen'
       }
-    ]
+    ],
+    quizAnswersOn: ['ろ', 'も', 'じょ', 'ふく'],
+    quizAnswersKun: ['みぞ', 'はら', 'じょう', 'まち']
   },
   {
     kanjiName: '痛',
@@ -54936,7 +56016,9 @@ let arr = [
         furigana: 'ちんつう',
         meanings: 'grave'
       }
-    ]
+    ],
+    quizAnswersOn: ['ふん', 'つう', 'すい', 'しょう'],
+    quizAnswersKun: ['あけ', 'さけ.ぶ', 'おそれ', 'いた.い']
   },
   {
     kanjiName: '退',
@@ -55041,7 +56123,9 @@ let arr = [
         furigana: 'ゆうたい',
         meanings: 'retiring voluntarily'
       }
-    ]
+    ],
+    quizAnswersOn: ['しょく', 'ざい', 'たい', 'ひ'],
+    quizAnswersKun: ['こ.す', 'あたた.か', 'はま', 'しりぞ.く']
   },
   {
     kanjiName: '迷',
@@ -55121,7 +56205,9 @@ let arr = [
         furigana: 'あいめい',
         meanings: 'straying from love'
       }
-    ]
+    ],
+    quizAnswersOn: ['きゅう', 'めい', 'こう', 'せつ'],
+    quizAnswersKun: ['むかし', '', 'まよ.う', 'くわ.しい']
   },
   {
     kanjiName: '訪',
@@ -55211,7 +56297,9 @@ let arr = [
         furigana: 'さいほう',
         meanings: 'research visit'
       }
-    ]
+    ],
+    quizAnswersOn: ['し', 'ひ', 'そう', 'ほう'],
+    quizAnswersKun: ['め.ぐる', 'ほか', 'さつき', 'おとず.れる']
   },
   {
     kanjiName: '怒',
@@ -55301,7 +56389,9 @@ let arr = [
         furigana: 'ふんぬ',
         meanings: 'anger'
       }
-    ]
+    ],
+    quizAnswersOn: ['び', 'ど', 'しょう', 'ちゅう'],
+    quizAnswersKun: ['いか.る', '', 'ただ.す', 'へび']
   },
   {
     kanjiName: '眠',
@@ -55381,7 +56471,9 @@ let arr = [
         furigana: 'あんみん',
         meanings: 'sound sleep'
       }
-    ]
+    ],
+    quizAnswersOn: ['ゆう', 'ひょう', 'ふ', 'みん'],
+    quizAnswersKun: ['はか.る', 'つな', 'ひとつ', 'ねむ.る']
   },
   {
     kanjiName: '靴',
@@ -55476,7 +56568,9 @@ let arr = [
         furigana: 'せいか',
         meanings: 'shoe-making'
       }
-    ]
+    ],
+    quizAnswersOn: ['か', 'ばつ', 'がん', 'さく'],
+    quizAnswersKun: ['そら', '', 'よしみ', 'くつ']
   },
   {
     kanjiName: '途',
@@ -55561,7 +56655,9 @@ let arr = [
         furigana: 'めど',
         meanings: 'aim'
       }
-    ]
+    ],
+    quizAnswersOn: ['い', 'だん', 'と', 'ゆう'],
+    quizAnswersKun: ['みち', '', 'み', 'まき']
   },
   {
     kanjiName: '給',
@@ -55656,7 +56752,9 @@ let arr = [
         furigana: 'ゆうきゅう',
         meanings: 'salaried'
       }
-    ]
+    ],
+    quizAnswersOn: ['おう', 'きゅう', 'そう', 'じょう'],
+    quizAnswersKun: ['わら', 'たま.う', 'たて', 'す.い']
   },
   {
     kanjiName: '冷',
@@ -55795,7 +56893,9 @@ let arr = [
         furigana: 'くうれい',
         meanings: 'air cooling'
       }
-    ]
+    ],
+    quizAnswersOn: ['し', 'しん', 'たく', 'れい'],
+    quizAnswersKun: ['ふ.せる', 'あ.びる', 'つめ.たい', 'くちすす.ぐ']
   },
   {
     kanjiName: '処',
@@ -55890,7 +56990,9 @@ let arr = [
         furigana: 'いっしょ',
         meanings: 'one place'
       }
-    ]
+    ],
+    quizAnswersOn: ['しん', 'そ', 'そう', 'しょ'],
+    quizAnswersKun: ['ところ', 'ひと', 'し.める', 'つか.れる']
   },
   {
     kanjiName: '婦',
@@ -55970,7 +57072,9 @@ let arr = [
         furigana: 'ろうふ',
         meanings: 'old woman'
       }
-    ]
+    ],
+    quizAnswersOn: ['じゅく', 'こう', 'ふ', 'き'],
+    quizAnswersKun: ['よめ', 'き.える', 'むすめ', 'ちから']
   },
   {
     kanjiName: '程',
@@ -56065,7 +57169,9 @@ let arr = [
         furigana: 'しゅうしかてい',
         meanings: "master's course"
       }
-    ]
+    ],
+    quizAnswersOn: ['てい', 'こう', 'こん', 'し'],
+    quizAnswersKun: ['', 'ほど', 'みさき', 'こうむ.る']
   },
   {
     kanjiName: '精',
@@ -56180,7 +57286,9 @@ let arr = [
         furigana: 'すいしょう',
         meanings: '(rock) crystal'
       }
-    ]
+    ],
+    quizAnswersOn: ['せい', 'ごう', 'が', 'しゅう'],
+    quizAnswersKun: ['しら.げる', 'そろ.う', 'くに', '']
   },
   {
     kanjiName: '絶',
@@ -56286,7 +57394,9 @@ let arr = [
         furigana: 'そうぜつ',
         meanings: 'heroic'
       }
-    ]
+    ],
+    quizAnswersOn: ['ぜつ', 'こ', 'じ', 'はん'],
+    quizAnswersKun: ['い.える', 'あや', 'た.える', 'む.す']
   },
   {
     kanjiName: '杯',
@@ -56381,7 +57491,9 @@ let arr = [
         furigana: 'くはい',
         meanings: 'bitter cup'
       }
-    ]
+    ],
+    quizAnswersOn: ['はい', 'じゅん', 'ふん', 'いん'],
+    quizAnswersKun: ['さかずき', 'さとい', '', 'か.れる']
   },
   {
     kanjiName: '積',
@@ -56495,7 +57607,9 @@ let arr = [
         furigana: 'ちくせき',
         meanings: 'accumulation'
       }
-    ]
+    ],
+    quizAnswersOn: ['せき', 'い', 'とく', 'か'],
+    quizAnswersKun: ['つ.む', 'もう.ける', 'まど', 'ごと']
   },
   {
     kanjiName: '寄',
@@ -56580,7 +57694,9 @@ let arr = [
         furigana: 'すき',
         meanings: 'refined taste'
       }
-    ]
+    ],
+    quizAnswersOn: ['せき', 'き', 'ろう', 'い'],
+    quizAnswersKun: ['たお.れる', 'やわ.らか', 'きわ.める', 'よ.る']
   },
   {
     kanjiName: '娘',
@@ -56690,7 +57806,9 @@ let arr = [
         furigana: 'ちゅうごくじょう',
         meanings: 'Chinese girl'
       }
-    ]
+    ],
+    quizAnswersOn: ['りょう', 'きょう', 'じく', 'じょう'],
+    quizAnswersKun: ['むすめ', 'はて', 'え', '']
   },
   {
     kanjiName: '怖',
@@ -56780,7 +57898,9 @@ let arr = [
         furigana: 'しのきょうふ',
         meanings: 'fear of death'
       }
-    ]
+    ],
+    quizAnswersOn: ['せき', 'たん', 'ふ', 'ほ'],
+    quizAnswersKun: ['しの.ぐ', 'こわ.い', 'おもね.る', 'ことわり']
   },
   {
     kanjiName: '恐',
@@ -56895,7 +58015,9 @@ let arr = [
         furigana: 'さいきょう',
         meanings: 'scariest'
       }
-    ]
+    ],
+    quizAnswersOn: ['きょう', 'が', 'そう', 'こう'],
+    quizAnswersKun: ['', 'おそ.れる', 'まぼろし', 'つぐな.う']
   },
   {
     kanjiName: '婚',
@@ -56970,7 +58092,9 @@ let arr = [
         furigana: 'せいこん',
         meanings: 'marriage'
       }
-    ]
+    ],
+    quizAnswersOn: ['ひ', 'こん', 'しょう', 'しん'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '遊',
@@ -57070,7 +58194,9 @@ let arr = [
         furigana: 'ゆうえんち',
         meanings: 'amusement park'
       }
-    ]
+    ],
+    quizAnswersOn: ['ゆう', 'べん', 'ほ', 'れつ'],
+    quizAnswersKun: ['あそ.ぶ', 'たび', 'つまび.らか', '']
   },
   {
     kanjiName: '貧',
@@ -57160,7 +58286,9 @@ let arr = [
         furigana: 'びんぼうにん',
         meanings: 'poor person'
       }
-    ]
+    ],
+    quizAnswersOn: ['せん', 'すい', 'は', 'ひん'],
+    quizAnswersKun: ['まず.しい', 'かめ', 'わら', 'し.る']
   },
   {
     kanjiName: '適',
@@ -57240,7 +58368,9 @@ let arr = [
         furigana: 'ゆうゆうじてき',
         meanings: 'living a life of leisure with dignity'
       }
-    ]
+    ],
+    quizAnswersOn: ['てき', 'り', 'たん', 'さい'],
+    quizAnswersKun: ['かた.る', 'おとろ.える', '', 'かな.う']
   },
   {
     kanjiName: '押',
@@ -57342,7 +58472,9 @@ let arr = [
         furigana: 'かおう',
         meanings: 'written seal'
       }
-    ]
+    ],
+    quizAnswersOn: ['じん', 'ほう', 'おう', 'ちゅう'],
+    quizAnswersKun: ['お.す', 'こずえ', 'いつわ.る', 'くら.べる']
   },
   {
     kanjiName: '更',
@@ -57467,7 +58599,9 @@ let arr = [
         furigana: 'ごこう',
         meanings: 'the five night watches'
       }
-    ]
+    ],
+    quizAnswersOn: ['こん', 'てん', 'あつ', 'こう'],
+    quizAnswersKun: ['さら', 'うえ', 'きさき', 'みぎ']
   },
   {
     kanjiName: '浮',
@@ -57562,7 +58696,9 @@ let arr = [
         furigana: 'けいふ',
         meanings: 'fickle'
       }
-    ]
+    ],
+    quizAnswersOn: ['えい', 'ふ', 'さい', 'ま'],
+    quizAnswersKun: ['すぎ', 'やし', 'ちぎ.る', 'う.く']
   },
   {
     kanjiName: '越',
@@ -57662,7 +58798,9 @@ let arr = [
         furigana: 'だんおつ',
         meanings: 'alms-giver'
       }
-    ]
+    ],
+    quizAnswersOn: ['じょ', 'と', 'ちょう', 'えつ'],
+    quizAnswersKun: ['えだ', 'こ.す', 'あ.びる', '']
   },
   {
     kanjiName: '背',
@@ -57777,7 +58915,9 @@ let arr = [
         furigana: 'こうはい',
         meanings: "one's attitude"
       }
-    ]
+    ],
+    quizAnswersOn: ['か', 'ほう', 'き', 'はい'],
+    quizAnswersKun: ['', 'また', 'がら', 'せ']
   },
   {
     kanjiName: '盗',
@@ -57867,7 +59007,9 @@ let arr = [
         furigana: 'ごうとう',
         meanings: 'robbery'
       }
-    ]
+    ],
+    quizAnswersOn: ['とう', 'さい', 'きょ', 'じん'],
+    quizAnswersKun: ['ぬす.む', 'そそ.ぐ', 'か', 'わらべ']
   },
   {
     kanjiName: '除',
@@ -57967,7 +59109,9 @@ let arr = [
         furigana: 'はきそうじ',
         meanings: 'sweeping and cleaning'
       }
-    ]
+    ],
+    quizAnswersOn: ['じょ', 'か', 'へん', 'りん'],
+    quizAnswersKun: ['こ.げる', 'なだ.める', 'のぞ.く', '']
   },
   {
     kanjiName: '幾',
@@ -58062,7 +59206,9 @@ let arr = [
         furigana: 'ちんき',
         meanings: 'tincture'
       }
-    ]
+    ],
+    quizAnswersOn: ['ちゃく', 'きゅう', 'き', 'どう'],
+    quizAnswersKun: ['ひとみ', 'いく-', 'いただ.く', 'あきらか']
   },
   {
     kanjiName: '散',
@@ -58186,7 +59332,9 @@ let arr = [
         furigana: 'しゅうさん',
         meanings: 'collection (gathering) and distribution'
       }
-    ]
+    ],
+    quizAnswersOn: ['さん', 'くつ', 'しん', 'だん'],
+    quizAnswersKun: ['ち.る', 'ほ', 'に', 'お.す']
   },
   {
     kanjiName: '似',
@@ -58261,7 +59409,9 @@ let arr = [
         furigana: 'ぎじ',
         meanings: 'pseudo'
       }
-    ]
+    ],
+    quizAnswersOn: ['ねん', 'と', 'じ', 'しょう'],
+    quizAnswersKun: ['いまし.める', 'かみ', 'に.る', 'あ.む']
   },
   {
     kanjiName: '富',
@@ -58366,7 +59516,9 @@ let arr = [
         furigana: 'ふうき',
         meanings: 'riches and honours (honors)'
       }
-    ]
+    ],
+    quizAnswersOn: ['きょう', 'しつ', 'ふ', 'りん'],
+    quizAnswersKun: ['かわ.る', 'ひと', 'と.む', 'かこつ.ける']
   },
   {
     kanjiName: '探',
@@ -58451,7 +59603,9 @@ let arr = [
         furigana: 'どくたん',
         meanings: 'German spy'
       }
-    ]
+    ],
+    quizAnswersOn: ['めん', 'だつ', 'すう', 'たん'],
+    quizAnswersKun: ['に', 'さぐ.る', '', 'かわせみ']
   },
   {
     kanjiName: '迎',
@@ -58531,7 +59685,9 @@ let arr = [
         furigana: 'さかんなかんげい',
         meanings: 'cordial reception'
       }
-    ]
+    ],
+    quizAnswersOn: ['じゅう', 'ちょう', 'しょう', 'げい'],
+    quizAnswersKun: ['かた.い', 'か.つ', '', 'むか.える']
   },
   {
     kanjiName: '祖',
@@ -58606,7 +59762,9 @@ let arr = [
         furigana: 'きょうそ',
         meanings: 'founder of a religious sect'
       }
-    ]
+    ],
+    quizAnswersOn: ['らん', 'ほう', 'そ', 'てい'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '雑',
@@ -58702,7 +59860,9 @@ let arr = [
         furigana: 'ぞうきばやし',
         meanings: 'grove of miscellaneous trees'
       }
-    ]
+    ],
+    quizAnswersOn: ['ざつ', 'たん', 'へい', 'きつ'],
+    quizAnswersKun: ['まじ.える', 'ふる.う', 'なな.め', 'はし']
   },
   {
     kanjiName: '賛',
@@ -58782,7 +59942,9 @@ let arr = [
         furigana: 'ぜっさん',
         meanings: 'high praise'
       }
-    ]
+    ],
+    quizAnswersOn: ['さん', 'ふん', 'ばい', 'ちょう'],
+    quizAnswersKun: ['さいわ.い', 'たす.ける', '', 'のび.る']
   },
   {
     kanjiName: '込',
@@ -58867,7 +60029,9 @@ let arr = [
         furigana: 'こめる',
         meanings: 'to load (a gun'
       }
-    ]
+    ],
+    quizAnswersOn: [],
+    quizAnswersKun: ['おさ.める', '-こ.む', 'かたき', 'あ.げる']
   },
   {
     kanjiName: '欲',
@@ -58957,7 +60121,9 @@ let arr = [
         furigana: 'きんろういよく',
         meanings: 'will to work'
       }
-    ]
+    ],
+    quizAnswersOn: ['よく', 'いん', 'かい', 'ちゅう'],
+    quizAnswersKun: ['ほっ.する', 'おく.れる', 'よ', 'つた.わる']
   },
   {
     kanjiName: '閉',
@@ -59057,7 +60223,9 @@ let arr = [
         furigana: 'ゆうへい',
         meanings: 'confinement'
       }
-    ]
+    ],
+    quizAnswersOn: ['ば', 'はい', 'へい', 'あん'],
+    quizAnswersKun: ['と.じる', 'はか.る', 'こば.む', 'むす.ぶ']
   },
   {
     kanjiName: '窓',
@@ -59157,7 +60325,9 @@ let arr = [
         furigana: 'しゃそう',
         meanings: 'train window'
       }
-    ]
+    ],
+    quizAnswersOn: ['しん', 'せん', 'ちょう', 'そう'],
+    quizAnswersKun: ['や', 'はば', 'まど', 'くり']
   },
   {
     kanjiName: '否',
@@ -59252,7 +60422,9 @@ let arr = [
         furigana: 'さいひ',
         meanings: 'adoption or rejection'
       }
-    ]
+    ],
+    quizAnswersOn: ['れき', 'ひ', 'しん', 'じ'],
+    quizAnswersKun: ['やど.る', 'こま.る', 'いな', 'おもむき']
   },
   {
     kanjiName: '暮',
@@ -59337,7 +60509,9 @@ let arr = [
         furigana: 'ちょうちょうぼぼ',
         meanings: 'every morning and evening'
       }
-    ]
+    ],
+    quizAnswersOn: ['ぼ', 'しゅ', 'そう', 'ぞう'],
+    quizAnswersKun: ['すす.める', 'みかど', 'かわ', 'く.れる']
   },
   {
     kanjiName: '誤',
@@ -59417,7 +60591,9 @@ let arr = [
         furigana: 'さくご',
         meanings: 'mistake'
       }
-    ]
+    ],
+    quizAnswersOn: ['ご', 'えき', 'ど', 'はん'],
+    quizAnswersKun: ['', 'もと.める', 'あやま.る', 'かたよ.る']
   },
   {
     kanjiName: '降',
@@ -59537,7 +60713,9 @@ let arr = [
         furigana: 'ごうたんえ',
         meanings: 'service celebrating the birth of the Buddha (held on April 8)'
       }
-    ]
+    ],
+    quizAnswersOn: ['こう', 'りん', 'きゅう', 'そう'],
+    quizAnswersKun: ['ゆめ', 'あお.ぐ', '', 'お.りる']
   },
   {
     kanjiName: '勤',
@@ -59637,7 +60815,9 @@ let arr = [
         furigana: 'ごんぎょうじほうがかり',
         meanings: 'muezzin'
       }
-    ]
+    ],
+    quizAnswersOn: ['せい', 'よう', 'きん', 'けい'],
+    quizAnswersKun: ['つと.める', 'せぼね', 'もと', '']
   },
   {
     kanjiName: '刻',
@@ -59728,7 +60908,9 @@ let arr = [
         furigana: 'こくいっこく',
         meanings: 'moment by moment'
       }
-    ]
+    ],
+    quizAnswersOn: ['ちょう', 'とつ', 'じょう', 'こく'],
+    quizAnswersKun: ['-じ', 'きざ.む', 'とも', 'かすみ']
   },
   {
     kanjiName: '遅',
@@ -59818,7 +61000,9 @@ let arr = [
         furigana: 'こうち',
         meanings: 'elaborate but slow execution'
       }
-    ]
+    ],
+    quizAnswersOn: ['けん', 'きょう', 'ち', 'れい'],
+    quizAnswersKun: ['ゆる.す', 'はし.る', '', 'おく.れる']
   },
   {
     kanjiName: '破',
@@ -59908,7 +61092,9 @@ let arr = [
         furigana: 'とうは',
         meanings: 'travelling (a long and difficult journey) on foot'
       }
-    ]
+    ],
+    quizAnswersOn: ['きゅう', 'は', 'こく', 'や'],
+    quizAnswersKun: ['しおり', 'やぶ.る', 'かわ.る', 'くず.れる']
   },
   {
     kanjiName: '互',
@@ -59988,7 +61174,9 @@ let arr = [
         furigana: 'ごかく',
         meanings: 'equal (in ability)'
       }
-    ]
+    ],
+    quizAnswersOn: ['らい', 'ご', 'ちゃく', 'かん'],
+    quizAnswersKun: ['え.る', 'おさ.める', '', 'たが.い']
   },
   {
     kanjiName: '彼',
@@ -60093,7 +61281,9 @@ let arr = [
         furigana: 'あれこれ',
         meanings: 'this and that'
       }
-    ]
+    ],
+    quizAnswersOn: ['ひ', 'そん', 'みょう', 'よう'],
+    quizAnswersKun: ['かぎ.る', 'かれ', 'つと.める', 'しま']
   },
   {
     kanjiName: '恥',
@@ -60203,7 +61393,9 @@ let arr = [
         furigana: 'しゅうち',
         meanings: 'shyness'
       }
-    ]
+    ],
+    quizAnswersOn: ['ち', 'えい', 'らく', 'せき'],
+    quizAnswersKun: ['や.く', '', 'は.じる', 'くら']
   },
   {
     kanjiName: '払',
@@ -60268,7 +61460,9 @@ let arr = [
         furigana: 'ふつぎょう',
         meanings: 'dawn'
       }
-    ]
+    ],
+    quizAnswersOn: ['ふ', 'ばい', 'ふつ', 'ゆう'],
+    quizAnswersKun: ['はら.う', 'およ.そ', 'めぐ.る', 'てすり']
   },
   {
     kanjiName: '舞',
@@ -60368,7 +61562,9 @@ let arr = [
         furigana: 'かぶ',
         meanings: 'singing and dancing'
       }
-    ]
+    ],
+    quizAnswersOn: ['こ', 'ちょう', 'ぶ', 'ぞく'],
+    quizAnswersKun: ['よろこ.ぶ', 'ま.う', 'かて', 'お.びる']
   },
   {
     kanjiName: '頼',
@@ -60458,7 +61654,9 @@ let arr = [
         furigana: 'しせいぶらい',
         meanings: 'urban villain'
       }
-    ]
+    ],
+    quizAnswersOn: ['ぼう', 'らい', 'りん', 'でん'],
+    quizAnswersKun: ['きり', 'ほこ.る', 'つき', 'たの.む']
   },
   {
     kanjiName: '戻',
@@ -60538,7 +61736,9 @@ let arr = [
         furigana: 'ぼうれい',
         meanings: 'tyranny'
       }
-    ]
+    ],
+    quizAnswersOn: ['か', 'めい', 'れい', 'けい'],
+    quizAnswersKun: ['もど.す', 'かけ.る', 'むすめ', 'みお']
   },
   {
     kanjiName: '抱',
@@ -60628,7 +61828,9 @@ let arr = [
         furigana: 'ごうほう',
         meanings: 'armful'
       }
-    ]
+    ],
+    quizAnswersOn: ['はい', 'おう', 'ほう', 'ち'],
+    quizAnswersKun: ['ひ.ねる', 'た.つ', 'だ.く', 'か.ける']
   },
   {
     kanjiName: '緒',
@@ -60762,7 +61964,9 @@ let arr = [
         meanings:
           'the friendly atmosphere of the traditional commercial and working-class neighborhoods'
       }
-    ]
+    ],
+    quizAnswersOn: ['こう', 'そう', 'がい', 'しょ'],
+    quizAnswersKun: ['おか.す', 'とき', 'お', 'うつ.す']
   },
   {
     kanjiName: '逃',
@@ -60852,7 +62056,9 @@ let arr = [
         furigana: 'とうそう',
         meanings: 'flight'
       }
-    ]
+    ],
+    quizAnswersOn: ['さん', 'せん', 'とう', 'けい'],
+    quizAnswersKun: ['', 'しろがね', 'に.げる', 'みち']
   },
   {
     kanjiName: '御',
@@ -60947,7 +62153,9 @@ let arr = [
         furigana: 'おおいご',
         meanings: 'older lady'
       }
-    ]
+    ],
+    quizAnswersOn: ['てい', 'もん', 'ぎょ', 'いん'],
+    quizAnswersKun: ['きさき', 'かな.でる', 'おん-', 'さきがけ']
   },
   {
     kanjiName: '吹',
@@ -61022,7 +62230,9 @@ let arr = [
         furigana: 'こすい',
         meanings: 'rousing (courage'
       }
-    ]
+    ],
+    quizAnswersOn: ['しん', 'じょう', 'とう', 'すい'],
+    quizAnswersKun: ['うつ.る', 'い.きる', 'ふ.く', 'あら.い']
   },
   {
     kanjiName: '到',
@@ -61107,7 +62317,9 @@ let arr = [
         furigana: 'せいとう',
         meanings: 'meticulous'
       }
-    ]
+    ],
+    quizAnswersOn: ['りょう', 'ろう', 'きょう', 'とう'],
+    quizAnswersKun: ['いた.る', '', 'つ.くす', 'くすり']
   },
   {
     kanjiName: '髪',
@@ -61197,7 +62409,9 @@ let arr = [
         furigana: 'もうはつ',
         meanings: 'hair'
       }
-    ]
+    ],
+    quizAnswersOn: ['はつ', 'ご', 'はん', 'たん'],
+    quizAnswersKun: ['とら.われる', 'ち.る', 'しず-', 'かみ']
   },
   {
     kanjiName: '疲',
@@ -61272,7 +62486,9 @@ let arr = [
         furigana: 'ひへい',
         meanings: 'exhaustion'
       }
-    ]
+    ],
+    quizAnswersOn: ['とう', 'ちょく', 'じょう', 'ひ'],
+    quizAnswersKun: ['つか.れる', 'すわ.る', 'はし.る', '']
   },
   {
     kanjiName: '歳',
@@ -61387,7 +62603,9 @@ let arr = [
         furigana: 'せいぼ',
         meanings: 'year-end gift'
       }
-    ]
+    ],
+    quizAnswersOn: ['かく', 'そう', 'さい', 'ほ'],
+    quizAnswersKun: ['むら', 'みみ', 'おごそ.か', 'とし']
   },
   {
     kanjiName: '偶',
@@ -61472,7 +62690,9 @@ let arr = [
         furigana: 'はいぐう',
         meanings: 'combination'
       }
-    ]
+    ],
+    quizAnswersOn: ['ぐう', 'かん', 'せん', 'きょ'],
+    quizAnswersKun: ['む.れる', 'うら.む', 'とき', 'たま']
   },
   {
     kanjiName: '偉',
@@ -61557,7 +62777,9 @@ let arr = [
         furigana: 'ようぼうかいい',
         meanings: '(a man) having a commanding face and a powerful physique'
       }
-    ]
+    ],
+    quizAnswersOn: ['い', 'せん', 'らん', 'き'],
+    quizAnswersKun: ['かど', 'えら.い', 'さけ', 'くわ']
   },
   {
     kanjiName: '頂',
@@ -61652,7 +62874,9 @@ let arr = [
         furigana: 'けいちょう',
         meanings: 'tip of a stem (of a plant)'
       }
-    ]
+    ],
+    quizAnswersOn: ['しゅう', 'ちょう', 'あく', 'しょう'],
+    quizAnswersKun: ['いただ.く', '', 'すぐ.れる', 'ぜろ']
   },
   {
     kanjiName: '了',
@@ -61728,7 +62952,9 @@ let arr = [
         furigana: 'みりょう',
         meanings: 'unfinished'
       }
-    ]
+    ],
+    quizAnswersOn: ['ろく', 'たん', 'きょ', 'りょう'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '丸',
@@ -61850,7 +63076,9 @@ let arr = [
         furigana: 'らいがん',
         meanings: 'raigan (Omphalia lapidescens)'
       }
-    ]
+    ],
+    quizAnswersOn: ['がん', 'おう', 'てい', 'さん'],
+    quizAnswersKun: ['おもね.る', 'おそれ', '', 'まる']
   },
   {
     kanjiName: '玉',
@@ -61946,7 +63174,9 @@ let arr = [
         furigana: 'すいぎょく',
         meanings: 'emerald'
       }
-    ]
+    ],
+    quizAnswersOn: ['こう', 'れい', 'ぎょく', 'たん'],
+    quizAnswersKun: ['にご.る', 'さきがけ', 'たま', 'あきら.か']
   },
   {
     kanjiName: '久',
@@ -62047,7 +63277,9 @@ let arr = [
         furigana: 'あまみきよ',
         meanings: 'Amamikyu (Ryukyuan religion creation goddess)'
       }
-    ]
+    ],
+    quizAnswersOn: ['い', 'きゅう', 'さん', 'てい'],
+    quizAnswersKun: ['いた.む', 'かみ', 'ひさ.しい', 'そ.える']
   },
   {
     kanjiName: '戸',
@@ -62143,7 +63375,9 @@ let arr = [
         furigana: 'げこ',
         meanings: 'non-drinker'
       }
-    ]
+    ],
+    quizAnswersOn: ['けい', 'じゅん', 'かい', 'こ'],
+    quizAnswersKun: ['', 'かた.る', 'と', 'つかさど.る']
   },
   {
     kanjiName: '毛',
@@ -62239,7 +63473,9 @@ let arr = [
         furigana: 'さいせいもう',
         meanings: 'recycled wool'
       }
-    ]
+    ],
+    quizAnswersOn: ['もう', 'し', 'げき', 'しゅう'],
+    quizAnswersKun: ['あらわ.れる', 'あつ.い', 'け', 'ふと.い']
   },
   {
     kanjiName: '央',
@@ -62310,7 +63546,9 @@ let arr = [
         furigana: 'げつおう',
         meanings: 'middle of the month'
       }
-    ]
+    ],
+    quizAnswersOn: ['そう', 'しゃ', 'おう', 'し'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '氷',
@@ -62426,7 +63664,9 @@ let arr = [
         furigana: 'かいひょう',
         meanings: 'a thaw'
       }
-    ]
+    ],
+    quizAnswersOn: ['らい', 'ほう', 'ぼう', 'ひょう'],
+    quizAnswersKun: ['', 'はしばみ', 'こおり', 'あせ']
   },
   {
     kanjiName: '皮',
@@ -62522,7 +63762,9 @@ let arr = [
         furigana: 'うわかわ',
         meanings: 'outer layer (e.g. of skin)'
       }
-    ]
+    ],
+    quizAnswersOn: ['どく', 'ひん', 'ぼう', 'ひ'],
+    quizAnswersKun: ['しろ', '', 'かわ', 'しめ.る']
   },
   {
     kanjiName: '皿',
@@ -62603,7 +63845,9 @@ let arr = [
         furigana: 'きべい',
         meanings: 'bowl'
       }
-    ]
+    ],
+    quizAnswersOn: ['べい', 'きょく', 'せん', 'こ'],
+    quizAnswersKun: ['', 'まが.い', 'かえ.す', 'さら']
   },
   {
     kanjiName: '竹',
@@ -62699,7 +63943,9 @@ let arr = [
         furigana: 'はちく',
         meanings: 'breaking bamboo'
       }
-    ]
+    ],
+    quizAnswersOn: ['ちく', 'けん', 'たく', 'し'],
+    quizAnswersKun: ['しずか', 'さ.く', 'たけ', '']
   },
   {
     kanjiName: '糸',
@@ -62795,7 +64041,9 @@ let arr = [
         furigana: 'きんし',
         meanings: 'gold thread'
       }
-    ]
+    ],
+    quizAnswersOn: ['さい', 'せい', 'はん', 'し'],
+    quizAnswersKun: ['しら.べる', 'いと', 'いつ', 'わずら.う']
   },
   {
     kanjiName: '虫',
@@ -62901,7 +64149,9 @@ let arr = [
         furigana: 'ありまき',
         meanings: 'aphid'
       }
-    ]
+    ],
+    quizAnswersOn: ['けい', 'りょう', 'ちゅう', 'かい'],
+    quizAnswersKun: ['むし', 'ひた.す', 'なが.れる', 'は.れる']
   },
   {
     kanjiName: '村',
@@ -62997,7 +64247,9 @@ let arr = [
         furigana: 'のうそん',
         meanings: 'agricultural community'
       }
-    ]
+    ],
+    quizAnswersOn: ['せい', 'ふ', 'そん', 'ちょう'],
+    quizAnswersKun: ['のり', 'むら', 'くら.べる', 'ま.う']
   },
   {
     kanjiName: '貝',
@@ -63093,7 +64345,9 @@ let arr = [
         furigana: 'えぞばい',
         meanings: "Middendorf's whelk (Buccinum middendorffi)"
       }
-    ]
+    ],
+    quizAnswersOn: ['げき', 'そく', 'ばい', 'どう'],
+    quizAnswersKun: ['か.ける', 'くら', 'あみ', 'かい']
   },
   {
     kanjiName: '池',
@@ -63189,7 +64443,9 @@ let arr = [
         furigana: 'きゅうすいち',
         meanings: 'reservoir'
       }
-    ]
+    ],
+    quizAnswersOn: ['しょう', 'こ', 'ち', 'さつ'],
+    quizAnswersKun: ['おお.きい', 'あた.り', 'いけ', 'しお']
   },
   {
     kanjiName: '羽',
@@ -63310,7 +64566,9 @@ let arr = [
         furigana: 'しょうよくう',
         meanings: 'alula'
       }
-    ]
+    ],
+    quizAnswersOn: ['きょう', 'う', 'しゅう', 'こう'],
+    quizAnswersKun: ['まち', 'は', 'おびや.かす', 'もう.ける']
   },
   {
     kanjiName: '角',
@@ -63426,7 +64684,9 @@ let arr = [
         furigana: 'がいかく',
         meanings: 'external angle'
       }
-    ]
+    ],
+    quizAnswersOn: ['よう', 'しゃ', 'かく', 'き'],
+    quizAnswersKun: ['おぼ.える', 'ほか', 'ひら.く', 'かど']
   },
   {
     kanjiName: '谷',
@@ -63523,7 +64783,9 @@ let arr = [
         furigana: 'ばんこく',
         meanings: 'Bangkok (Thailand)'
       }
-    ]
+    ],
+    quizAnswersOn: ['ほう', 'おう', 'こく', 'ご'],
+    quizAnswersKun: ['あさ', 'たに', 'うら', 'しば']
   },
   {
     kanjiName: '麦',
@@ -63619,7 +64881,9 @@ let arr = [
         furigana: 'べいばく',
         meanings: 'rice and barley'
       }
-    ]
+    ],
+    quizAnswersOn: ['かく', 'れい', 'ばく', 'かん'],
+    quizAnswersKun: ['', 'むぎ', 'は.れる', 'あと']
   },
   {
     kanjiName: '林',
@@ -63705,7 +64969,9 @@ let arr = [
         furigana: 'のうりん',
         meanings: 'agriculture and forestry'
       }
-    ]
+    ],
+    quizAnswersOn: ['し', 'きん', 'じょ', 'りん'],
+    quizAnswersKun: ['', 'いつ', 'はやし', 'みち']
   },
   {
     kanjiName: '州',
@@ -63821,7 +65087,9 @@ let arr = [
         furigana: 'なかす',
         meanings: 'sandbank (in a river)'
       }
-    ]
+    ],
+    quizAnswersOn: ['ゆう', 'しゅう', 'けん', 'こう'],
+    quizAnswersKun: ['きさき', 'す', 'たみ', 'と.る']
   },
   {
     kanjiName: '血',
@@ -63917,7 +65185,9 @@ let arr = [
         furigana: 'ねっけつ',
         meanings: 'hot blood'
       }
-    ]
+    ],
+    quizAnswersOn: ['とん', 'けつ', 'かん', 'ぎ'],
+    quizAnswersKun: ['も.る', 'さいわ.い', 'ち', 'いきどお.る']
   },
   {
     kanjiName: '星',
@@ -64023,7 +65293,9 @@ let arr = [
         furigana: 'しちせい',
         meanings: 'the Big Dipper (asterism)'
       }
-    ]
+    ],
+    quizAnswersOn: ['きゅう', 'がく', 'こく', 'せい'],
+    quizAnswersKun: ['ほし', 'かわ', '', 'あぶ.ない']
   },
   {
     kanjiName: '札',
@@ -64119,7 +65391,9 @@ let arr = [
         furigana: 'おうさつ',
         meanings: 'making a bid'
       }
-    ]
+    ],
+    quizAnswersOn: ['さつ', 'し', 'き', 'ちょう'],
+    quizAnswersKun: ['ふだ', '', 'かげ', 'たまご']
   },
   {
     kanjiName: '辺',
@@ -64220,7 +65494,9 @@ let arr = [
         furigana: 'どのへん',
         meanings: 'whereabouts'
       }
-    ]
+    ],
+    quizAnswersOn: ['しょ', 'はく', 'たい', 'へん'],
+    quizAnswersKun: ['か.つ', 'あた.り', 'み.る', 'かこ.む']
   },
   {
     kanjiName: '弱',
@@ -64321,7 +65597,9 @@ let arr = [
         furigana: 'はくじゃく',
         meanings: 'feebleness'
       }
-    ]
+    ],
+    quizAnswersOn: ['そう', 'じゃく', 'い', 'ひょう'],
+    quizAnswersKun: ['よわ.い', 'かわ.る', 'い.る', 'よろこ.び']
   },
   {
     kanjiName: '黄',
@@ -64432,7 +65710,9 @@ let arr = [
         furigana: 'ろくふっかいおう',
         meanings: 'sulfur hexafluoride'
       }
-    ]
+    ],
+    quizAnswersOn: ['えん', 'ほう', 'こう', 'どう'],
+    quizAnswersKun: ['', 'いとけない', 'すこ.やか', 'き']
   },
   {
     kanjiName: '森',
@@ -64523,7 +65803,9 @@ let arr = [
         furigana: 'しんしん',
         meanings: 'dense with trees'
       }
-    ]
+    ],
+    quizAnswersOn: ['しん', 'てい', 'たい', 'しん'],
+    quizAnswersKun: ['もり', 'かつら', 'こ.げる', 'にご.る']
   },
   {
     kanjiName: '雲',
@@ -64619,7 +65901,9 @@ let arr = [
         furigana: 'せいうん',
         meanings: 'nebula'
       }
-    ]
+    ],
+    quizAnswersOn: ['うん', 'とう', 'ぜん', 'さく'],
+    quizAnswersKun: ['みなと', 'おく.る', 'くも', '']
   },
   {
     kanjiName: '県',
@@ -64695,7 +65979,9 @@ let arr = [
         furigana: 'どうけん',
         meanings: 'the same prefecture'
       }
-    ]
+    ],
+    quizAnswersOn: ['そう', '', 'けん', 'けん'],
+    quizAnswersKun: ['ほ.める', 'か.ける', '', 'しま']
   },
   {
     kanjiName: '軽',
@@ -64806,7 +66092,9 @@ let arr = [
         furigana: 'ひょうきん',
         meanings: 'facetious'
       }
-    ]
+    ],
+    quizAnswersOn: ['そう', 'けい', 'よく', 'ひ'],
+    quizAnswersKun: ['あきら.か', 'かる.い', '', 'よ.く']
   },
   {
     kanjiName: '農',
@@ -64882,7 +66170,9 @@ let arr = [
         furigana: 'えいのう',
         meanings: 'farming'
       }
-    ]
+    ],
+    quizAnswersOn: ['せい', 'のう', 'そん', 'こう'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '鉄',
@@ -64963,7 +66253,9 @@ let arr = [
         furigana: 'しんにっぽんせいてつ',
         meanings: 'Nippon Steel Corporation'
       }
-    ]
+    ],
+    quizAnswersOn: ['けい', 'かい', 'てつ', 'や'],
+    quizAnswersKun: ['くろがね', 'ひく.い', 'め.す', 'わす.れる']
   },
   {
     kanjiName: '算',
@@ -65054,7 +66346,9 @@ let arr = [
         furigana: 'こうさん',
         meanings: 'probability'
       }
-    ]
+    ],
+    quizAnswersOn: ['か', 'れい', 'ひ', 'さん'],
+    quizAnswersKun: ['きわ.める', 'お.く', '', 'そろ']
   },
   {
     kanjiName: '線',
@@ -65130,7 +66424,9 @@ let arr = [
         furigana: 'せきがいせん',
         meanings: 'infrared rays'
       }
-    ]
+    ],
+    quizAnswersOn: ['き', 'でん', 'ちゅう', 'せん'],
+    quizAnswersKun: ['うやうや.しい', 'すじ', '', 'わか.い']
   },
   {
     kanjiName: '仲',
@@ -65226,7 +66522,9 @@ let arr = [
         furigana: 'せいりょくはくちゅう',
         meanings: '(the two sides) being evenly-matched in influence or power'
       }
-    ]
+    ],
+    quizAnswersOn: ['ちゅう', 'し', 'わ', 'きょう'],
+    quizAnswersKun: ['せぼね', 'かしら', 'ふさ', 'なか']
   },
   {
     kanjiName: '低',
@@ -65322,7 +66620,9 @@ let arr = [
         furigana: 'せいこうとうてい',
         meanings: 'high barometric pressure to the west'
       }
-    ]
+    ],
+    quizAnswersOn: ['てい', 'かん', 'しん', 'とく'],
+    quizAnswersKun: ['ひく.い', 'やわ.らか', 'いえ', 'ち.る']
   },
   {
     kanjiName: '岸',
@@ -65418,7 +66718,9 @@ let arr = [
         furigana: 'たいがん',
         meanings: 'opposite shore'
       }
-    ]
+    ],
+    quizAnswersOn: ['かく', 'りょう', 'かい', 'がん'],
+    quizAnswersKun: ['きし', 'つち', 'さとい', 'かめ']
   },
   {
     kanjiName: '波',
@@ -65514,7 +66816,9 @@ let arr = [
         furigana: 'よこなみ',
         meanings: 'transverse wave'
       }
-    ]
+    ],
+    quizAnswersOn: ['き', 'かく', 'は', 'そう'],
+    quizAnswersKun: ['', 'かつら', 'なみ', 'とり']
   },
   {
     kanjiName: '拾',
@@ -65595,7 +66899,9 @@ let arr = [
         furigana: 'じゅういち',
         meanings: 'eleven'
       }
-    ]
+    ],
+    quizAnswersOn: ['しょ', 'るい', 'しゅう', 'じ'],
+    quizAnswersKun: ['はな', 'ひろ.う', 'ひと.しい', 'つ.く']
   },
   {
     kanjiName: '秒',
@@ -65671,7 +66977,9 @@ let arr = [
         furigana: 'うるうびょう',
         meanings: 'leap second'
       }
-    ]
+    ],
+    quizAnswersOn: ['たん', 'ない', 'びょう', 'とう'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '競',
@@ -65762,7 +67070,9 @@ let arr = [
         furigana: 'きょうばい',
         meanings: 'auction'
       }
-    ]
+    ],
+    quizAnswersOn: ['ぼう', 'げん', 'しょう', 'きょう'],
+    quizAnswersKun: ['さが', '', 'み', 'きそ.う']
   },
   {
     kanjiName: '令',
@@ -65838,7 +67148,9 @@ let arr = [
         furigana: 'せいれい',
         meanings: 'government ordinance'
       }
-    ]
+    ],
+    quizAnswersOn: ['れい', 'ち', 'ま', 'れい'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '根',
@@ -65934,7 +67246,9 @@ let arr = [
         furigana: 'きゅうこん',
         meanings: '(plant) bulb'
       }
-    ]
+    ],
+    quizAnswersOn: ['けん', 'てい', 'こん', 'さい'],
+    quizAnswersKun: ['ね', 'いかん', 'わざわい', 'なぐ.る']
   },
   {
     kanjiName: '倍',
@@ -66010,7 +67324,9 @@ let arr = [
         furigana: 'ばいばい',
         meanings: 'doubling (repeatedly)'
       }
-    ]
+    ],
+    quizAnswersOn: ['ち', 'ばい', 'かん', 'せつ'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '島',
@@ -66106,7 +67422,9 @@ let arr = [
         furigana: 'れっとう',
         meanings: 'archipelago'
       }
-    ]
+    ],
+    quizAnswersOn: ['とう', '', 'げき', 'が'],
+    quizAnswersKun: ['しま', 'たま', 'なが.める', 'あ.げる']
   },
   {
     kanjiName: '祭',
@@ -66227,7 +67545,9 @@ let arr = [
         furigana: 'いれいさい',
         meanings: 'memorial service'
       }
-    ]
+    ],
+    quizAnswersOn: ['てい', 'ぼう', 'さい', 'しょう'],
+    quizAnswersKun: ['かお', '', 'まつ.る', 'とりこ']
   },
   {
     kanjiName: '章',
@@ -66303,7 +67623,9 @@ let arr = [
         furigana: 'がくしょう',
         meanings: 'movement'
       }
-    ]
+    ],
+    quizAnswersOn: ['う', 'しょう', 'ぜん', 'こう'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '童',
@@ -66399,7 +67721,9 @@ let arr = [
         furigana: 'あくどう',
         meanings: 'bad boy'
       }
-    ]
+    ],
+    quizAnswersOn: ['し', 'うん', 'すう', 'どう'],
+    quizAnswersKun: ['まゆ', 'あした', 'つね', 'わらべ']
   },
   {
     kanjiName: '階',
@@ -66480,7 +67804,9 @@ let arr = [
         furigana: 'いかい',
         meanings: 'court rank'
       }
-    ]
+    ],
+    quizAnswersOn: ['しょう', 'かい', 'じゅん', 'こく'],
+    quizAnswersKun: ['つつし.む', 'ひのと', 'きざはし', 'つづみ']
   },
   {
     kanjiName: '植',
@@ -66566,7 +67892,9 @@ let arr = [
         furigana: 'たくしょく',
         meanings: 'colonization'
       }
-    ]
+    ],
+    quizAnswersOn: ['きょう', 'しょく', 'けい', 'こう'],
+    quizAnswersKun: ['けむ.る', 'う.える', 'むか.える', 'かた']
   },
   {
     kanjiName: '温',
@@ -66687,7 +68015,9 @@ let arr = [
         furigana: 'しつおん',
         meanings: 'room temperature'
       }
-    ]
+    ],
+    quizAnswersOn: ['だん', 'おん', 'ぼく', 'ごう'],
+    quizAnswersKun: ['シリング', 'い.る', 'あたた.か', 'さ.く']
   },
   {
     kanjiName: '湯',
@@ -66783,7 +68113,9 @@ let arr = [
         furigana: 'きゅうとう',
         meanings: 'hot-water supply'
       }
-    ]
+    ],
+    quizAnswersOn: ['てい', 'とう', 'よく', 'ぼう'],
+    quizAnswersKun: ['さか', 'かぜ', 'つかさど.る', 'ゆ']
   },
   {
     kanjiName: '短',
@@ -66864,7 +68196,9 @@ let arr = [
         furigana: 'しゃこうたん',
         meanings: 'lowered car'
       }
-    ]
+    ],
+    quizAnswersOn: ['りょう', 'せい', 'たん', 'そう'],
+    quizAnswersKun: ['ひら.く', 'ぬす.む', 'ととの.える', 'みじか.い']
   },
   {
     kanjiName: '泉',
@@ -66955,7 +68289,9 @@ let arr = [
         furigana: 'てんねんおんせん',
         meanings: 'natural hot spring'
       }
-    ]
+    ],
+    quizAnswersOn: ['せん', 'けん', 'れい', 'いん'],
+    quizAnswersKun: ['', 'い.く', 'み.る', 'いずみ']
   },
   {
     kanjiName: '橋',
@@ -67051,7 +68387,9 @@ let arr = [
         furigana: 'いしばし',
         meanings: 'stone bridge'
       }
-    ]
+    ],
+    quizAnswersOn: ['じょ', 'きょう', 'ちょう', 'つう'],
+    quizAnswersKun: ['から.む', 'かえ.る', 'はし', '']
   },
   {
     kanjiName: '緑',
@@ -67158,7 +68496,9 @@ let arr = [
         meanings:
           'fourth of nine traditional astrological signs (corresponding to Jupiter and south-east)'
       }
-    ]
+    ],
+    quizAnswersOn: ['りょ', 'しん', 'りょく', 'こう'],
+    quizAnswersKun: ['みどり', 'な.る', '', 'おおとり']
   },
   {
     kanjiName: '練',
@@ -67249,7 +68589,9 @@ let arr = [
         furigana: 'すいれん',
         meanings: 'swimming practice'
       }
-    ]
+    ],
+    quizAnswersOn: ['こう', 'れん', 'しゃく', 'ぎ'],
+    quizAnswersKun: ['ぬす.む', 'う.える', 'ね.る', 'シリング']
   },
   {
     kanjiName: '億',
@@ -67325,7 +68667,9 @@ let arr = [
         furigana: 'ひゃくおく',
         meanings: '10,000,000,000'
       }
-    ]
+    ],
+    quizAnswersOn: ['おく', 'さ', 'じゅん', 'かん'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '課',
@@ -67408,7 +68752,9 @@ let arr = [
         furigana: 'かいけいか',
         meanings: 'accounts section'
       }
-    ]
+    ],
+    quizAnswersOn: ['か', 'けつ', 'てん', 'い'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '賞',
@@ -67489,7 +68835,9 @@ let arr = [
         furigana: 'ひょうしょう',
         meanings: '(official) commendation'
       }
-    ]
+    ],
+    quizAnswersOn: ['きゅう', 'しゃく', 'しょう', 'いん'],
+    quizAnswersKun: ['しばら.く', 'ほ.める', 'たわむ.れる', 'あし']
   },
   {
     kanjiName: '輪',
@@ -67585,7 +68933,9 @@ let arr = [
         furigana: 'けいりん',
         meanings: 'keirin'
       }
-    ]
+    ],
+    quizAnswersOn: ['てき', 'りん', 'ざい', 'たい'],
+    quizAnswersKun: ['うたが.う', 'わ', 'はる.か', 'う.える']
   },
   {
     kanjiName: '像',
@@ -67661,7 +69011,9 @@ let arr = [
         furigana: 'しょうらいぞう',
         meanings: 'vision of the future'
       }
-    ]
+    ],
+    quizAnswersOn: ['ぞう', 'べん', 'し', 'はく'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '卒',
@@ -67753,7 +69105,9 @@ let arr = [
         furigana: 'だいそつ',
         meanings: 'university graduate'
       }
-    ]
+    ],
+    quizAnswersOn: ['えい', 'そつ', 'い', 'ひ'],
+    quizAnswersKun: ['こ.える', 'つ.く', '', 'そっ.する']
   },
   {
     kanjiName: '協',
@@ -67829,7 +69183,9 @@ let arr = [
         furigana: 'けいきょう',
         meanings: 'management association'
       }
-    ]
+    ],
+    quizAnswersOn: ['おう', 'にゅう', 'よく', 'きょう'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '周',
@@ -67915,7 +69271,9 @@ let arr = [
         furigana: 'がいしゅう',
         meanings: 'outer circumference'
       }
-    ]
+    ],
+    quizAnswersOn: ['ない', 'かく', 'しゅう', 'しん'],
+    quizAnswersKun: ['せ', 'おもて', 'まわ.り', 'あお.ぐ']
   },
   {
     kanjiName: '囲',
@@ -68020,7 +69378,9 @@ let arr = [
         furigana: 'がいい',
         meanings: 'periphery'
       }
-    ]
+    ],
+    quizAnswersOn: ['い', 'じ', 'さい', 'よう'],
+    quizAnswersKun: ['かこ.む', 'かえ.る', 'みき', 'おさ.める']
   },
   {
     kanjiName: '固',
@@ -68126,7 +69486,9 @@ let arr = [
         furigana: 'かんめいきょうこ',
         meanings: 'plain and sturdy'
       }
-    ]
+    ],
+    quizAnswersOn: ['えん', 'ふ', 'き', 'こ'],
+    quizAnswersKun: ['あたた.か', 'かた.める', 'うお', '']
   },
   {
     kanjiName: '季',
@@ -68202,7 +69564,9 @@ let arr = [
         furigana: 'しゅうき',
         meanings: 'fall season'
       }
-    ]
+    ],
+    quizAnswersOn: ['そつ', 'がく', 'しん', 'き'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '希',
@@ -68319,7 +69683,9 @@ let arr = [
         furigana: 'けう',
         meanings: 'rare'
       }
-    ]
+    ],
+    quizAnswersOn: ['やく', 'き', 'こう', 'ずい'],
+    quizAnswersKun: ['と.う', 'まれ', 'くる.う', 'くだん']
   },
   {
     kanjiName: '材',
@@ -68395,7 +69761,9 @@ let arr = [
         furigana: 'はいざい',
         meanings: 'scrap wood'
       }
-    ]
+    ],
+    quizAnswersOn: ['き', 'ざい', 'あい', 'し'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '芸',
@@ -68486,7 +69854,9 @@ let arr = [
         furigana: 'こううん',
         meanings: 'plowing and weeding'
       }
-    ]
+    ],
+    quizAnswersOn: ['げい', 'きゅう', 'そう', 'じゅう'],
+    quizAnswersKun: ['', 'あやか.る', 'ひた.す', 'う.える']
   },
   {
     kanjiName: '技',
@@ -68582,7 +69952,9 @@ let arr = [
         furigana: 'りくじょうきょうぎ',
         meanings: 'track-and-field events'
       }
-    ]
+    ],
+    quizAnswersOn: ['ばつ', 'ぎ', 'にん', 'し'],
+    quizAnswersKun: ['お.く', 'たし.か', 'わざ', 'うで']
   },
   {
     kanjiName: '骨',
@@ -68678,7 +70050,9 @@ let arr = [
         furigana: 'てっこつ',
         meanings: 'steel frame'
       }
-    ]
+    ],
+    quizAnswersOn: ['ひん', 'けい', 'ちゅう', 'こつ'],
+    quizAnswersKun: ['ほね', 'ただ.しい', 'はば.む', 'まつ']
   },
   {
     kanjiName: '寺',
@@ -68769,7 +70143,9 @@ let arr = [
         furigana: 'こじ',
         meanings: 'old temple'
       }
-    ]
+    ],
+    quizAnswersOn: ['じ', 'よ', 'てん', 'そう'],
+    quizAnswersKun: ['かな', 'めずら.しい', 'ちか.う', 'てら']
   },
   {
     kanjiName: '岩',
@@ -68865,7 +70241,9 @@ let arr = [
         furigana: 'せっかいがん',
         meanings: 'limestone'
       }
-    ]
+    ],
+    quizAnswersOn: ['がん', 'がい', 'おう', 'ひ'],
+    quizAnswersKun: ['いわ', 'あおい', 'なか', 'え.る']
   },
   {
     kanjiName: '区',
@@ -68941,7 +70319,9 @@ let arr = [
         furigana: 'こうく',
         meanings: 'mining area'
       }
-    ]
+    ],
+    quizAnswersOn: ['ぞく', 'く', 'おう', 'かい'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '坂',
@@ -69032,7 +70412,9 @@ let arr = [
         furigana: 'とうはん',
         meanings: 'climbing a slope (hill)'
       }
-    ]
+    ],
+    quizAnswersOn: ['はん', 'しん', 'そう', 'ぞう'],
+    quizAnswersKun: ['', 'さか', 'おさ.める', 'まぼろし']
   },
   {
     kanjiName: '勇',
@@ -69113,7 +70495,9 @@ let arr = [
         furigana: 'ぶゆう',
         meanings: 'bravery'
       }
-    ]
+    ],
+    quizAnswersOn: ['ゆう', 'ひつ', 'ばい', 'ふう'],
+    quizAnswersKun: ['かたく', 'ただ', 'のうずる', 'いさ.む']
   },
   {
     kanjiName: '毒',
@@ -69189,7 +70573,9 @@ let arr = [
         furigana: 'ぼうどく',
         meanings: 'gasproofing'
       }
-    ]
+    ],
+    quizAnswersOn: ['てい', 'りん', 'さい', 'どく'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '浅',
@@ -69270,7 +70656,9 @@ let arr = [
         furigana: 'しんせん',
         meanings: 'depth'
       }
-    ]
+    ],
+    quizAnswersOn: ['りつ', 'かく', 'せん', 'えん'],
+    quizAnswersKun: ['おさ.める', 'あやま.る', 'あさ.い', 'あに']
   },
   {
     kanjiName: '軍',
@@ -69366,7 +70754,9 @@ let arr = [
         furigana: 'じゅうぐん',
         meanings: 'military service'
       }
-    ]
+    ],
+    quizAnswersOn: ['ぐん', 'しん', 'しゅ', 'しょう'],
+    quizAnswersKun: ['みなと', 'いくさ', '', 'かな.える']
   },
   {
     kanjiName: '仏',
@@ -69482,7 +70872,9 @@ let arr = [
         furigana: 'たいふつ',
         meanings: 'staying in France'
       }
-    ]
+    ],
+    quizAnswersOn: ['せん', 'ぶつ', 'ぼく', 'ほう'],
+    quizAnswersKun: ['ほとけ', 'そこ', 'つ.ぐ', 'たつ']
   },
   {
     kanjiName: '築',
@@ -69563,7 +70955,9 @@ let arr = [
         furigana: 'いちく',
         meanings: 'dismantling a (historic) building and reconstructing it elsewhere'
       }
-    ]
+    ],
+    quizAnswersOn: ['ちく', 'ぎゅう', 'いん', 'ぼう'],
+    quizAnswersKun: ['はざま', 'きず.く', 'たが.い', 'おおやけ']
   },
   {
     kanjiName: '門',
@@ -69679,7 +71073,9 @@ let arr = [
         furigana: 'しゅうもん',
         meanings: '(religious) denomination'
       }
-    ]
+    ],
+    quizAnswersOn: ['らん', 'しん', 'しゅく', 'もん'],
+    quizAnswersKun: ['いか.る', 'うなが.す', 'ただ.ちに', 'かど']
   },
   {
     kanjiName: '荷',
@@ -69783,7 +71179,9 @@ let arr = [
         furigana: 'でんか',
         meanings: 'electric charge'
       }
-    ]
+    ],
+    quizAnswersOn: ['とう', 'しゅう', 'か', 'おく'],
+    quizAnswersKun: ['あきらか', 'ひき', 'に', 'に']
   },
   {
     kanjiName: '府',
@@ -69859,7 +71257,9 @@ let arr = [
         furigana: 'むせいふ',
         meanings: 'anarchy'
       }
-    ]
+    ],
+    quizAnswersOn: ['ふ', 'ほう', 'とう', 'すい'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '浴',
@@ -69945,7 +71345,9 @@ let arr = [
         furigana: 'でいよく',
         meanings: 'mud bath'
       }
-    ]
+    ],
+    quizAnswersOn: ['よく', 'こん', 'ぎゅう', 'ぼん'],
+    quizAnswersKun: ['さまた.げる', 'そこ', 'もも', 'あ.びる']
   },
   {
     kanjiName: '専',
@@ -70031,7 +71433,9 @@ let arr = [
         furigana: 'こうせん',
         meanings: 'technical college'
       }
-    ]
+    ],
+    quizAnswersOn: ['なん', 'かん', 'ちょう', 'せん'],
+    quizAnswersKun: ['たに', 'もっぱ.ら', 'きた.える', 'そら']
   },
   {
     kanjiName: '細',
@@ -70142,7 +71546,9 @@ let arr = [
         furigana: 'せいさい',
         meanings: 'fine'
       }
-    ]
+    ],
+    quizAnswersOn: ['ちく', 'さ', 'れん', 'さい'],
+    quizAnswersKun: ['いそが.しい', '', 'ひとつ', 'ほそ.い']
   },
   {
     kanjiName: '鼻',
@@ -70238,7 +71644,9 @@ let arr = [
         furigana: 'こうび',
         meanings: 'nose-blowing'
       }
-    ]
+    ],
+    quizAnswersOn: ['かん', 'ふん', 'しょう', 'び'],
+    quizAnswersKun: ['はな', 'ふね', 'ひか.える', 'まる']
   },
   {
     kanjiName: '兵',
@@ -70344,7 +71752,9 @@ let arr = [
         furigana: 'だいひょう',
         meanings: 'great stature'
       }
-    ]
+    ],
+    quizAnswersOn: ['こう', 'へい', 'かん', 'ぼう'],
+    quizAnswersKun: ['えら.ぶ', 'つわもの', 'すず', 'す.べる']
   },
   {
     kanjiName: '塩',
@@ -70440,7 +71850,9 @@ let arr = [
         furigana: 'がんえん',
         meanings: 'halite'
       }
-    ]
+    ],
+    quizAnswersOn: ['こう', 'えん', 'せん', 'でい'],
+    quizAnswersKun: ['いわ', 'いち', '', 'しお']
   },
   {
     kanjiName: '栄',
@@ -70546,7 +71958,9 @@ let arr = [
         furigana: 'きょえい',
         meanings: 'vanity'
       }
-    ]
+    ],
+    quizAnswersOn: ['げん', 'えい', 'か', 'けい'],
+    quizAnswersKun: ['えら.い', 'さか.える', '', 'ひこ']
   },
   {
     kanjiName: '干',
@@ -70632,7 +72046,9 @@ let arr = [
         furigana: 'じっかん',
         meanings: 'ten celestial stems (two types each of wood'
       }
-    ]
+    ],
+    quizAnswersOn: ['か', 'ほう', 'けい', 'かん'],
+    quizAnswersKun: ['', 'ほ.す', 'そな.える', 'い.る']
   },
   {
     kanjiName: '底',
@@ -70728,7 +72144,9 @@ let arr = [
         furigana: 'すいてい',
         meanings: 'sea or river bottom'
       }
-    ]
+    ],
+    quizAnswersOn: ['ご', 'てい', 'こう', 'しゃ'],
+    quizAnswersKun: ['つか.う', 'わざ.と', 'ひ.める', 'そこ']
   },
   {
     kanjiName: '署',
@@ -70804,7 +72222,9 @@ let arr = [
         furigana: 'ふくしょ',
         meanings: 'countersignature'
       }
-    ]
+    ],
+    quizAnswersOn: ['しょ', 'しゃく', 'まつ', 'しょう'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '恋',
@@ -70910,7 +72330,9 @@ let arr = [
         furigana: 'きょうれん',
         meanings: 'mad love'
       }
-    ]
+    ],
+    quizAnswersOn: ['れん', 'しゅう', 'らん', 'か'],
+    quizAnswersKun: ['だま.る', '', 'すく.ない', 'こ.う']
   },
   {
     kanjiName: '訓',
@@ -71011,7 +72433,9 @@ let arr = [
         furigana: 'かくん',
         meanings: 'family precepts'
       }
-    ]
+    ],
+    quizAnswersOn: ['じゅん', 'くん', 'じょう', 'ぶ'],
+    quizAnswersKun: ['おし.える', 'ちぢ.む', '', 'たてまつ.る']
   },
   {
     kanjiName: '祈',
@@ -71082,7 +72506,9 @@ let arr = [
         furigana: 'きがん',
         meanings: 'prayer (for something)'
       }
-    ]
+    ],
+    quizAnswersOn: ['さ', 'よう', 'き', 'たん'],
+    quizAnswersKun: ['いの.る', 'うった.える', 'ゆう', 'すじ']
   },
   {
     kanjiName: '焼',
@@ -71188,7 +72614,9 @@ let arr = [
         furigana: 'えんしょう',
         meanings: 'spread of fire'
       }
-    ]
+    ],
+    quizAnswersOn: ['しょう', 'し', 'せつ', 'そ'],
+    quizAnswersKun: ['か.く', 'や.く', 'くら', '']
   },
   {
     kanjiName: '胸',
@@ -71284,7 +72712,9 @@ let arr = [
         furigana: 'かいきょう',
         meanings: 'thoracotomy'
       }
-    ]
+    ],
+    quizAnswersOn: ['きょう', 'てい', 'さく', 'あん'],
+    quizAnswersKun: ['ただ', 'すべ.て', 'むね', 'とも']
   },
   {
     kanjiName: '脳',
@@ -71360,7 +72790,9 @@ let arr = [
         furigana: 'せんのう',
         meanings: 'brainwashing'
       }
-    ]
+    ],
+    quizAnswersOn: ['のう', 'あ', 'どう', 'ゆう'],
+    quizAnswersKun: ['はり', 'わか.つ', 'とり', 'のうずる']
   },
   {
     kanjiName: '枚',
@@ -71441,7 +72873,9 @@ let arr = [
         furigana: 'ばいをふくむ',
         meanings: '(of a horse) to be gagged'
       }
-    ]
+    ],
+    quizAnswersOn: ['ぜつ', 'さい', 'かく', 'まい'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '禁',
@@ -71517,7 +72951,9 @@ let arr = [
         furigana: 'こうきん',
         meanings: 'detention'
       }
-    ]
+    ],
+    quizAnswersOn: ['きん', 'がん', 'ろ', 'りょう'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '喫',
@@ -71593,7 +73029,9 @@ let arr = [
         furigana: 'まんきつ',
         meanings: 'manga cafe'
       }
-    ]
+    ],
+    quizAnswersOn: ['び', 'ちく', 'し', 'きつ'],
+    quizAnswersKun: ['の.む', 'おか.す', '', 'つね']
   },
   {
     kanjiName: '減',
@@ -71684,7 +73122,9 @@ let arr = [
         furigana: 'けいげん',
         meanings: 'abatement'
       }
-    ]
+    ],
+    quizAnswersOn: ['げん', 'わ', 'しょく', 'えん'],
+    quizAnswersKun: ['へ.る', 'つよ.い', 'す', 'おこ.る']
   },
   {
     kanjiName: '順',
@@ -71760,7 +73200,9 @@ let arr = [
         furigana: 'ひつじゅん',
         meanings: 'stroke order (esp. of a Chinese character)'
       }
-    ]
+    ],
+    quizAnswersOn: ['ちょう', 'じゅん', 'し', 'じゅ'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '布',
@@ -71882,7 +73324,9 @@ let arr = [
         meanings:
           'ceremony in which an abdicated emperor puts on informal court clothes (i.e. a kariginu and eboshi) for the first time'
       }
-    ]
+    ],
+    quizAnswersOn: ['そう', 'きょう', 'きょ', 'ふ'],
+    quizAnswersKun: ['', 'とどこお.る', 'くさ.い', 'ぬの']
   },
   {
     kanjiName: '詞',
@@ -71978,7 +73422,9 @@ let arr = [
         furigana: 'こゆうめいし',
         meanings: 'proper noun'
       }
-    ]
+    ],
+    quizAnswersOn: ['たい', 'し', 'こう', 'む'],
+    quizAnswersKun: ['かこ.む', 'ことば', '', 'むすめ']
   },
   {
     kanjiName: '歴',
@@ -72059,7 +73505,9 @@ let arr = [
         furigana: 'れっきとした',
         meanings: 'accepted'
       }
-    ]
+    ],
+    quizAnswersOn: ['と', 'はち', 'とう', 'れき'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '冊',
@@ -72140,7 +73588,9 @@ let arr = [
         furigana: 'さくほう',
         meanings: 'bestowing peerage by imperial edict (in ancient China)'
       }
-    ]
+    ],
+    quizAnswersOn: ['や', 'しゅう', 'さつ', 'にん'],
+    quizAnswersKun: ['ふみ', 'ひそ.む', 'ただ.し', 'まち']
   },
   {
     kanjiName: '宇',
@@ -72216,7 +73666,9 @@ let arr = [
         furigana: 'こうう',
         meanings: 'aerospace'
       }
-    ]
+    ],
+    quizAnswersOn: ['まつ', 'いち', 'う', 'せい'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '団',
@@ -72302,7 +73754,9 @@ let arr = [
         furigana: 'すいとん',
         meanings: 'flour dumplings in soup'
       }
-    ]
+    ],
+    quizAnswersOn: ['び', 'へい', 'さつ', 'だん'],
+    quizAnswersKun: ['かたまり', '', 'あたた.か', 'も.る']
   },
   {
     kanjiName: '暴',
@@ -72398,7 +73852,9 @@ let arr = [
         furigana: 'ばくろせんじゅつ',
         meanings: 'exposure tactics'
       }
-    ]
+    ],
+    quizAnswersOn: ['かん', 'ぼう', 'けつ', 'げん'],
+    quizAnswersKun: ['つく.る', 'よ', 'あば.く', 'わか.る']
   },
   {
     kanjiName: '混',
@@ -72494,7 +73950,9 @@ let arr = [
         furigana: 'こんこん',
         meanings: 'copious (flowing)'
       }
-    ]
+    ],
+    quizAnswersOn: ['やく', 'こん', 'ぼつ', 'はく'],
+    quizAnswersKun: ['さる', 'しら.べる', 'ま.じる', 'みなと']
   },
   {
     kanjiName: '乱',
@@ -72595,7 +74053,9 @@ let arr = [
         furigana: 'うろん',
         meanings: 'suspicious-looking'
       }
-    ]
+    ],
+    quizAnswersOn: ['らん', 'けん', 'よう', 'ぞく'],
+    quizAnswersKun: ['みだ.れる', 'まれ', 'み.る', 'し.る']
   },
   {
     kanjiName: '改',
@@ -72681,7 +74141,9 @@ let arr = [
         furigana: 'けいやくこうかい',
         meanings: 'contract renewal'
       }
-    ]
+    ],
+    quizAnswersOn: ['かい', 'しょく', 'せつ', 'ひょう'],
+    quizAnswersKun: ['と.める', 'かた.い', 'かく.す', 'あらた.める']
   },
   {
     kanjiName: '絡',
@@ -72767,7 +74229,9 @@ let arr = [
         furigana: 'みゃくらく',
         meanings: 'logical connection'
       }
-    ]
+    ],
+    quizAnswersOn: ['しょ', 'らく', '', 'ど'],
+    quizAnswersKun: ['お.う', 'から.む', '', 'すく.う']
   },
   {
     kanjiName: '比',
@@ -72848,7 +74312,9 @@ let arr = [
         furigana: 'せいひ',
         meanings: 'direct ratio'
       }
-    ]
+    ],
+    quizAnswersOn: ['ひ', 'し', 'わ', 'とく'],
+    quizAnswersKun: ['くら.べる', 'くらい', '', 'うず']
   },
   {
     kanjiName: '被',
@@ -72954,7 +74420,9 @@ let arr = [
         furigana: 'かひ',
         meanings: 'perianth'
       }
-    ]
+    ],
+    quizAnswersOn: ['こう', 'ひょう', 'ぎ', 'ひ'],
+    quizAnswersKun: ['こうむ.る', '', 'かぶ', 'い.る']
   },
   {
     kanjiName: '震',
@@ -73050,7 +74518,9 @@ let arr = [
         furigana: 'けいしん',
         meanings: 'weak earthquake'
       }
-    ]
+    ],
+    quizAnswersOn: ['い', 'しん', 'こん', 'きょう'],
+    quizAnswersKun: ['す.い', 'ふる.う', '', 'せ.める']
   },
   {
     kanjiName: '械',
@@ -73131,7 +74601,9 @@ let arr = [
         furigana: 'さんぎょうきかい',
         meanings: 'industrial machinery'
       }
-    ]
+    ],
+    quizAnswersOn: ['かい', 'れん', 'さつ', 'つい'],
+    quizAnswersKun: ['しず.める', 'かせ', '', 'まぬか.れる']
   },
   {
     kanjiName: '個',
@@ -73218,7 +74690,9 @@ let arr = [
         furigana: 'かしょ',
         meanings: 'place'
       }
-    ]
+    ],
+    quizAnswersOn: ['そう', 'こ', 'は', 'たく'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '圧',
@@ -73319,7 +74793,9 @@ let arr = [
         furigana: 'おうじょう',
         meanings: 'document written under duress'
       }
-    ]
+    ],
+    quizAnswersOn: ['しゅん', 'あつ', 'きゅう', 'けん'],
+    quizAnswersKun: ['お.す', 'しら.げる', 'かな.でる', 'くるわ']
   },
   {
     kanjiName: '厚',
@@ -73405,7 +74881,9 @@ let arr = [
         furigana: 'はいしょくのうこう',
         meanings: 'likely loss'
       }
-    ]
+    ],
+    quizAnswersOn: ['はん', 'とう', 'さつ', 'こう'],
+    quizAnswersKun: ['あつ.い', 'ふ.せる', '', 'むろ']
   },
   {
     kanjiName: '防',
@@ -73486,7 +74964,9 @@ let arr = [
         furigana: 'こうぼう',
         meanings: 'offense and defense'
       }
-    ]
+    ],
+    quizAnswersOn: ['げき', 'ぼう', 'てい', 'れい'],
+    quizAnswersKun: ['ふせ.ぐ', 'かみ', 'わらべ', 'くわ']
   },
   {
     kanjiName: '史',
@@ -73562,7 +75042,9 @@ let arr = [
         furigana: 'せいし',
         meanings: 'official history'
       }
-    ]
+    ],
+    quizAnswersOn: ['し', 'に', 'おう', 'きょう'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '委',
@@ -73643,7 +75125,9 @@ let arr = [
         furigana: 'こうい',
         meanings: 'public safety commission'
       }
-    ]
+    ],
+    quizAnswersOn: ['せん', 'ほう', 'けい', 'い'],
+    quizAnswersKun: ['ゆだ.ねる', 'は.たす', 'あきらか', 'うやま.う']
   },
   {
     kanjiName: '査',
@@ -73719,7 +75203,9 @@ let arr = [
         furigana: 'じったいちょうさ',
         meanings: 'fact-finding investigation'
       }
-    ]
+    ],
+    quizAnswersOn: ['さ', 'ふ', 'しつ', 'も'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '総',
@@ -73825,7 +75311,9 @@ let arr = [
         furigana: 'ぜんそう',
         meanings: 'Comprehensive National Development Plan (1962-)'
       }
-    ]
+    ],
+    quizAnswersOn: ['ぎ', 'かく', 'そう', 'しゅん'],
+    quizAnswersKun: ['つか.える', 'す.べて', 'わた.る', 'いつわ.る']
   },
   {
     kanjiName: '設',
@@ -73907,7 +75395,9 @@ let arr = [
         meanings:
           'joint establishment (esp. schools of different levels or different courses of study)'
       }
-    ]
+    ],
+    quizAnswersOn: ['まん', 'せつ', 'じゃく', 'ぎょ'],
+    quizAnswersKun: ['たき', 'もう.ける', 'さと.る', 'し.る']
   },
   {
     kanjiName: '省',
@@ -74014,7 +75504,9 @@ let arr = [
         furigana: 'こうせいしょう',
         meanings: '(former) Ministry of Health and Welfare'
       }
-    ]
+    ],
+    quizAnswersOn: ['さつ', 'こう', 'せい', 'けん'],
+    quizAnswersKun: ['しま', 'かぎ.る', '', 'かえり.みる']
   },
   {
     kanjiName: '税',
@@ -74090,7 +75582,9 @@ let arr = [
         furigana: 'のうぜい',
         meanings: 'payment of taxes'
       }
-    ]
+    ],
+    quizAnswersOn: ['だい', 'じょう', 'ぜい', 'じゅく'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '各',
@@ -74166,7 +75660,9 @@ let arr = [
         furigana: 'かくじ',
         meanings: 'each (person)'
       }
-    ]
+    ],
+    quizAnswersOn: ['こ', 'う', 'かく', 'よう'],
+    quizAnswersKun: ['おのおの', 'ほうき', '', 'つづ.く']
   },
   {
     kanjiName: '勢',
@@ -74277,7 +75773,9 @@ let arr = [
         furigana: 'もうせい',
         meanings: 'great strength'
       }
-    ]
+    ],
+    quizAnswersOn: ['せい', 'しん', 'しょく', 'やく'],
+    quizAnswersKun: ['まわ.る', 'すく.う', 'いきお.い', 'いくさ']
   },
   {
     kanjiName: '営',
@@ -74363,7 +75861,9 @@ let arr = [
         furigana: 'こうえい',
         meanings: 'public management'
       }
-    ]
+    ],
+    quizAnswersOn: ['し', 'しょ', 'てん', 'えい'],
+    quizAnswersKun: ['たが.い', 'ぬさ', 'いとな.む', 'さる']
   },
   {
     kanjiName: '領',
@@ -74454,7 +75954,9 @@ let arr = [
         furigana: 'こうりょう',
         meanings: 'general plan'
       }
-    ]
+    ],
+    quizAnswersOn: ['てい', 'りょう', 'か', 'とう'],
+    quizAnswersKun: ['', 'い.きる', 'さとい', 'えり']
   },
   {
     kanjiName: '副',
@@ -74530,7 +76032,9 @@ let arr = [
         furigana: 'かんふく',
         meanings: 'relative adverb'
       }
-    ]
+    ],
+    quizAnswersOn: ['しょ', 'ふく', 'しゃ', 'さい'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '域',
@@ -74606,7 +76110,9 @@ let arr = [
         furigana: 'せいいき',
         meanings: 'sacred precincts'
       }
-    ]
+    ],
+    quizAnswersOn: ['さつ', 'いき', 'がん', 'はつ'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '停',
@@ -74692,7 +76198,9 @@ let arr = [
         furigana: 'きょちゅうちょうてい',
         meanings: 'mediation'
       }
-    ]
+    ],
+    quizAnswersOn: ['きん', 'ゆう', 'き', 'てい'],
+    quizAnswersKun: ['すばる', 'もと', '', 'と.める']
   },
   {
     kanjiName: '革',
@@ -74788,7 +76296,9 @@ let arr = [
         furigana: 'のうちかいかく',
         meanings: 'agrarian reform'
       }
-    ]
+    ],
+    quizAnswersOn: ['しょう', 'じゅう', 'かく', 'は'],
+    quizAnswersKun: ['かわ', 'おく.る', 'ともえ', 'けもの']
   },
   {
     kanjiName: '律',
@@ -74879,7 +76389,9 @@ let arr = [
         furigana: 'ろれつ',
         meanings: 'articulation'
       }
-    ]
+    ],
+    quizAnswersOn: ['とう', 'りつ', 'せい', 'えい'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '準',
@@ -74970,7 +76482,9 @@ let arr = [
         furigana: 'ていすいじゅん',
         meanings: 'substandard'
       }
-    ]
+    ],
+    quizAnswersOn: ['ほ', 'じ', 'じゅん', 'じょ'],
+    quizAnswersKun: ['じゅん.じる', 'よそお.う', 'みずうみ', 'きも']
   },
   {
     kanjiName: '則',
@@ -75061,7 +76575,9 @@ let arr = [
         furigana: 'せいそく',
         meanings: 'correct'
       }
-    ]
+    ],
+    quizAnswersOn: ['か', 'し', 'そく', 'こん'],
+    quizAnswersKun: ['のっと.る', 'さむらい', 'つつし.む', 'あな']
   },
   {
     kanjiName: '導',
@@ -75142,7 +76658,9 @@ let arr = [
         furigana: 'しゅどう',
         meanings: 'leadership'
       }
-    ]
+    ],
+    quizAnswersOn: ['どう', 'よく', 'せき', 'き'],
+    quizAnswersKun: ['うし', 'まよ.う', '', 'みちび.く']
   },
   {
     kanjiName: '乳',
@@ -75258,7 +76776,9 @@ let arr = [
         furigana: 'せいにゅう',
         meanings: 'raw milk'
       }
-    ]
+    ],
+    quizAnswersOn: ['ひん', 'がい', 'にゅう', 'ひ'],
+    quizAnswersKun: ['ちち', 'しず.める', 'おや', '']
   },
   {
     kanjiName: '城',
@@ -75365,7 +76885,9 @@ let arr = [
         meanings:
           'woman so glamorous as to bring ruin to a country (castle) as its king (lord) is captivated by her beauty'
       }
-    ]
+    ],
+    quizAnswersOn: ['ぼう', 'じょう', 'げい', 'ざい'],
+    quizAnswersKun: ['しろ', 'もっ.て', '', 'はる.か']
   },
   {
     kanjiName: '担',
@@ -75451,7 +76973,9 @@ let arr = [
         furigana: 'じたん',
         meanings: "one's favourite member of an idol group"
       }
-    ]
+    ],
+    quizAnswersOn: ['たん', 'けつ', 'し', 'い'],
+    quizAnswersKun: ['みず', 'かな.しい', '', 'かつ.ぐ']
   },
   {
     kanjiName: '額',
@@ -75542,7 +77066,9 @@ let arr = [
         furigana: 'ぜいがく',
         meanings: 'amount of tax'
       }
-    ]
+    ],
+    quizAnswersOn: ['がく', 'そ', 'しょう', 'めん'],
+    quizAnswersKun: ['おに', 'ひたい', 'ふる.い', 'よ.む']
   },
   {
     kanjiName: '輸',
@@ -75628,7 +77154,9 @@ let arr = [
         furigana: 'ゆしゅつ',
         meanings: 'export'
       }
-    ]
+    ],
+    quizAnswersOn: ['ぎゃく', 'かん', 'ゆ', 'きょう'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '燃',
@@ -75729,7 +77257,9 @@ let arr = [
         furigana: 'かねん',
         meanings: 'inflammable'
       }
-    ]
+    ],
+    quizAnswersOn: ['ねん', 'へい', 'てい', 'しゅう'],
+    quizAnswersKun: ['いや.しい', 'ゆ', 'か.つ', 'も.える']
   },
   {
     kanjiName: '祝',
@@ -75820,7 +77350,9 @@ let arr = [
         furigana: 'しゅうぎぶくろ',
         meanings: 'special envelope for monetary gifts'
       }
-    ]
+    ],
+    quizAnswersOn: ['ぼ', 'しゅく', 'る', 'よく'],
+    quizAnswersKun: ['いわ.う', 'ゆる.す', 'わけ', 'よ.る']
   },
   {
     kanjiName: '届',
@@ -75886,7 +77418,9 @@ let arr = [
         furigana: 'とどく',
         meanings: 'to reach'
       }
-    ]
+    ],
+    quizAnswersOn: ['へい', 'かい', 'ぜん', 'はく'],
+    quizAnswersKun: ['とど.ける', 'ゆる.す', 'とお.る', 'す.る']
   },
   {
     kanjiName: '肩',
@@ -75982,7 +77516,9 @@ let arr = [
         furigana: 'きょうけん',
         meanings: 'strong throwing arm'
       }
-    ]
+    ],
+    quizAnswersOn: ['ふく', 'せき', 'けん', 'ふ'],
+    quizAnswersKun: ['なな.め', 'こお.る', 'かた', 'ばば']
   },
   {
     kanjiName: '腕',
@@ -76078,7 +77614,9 @@ let arr = [
         furigana: 'かいわん',
         meanings: 'remarkable ability'
       }
-    ]
+    ],
+    quizAnswersOn: ['わん', 'い', 'そ', 'げん'],
+    quizAnswersKun: ['うで', 'か.つ', 'う.える', 'みつ.ぐ']
   },
   {
     kanjiName: '腰',
@@ -76174,7 +77712,9 @@ let arr = [
         furigana: 'やなぎごし',
         meanings: 'slim waist'
       }
-    ]
+    ],
+    quizAnswersOn: ['てつ', 'よう', 'そう', 'ち'],
+    quizAnswersKun: ['こし', 'つと.める', 'わら', 'ふくろ']
   },
   {
     kanjiName: '触',
@@ -76270,7 +77810,9 @@ let arr = [
         furigana: 'のうこうせっしょく',
         meanings: 'close contact (with an infected person)'
       }
-    ]
+    ],
+    quizAnswersOn: ['えい', 'ろう', 'はん', 'しょく'],
+    quizAnswersKun: ['う.く', 'ふ.れる', 'たの.しい', 'はげ.しい']
   },
   {
     kanjiName: '層',
@@ -76346,7 +77888,9 @@ let arr = [
         furigana: 'こうそう',
         meanings: 'high-rise (building)'
       }
-    ]
+    ],
+    quizAnswersOn: ['そう', 'ふ', 'たい', 'りょう'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '型',
@@ -76432,7 +77976,9 @@ let arr = [
         furigana: 'たいけい',
         meanings: 'figure'
       }
-    ]
+    ],
+    quizAnswersOn: ['そう', 'べん', 'えん', 'けい'],
+    quizAnswersKun: ['かた', 'つばさ', 'ひと.り', '']
   },
   {
     kanjiName: '庁',
@@ -76508,7 +78054,9 @@ let arr = [
         furigana: 'せいちょう',
         meanings: 'government office'
       }
-    ]
+    ],
+    quizAnswersOn: ['しつ', 'ろく', 'ねん', 'ちょう'],
+    quizAnswersKun: ['あやま.る', '', 'こ.りる', 'やくしょ']
   },
   {
     kanjiName: '管',
@@ -76604,7 +78152,9 @@ let arr = [
         furigana: 'いかん',
         meanings: 'transfer of control'
       }
-    ]
+    ],
+    quizAnswersOn: ['しん', 'たん', 'おう', 'かん'],
+    quizAnswersKun: ['にし', 'わ', 'くだ', 'あお']
   },
   {
     kanjiName: '象',
@@ -76705,7 +78255,9 @@ let arr = [
         furigana: 'せいうち',
         meanings: 'walrus (Odobenus rosmarus)'
       }
-    ]
+    ],
+    quizAnswersOn: ['そう', 'れい', 'しょう', 'もう'],
+    quizAnswersKun: ['', 'か', 'かたど.る', 'おさ.める']
   },
   {
     kanjiName: '量',
@@ -76786,7 +78338,9 @@ let arr = [
         furigana: 'けいりょう',
         meanings: 'light weight'
       }
-    ]
+    ],
+    quizAnswersOn: ['りょう', 'か', 'さん', 'たい'],
+    quizAnswersKun: ['ふ.く', 'そな.える', 'あら.い', 'はか.る']
   },
   {
     kanjiName: '境',
@@ -76887,7 +78441,9 @@ let arr = [
         furigana: 'けいかい',
         meanings: 'land boundary'
       }
-    ]
+    ],
+    quizAnswersOn: ['しょう', 'はん', 'きょう', 'ばい'],
+    quizAnswersKun: ['', 'ころも', 'さかい', 'すえ']
   },
   {
     kanjiName: '武',
@@ -76998,7 +78554,9 @@ let arr = [
         furigana: 'げんぶ',
         meanings: 'Black Tortoise (god said to rule over the northern heavens)'
       }
-    ]
+    ],
+    quizAnswersOn: ['ぶ', 'しゅう', 'ら', 'ひ'],
+    quizAnswersKun: ['', 'はや.い', 'たけ', 'つぼ']
   },
   {
     kanjiName: '述',
@@ -77079,7 +78637,9 @@ let arr = [
         furigana: 'こうじゅつ',
         meanings: 'speaking at a public hearing'
       }
-    ]
+    ],
+    quizAnswersOn: ['ふつ', 'だん', 'ばつ', 'じゅつ'],
+    quizAnswersKun: ['もと', 'う.える', 'の.べる', 'えら.い']
   },
   {
     kanjiName: '販',
@@ -77155,7 +78715,9 @@ let arr = [
         furigana: 'さいはん',
         meanings: 'resale'
       }
-    ]
+    ],
+    quizAnswersOn: ['ひょう', 'ぼく', 'はん', 'し'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '含',
@@ -77241,7 +78803,9 @@ let arr = [
         furigana: 'ないがん',
         meanings: 'containing within (it)'
       }
-    ]
+    ],
+    quizAnswersOn: ['がん', 'もう', 'ぼ', 'くう'],
+    quizAnswersKun: ['', 'ほ.る', 'ふく.む', 'せ.める']
   },
   {
     kanjiName: '況',
@@ -77322,7 +78886,9 @@ let arr = [
         furigana: 'しきょう',
         meanings: 'market conditions'
       }
-    ]
+    ],
+    quizAnswersOn: ['きょう', 'そく', 'けい', 'てい'],
+    quizAnswersKun: ['み.る', 'まし.て', 'さ.す', 'はじ.める']
   },
   {
     kanjiName: '補',
@@ -77403,7 +78969,9 @@ let arr = [
         furigana: 'ついほ',
         meanings: 'supplement'
       }
-    ]
+    ],
+    quizAnswersOn: ['しょ', 'ほ', 'じゅん', 'きょ'],
+    quizAnswersKun: ['な', 'あやか.る', 'ゆき', 'おぎな.う']
   },
   {
     kanjiName: '効',
@@ -77489,7 +79057,9 @@ let arr = [
         furigana: 'じこう',
         meanings: 'statute of limitations'
       }
-    ]
+    ],
+    quizAnswersOn: ['くつ', 'こう', 'けい', 'けん'],
+    quizAnswersKun: ['すがた', 'き.く', 'よ.い', 'ぶた']
   },
   {
     kanjiName: '豊',
@@ -77595,7 +79165,9 @@ let arr = [
         furigana: 'ぶざんは',
         meanings: 'Buzan sect (of Shingi Shingon Buddhism)'
       }
-    ]
+    ],
+    quizAnswersOn: ['さい', 'きゅう', 'ほう', 'しょう'],
+    quizAnswersKun: ['ゆた.か', 'すこ.やか', 'わら', 'しずく']
   },
   {
     kanjiName: '巻',
@@ -77741,7 +79313,9 @@ let arr = [
         furigana: 'せっけん',
         meanings: 'sweeping (over'
       }
-    ]
+    ],
+    quizAnswersOn: ['かん', 'ぞう', 'ひ', 'ぎゃく'],
+    quizAnswersKun: ['ま.く', 'おさ.める', 'す.い', 'くら']
   },
   {
     kanjiName: '捜',
@@ -77822,7 +79396,9 @@ let arr = [
         furigana: 'はくそう',
         meanings: 'searching far and wide'
       }
-    ]
+    ],
+    quizAnswersOn: ['き', 'ひ', 'そう', 'はん'],
+    quizAnswersKun: ['', 'ひとつ', 'さが.す', 'その']
   },
   {
     kanjiName: '替',
@@ -77898,7 +79474,9 @@ let arr = [
         furigana: 'すいたい',
         meanings: 'weakening'
       }
-    ]
+    ],
+    quizAnswersOn: ['きょう', 'たい', 'こう', 'ぐう'],
+    quizAnswersKun: ['は.く', 'か.える', 'あせ', 'と.る']
   },
   {
     kanjiName: '造',
@@ -77994,7 +79572,9 @@ let arr = [
         furigana: 'ねつぞう',
         meanings: 'fabrication'
       }
-    ]
+    ],
+    quizAnswersOn: ['にん', 'せい', 'りょう', 'ぞう'],
+    quizAnswersKun: ['うかが.う', 'いく-', 'つく.る', '']
   },
   {
     kanjiName: '印',
@@ -78101,7 +79681,9 @@ let arr = [
         furigana: 'みとめいん',
         meanings: 'private seal'
       }
-    ]
+    ],
+    quizAnswersOn: ['せつ', 'しゅう', 'いん', 'しょう'],
+    quizAnswersKun: ['かた', 'しるし', 'うご.く', 'さ.す']
   },
   {
     kanjiName: '復',
@@ -78187,7 +79769,9 @@ let arr = [
         furigana: 'しょうがいかいふく',
         meanings: 'fault recovery'
       }
-    ]
+    ],
+    quizAnswersOn: ['しつ', 'すう', 'ひん', 'ふく'],
+    quizAnswersKun: ['とも', 'また', 'はか.る', 'なお']
   },
   {
     kanjiName: '筆',
@@ -78283,7 +79867,9 @@ let arr = [
         furigana: 'とくひつ',
         meanings: 'special mention'
       }
-    ]
+    ],
+    quizAnswersOn: ['こう', 'ひつ', 'たく', 'じ'],
+    quizAnswersKun: ['かす.か', 'ふく.む', 'ふで', 'かいこ']
   },
   {
     kanjiName: '貯',
@@ -78364,7 +79950,9 @@ let arr = [
         furigana: 'ゆうちょ',
         meanings: 'postal (post-office) savings (deposit)'
       }
-    ]
+    ],
+    quizAnswersOn: ['ちょ', 'えん', 'きん', 'めい'],
+    quizAnswersKun: ['た.める', '', 'えだ', 'おおき.い']
   },
   {
     kanjiName: '刺',
@@ -78510,7 +80098,9 @@ let arr = [
         furigana: 'にくさし',
         meanings: 'fork'
       }
-    ]
+    ],
+    quizAnswersOn: ['よう', 'し', 'きん', 'ど'],
+    quizAnswersKun: ['さ.す', 'まど.う', 'ぬ.う', '']
   },
   {
     kanjiName: '郵',
@@ -78587,7 +80177,9 @@ let arr = [
         furigana: 'けいたいでんゆう',
         meanings: 'email from a cell phone or mobile phone'
       }
-    ]
+    ],
+    quizAnswersOn: ['ゆう', 'ま', 'よう', 'じ'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '針',
@@ -78683,7 +80275,9 @@ let arr = [
         furigana: 'けんしん',
         meanings: 'inspection of a meter'
       }
-    ]
+    ],
+    quizAnswersOn: ['しん', 'が', 'たい', 'よう'],
+    quizAnswersKun: ['ほが.らか', 'ちぎ.る', 'なぐ.る', 'はり']
   },
   {
     kanjiName: '菓',
@@ -78759,7 +80353,9 @@ let arr = [
         furigana: 'せいか',
         meanings: 'Christmas cake'
       }
-    ]
+    ],
+    quizAnswersOn: ['かん', 'し', 'きん', 'か'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '河',
@@ -78855,7 +80451,9 @@ let arr = [
         furigana: 'ぼうこひょうが',
         meanings: 'foolhardy courage'
       }
-    ]
+    ],
+    quizAnswersOn: ['けつ', 'か', 'しん', 'どう'],
+    quizAnswersKun: ['す.い', '', 'かわ', 'ぶた']
   },
   {
     kanjiName: '汗',
@@ -78951,7 +80549,9 @@ let arr = [
         furigana: 'たいかん',
         meanings: 'Great Khan'
       }
-    ]
+    ],
+    quizAnswersOn: ['ほく', 'じん', 'かん', 'みん'],
+    quizAnswersKun: ['よ.く', 'おもむ.ろに', 'うやま.う', 'あせ']
   },
   {
     kanjiName: '再',
@@ -79042,7 +80642,9 @@ let arr = [
         furigana: 'さいえん',
         meanings: 'another showing (of a play)'
       }
-    ]
+    ],
+    quizAnswersOn: ['はん', 'しん', 'さい', 'そう'],
+    quizAnswersKun: ['ほど', 'ふたた.び', 'なら.う', '']
   },
   {
     kanjiName: '接',
@@ -79128,7 +80730,9 @@ let arr = [
         furigana: 'せっしん',
         meanings: 'concentration'
       }
-    ]
+    ],
+    quizAnswersOn: ['せつ', 'おく', 'しん', 'たく'],
+    quizAnswersKun: ['よ', 'たま', '', 'つ.ぐ']
   },
   {
     kanjiName: '占',
@@ -79223,7 +80827,9 @@ let arr = [
         furigana: 'かいてかせん',
         meanings: 'oligopsony'
       }
-    ]
+    ],
+    quizAnswersOn: ['さ', 'じ', 'せん', 'さい'],
+    quizAnswersKun: ['し.める', 'おさ.える', 'しおり', 'と.ぶ']
   },
   {
     kanjiName: '胃',
@@ -79299,7 +80905,9 @@ let arr = [
         furigana: 'ほうそうい',
         meanings: 'reticulum'
       }
-    ]
+    ],
+    quizAnswersOn: ['かん', 'い', 'れい', 'ばい'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '悩',
@@ -79400,7 +81008,9 @@ let arr = [
         furigana: 'はんもんおうのう',
         meanings: 'anguish'
       }
-    ]
+    ],
+    quizAnswersOn: ['かん', 'こう', 'む', 'のう'],
+    quizAnswersKun: ['', 'ひこ', 'それがし', 'なや.む']
   },
   {
     kanjiName: '昇',
@@ -79481,7 +81091,9 @@ let arr = [
         furigana: 'おんどじょうしょう',
         meanings: 'temperature increase'
       }
-    ]
+    ],
+    quizAnswersOn: ['せい', 'しょう', 'けん', 'へい'],
+    quizAnswersKun: ['かた.める', 'のぼ.る', '', 'みなもと']
   },
   {
     kanjiName: '濃',
@@ -79562,7 +81174,9 @@ let arr = [
         furigana: 'とくのう',
         meanings: 'highly concentrated'
       }
-    ]
+    ],
+    quizAnswersOn: ['じゅう', 'ごう', 'ぞく', 'のう'],
+    quizAnswersKun: ['あぶ.ない', 'きさき', 'こ.い', 'なが.める']
   },
   {
     kanjiName: '極',
@@ -79705,7 +81319,9 @@ let arr = [
         furigana: 'しつれいしごく',
         meanings: 'extremely rude'
       }
-    ]
+    ],
+    quizAnswersOn: ['よう', 'ぶつ', 'ゆう', 'きょく'],
+    quizAnswersKun: ['きわ.める', 'むこ', 'ひら.く', 'おこ.る']
   },
   {
     kanjiName: '逆',
@@ -79826,7 +81442,9 @@ let arr = [
         furigana: 'らんぎゃく',
         meanings: 'rebellion'
       }
-    ]
+    ],
+    quizAnswersOn: ['し', 'ぎゃく', 'しん', 'かい'],
+    quizAnswersKun: ['', 'さか', 'ぬし', 'かみ']
   },
   {
     kanjiName: '巨',
@@ -79892,7 +81510,9 @@ let arr = [
         furigana: 'きょがく',
         meanings: 'huge sum (esp. of money)'
       }
-    ]
+    ],
+    quizAnswersOn: ['かん', 'きょ', 'しょう', 'き'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '庫',
@@ -79988,7 +81608,9 @@ let arr = [
         furigana: 'くいん',
         meanings: 'kitchen-cum-office of a Zen temple or monastery'
       }
-    ]
+    ],
+    quizAnswersOn: ['くん', 'ばく', 'こ', 'さん'],
+    quizAnswersKun: ['あつ.い', 'くら', '', 'とばり']
   },
   {
     kanjiName: '児',
@@ -80084,7 +81706,9 @@ let arr = [
         furigana: 'いじ',
         meanings: 'orphan'
       }
-    ]
+    ],
+    quizAnswersOn: ['しょく', 'ぞく', 'よく', 'じ'],
+    quizAnswersKun: ['こ', '', 'う.く', 'たい']
   },
   {
     kanjiName: '凍',
@@ -80180,7 +81804,9 @@ let arr = [
         furigana: 'じどうかいとう',
         meanings: 'self-extracting (file)'
       }
-    ]
+    ],
+    quizAnswersOn: ['こう', 'けい', 'とう', 'じゅう'],
+    quizAnswersKun: ['', 'かみ', 'さとい', 'こお.る']
   },
   {
     kanjiName: '幼',
@@ -80266,7 +81892,9 @@ let arr = [
         furigana: 'ろうよう',
         meanings: 'old and young'
       }
-    ]
+    ],
+    quizAnswersOn: ['よう', 'し', 'ちゅう', 'がん'],
+    quizAnswersKun: ['ふね', 'はやし', 'おさな.い', 'あらそ.う']
   },
   {
     kanjiName: '清',
@@ -80392,7 +82020,9 @@ let arr = [
         furigana: 'にっしん',
         meanings: 'Nissin Foods (abbr)'
       }
-    ]
+    ],
+    quizAnswersOn: ['か', 'ねつ', 'てん', 'せい'],
+    quizAnswersKun: ['きよ.い', '', 'かちどき', 'さむ.い']
   },
   {
     kanjiName: '録',
@@ -80473,7 +82103,9 @@ let arr = [
         furigana: 'さいろく',
         meanings: 'recording'
       }
-    ]
+    ],
+    quizAnswersOn: ['げん', 'ろく', 'ゆう', 'しょう'],
+    quizAnswersKun: ['そ.える', 'なさ.け', 'しる.す', '']
   },
   {
     kanjiName: '券',
@@ -80549,7 +82181,9 @@ let arr = [
         furigana: 'りょこうけん',
         meanings: 'travel voucher'
       }
-    ]
+    ],
+    quizAnswersOn: ['けん', 'てい', 'が', 'ぼう'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '移',
@@ -80635,7 +82269,9 @@ let arr = [
         furigana: 'へんい',
         meanings: 'change'
       }
-    ]
+    ],
+    quizAnswersOn: ['じゃく', 'たい', 'しょう', 'い'],
+    quizAnswersKun: ['うつ.る', 'よめ', 'なぐさ.める', 'まじ.える']
   },
   {
     kanjiName: '並',
@@ -80756,7 +82392,9 @@ let arr = [
         furigana: 'へいこう',
         meanings: 'going side-by-side'
       }
-    ]
+    ],
+    quizAnswersOn: ['けん', 'しょう', 'ほう', 'へい'],
+    quizAnswersKun: ['いわ', 'な.み', 'えが.く', '']
   },
   {
     kanjiName: '乾',
@@ -80867,7 +82505,9 @@ let arr = [
         furigana: 'けんい',
         meanings: 'northwest'
       }
-    ]
+    ],
+    quizAnswersOn: ['り', 'ぎ', 'ひん', 'かん'],
+    quizAnswersKun: ['うら.む', 'かわ.く', 'ほど', '']
   },
   {
     kanjiName: '欧',
@@ -80943,7 +82583,9 @@ let arr = [
         furigana: 'せいおう',
         meanings: 'Western Europe'
       }
-    ]
+    ],
+    quizAnswersOn: ['しょう', 'ふう', 'おう', 'とう'],
+    quizAnswersKun: ['うた.う', 'わざ', 'さむ.い', 'わた.る']
   },
   {
     kanjiName: '臣',
@@ -81029,7 +82671,9 @@ let arr = [
         furigana: 'ないだいじん',
         meanings: 'Lord Keeper of the Privy Seal (1885-1945)'
       }
-    ]
+    ],
+    quizAnswersOn: ['せき', 'ひょう', 'か', 'しん'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '略',
@@ -81110,7 +82754,9 @@ let arr = [
         furigana: 'こうりゃく',
         meanings: 'capture (of enemy territory)'
       }
-    ]
+    ],
+    quizAnswersOn: ['らん', 'ちん', 'たん', 'りゃく'],
+    quizAnswersKun: ['ほぼ', 'こえ', 'うた', 'とうげ']
   },
   {
     kanjiName: '航',
@@ -81186,7 +82832,9 @@ let arr = [
         furigana: 'しゅうこう',
         meanings: 'entering service (on a route; of a plane or ship)'
       }
-    ]
+    ],
+    quizAnswersOn: ['か', 'じゃく', 'はん', 'こう'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '板',
@@ -81302,7 +82950,9 @@ let arr = [
         furigana: 'こうはん',
         meanings: 'steel sheet'
       }
-    ]
+    ],
+    quizAnswersOn: ['ねん', 'ちく', 'はん', 'ひ'],
+    quizAnswersKun: ['しお', 'み.る', 'いた', 'じゅん.じる']
   },
   {
     kanjiName: '詰',
@@ -81408,7 +83058,9 @@ let arr = [
         furigana: 'めんきつ',
         meanings: 'reprimanding (a person) personally'
       }
-    ]
+    ],
+    quizAnswersOn: ['そう', 'きつ', 'りゅう', 'せつ'],
+    quizAnswersKun: ['つ.める', '', 'なつ', 'ちが.う']
   },
   {
     kanjiName: '照',
@@ -81509,7 +83161,9 @@ let arr = [
         furigana: 'ざんしょう',
         meanings: 'afterglow'
       }
-    ]
+    ],
+    quizAnswersOn: ['はん', 'さん', 'えい', 'しょう'],
+    quizAnswersKun: ['つき', 'むく', 'そそ.ぐ', 'て.る']
   },
   {
     kanjiName: '快',
@@ -81590,7 +83244,9 @@ let arr = [
         furigana: 'めいかい',
         meanings: 'clear'
       }
-    ]
+    ],
+    quizAnswersOn: ['とう', 'ちゅう', 'へい', 'かい'],
+    quizAnswersKun: ['いた.む', 'し.まる', '', 'こころよ.い']
   },
   {
     kanjiName: '版',
@@ -81666,7 +83322,9 @@ let arr = [
         furigana: 'せいはん',
         meanings: 'plate-making'
       }
-    ]
+    ],
+    quizAnswersOn: ['いん', 'しょう', 'はん', 'しん'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '預',
@@ -81742,7 +83400,9 @@ let arr = [
         furigana: 'よきん',
         meanings: 'deposit'
       }
-    ]
+    ],
+    quizAnswersOn: ['きん', 'よ', 'こう', 'そう'],
+    quizAnswersKun: ['つみ', 'さくら', 'えが.く', 'あず.ける']
   },
   {
     kanjiName: '延',
@@ -81843,7 +83503,9 @@ let arr = [
         furigana: 'あつえん',
         meanings: 'rolling'
       }
-    ]
+    ],
+    quizAnswersOn: ['そう', 'えん', 'ちゅう', 'らん'],
+    quizAnswersKun: ['の.びる', 'つ.く', '', 'あつ.い']
   },
   {
     kanjiName: '翌',
@@ -81914,7 +83576,9 @@ let arr = [
         furigana: 'よくよく',
         meanings: 'the ... after next'
       }
-    ]
+    ],
+    quizAnswersOn: ['せい', 'こう', 'よく', 'し'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '符',
@@ -81991,7 +83655,9 @@ let arr = [
         furigana: 'あいふ',
         meanings: 'baggage claim tag (at hotels'
       }
-    ]
+    ],
+    quizAnswersOn: ['かい', 'はつ', 'ふ', 'よく'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '編',
@@ -82081,7 +83747,9 @@ let arr = [
         furigana: 'かいへん',
         meanings: 'reorganization'
       }
-    ]
+    ],
+    quizAnswersOn: ['せい', 'ほう', 'ゆう', 'へん'],
+    quizAnswersKun: ['', 'あ.む', 'もと', 'な.れる']
   },
   {
     kanjiName: '普',
@@ -82152,7 +83820,9 @@ let arr = [
         furigana: 'ふきゅう',
         meanings: 'diffusion'
       }
-    ]
+    ],
+    quizAnswersOn: ['かく', 'れい', 'ふ', 'そう'],
+    quizAnswersKun: ['いつ', 'しず.む', '', 'あまね.く']
   },
   {
     kanjiName: '掃',
@@ -82223,7 +83893,9 @@ let arr = [
         furigana: 'そうかい',
         meanings: 'sweeping the sea for mines'
       }
-    ]
+    ],
+    quizAnswersOn: ['ふ', 'そう', 'せつ', 'しょう'],
+    quizAnswersKun: ['き.る', 'は.く', 'あきらか', 'とく']
   },
   {
     kanjiName: '泥',
@@ -82339,7 +84011,9 @@ let arr = [
         furigana: 'どろみず',
         meanings: 'muddy water'
       }
-    ]
+    ],
+    quizAnswersOn: ['きょう', 'でい', 'せい', 'けん'],
+    quizAnswersKun: ['たちばな', '', 'あき', 'どろ']
   },
   {
     kanjiName: '棒',
@@ -82415,7 +84089,9 @@ let arr = [
         furigana: 'しきぼう',
         meanings: "conductor's stick"
       }
-    ]
+    ],
+    quizAnswersOn: ['そく', 'ぼう', 'りょく', 'い'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '孫',
@@ -82511,7 +84187,9 @@ let arr = [
         furigana: 'がいそん',
         meanings: 'grandchild from a daughter married into another family'
       }
-    ]
+    ],
+    quizAnswersOn: ['と', 'そん', 'けい', 'ゆ'],
+    quizAnswersKun: ['す', '', 'まご', 'いくさ']
   },
   {
     kanjiName: '帯',
@@ -82612,7 +84290,9 @@ let arr = [
         furigana: 'あねったい',
         meanings: 'subtropics'
       }
-    ]
+    ],
+    quizAnswersOn: ['ふん', 'と', 'ひょう', 'たい'],
+    quizAnswersKun: ['にわとり', 'ひら.く', 'お.びる', '']
   },
   {
     kanjiName: '粉',
@@ -82723,7 +84403,9 @@ let arr = [
         furigana: 'せいふん',
         meanings: 'milling'
       }
-    ]
+    ],
+    quizAnswersOn: ['ふん', 'すう', 'けん', 'せん'],
+    quizAnswersKun: ['デシメートル', 'かす.か', 'あんず', 'く.しき']
   },
   {
     kanjiName: '菜',
@@ -82819,7 +84501,9 @@ let arr = [
         furigana: 'ぜんさい',
         meanings: "hors d'oeuvre"
       }
-    ]
+    ],
+    quizAnswersOn: ['さい', 'ほ', 'かん', 'ちょう'],
+    quizAnswersKun: ['かわ.く', 'ほどこ.す', 'な', 'なし']
   },
   {
     kanjiName: '貨',
@@ -82900,7 +84584,9 @@ let arr = [
         furigana: 'えいか',
         meanings: 'British currency'
       }
-    ]
+    ],
+    quizAnswersOn: ['か', 'きゅう', 'ろく', 'きつ'],
+    quizAnswersKun: ['あまつさえ', 'した', '', 'たから']
   },
   {
     kanjiName: '陸',
@@ -83007,7 +84693,9 @@ let arr = [
         meanings:
           'race game (board game played with dice in which the object is to reach the end of a track)'
       }
-    ]
+    ],
+    quizAnswersOn: ['りく', 'き', 'じゅん', 'すい'],
+    quizAnswersKun: ['だま.る', 'おか', 'と.る', 'ともな.う']
   },
   {
     kanjiName: '均',
@@ -83088,7 +84776,9 @@ let arr = [
         furigana: 'いどうへいきん',
         meanings: 'moving average'
       }
-    ]
+    ],
+    quizAnswersOn: ['とう', 'きん', 'はん', 'き'],
+    quizAnswersKun: ['もど.す', 'なら.す', 'かべ', '']
   },
   {
     kanjiName: '採',
@@ -83174,7 +84864,9 @@ let arr = [
         furigana: 'くっさい',
         meanings: 'mining'
       }
-    ]
+    ],
+    quizAnswersOn: ['さい', 'せい', 'は', 'きょく'],
+    quizAnswersKun: ['おもむ.ろに', '', 'と.る', 'かえり.みる']
   },
   {
     kanjiName: '永',
@@ -83260,7 +84952,9 @@ let arr = [
         furigana: 'たいえい',
         meanings: 'Taiei era (1521.8.23-1528.8.20)'
       }
-    ]
+    ],
+    quizAnswersOn: ['はん', 'えい', 'さ', 'かい'],
+    quizAnswersKun: ['さず.ける', 'ひ.く', 'なが.い', 'うで']
   },
   {
     kanjiName: '液',
@@ -83336,7 +85030,9 @@ let arr = [
         furigana: 'たいえき',
         meanings: 'body fluid'
       }
-    ]
+    ],
+    quizAnswersOn: ['せき', 'えき', 'そん', 'せん'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '績',
@@ -83402,7 +85098,9 @@ let arr = [
         furigana: 'ぼうせき',
         meanings: 'spinning (textiles)'
       }
-    ]
+    ],
+    quizAnswersOn: ['せい', 'せき', 'ひつ', 'さく'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '複',
@@ -83478,7 +85176,9 @@ let arr = [
         furigana: 'いでんしじゅうふく',
         meanings: 'gene duplication'
       }
-    ]
+    ],
+    quizAnswersOn: ['そう', 'かん', 'ふく', 'えん'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '党',
@@ -83554,7 +85254,9 @@ let arr = [
         furigana: 'どうとう',
         meanings: 'same (political) party'
       }
-    ]
+    ],
+    quizAnswersOn: ['とう', 'か', 'ひつ', 'じゅつ'],
+    quizAnswersKun: ['さき', '', 'なかま', 'おど.る']
   },
   {
     kanjiName: '卵',
@@ -83650,7 +85352,9 @@ let arr = [
         furigana: 'かいらん',
         meanings: 'brooding'
       }
-    ]
+    ],
+    quizAnswersOn: ['しゅう', 'か', 'らん', 'かん'],
+    quizAnswersKun: ['たまご', 'かたな', 'すす.める', 'つづ.く']
   },
   {
     kanjiName: '捨',
@@ -83736,7 +85440,9 @@ let arr = [
         furigana: 'ようしゃ',
         meanings: 'adoption or rejection'
       }
-    ]
+    ],
+    quizAnswersOn: ['たく', 'ふ', 'しゃ', 'たい'],
+    quizAnswersKun: ['あ.びる', 'ふ.せる', 'す.てる', '']
   },
   {
     kanjiName: '汚',
@@ -83847,7 +85553,9 @@ let arr = [
         furigana: 'たんお',
         meanings: 'greed'
       }
-    ]
+    ],
+    quizAnswersOn: ['い', 'にく', 'いん', 'お'],
+    quizAnswersKun: ['けが.す', 'きし', 'つ.く', 'おとず.れる']
   },
   {
     kanjiName: '机',
@@ -83938,7 +85646,9 @@ let arr = [
         furigana: 'めいそうじょうき',
         meanings: 'dustless desk by a well-lit window'
       }
-    ]
+    ],
+    quizAnswersOn: ['き', 'へん', 'しゅ', 'ふ'],
+    quizAnswersKun: ['い', 'たまわ.る', 'つくえ', '']
   },
   {
     kanjiName: '簡',
@@ -84024,7 +85734,9 @@ let arr = [
         furigana: 'ふりょうけん',
         meanings: 'indiscretion'
       }
-    ]
+    ],
+    quizAnswersOn: ['そん', 'こ', 'かい', 'かん'],
+    quizAnswersKun: ['えら.ぶ', 'つめ.たい', 'み', 'つま.しい']
   },
   {
     kanjiName: '誌',
@@ -84100,7 +85812,9 @@ let arr = [
         furigana: 'にっし',
         meanings: 'journal'
       }
-    ]
+    ],
+    quizAnswersOn: ['せい', 'し', 'ほ', 'こん'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '宝',
@@ -84196,7 +85910,9 @@ let arr = [
         furigana: 'しほう',
         meanings: 'greatest treasure'
       }
-    ]
+    ],
+    quizAnswersOn: ['はつ', 'ざい', 'えん', 'ほう'],
+    quizAnswersKun: ['', 'いま', 'たから', 'くぼ.む']
   },
   {
     kanjiName: '尊',
@@ -84302,7 +86018,9 @@ let arr = [
         furigana: 'しそん',
         meanings: 'extreme reverence'
       }
-    ]
+    ],
+    quizAnswersOn: ['ぼく', 'ふく', 'そん', 'そく'],
+    quizAnswersKun: ['あ.げる', 'たっと.い', 'たけ', 'わす.れる']
   },
   {
     kanjiName: '敬',
@@ -84393,7 +86111,9 @@ let arr = [
         furigana: 'おとこはどきょうおんなはあいきょう',
         meanings: 'men should be brave'
       }
-    ]
+    ],
+    quizAnswersOn: ['し', 'けい', 'こう', 'けい'],
+    quizAnswersKun: ['ひど.い', '', 'うやま.う', 'あやま.る']
   },
   {
     kanjiName: '灰',
@@ -84489,7 +86209,9 @@ let arr = [
         furigana: 'せいせっかい',
         meanings: 'quick lime'
       }
-    ]
+    ],
+    quizAnswersOn: ['こ', 'かい', 'しょく', 'ち'],
+    quizAnswersKun: ['しま', 'はい', 'まにま.に', 'あまつ']
   },
   {
     kanjiName: '砂',
@@ -84605,7 +86327,9 @@ let arr = [
         furigana: 'りゅうさ',
         meanings: 'quicksand'
       }
-    ]
+    ],
+    quizAnswersOn: ['さ', 'きん', 'ゆう', 'しょう'],
+    quizAnswersKun: ['すな', 'ひと.り', 'たち', '']
   },
   {
     kanjiName: '著',
@@ -84714,7 +86438,9 @@ let arr = [
         furigana: 'ちゃくする',
         meanings: 'to arrive'
       }
-    ]
+    ],
+    quizAnswersOn: ['ちょ', 'ちょう', 'ふ', 'そく'],
+    quizAnswersKun: ['あらわ.す', '', 'ひ', 'よ']
   },
   {
     kanjiName: '蒸',
@@ -84810,7 +86536,9 @@ let arr = [
         furigana: 'せいろむし',
         meanings: 'steaming (of food) using a bamboo steamer'
       }
-    ]
+    ],
+    quizAnswersOn: ['ほう', 'だく', 'しん', 'じょう'],
+    quizAnswersKun: ['とぎ', 'すみ', 'む.す', 'これ']
   },
   {
     kanjiName: '蔵',
@@ -84911,7 +86639,9 @@ let arr = [
         furigana: 'ひぞう',
         meanings: 'treasuring'
       }
-    ]
+    ],
+    quizAnswersOn: ['し', 'こう', 'ぞう', 'けい'],
+    quizAnswersKun: ['くら', 'あざむ.く', 'つぼね', '']
   },
   {
     kanjiName: '装',
@@ -85017,7 +86747,9 @@ let arr = [
         furigana: 'こんれいいしょう',
         meanings: 'wedding clothes'
       }
-    ]
+    ],
+    quizAnswersOn: ['けん', 'ちょう', 'そう', 'そう'],
+    quizAnswersKun: ['とお.い', 'すべから.く', 'よそお.う', 'す.む']
   },
   {
     kanjiName: '裏',
@@ -85124,7 +86856,9 @@ let arr = [
         furigana: 'えいり',
         meanings: 'shade'
       }
-    ]
+    ],
+    quizAnswersOn: ['しょう', 'り', 'がん', 'こう'],
+    quizAnswersKun: ['うら', '', 'ともな.う', 'かえり.みる']
   },
   {
     kanjiName: '諸',
@@ -85205,7 +86939,9 @@ let arr = [
         furigana: 'しょくん',
         meanings: 'you (people)'
       }
-    ]
+    ],
+    quizAnswersOn: ['ぞく', 'しょ', 'せつ', 'どう'],
+    quizAnswersKun: ['まれ', 'せま.い', 'もろ', '']
   },
   {
     kanjiName: '臓',
@@ -85281,7 +87017,9 @@ let arr = [
         furigana: 'かんすいぞう',
         meanings: 'hepatopancreas'
       }
-    ]
+    ],
+    quizAnswersOn: ['ふく', 'びょう', 'れい', 'ぞう'],
+    quizAnswersKun: ['はらわた', 'そと', 'ところ', '']
   },
   {
     kanjiName: '純',
@@ -85357,7 +87095,9 @@ let arr = [
         furigana: 'ほうじゅん',
         meanings: 'mellow (flavor or fragrance'
       }
-    ]
+    ],
+    quizAnswersOn: ['かい', 'じゅん', 'じゅん', 'じゃく'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '紅',
@@ -85493,7 +87233,9 @@ let arr = [
         furigana: 'しんく',
         meanings: 'deep crimson'
       }
-    ]
+    ],
+    quizAnswersOn: ['しつ', 'こう', 'けん', 'じ'],
+    quizAnswersKun: ['あめ', 'いが', 'く.る', 'べに']
   },
   {
     kanjiName: '拝',
@@ -85574,7 +87316,9 @@ let arr = [
         furigana: 'さいはい',
         meanings: 'bowing twice'
       }
-    ]
+    ],
+    quizAnswersOn: ['き', 'じ', 'はい', 'ふん'],
+    quizAnswersKun: ['かたよ.る', '', 'おが.む', 'わざ']
   },
   {
     kanjiName: '劇',
@@ -85650,7 +87394,9 @@ let arr = [
         furigana: 'きょうげき',
         meanings: 'classical Chinese opera'
       }
-    ]
+    ],
+    quizAnswersOn: ['そう', 'てい', 'ぜん', 'げき'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '承',
@@ -85746,7 +87492,9 @@ let arr = [
         furigana: 'しょうおう',
         meanings: 'Shōō era (1652.9.18-1655.4.13)'
       }
-    ]
+    ],
+    quizAnswersOn: ['しょう', 'しゅう', 'くん', 'ぼう'],
+    quizAnswersKun: ['しも', 'あんず', 'こま.る', 'うけたまわ.る']
   },
   {
     kanjiName: '損',
@@ -85837,7 +87585,9 @@ let arr = [
         furigana: 'かいそん',
         meanings: 'sea damage'
       }
-    ]
+    ],
+    quizAnswersOn: ['そん', 'のう', 'せき', 'きん'],
+    quizAnswersKun: ['こば.む', 'そこ.なう', 'はは', 'かた']
   },
   {
     kanjiName: '枝',
@@ -85933,7 +87683,9 @@ let arr = [
         furigana: 'れいし',
         meanings: 'litchi (Nephelium litchi)'
       }
-    ]
+    ],
+    quizAnswersOn: ['ぎ', 'えん', 'ぼく', 'し'],
+    quizAnswersKun: ['ひき.いる', 'えだ', 'いつ', 'にわ']
   },
   {
     kanjiName: '測',
@@ -86014,7 +87766,9 @@ let arr = [
         furigana: 'おくそく',
         meanings: 'guess'
       }
-    ]
+    ],
+    quizAnswersOn: ['せん', 'び', 'そく', 'ひょう'],
+    quizAnswersKun: ['', 'はか.る', 'さん.たる', 'つの.る']
   },
   {
     kanjiName: '講',
@@ -86090,7 +87844,9 @@ let arr = [
         furigana: 'だいこう',
         meanings: 'substitute lecturing'
       }
-    ]
+    ],
+    quizAnswersOn: ['けん', 'こう', 'こう', 'み'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '紹',
@@ -86156,7 +87912,9 @@ let arr = [
         furigana: 'しょうかいしゃ',
         meanings: 'person who introduces someone'
       }
-    ]
+    ],
+    quizAnswersOn: ['しゅ', 'ぎ', 'しょう', 'はく'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '介',
@@ -86232,7 +87990,9 @@ let arr = [
         furigana: 'むばいかい',
         meanings: 'immediacy'
       }
-    ]
+    ],
+    quizAnswersOn: ['かい', 'けい', 'こう', 'きゅう'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '湖',
@@ -86323,7 +88083,9 @@ let arr = [
         furigana: 'えんすいこ',
         meanings: 'saltwater or saline lake'
       }
-    ]
+    ],
+    quizAnswersOn: ['ほう', 'いく', 'てき', 'こ'],
+    quizAnswersKun: ['みずうみ', '', 'てのひら', 'し.める']
   },
   {
     kanjiName: '銅',
@@ -86409,7 +88171,9 @@ let arr = [
         furigana: 'せいどう',
         meanings: 'refined copper'
       }
-    ]
+    ],
+    quizAnswersOn: ['と', 'ど', 'やく', 'どう'],
+    quizAnswersKun: ['あかがね', 'や.める', 'しか', 'デシメートル']
   },
   {
     kanjiName: '油',
@@ -86515,7 +88279,9 @@ let arr = [
         furigana: 'ゆうぜん',
         meanings: 'gushingly'
       }
-    ]
+    ],
+    quizAnswersOn: ['ちょ', 'きょう', 'けい', 'ゆ'],
+    quizAnswersKun: ['しぶ', 'あぶら', '', 'くも']
   },
   {
     kanjiName: '旧',
@@ -86601,7 +88367,9 @@ let arr = [
         furigana: 'かいきゅう',
         meanings: 'reminiscence'
       }
-    ]
+    ],
+    quizAnswersOn: ['だい', 'けん', 'きゅう', 'りょう'],
+    quizAnswersKun: ['はな', '', 'こ.い', 'ふる.い']
   },
   {
     kanjiName: '姓',
@@ -86692,7 +88460,9 @@ let arr = [
         furigana: 'こびゃくしょう',
         meanings: 'peasant'
       }
-    ]
+    ],
+    quizAnswersOn: ['せい', 'さ', 'ほ', 'たい'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '貿',
@@ -86763,7 +88533,9 @@ let arr = [
         furigana: 'ないぼう',
         meanings: 'domestic commerce'
       }
-    ]
+    ],
+    quizAnswersOn: ['すい', 'おつ', 'ぼう', 'ばん'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '将',
@@ -86874,7 +88646,9 @@ let arr = [
         furigana: 'おうしょう',
         meanings: 'king (of the senior player)'
       }
-    ]
+    ],
+    quizAnswersOn: ['しょう', 'ほう', 'しゅん', 'れい'],
+    quizAnswersKun: ['と', 'だま.る', 'まさ.に', 'し.まる']
   },
   {
     kanjiName: '伸',
@@ -86970,7 +88744,9 @@ let arr = [
         furigana: 'きゅうしん',
         meanings: 'sudden rise (esp. of stock prices)'
       }
-    ]
+    ],
+    quizAnswersOn: ['ひょう', 'き', 'しん', 'じょう'],
+    quizAnswersKun: ['おもて', 'やなぎ', 'の.びる', 'うば.う']
   },
   {
     kanjiName: '幅',
@@ -87066,7 +88842,9 @@ let arr = [
         furigana: 'そうふく',
         meanings: 'pair of hanging scrolls'
       }
-    ]
+    ],
+    quizAnswersOn: ['しゅう', 'こう', 'きゅう', 'ふく'],
+    quizAnswersKun: ['はば', 'きみ', 'つむぎ', 'かえ.って']
   },
   {
     kanjiName: '甘',
@@ -87162,7 +88940,9 @@ let arr = [
         furigana: 'かんげん',
         meanings: 'sweet words'
       }
-    ]
+    ],
+    quizAnswersOn: ['かん', 'えん', 'けつ', 'ろく'],
+    quizAnswersKun: ['みだ.れる', '', 'あま.い', 'いたずら']
   },
   {
     kanjiName: '換',
@@ -87248,7 +89028,9 @@ let arr = [
         furigana: 'だいかん',
         meanings: 'hypallage'
       }
-    ]
+    ],
+    quizAnswersOn: ['びょう', 'かん', 'かん', 'りょう'],
+    quizAnswersKun: ['あたら.しい', 'か.える', 'あぶら', 'しず.む']
   },
   {
     kanjiName: '療',
@@ -87324,7 +89106,9 @@ let arr = [
         furigana: 'かりょう',
         meanings: 'medical treatment'
       }
-    ]
+    ],
+    quizAnswersOn: ['へい', 'すい', 'りょう', 'しょう'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '般',
@@ -87400,7 +89184,9 @@ let arr = [
         furigana: 'かはん',
         meanings: 'some time ago'
       }
-    ]
+    ],
+    quizAnswersOn: ['はん', 'たん', 'れい', 'り'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '依',
@@ -87496,7 +89282,9 @@ let arr = [
         furigana: 'きえ',
         meanings: 'becoming a devout believer'
       }
-    ]
+    ],
+    quizAnswersOn: ['はち', 'い', 'かん', 'ぼう'],
+    quizAnswersKun: ['きわ.める', 'やす.い', 'よ.る', 'みと.める']
   },
   {
     kanjiName: '漁',
@@ -87597,7 +89385,9 @@ let arr = [
         furigana: 'ほうりょう',
         meanings: 'good catch'
       }
-    ]
+    ],
+    quizAnswersOn: ['ぎょ', 'まん', 'び', 'まつ'],
+    quizAnswersKun: ['かわ', 'かんむり', 'ちか.う', 'あさ.る']
   },
   {
     kanjiName: '募',
@@ -87678,7 +89468,9 @@ let arr = [
         furigana: 'きゅうぼ',
         meanings: 'hurried recruitment'
       }
-    ]
+    ],
+    quizAnswersOn: ['ひん', 'き', 'ぼ', 'そう'],
+    quizAnswersKun: ['あきらか', '', 'つの.る', 'こよみ']
   },
   {
     kanjiName: '患',
@@ -87759,7 +89551,9 @@ let arr = [
         furigana: 'びょうかん',
         meanings: 'sickness'
       }
-    ]
+    ],
+    quizAnswersOn: ['しょう', 'こ', 'かん', 'じょう'],
+    quizAnswersKun: ['いた.す', 'か.わる', 'はげ.しい', 'わずら.う']
   },
   {
     kanjiName: '湾',
@@ -87835,7 +89629,9 @@ let arr = [
         furigana: 'ないわん',
         meanings: 'enclosed bay'
       }
-    ]
+    ],
+    quizAnswersOn: ['ご', 'わん', 'こん', 'けい'],
+    quizAnswersKun: ['いりえ', 'したが.う', 'はし', 'たす.ける']
   },
   {
     kanjiName: '爆',
@@ -87916,7 +89712,9 @@ let arr = [
         furigana: 'すいばく',
         meanings: 'hydrogen bomb'
       }
-    ]
+    ],
+    quizAnswersOn: ['た', 'はん', 'せん', 'ばく'],
+    quizAnswersKun: ['かた', 'あきな.う', 'たお.れる', 'は.ぜる']
   },
   {
     kanjiName: '跡',
@@ -88007,7 +89805,9 @@ let arr = [
         furigana: 'きせき',
         meanings: 'tire track'
       }
-    ]
+    ],
+    quizAnswersOn: ['ひょう', 'ほう', 'せき', 'しゃ'],
+    quizAnswersKun: ['あと', 'さと.す', 'め-', 'ゆた.か']
   },
   {
     kanjiName: '香',
@@ -88138,7 +89938,9 @@ let arr = [
         furigana: 'ういきょう',
         meanings: 'fennel (Foeniculum vulgare)'
       }
-    ]
+    ],
+    quizAnswersOn: ['しゅく', 'い', 'こう', 'かん'],
+    quizAnswersKun: ['たから', 'さ.す', 'か', '']
   },
   {
     kanjiName: '兆',
@@ -88224,7 +90026,9 @@ let arr = [
         furigana: 'けいちょう',
         meanings: 'sign of happiness'
       }
-    ]
+    ],
+    quizAnswersOn: ['ちょう', 'びょう', 'た', 'たん'],
+    quizAnswersKun: ['', 'やなぎ', 'きざ.す', 'かくま.う']
   },
   {
     kanjiName: '齢',
@@ -88305,7 +90109,9 @@ let arr = [
         furigana: 'かれい',
         meanings: 'aging'
       }
-    ]
+    ],
+    quizAnswersOn: ['れい', 'あく', '', 'こう'],
+    quizAnswersKun: ['よわい', 'つ.げる', 'くら', 'ほ.める']
   },
   {
     kanjiName: '刊',
@@ -88381,7 +90187,9 @@ let arr = [
         furigana: 'きゅうかん',
         meanings: 'suspension of publication'
       }
-    ]
+    ],
+    quizAnswersOn: ['かん', 'とう', 'こう', 'ほう'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '傾',
@@ -88482,7 +90290,9 @@ let arr = [
         furigana: 'うけい',
         meanings: 'leaning to the right'
       }
-    ]
+    ],
+    quizAnswersOn: ['けい', 'ぞく', 'しょう', 'し'],
+    quizAnswersKun: ['か.ける', 'すがた', 'かたむ.く', '']
   },
   {
     kanjiName: '奥',
@@ -88583,7 +90393,9 @@ let arr = [
         furigana: 'ないおう',
         meanings: 'inner part'
       }
-    ]
+    ],
+    quizAnswersOn: ['にん', 'ぎょく', 'しゅう', 'おう'],
+    quizAnswersKun: ['つた.わる', 'つ.ける', 'た.つ', 'おく']
   },
   {
     kanjiName: '贈',
@@ -88664,7 +90476,9 @@ let arr = [
         furigana: 'けいぞう',
         meanings: 'presenting (a gift'
       }
-    ]
+    ],
+    quizAnswersOn: ['こう', 'そく', 'とう', 'ぞう'],
+    quizAnswersKun: ['おく.る', 'めし', 'はだ', 'し.く']
   },
   {
     kanjiName: '超',
@@ -88750,7 +90564,9 @@ let arr = [
         furigana: 'にゅうちょう',
         meanings: 'excess of imports'
       }
-    ]
+    ],
+    quizAnswersOn: ['くん', 'ちゅう', 'けん', 'ちょう'],
+    quizAnswersKun: ['かがみ', 'たに', 'こ.える', 'わざおぎ']
   },
   {
     kanjiName: '雇',
@@ -88831,7 +90647,9 @@ let arr = [
         furigana: 'ふとうかいこ',
         meanings: 'unfair dismissal'
       }
-    ]
+    ],
+    quizAnswersOn: ['こ', 'かん', 'ぼう', 'さ'],
+    quizAnswersKun: ['う.える', 'うやま.う', 'やと.う', 'いつく.しむ']
   },
   {
     kanjiName: '片',
@@ -88917,7 +90735,9 @@ let arr = [
         furigana: 'さいへん',
         meanings: 'debris'
       }
-    ]
+    ],
+    quizAnswersOn: ['ぶん', 'しん', 'へん', 'らく'],
+    quizAnswersKun: ['', 'かた-', 'わけ', 'わか.つ']
   },
   {
     kanjiName: '群',
@@ -89033,7 +90853,9 @@ let arr = [
         furigana: 'そうぐん',
         meanings: '(geol) group'
       }
-    ]
+    ],
+    quizAnswersOn: ['たん', 'けん', 'ぐん', 'ちょう'],
+    quizAnswersKun: ['さら', 'さぐ.る', 'む.れる', 'いや.しい']
   },
   {
     kanjiName: '埋',
@@ -89129,7 +90951,9 @@ let arr = [
         furigana: 'まいそう',
         meanings: 'burial'
       }
-    ]
+    ],
+    quizAnswersOn: ['けい', 'ふ', 'まい', 'は'],
+    quizAnswersKun: ['かんば.しい', 'う.める', 'むら', 'ついたち']
   },
   {
     kanjiName: '駐',
@@ -89205,7 +91029,9 @@ let arr = [
         furigana: 'しんちゅう',
         meanings: 'occupation'
       }
-    ]
+    ],
+    quizAnswersOn: ['けい', 'ぼく', 'こう', 'ちゅう'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '柱',
@@ -89301,7 +91127,9 @@ let arr = [
         furigana: 'つらら',
         meanings: 'icicle'
       }
-    ]
+    ],
+    quizAnswersOn: ['りゅう', 'ちゅう', 'もう', 'ほう'],
+    quizAnswersKun: ['ゆる.す', 'はしら', '', 'てる']
   },
   {
     kanjiName: '鋭',
@@ -89382,7 +91210,9 @@ let arr = [
         furigana: 'きえい',
         meanings: 'spirited'
       }
-    ]
+    ],
+    quizAnswersOn: ['あ', 'しん', 'かい', 'えい'],
+    quizAnswersKun: ['ひき-', 'ひた.す', 'するど.い', 'あこが.れる']
   },
   {
     kanjiName: '殿',
@@ -89498,7 +91328,9 @@ let arr = [
         furigana: 'むらさきごてん',
         meanings: "wandering jew (Tradescantia pallida 'Purpurea')"
       }
-    ]
+    ],
+    quizAnswersOn: ['ろく', 'ちょう', 'ねつ', 'でん'],
+    quizAnswersKun: ['との', 'つぼ', 'は.たす', 'なかま']
   },
   {
     kanjiName: '薄',
@@ -89624,7 +91456,9 @@ let arr = [
         furigana: 'せいはく',
         meanings: 'mental retardation (pejorative)'
       }
-    ]
+    ],
+    quizAnswersOn: ['はく', 'えき', 'かく', 'りょう'],
+    quizAnswersKun: ['はら', 'うす.い', 'かわせみ', '']
   },
   {
     kanjiName: '伺',
@@ -89700,7 +91534,9 @@ let arr = [
         furigana: 'ほうし',
         meanings: "inquiring about (one's health)"
       }
-    ]
+    ],
+    quizAnswersOn: ['しょ', 'かい', 'だつ', 'し'],
+    quizAnswersKun: ['ひとみ', 'つ.ぐ', 'つよ.い', 'うかが.う']
   },
   {
     kanjiName: '炭',
@@ -89796,7 +91632,9 @@ let arr = [
         furigana: 'かっせいたん',
         meanings: 'activated charcoal'
       }
-    ]
+    ],
+    quizAnswersOn: ['しゃく', 'はん', 'たん', 'せい'],
+    quizAnswersKun: ['すみ', 'おも', 'あき.らか', 'あら.う']
   },
   {
     kanjiName: '包',
@@ -89882,7 +91720,9 @@ let arr = [
         furigana: 'へいほう',
         meanings: 'closure'
       }
-    ]
+    ],
+    quizAnswersOn: ['もく', 'ごう', 'おく', 'ほう'],
+    quizAnswersKun: ['つつ.む', 'なさ.け', 'かこ.い', 'ことば']
   },
   {
     kanjiName: '衣',
@@ -90008,7 +91848,9 @@ let arr = [
         furigana: 'だつい',
         meanings: 'undressing'
       }
-    ]
+    ],
+    quizAnswersOn: ['い', 'ちん', 'さ', 'しゃ'],
+    quizAnswersKun: ['め', 'めくら', 'よしみ', 'ころも']
   },
   {
     kanjiName: '鉱',
@@ -90089,7 +91931,9 @@ let arr = [
         furigana: 'さいこう',
         meanings: 'mining'
       }
-    ]
+    ],
+    quizAnswersOn: ['こう', 'ひん', 'まく', 'かん'],
+    quizAnswersKun: ['', 'うすぎぬ', 'わずら.う', 'あらがね']
   },
   {
     kanjiName: '双',
@@ -90180,7 +92024,9 @@ let arr = [
         furigana: 'はっそう',
         meanings: 'style of sword fighting'
       }
-    ]
+    ],
+    quizAnswersOn: ['ざい', 'へい', 'そう', 'は'],
+    quizAnswersKun: ['はしゃ.ぐ', 'かく.す', 'ふた', 'ゆえ']
   },
   {
     kanjiName: '床',
@@ -90296,7 +92142,9 @@ let arr = [
         furigana: 'おんしょう',
         meanings: 'hotbed'
       }
-    ]
+    ],
+    quizAnswersOn: ['ぼう', 'しょう', 'か', 'にち'],
+    quizAnswersKun: ['はし.る', 'とこ', 'ほとけ', 'むすめ']
   },
   {
     kanjiName: '掘',
@@ -90367,7 +92215,9 @@ let arr = [
         furigana: 'とうくつ',
         meanings: 'illegal digging'
       }
-    ]
+    ],
+    quizAnswersOn: ['くつ', 'がい', 'けん', 'こう'],
+    quizAnswersKun: ['うみ', '', 'ほ.る', 'よ']
   },
   {
     kanjiName: '泊',
@@ -90453,7 +92303,9 @@ let arr = [
         furigana: 'むだんがいはく',
         meanings: 'staying out overnight without giving notice'
       }
-    ]
+    ],
+    quizAnswersOn: ['き', 'はく', 'かい', 'しょう'],
+    quizAnswersKun: ['つかさど.る', 'むすめ', 'と.まる', '']
   },
   {
     kanjiName: '荒',
@@ -90579,7 +92431,9 @@ let arr = [
         furigana: 'きゅうこう',
         meanings: 'famine relief'
       }
-    ]
+    ],
+    quizAnswersOn: ['しん', 'がい', 'しょう', 'こう'],
+    quizAnswersKun: ['あら.い', 'まさ', 'そ.れる', '']
   },
   {
     kanjiName: '袋',
@@ -90670,7 +92524,9 @@ let arr = [
         furigana: 'せいたい',
         meanings: 'bag manufacturing'
       }
-    ]
+    ],
+    quizAnswersOn: ['しん', 'たい', 'しょう', 'ゆ'],
+    quizAnswersKun: ['と.ぐ', 'はじ.める', 'たが.い', 'ふくろ']
   },
   {
     kanjiName: '珍',
@@ -90751,7 +92607,9 @@ let arr = [
         furigana: 'しゅちん',
         meanings: 'satin with raised figures'
       }
-    ]
+    ],
+    quizAnswersOn: ['ちん', 'ろう', 'き', 'ほ'],
+    quizAnswersKun: ['めずら.しい', 'まか.せる', 'かんが.みる', 'む.く']
   },
   {
     kanjiName: '籍',
@@ -90827,7 +92685,9 @@ let arr = [
         furigana: 'いせき',
         meanings: "transfer (of one's name into another family register)"
       }
-    ]
+    ],
+    quizAnswersOn: ['にん', 'そう', 'ぎ', 'せき'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '刷',
@@ -90913,7 +92773,9 @@ let arr = [
         furigana: 'ぞうさつ',
         meanings: 'additional printing (esp. of books'
       }
-    ]
+    ],
+    quizAnswersOn: ['かく', 'さつ', 'げん', 'がい'],
+    quizAnswersKun: ['いえ', 'こえ', 'す.る', '']
   },
   {
     kanjiName: '封',
@@ -91009,7 +92871,9 @@ let arr = [
         furigana: 'きゅうほう',
         meanings: 'former fief'
       }
-    ]
+    ],
+    quizAnswersOn: ['ふう', 'たく', 'はく', 'しん'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '筒',
@@ -91105,7 +92969,9 @@ let arr = [
         furigana: 'きとう',
         meanings: 'cylinder'
       }
-    ]
+    ],
+    quizAnswersOn: ['け', 'とう', 'へい', 'ぼう'],
+    quizAnswersKun: ['おも.う', 'あし', 'つつ', '']
   },
   {
     kanjiName: '柔',
@@ -91226,7 +93092,9 @@ let arr = [
         furigana: 'にゅうじゃく',
         meanings: 'weak'
       }
-    ]
+    ],
+    quizAnswersOn: ['まん', 'がん', 'こ', 'じゅう'],
+    quizAnswersKun: ['かか.る', 'ふ.れる', 'やわ.らか', 'は.ねる']
   },
   {
     kanjiName: '沈',
@@ -91327,7 +93195,9 @@ let arr = [
         furigana: 'じんこうもたかずへもひらず',
         meanings: 'having few faults as well as few virtues'
       }
-    ]
+    ],
+    quizAnswersOn: ['いん', 'せん', 'ちん', 'がい'],
+    quizAnswersKun: ['くろ.い', 'てのひら', 'めし', 'しず.む']
   },
   {
     kanjiName: '辛',
@@ -91433,7 +93303,9 @@ let arr = [
         furigana: 'うすばさいしん',
         meanings: "Siebold's wild ginger (Asarum sieboldii)"
       }
-    ]
+    ],
+    quizAnswersOn: ['たい', 'ばい', 'しん', 'しょう'],
+    quizAnswersKun: ['のぞ.む', 'お.ちる', 'から.い', '']
   },
   {
     kanjiName: '匹',
@@ -91509,7 +93381,9 @@ let arr = [
         furigana: 'ばひつ',
         meanings: 'horses'
       }
-    ]
+    ],
+    quizAnswersOn: ['せき', 'ちょう', 'ひつ', 'ちん'],
+    quizAnswersKun: ['ひき', 'こめ', 'ふじ', 'さび']
   },
   {
     kanjiName: '叫',
@@ -91590,7 +93464,9 @@ let arr = [
         furigana: 'だいぜっきょう',
         meanings: 'loud scream'
       }
-    ]
+    ],
+    quizAnswersOn: ['きょう', 'せい', 'ぎょう', 'きつ'],
+    quizAnswersKun: ['あさ.る', 'しろがね', 'さけ.ぶ', 'もと']
   },
   {
     kanjiName: '涙',
@@ -91686,7 +93562,9 @@ let arr = [
         furigana: 'かんるい',
         meanings: 'tears (from being deeply moved)'
       }
-    ]
+    ],
+    quizAnswersOn: ['さ', 'るい', 'きん', 'きょ'],
+    quizAnswersKun: ['や', 'かえり.みる', 'わざわい', 'なみだ']
   },
   {
     kanjiName: '缶',
@@ -91772,7 +93650,9 @@ let arr = [
         furigana: 'かいかん',
         meanings: 'opening a can'
       }
-    ]
+    ],
+    quizAnswersOn: ['かん', 'とん', 'けん', 'だつ'],
+    quizAnswersKun: ['いま.だ', 'いさお', 'かま', '']
   },
   {
     kanjiName: '粒',
@@ -91868,7 +93748,9 @@ let arr = [
         furigana: 'りゅうりゅう',
         meanings: 'each grain'
       }
-    ]
+    ],
+    quizAnswersOn: ['けん', 'まい', 'りゅう', 'かん'],
+    quizAnswersKun: ['かみ', 'つぶ', 'ほのお', 'く.む']
   },
   {
     kanjiName: '塔',
@@ -91944,7 +93826,9 @@ let arr = [
         furigana: 'てっとう',
         meanings: 'steel tower'
       }
-    ]
+    ],
+    quizAnswersOn: ['とう', 'せい', 'きん', 'そう'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '肌',
@@ -92040,7 +93924,9 @@ let arr = [
         furigana: 'びはだ',
         meanings: 'beautiful skin'
       }
-    ]
+    ],
+    quizAnswersOn: ['い', 'ゆう', 'しゅう', 'き'],
+    quizAnswersKun: ['はだ', 'いち', 'あ.う', 'しげ.る']
   },
   {
     kanjiName: '舟',
@@ -92136,7 +94022,9 @@ let arr = [
         furigana: 'どうしゅう',
         meanings: 'shipmates'
       }
-    ]
+    ],
+    quizAnswersOn: ['しゅつ', 'ちょう', 'しゅう', 'とう'],
+    quizAnswersKun: ['ふね', 'かた.い', 'かべ', 'おく.る']
   },
   {
     kanjiName: '曇',
@@ -92207,7 +94095,9 @@ let arr = [
         furigana: 'せいどん',
         meanings: 'fine weather and cloudy weather'
       }
-    ]
+    ],
+    quizAnswersOn: ['きょう', 'どん', 'けい', 'ち'],
+    quizAnswersKun: ['', 'も.る', 'かんむり', 'くも.る']
   },
   {
     kanjiName: '磨',
@@ -92293,7 +94183,9 @@ let arr = [
         furigana: 'だるま',
         meanings: 'daruma'
       }
-    ]
+    ],
+    quizAnswersOn: ['ま', 'ひ', 'ざい', 'じょう'],
+    quizAnswersKun: ['よわい', 'まご', 'みが.く', 'やす.む']
   },
   {
     kanjiName: '湿',
@@ -92379,7 +94271,9 @@ let arr = [
         furigana: 'たいしつ',
         meanings: 'resisting moisture'
       }
-    ]
+    ],
+    quizAnswersOn: ['き', 'らい', 'ぐ', 'しつ'],
+    quizAnswersKun: ['しめ.る', 'たに', 'ゆばり', 'なさ.け']
   },
   {
     kanjiName: '硬',
@@ -92465,7 +94359,9 @@ let arr = [
         furigana: 'じゅうこう',
         meanings: 'heavy and hard (of a wood)'
       }
-    ]
+    ],
+    quizAnswersOn: ['こう', 'む', 'こう', 'ろく'],
+    quizAnswersKun: ['みせ', 'したが.う', 'かた.い', 'せ']
   },
   {
     kanjiName: '鈍',
@@ -92566,7 +94462,9 @@ let arr = [
         furigana: 'ぐどん',
         meanings: 'stupid'
       }
-    ]
+    ],
+    quizAnswersOn: ['しゅう', 'が', 'かつ', 'どん'],
+    quizAnswersKun: ['はだ', 'ふ.せる', 'ね.る', 'にぶ.い']
   },
   {
     kanjiName: '涼',
@@ -92662,7 +94560,9 @@ let arr = [
         furigana: 'のうりょう',
         meanings: 'escaping the heat to enjoy the cool breeze (by the river'
       }
-    ]
+    ],
+    quizAnswersOn: ['たん', 'が', 'じゅ', 'りょう'],
+    quizAnswersKun: ['すず.しい', '', 'さまた.げる', 'はた']
   },
   {
     kanjiName: '零',
@@ -92758,7 +94658,9 @@ let arr = [
         furigana: 'ひょうれい',
         meanings: 'blowing in the wind (e.g. leaf'
       }
-    ]
+    ],
+    quizAnswersOn: ['れい', 'こう', 'しん', 'ゆう'],
+    quizAnswersKun: ['とむら.う', 'ぜろ', 'やなぎ', 'ほぼ']
   },
   {
     kanjiName: '綿',
@@ -92854,7 +94756,9 @@ let arr = [
         furigana: 'ろっぽうかいめん',
         meanings: 'hexactinellid sponge'
       }
-    ]
+    ],
+    quizAnswersOn: ['めん', 'よう', 'あん', 'ふつ'],
+    quizAnswersKun: ['しま', 'わた', 'はらわた', 'さとい']
   },
   {
     kanjiName: '帽',
@@ -92930,7 +94834,9 @@ let arr = [
         furigana: 'かいすいぼう',
         meanings: 'bathing cap'
       }
-    ]
+    ],
+    quizAnswersOn: ['しょく', 'めい', 'ぼう', 'び'],
+    quizAnswersKun: ['かる.い', 'ずきん', 'まか.せる', 'ころも']
   },
   {
     kanjiName: '憎',
@@ -93021,7 +94927,9 @@ let arr = [
         furigana: 'ぞうおはんざい',
         meanings: 'hate crime'
       }
-    ]
+    ],
+    quizAnswersOn: ['もう', 'ぞう', 'ふ', 'しょく'],
+    quizAnswersKun: ['あか', 'にく.む', 'ふ.む', 'あおぎり']
   },
   {
     kanjiName: '滴',
@@ -93107,7 +95015,9 @@ let arr = [
         furigana: 'すうてき',
         meanings: 'several drops'
       }
-    ]
+    ],
+    quizAnswersOn: ['こう', 'さい', 'りょう', 'てき'],
+    quizAnswersKun: ['しる.す', 'やわ.らぐ', 'の.びる', 'しずく']
   },
   {
     kanjiName: '畳',
@@ -93208,7 +95118,9 @@ let arr = [
         furigana: 'さんがくちょうじょう',
         meanings: 'mountains rising one above another'
       }
-    ]
+    ],
+    quizAnswersOn: ['さつ', 'じょう', 'しゃ', 'だ'],
+    quizAnswersKun: ['おろ.す', 'から.い', 'かま', 'たた.む']
   },
   {
     kanjiName: '畜',
@@ -93284,7 +95196,9 @@ let arr = [
         furigana: 'じんちく',
         meanings: 'men and animals'
       }
-    ]
+    ],
+    quizAnswersOn: ['ちく', 'ふ', 'こう', 'ぞう'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '溶',
@@ -93375,7 +95289,9 @@ let arr = [
         furigana: 'かよう',
         meanings: 'soluble'
       }
-    ]
+    ],
+    quizAnswersOn: ['りん', 'かん', 'けん', 'よう'],
+    quizAnswersKun: ['と.まる', 'も.える', 'ちか.い', 'と.ける']
   },
   {
     kanjiName: '踊',
@@ -93456,7 +95372,9 @@ let arr = [
         furigana: 'かぶきぶよう',
         meanings: 'kabuki dance'
       }
-    ]
+    ],
+    quizAnswersOn: ['しょう', 'ちょう', 'らい', 'よう'],
+    quizAnswersKun: ['おど.る', 'ふで', 'まな.ぶ', 'あき']
   },
   {
     kanjiName: '賢',
@@ -93537,7 +95455,9 @@ let arr = [
         furigana: 'せいけん',
         meanings: 'saints and sages'
       }
-    ]
+    ],
+    quizAnswersOn: ['けん', 'さい', 'ちょう', 'てい'],
+    quizAnswersKun: ['つる', 'せき', 'つつ', 'かしこ.い']
   },
   {
     kanjiName: '灯',
@@ -93643,7 +95563,9 @@ let arr = [
         furigana: 'たんかいとう',
         meanings: 'searchlight'
       }
-    ]
+    ],
+    quizAnswersOn: ['けつ', 'のう', 'とう', 'かん'],
+    quizAnswersKun: ['さわ.る', 'すみ', 'たかどの', 'ひ']
   },
   {
     kanjiName: '咲',
@@ -93709,7 +95631,9 @@ let arr = [
         furigana: 'こうしょう',
         meanings: 'courteous laughter'
       }
-    ]
+    ],
+    quizAnswersOn: ['えつ', 'しょう', 'てい', 'がい'],
+    quizAnswersKun: ['おさ.める', 'くろ.い', 'あらがね', 'さ.く']
   },
   {
     kanjiName: '塗',
@@ -93815,7 +95739,9 @@ let arr = [
         furigana: 'こと',
         meanings: 'patching up (e.g. a failure)'
       }
-    ]
+    ],
+    quizAnswersOn: ['だん', 'かん', 'と', 'こう'],
+    quizAnswersKun: ['はか.る', 'たに', 'ぬ.る', 'きた.える']
   },
   {
     kanjiName: '召',
@@ -93897,7 +95823,9 @@ let arr = [
         furigana: 'しょうしゅう',
         meanings: 'convening'
       }
-    ]
+    ],
+    quizAnswersOn: ['せき', 'しょう', 'き', 'しょう'],
+    quizAnswersKun: ['あま.い', 'やど.る', 'め.す', '']
   },
   {
     kanjiName: '挟',
@@ -93978,7 +95906,9 @@ let arr = [
         furigana: 'きょうけんき',
         meanings: 'entropion forceps'
       }
-    ]
+    ],
+    quizAnswersOn: ['きょう', 'ひん', 'しゅう', 'せん'],
+    quizAnswersKun: ['', 'つい.やす', 'はさ.む', 'ふね']
   },
   {
     kanjiName: '枯',
@@ -94064,7 +95994,9 @@ let arr = [
         furigana: 'そうこ',
         meanings: 'old-fashioned and tasteful'
       }
-    ]
+    ],
+    quizAnswersOn: ['すう', 'きょ', 'こ', 'えき'],
+    quizAnswersKun: ['か.れる', 'かけ.る', '', 'くろがね']
   },
   {
     kanjiName: '沸',
@@ -94140,7 +96072,9 @@ let arr = [
         furigana: 'ふつふつ',
         meanings: 'simmer'
       }
-    ]
+    ],
+    quizAnswersOn: ['こ', 'ふつ', 'わく', 'だい'],
+    quizAnswersKun: ['', 'うら', 'つと.める', 'わ.く']
   },
   {
     kanjiName: '濯',
@@ -94216,7 +96150,9 @@ let arr = [
         furigana: 'おにのいぬまにせんたく',
         meanings: 'playing while the cat is away'
       }
-    ]
+    ],
+    quizAnswersOn: ['ふく', 'いん', 'ごう', 'たく'],
+    quizAnswersKun: ['つい.やす', 'あかし', 'たび', 'すす.ぐ']
   },
   {
     kanjiName: '燥',
@@ -94287,7 +96223,9 @@ let arr = [
         furigana: 'こうそう',
         meanings: 'high and dry'
       }
-    ]
+    ],
+    quizAnswersOn: ['きく', 'そう', 'か', 'けい'],
+    quizAnswersKun: ['はしゃ.ぐ', 'よし', 'けが.す', 'から.い']
   },
   {
     kanjiName: '瓶',
@@ -94393,7 +96331,9 @@ let arr = [
         furigana: 'すいびょう',
         meanings: 'portable water vessel (for drinking or washing up)'
       }
-    ]
+    ],
+    quizAnswersOn: ['びん', 'か', 'しん', 'き'],
+    quizAnswersKun: ['かめ', 'うけたまわ.る', 'なえ', 'かが.む']
   },
   {
     kanjiName: '耕',
@@ -94474,7 +96414,9 @@ let arr = [
         furigana: 'すいこう',
         meanings: 'hydroponics'
       }
-    ]
+    ],
+    quizAnswersOn: ['こう', 'は', 'どう', 'かん'],
+    quizAnswersKun: ['たがや.す', 'うれ.える', 'まゆ', 'あせ']
   },
   {
     kanjiName: '肯',
@@ -94550,7 +96492,9 @@ let arr = [
         furigana: 'しゅこう',
         meanings: 'assent'
       }
-    ]
+    ],
+    quizAnswersOn: ['れい', 'こ', 'ほん', 'こう'],
+    quizAnswersKun: ['がえんじ.る', '', 'えだ', 'い.る']
   },
   {
     kanjiName: '脂',
@@ -94641,7 +96585,9 @@ let arr = [
         furigana: 'ひし',
         meanings: 'sebum'
       }
-    ]
+    ],
+    quizAnswersOn: ['ろ', 'し', 'せい', 'そく'],
+    quizAnswersKun: ['あぶら', '', 'と.む', 'ばば']
   },
   {
     kanjiName: '膚',
@@ -94727,7 +96673,9 @@ let arr = [
         furigana: 'ただれたひふ',
         meanings: 'inflamed skin'
       }
-    ]
+    ],
+    quizAnswersOn: ['とう', 'あん', 'ふ', 'か'],
+    quizAnswersKun: ['ただ.しい', 'はだ', 'のこ.す', 'かた.る']
   },
   {
     kanjiName: '軒',
@@ -94813,7 +96761,9 @@ let arr = [
         furigana: 'いっけんいっけん',
         meanings: 'each house'
       }
-    ]
+    ],
+    quizAnswersOn: ['けん', 'ぶつ', 'せつ', 'ちょう'],
+    quizAnswersKun: ['', 'くだん', 'のき', 'あきな.う']
   },
   {
     kanjiName: '軟',
@@ -94904,7 +96854,9 @@ let arr = [
         furigana: 'けいなん',
         meanings: 'light and soft (of a wood)'
       }
-    ]
+    ],
+    quizAnswersOn: ['ぎ', 'かつ', 'なん', 'でい'],
+    quizAnswersKun: ['しげ.る', 'き', 'やわ.らか', 'さかん']
   },
   {
     kanjiName: '郊',
@@ -94980,7 +96932,9 @@ let arr = [
         furigana: 'ほっこう',
         meanings: 'northern suburbs'
       }
-    ]
+    ],
+    quizAnswersOn: ['が', 'さん', 'こん', 'こう'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '隅',
@@ -95066,7 +97020,9 @@ let arr = [
         furigana: 'よすみ',
         meanings: 'four corners'
       }
-    ]
+    ],
+    quizAnswersOn: ['きゅう', 'びん', 'ぐう', 'かく'],
+    quizAnswersKun: ['', 'と.める', 'ゆみ', 'すみ']
   },
   {
     kanjiName: '隻',
@@ -95137,7 +97093,9 @@ let arr = [
         furigana: 'すうせき',
         meanings: 'several (boats)'
       }
-    ]
+    ],
+    quizAnswersOn: ['ちょう', 'せき', 'そん', 'じゃ'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '刀',
@@ -95242,7 +97200,9 @@ let arr = [
         furigana: 'たち',
         meanings: 'long sword (esp. the tachi'
       }
-    ]
+    ],
+    quizAnswersOn: ['とう', 'きゅう', 'てつ', 'へい'],
+    quizAnswersKun: ['まゆ', 'あらそ.う', 'かたな', 'あや']
   },
   {
     kanjiName: '丁',
@@ -95358,7 +97318,9 @@ let arr = [
         furigana: 'ちょう',
         meanings: 'counter for leaves in a book (esp. one with traditional Japanese-style binding)'
       }
-    ]
+    ],
+    quizAnswersOn: ['れい', 'う', 'そつ', 'ちょう'],
+    quizAnswersKun: ['くだ', 'つい.ず', 'およ.そ', 'ひのと']
   },
   {
     kanjiName: '又',
@@ -95433,7 +97395,9 @@ let arr = [
         furigana: 'ねこまた',
         meanings: 'mythical two-tailed monster cat'
       }
-    ]
+    ],
+    quizAnswersOn: ['ちょう', 'ゆう', 'じ', 'かい'],
+    quizAnswersKun: ['また', 'くわ.える', 'あらた.める', 'やと.う']
   },
   {
     kanjiName: '矢',
@@ -95528,7 +97492,9 @@ let arr = [
         furigana: 'こうし',
         meanings: 'whistling arrow used to signal the start of battle'
       }
-    ]
+    ],
+    quizAnswersOn: ['のう', 'し', 'ぐん', 'たい'],
+    quizAnswersKun: ['おぎな.う', 'ほそ.い', 'や', 'や']
   },
   {
     kanjiName: '羊',
@@ -95623,7 +97589,9 @@ let arr = [
         furigana: 'れいよう',
         meanings: 'antelope'
       }
-    ]
+    ],
+    quizAnswersOn: ['よう', 'がい', 'ぐん', 'せん'],
+    quizAnswersKun: ['はや.い', 'ひつじ', 'おぎな.う', 'くだん']
   },
   {
     kanjiName: '氏',
@@ -95718,7 +97686,9 @@ let arr = [
         furigana: 'どうし',
         meanings: 'the said person'
       }
-    ]
+    ],
+    quizAnswersOn: ['すい', 'そん', 'し', 'そう'],
+    quizAnswersKun: ['うじ', 'す.む', 'おどろ.く', 'つ.ける']
   },
   {
     kanjiName: '仮',
@@ -95808,7 +97778,9 @@ let arr = [
         furigana: 'こけ',
         meanings: 'folly'
       }
-    ]
+    ],
+    quizAnswersOn: ['さ', 'ほう', 'てき', 'か'],
+    quizAnswersKun: ['あかし', 'かり', 'たて', 'くさり']
   },
   {
     kanjiName: '級',
@@ -95883,7 +97855,9 @@ let arr = [
         furigana: 'さいこうきゅう',
         meanings: 'highest grade'
       }
-    ]
+    ],
+    quizAnswersOn: ['きゅう', 'にん', 'し', 'ば'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '功',
@@ -95973,7 +97947,9 @@ let arr = [
         furigana: 'こうのう',
         meanings: 'effect'
       }
-    ]
+    ],
+    quizAnswersOn: ['こう', 'せい', 'れつ', 'ちく'],
+    quizAnswersKun: ['にく.む', 'うるわ.しい', 'いさお', 'あまつさえ']
   },
   {
     kanjiName: '第',
@@ -96053,7 +98029,9 @@ let arr = [
         furigana: 'ていたく',
         meanings: '(large) house'
       }
-    ]
+    ],
+    quizAnswersOn: ['きゅう', 'だい', 'こう', 'へい'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '暑',
@@ -96138,7 +98116,9 @@ let arr = [
         furigana: 'ひしょ',
         meanings: 'escaping the summer heat'
       }
-    ]
+    ],
+    quizAnswersOn: ['しょ', 'ひ', 'ほ', 'めい'],
+    quizAnswersKun: ['とお.る', 'たな', 'あつ.い', '']
   },
   {
     kanjiName: '整',
@@ -96223,7 +98203,9 @@ let arr = [
         furigana: 'しゅうせい',
         meanings: 'adjustment'
       }
-    ]
+    ],
+    quizAnswersOn: ['ちつ', 'えん', 'たい', 'せい'],
+    quizAnswersKun: ['おちい.る', 'ととの.える', 'し.ぬ', 'あお.い']
   },
   {
     kanjiName: '詩',
@@ -96313,7 +98295,9 @@ let arr = [
         furigana: 'きんだいし',
         meanings: 'modern poetry'
       }
-    ]
+    ],
+    quizAnswersOn: ['よう', 'ひ', 'せき', 'し'],
+    quizAnswersKun: ['うた', 'ひとつ', 'こおり', 'しも']
   },
   {
     kanjiName: '器',
@@ -96413,7 +98397,9 @@ let arr = [
         furigana: 'かがくへいき',
         meanings: 'chemical weapon'
       }
-    ]
+    ],
+    quizAnswersOn: ['い', 'き', 'らん', 'ゆう'],
+    quizAnswersKun: ['ゆず', '', 'うつわ', 'の']
   },
   {
     kanjiName: '士',
@@ -96498,7 +98484,9 @@ let arr = [
         furigana: 'こうにんかいけいし',
         meanings: 'certified public accountant'
       }
-    ]
+    ],
+    quizAnswersOn: ['おう', 'そう', 'し', 'てん'],
+    quizAnswersKun: ['', 'あおぎり', 'さむらい', 'さ.げる']
   },
   {
     kanjiName: '標',
@@ -96600,7 +98588,9 @@ let arr = [
         furigana: 'とうろくしょうひょう',
         meanings: 'registered trademark'
       }
-    ]
+    ],
+    quizAnswersOn: ['よう', 'ぞう', 'ひょう', 'そう'],
+    quizAnswersKun: ['はか.る', 'おそ.い', 'しるべ', 'とぎ']
   },
   {
     kanjiName: '鏡',
@@ -96705,7 +98695,9 @@ let arr = [
         furigana: 'らんきょう',
         meanings: 'mirror with a mythical Chinese bird carved into the back'
       }
-    ]
+    ],
+    quizAnswersOn: ['れい', 'し', 'きょう', 'とう'],
+    quizAnswersKun: ['', 'あわ.れむ', 'かがみ', 'みや']
   },
   {
     kanjiName: '養',
@@ -96785,7 +98777,9 @@ let arr = [
         furigana: 'ばいよう',
         meanings: 'culture'
       }
-    ]
+    ],
+    quizAnswersOn: ['よう', 'そう', 'かつ', 'れい'],
+    quizAnswersKun: ['たけ', 'やしな.う', 'あきらか', '']
   },
   {
     kanjiName: '謝',
@@ -96865,7 +98859,9 @@ let arr = [
         furigana: 'たいしゃ',
         meanings: 'metabolism'
       }
-    ]
+    ],
+    quizAnswersOn: ['しゃ', 'こう', 'へん', 'えつ'],
+    quizAnswersKun: ['うかが.う', '', 'あやま.る', 'あつ.い']
   },
   {
     kanjiName: '松',
@@ -96960,7 +98956,9 @@ let arr = [
         furigana: 'すいしょう',
         meanings: 'verdant pine'
       }
-    ]
+    ],
+    quizAnswersOn: ['しょう', 'しん', 'む', 'かん'],
+    quizAnswersKun: ['よし', 'まつ', 'ひい.でる', '']
   },
   {
     kanjiName: '基',
@@ -97060,7 +99058,9 @@ let arr = [
         furigana: 'かいき',
         meanings: 'founding (of a temple or sect)'
       }
-    ]
+    ],
+    quizAnswersOn: ['はい', 'き', 'ち', 'かん'],
+    quizAnswersKun: ['', 'けみ.する', 'さかん', 'もと']
   },
   {
     kanjiName: '妥',
@@ -97125,7 +99125,9 @@ let arr = [
         furigana: 'だきょう',
         meanings: 'compromise'
       }
-    ]
+    ],
+    quizAnswersOn: ['だ', 'しょう', 'い', 'しゅう'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '雰',
@@ -97190,7 +99192,9 @@ let arr = [
         furigana: 'ふんいきびじん',
         meanings: 'woman who is not traditionally beautiful yet somehow very attractive'
       }
-    ]
+    ],
+    quizAnswersOn: ['えい', 'るい', 'ふん', 'ゆう'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '頑',
@@ -97260,7 +99264,9 @@ let arr = [
         furigana: 'がんこ',
         meanings: 'stubborn'
       }
-    ]
+    ],
+    quizAnswersOn: ['さ', 'がん', 'さつ', 'と'],
+    quizAnswersKun: ['つま.しい', 'かたく', 'も', '']
   },
   {
     kanjiName: '司',
@@ -97340,7 +99346,9 @@ let arr = [
         furigana: 'にぎりずし',
         meanings: 'nigirizushi'
       }
-    ]
+    ],
+    quizAnswersOn: ['しん', 'こく', 'し', 'じょう'],
+    quizAnswersKun: ['', 'つかさど.る', 'はじ.め', 'まつ']
   },
   {
     kanjiName: '泣',
@@ -97420,7 +99428,9 @@ let arr = [
         furigana: 'あいきゅう',
         meanings: 'crying with sadness'
       }
-    ]
+    ],
+    quizAnswersOn: ['きゅう', 'しょく', 'へん', 'たく'],
+    quizAnswersKun: ['', 'な.く', 'みせ', 'おか.す']
   },
   {
     kanjiName: '紀',
@@ -97495,7 +99505,9 @@ let arr = [
         furigana: 'ぜんせいき',
         meanings: 'last century'
       }
-    ]
+    ],
+    quizAnswersOn: ['き', 'かい', 'しん', 'たい'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '典',
@@ -97585,7 +99597,9 @@ let arr = [
         furigana: 'きょうてん',
         meanings: 'sacred books'
       }
-    ]
+    ],
+    quizAnswersOn: ['きゅう', 'こ', 'てん', 'せい'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '保',
@@ -97685,7 +99699,9 @@ let arr = [
         furigana: 'たいほう',
         meanings: 'Grand Protector (lowest of the top three civil positions of the Zhou dynasty)'
       }
-    ]
+    ],
+    quizAnswersOn: ['ざい', 'すい', 'しょう', 'ほ'],
+    quizAnswersKun: ['', 'たも.つ', 'あかし', 'き.める']
   },
   {
     kanjiName: '弁',
@@ -97775,7 +99791,9 @@ let arr = [
         furigana: 'きょうべん',
         meanings: 'insisting (unreasonably)'
       }
-    ]
+    ],
+    quizAnswersOn: ['べん', 'あく', 'り', 'しょ'],
+    quizAnswersKun: ['', 'かんむり', 'わざ', 'し.める']
   },
   {
     kanjiName: '証',
@@ -97860,7 +99878,9 @@ let arr = [
         furigana: 'ぎしょう',
         meanings: 'false evidence'
       }
-    ]
+    ],
+    quizAnswersOn: ['まい', 'けん', 'きょう', 'しょう'],
+    quizAnswersKun: ['かくま.う', 'あかし', '', 'ふで']
   },
   {
     kanjiName: '冒',
@@ -97940,7 +99960,9 @@ let arr = [
         furigana: 'りゅうこうせいかんぼう',
         meanings: 'influenza'
       }
-    ]
+    ],
+    quizAnswersOn: ['ぼう', 'きん', 'そう', 'たい'],
+    quizAnswersKun: ['おか.す', '', 'うら.む', 'くわ.しい']
   },
   {
     kanjiName: '冗',
@@ -98005,7 +100027,9 @@ let arr = [
         furigana: 'じょうだん',
         meanings: 'joke'
       }
-    ]
+    ],
+    quizAnswersOn: ['ちん', 'じゅん', 'たい', 'じょう'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '梅',
@@ -98100,7 +100124,9 @@ let arr = [
         furigana: 'こうばい',
         meanings: 'red-blossomed plum tree'
       }
-    ]
+    ],
+    quizAnswersOn: ['すう', 'ばい', 'よ', 'ふん'],
+    quizAnswersKun: ['うめ', 'ち.る', 'しょく.する', 'い.む']
   },
   {
     kanjiName: '結',
@@ -98210,7 +100236,9 @@ let arr = [
         furigana: 'けちがん',
         meanings: 'expiration of term of a vow'
       }
-    ]
+    ],
+    quizAnswersOn: ['けつ', 'がん', 'し', 'ふ'],
+    quizAnswersKun: ['うら', 'むす.ぶ', '', 'あ.げる']
   },
   {
     kanjiName: '是',
@@ -98300,7 +100328,9 @@ let arr = [
         furigana: 'とうぜ',
         meanings: 'party platform'
       }
-    ]
+    ],
+    quizAnswersOn: ['し', 'やく', 'も', 'ぜ'],
+    quizAnswersKun: ['もと.める', 'はらわた', '', 'これ']
   },
   {
     kanjiName: '渉',
@@ -98380,7 +100410,9 @@ let arr = [
         furigana: 'こんがいこうしょう',
         meanings: 'extramarital sex'
       }
-    ]
+    ],
+    quizAnswersOn: ['こく', 'さん', 'れい', 'しょう'],
+    quizAnswersKun: ['にく.む', 'あた.り', 'わた.る', '']
   },
   {
     kanjiName: '虚',
@@ -98481,7 +100513,9 @@ let arr = [
         furigana: 'こくう',
         meanings: 'empty space'
       }
-    ]
+    ],
+    quizAnswersOn: ['りょう', 'さく', 'さい', 'きょ'],
+    quizAnswersKun: ['かた', 'むな.しい', 'はしら', 'かな.でる']
   },
   {
     kanjiName: '幻',
@@ -98571,7 +100605,9 @@ let arr = [
         furigana: 'むげん',
         meanings: 'dreams'
       }
-    ]
+    ],
+    quizAnswersOn: ['り', 'ざ', 'げん', 'れい'],
+    quizAnswersKun: ['まぼろし', 'へ.る', 'かた', 'ふえ']
   },
   {
     kanjiName: '弓',
@@ -98666,7 +100702,9 @@ let arr = [
         furigana: 'さいきゅう',
         meanings: 'branchial arch'
       }
-    ]
+    ],
+    quizAnswersOn: ['は', 'きゅう', 'がい', 'ぼう'],
+    quizAnswersKun: ['ふる.う', 'ゆみ', 'そこ.なう', 'あお.い']
   },
   {
     kanjiName: '汽',
@@ -98731,7 +100769,9 @@ let arr = [
         furigana: 'きせん',
         meanings: 'steamship'
       }
-    ]
+    ],
+    quizAnswersOn: ['はつ', 'か', 'き', 'ざ'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '僧',
@@ -98806,7 +100846,9 @@ let arr = [
         furigana: 'こうそう',
         meanings: 'high priest'
       }
-    ]
+    ],
+    quizAnswersOn: ['どん', 'ばく', 'そう', 'そう'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '禅',
@@ -98881,7 +100923,9 @@ let arr = [
         furigana: 'にょらいぜん',
         meanings: 'Zen Buddhism based on the original teachings of Buddha'
       }
-    ]
+    ],
+    quizAnswersOn: ['たく', 'ぜん', 'にん', 'ど'],
+    quizAnswersKun: ['すこ.やか', 'い.れる', 'しずか', 'わた']
   },
   {
     kanjiName: '句',
@@ -98956,7 +101000,9 @@ let arr = [
         furigana: 'かんようく',
         meanings: 'idiom'
       }
-    ]
+    ],
+    quizAnswersOn: ['く', 'えつ', 'き', 'ふ'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '節',
@@ -99081,7 +101127,9 @@ let arr = [
         furigana: 'せつぶん',
         meanings: 'setsubun'
       }
-    ]
+    ],
+    quizAnswersOn: ['か', 'ぎ', 'ら', 'せつ'],
+    quizAnswersKun: ['からだ', 'おに', 'ふし', 'とも']
   },
   {
     kanjiName: '昆',
@@ -99151,7 +101199,9 @@ let arr = [
         furigana: 'こうこん',
         meanings: 'grandchildren'
       }
-    ]
+    ],
+    quizAnswersOn: ['かく', 'しょう', 'こん', 'い'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '閥',
@@ -99226,7 +101276,9 @@ let arr = [
         furigana: 'がくばつ',
         meanings: 'alma mater clique'
       }
-    ]
+    ],
+    quizAnswersOn: ['こん', 'ばつ', 'こう', 'よう'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '舌',
@@ -99321,7 +101373,9 @@ let arr = [
         furigana: 'こうぜつ',
         meanings: 'rear part of the tongue'
       }
-    ]
+    ],
+    quizAnswersOn: ['かん', 'ぜつ', 'き', 'し'],
+    quizAnswersKun: ['さかん', 'たえ', 'もよう.す', 'した']
   },
   {
     kanjiName: '宙',
@@ -99396,7 +101450,9 @@ let arr = [
         furigana: 'だいうちゅう',
         meanings: 'macrocosmos'
       }
-    ]
+    ],
+    quizAnswersOn: ['よう', 'こう', 'ぞう', 'ちゅう'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '履',
@@ -99476,7 +101532,9 @@ let arr = [
         furigana: 'さいり',
         meanings: 'repeating a course'
       }
-    ]
+    ],
+    quizAnswersOn: ['げん', 'り', 'かつ', 'きゅう'],
+    quizAnswersKun: ['お', '', 'おき', 'は.く']
   },
   {
     kanjiName: '善',
@@ -99581,7 +101639,9 @@ let arr = [
         furigana: 'どくぜん',
         meanings: 'self-righteousness'
       }
-    ]
+    ],
+    quizAnswersOn: ['ぜん', 'たん', 'しょう', 'けい'],
+    quizAnswersKun: ['むね', 'よ.い', 'いき', 'あらわ.れる']
   },
   {
     kanjiName: '災',
@@ -99666,7 +101726,9 @@ let arr = [
         furigana: 'ぼうさい',
         meanings: 'disaster preparedness'
       }
-    ]
+    ],
+    quizAnswersOn: ['けん', 'さい', 'たい', 'ほう'],
+    quizAnswersKun: ['あら.ず', 'わざわ.い', 'むら', 'ぬさ']
   },
   {
     kanjiName: '率',
@@ -99766,7 +101828,9 @@ let arr = [
         furigana: 'ていりつ',
         meanings: 'fixed rate'
       }
-    ]
+    ],
+    quizAnswersOn: ['せい', 'ふん', 'しょう', 'そつ'],
+    quizAnswersKun: ['あお.ぐ', 'かこ.い', 'しりぞ.ける', 'ひき.いる']
   },
   {
     kanjiName: '妨',
@@ -99846,7 +101910,9 @@ let arr = [
         furigana: 'ころびこうぼう',
         meanings: 'falsely-provoked arrest for obstruction'
       }
-    ]
+    ],
+    quizAnswersOn: ['やく', 'ゆう', 'ぼう', 'しゃく'],
+    quizAnswersKun: ['さまた.げる', 'かがみ', 'かれ', '']
   },
   {
     kanjiName: '裕',
@@ -99911,7 +101977,9 @@ let arr = [
         furigana: 'ゆうに',
         meanings: 'easily (reach'
       }
-    ]
+    ],
+    quizAnswersOn: ['こ', 'はち', 'ゆう', 'ざい'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '尾',
@@ -100006,7 +102074,9 @@ let arr = [
         furigana: 'こうび',
         meanings: 'copulation (among animals)'
       }
-    ]
+    ],
+    quizAnswersOn: ['きょう', 'ち', 'こ', 'び'],
+    quizAnswersKun: ['お', 'やど', 'に.げる', '']
   },
   {
     kanjiName: '嫌',
@@ -100106,7 +102176,9 @@ let arr = [
         furigana: 'とそきげん',
         meanings: "feeling a little drunk with the New Year's sake"
       }
-    ]
+    ],
+    quizAnswersOn: ['きち', 'じゅ', 'ばつ', 'けん'],
+    quizAnswersKun: ['くさり', 'きら.う', '', 'かみ']
   },
   {
     kanjiName: '臭',
@@ -100217,7 +102289,9 @@ let arr = [
         furigana: 'いしゅう',
         meanings: 'offensive smell'
       }
-    ]
+    ],
+    quizAnswersOn: ['しゅう', 'せん', 'しょう', 'な'],
+    quizAnswersKun: ['かお.る', 'くさ.い', 'こぶし', '']
   },
   {
     kanjiName: '穴',
@@ -100312,7 +102386,9 @@ let arr = [
         furigana: 'けいけつ',
         meanings: 'acupuncture point'
       }
-    ]
+    ],
+    quizAnswersOn: ['けつ', 'じ', 'きつ', 'き'],
+    quizAnswersKun: ['あな', 'すえ', 'か.つ', 'めぐ.む']
   },
   {
     kanjiName: '笛',
@@ -100402,7 +102478,9 @@ let arr = [
         furigana: 'よこぶえ',
         meanings: 'transverse flute (e.g. a fife)'
       }
-    ]
+    ],
+    quizAnswersOn: ['かく', 'はん', 'てき', 'たい'],
+    quizAnswersKun: ['あきらか', '', 'かわ', 'ふえ']
   },
   {
     kanjiName: '敵',
@@ -100502,7 +102580,9 @@ let arr = [
         furigana: 'むてき',
         meanings: 'invincible'
       }
-    ]
+    ],
+    quizAnswersOn: ['さ', 'きょう', 'か', 'てき'],
+    quizAnswersKun: ['かたき', 'ゆめ', 'よろず', 'よ.い']
   },
   {
     kanjiName: '挙',
@@ -100592,7 +102672,9 @@ let arr = [
         furigana: 'かいきょ',
         meanings: 'brilliant achievement'
       }
-    ]
+    ],
+    quizAnswersOn: ['こう', 'きょ', 'き', 'てん'],
+    quizAnswersKun: ['あ.げる', '', 'たす.ける', 'いくさ']
   },
   {
     kanjiName: '派',
@@ -100667,7 +102749,9 @@ let arr = [
         furigana: 'うは',
         meanings: 'right wing'
       }
-    ]
+    ],
+    quizAnswersOn: ['たい', 'は', 'び', 'ちゅう'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '素',
@@ -100782,7 +102866,9 @@ let arr = [
         furigana: 'はりす',
         meanings: 'snell (fishing)'
       }
-    ]
+    ],
+    quizAnswersOn: ['こう', 'しち', 'は', 'そ'],
+    quizAnswersKun: ['しし', 'もと', 'さいわ.い', 'たぐ.い']
   },
   {
     kanjiName: '評',
@@ -100857,7 +102943,9 @@ let arr = [
         furigana: 'だいこうひょう',
         meanings: 'very highly commended'
       }
-    ]
+    ],
+    quizAnswersOn: ['そう', 'こ', 'ひょう', 'そん'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '批',
@@ -100927,7 +103015,9 @@ let arr = [
         furigana: 'こうひ',
         meanings: 'your valued criticism'
       }
-    ]
+    ],
+    quizAnswersOn: ['おう', 'ほ', 'ぞう', 'ひ'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '検',
@@ -101002,7 +103092,9 @@ let arr = [
         furigana: 'さいこうけん',
         meanings: "Public Prosecutor's Office"
       }
-    ]
+    ],
+    quizAnswersOn: ['けん', 'し', 'せい', 'しょう'],
+    quizAnswersKun: ['しら.べる', 'おさ.める', 'ほっ.する', 'むし.ろ']
   },
   {
     kanjiName: '審',
@@ -101082,7 +103174,9 @@ let arr = [
         furigana: 'さいしん',
         meanings: 'retrial'
       }
-    ]
+    ],
+    quizAnswersOn: ['しん', 'えん', 'おう', 'たい'],
+    quizAnswersKun: ['た.てる', 'なが.い', 'つまび.らか', 'よろこ.ぶ']
   },
   {
     kanjiName: '条',
@@ -101167,7 +103261,9 @@ let arr = [
         furigana: 'いいじょう',
         meanings: "one's say"
       }
-    ]
+    ],
+    quizAnswersOn: ['じょう', 'きゅう', 'じゅう', 'ぼく'],
+    quizAnswersKun: ['たく.み', 'ぬま', 'えだ', 'おお.い']
   },
   {
     kanjiName: '企',
@@ -101252,7 +103348,9 @@ let arr = [
         furigana: 'ほっき',
         meanings: 'originating (something)'
       }
-    ]
+    ],
+    quizAnswersOn: ['き', 'おつ', 'れい', 'ひつ'],
+    quizAnswersKun: ['かんむり', '', 'ひのと', 'くわだ.てる']
   },
   {
     kanjiName: '義',
@@ -101327,7 +103425,9 @@ let arr = [
         furigana: 'たいぎ',
         meanings: 'great cause'
       }
-    ]
+    ],
+    quizAnswersOn: ['ぎ', 'へん', 'てい', 'けん'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '罰',
@@ -101422,7 +103522,9 @@ let arr = [
         furigana: 'ぶつばち',
         meanings: 'punishment by Buddha'
       }
-    ]
+    ],
+    quizAnswersOn: ['ばつ', 'しょう', 'こう', 'こ'],
+    quizAnswersKun: ['', 'みち', 'も.える', 'ばっ.する']
   },
   {
     kanjiName: '誕',
@@ -101497,7 +103599,9 @@ let arr = [
         furigana: 'さいたん',
         meanings: 'resurrection (of a company or school'
       }
-    ]
+    ],
+    quizAnswersOn: ['ひ', 'りん', 'ぼく', 'たん'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '脱',
@@ -101582,7 +103686,9 @@ let arr = [
         furigana: 'げだつ',
         meanings: 'liberation from earthly desires and the woes of man'
       }
-    ]
+    ],
+    quizAnswersOn: ['だつ', 'ぼく', 'がく', 'む'],
+    quizAnswersKun: ['かな.でる', 'ぬ.ぐ', '', 'しな']
   },
   {
     kanjiName: '宮',
@@ -101728,7 +103834,9 @@ let arr = [
         furigana: 'げくう',
         meanings: 'outer shrine of the Ise Grand Shrine'
       }
-    ]
+    ],
+    quizAnswersOn: ['ちょう', 'だん', 'ほう', 'きゅう'],
+    quizAnswersKun: ['みや', 'はだか', 'みずか.ら', '']
   },
   {
     kanjiName: '案',
@@ -101825,7 +103933,9 @@ let arr = [
         furigana: 'せいあん',
         meanings: 'definite plan'
       }
-    ]
+    ],
+    quizAnswersOn: ['み', 'あん', 'せい', 'ご'],
+    quizAnswersKun: ['まろ', 'まね.く', 'つくえ', 'い.やす']
   },
   {
     kanjiName: '価',
@@ -101910,7 +104020,9 @@ let arr = [
         furigana: 'やっか',
         meanings: 'drug price'
       }
-    ]
+    ],
+    quizAnswersOn: ['ゆう', 'か', 'ち', 'じゅう'],
+    quizAnswersKun: ['あたい', 'のび.る', 'ふたた.び', 'やす.い']
   },
   {
     kanjiName: '統',
@@ -101990,7 +104102,9 @@ let arr = [
         furigana: 'けいとう',
         meanings: 'accession to the throne'
       }
-    ]
+    ],
+    quizAnswersOn: ['てい', 'とう', 'でん', 'せん'],
+    quizAnswersKun: ['つくえ', 'す.べる', 'たす.ける', '']
   },
   {
     kanjiName: '策',
@@ -102065,7 +104179,9 @@ let arr = [
         furigana: 'こくさく',
         meanings: 'national policy'
       }
-    ]
+    ],
+    quizAnswersOn: ['さく', 'ぞく', 'うん', 'かつ'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '藤',
@@ -102108,7 +104224,9 @@ let arr = [
         furigana: 'とうか',
         meanings: 'wisteria flower'
       }
-    ]
+    ],
+    quizAnswersOn: ['でん', 'おく', 'ろう', 'とう'],
+    quizAnswersKun: ['なぐ.る', 'うた', '', 'ふじ']
   },
   {
     kanjiName: '姿',
@@ -102203,7 +104321,9 @@ let arr = [
         furigana: 'えいし',
         meanings: 'gallant figure'
       }
-    ]
+    ],
+    quizAnswersOn: ['し', 'い', 'じょう', 'だ'],
+    quizAnswersKun: ['', 'すがた', 'あらが.う', 'あわ.れむ']
   },
   {
     kanjiName: '応',
@@ -102283,7 +104403,9 @@ let arr = [
         furigana: 'きょうおう',
         meanings: 'entertaining with food and drink'
       }
-    ]
+    ],
+    quizAnswersOn: ['さつ', 'はん', 'よう', 'おう'],
+    quizAnswersKun: ['し.る', 'あた.る', '', 'おお.きい']
   },
   {
     kanjiName: '提',
@@ -102393,7 +104515,9 @@ let arr = [
         furigana: 'えんぶだい',
         meanings: 'Jambudvipa'
       }
-    ]
+    ],
+    quizAnswersOn: ['てい', 'き', 'い', 'さく'],
+    quizAnswersKun: ['み.る', '', 'さかん', 'さ.げる']
   },
   {
     kanjiName: '援',
@@ -102468,7 +104592,9 @@ let arr = [
         furigana: 'ぎえん',
         meanings: 'alms'
       }
-    ]
+    ],
+    quizAnswersOn: ['そう', 'ぜん', 'えん', 'ひょう'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '態',
@@ -102553,7 +104679,9 @@ let arr = [
         furigana: 'どうたい',
         meanings: 'movement'
       }
-    ]
+    ],
+    quizAnswersOn: ['さ', '', 'たい', 'ばつ'],
+    quizAnswersKun: ['かい', 'ごと.し', 'わざ.と', 'た.れる']
   },
   {
     kanjiName: '賀',
@@ -102628,7 +104756,9 @@ let arr = [
         furigana: 'しゅくが',
         meanings: 'celebration'
       }
-    ]
+    ],
+    quizAnswersOn: ['てん', 'ちょう', 'こん', 'が'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '鬼',
@@ -102723,7 +104853,9 @@ let arr = [
         furigana: 'ごうき',
         meanings: 'Akuma (Street Fighter)'
       }
-    ]
+    ],
+    quizAnswersOn: ['とく', 'れん', 'き', 'ぼく'],
+    quizAnswersKun: ['やま', '', 'も.える', 'おに']
   },
   {
     kanjiName: '護',
@@ -102803,7 +104935,9 @@ let arr = [
         furigana: 'あいご',
         meanings: 'protection'
       }
-    ]
+    ],
+    quizAnswersOn: ['せき', 'しん', 'ぎょう', 'ご'],
+    quizAnswersKun: ['はぎ', '', 'しる.す', 'まも.る']
   },
   {
     kanjiName: '裁',
@@ -102888,7 +105022,9 @@ let arr = [
         furigana: 'こうさい',
         meanings: 'High Court'
       }
-    ]
+    ],
+    quizAnswersOn: ['はい', 'せん', 'さい', 'しょう'],
+    quizAnswersKun: ['しろ', 'た.つ', 'はたら.く', 'なこうど']
   },
   {
     kanjiName: '崎',
@@ -102983,7 +105119,9 @@ let arr = [
         furigana: 'ながさき',
         meanings: 'Nagasaki (city'
       }
-    ]
+    ],
+    quizAnswersOn: ['わ', 'よ', 'き', 'たい'],
+    quizAnswersKun: ['', 'ほたる', 'さき', 'おさ.める']
   },
   {
     kanjiName: '看',
@@ -103063,7 +105201,9 @@ let arr = [
         furigana: 'たてかん',
         meanings: 'standing signboard'
       }
-    ]
+    ],
+    quizAnswersOn: ['しょう', '', 'さい', 'かん'],
+    quizAnswersKun: ['み.る', 'あぶ.ない', 'わか.つ', 'あけ']
   },
   {
     kanjiName: '幹',
@@ -103143,7 +105283,9 @@ let arr = [
         furigana: 'きかん',
         meanings: 'mainstay'
       }
-    ]
+    ],
+    quizAnswersOn: ['ちゅう', 'しょう', 'しゅう', 'かん'],
+    quizAnswersKun: ['なぐ.る', 'はや.い', 'まなこ', 'みき']
   },
   {
     kanjiName: '張',
@@ -103229,7 +105371,9 @@ let arr = [
         furigana: 'しんちょう',
         meanings: 'expansion'
       }
-    ]
+    ],
+    quizAnswersOn: ['ちょう', 'とう', 'ぼ', 'こう'],
+    quizAnswersKun: ['うなじ', '', 'は.る', 'いも']
   },
   {
     kanjiName: '沢',
@@ -103314,7 +105458,9 @@ let arr = [
         furigana: 'けいたく',
         meanings: 'blessing'
       }
-    ]
+    ],
+    quizAnswersOn: ['きょう', 'えい', 'はく', 'たく'],
+    quizAnswersKun: ['くに', 'さわ', 'なお', '']
   },
   {
     kanjiName: '施',
@@ -103404,7 +105550,9 @@ let arr = [
         furigana: 'しきせ',
         meanings: "servant's clothes provided by an employer"
       }
-    ]
+    ],
+    quizAnswersOn: ['し', 'もう', 'きゅう', 'かん'],
+    quizAnswersKun: ['かえで', '', 'つ.ける', 'ほどこ.す']
   },
   {
     kanjiName: '俳',
@@ -103469,7 +105617,9 @@ let arr = [
         furigana: 'はいく',
         meanings: 'haiku'
       }
-    ]
+    ],
+    quizAnswersOn: ['はい', 'さい', 'ばく', 'りょう'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '秀',
@@ -103549,7 +105699,9 @@ let arr = [
         furigana: 'せいしゅう',
         meanings: 'having refined and distinguished features'
       }
-    ]
+    ],
+    quizAnswersOn: ['はん', 'しゅう', 'こ', 'がん'],
+    quizAnswersKun: ['', 'おおとり', 'あな', 'ひい.でる']
   },
   {
     kanjiName: '製',
@@ -103624,7 +105776,9 @@ let arr = [
         furigana: 'きせい',
         meanings: 'ready-made'
       }
-    ]
+    ],
+    quizAnswersOn: ['りゅう', 'とう', 'ごう', 'せい'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '狭',
@@ -103729,7 +105883,9 @@ let arr = [
         furigana: 'こうきょう',
         meanings: 'width'
       }
-    ]
+    ],
+    quizAnswersOn: ['こ', 'こく', 'しょ', 'きょう'],
+    quizAnswersKun: ['かお.る', 'たけ', 'せま.い', 'なに']
   },
   {
     kanjiName: '載',
@@ -103814,7 +105970,9 @@ let arr = [
         furigana: 'とうさい',
         meanings: 'running (an article)'
       }
-    ]
+    ],
+    quizAnswersOn: ['よう', 'さい', 'こう', 'き'],
+    quizAnswersKun: ['の.せる', '', 'なら.う', 'か.ねる']
   },
   {
     kanjiName: '視',
@@ -103894,7 +106052,9 @@ let arr = [
         furigana: 'けいし',
         meanings: 'police superintendent'
       }
-    ]
+    ],
+    quizAnswersOn: ['こう', 'きょう', 'けん', 'し'],
+    quizAnswersKun: ['', 'み.る', 'つ.む', 'たび']
   },
   {
     kanjiName: '環',
@@ -103984,7 +106144,9 @@ let arr = [
         furigana: 'がいかん',
         meanings: 'outer ring'
       }
-    ]
+    ],
+    quizAnswersOn: ['だい', 'か', 'がん', 'かん'],
+    quizAnswersKun: ['とぼ.しい', 'み.る', 'わ', 'ぬし']
   },
   {
     kanjiName: '展',
@@ -104059,7 +106221,9 @@ let arr = [
         furigana: 'じゅんかいてん',
         meanings: 'roadshow'
       }
-    ]
+    ],
+    quizAnswersOn: ['そん', 'しょう', 'けん', 'てん'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '株',
@@ -104149,7 +106313,9 @@ let arr = [
         furigana: 'けねんされるへんいしゅ',
         meanings: 'variant of concern (of SARS-CoV-2)'
       }
-    ]
+    ],
+    quizAnswersOn: ['えん', 'たい', 'しゅ', 'り'],
+    quizAnswersKun: ['かぶ', '', 'か.つ', '-こ.む']
   },
   {
     kanjiName: '影',
@@ -104244,7 +106410,9 @@ let arr = [
         furigana: 'とうえい',
         meanings: 'projection'
       }
-    ]
+    ],
+    quizAnswersOn: ['しゅう', 'き', 'よう', 'えい'],
+    quizAnswersKun: ['つつし.む', '', 'かげ', 'ことば']
   },
   {
     kanjiName: '響',
@@ -104324,7 +106492,9 @@ let arr = [
         furigana: 'こうえいきょう',
         meanings: 'favorable influence'
       }
-    ]
+    ],
+    quizAnswersOn: ['きん', 'ふ', 'きょう', 'かん'],
+    quizAnswersKun: ['ひび.く', 'や', '', 'しずか']
   },
   {
     kanjiName: '票',
@@ -104399,7 +106569,9 @@ let arr = [
         furigana: 'むとうひょう',
         meanings: 'without a vote'
       }
-    ]
+    ],
+    quizAnswersOn: ['ゆう', 'ひょう', 'ぎ', 'じゅう'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '訴',
@@ -104479,7 +106651,9 @@ let arr = [
         furigana: 'ていそ',
         meanings: 'presenting a case'
       }
-    ]
+    ],
+    quizAnswersOn: ['じ', 'そ', 'きゃく', 'さつ'],
+    quizAnswersKun: ['がえんじ.る', 'うった.える', 'みち', 'とら.われる']
   },
   {
     kanjiName: '訟',
@@ -104554,7 +106728,9 @@ let arr = [
         furigana: 'そうしょう',
         meanings: 'dispute by legal action'
       }
-    ]
+    ],
+    quizAnswersOn: ['そう', 'ほん', 'めん', 'しょう'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '逮',
@@ -104619,7 +106795,9 @@ let arr = [
         furigana: 'たいほおよびかんきんざい',
         meanings: 'false arrest and imprisonment'
       }
-    ]
+    ],
+    quizAnswersOn: ['こ', 'さつ', 'たい', 'や'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '模',
@@ -104694,7 +106872,9 @@ let arr = [
         furigana: 'ちゅうきぼ',
         meanings: 'mid-range'
       }
-    ]
+    ],
+    quizAnswersOn: ['も', 'てつ', 'どう', 'せん'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '鮮',
@@ -104774,7 +106954,9 @@ let arr = [
         furigana: 'りしちょうせん',
         meanings: 'Joseon dynasty (of Korea; 1392-1910)'
       }
-    ]
+    ],
+    quizAnswersOn: ['しょう', 'せん', 'てい', 'たく'],
+    quizAnswersKun: ['あざ.やか', 'つた', 'かた', 'つか.れる']
   },
   {
     kanjiName: '属',
@@ -104864,7 +107046,9 @@ let arr = [
         furigana: 'しょくぼう',
         meanings: "having great hopes for (someone's future)"
       }
-    ]
+    ],
+    quizAnswersOn: ['ちゅう', 'ぞく', 'たん', 'めん'],
+    quizAnswersKun: ['うば.う', 'きさき', 'さかん', 'はらわた']
   },
   {
     kanjiName: '肥',
@@ -104974,7 +107158,9 @@ let arr = [
         furigana: 'ついひ',
         meanings: '(adding) extra fertilizer or manure (fertiliser)'
       }
-    ]
+    ],
+    quizAnswersOn: ['ひ', 'いち', 'じゅん', 'よう'],
+    quizAnswersKun: ['なや.む', 'みにく.い', 'こ.える', 'い.る']
   },
   {
     kanjiName: '絞',
@@ -105054,7 +107240,9 @@ let arr = [
         furigana: 'こうさつ',
         meanings: 'strangulation'
       }
-    ]
+    ],
+    quizAnswersOn: ['い', 'こう', 'えき', 'たん'],
+    quizAnswersKun: ['うた', 'ゆび', 'なぐさ.める', 'しぼ.る']
   },
   {
     kanjiName: '輩',
@@ -105144,7 +107332,9 @@ let arr = [
         furigana: 'さいはい',
         meanings: 'colleagues'
       }
-    ]
+    ],
+    quizAnswersOn: ['はい', 'き', 'せん', 'そう'],
+    quizAnswersKun: ['-ばら', 'くるま', '', 'はじ.める']
   },
   {
     kanjiName: '隠',
@@ -105259,7 +107449,9 @@ let arr = [
         furigana: 'おんぎょう',
         meanings: 'invisibility (through magic)'
       }
-    ]
+    ],
+    quizAnswersOn: ['じ', 'じゅん', 'いん', 'ひょう'],
+    quizAnswersKun: ['かく.す', 'たよ.り', 'たて', 'いた']
   },
   {
     kanjiName: '授',
@@ -105344,7 +107536,9 @@ let arr = [
         furigana: 'でんじゅ',
         meanings: '(giving) instruction (esp. in the secrets of an art'
       }
-    ]
+    ],
+    quizAnswersOn: ['きょう', 'えん', 'か', 'じゅ'],
+    quizAnswersKun: ['さず.ける', 'つかさど.る', 'の.む', 'は.じる']
   },
   {
     kanjiName: '創',
@@ -105444,7 +107638,9 @@ let arr = [
         furigana: 'そうそう',
         meanings: 'beginning'
       }
-    ]
+    ],
+    quizAnswersOn: ['いん', 'ひゃく', 'そう', 'てん'],
+    quizAnswersKun: ['とり', 'あ.る', 'たね', 'つく.る']
   },
   {
     kanjiName: '往',
@@ -105529,7 +107725,9 @@ let arr = [
         furigana: 'いおう',
         meanings: 'after'
       }
-    ]
+    ],
+    quizAnswersOn: ['おう', 'しゅん', 'が', 'そう'],
+    quizAnswersKun: ['', 'みだり.に', 'い.く', 'すず.しい']
   },
   {
     kanjiName: '較',
@@ -105619,7 +107817,9 @@ let arr = [
         furigana: 'こうりょう',
         meanings: 'comparison'
       }
-    ]
+    ],
+    quizAnswersOn: ['ちょう', 'かく', 'げん', 'ふ'],
+    quizAnswersKun: ['きわ.める', 'くら.べる', 'ただ', 'い']
   },
   {
     kanjiName: '鉛',
@@ -105714,7 +107914,9 @@ let arr = [
         furigana: 'りゅうかあえん',
         meanings: 'zinc sulfide (ZnS) (sulphide)'
       }
-    ]
+    ],
+    quizAnswersOn: ['えん', 'る', 'しょう', 'えん'],
+    quizAnswersKun: ['', 'きよ.い', 'く.る', 'なまり']
   },
   {
     kanjiName: '故',
@@ -105824,7 +108026,9 @@ let arr = [
         furigana: 'じんしんじこ',
         meanings: 'accident resulting in personal injury or death (esp. traffic'
       }
-    ]
+    ],
+    quizAnswersOn: ['こ', 'ひ', 'ふ', 'ちく'],
+    quizAnswersKun: ['ゆえ', 'みなみ', '', 'くわ.しい']
   },
   {
     kanjiName: '障',
@@ -105904,7 +108108,9 @@ let arr = [
         furigana: 'いしょう',
         meanings: 'fence (esp. between buildings)'
       }
-    ]
+    ],
+    quizAnswersOn: ['しょう', 'いん', 'かい', 'じゅん'],
+    quizAnswersKun: ['', 'さ.す', 'ぜろ', 'さわ.る']
   },
   {
     kanjiName: '従',
@@ -106033,7 +108239,9 @@ let arr = [
         furigana: 'るいじゅう',
         meanings: 'collection of similar objects'
       }
-    ]
+    ],
+    quizAnswersOn: ['じゅう', 'さく', 'けい', 'とう'],
+    quizAnswersKun: ['すみ', 'なみだ', 'したが.う', 'こと']
   },
   {
     kanjiName: '我',
@@ -106133,7 +108341,9 @@ let arr = [
         furigana: 'しょうが',
         meanings: 'the self'
       }
-    ]
+    ],
+    quizAnswersOn: ['し', 'が', 'き', 'ほう'],
+    quizAnswersKun: ['みことのり', 'われ', '', 'たけ']
   },
   {
     kanjiName: '激',
@@ -106213,7 +108423,9 @@ let arr = [
         furigana: 'きょうげき',
         meanings: 'radical'
       }
-    ]
+    ],
+    quizAnswersOn: ['りょく', 'れい', 'げき', 'が'],
+    quizAnswersKun: ['つく.る', 'み', '', 'はげ.しい']
   },
   {
     kanjiName: '励',
@@ -106298,7 +108510,9 @@ let arr = [
         furigana: 'こっくせいれい',
         meanings: 'being arduous'
       }
-    ]
+    ],
+    quizAnswersOn: ['せつ', 'ど', 'れい', 'きん'],
+    quizAnswersKun: ['しの.ぐ', 'はげ.む', 'すわ.る', 'つき']
   },
   {
     kanjiName: '討',
@@ -106378,7 +108592,9 @@ let arr = [
         furigana: 'ついとう',
         meanings: 'tracking down and killing'
       }
-    ]
+    ],
+    quizAnswersOn: ['ちょう', 'とう', 'ご', 'そう'],
+    quizAnswersKun: ['うす.い', 'う.つ', 'まち', 'わた.る']
   },
   {
     kanjiName: '徴',
@@ -106474,7 +108690,9 @@ let arr = [
         meanings:
           'note a semitone below the fourth degree of the Chinese and Japanese pentatonic scale'
       }
-    ]
+    ],
+    quizAnswersOn: ['でん', 'ちょう', 'じ', 'し'],
+    quizAnswersKun: ['しるし', 'あつ.い', '', 'たの.しい']
   },
   {
     kanjiName: '怪',
@@ -106584,7 +108802,9 @@ let arr = [
         furigana: 'もののけ',
         meanings: '(vengeful) ghost'
       }
-    ]
+    ],
+    quizAnswersOn: ['かい', 'ち', 'せん', 'すう'],
+    quizAnswersKun: ['おぼ.れる', 'あや.しい', 'もと', 'や']
   },
   {
     kanjiName: '獣',
@@ -106674,7 +108894,9 @@ let arr = [
         furigana: 'かいじゅう',
         meanings: 'marine mammal'
       }
-    ]
+    ],
+    quizAnswersOn: ['ゆう', 'じゅう', 'とく', 'じゅん'],
+    quizAnswersKun: ['あた.る', 'けもの', '', 'あい-']
   },
   {
     kanjiName: '振',
@@ -106769,7 +108991,9 @@ let arr = [
         furigana: 'ふしん',
         meanings: 'dullness'
       }
-    ]
+    ],
+    quizAnswersOn: ['せき', 'しょう', 'しん', 'しょ'],
+    quizAnswersKun: ['ほ.す', 'わずら.う', 'こと', 'ふ.る']
   },
   {
     kanjiName: '豚',
@@ -106864,7 +109088,9 @@ let arr = [
         furigana: 'やきとん',
         meanings: 'yakiton'
       }
-    ]
+    ],
+    quizAnswersOn: ['きょう', 'のう', 'とん', 'しゅ'],
+    quizAnswersKun: ['ぶた', 'はな.す', 'しめ.る', 'つち']
   },
   {
     kanjiName: '独',
@@ -106949,7 +109175,9 @@ let arr = [
         furigana: 'えいどく',
         meanings: 'United Kingdom and Germany'
       }
-    ]
+    ],
+    quizAnswersOn: ['どく', 'のう', 'もう', 'へん'],
+    quizAnswersKun: ['あ.う', 'ひと.り', 'さそ.う', 'はば']
   },
   {
     kanjiName: '屈',
@@ -107034,7 +109262,9 @@ let arr = [
         furigana: 'こうくつ',
         meanings: 'retroflexion'
       }
-    ]
+    ],
+    quizAnswersOn: ['ちん', 'こう', 'くつ', 'こく'],
+    quizAnswersKun: ['おとず.れる', 'む.く', 'かが.む', 'すす.める']
   },
   {
     kanjiName: '暇',
@@ -107129,7 +109359,9 @@ let arr = [
         furigana: 'せいか',
         meanings: 'vacation request'
       }
-    ]
+    ],
+    quizAnswersOn: ['てつ', 'か', 'どう', 'せん'],
+    quizAnswersKun: ['ひま', 'ちい.さい', 'あまつ', 'はざま']
   },
   {
     kanjiName: '織',
@@ -107259,7 +109491,9 @@ let arr = [
         furigana: 'かんじゅうしき',
         meanings: 'mesenchyme'
       }
-    ]
+    ],
+    quizAnswersOn: ['とう', 'しょく', 'ぜん', 'きゅう'],
+    quizAnswersKun: ['あざ.やか', 'きず', 'あらわ.す', 'お.る']
   },
   {
     kanjiName: '惑',
@@ -107339,7 +109573,9 @@ let arr = [
         furigana: 'ふわく',
         meanings: 'past forty'
       }
-    ]
+    ],
+    quizAnswersOn: ['げん', 'はい', 'か', 'わく'],
+    quizAnswersKun: ['まど.う', 'とも', 'お.ちる', '']
   },
   {
     kanjiName: '誘',
@@ -107424,7 +109660,9 @@ let arr = [
         furigana: 'げきじょうがたかんゆう',
         meanings: 'advertising fraudulent investment schemes with glossy brochures'
       }
-    ]
+    ],
+    quizAnswersOn: ['じょう', 'ふつ', 'ゆう', 'ひん'],
+    quizAnswersKun: ['', 'ふゆ', 'かた.る', 'さそ.う']
   },
   {
     kanjiName: '就',
@@ -107519,7 +109757,9 @@ let arr = [
         furigana: 'ふくうじょうじゅ',
         meanings: 'Amoghasiddhi'
       }
-    ]
+    ],
+    quizAnswersOn: ['とう', 'しゅう', 'けい', 'ばく'],
+    quizAnswersKun: ['なぐさ.める', 'つ.く', '', 'くき']
   },
   {
     kanjiName: '睡',
@@ -107604,7 +109844,9 @@ let arr = [
         furigana: 'かすい',
         meanings: 'nap'
       }
-    ]
+    ],
+    quizAnswersOn: ['けい', 'しき', 'すい', 'そう'],
+    quizAnswersKun: ['よ.い', 'はい', 'ねむ.る', 'ふたた.び']
   },
   {
     kanjiName: '症',
@@ -107679,7 +109921,9 @@ let arr = [
         furigana: 'こういしょう',
         meanings: 'prognostic symptoms'
       }
-    ]
+    ],
+    quizAnswersOn: ['だ', 'ごく', 'しょう', 'ずい'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '締',
@@ -107764,7 +110008,9 @@ let arr = [
         furigana: 'ていけつ',
         meanings: 'conclusion'
       }
-    ]
+    ],
+    quizAnswersOn: ['てい', 'じゅう', 'きょ', 'ちん'],
+    quizAnswersKun: ['かか.わる', 'さか.える', 'し.まる', 'でこ']
   },
   {
     kanjiName: '迫',
@@ -107844,7 +110090,9 @@ let arr = [
         furigana: 'いはく',
         meanings: 'menace'
       }
-    ]
+    ],
+    quizAnswersOn: ['はく', 'ちく', 'じ', 'てん'],
+    quizAnswersKun: ['ゆ.く', 'さと', 'せま.る', 'うつわ']
   },
   {
     kanjiName: '端',
@@ -107989,7 +110237,9 @@ let arr = [
         furigana: 'ほくたん',
         meanings: 'northern extremity'
       }
-    ]
+    ],
+    quizAnswersOn: ['せん', 'しゅん', 'ひ', 'たん'],
+    quizAnswersKun: ['とも', '', 'ほろ.びる', 'はし']
   },
   {
     kanjiName: '健',
@@ -108069,7 +110319,9 @@ let arr = [
         furigana: 'しつじつごうけん',
         meanings: 'unaffected and sincere'
       }
-    ]
+    ],
+    quizAnswersOn: ['きん', 'ざ', 'こう', 'けん'],
+    quizAnswersKun: ['さむらい', 'すこ.やか', 'かた', 'いたずら']
   },
   {
     kanjiName: '康',
@@ -108144,7 +110396,9 @@ let arr = [
         furigana: 'あんこう',
         meanings: 'calm and peaceful period of time'
       }
-    ]
+    ],
+    quizAnswersOn: ['しゃ', 'ど', 'こう', 'じゅん'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '郎',
@@ -108219,7 +110473,9 @@ let arr = [
         furigana: 'じょろう',
         meanings: 'prostitute (esp. Edo period)'
       }
-    ]
+    ],
+    quizAnswersOn: ['ちょう', 'ろう', 'き', 'く'],
+    quizAnswersKun: ['', 'かた.る', 'とき', 'おとこ']
   },
   {
     kanjiName: '稚',
@@ -108299,7 +110555,9 @@ let arr = [
         furigana: 'でっち',
         meanings: 'apprentice'
       }
-    ]
+    ],
+    quizAnswersOn: ['にょう', 'どう', 'ち', 'かん'],
+    quizAnswersKun: ['まこと', '', 'いとけない', 'おも']
   },
   {
     kanjiName: '博',
@@ -108394,7 +110652,9 @@ let arr = [
         furigana: 'でんすけとばく',
         meanings: 'deceptive betting game (such as the shell game)'
       }
-    ]
+    ],
+    quizAnswersOn: ['はく', 'ゆ', 'とう', 'き'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '潔',
@@ -108464,7 +110724,9 @@ let arr = [
         furigana: 'ていけつ',
         meanings: 'chastity'
       }
-    ]
+    ],
+    quizAnswersOn: ['おう', 'どん', 'けつ', 'じん'],
+    quizAnswersKun: ['ま.じる', 'ゆき', 'いさぎよ.い', 'むぎ']
   },
   {
     kanjiName: '隊',
@@ -108539,7 +110801,9 @@ let arr = [
         furigana: 'こうくうじえいたい',
         meanings: 'Japan Air Self-Defense Force'
       }
-    ]
+    ],
+    quizAnswersOn: ['たい', 'う', 'ちょう', 'すい'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '修',
@@ -108639,7 +110903,9 @@ let arr = [
         furigana: 'ぎゃくしゅ',
         meanings: 'holding a memorial service for oneself'
       }
-    ]
+    ],
+    quizAnswersOn: ['にち', 'しゅう', 'びょう', 'じ'],
+    quizAnswersKun: ['おさ.める', 'すず.しい', '', 'そと']
   },
   {
     kanjiName: '奇',
@@ -108729,7 +110995,9 @@ let arr = [
         furigana: 'かいき',
         meanings: 'bizarre'
       }
-    ]
+    ],
+    quizAnswersOn: ['こう', 'めい', 'き', 'せい'],
+    quizAnswersKun: ['く.しき', 'かがみ', 'さら', 'ほとけ']
   },
   {
     kanjiName: '妙',
@@ -108833,7 +111101,9 @@ let arr = [
         furigana: 'しんみょう',
         meanings: 'meek'
       }
-    ]
+    ],
+    quizAnswersOn: ['く', 'ちょう', 'しょく', 'みょう'],
+    quizAnswersKun: ['たえ', 'はす', 'はて', 'かみ']
   },
   {
     kanjiName: '麗',
@@ -108918,7 +111188,9 @@ let arr = [
         furigana: 'せいれい',
         meanings: 'clean'
       }
-    ]
+    ],
+    quizAnswersOn: ['れい', 'そう', 'こん', 'し'],
+    quizAnswersKun: ['むら', 'つち', '', 'うるわ.しい']
   },
   {
     kanjiName: '微',
@@ -108998,7 +111270,9 @@ let arr = [
         furigana: 'すいび',
         meanings: 'approx. 80% of the way up a mountainside'
       }
-    ]
+    ],
+    quizAnswersOn: ['えん', 'じん', 'び', 'しつ'],
+    quizAnswersKun: ['まった.く', 'かす.か', 'か.ける', '']
   },
   {
     kanjiName: '益',
@@ -109098,7 +111372,9 @@ let arr = [
         furigana: 'げんせりやく',
         meanings: 'benefits gained in this world through observance of the Buddhist teachings'
       }
-    ]
+    ],
+    quizAnswersOn: ['げん', 'ぼん', 'じょ', 'えき'],
+    quizAnswersKun: ['か.つ', 'うず', '', 'ま.す']
   },
   {
     kanjiName: '憲',
@@ -109173,7 +111449,9 @@ let arr = [
         furigana: 'かいけん',
         meanings: 'constitutional change'
       }
-    ]
+    ],
+    quizAnswersOn: ['はん', 'か', 'しゅ', 'けん'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '衆',
@@ -109268,7 +111546,9 @@ let arr = [
         furigana: 'そうしゅう',
         meanings: 'large number of priests'
       }
-    ]
+    ],
+    quizAnswersOn: ['はん', 'しゅう', 'わ', 'しょう'],
+    quizAnswersKun: ['ぬす.む', 'しき.りに', 'おお.い', '']
   },
   {
     kanjiName: '傘',
@@ -109363,7 +111643,9 @@ let arr = [
         furigana: 'かいさん',
         meanings: 'opening of a parachute'
       }
-    ]
+    ],
+    quizAnswersOn: ['しょう', 'さん', 'し', 'ちょう'],
+    quizAnswersKun: ['えら.ぶ', 'かげ', 'かさ', 'よわい']
   },
   {
     kanjiName: '浜',
@@ -109453,7 +111735,9 @@ let arr = [
         furigana: 'けいひん',
         meanings: 'Tokyo and Yokohama'
       }
-    ]
+    ],
+    quizAnswersOn: ['とう', 'ひん', 'すい', 'せい'],
+    quizAnswersKun: ['しあわ.せ', 'かま', 'さ.げる', 'はま']
   },
   {
     kanjiName: '撃',
@@ -109538,7 +111822,9 @@ let arr = [
         furigana: 'ついげき',
         meanings: 'pursuit (of a fleeing enemy)'
       }
-    ]
+    ],
+    quizAnswersOn: ['はい', 'ぞう', 'げき', 'いん'],
+    quizAnswersKun: ['な.み', 'か.ける', 'う.つ', 'ま.す']
   },
   {
     kanjiName: '攻',
@@ -109618,7 +111904,9 @@ let arr = [
         furigana: 'もうこう',
         meanings: 'fierce attack'
       }
-    ]
+    ],
+    quizAnswersOn: ['こう', 'はつ', 'よう', 'ばん'],
+    quizAnswersKun: ['せ.める', 'よ.む', 'まかな.う', '']
   },
   {
     kanjiName: '監',
@@ -109693,7 +111981,9 @@ let arr = [
         furigana: 'しゅうかん',
         meanings: 'imprisonment'
       }
-    ]
+    ],
+    quizAnswersOn: ['し', 'だ', 'おく', 'かん'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '催',
@@ -109773,7 +112063,9 @@ let arr = [
         furigana: 'へいさい',
         meanings: 'combining a pair of events'
       }
-    ]
+    ],
+    quizAnswersOn: ['さい', 'しゃく', 'げん', 'はん'],
+    quizAnswersKun: ['もよう.す', 'あきらか', 'たから', 'は']
   },
   {
     kanjiName: '促',
@@ -109853,7 +112145,9 @@ let arr = [
         furigana: 'やのさいそく',
         meanings: 'strongly and repeatedly urging (demanding'
       }
-    ]
+    ],
+    quizAnswersOn: ['そく', 'きょう', 'ふ', 'かい'],
+    quizAnswersKun: ['うなが.す', 'つくろ.う', 'もっぱ.ら', 'か']
   },
   {
     kanjiName: '江',
@@ -109948,7 +112242,9 @@ let arr = [
         furigana: 'ようすこう',
         meanings: 'Yangtze River (China)'
       }
-    ]
+    ],
+    quizAnswersOn: ['し', 'こう', 'きょう', 'けい'],
+    quizAnswersKun: ['たい.ら', 'か.つ', 'え', 'あ.る']
   },
   {
     kanjiName: '請',
@@ -110068,7 +112364,9 @@ let arr = [
         furigana: 'はいしょう',
         meanings: 'humbly inviting'
       }
-    ]
+    ],
+    quizAnswersOn: ['ちょ', 'せい', 'けい', 'りょう'],
+    quizAnswersKun: ['す.く', 'こ.う', 'あつ.い', 'つく.る']
   },
   {
     kanjiName: '雄',
@@ -110163,7 +112461,9 @@ let arr = [
         furigana: 'りょうゆう',
         meanings: 'two great men'
       }
-    ]
+    ],
+    quizAnswersOn: ['とつ', 'ゆう', 'たん', 'し'],
+    quizAnswersKun: ['ちから', 'やさ.しい', 'し.る', 'お-']
   },
   {
     kanjiName: '壊',
@@ -110268,7 +112568,9 @@ let arr = [
         furigana: 'こんごうふえ',
         meanings: 'firm and solid'
       }
-    ]
+    ],
+    quizAnswersOn: ['ほう', 'ちょう', 'かい', 'しゅう'],
+    quizAnswersKun: ['した.う', '', 'の', 'こわ.す']
   },
   {
     kanjiName: '診',
@@ -110348,7 +112650,9 @@ let arr = [
         furigana: 'じゅしん',
         meanings: 'having a medical examination'
       }
-    ]
+    ],
+    quizAnswersOn: ['ぶ', 'ちょう', 'しょく', 'しん'],
+    quizAnswersKun: ['み.る', 'ほこ.る', 'の', 'つぶ']
   },
   {
     kanjiName: '閣',
@@ -110423,7 +112727,9 @@ let arr = [
         furigana: 'かげのないかく',
         meanings: 'shadow cabinet'
       }
-    ]
+    ],
+    quizAnswersOn: ['かく', 'ほう', 'げん', 'わん'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '僚',
@@ -110498,7 +112804,9 @@ let arr = [
         furigana: 'かりょう',
         meanings: 'subordinates'
       }
-    ]
+    ],
+    quizAnswersOn: ['そつ', 'び', 'げん', 'りょう'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '督',
@@ -110573,7 +112881,9 @@ let arr = [
         furigana: 'かとく',
         meanings: 'heir'
       }
-    ]
+    ],
+    quizAnswersOn: ['とく', 'どう', 'ま', 'いん'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '街',
@@ -110678,7 +112988,9 @@ let arr = [
         furigana: 'かいどうすじ',
         meanings: 'highway route (Edo period)'
       }
-    ]
+    ],
+    quizAnswersOn: ['りょう', 'じ', 'がい', 'よく'],
+    quizAnswersKun: ['まち', 'ね.る', 'かこつ.ける', '']
   },
   {
     kanjiName: '宗',
@@ -110788,7 +113100,9 @@ let arr = [
         furigana: 'こうそう',
         meanings: 'imperial ancestors'
       }
-    ]
+    ],
+    quizAnswersOn: ['らい', 'しょう', 'しゅう', 'かい'],
+    quizAnswersKun: ['むね', '', 'おく.れる', 'もう.す']
   },
   {
     kanjiName: '緊',
@@ -110868,7 +113182,9 @@ let arr = [
         furigana: 'きっきん',
         meanings: 'urgent'
       }
-    ]
+    ],
+    quizAnswersOn: ['なん', 'しゅう', 'いき', 'きん'],
+    quizAnswersKun: ['し.める', 'いつつ', 'あ.えて', '']
   },
   {
     kanjiName: '宴',
@@ -110953,7 +113269,9 @@ let arr = [
         furigana: 'かいえん',
         meanings: 'opening of a banquet'
       }
-    ]
+    ],
+    quizAnswersOn: ['じゅん', 'てき', 'えん', 'はく'],
+    quizAnswersKun: ['こし', 'うたげ', 'よこ', '']
   },
   {
     kanjiName: '添',
@@ -111055,7 +113373,9 @@ let arr = [
         furigana: 'べってん',
         meanings: 'attachment'
       }
-    ]
+    ],
+    quizAnswersOn: ['てん', 'か', 'きん', 'けん'],
+    quizAnswersKun: ['そ.える', 'すぎ', 'こうむ.る', '']
   },
   {
     kanjiName: '猛',
@@ -111130,7 +113450,9 @@ let arr = [
         furigana: 'ごうもう',
         meanings: 'strongly ferocious'
       }
-    ]
+    ],
+    quizAnswersOn: ['れつ', 'くう', 'もう', 'がい'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '烈',
@@ -111210,7 +113532,9 @@ let arr = [
         furigana: 'そうれつ',
         meanings: 'heroic'
       }
-    ]
+    ],
+    quizAnswersOn: ['し', 'れつ', 'しん', 'も'],
+    quizAnswersKun: ['つくえ', '', 'さ.す', 'はげ.しい']
   },
   {
     kanjiName: '索',
@@ -111285,7 +113609,9 @@ let arr = [
         furigana: 'しんけいさく',
         meanings: 'nerve cord'
       }
-    ]
+    ],
+    quizAnswersOn: ['さく', 'せつ', 'ぼう', 'こう'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '詳',
@@ -111375,7 +113701,9 @@ let arr = [
         furigana: 'せいめいふしょう',
         meanings: 'unidentified'
       }
-    ]
+    ],
+    quizAnswersOn: ['らん', 'や', 'き', 'しょう'],
+    quizAnswersKun: ['しば', 'くわ.しい', '', 'ね.る']
   },
   {
     kanjiName: '魅',
@@ -111450,7 +113778,9 @@ let arr = [
         furigana: 'ちみ',
         meanings: 'mountain demon'
       }
-    ]
+    ],
+    quizAnswersOn: ['み', 'じ', 'か', 'そく'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '渇',
@@ -111530,7 +113860,9 @@ let arr = [
         furigana: 'こうかつ',
         meanings: 'thirst'
       }
-    ]
+    ],
+    quizAnswersOn: ['かつ', 'きょう', 'そう', 'そん'],
+    quizAnswersKun: ['うつ.る', 'うま', 'かわ.く', '']
   },
   {
     kanjiName: '系',
@@ -111605,7 +113937,9 @@ let arr = [
         furigana: 'すいけい',
         meanings: 'water system'
       }
-    ]
+    ],
+    quizAnswersOn: ['こん', 'しょう', 'し', 'けい'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '旗',
@@ -111700,7 +114034,9 @@ let arr = [
         furigana: 'こうき',
         meanings: 'school flag'
       }
-    ]
+    ],
+    quizAnswersOn: ['ちょく', 'たん', 'てい', 'き'],
+    quizAnswersKun: ['つる', 'はしゃ.ぐ', 'おか', 'はた']
   },
   {
     kanjiName: '乏',
@@ -111785,7 +114121,9 @@ let arr = [
         furigana: 'こんくきゅうぼう',
         meanings: 'hardships and privations'
       }
-    ]
+    ],
+    quizAnswersOn: ['ぼう', 'げい', 'とう', 'けい'],
+    quizAnswersKun: ['とぼ.しい', '', 'はか.る', 'ふだ']
   },
   {
     kanjiName: '覧',
@@ -111855,7 +114193,9 @@ let arr = [
         furigana: 'ゆうらん',
         meanings: 'sightseeing'
       }
-    ]
+    ],
+    quizAnswersOn: ['かい', 'にょう', 'ろ', 'らん'],
+    quizAnswersKun: ['み.る', 'およ.ぐ', 'うた', 'そ.る']
   },
   {
     kanjiName: '懐',
@@ -111998,7 +114338,9 @@ let arr = [
         furigana: 'ついかい',
         meanings: 'recollection'
       }
-    ]
+    ],
+    quizAnswersOn: ['がん', 'しょ', 'かい', 'きょう'],
+    quizAnswersKun: ['', 'あな', 'ふところ', 'ぬす.む']
   },
   {
     kanjiName: '漏',
@@ -112088,7 +114430,9 @@ let arr = [
         furigana: 'そうろう',
         meanings: 'premature ejaculation'
       }
-    ]
+    ],
+    quizAnswersOn: ['ご', 'れつ', 'しゅ', 'ろう'],
+    quizAnswersKun: ['かわ', 'にし', 'あた.る', 'も.る']
   },
   {
     kanjiName: '購',
@@ -112153,7 +114497,9 @@ let arr = [
         furigana: 'こうどく',
         meanings: 'buying and furigana (book'
       }
-    ]
+    ],
+    quizAnswersOn: ['さん', 'かん', 'しょ', 'こう'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '飾',
@@ -112248,7 +114594,9 @@ let arr = [
         furigana: 'じゅんしょく',
         meanings: 'rhetorical flourishes'
       }
-    ]
+    ],
+    quizAnswersOn: ['くん', 'ひ', 'しょく', 'すい'],
+    quizAnswersKun: ['つ', 'つづ.く', 'たて', 'かざ.る']
   },
   {
     kanjiName: '騒',
@@ -112333,7 +114681,9 @@ let arr = [
         furigana: 'こそう',
         meanings: 'motivating the troops on the battlefield with war drums and war cries'
       }
-    ]
+    ],
+    quizAnswersOn: ['しょう', 'けい', 'きん', 'そう'],
+    quizAnswersKun: ['さけ.ぶ', 'へだ.たる', 'さわ.ぐ', 'おご.る']
   },
   {
     kanjiName: '撮',
@@ -112418,7 +114768,9 @@ let arr = [
         furigana: 'くうさつ',
         meanings: 'aerial photography'
       }
-    ]
+    ],
+    quizAnswersOn: ['き', 'さつ', 'けい', 'し'],
+    quizAnswersKun: ['と.る', 'くく.る', 'はなぶさ', 'くさび']
   },
   {
     kanjiName: '離',
@@ -112503,7 +114855,9 @@ let arr = [
         furigana: 'きょり',
         meanings: 'distance'
       }
-    ]
+    ],
+    quizAnswersOn: ['しゅ', 'どう', 'り', 'ぼく'],
+    quizAnswersKun: ['か.く', 'はな.れる', 'てのひら', 'たま']
   },
   {
     kanjiName: '融',
@@ -112588,7 +114942,9 @@ let arr = [
         furigana: 'ろしんようゆう',
         meanings: 'core meltdown'
       }
-    ]
+    ],
+    quizAnswersOn: ['きょ', 'ごう', 'ぼ', 'ゆう'],
+    quizAnswersKun: ['と.ける', '', 'すばる', 'しの.ぶ']
   },
   {
     kanjiName: '華',
@@ -112713,7 +115069,9 @@ let arr = [
         furigana: 'てんげ',
         meanings: 'flowers that bloom in the heavens'
       }
-    ]
+    ],
+    quizAnswersOn: ['ぼう', 'か', 'ちょう', 'れい'],
+    quizAnswersKun: ['しず.む', 'そ.る', 'し.める', 'はな']
   },
   {
     kanjiName: '既',
@@ -112793,7 +115151,9 @@ let arr = [
         furigana: 'かいき',
         meanings: 'total eclipse'
       }
-    ]
+    ],
+    quizAnswersOn: ['き', 'けつ', 'じょう', 'じゅん'],
+    quizAnswersKun: ['もっと.も', 'ば.ける', 'そこ.なう', 'すで.に']
   },
   {
     kanjiName: '豪',
@@ -112873,7 +115233,9 @@ let arr = [
         furigana: 'こごう',
         meanings: 'veteran'
       }
-    ]
+    ],
+    quizAnswersOn: ['はん', 'よ', 'ごう', 'しゃく'],
+    quizAnswersKun: ['かたち', 'えら.い', '', 'かね']
   },
   {
     kanjiName: '鑑',
@@ -112968,7 +115330,9 @@ let arr = [
         furigana: 'めいかん',
         meanings: 'directory'
       }
-    ]
+    ],
+    quizAnswersOn: ['えん', 'かん', 'き', 'そう'],
+    quizAnswersKun: ['まき', 'よし', 'かんが.みる', 'きず']
   },
   {
     kanjiName: '尋',
@@ -113058,7 +115422,9 @@ let arr = [
         furigana: 'しんじん',
         meanings: 'hearing'
       }
-    ]
+    ],
+    quizAnswersOn: ['てい', 'ち', 'じん', 'じゅく'],
+    quizAnswersKun: ['すく.う', 'ひら.く', 'くろ.い', 'たず.ねる']
   },
   {
     kanjiName: '廊',
@@ -113133,7 +115499,9 @@ let arr = [
         furigana: 'じんどうかいろう',
         meanings: 'humanitarian corridor'
       }
-    ]
+    ],
+    quizAnswersOn: ['はく', 'ろう', 'よう', 'せい'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '驚',
@@ -113223,7 +115591,9 @@ let arr = [
         furigana: 'きっきょう',
         meanings: 'surprise'
       }
-    ]
+    ],
+    quizAnswersOn: ['ざい', 'きょう', 'と', 'よ'],
+    quizAnswersKun: ['', 'し.る', 'おどろ.く', 'うるわ.しい']
   },
   {
     kanjiName: '嘆',
@@ -113308,7 +115678,9 @@ let arr = [
         furigana: 'がいたん',
         meanings: 'deploring'
       }
-    ]
+    ],
+    quizAnswersOn: ['だつ', 'とう', 'たん', 'ゆう'],
+    quizAnswersKun: ['なげ.く', 'つつみ', 'お.す', 'たち']
   },
   {
     kanjiName: '倉',
@@ -113403,7 +115775,9 @@ let arr = [
         furigana: 'こくそう',
         meanings: 'granary'
       }
-    ]
+    ],
+    quizAnswersOn: ['そう', 'だん', 'そく', 'しん'],
+    quizAnswersKun: ['き.る', 'や', 'すじ', 'くら']
   },
   {
     kanjiName: '巣',
@@ -113503,7 +115877,9 @@ let arr = [
         furigana: 'びょうそう',
         meanings: 'focus'
       }
-    ]
+    ],
+    quizAnswersOn: ['きょう', 'そう', 'せい', 'かん'],
+    quizAnswersKun: ['', 'す', 'たに', 'つ.る']
   },
   {
     kanjiName: '径',
@@ -113588,7 +115964,9 @@ let arr = [
         furigana: 'こうけい',
         meanings: 'aperture'
       }
-    ]
+    ],
+    quizAnswersOn: ['ほう', 'なん', 'おく', 'けい'],
+    quizAnswersKun: ['みち', 'う.む', '', 'あめ']
   },
   {
     kanjiName: '救',
@@ -113663,7 +116041,9 @@ let arr = [
         furigana: 'きょうきゅう',
         meanings: 'delivering from sin'
       }
-    ]
+    ],
+    quizAnswersOn: ['げん', 'へん', 'きゅう', 'せき'],
+    quizAnswersKun: ['すく.う', 'つ.ける', 'おく.れる', 'すみれ']
   },
   {
     kanjiName: '脈',
@@ -113738,7 +116118,9 @@ let arr = [
         furigana: 'どうみゃく',
         meanings: 'artery'
       }
-    ]
+    ],
+    quizAnswersOn: ['とう', 'みゃく', 'きょう', 'こう'],
+    quizAnswersKun: ['すじ', 'あつ.まる', 'ば', 'くろ.い']
   },
   {
     kanjiName: '墓',
@@ -113833,7 +116215,9 @@ let arr = [
         furigana: 'しゅうていぼ',
         meanings: 'grave-site with circular embankment (Jomon period)'
       }
-    ]
+    ],
+    quizAnswersOn: ['ねん', 'ぼ', 'えん', 'しょく'],
+    quizAnswersKun: ['ま.す', 'きみ', '', 'はか']
   },
   {
     kanjiName: '徳',
@@ -113908,7 +116292,9 @@ let arr = [
         furigana: 'だいとく',
         meanings: 'great virtue'
       }
-    ]
+    ],
+    quizAnswersOn: ['がく', 'とく', 'し', 'しゅ'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '偵',
@@ -113983,7 +116369,9 @@ let arr = [
         furigana: 'みってい',
         meanings: 'spy'
       }
-    ]
+    ],
+    quizAnswersOn: ['はん', 'こく', 'ぎん', 'てい'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '綺',
@@ -114006,7 +116394,9 @@ let arr = [
         furigana: 'きらびやか',
         meanings: 'gorgeous'
       }
-    ]
+    ],
+    quizAnswersOn: ['き', 'ばく', 'どう', 'ろう'],
+    quizAnswersKun: ['あや', 'みな', 'ふえ', 'う']
   },
   {
     kanjiName: '序',
@@ -114101,7 +116491,9 @@ let arr = [
         furigana: 'せいじょ',
         meanings: 'memorial rite involving the western sanctum'
       }
-    ]
+    ],
+    quizAnswersOn: ['じょ', 'まい', 'きゅう', 'せい'],
+    quizAnswersKun: ['つい.で', 'ふたた.び', '', 'つ.ける']
   },
   {
     kanjiName: '志',
@@ -114206,7 +116598,9 @@ let arr = [
         furigana: 'りっし',
         meanings: "fixing one's aim in life"
       }
-    ]
+    ],
+    quizAnswersOn: ['し', 'しつ', 'ばく', 'さい'],
+    quizAnswersKun: ['は', 'シリング', 'なら.す', '']
   },
   {
     kanjiName: '恩',
@@ -114281,7 +116675,9 @@ let arr = [
         furigana: 'せいおん',
         meanings: 'imperial blessings or favor (favour)'
       }
-    ]
+    ],
+    quizAnswersOn: ['かい', 'りょう', 'にく', 'おん'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '桜',
@@ -114367,7 +116763,9 @@ let arr = [
         furigana: 'かんおう',
         meanings: 'cherry blossom viewing'
       }
-    ]
+    ],
+    quizAnswersOn: ['げん', 'おう', 'れい', 'しゅく'],
+    quizAnswersKun: ['さくら', 'ふ.せる', 'ひたい', 'さだ.める']
   },
   {
     kanjiName: '眼',
@@ -114488,7 +116886,9 @@ let arr = [
         furigana: 'かいがん',
         meanings: 'enlightenment'
       }
-    ]
+    ],
+    quizAnswersOn: ['りょう', 'ぎ', 'かん', 'がん'],
+    quizAnswersKun: ['はと', 'まなこ', 'ぬす.む', 'はらわた']
   },
   {
     kanjiName: '興',
@@ -114593,7 +116993,9 @@ let arr = [
         furigana: 'ゆうきょう',
         meanings: 'merrymaking (esp. wine and women)'
       }
-    ]
+    ],
+    quizAnswersOn: ['こう', 'ゆう', 'きょう', 'そく'],
+    quizAnswersKun: ['たが.い', 'えだ', 'おこ.る', 'あさ.い']
   },
   {
     kanjiName: '衛',
@@ -114688,7 +117090,9 @@ let arr = [
         furigana: 'ひょうえ',
         meanings: 'middle palace guard (ritsuryō system)'
       }
-    ]
+    ],
+    quizAnswersOn: ['きょ', 'ち', 'きょう', 'えい'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '酸',
@@ -114773,7 +117177,9 @@ let arr = [
         furigana: 'あみのさん',
         meanings: 'amino acid'
       }
-    ]
+    ],
+    quizAnswersOn: ['しゅ', 'じ', 'びん', 'さん'],
+    quizAnswersKun: ['', 'す.い', 'まゆみ', 'わざ']
   },
   {
     kanjiName: '銭',
@@ -114868,7 +117274,9 @@ let arr = [
         furigana: 'おいせん',
         meanings: 'money paid in addition'
       }
-    ]
+    ],
+    quizAnswersOn: ['な', 'せん', 'けい', 'じょう'],
+    quizAnswersKun: ['み.る', 'お', 'うた', 'ぜに']
   },
   {
     kanjiName: '飼',
@@ -114943,7 +117351,9 @@ let arr = [
         furigana: 'ほうし',
         meanings: 'free-range rearing'
       }
-    ]
+    ],
+    quizAnswersOn: ['はん', 'とく', 'し', 'かん'],
+    quizAnswersKun: ['かしこ.い', 'たま', 'わめ.く', 'か.う']
   },
   {
     kanjiName: '傷',
@@ -115059,7 +117469,9 @@ let arr = [
         furigana: 'のうざしょう',
         meanings: 'cerebral contusion'
       }
-    ]
+    ],
+    quizAnswersOn: ['はん', 'やく', 'しょう', 'りょう'],
+    quizAnswersKun: ['きず', 'むし', 'た.つ', '']
   },
   {
     kanjiName: '厳',
@@ -115164,7 +117576,9 @@ let arr = [
         furigana: 'しょうごん',
         meanings: 'decorating (a Buddhist statue or temple)'
       }
-    ]
+    ],
+    quizAnswersOn: ['げん', 'えん', 'れい', 'ゆ'],
+    quizAnswersKun: ['お.く', 'ずきん', '', 'おごそ.か']
   },
   {
     kanjiName: '密',
@@ -115249,7 +117663,9 @@ let arr = [
         furigana: 'さいみつ',
         meanings: 'detailed knowledge'
       }
-    ]
+    ],
+    quizAnswersOn: ['みつ', 'れつ', 'でん', 'とう'],
+    quizAnswersKun: ['はか.る', 'かた', 'よろこ.び', 'ひそ.か']
   },
   {
     kanjiName: '暖',
@@ -115364,7 +117780,9 @@ let arr = [
         furigana: 'のれん',
         meanings: '(short) curtain hung at shop entrance'
       }
-    ]
+    ],
+    quizAnswersOn: ['かん', 'そう', 'だん', 'か'],
+    quizAnswersKun: ['ぬ.ぐ', 'いし', 'あたた.か', 'のたま.う']
   },
   {
     kanjiName: '秘',
@@ -115449,7 +117867,9 @@ let arr = [
         furigana: 'しゃがいひ',
         meanings: 'company secret'
       }
-    ]
+    ],
+    quizAnswersOn: ['ばい', 'しん', 'ひ', 'ちょう'],
+    quizAnswersKun: ['も', '', 'かつ.ぐ', 'ひ.める']
   },
   {
     kanjiName: '訳',
@@ -115544,7 +117964,9 @@ let arr = [
         furigana: 'めいやく',
         meanings: 'excellent translation'
       }
-    ]
+    ],
+    quizAnswersOn: ['えい', 'しゃく', 'やく', 'てき'],
+    quizAnswersKun: ['わけ', 'は.れる', 'みやこ', 'う.える']
   },
   {
     kanjiName: '染',
@@ -115644,7 +118066,9 @@ let arr = [
         furigana: 'ぼうせん',
         meanings: 'resist dyeing'
       }
-    ]
+    ],
+    quizAnswersOn: ['せん', 'きょく', 'じょ', 'へん'],
+    quizAnswersKun: ['みどり', 'いずみ', 'そ.める', '']
   },
   {
     kanjiName: '筋',
@@ -115739,7 +118163,9 @@ let arr = [
         furigana: 'てっきん',
         meanings: 'rebar'
       }
-    ]
+    ],
+    quizAnswersOn: ['ばつ', 'ま', 'きん', 'しょ'],
+    quizAnswersKun: ['なら.う', '', 'すじ', 'つつみ']
   },
   {
     kanjiName: '垂',
@@ -115849,7 +118275,9 @@ let arr = [
         furigana: 'ちゅうすい',
         meanings: '(vermiform) appendix'
       }
-    ]
+    ],
+    quizAnswersOn: ['すい', 'せい', 'ほう', 'はく'],
+    quizAnswersKun: ['そ.める', 'さいわ.い', 'おさ.める', 'た.れる']
   },
   {
     kanjiName: '宣',
@@ -115934,7 +118362,9 @@ let arr = [
         furigana: 'がいせん',
         meanings: 'carrying out (political) propaganda activity on the streets'
       }
-    ]
+    ],
+    quizAnswersOn: ['せん', 'そ', 'へい', 'すい'],
+    quizAnswersKun: ['たから', 'した', '', 'のたま.う']
   },
   {
     kanjiName: '忠',
@@ -116009,7 +118439,9 @@ let arr = [
         furigana: 'ふちゅう',
         meanings: 'disloyalty'
       }
-    ]
+    ],
+    quizAnswersOn: ['ふん', 'ちゅう', 'たん', 'じょう'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '拡',
@@ -116089,7 +118521,9 @@ let arr = [
         furigana: 'ぐんかく',
         meanings: 'military expansion'
       }
-    ]
+    ],
+    quizAnswersOn: ['こん', 'かく', 'じょく', 'ぐ'],
+    quizAnswersKun: ['ひろ.がる', 'みだり.に', '', 'むか.える']
   },
   {
     kanjiName: '操',
@@ -116179,7 +118613,9 @@ let arr = [
         furigana: 'きかいたいそう',
         meanings: 'apparatus gymnastics'
       }
-    ]
+    ],
+    quizAnswersOn: ['しゅう', 'しゃ', 'そう', 'かい'],
+    quizAnswersKun: ['おさ.める', 'みさお', 'あわ.せる', 'た.つ']
   },
   {
     kanjiName: '熟',
@@ -116259,7 +118695,9 @@ let arr = [
         furigana: 'かんじゅく',
         meanings: 'full ripeness'
       }
-    ]
+    ],
+    quizAnswersOn: ['だん', 'じゅく', 'けん', 'ひ'],
+    quizAnswersKun: ['えだ', 'う.れる', 'あら.い', 'のこ.る']
   },
   {
     kanjiName: '異',
@@ -116367,7 +118805,9 @@ let arr = [
         furigana: 'しょうい',
         meanings: 'minor difference'
       }
-    ]
+    ],
+    quizAnswersOn: ['そ', 'せい', 'い', 'いん'],
+    quizAnswersKun: ['', 'いが', 'こと', 'い.る']
   },
   {
     kanjiName: '皇',
@@ -116462,7 +118902,9 @@ let arr = [
         furigana: 'だいじょうほうおう',
         meanings: 'cloistered emperor'
       }
-    ]
+    ],
+    quizAnswersOn: ['はん', 'なん', 'こう', 'い'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '盛',
@@ -116577,7 +119019,9 @@ let arr = [
         furigana: 'しじょう',
         meanings: 'vigor (like leaping flames)'
       }
-    ]
+    ],
+    quizAnswersOn: ['せい', 'きょく', 'せつ', 'さい'],
+    quizAnswersKun: ['こころ.みる', 'なり', 'も.る', '']
   },
   {
     kanjiName: '漠',
@@ -116652,7 +119096,9 @@ let arr = [
         furigana: 'くうばく',
         meanings: 'vast'
       }
-    ]
+    ],
+    quizAnswersOn: ['ばく', 'せい', 'おう', 'こう'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '糖',
@@ -116727,7 +119173,9 @@ let arr = [
         furigana: 'せいとう',
         meanings: 'sugar manufacture'
       }
-    ]
+    ],
+    quizAnswersOn: ['とう', 'はん', 'れい', 'ばく'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '納',
@@ -116847,7 +119295,9 @@ let arr = [
         furigana: 'すいとう',
         meanings: 'receipts and expenditure (disbursements)'
       }
-    ]
+    ],
+    quizAnswersOn: ['さつ', 'いん', 'ほう', 'のう'],
+    quizAnswersKun: ['に', 'おさ.める', 'よろ.しい', '']
   },
   {
     kanjiName: '肺',
@@ -116922,7 +119372,9 @@ let arr = [
         furigana: 'じんこうはい',
         meanings: 'artificial lung'
       }
-    ]
+    ],
+    quizAnswersOn: ['こん', 'ゆう', 'ほう', 'はい'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '賃',
@@ -116997,7 +119449,9 @@ let arr = [
         furigana: 'こうちん',
         meanings: 'labor cost'
       }
-    ]
+    ],
+    quizAnswersOn: ['れい', 'ひ', 'ちん', 'ふく'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '貴',
@@ -117097,7 +119551,9 @@ let arr = [
         furigana: 'ふうき',
         meanings: 'riches and honours (honors)'
       }
-    ]
+    ],
+    quizAnswersOn: ['き', 'へん', 'り', 'ばい'],
+    quizAnswersKun: ['たっと.い', 'しりぞ.く', 'し.める', 'およ.ぐ']
   },
   {
     kanjiName: '吐',
@@ -117182,7 +119638,9 @@ let arr = [
         furigana: 'ふんしゅつせいおうと',
         meanings: 'projectile vomiting'
       }
-    ]
+    ],
+    quizAnswersOn: ['きょく', 'ほ', 'おう', 'と'],
+    quizAnswersKun: ['うやま.う', 'たたか.う', 'つ.ける', 'は.く']
   },
   {
     kanjiName: '奴',
@@ -117297,7 +119755,9 @@ let arr = [
         furigana: 'のうど',
         meanings: 'serf'
       }
-    ]
+    ],
+    quizAnswersOn: ['ど', 'きん', 'い', 'かく'],
+    quizAnswersKun: ['ほこ.る', '', 'やつ', 'みが.く']
   },
   {
     kanjiName: '隷',
@@ -117377,7 +119837,9 @@ let arr = [
         furigana: 'せいてきどれい',
         meanings: 'sex slave'
       }
-    ]
+    ],
+    quizAnswersOn: ['れい', 'う', 'さん', 'きゅう'],
+    quizAnswersKun: ['わか.い', 'したが.う', '', 'す.ぎる']
   },
   {
     kanjiName: '芋',
@@ -117462,7 +119924,9 @@ let arr = [
         furigana: 'おらんだかいう',
         meanings: 'calla lily (Zantedeschia aethiopica)'
       }
-    ]
+    ],
+    quizAnswersOn: ['じょ', 'う', 'よ', 'かい'],
+    quizAnswersKun: ['たと.える', 'いも', 'た.える', 'ひき.いる']
   },
   {
     kanjiName: '縮',
@@ -117562,7 +120026,9 @@ let arr = [
         furigana: 'のうしゅく',
         meanings: 'concentration (e.g. of a solution)'
       }
-    ]
+    ],
+    quizAnswersOn: ['い', 'しゅく', 'きょう', 'りん'],
+    quizAnswersKun: ['ささ', 'ちぢ.む', 'ふせ.ぐ', 'なに']
   },
   {
     kanjiName: '縦',
@@ -117647,7 +120113,9 @@ let arr = [
         furigana: 'じどうそうじゅう',
         meanings: 'automatic pilot'
       }
-    ]
+    ],
+    quizAnswersOn: ['さつ', 'じゅう', 'じ', 'そう'],
+    quizAnswersKun: ['つつ', 'あま', 'やわ.らぐ', 'たて']
   },
   {
     kanjiName: '粋',
@@ -117738,7 +120206,9 @@ let arr = [
         furigana: 'せいすい',
         meanings: 'elegance'
       }
-    ]
+    ],
+    quizAnswersOn: ['し', 'きち', 'ぎ', 'すい'],
+    quizAnswersKun: ['あね', 'しずく', 'いき', 'まれ']
   },
   {
     kanjiName: '聖',
@@ -117848,7 +120318,9 @@ let arr = [
         furigana: 'ぶっしょう',
         meanings: 'rice offered to Buddha'
       }
-    ]
+    ],
+    quizAnswersOn: ['か', 'しん', 'き', 'せい'],
+    quizAnswersKun: ['ひじり', 'ふみ', 'はた', 'やなぎ']
   },
   {
     kanjiName: '磁',
@@ -117923,7 +120395,9 @@ let arr = [
         furigana: 'とうじ',
         meanings: 'clay'
       }
-    ]
+    ],
+    quizAnswersOn: ['こん', 'ひ', 'じ', 'ばい'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '射',
@@ -118013,7 +120487,9 @@ let arr = [
         furigana: 'とうしゃ',
         meanings: 'projection (of an image)'
       }
-    ]
+    ],
+    quizAnswersOn: ['かん', 'い', 'みょう', 'しゃ'],
+    quizAnswersKun: ['くせ', 'い.る', 'まり', '']
   },
   {
     kanjiName: '幕',
@@ -118108,7 +120584,9 @@ let arr = [
         furigana: 'とうばく',
         meanings: 'attacking the shogunate'
       }
-    ]
+    ],
+    quizAnswersOn: ['まく', 'しゅん', 'しゅ', 'がい'],
+    quizAnswersKun: ['とばり', '', 'えが.く', 'やす.んじる']
   },
   {
     kanjiName: '薦',
@@ -118188,7 +120666,9 @@ let arr = [
         furigana: 'じせん',
         meanings: 'self-recommendation'
       }
-    ]
+    ],
+    quizAnswersOn: ['そう', 'ぜん', 'し', 'せん'],
+    quizAnswersKun: ['と.ける', 'も.える', 'しげ.る', 'すす.める']
   },
   {
     kanjiName: '推',
@@ -118268,7 +120748,9 @@ let arr = [
         furigana: 'じゃすい',
         meanings: 'distrust'
       }
-    ]
+    ],
+    quizAnswersOn: ['さん', 'すう', 'すい', 'りょう'],
+    quizAnswersKun: ['お.す', 'つづ.く', 'くぼ.む', 'わか.る']
   },
   {
     kanjiName: '揮',
@@ -118348,7 +120830,9 @@ let arr = [
         furigana: 'じんとうしき',
         meanings: 'taking command of a corps in a battle'
       }
-    ]
+    ],
+    quizAnswersOn: ['き', 'そう', 'たん', 'たく'],
+    quizAnswersKun: ['ふる.う', 'まど.う', 'ほ.める', '']
   },
   {
     kanjiName: '沿',
@@ -118418,7 +120902,9 @@ let arr = [
         furigana: 'えんかいしゅう',
         meanings: '(Russian) maritime provinces'
       }
-    ]
+    ],
+    quizAnswersOn: ['えん', 'えい', 'ろく', 'し'],
+    quizAnswersKun: ['そ.う', 'ころも', 'なが.い', '']
   },
   {
     kanjiName: '源',
@@ -118503,7 +120989,9 @@ let arr = [
         furigana: 'ざいげん',
         meanings: 'source of funds'
       }
-    ]
+    ],
+    quizAnswersOn: ['きょう', 'ふう', 'げん', 'てん'],
+    quizAnswersKun: ['みなもと', 'しろ', 'ぜろ', '']
   },
   {
     kanjiName: '歓',
@@ -118583,7 +121071,9 @@ let arr = [
         furigana: 'こうかん',
         meanings: 'exchange of courtesies (cordialities)'
       }
-    ]
+    ],
+    quizAnswersOn: ['えん', 'かん', 'さん', 'こん'],
+    quizAnswersKun: ['やと.う', 'よろこ.ぶ', '', 'むろ']
   },
   {
     kanjiName: '豆',
@@ -118693,7 +121183,9 @@ let arr = [
         furigana: 'だいず',
         meanings: 'soya bean (Glycine max)'
       }
-    ]
+    ],
+    quizAnswersOn: ['へい', 'こう', 'とう', 'おん'],
+    quizAnswersKun: ['まめ', 'おもり', 'おさ.める', 'ほか']
   },
   {
     kanjiName: '腐',
@@ -118803,7 +121295,9 @@ let arr = [
         furigana: 'こうやどうふ',
         meanings: 'freeze-dried tofu'
       }
-    ]
+    ],
+    quizAnswersOn: ['せつ', 'ふ', 'こく', 'か'],
+    quizAnswersKun: ['まご', 'か.わる', 'あき.らか', 'くさ.る']
   },
   {
     kanjiName: '彫',
@@ -118878,7 +121372,9 @@ let arr = [
         furigana: 'もくちょう',
         meanings: 'wood carving'
       }
-    ]
+    ],
+    quizAnswersOn: ['ちょう', 'き', 'ぼう', 'おう'],
+    quizAnswersKun: ['つつし.む', 'ほ.る', 'ほし', '']
   },
   {
     kanjiName: '舎',
@@ -118953,7 +121449,9 @@ let arr = [
         furigana: 'へいしゃ',
         meanings: 'barracks'
       }
-    ]
+    ],
+    quizAnswersOn: ['しゃ', 'かく', 'こう', 'ふく'],
+    quizAnswersKun: ['やど.る', 'きぬ', 'かり', 'き.く']
   },
   {
     kanjiName: '滞',
@@ -119033,7 +121531,9 @@ let arr = [
         furigana: 'ちたい',
         meanings: 'delay'
       }
-    ]
+    ],
+    quizAnswersOn: ['そ', 'よう', 'だ', 'たい'],
+    quizAnswersKun: ['', 'なさ.け', 'とどこお.る', 'かちどき']
   },
   {
     kanjiName: '己',
@@ -119148,7 +121648,9 @@ let arr = [
         furigana: 'こっき',
         meanings: 'self-control'
       }
-    ]
+    ],
+    quizAnswersOn: ['こ', 'さい', 'さん', 'い'],
+    quizAnswersKun: ['おのれ', 'ぬ.く', 'あじ', '']
   },
   {
     kanjiName: '厄',
@@ -119223,7 +121725,9 @@ let arr = [
         furigana: 'たいやく',
         meanings: 'calamity'
       }
-    ]
+    ],
+    quizAnswersOn: ['こう', 'そう', 'まい', 'やく'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '亀',
@@ -119276,7 +121780,9 @@ let arr = [
         furigana: 'ほうき',
         meanings: 'Hōki era (770.10.1-781.1.1)'
       }
-    ]
+    ],
+    quizAnswersOn: ['しゅう', 'き', 'き', 'ひょう'],
+    quizAnswersKun: ['たま', 'かめ', 'ほろ.びる', 'あきら.か']
   },
   {
     kanjiName: '剣',
@@ -119372,7 +121878,9 @@ let arr = [
         furigana: 'とうけん',
         meanings: 'sword'
       }
-    ]
+    ],
+    quizAnswersOn: ['がい', 'けん', 'かく', 'ねん'],
+    quizAnswersKun: ['ちち', 'にわ', 'つるぎ', 'かわ']
   },
   {
     kanjiName: '杉',
@@ -119452,7 +121960,9 @@ let arr = [
         furigana: 'ろうさん',
         meanings: 'old cryptomeria'
       }
-    ]
+    ],
+    quizAnswersOn: ['ろう', 'じ', 'ちょう', 'さん'],
+    quizAnswersKun: ['くる.しい', 'すぎ', 'ひこ', 'か.う']
   },
   {
     kanjiName: '汁',
@@ -119563,7 +122073,9 @@ let arr = [
         furigana: 'たんじゅう',
         meanings: 'bile'
       }
-    ]
+    ],
+    quizAnswersOn: ['とん', 'たい', 'じゅう', 'やく'],
+    quizAnswersKun: ['みぞ', 'しる', 'はか.る', 'しるし']
   },
   {
     kanjiName: '炎',
@@ -119658,7 +122170,9 @@ let arr = [
         furigana: 'いえん',
         meanings: 'gastritis'
       }
-    ]
+    ],
+    quizAnswersOn: ['けつ', 'えん', 'ゆう', 'しょく'],
+    quizAnswersKun: ['ほのお', '', 'みだり.に', 'みなみ']
   },
   {
     kanjiName: '為',
@@ -119798,7 +122312,9 @@ let arr = [
         furigana: 'えいい',
         meanings: 'business'
       }
-    ]
+    ],
+    quizAnswersOn: ['い', 'きゅう', 'とく', 'ち'],
+    quizAnswersKun: ['まさ', 'か.ける', 'つくえ', 'ため']
   },
   {
     kanjiName: '熊',
@@ -119841,7 +122357,9 @@ let arr = [
         furigana: 'ゆうしょう',
         meanings: "bear's palm (meat treasured in ancient China)"
       }
-    ]
+    ],
+    quizAnswersOn: ['じ', 'ゆう', 'ゆう', 'りょう'],
+    quizAnswersKun: ['おか.す', '', 'すす.める', 'くま']
   },
   {
     kanjiName: '獄',
@@ -119916,7 +122434,9 @@ let arr = [
         furigana: 'ぎごく',
         meanings: 'bribery scandal'
       }
-    ]
+    ],
+    quizAnswersOn: ['かく', 'ごく', 'し', 'く'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '酔',
@@ -120016,7 +122536,9 @@ let arr = [
         furigana: 'たいすい',
         meanings: 'dead drunk'
       }
-    ]
+    ],
+    quizAnswersOn: ['しょう', 'すい', 'ぎん', 'ご'],
+    quizAnswersKun: ['つと.める', 'ふで', 'よ.う', '']
   },
   {
     kanjiName: '酢',
@@ -120111,7 +122633,9 @@ let arr = [
         furigana: 'えんさく',
         meanings: "Goulard's extract"
       }
-    ]
+    ],
+    quizAnswersOn: ['しゃ', 'ぼう', 'さく', 'どん'],
+    quizAnswersKun: ['かわ', 'もっぱ.ら', 'おも', 'す']
   },
   {
     kanjiName: '盟',
@@ -120186,7 +122710,9 @@ let arr = [
         furigana: 'ていめい',
         meanings: 'forming an alliance'
       }
-    ]
+    ],
+    quizAnswersOn: ['か', 'れい', 'きょう', 'めい'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '遺',
@@ -120276,7 +122802,9 @@ let arr = [
         furigana: 'いがい',
         meanings: 'remains'
       }
-    ]
+    ],
+    quizAnswersOn: ['せつ', 'ま', 'かく', 'い'],
+    quizAnswersKun: ['ほこ', 'のこ.す', 'いのち', 'いくさ']
   },
   {
     kanjiName: '債',
@@ -120351,7 +122879,9 @@ let arr = [
         furigana: 'きさい',
         meanings: 'issuing of bonds'
       }
-    ]
+    ],
+    quizAnswersOn: ['さい', 'ら', 'はい', 'きょう'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '及',
@@ -120456,7 +122986,9 @@ let arr = [
         furigana: 'せきにんついきゅう',
         meanings: 'pursuing liability'
       }
-    ]
+    ],
+    quizAnswersOn: ['ちょう', 'せい', 'しゅ', 'きゅう'],
+    quizAnswersKun: ['かたよ.る', 'おご.る', 'ふ.れる', 'およ.ぶ']
   },
   {
     kanjiName: '奈',
@@ -120499,7 +123031,9 @@ let arr = [
         furigana: 'わな',
         meanings: 'loop (of thread'
       }
-    ]
+    ],
+    quizAnswersOn: ['な', 'はい', 'し', 'きん'],
+    quizAnswersKun: ['しずく', 'ひいらぎ', 'わ', 'いかん']
   },
   {
     kanjiName: '廃',
@@ -120584,7 +123118,9 @@ let arr = [
         furigana: 'かいはい',
         meanings: 'reform and (or) abolition'
       }
-    ]
+    ],
+    quizAnswersOn: ['き', 'らい', 'はい', 'ちょう'],
+    quizAnswersKun: ['', 'すず.しい', 'こおり', 'すた.れる']
   },
   {
     kanjiName: '摘',
@@ -120654,7 +123190,9 @@ let arr = [
         furigana: 'てきしゅつ',
         meanings: 'picking out'
       }
-    ]
+    ],
+    quizAnswersOn: ['きん', 'しょう', 'こう', 'てき'],
+    quizAnswersKun: ['つ.む', 'ふで', 'きさき', 'さか']
   },
   {
     kanjiName: '核',
@@ -120729,7 +123267,9 @@ let arr = [
         furigana: 'ほうしゃせいどういかく',
         meanings: 'radioisotope'
       }
-    ]
+    ],
+    quizAnswersOn: ['かん', 'かく', 'いん', 'しゃ'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '沖',
@@ -120824,7 +123364,9 @@ let arr = [
         furigana: 'ざいちゅう',
         meanings: 'staying in Okinawa'
       }
-    ]
+    ],
+    quizAnswersOn: ['そう', 'ゆ', 'おう', 'ちゅう'],
+    quizAnswersKun: ['し.める', 'ゆう', 'おき', 'あじ']
   },
   {
     kanjiName: '縄',
@@ -120919,7 +123461,9 @@ let arr = [
         furigana: 'けつじょう',
         meanings: 'knotted cord or rope'
       }
-    ]
+    ],
+    quizAnswersOn: ['ゆう', 'こん', 'じょう', 'ぞう'],
+    quizAnswersKun: ['た.える', 'なわ', 'いわ.う', 'おおづな']
   },
   {
     kanjiName: '津',
@@ -121014,7 +123558,9 @@ let arr = [
         furigana: 'にゅうしん',
         meanings: 'entering a port'
       }
-    ]
+    ],
+    quizAnswersOn: ['ひ', 'しん', 'り', 'てん'],
+    quizAnswersKun: ['あわ.れむ', 'うと.い', 'つ', 'かぎ.る']
   },
   {
     kanjiName: '献',
@@ -121114,7 +123660,9 @@ let arr = [
         furigana: 'いっこん',
         meanings: 'one cup (of sake)'
       }
-    ]
+    ],
+    quizAnswersOn: ['かん', 'けん', 'とう', 'せい'],
+    quizAnswersKun: ['たてまつ.る', '', 'わけ', 'はしゃ.ぐ']
   },
   {
     kanjiName: '継',
@@ -121194,7 +123742,9 @@ let arr = [
         furigana: 'ちゅうけい',
         meanings: 'relay'
       }
-    ]
+    ],
+    quizAnswersOn: ['せき', 'しょう', 'けい', 'き'],
+    quizAnswersKun: ['つ.ぐ', 'すべ', '', 'しりぞ.く']
   },
   {
     kanjiName: '維',
@@ -121269,7 +123819,9 @@ let arr = [
         furigana: 'ごうせいせんい',
         meanings: 'synthetic fibre'
       }
-    ]
+    ],
+    quizAnswersOn: ['はん', 'せん', 'こう', 'い'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '伎',
@@ -121312,7 +123864,9 @@ let arr = [
         furigana: 'かみがたかぶき',
         meanings: 'kabuki in the Kyoto-Osaka style'
       }
-    ]
+    ],
+    quizAnswersOn: ['じょう', 'ぎ', 'そう', 'ぎょ'],
+    quizAnswersKun: ['なや.む', 'わざ', 'はか.る', 'こ']
   },
   {
     kanjiName: '踏',
@@ -121397,7 +123951,9 @@ let arr = [
         furigana: 'こうとう',
         meanings: 'highbrow'
       }
-    ]
+    ],
+    quizAnswersOn: ['そう', 'とう', 'びょう', 'いん'],
+    quizAnswersKun: ['かわ', 'ふ.む', '', 'あまね.く']
   },
   {
     kanjiName: '鹿',
@@ -121470,7 +124026,9 @@ let arr = [
         furigana: 'しんろく',
         meanings: 'deer raised upon the grounds of a shrine (who serve as messengers of the gods)'
       }
-    ]
+    ],
+    quizAnswersOn: ['ろく', 'けん', 'こん', 'すう'],
+    quizAnswersKun: ['たわら', 'たね', 'しか', '']
   },
   {
     kanjiName: '諾',
@@ -121545,7 +124103,9 @@ let arr = [
         furigana: 'ないだく',
         meanings: 'informal consent'
       }
-    ]
+    ],
+    quizAnswersOn: ['けい', 'か', 'だく', 'がい'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '跳',
@@ -121625,7 +124185,9 @@ let arr = [
         furigana: 'はんちょう',
         meanings: '(physical) recoil'
       }
-    ]
+    ],
+    quizAnswersOn: ['ちょう', 'けい', 'とく', 'だい'],
+    quizAnswersKun: ['つき', 'みなみ', 'かな.う', 'は.ねる']
   },
   {
     kanjiName: '昭',
@@ -121700,7 +124262,9 @@ let arr = [
         furigana: 'へんじょう',
         meanings: 'universal illumination (esp. in Buddhism'
       }
-    ]
+    ],
+    quizAnswersOn: ['てい', 'しょう', 'い', 'しゅ'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '償',
@@ -121780,7 +124344,9 @@ let arr = [
         furigana: 'ゆうしょう',
         meanings: '(involving) payment'
       }
-    ]
+    ],
+    quizAnswersOn: ['じ', 'しょう', 'しょう', 'せん'],
+    quizAnswersKun: ['おく.る', '', 'つぐな.う', 'にわ']
   },
   {
     kanjiName: '刑',
@@ -121855,7 +124421,9 @@ let arr = [
         furigana: 'きゅうけい',
         meanings: 'recommended sentence'
       }
-    ]
+    ],
+    quizAnswersOn: ['こう', 'きん', 'か', 'けい'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '執',
@@ -121955,7 +124523,9 @@ let arr = [
         furigana: 'もうしゅう',
         meanings: 'deep-rooted delusion'
       }
-    ]
+    ],
+    quizAnswersOn: ['てい', 'にん', 'り', 'しつ'],
+    quizAnswersKun: ['おうぎ', 'と.る', 'ひそ.む', 'くら']
   },
   {
     kanjiName: '塁',
@@ -122035,7 +124605,9 @@ let arr = [
         furigana: 'そうるい',
         meanings: 'base running'
       }
-    ]
+    ],
+    quizAnswersOn: ['りょう', 'るい', 'れん', 'たく'],
+    quizAnswersKun: ['とりで', '', 'なんじ', 'たま']
   },
   {
     kanjiName: '崩',
@@ -122115,7 +124687,9 @@ let arr = [
         furigana: 'かいほう',
         meanings: 'collapse'
       }
-    ]
+    ],
+    quizAnswersOn: ['せき', 'ほう', 'らん', 'おん'],
+    quizAnswersKun: ['かな.しい', 'かがや.き', 'くず.れる', 'くり']
   },
   {
     kanjiName: '抗',
@@ -122195,7 +124769,9 @@ let arr = [
         furigana: 'むていこう',
         meanings: 'nonresistance'
       }
-    ]
+    ],
+    quizAnswersOn: ['にん', 'か', 'はい', 'こう'],
+    quizAnswersKun: ['かがりび', 'わざおぎ', 'かり', 'あらが.う']
   },
   {
     kanjiName: '抵',
@@ -122270,7 +124846,9 @@ let arr = [
         furigana: 'かくてい',
         meanings: 'strength contest'
       }
-    ]
+    ],
+    quizAnswersOn: ['ぎ', 'てい', 'せき', 'き'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '旬',
@@ -122360,7 +124938,9 @@ let arr = [
         furigana: 'さいしゅん',
         meanings: 'hottest (e.g. fashion)'
       }
-    ]
+    ],
+    quizAnswersOn: ['よう', 'じゅん', 'い', 'む'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '弾',
@@ -122481,7 +125061,9 @@ let arr = [
         meanings:
           'snapping the fingers (esp. by striking the side of the middle finger with the thumb; to indicate consent'
       }
-    ]
+    ],
+    quizAnswersOn: ['ちょく', 'こう', 'し', 'だん'],
+    quizAnswersKun: ['かみ', 'おく.る', 'くち', 'ひ.く']
   },
   {
     kanjiName: '聴',
@@ -122566,7 +125148,9 @@ let arr = [
         furigana: 'あいちょう',
         meanings: 'loving listening to something'
       }
-    ]
+    ],
+    quizAnswersOn: ['さい', 'がん', 'ちょう', 'ちょう'],
+    quizAnswersKun: ['つつし.む', 'むかし', 'はなぶさ', 'き.く']
   },
   {
     kanjiName: '遣',
@@ -122661,7 +125245,9 @@ let arr = [
         furigana: 'さけん',
         meanings: 'dispatch'
       }
-    ]
+    ],
+    quizAnswersOn: ['かい', 'ほう', 'けい', 'けん'],
+    quizAnswersKun: ['', 'つか.う', 'かり', 'ふゆ']
   },
   {
     kanjiName: '闘',
@@ -122741,7 +125327,9 @@ let arr = [
         furigana: 'きょうとう',
         meanings: 'joint struggle'
       }
-    ]
+    ],
+    quizAnswersOn: ['てん', 'さい', 'そう', 'とう'],
+    quizAnswersKun: ['まご', 'たと.える', 'た.つ', 'たたか.う']
   },
   {
     kanjiName: '陣',
@@ -122816,7 +125404,9 @@ let arr = [
         furigana: 'しゅつじん',
         meanings: 'going into battle'
       }
-    ]
+    ],
+    quizAnswersOn: ['み', 'じょう', 'い', 'じん'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '臨',
@@ -122896,7 +125486,9 @@ let arr = [
         furigana: 'けいりん',
         meanings: 'copying calligraphy from a model'
       }
-    ]
+    ],
+    quizAnswersOn: ['ゆい', 'りん', 'げん', 'てん'],
+    quizAnswersKun: ['と.く', 'した', 'のぞ.む', '']
   },
   {
     kanjiName: '削',
@@ -122986,7 +125578,9 @@ let arr = [
         furigana: 'かいさく',
         meanings: 'excavation'
       }
-    ]
+    ],
+    quizAnswersOn: ['', 'かん', 'さく', 'けい'],
+    quizAnswersKun: ['けず.る', 'た.つ', 'おうぎ', 'やつ']
   },
   {
     kanjiName: '契',
@@ -123066,7 +125660,9 @@ let arr = [
         furigana: 'もっけい',
         meanings: 'implicit agreement'
       }
-    ]
+    ],
+    quizAnswersOn: ['けい', 'し', 'じん', 'れい'],
+    quizAnswersKun: ['ちぎ.る', 'みなもと', '', 'し.める']
   },
   {
     kanjiName: '恵',
@@ -123181,7 +125777,9 @@ let arr = [
         furigana: 'つけぢえ',
         meanings: 'hint'
       }
-    ]
+    ],
+    quizAnswersOn: ['どく', 'とう', 'けい', 'しょう'],
+    quizAnswersKun: ['あかつき', 'めぐ.む', 'おと', 'ずきん']
   },
   {
     kanjiName: '掲',
@@ -123269,7 +125867,9 @@ let arr = [
         furigana: 'じょうけい',
         meanings: 'the above-mentioned'
       }
-    ]
+    ],
+    quizAnswersOn: ['けい', 'れい', 'こう', 'ばく'],
+    quizAnswersKun: ['かえ.って', 'かか.げる', 'あぜ', 'さ.げる']
   },
   {
     kanjiName: '葬',
@@ -123349,7 +125949,9 @@ let arr = [
         furigana: 'そうそう',
         meanings: 'attending a funeral procession'
       }
-    ]
+    ],
+    quizAnswersOn: ['せい', 'そう', 'がく', 'ぼう'],
+    quizAnswersKun: ['くつろ.ぐ', 'そ.る', 'ゆめ', 'ほうむ.る']
   },
   {
     kanjiName: '需',
@@ -123424,7 +126026,9 @@ let arr = [
         furigana: 'ないじゅ',
         meanings: 'domestic demand'
       }
-    ]
+    ],
+    quizAnswersOn: ['じゅ', 'きょう', 'てん', 'きゅう'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '宜',
@@ -123509,7 +126113,9 @@ let arr = [
         furigana: 'ゆうぎ',
         meanings: 'friendship'
       }
-    ]
+    ],
+    quizAnswersOn: ['ぎ', 'こう', 'かん', 'とう'],
+    quizAnswersKun: ['かさ', 'よろ.しい', 'まず.しい', 'さか.える']
   },
   {
     kanjiName: '繰',
@@ -123579,7 +126185,9 @@ let arr = [
         furigana: 'そうしき',
         meanings: 'silk reeling machine'
       }
-    ]
+    ],
+    quizAnswersOn: ['せき', 'かく', 'そう', 'しょう'],
+    quizAnswersKun: ['かわ', 'く.る', '', 'もち.いる']
   },
   {
     kanjiName: '避',
@@ -123664,7 +126272,9 @@ let arr = [
         furigana: 'たいひ',
         meanings: 'taking refuge'
       }
-    ]
+    ],
+    quizAnswersOn: ['ひ', 'ぼ', 'こん', 'ほ'],
+    quizAnswersKun: ['さ.ける', 'か.ける', '', 'い.く']
   },
   {
     kanjiName: '妊',
@@ -123749,7 +126359,9 @@ let arr = [
         furigana: 'かいにん',
         meanings: 'pregnancy'
       }
-    ]
+    ],
+    quizAnswersOn: ['にん', 'ろう', 'だ', 'しゃ'],
+    quizAnswersKun: ['はら.む', 'お.りる', 'お.す', 'はなぶさ']
   },
   {
     kanjiName: '娠',
@@ -123814,7 +126426,9 @@ let arr = [
         furigana: 'たたいにんしん',
         meanings: 'multiple pregnancy'
       }
-    ]
+    ],
+    quizAnswersOn: ['しん', 'と', 'ゆう', 'ち'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '致',
@@ -123894,7 +126508,9 @@ let arr = [
         furigana: 'ゆうち',
         meanings: 'attraction'
       }
-    ]
+    ],
+    quizAnswersOn: ['りょう', 'ち', 'だ', 'ぎゃく'],
+    quizAnswersKun: ['ところ', 'いた.す', 'ふる.う', '']
   },
   {
     kanjiName: '奏',
@@ -123974,7 +126590,9 @@ let arr = [
         furigana: 'しじゅうそう',
         meanings: 'instrumental quartet'
       }
-    ]
+    ],
+    quizAnswersOn: ['えん', 'そう', 'るい', 'ねつ'],
+    quizAnswersKun: ['かな.でる', '', 'めくら', 'おきな']
   },
   {
     kanjiName: '伴',
@@ -124074,7 +126692,9 @@ let arr = [
         furigana: 'おしょうばん',
         meanings: 'sharing a meal'
       }
-    ]
+    ],
+    quizAnswersOn: ['はん', 'りょう', 'ちゅう', 'りゅう'],
+    quizAnswersKun: ['ともな.う', '-べ', '', 'あさ']
   },
   {
     kanjiName: '併',
@@ -124144,7 +126764,9 @@ let arr = [
         furigana: 'へいこう',
         meanings: 'going side-by-side'
       }
-    ]
+    ],
+    quizAnswersOn: ['かん', 'へい', 'てき', 'ぜん'],
+    quizAnswersKun: ['おご.る', '', 'の.む', 'あわ.せる']
   },
   {
     kanjiName: '却',
@@ -124219,7 +126841,9 @@ let arr = [
         furigana: 'しょうきゃく',
         meanings: 'repayment'
       }
-    ]
+    ],
+    quizAnswersOn: ['とつ', 'きゃく', 'さい', 'きん'],
+    quizAnswersKun: ['ほし', '', 'かえ.って', 'はた']
   },
   {
     kanjiName: '慮',
@@ -124299,7 +126923,9 @@ let arr = [
         furigana: 'えいりょ',
         meanings: "the emperor's pleasure"
       }
-    ]
+    ],
+    quizAnswersOn: ['りょ', 'ざい', 'めい', 'おう'],
+    quizAnswersKun: ['ち', 'かり', '', 'おもんぱく.る']
   },
   {
     kanjiName: '懸',
@@ -124399,7 +127025,9 @@ let arr = [
         furigana: 'こうがけ',
         meanings: "leather strap put across a horse's neck"
       }
-    ]
+    ],
+    quizAnswersOn: ['ひょう', 'のう', 'きゅう', 'けん'],
+    quizAnswersKun: ['ぬま', '', 'か.ける', 'よ.る']
   },
   {
     kanjiName: '房',
@@ -124498,7 +127126,9 @@ let arr = [
         furigana: 'こうぼう',
         meanings: 'workshop'
       }
-    ]
+    ],
+    quizAnswersOn: ['じゅう', 'ゆう', 'ち', 'ぼう'],
+    quizAnswersKun: ['たよ.り', 'こま.る', 'あきらか', 'ふさ']
   },
   {
     kanjiName: '扱',
@@ -124573,7 +127203,9 @@ let arr = [
         furigana: 'こく',
         meanings: 'to thresh'
       }
-    ]
+    ],
+    quizAnswersOn: ['はい', 'さい', 'し', 'そう'],
+    quizAnswersKun: ['みじ.め', 'あつか.い', 'かがや.く', 'かくま.う']
   },
   {
     kanjiName: '抑',
@@ -124663,7 +127295,9 @@ let arr = [
         furigana: 'けんよく',
         meanings: 'humbling oneself'
       }
-    ]
+    ],
+    quizAnswersOn: ['ろく', 'せき', 'よく', 'こう'],
+    quizAnswersKun: ['おさ.える', 'しずく', 'みお', 'く.しき']
   },
   {
     kanjiName: '択',
@@ -124743,7 +127377,9 @@ let arr = [
         furigana: 'にたく',
         meanings: '(having) two choices'
       }
-    ]
+    ],
+    quizAnswersOn: ['ふ', 'たく', 'ひょう', 'よう'],
+    quizAnswersKun: ['えら.ぶ', 'そ.める', '', 'さいわ.い']
   },
   {
     kanjiName: '描',
@@ -124828,7 +127464,9 @@ let arr = [
         furigana: 'そびょう',
         meanings: 'drawing'
       }
-    ]
+    ],
+    quizAnswersOn: ['どう', 'ほ', 'そく', 'びょう'],
+    quizAnswersKun: ['えが.く', 'ひめ', 'わたくし', 'うら.む']
   },
   {
     kanjiName: '盤',
@@ -124903,7 +127541,9 @@ let arr = [
         furigana: 'ちゅうばん',
         meanings: 'middle stage'
       }
-    ]
+    ],
+    quizAnswersOn: ['ばん', 'ら', 'なん', 'かい'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '称',
@@ -124993,7 +127633,9 @@ let arr = [
         furigana: 'こうしょう',
         meanings: 'public name'
       }
-    ]
+    ],
+    quizAnswersOn: ['さい', 'しょう', 'ちょう', 'や'],
+    quizAnswersKun: ['たた.える', '', 'はる.か', 'ふえ']
   },
   {
     kanjiName: '緩',
@@ -125093,7 +127735,9 @@ let arr = [
         furigana: 'ぐんきちかん',
         meanings: 'lack of (slackness in) military discipline'
       }
-    ]
+    ],
+    quizAnswersOn: ['こん', 'や', 'かん', 'がん'],
+    quizAnswersKun: ['あし', 'かや', '', 'ゆる.い']
   },
   {
     kanjiName: '託',
@@ -125188,7 +127832,9 @@ let arr = [
         furigana: 'せいたく',
         meanings: 'solicitation'
       }
-    ]
+    ],
+    quizAnswersOn: ['かん', 'ふ', 'か', 'たく'],
+    quizAnswersKun: ['よめ', 'たきぎ', 'かこつ.ける', 'ほが.らか']
   },
   {
     kanjiName: '賄',
@@ -125258,7 +127904,9 @@ let arr = [
         furigana: 'あっせんしゅうわい',
         meanings: 'influence peddling'
       }
-    ]
+    ],
+    quizAnswersOn: ['たい', 'きん', 'わい', 'りょう'],
+    quizAnswersKun: ['つが.い', '', 'まかな.う', 'よわい']
   },
   {
     kanjiName: '還',
@@ -125338,7 +127986,9 @@ let arr = [
         furigana: 'そうかん',
         meanings: 'sending home'
       }
-    ]
+    ],
+    quizAnswersOn: ['けい', 'かん', 'けん', 'きゅう'],
+    quizAnswersKun: ['また', 'かえ.る', 'と.まる', 'の.べる']
   },
   {
     kanjiName: '邦',
@@ -125418,7 +128068,9 @@ let arr = [
         furigana: 'ゆうほう',
         meanings: 'friendly nation'
       }
-    ]
+    ],
+    quizAnswersOn: ['じょう', 'だ', 'ほう', 'ぼ'],
+    quizAnswersKun: ['くに', '', 'の.む', 'おお.い']
   },
   {
     kanjiName: '鈴',
@@ -125528,7 +128180,9 @@ let arr = [
         furigana: 'ふうりん',
         meanings: 'wind chime'
       }
-    ]
+    ],
+    quizAnswersOn: ['きょう', 'や', 'れい', 'し'],
+    quizAnswersKun: ['すず', 'さいわ.い', '', 'まわ.り']
   },
   {
     kanjiName: '岐',
@@ -125613,7 +128267,9 @@ let arr = [
         furigana: 'いざなぎ',
         meanings: 'Izanagi (deity)'
       }
-    ]
+    ],
+    quizAnswersOn: ['ぞく', 'きょう', 'けい', 'き'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '隆',
@@ -125688,7 +128344,9 @@ let arr = [
         furigana: 'ぼうりゅう',
         meanings: 'swelling up'
       }
-    ]
+    ],
+    quizAnswersOn: ['しゅく', 'りゅう', 'がい', 'えい'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '控',
@@ -125773,7 +128431,9 @@ let arr = [
         furigana: 'こうじょ',
         meanings: 'subtraction'
       }
-    ]
+    ],
+    quizAnswersOn: ['じ', 'こう', 'えい', 'せい'],
+    quizAnswersKun: ['', 'ひそ.む', 'ひか.える', 'かんむり']
   },
   {
     kanjiName: '壁',
@@ -125868,7 +128528,9 @@ let arr = [
         furigana: 'ないへき',
         meanings: 'inner wall'
       }
-    ]
+    ],
+    quizAnswersOn: ['こん', 'へき', 'おう', 'てい'],
+    quizAnswersKun: ['つか.える', '', 'かべ', 'すみれ']
   },
   {
     kanjiName: '棋',
@@ -125943,7 +128605,9 @@ let arr = [
         furigana: 'だんぎ',
         meanings: 'ancient Chinese board game similar to go'
       }
-    ]
+    ],
+    quizAnswersOn: ['かく', 'こく', 'ぼう', 'き'],
+    quizAnswersKun: ['おが.む', 'ご', 'たの.しい', '']
   },
   {
     kanjiName: '渋',
@@ -126053,7 +128717,9 @@ let arr = [
         furigana: 'かいじゅう',
         meanings: 'ambiguous'
       }
-    ]
+    ],
+    quizAnswersOn: ['らい', 'さい', 'か', 'じゅう'],
+    quizAnswersKun: ['いと.しい', 'ゆず', 'しぶ', '']
   },
   {
     kanjiName: '仙',
@@ -126138,7 +128804,9 @@ let arr = [
         furigana: 'せんとうごしょ',
         meanings: 'palace of a retired emperor'
       }
-    ]
+    ],
+    quizAnswersOn: ['せん', 'きつ', 'し', 'かく'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '充',
@@ -126223,7 +128891,9 @@ let arr = [
         furigana: 'じぎょうかくじゅう',
         meanings: 'business expansion'
       }
-    ]
+    ],
+    quizAnswersOn: ['じゅう', 'おん', 'せつ', 'こ'],
+    quizAnswersKun: ['あ.てる', '', 'こま.る', 'いた.る']
   },
   {
     kanjiName: '免',
@@ -126308,7 +128978,9 @@ let arr = [
         furigana: 'ちょうかいめん',
         meanings: 'disciplinary dismissal'
       }
-    ]
+    ],
+    quizAnswersOn: ['ぎ', 'めん', 'ふん', 'ふ'],
+    quizAnswersKun: ['まぬか.れる', 'いもうと', 'つばき', 'たから']
   },
   {
     kanjiName: '勧',
@@ -126378,7 +129050,9 @@ let arr = [
         furigana: 'かんこく',
         meanings: 'advice'
       }
-    ]
+    ],
+    quizAnswersOn: ['かん', 'ひん', 'こう', 'にゅう'],
+    quizAnswersKun: ['ふえ', 'ま', 'すす.める', 'む.れる']
   },
   {
     kanjiName: '圏',
@@ -126453,7 +129127,9 @@ let arr = [
         furigana: 'せいりょくけん',
         meanings: 'sphere of influence'
       }
-    ]
+    ],
+    quizAnswersOn: ['あん', 'すい', '', 'けん'],
+    quizAnswersKun: ['かこ.い', 'みずか.ら', 'おど.る', 'はがね']
   },
   {
     kanjiName: '奪',
@@ -126533,7 +129209,9 @@ let arr = [
         furigana: 'しゅうだつ',
         meanings: 'plundering'
       }
-    ]
+    ],
+    quizAnswersOn: ['だつ', 'よう', 'じょう', 'やく'],
+    quizAnswersKun: ['うば.う', 'よ.る', 'たす.ける', '']
   },
   {
     kanjiName: '慎',
@@ -126638,7 +129316,9 @@ let arr = [
         furigana: 'ふきんしん',
         meanings: 'imprudent'
       }
-    ]
+    ],
+    quizAnswersOn: ['けい', 'かん', 'じん', 'しん'],
+    quizAnswersKun: ['', 'つつし.む', 'うつく.しい', 'ゆず.る']
   },
   {
     kanjiName: '拒',
@@ -126718,7 +129398,9 @@ let arr = [
         furigana: 'ちゃっきょ',
         meanings: 'blocking communications (from a phone number or an e-mail address)'
       }
-    ]
+    ],
+    quizAnswersOn: ['しょう', 'るい', 'かん', 'きょ'],
+    quizAnswersKun: ['こば.む', '', 'つかさど.る', 'き']
   },
   {
     kanjiName: '枠',
@@ -126793,7 +129475,9 @@ let arr = [
         furigana: 'こうわく',
         meanings: 'steel formwork'
       }
-    ]
+    ],
+    quizAnswersOn: [],
+    quizAnswersKun: ['はし.る', 'えだ', 'あぶら', 'わく']
   },
   {
     kanjiName: '甲',
@@ -126888,7 +129572,9 @@ let arr = [
         furigana: 'かんぱん',
         meanings: 'deck (of a ship)'
       }
-    ]
+    ],
+    quizAnswersOn: ['こう', 'こん', 'たい', 'じ'],
+    quizAnswersKun: ['うれ.える', 'う.ける', 'さ.す', 'きのえ']
   },
   {
     kanjiName: '斐',
@@ -126922,7 +129608,9 @@ let arr = [
         furigana: 'いいがい',
         meanings: 'worth mentioning'
       }
-    ]
+    ],
+    quizAnswersOn: ['さん', 'しゅう', 'はん', 'ひ'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '祉',
@@ -126992,7 +129680,9 @@ let arr = [
         furigana: 'けんこうふくし',
         meanings: 'health and welfare'
       }
-    ]
+    ],
+    quizAnswersOn: ['ぜん', 'し', 'ちゃく', 'たい'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '稲',
@@ -127097,7 +129787,9 @@ let arr = [
         furigana: 'おくて',
         meanings: 'late-growing rice'
       }
-    ]
+    ],
+    quizAnswersOn: ['とう', 'ふく', 'しん', 'とう'],
+    quizAnswersKun: ['わざ', 'いね', 'さけ.ぶ', 'か.ける']
   },
   {
     kanjiName: '譲',
@@ -127177,7 +129869,9 @@ let arr = [
         furigana: 'いじょう',
         meanings: 'transfer'
       }
-    ]
+    ],
+    quizAnswersOn: ['じょう', 'てつ', 'よう', 'にん'],
+    quizAnswersKun: ['いの.る', 'ゆず.る', 'あぶら', 'つか.う']
   },
   {
     kanjiName: '謙',
@@ -127252,7 +129946,9 @@ let arr = [
         furigana: 'きょうけん',
         meanings: 'modesty'
       }
-    ]
+    ],
+    quizAnswersOn: ['けん', 'さん', 'りゅう', 'ひょう'],
+    quizAnswersKun: ['へりくだ.る', 'えら.い', '', 'しも']
   },
   {
     kanjiName: '躍',
@@ -127332,7 +130028,9 @@ let arr = [
         furigana: 'じかんちょうやく',
         meanings: 'time travel'
       }
-    ]
+    ],
+    quizAnswersOn: ['じょう', 'ほう', 'だく', 'やく'],
+    quizAnswersKun: ['しずか', 'ふ.せる', 'たか.い', 'おど.る']
   },
   {
     kanjiName: '銃',
@@ -127412,7 +130110,9 @@ let arr = [
         furigana: 'しょうじゅう',
         meanings: 'rifle'
       }
-    ]
+    ],
+    quizAnswersOn: ['ひつ', 'よう', 'そ', 'じゅう'],
+    quizAnswersKun: ['ま.す', 'つつ', 'ふ.る', 'あに']
   },
   {
     kanjiName: '項',
@@ -127492,7 +130192,9 @@ let arr = [
         furigana: 'べっこう',
         meanings: 'special heading'
       }
-    ]
+    ],
+    quizAnswersOn: ['こう', 'む', 'ちく', 'るい'],
+    quizAnswersKun: ['う.る', 'うなじ', '', 'ひ.く']
   },
   {
     kanjiName: '鋼',
@@ -127582,7 +130284,9 @@ let arr = [
         furigana: 'せいこう',
         meanings: 'steel manufacture'
       }
-    ]
+    ],
+    quizAnswersOn: ['かい', 'こう', 'そう', 'えい'],
+    quizAnswersKun: ['いさぎよ.い', 'おし.える', 'か.う', 'はがね']
   },
   {
     kanjiName: '顧',
@@ -127662,7 +130366,9 @@ let arr = [
         furigana: 'こうこ',
         meanings: 'looking back'
       }
-    ]
+    ],
+    quizAnswersOn: ['かい', 'こ', 'しょう', 'とく'],
+    quizAnswersKun: ['おお.い', 'あや', '', 'かえり.みる']
   },
   {
     kanjiName: '駆',
@@ -127752,7 +130458,9 @@ let arr = [
         furigana: 'うまくいく',
         meanings: 'to go smoothly'
       }
-    ]
+    ],
+    quizAnswersOn: ['こ', 'に', 'く', 'へい'],
+    quizAnswersKun: ['か.ける', 'つつみ', 'ねんご.ろ', 'ひと.しい']
   },
   {
     kanjiName: '唱',
@@ -127832,7 +130540,9 @@ let arr = [
         furigana: 'しゅしょう',
         meanings: 'advocacy'
       }
-    ]
+    ],
+    quizAnswersOn: ['しょう', 'みゃく', 'ひ', 'きょう'],
+    quizAnswersKun: ['', 'あか', 'つね', 'とな.える']
   },
   {
     kanjiName: '俊',
@@ -127902,7 +130612,9 @@ let arr = [
         furigana: 'えいしゅん',
         meanings: 'genius'
       }
-    ]
+    ],
+    quizAnswersOn: ['しゅん', 'ぼ', 'ちょう', 'りつ'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '兼',
@@ -127972,7 +130684,9 @@ let arr = [
         furigana: 'けんにん',
         meanings: 'serving concurrently as'
       }
-    ]
+    ],
+    quizAnswersOn: ['えつ', 'こ', 'けん', 'たい'],
+    quizAnswersKun: ['やど', 'か.ねる', 'かお', 'たい']
   },
   {
     kanjiName: '剤',
@@ -128047,7 +130761,9 @@ let arr = [
         furigana: 'かくせいざい',
         meanings: 'stimulant (e.g. psychoactive drugs like methamphetamine'
       }
-    ]
+    ],
+    quizAnswersOn: ['けん', 'がん', 'ざい', 'ざい'],
+    quizAnswersKun: ['かや', 'かる', 'いと', 'ゆ.く']
   },
   {
     kanjiName: '堀',
@@ -128112,7 +130828,9 @@ let arr = [
         furigana: 'ほりえ',
         meanings: 'canal'
       }
-    ]
+    ],
+    quizAnswersOn: ['ほう', 'しん', 'しゅつ', 'くつ'],
+    quizAnswersKun: ['けが.す', 'かぶ', 'ほり', 'むす.ぶ']
   },
   {
     kanjiName: '巡',
@@ -128202,7 +130920,9 @@ let arr = [
         furigana: 'けいじゅん',
         meanings: 'light cruiser'
       }
-    ]
+    ],
+    quizAnswersOn: ['よう', 'くつ', 'じん', 'じゅん'],
+    quizAnswersKun: ['', 'つぼね', 'めぐ.る', 'よろこ.ぶ']
   },
   {
     kanjiName: '戒',
@@ -128282,7 +131002,9 @@ let arr = [
         furigana: 'じかい',
         meanings: 'self-admonition'
       }
-    ]
+    ],
+    quizAnswersOn: ['き', 'けん', 'しゅん', 'かい'],
+    quizAnswersKun: ['', 'たくみ', 'あつ.い', 'いまし.める']
   },
   {
     kanjiName: '排',
@@ -128352,7 +131074,9 @@ let arr = [
         furigana: 'ぼうはい',
         meanings: 'combating organized crime'
       }
-    ]
+    ],
+    quizAnswersOn: ['しょう', 'はい', 'こう', 'ご'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '携',
@@ -128437,7 +131161,9 @@ let arr = [
         furigana: 'せんりゃくてきていけい',
         meanings: 'strategic partnership'
       }
-    ]
+    ],
+    quizAnswersOn: ['けい', 'とう', 'ほう', 'かく'],
+    quizAnswersKun: ['つよ.い', 'たずさ.える', 'ひそ.む', '']
   },
   {
     kanjiName: '敏',
@@ -128517,7 +131243,9 @@ let arr = [
         furigana: 'けいびん',
         meanings: 'clever'
       }
-    ]
+    ],
+    quizAnswersOn: ['こう', 'かく', 'びん', 'あく'],
+    quizAnswersKun: ['かた.る', 'さとい', '', 'えら.い']
   },
   {
     kanjiName: '敷',
@@ -128587,7 +131315,9 @@ let arr = [
         furigana: 'ふえん',
         meanings: 'expatiation'
       }
-    ]
+    ],
+    quizAnswersOn: ['ふ', 'かん', 'きょう', 'すい'],
+    quizAnswersKun: ['し.く', 'かや', 'あらた.める', 'お.す']
   },
   {
     kanjiName: '犠',
@@ -128662,7 +131392,9 @@ let arr = [
         furigana: 'くぎ',
         meanings: 'sacrifice'
       }
-    ]
+    ],
+    quizAnswersOn: ['ゆう', 'ぎ', 'えい', 'けん'],
+    quizAnswersKun: ['', 'ひと.しい', 'いけにえ', 'ば']
   },
   {
     kanjiName: '獲',
@@ -128742,7 +131474,9 @@ let arr = [
         furigana: 'しゅうかく',
         meanings: 'catch (fishing)'
       }
-    ]
+    ],
+    quizAnswersOn: ['すい', 'こう', 'そう', 'かく'],
+    quizAnswersKun: ['も.つ', 'さが.す', 'あつ.い', 'え.る']
   },
   {
     kanjiName: '茂',
@@ -128812,7 +131546,9 @@ let arr = [
         furigana: 'はんも',
         meanings: 'flourishing (of plants)'
       }
-    ]
+    ],
+    quizAnswersOn: ['せい', 'も', 'がん', 'き'],
+    quizAnswersKun: ['ぬす.む', 'あつ.い', '', 'しげ.る']
   },
   {
     kanjiName: '繁',
@@ -128887,7 +131623,9 @@ let arr = [
         furigana: 'はんえい',
         meanings: 'prosperity'
       }
-    ]
+    ],
+    quizAnswersOn: ['せき', 'しゅく', 'はん', 'しゅん'],
+    quizAnswersKun: ['ほう', 'は.く', 'た.える', 'しげ.る']
   },
   {
     kanjiName: '頻',
@@ -128957,7 +131695,9 @@ let arr = [
         furigana: 'ひんど',
         meanings: 'frequency (of occurrence)'
       }
-    ]
+    ],
+    quizAnswersOn: ['ふん', 'が', 'ひん', 'せい'],
+    quizAnswersKun: ['', 'しき.りに', 'おさ.める', 'まかな.う']
   },
   {
     kanjiName: '殖',
@@ -129042,7 +131782,9 @@ let arr = [
         furigana: 'せいしょく',
         meanings: 'reproduction'
       }
-    ]
+    ],
+    quizAnswersOn: ['しょく', 'ち', 'らん', 'ちょう'],
+    quizAnswersKun: ['すす.める', 'あいて', '', 'ふ.える']
   },
   {
     kanjiName: '衝',
@@ -129136,7 +131878,9 @@ let arr = [
         furigana: 'かんしょう',
         meanings: 'buffered'
       }
-    ]
+    ],
+    quizAnswersOn: ['えき', 'ぎょ', 'ぼう', 'しょう'],
+    quizAnswersKun: ['いかん', 'つ.く', 'ふね', 'と.う']
   },
   {
     kanjiName: '誉',
@@ -129221,7 +131965,9 @@ let arr = [
         furigana: 'きよ',
         meanings: 'praise and censure'
       }
-    ]
+    ],
+    quizAnswersOn: ['はく', 'よ', 'か', 'ひん'],
+    quizAnswersKun: ['は.く', '', 'ほま.れ', 'か.える']
   },
   {
     kanjiName: '褒',
@@ -129296,7 +132042,9 @@ let arr = [
         furigana: 'かほう',
         meanings: 'excessive praise'
       }
-    ]
+    ],
+    quizAnswersOn: ['すい', 'ほう', 'がく', 'ゆ'],
+    quizAnswersKun: ['ゆ.れる', 'かま.える', 'くら.べる', 'ほ.める']
   },
   {
     kanjiName: '透',
@@ -129396,7 +132144,9 @@ let arr = [
         furigana: 'しじょうしんとう',
         meanings: 'market penetration'
       }
-    ]
+    ],
+    quizAnswersOn: ['とつ', 'し', 'せつ', 'とう'],
+    quizAnswersKun: ['ふと.い', 'す.く', '', 'おろ.す']
   },
   {
     kanjiName: '隣',
@@ -129496,7 +132246,9 @@ let arr = [
         furigana: 'しりん',
         meanings: 'whole neighborhood'
       }
-    ]
+    ],
+    quizAnswersOn: ['しゅう', 'りん', 'きゅう', 'たん'],
+    quizAnswersKun: ['いしぶみ', 'おとろ.える', 'なぎ', 'とな.る']
   },
   {
     kanjiName: '雅',
@@ -129581,7 +132333,9 @@ let arr = [
         furigana: 'たいが',
         meanings: 'major festal song (subgenre of the Shi Jing)'
       }
-    ]
+    ],
+    quizAnswersOn: ['が', 'いん', 'じゅ', 'きゅう'],
+    quizAnswersKun: ['こぶし', 'みや.び', 'しろ.い', '']
   },
   {
     kanjiName: '徹',
@@ -129656,7 +132410,9 @@ let arr = [
         furigana: 'とうてつ',
         meanings: 'transparency'
       }
-    ]
+    ],
+    quizAnswersOn: ['ふく', 'りん', 'てつ', 'みん'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '瀬',
@@ -129731,7 +132487,9 @@ let arr = [
         furigana: 'たかせ',
         meanings: 'shallow river'
       }
-    ]
+    ],
+    quizAnswersOn: ['はつ', 'こ', 'さい', 'らい'],
+    quizAnswersKun: ['う.える', 'やなぎ', '', 'せ']
   },
   {
     kanjiName: '撤',
@@ -129785,7 +132543,9 @@ let arr = [
         meaning: 'vague'
       }
     ],
-    usedIn: []
+    usedIn: [],
+    quizAnswersOn: ['ほん', 'りょう', 'てつ', 'じゅん'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '措',
@@ -129865,7 +132625,9 @@ let arr = [
         furigana: 'きょそ',
         meanings: 'behavior'
       }
-    ]
+    ],
+    quizAnswersOn: ['かい', 'よ', 'そ', 'ゆう'],
+    quizAnswersKun: ['お.く', 'くさり', 'す.える', 'めくら']
   },
   {
     kanjiName: '拠',
@@ -129955,7 +132717,9 @@ let arr = [
         furigana: 'じれいしょうこ',
         meanings: 'anecdotal evidence'
       }
-    ]
+    ],
+    quizAnswersOn: ['きょ', 'かい', 'すい', 'ひ'],
+    quizAnswersKun: ['かんむり', '', 'よ.る', 'しも']
   },
   {
     kanjiName: '儀',
@@ -130030,7 +132794,9 @@ let arr = [
         furigana: 'さいぎ',
         meanings: 'rites'
       }
-    ]
+    ],
+    quizAnswersOn: ['ぞく', 'あん', 'ぎ', 'い'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '樹',
@@ -130125,7 +132891,9 @@ let arr = [
         furigana: 'こうようじゅ',
         meanings: 'broadleaf tree'
       }
-    ]
+    ],
+    quizAnswersOn: ['そう', 'はん', 'じゅ', 'か'],
+    quizAnswersKun: ['かみ', 'き', 'つや', 'おうぎ']
   },
   {
     kanjiName: '棄',
@@ -130205,7 +132973,9 @@ let arr = [
         furigana: 'いき',
         meanings: 'abandonment'
       }
-    ]
+    ],
+    quizAnswersOn: ['とん', 'さん', 'き', 'こう'],
+    quizAnswersKun: ['うし', 'うすぎぬ', 'た.つ', 'す.てる']
   },
   {
     kanjiName: '虎',
@@ -130258,7 +133028,9 @@ let arr = [
         furigana: 'りゅうこ',
         meanings: 'dragon and tiger'
       }
-    ]
+    ],
+    quizAnswersOn: ['こ', 'ぞう', 'ちょう', 'よう'],
+    quizAnswersKun: ['かた', 'とら', 'はや.い', 'もと']
   },
   {
     kanjiName: '蛍',
@@ -130343,7 +133115,9 @@ let arr = [
         furigana: 'りゅうけい',
         meanings: 'flying firefly'
       }
-    ]
+    ],
+    quizAnswersOn: ['りょ', 'む', 'けい', 'か'],
+    quizAnswersKun: ['ほたる', 'ひとえ', 'はら.む', 'みお']
   },
   {
     kanjiName: '艦',
@@ -130418,7 +133192,9 @@ let arr = [
         furigana: 'じゅんようかん',
         meanings: 'cruiser'
       }
-    ]
+    ],
+    quizAnswersOn: ['まつ', 'こう', 'きょう', 'かん'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '潜',
@@ -130513,7 +133289,9 @@ let arr = [
         furigana: 'たいせん',
         meanings: 'antisubmarine'
       }
-    ]
+    ],
+    quizAnswersOn: ['せん', 'えき', 'さん', 'よう'],
+    quizAnswersKun: ['', 'く.れる', 'ひそ.む', 'たが.い']
   },
   {
     kanjiName: '拳',
@@ -130576,7 +133354,9 @@ let arr = [
         furigana: 'げんこ',
         meanings: 'fist'
       }
-    ]
+    ],
+    quizAnswersOn: ['けん', 'はん', 'しゃく', 'きょう'],
+    quizAnswersKun: ['わら', 'さと.す', 'あかし', 'こぶし']
   },
   {
     kanjiName: '仁',
@@ -130686,7 +133466,9 @@ let arr = [
         furigana: 'よくいにん',
         meanings: 'coix seed (used in traditional Chinese medicine)'
       }
-    ]
+    ],
+    quizAnswersOn: ['おう', 'へん', 'じゅ', 'じん'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '至',
@@ -130771,7 +133553,9 @@ let arr = [
         furigana: 'げし',
         meanings: 'summer solstice'
       }
-    ]
+    ],
+    quizAnswersOn: ['こう', 'し', 'じゅん', 'り'],
+    quizAnswersKun: ['いた.る', 'むし', 'さび', 'いた']
   },
   {
     kanjiName: '誠',
@@ -130861,7 +133645,9 @@ let arr = [
         furigana: 'せきせい',
         meanings: 'sincerity'
       }
-    ]
+    ],
+    quizAnswersOn: ['のう', 'きょ', 'せい', 'ゆう'],
+    quizAnswersKun: ['や.める', 'ひと.り', 'まこと', 'まさ.に']
   },
   {
     kanjiName: '郷',
@@ -130971,7 +133757,9 @@ let arr = [
         furigana: 'だいさいごう',
         meanings: 'the Great Saigo'
       }
-    ]
+    ],
+    quizAnswersOn: ['よう', '', 'きょう', 'かい'],
+    quizAnswersKun: ['さと', 'かがりび', 'も.る', 'すみ']
   },
   {
     kanjiName: '侵',
@@ -131046,7 +133834,9 @@ let arr = [
         furigana: 'ふかしん',
         meanings: 'inviolability'
       }
-    ]
+    ],
+    quizAnswersOn: ['ざい', 'じゅん', 'しん', 'ち'],
+    quizAnswersKun: ['つづ.まる', 'おか.す', 'かみ', 'そ.る']
   },
   {
     kanjiName: '偽',
@@ -131146,7 +133936,9 @@ let arr = [
         furigana: 'さぎ',
         meanings: 'lie'
       }
-    ]
+    ],
+    quizAnswersOn: ['ざ', 'ぎ', 'もん', 'さ'],
+    quizAnswersKun: ['あ.えて', 'さいわ.い', '', 'いつわ.る']
   },
   {
     kanjiName: '克',
@@ -131226,7 +134018,9 @@ let arr = [
         furigana: 'ちょうこく',
         meanings: 'overcoming'
       }
-    ]
+    ],
+    quizAnswersOn: ['つう', 'しゅう', 'き', 'こく'],
+    quizAnswersKun: ['か.つ', 'つぐな.う', 'おさ.める', 'まろ']
   },
   {
     kanjiName: '哲',
@@ -131301,7 +134095,9 @@ let arr = [
         furigana: 'せいてつ',
         meanings: 'distinguished Western philosopher'
       }
-    ]
+    ],
+    quizAnswersOn: ['じゃく', 'だん', 'ばい', 'てつ'],
+    quizAnswersKun: ['さとい', 'くる.う', 'おお-', '']
   },
   {
     kanjiName: '喪',
@@ -131391,7 +134187,9 @@ let arr = [
         furigana: 'こくそう',
         meanings: 'national mourning'
       }
-    ]
+    ],
+    quizAnswersOn: ['そう', '', 'だん', 'き'],
+    quizAnswersKun: ['ほど', 'も', '', 'なまり']
   },
   {
     kanjiName: '堅',
@@ -131476,7 +134274,9 @@ let arr = [
         furigana: 'めりけん',
         meanings: 'America'
       }
-    ]
+    ],
+    quizAnswersOn: ['りん', 'そう', 'けん', 'おう'],
+    quizAnswersKun: ['い', 'くろ', 'あざ.やか', 'かた.い']
   },
   {
     kanjiName: '括',
@@ -131551,7 +134351,9 @@ let arr = [
         furigana: 'がいかつ',
         meanings: 'summary'
       }
-    ]
+    ],
+    quizAnswersOn: ['しょ', 'りょう', 'かつ', 'ちょう'],
+    quizAnswersKun: ['くく.る', 'ここの', 'ひき.いる', '']
   },
   {
     kanjiName: '弧',
@@ -131626,7 +134428,9 @@ let arr = [
         furigana: 'れいこ',
         meanings: 'excitation'
       }
-    ]
+    ],
+    quizAnswersOn: ['りん', 'こ', 'しゅう', 'がい'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '挑',
@@ -131696,7 +134500,9 @@ let arr = [
         furigana: 'ちょうせん',
         meanings: 'challenge'
       }
-    ]
+    ],
+    quizAnswersOn: ['ちょう', 'そう', 'かく', 'あ'],
+    quizAnswersKun: ['つつし.む', 'まつりごと', 'いど.む', '']
   },
   {
     kanjiName: '揚',
@@ -131781,7 +134587,9 @@ let arr = [
         furigana: 'けいよう',
         meanings: 'hoisting (e.g. a flag)'
       }
-    ]
+    ],
+    quizAnswersOn: ['よう', 'しゅ', 'ちょう', 'ごう'],
+    quizAnswersKun: ['', 'つくえ', 'あ.げる', 'す.る']
   },
   {
     kanjiName: '握',
@@ -131861,7 +134669,9 @@ let arr = [
         furigana: 'どうこうはあく',
         meanings: 'grasping the trend'
       }
-    ]
+    ],
+    quizAnswersOn: ['あん', 'しょう', 'あく', 'ろく'],
+    quizAnswersKun: ['', 'かけ.る', 'ふる.い', 'にぎ.る']
   },
   {
     kanjiName: '揺',
@@ -131966,7 +134776,9 @@ let arr = [
         furigana: 'ようとう',
         meanings: 'shaking'
       }
-    ]
+    ],
+    quizAnswersOn: ['しゅ', 'ぼう', 'はく', 'よう'],
+    quizAnswersKun: ['と', 'ゆ.れる', 'みち', '']
   },
   {
     kanjiName: '斎',
@@ -132061,7 +134873,9 @@ let arr = [
         furigana: 'しょうさい',
         meanings: 'abstinence (in Catholicism)'
       }
-    ]
+    ],
+    quizAnswersOn: ['りん', 'さい', 'び', 'こ'],
+    quizAnswersKun: ['とき', '', 'さと.る', 'なら.う']
   },
   {
     kanjiName: '暫',
@@ -132136,7 +134950,9 @@ let arr = [
         furigana: 'ざんしょ',
         meanings: 'short while'
       }
-    ]
+    ],
+    quizAnswersOn: ['かく', 'しょう', 'そう', 'ざん'],
+    quizAnswersKun: ['い.う', 'ごと', 'きざ.す', 'しばら.く']
   },
   {
     kanjiName: '析',
@@ -132206,7 +135022,9 @@ let arr = [
         furigana: 'じんこうとうせき',
         meanings: '(artificial) dialysis'
       }
-    ]
+    ],
+    quizAnswersOn: ['しゅ', 'かつ', 'い', 'せき'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '枢',
@@ -132286,7 +135104,9 @@ let arr = [
         furigana: 'こきゅうちゅうすう',
         meanings: 'respiratory center'
       }
-    ]
+    ],
+    quizAnswersOn: ['きゅう', 'せん', 'かん', 'すう'],
+    quizAnswersKun: ['そ.う', '', 'とぼそ', 'しか']
   },
   {
     kanjiName: '軸',
@@ -132361,7 +135181,9 @@ let arr = [
         furigana: 'ちゅうじく',
         meanings: 'axis'
       }
-    ]
+    ],
+    quizAnswersOn: ['しょ', 'じく', 'じゃく', 'しょう'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '柄',
@@ -132492,7 +135314,9 @@ let arr = [
         furigana: 'うへい',
         meanings: 'calamus'
       }
-    ]
+    ],
+    quizAnswersOn: ['へい', 'そん', 'のう', 'と'],
+    quizAnswersKun: ['やぶ.る', 'ほ.める', 'すわ.る', 'がら']
   },
   {
     kanjiName: '滑',
@@ -132577,7 +135401,9 @@ let arr = [
         furigana: 'ねんかつ',
         meanings: 'mucilaginous'
       }
-    ]
+    ],
+    quizAnswersOn: ['くん', 'かつ', 'い', 'すい'],
+    quizAnswersKun: ['えら.ぶ', '', 'えが.く', 'すべ.る']
   },
   {
     kanjiName: '潟',
@@ -132642,7 +135468,9 @@ let arr = [
         furigana: 'せきこ',
         meanings: 'lagoon'
       }
-    ]
+    ],
+    quizAnswersOn: ['せき', 'じ', 'そく', 'ゆう'],
+    quizAnswersKun: ['よ.い', 'くさ.い', 'かた', 'のこ.す']
   },
   {
     kanjiName: '焦',
@@ -132747,7 +135575,9 @@ let arr = [
         furigana: 'ちゅうしょう',
         meanings: 'middle jiao (in traditional Chinese medicine)'
       }
-    ]
+    ],
+    quizAnswersOn: ['ほう', 'しょう', 'こく', 'げき'],
+    quizAnswersKun: ['ほこ', 'あ.げる', 'す', 'こ.げる']
   },
   {
     kanjiName: '範',
@@ -132822,7 +135652,9 @@ let arr = [
         furigana: 'いはん',
         meanings: 'good example set by those who came before us'
       }
-    ]
+    ],
+    quizAnswersOn: ['はん', 'ほん', 'ひ', 'だい'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '紛',
@@ -132912,7 +135744,9 @@ let arr = [
         furigana: 'じんこうじゅふん',
         meanings: 'artificial pollination'
       }
-    ]
+    ],
+    quizAnswersOn: ['りょう', 'たん', 'ふん', 'こう'],
+    quizAnswersKun: ['さぐ.る', 'ちが.う', 'つみ', 'まぎ.れる']
   },
   {
     kanjiName: '糾',
@@ -132987,7 +135821,9 @@ let arr = [
         furigana: 'ふんきゅう',
         meanings: 'complication'
       }
-    ]
+    ],
+    quizAnswersOn: ['きゅう', 'せき', 'とう', 'そう'],
+    quizAnswersKun: ['にわとり', 'さむらい', 'ただ.す', 'つゆ']
   },
   {
     kanjiName: '綱',
@@ -133082,7 +135918,9 @@ let arr = [
         furigana: 'たいこう',
         meanings: 'fundamental principles'
       }
-    ]
+    ],
+    quizAnswersOn: ['ぎ', 'こう', 'りょう', 'かい'],
+    quizAnswersKun: ['つち', 'も.える', 'くさ', 'つな']
   },
   {
     kanjiName: '網',
@@ -133177,7 +136015,9 @@ let arr = [
         furigana: 'てつじょうもう',
         meanings: '(barbed) wire entanglements'
       }
-    ]
+    ],
+    quizAnswersOn: ['もう', 'せん', 'よう', 'せき'],
+    quizAnswersKun: ['', 'か.ける', 'あみ', 'かれ']
   },
   {
     kanjiName: '肝',
@@ -133272,7 +136112,9 @@ let arr = [
         furigana: 'しぼうかん',
         meanings: 'fatty liver'
       }
-    ]
+    ],
+    quizAnswersOn: ['びん', 'せい', 'おう', 'かん'],
+    quizAnswersKun: ['きも', 'さる', 'あゆ', 'ひ']
   },
   {
     kanjiName: '芝',
@@ -133362,7 +136204,9 @@ let arr = [
         furigana: 'れいし',
         meanings: 'bracket fungus (Ganoderma lucidum)'
       }
-    ]
+    ],
+    quizAnswersOn: ['けつ', 'は', 'こう', 'し'],
+    quizAnswersKun: ['', 'せぼね', 'ひたい', 'しば']
   },
   {
     kanjiName: '裂',
@@ -133447,7 +136291,9 @@ let arr = [
         furigana: 'さくれつ',
         meanings: 'violent explosion'
       }
-    ]
+    ],
+    quizAnswersOn: ['かん', 'れつ', 'げん', 'しゅく'],
+    quizAnswersKun: ['さ.く', 'かえ.る', 'わた.る', 'かき']
   },
   {
     kanjiName: '襲',
@@ -133537,7 +136383,9 @@ let arr = [
         furigana: 'きょうしゅう',
         meanings: 'assault'
       }
-    ]
+    ],
+    quizAnswersOn: ['こう', 'しゅう', 'きょう', 'えい'],
+    quizAnswersKun: ['たよ.り', '', 'せま.る', 'おそ.う']
   },
   {
     kanjiName: '貢',
@@ -133617,7 +136465,9 @@ let arr = [
         furigana: 'へいこう',
         meanings: 'offering'
       }
-    ]
+    ],
+    quizAnswersOn: ['さく', 'がん', 'しょう', 'こう'],
+    quizAnswersKun: ['たと.える', 'あざむ.く', 'みつ.ぐ', 'ほ.す']
   },
   {
     kanjiName: '趣',
@@ -133707,7 +136557,9 @@ let arr = [
         furigana: 'いしゅ',
         meanings: 'grudge'
       }
-    ]
+    ],
+    quizAnswersOn: ['かん', 'しゅ', 'こ', 'ぎゃく'],
+    quizAnswersKun: ['うしな.う', 'さだ.める', 'おもむき', '']
   },
   {
     kanjiName: '距',
@@ -133792,7 +136644,9 @@ let arr = [
         furigana: 'けいきょ',
         meanings: 'departure (surveying'
       }
-    ]
+    ],
+    quizAnswersOn: ['とう', 'きょ', 'こん', 'けい'],
+    quizAnswersKun: ['ねこ', 'へだ.たる', 'い.る', '']
   },
   {
     kanjiName: '露',
@@ -133902,7 +136756,9 @@ let arr = [
         furigana: 'しんじょしゅっせひろう',
         meanings: 'presenting of new wrestlers to audience'
       }
-    ]
+    ],
+    quizAnswersOn: ['ろう', 'みつ', 'ろ', 'しゅう'],
+    quizAnswersKun: ['つ', 'つゆ', 'とし', 'あき.らか']
   },
   {
     kanjiName: '牧',
@@ -133987,7 +136843,9 @@ let arr = [
         furigana: 'いぼく',
         meanings: 'transhumance'
       }
-    ]
+    ],
+    quizAnswersOn: ['ねん', 'でん', 'かん', 'ぼく'],
+    quizAnswersKun: ['や.く', '-こ.む', 'まき', 'まち']
   },
   {
     kanjiName: '朗',
@@ -134067,7 +136925,9 @@ let arr = [
         furigana: 'ゆうろう',
         meanings: 'brightness'
       }
-    ]
+    ],
+    quizAnswersOn: ['わ', 'ろう', 'ぶん', 'てん'],
+    quizAnswersKun: ['たずさ.える', 'と.る', 'ほが.らか', 'わ.く']
   },
   {
     kanjiName: '潮',
@@ -134177,7 +137037,9 @@ let arr = [
         furigana: 'たいちょう',
         meanings: 'ebb tide'
       }
-    ]
+    ],
+    quizAnswersOn: ['く', 'ちょう', 'おう', 'こう'],
+    quizAnswersKun: ['', 'お', 'しお', 'あつ.い']
   },
   {
     kanjiName: '即',
@@ -134267,7 +137129,9 @@ let arr = [
         furigana: 'そくそく',
         meanings: 'immediate sex (without taking a shower first)'
       }
-    ]
+    ],
+    quizAnswersOn: ['しん', 'そく', 'かん', 'しょく'],
+    quizAnswersKun: ['たし.か', 'くるま', '', 'つ.く']
   },
   {
     kanjiName: '垣',
@@ -134353,7 +137217,9 @@ let arr = [
         meanings:
           'Purple Forbidden Enclosure (group of constellations in the northern sky associated with the emperor)'
       }
-    ]
+    ],
+    quizAnswersOn: ['きょう', 'ちん', 'かん', 'えん'],
+    quizAnswersKun: ['', 'あざ.やか', 'かき', 'ば']
   },
   {
     kanjiName: '威',
@@ -134448,7 +137314,9 @@ let arr = [
         furigana: 'こくい',
         meanings: 'national prestige'
       }
-    ]
+    ],
+    quizAnswersOn: ['と', 'いつ', 'めい', 'い'],
+    quizAnswersKun: ['いきどお.る', 'さけ', 'おど.す', '']
   },
   {
     kanjiName: '岳',
@@ -134533,7 +137401,9 @@ let arr = [
         furigana: 'ふがく',
         meanings: 'Mount Fuji'
       }
-    ]
+    ],
+    quizAnswersOn: ['そん', 'けん', 'せつ', 'がく'],
+    quizAnswersKun: ['たけ', 'はがね', '', 'まが.い']
   },
   {
     kanjiName: '慰',
@@ -134626,7 +137496,9 @@ let arr = [
         furigana: 'じい',
         meanings: 'masturbation'
       }
-    ]
+    ],
+    quizAnswersOn: ['い', 'ばい', 'こ', 'でん'],
+    quizAnswersKun: ['かた', 'くる.う', 'なぐさ.める', 'ひつじ']
   },
   {
     kanjiName: '懇',
@@ -134711,7 +137583,9 @@ let arr = [
         furigana: 'じっこん',
         meanings: 'intimacy'
       }
-    ]
+    ],
+    quizAnswersOn: ['しん', 'へい', 'せつ', 'こん'],
+    quizAnswersKun: ['ねんご.ろ', '', 'にご.る', 'まか.り-']
   },
   {
     kanjiName: '懲',
@@ -134801,7 +137675,9 @@ let arr = [
         furigana: 'ぼうしようちょう',
         meanings: 'punish savage China'
       }
-    ]
+    ],
+    quizAnswersOn: ['ちょう', 'く', 'ろう', 'だん'],
+    quizAnswersKun: ['こ.りる', 'いきお.い', '', 'いが']
   },
   {
     kanjiName: '摩',
@@ -134891,7 +137767,9 @@ let arr = [
         furigana: 'あんま',
         meanings: 'massage (esp. anma'
       }
-    ]
+    ],
+    quizAnswersOn: ['げん', 'こう', 'ふう', 'ま'],
+    quizAnswersKun: ['ま.する', 'よし', 'きざはし', 'おく.れる']
   },
   {
     kanjiName: '擦',
@@ -134986,7 +137864,9 @@ let arr = [
         furigana: 'れいすいまさつ',
         meanings: 'rubdown with a wet towel'
       }
-    ]
+    ],
+    quizAnswersOn: ['いん', 'はく', 'さつ', 'しょう'],
+    quizAnswersKun: ['す.る', 'わめ.く', 'かぎ.る', 'とお']
   },
   {
     kanjiName: '撲',
@@ -135056,7 +137936,9 @@ let arr = [
         furigana: 'だぼく',
         meanings: 'blow'
       }
-    ]
+    ],
+    quizAnswersOn: ['てい', 'ぼく', 'けい', 'じ'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '斉',
@@ -135152,7 +138034,9 @@ let arr = [
         furigana: 'さいこう',
         meanings: 'Saikō era (854.11.30-857.2.21)'
       }
-    ]
+    ],
+    quizAnswersOn: ['せい', 'ちょう', 'ゆう', 'はん'],
+    quizAnswersKun: ['い.く', 'そろ.う', 'あぜ', 'すべ.て']
   },
   {
     kanjiName: '旨',
@@ -135257,7 +138141,9 @@ let arr = [
         furigana: 'しゅうし',
         meanings: 'tenets (of a religious sect)'
       }
-    ]
+    ],
+    quizAnswersOn: ['し', 'り', 'さつ', 'ぎ'],
+    quizAnswersKun: ['むね', 'かえ.って', '', 'みぞ']
   },
   {
     kanjiName: '沼',
@@ -135342,7 +138228,9 @@ let arr = [
         furigana: 'ちしょう',
         meanings: 'ponds and swamps'
       }
-    ]
+    ],
+    quizAnswersOn: ['ちく', 'しょう', 'こう', 'ぼう'],
+    quizAnswersKun: ['ぬま', 'こ', 'あやま.る', '']
   },
   {
     kanjiName: '泰',
@@ -135417,7 +138305,9 @@ let arr = [
         furigana: 'にったい',
         meanings: 'Japan and Thailand'
       }
-    ]
+    ],
+    quizAnswersOn: ['たい', 'じん', 'ぞう', 'きょ'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '滅',
@@ -135507,7 +138397,9 @@ let arr = [
         furigana: 'すいめつ',
         meanings: 'decline'
       }
-    ]
+    ],
+    quizAnswersOn: ['めつ', 'ぶ', 'き', 'とう'],
+    quizAnswersKun: ['ひめ', 'む', 'くず.れる', 'ほろ.びる']
   },
   {
     kanjiName: '滋',
@@ -135587,7 +138479,9 @@ let arr = [
         furigana: 'しが',
         meanings: 'Shiga (prefecture)'
       }
-    ]
+    ],
+    quizAnswersOn: ['し', 'り', 'じ', 'こ'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '炉',
@@ -135662,7 +138556,9 @@ let arr = [
         furigana: 'こうろ',
         meanings: 'blast furnace'
       }
-    ]
+    ],
+    quizAnswersOn: ['ろ', 'もう', 'いん', 'こう'],
+    quizAnswersKun: ['う.れる', 'いろり', 'め-', 'とお.い']
   },
   {
     kanjiName: '琴',
@@ -135762,7 +138658,9 @@ let arr = [
         furigana: 'わごん',
         meanings: 'wagon'
       }
-    ]
+    ],
+    quizAnswersOn: ['ろう', 'きょう', 'きん', 'こ'],
+    quizAnswersKun: ['よ.う', 'みの.る', 'こと', 'かれ']
   },
   {
     kanjiName: '寸',
@@ -135837,7 +138735,9 @@ let arr = [
         furigana: 'がいすん',
         meanings: 'external dimensions'
       }
-    ]
+    ],
+    quizAnswersOn: ['し', 'えん', 'しん', 'すん'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '竜',
@@ -135947,7 +138847,9 @@ let arr = [
         furigana: 'こうりょう',
         meanings: 'mizuchi'
       }
-    ]
+    ],
+    quizAnswersOn: ['かく', 'ぼう', 'りゅう', 'か'],
+    quizAnswersKun: ['', 'やなぎ', 'たつ', 'せま.る']
   },
   {
     kanjiName: '縁',
@@ -136072,7 +138974,9 @@ let arr = [
         furigana: 'ないえん',
         meanings: 'de facto marriage'
       }
-    ]
+    ],
+    quizAnswersOn: ['えん', 'たく', 'さ', 'けい'],
+    quizAnswersKun: ['', 'こた.える', 'かたよ.る', 'ふち']
   },
   {
     kanjiName: '翼',
@@ -136167,7 +139071,9 @@ let arr = [
         furigana: 'うよく',
         meanings: 'right wing (politics)'
       }
-    ]
+    ],
+    quizAnswersOn: ['へい', 'よく', 'しゃく', 'し'],
+    quizAnswersKun: ['きのえ', '', 'たむろ', 'つばさ']
   },
   {
     kanjiName: '吉',
@@ -136283,7 +139189,9 @@ let arr = [
         furigana: 'もっきつ',
         meanings: 'Mohe (one of the Tungusic-speaking tribes)'
       }
-    ]
+    ],
+    quizAnswersOn: ['るい', 'きち', 'し', 'へい'],
+    quizAnswersKun: ['', 'よし', 'お.る', 'つ.ぐ']
   },
   {
     kanjiName: '刃',
@@ -136398,7 +139306,9 @@ let arr = [
         furigana: 'にんじょうざた',
         meanings: 'bloodshed'
       }
-    ]
+    ],
+    quizAnswersOn: ['じん', 'がい', 'せい', ''],
+    quizAnswersKun: ['なだ.める', '', 'は', 'さくら']
   },
   {
     kanjiName: '忍',
@@ -136498,7 +139408,9 @@ let arr = [
         furigana: 'ちゅうにん',
         meanings: 'ninja commander'
       }
-    ]
+    ],
+    quizAnswersOn: ['にん', 'ちょう', 'そう', 'よう'],
+    quizAnswersKun: ['うるお.う', 'しの.ぶ', 'やかた', 'あらそ.う']
   },
   {
     kanjiName: '桃',
@@ -136593,7 +139505,9 @@ let arr = [
         furigana: 'おうとう',
         meanings: 'yellow peach'
       }
-    ]
+    ],
+    quizAnswersOn: ['きょう', 'ばい', 'くつ', 'とう'],
+    quizAnswersKun: ['な.れる', 'もも', 'よろ.しい', 'むら']
   },
   {
     kanjiName: '侍',
@@ -136698,7 +139612,9 @@ let arr = [
         furigana: 'ないし',
         meanings: 'maid of honor'
       }
-    ]
+    ],
+    quizAnswersOn: ['か', 'きょう', 'ろう', 'じ'],
+    quizAnswersKun: ['さむらい', 'よこし.ま', '', 'む']
   },
   {
     kanjiName: '娯',
@@ -136763,7 +139679,9 @@ let arr = [
         furigana: 'ごゆう',
         meanings: 'amusement'
       }
-    ]
+    ],
+    quizAnswersOn: ['きょう', 'うん', 'ちゃ', 'ご'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '斗',
@@ -136853,7 +139771,9 @@ let arr = [
         furigana: 'ぎとう',
         meanings: 'stage combat'
       }
-    ]
+    ],
+    quizAnswersOn: ['だん', 'と', 'か', 'とく'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '朱',
@@ -136938,7 +139858,9 @@ let arr = [
         furigana: 'ぎんしゅ',
         meanings: 'vermilion (pigment)'
       }
-    ]
+    ],
+    quizAnswersOn: ['しゅ', 'さい', 'きょう', 'ちん'],
+    quizAnswersKun: ['あけ', 'あまつ', '', 'もど.す']
   },
   {
     kanjiName: '丘',
@@ -137033,7 +139955,9 @@ let arr = [
         furigana: 'さきゅう',
         meanings: 'sand dune'
       }
-    ]
+    ],
+    quizAnswersOn: ['せい', 'きゅう', 'ひつ', 'かん'],
+    quizAnswersKun: ['', 'おか', 'とも', 'やわ.らか']
   },
   {
     kanjiName: '梨',
@@ -137086,7 +140010,9 @@ let arr = [
         furigana: 'あじゃり',
         meanings: 'high monk (esp. one of correct conduct who acts as a role model for his pupils)'
       }
-    ]
+    ],
+    quizAnswersOn: ['じ', 'とう', 'り', 'てい'],
+    quizAnswersKun: ['しめ.る', 'くろ', 'なし', 'と.める']
   },
   {
     kanjiName: '僕',
@@ -137171,7 +140097,9 @@ let arr = [
         furigana: 'どうぼく',
         meanings: 'young male servant'
       }
-    ]
+    ],
+    quizAnswersOn: ['りょう', 'せん', 'けん', 'ぼく'],
+    quizAnswersKun: ['しもべ', 'ほどこ.す', 'す', 'もっぱ.ら']
   },
   {
     kanjiName: '釣',
@@ -137272,7 +140200,9 @@ let arr = [
         furigana: 'ばくちょう',
         meanings: 'big catch (of fish)'
       }
-    ]
+    ],
+    quizAnswersOn: ['おん', 'ゆう', 'ちょう', 'じょ'],
+    quizAnswersKun: ['つ.る', 'たけ', 'しき.りに', 'お.く']
   },
   {
     kanjiName: '嵐',
@@ -137320,7 +140250,9 @@ let arr = [
         furigana: 'すいらん',
         meanings: 'the sense of being engulfed in a green'
       }
-    ]
+    ],
+    quizAnswersOn: ['らん', 'おう', 'きん', 'ぼう'],
+    quizAnswersKun: ['あらし', 'と.う', 'そそ.る', 'かい']
   },
   {
     kanjiName: '姫',
@@ -137405,7 +140337,9 @@ let arr = [
         furigana: 'ちょうき',
         meanings: "one's favorite mistress"
       }
-    ]
+    ],
+    quizAnswersOn: ['か', 'ご', 'き', 'し'],
+    quizAnswersKun: ['ひめ', 'ひだり', 'しぶ', 'しず-']
   },
   {
     kanjiName: '棚',
@@ -137480,7 +140414,9 @@ let arr = [
         furigana: 'りくだな',
         meanings: 'continental shelf'
       }
-    ]
+    ],
+    quizAnswersOn: ['ろう', 'ほう', 'どく', 'しん'],
+    quizAnswersKun: ['たな', 'ともえ', 'たつ', 'は.く']
   },
   {
     kanjiName: '砲',
@@ -137555,7 +140491,9 @@ let arr = [
         furigana: 'はくげきほう',
         meanings: 'mortar'
       }
-    ]
+    ],
+    quizAnswersOn: ['ほう', 'こう', 'ろう', 'かん'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '雷',
@@ -137665,7 +140603,9 @@ let arr = [
         furigana: 'かいらい',
         meanings: 'frontal thunderstorm'
       }
-    ]
+    ],
+    quizAnswersOn: ['けい', 'し', 'らい', 'い'],
+    quizAnswersKun: ['かみなり', 'と.ける', 'ほね', 'まる.い']
   },
   {
     kanjiName: '芽',
@@ -137760,7 +140700,9 @@ let arr = [
         furigana: 'むせいが',
         meanings: 'gemma'
       }
-    ]
+    ],
+    quizAnswersOn: ['が', 'へい', 'ひ', 'りょう'],
+    quizAnswersKun: ['い.やす', 'ひとつ', 'め', 'みぞ']
   },
   {
     kanjiName: '澄',
@@ -137845,7 +140787,9 @@ let arr = [
         furigana: 'めいちょう',
         meanings: 'lucid'
       }
-    ]
+    ],
+    quizAnswersOn: ['けい', 'とう', 'しょう', 'ちょう'],
+    quizAnswersKun: ['くろがね', 'す.む', '', 'たい']
   },
   {
     kanjiName: '矛',
@@ -137930,7 +140874,9 @@ let arr = [
         furigana: 'むじゅんげんり',
         meanings: 'principle of contradiction'
       }
-    ]
+    ],
+    quizAnswersOn: ['かい', 'む', 'じょう', 'すい'],
+    quizAnswersKun: ['か.る', 'こころ.みる', 'く.しき', 'ほこ']
   },
   {
     kanjiName: '鐘',
@@ -138025,7 +140971,9 @@ let arr = [
         furigana: 'めいしょう',
         meanings: 'bell-ringing (at a temple)'
       }
-    ]
+    ],
+    quizAnswersOn: ['あん', 'かく', 'はい', 'しょう'],
+    quizAnswersKun: ['', 'とむら.う', 'かね', 'なや.む']
   },
   {
     kanjiName: '凶',
@@ -138100,7 +141048,9 @@ let arr = [
         furigana: 'だいきょう',
         meanings: 'terrible luck'
       }
-    ]
+    ],
+    quizAnswersOn: ['じゅう', 'しゃ', 'しょう', 'きょう'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '塊',
@@ -138195,7 +141145,9 @@ let arr = [
         furigana: 'さんかい',
         meanings: 'mountain mass'
       }
-    ]
+    ],
+    quizAnswersOn: ['じ', 'さい', 'かい', 'なつ'],
+    quizAnswersKun: ['い.える', 'つつし.む', 'うお', 'かたまり']
   },
   {
     kanjiName: '狩',
@@ -138285,7 +141237,9 @@ let arr = [
         furigana: 'じゅんしゅ',
         meanings: 'Imperial visit'
       }
-    ]
+    ],
+    quizAnswersOn: ['きつ', 'しゅ', 'ご', 'かい'],
+    quizAnswersKun: ['か.る', 'い.きる', 'そそ.る', '']
   },
   {
     kanjiName: '魂',
@@ -138400,7 +141354,9 @@ let arr = [
         furigana: 'にゅうこん',
         meanings: "putting one's heart and soul (into)"
       }
-    ]
+    ],
+    quizAnswersOn: ['へき', 'みん', 'こん', 'ちゅう'],
+    quizAnswersKun: ['ひ', 'も.る', 'おき', 'たましい']
   },
   {
     kanjiName: '脚',
@@ -138510,7 +141466,9 @@ let arr = [
         furigana: 'かくびょう',
         meanings: 'beriberi'
       }
-    ]
+    ],
+    quizAnswersOn: ['こう', 'じん', 'げん', 'きゃく'],
+    quizAnswersKun: ['いえ', 'さえぎ.る', 'しぼ.る', 'あし']
   },
   {
     kanjiName: '也',
@@ -138543,7 +141501,9 @@ let arr = [
         furigana: 'やぎょう',
         meanings: 'the ya column of the Japanese syllabary table ya'
       }
-    ]
+    ],
+    quizAnswersOn: ['じつ', 'きょう', 'つい', 'や'],
+    quizAnswersKun: ['なり', 'は.ねる', 'たね', 'ま.す']
   },
   {
     kanjiName: '井',
@@ -138638,7 +141598,9 @@ let arr = [
         furigana: 'せいせい',
         meanings: 'well-ordered'
       }
-    ]
+    ],
+    quizAnswersOn: ['るい', 'せい', 'ちょ', 'ちゅう'],
+    quizAnswersKun: ['い', 'かべ', 'つ.く', 'かつ.ぐ']
   },
   {
     kanjiName: '嬢',
@@ -138723,7 +141685,9 @@ let arr = [
         furigana: 'あいじょう',
         meanings: "one's beloved daughter"
       }
-    ]
+    ],
+    quizAnswersOn: ['じょう', 'し', 'しょ', 'がん'],
+    quizAnswersKun: ['ところ', 'こた.える', 'むすめ', 'く.ちる']
   },
   {
     kanjiName: '暦',
@@ -138828,7 +141792,9 @@ let arr = [
         furigana: 'こうりゃく',
         meanings: 'Kōryaku era (of the Northern Court; 1379.3.22-1381.2.24)'
       }
-    ]
+    ],
+    quizAnswersOn: ['さい', 'れき', 'し', 'こ'],
+    quizAnswersKun: ['あざ.やか', 'こよみ', 'まな.ぶ', '']
   },
   {
     kanjiName: '眺',
@@ -138898,7 +141864,9 @@ let arr = [
         furigana: 'ちょうぼうけん',
         meanings: 'right to a view'
       }
-    ]
+    ],
+    quizAnswersOn: ['こう', 'とう', 'ちょう', 'しん'],
+    quizAnswersKun: ['い', 'おお.い', 'なが.める', 'むく.いる']
   },
   {
     kanjiName: '裸',
@@ -138993,7 +141961,9 @@ let arr = [
         furigana: 'せきら',
         meanings: 'stark naked'
       }
-    ]
+    ],
+    quizAnswersOn: ['めい', 'ら', 'さい', 'しん'],
+    quizAnswersKun: ['まわ.る', 'はだか', 'たな', 'のぞ.む']
   },
   {
     kanjiName: '塾',
@@ -139068,7 +142038,9 @@ let arr = [
         furigana: 'にゅうじゅく',
         meanings: 'enrolling at a cram school'
       }
-    ]
+    ],
+    quizAnswersOn: ['じ', 'きょう', 'ろう', 'じゅく'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '卓',
@@ -139143,7 +142115,9 @@ let arr = [
         furigana: 'おんせいちょうせいたく',
         meanings: 'mixing board (console'
       }
-    ]
+    ],
+    quizAnswersOn: ['たく', 'しょう', 'もう', 'こ'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '菌',
@@ -139218,7 +142192,9 @@ let arr = [
         furigana: 'こうきん',
         meanings: 'antibacterial'
       }
-    ]
+    ],
+    quizAnswersOn: ['じ', 'ぐう', 'たつ', 'きん'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '陰',
@@ -139318,7 +142294,9 @@ let arr = [
         furigana: 'がいいん',
         meanings: 'vulva'
       }
-    ]
+    ],
+    quizAnswersOn: ['きん', 'いん', 'はく', 'あい'],
+    quizAnswersKun: ['', 'かげ', 'ひく.い', 'ひそ.か']
   },
   {
     kanjiName: '霊',
@@ -139423,7 +142401,9 @@ let arr = [
         furigana: 'あらしょうりょう',
         meanings: 'spirit of someone on the first Obon after their death'
       }
-    ]
+    ],
+    quizAnswersOn: ['けん', 'れい', 'どう', 'ち'],
+    quizAnswersKun: ['ほ.す', 'たま', 'おろ.す', 'あら.い']
   },
   {
     kanjiName: '稼',
@@ -139498,7 +142478,9 @@ let arr = [
         furigana: 'かせぎ',
         meanings: 'earnings'
       }
-    ]
+    ],
+    quizAnswersOn: ['う', 'せん', 'か', 'あい'],
+    quizAnswersKun: ['おも.う', 'あわ.れむ', 'あや.しい', 'かせ.ぐ']
   },
   {
     kanjiName: '嫁',
@@ -139598,7 +142580,9 @@ let arr = [
         furigana: 'さいか',
         meanings: 'remarriage (of a woman)'
       }
-    ]
+    ],
+    quizAnswersOn: ['か', 'ぜん', 'しゅ', 'ちく'],
+    quizAnswersKun: ['よめ', 'はがね', 'ゆみ', 'うれ.しい']
   },
   {
     kanjiName: '溝',
@@ -139693,7 +142677,9 @@ let arr = [
         furigana: 'かいこう',
         meanings: 'oceanic trench'
       }
-    ]
+    ],
+    quizAnswersOn: ['み', 'えん', 'げん', 'こう'],
+    quizAnswersKun: ['うら.む', 'こし', 'たす.ける', 'みぞ']
   },
   {
     kanjiName: '滝',
@@ -139768,7 +142754,9 @@ let arr = [
         furigana: 'かれたき',
         meanings: 'dried up waterfall'
       }
-    ]
+    ],
+    quizAnswersOn: ['まい', 'ろう', 'しゅく', 'けい'],
+    quizAnswersKun: ['う.つ', 'たき', 'しろ', '']
   },
   {
     kanjiName: '狂',
@@ -139858,7 +142846,9 @@ let arr = [
         furigana: 'そうきょう',
         meanings: 'frenzy'
       }
-    ]
+    ],
+    quizAnswersOn: ['げん', 'ねん', 'きょう', 'ふつ'],
+    quizAnswersKun: ['は.たす', 'くる.う', 'まね.く', '']
   },
   {
     kanjiName: '翔',
@@ -139896,7 +142886,9 @@ let arr = [
         furigana: 'きょうしょう',
         meanings: 'flying race (between pigeons)'
       }
-    ]
+    ],
+    quizAnswersOn: ['しょう', 'へい', 'こう', 'りょう'],
+    quizAnswersKun: ['の.る', 'もんめ', 'はな', 'かけ.る']
   },
   {
     kanjiName: '墨',
@@ -139991,7 +142983,9 @@ let arr = [
         furigana: 'すいぼく',
         meanings: 'water and ink'
       }
-    ]
+    ],
+    quizAnswersOn: ['えん', 'もん', 'ぼく', 'けい'],
+    quizAnswersKun: ['おど.る', 'やぶ.る', 'ほこ.る', 'すみ']
   },
   {
     kanjiName: '鳩',
@@ -140049,7 +143043,9 @@ let arr = [
         furigana: 'くはんだ',
         meanings: 'Kumbhanda'
       }
-    ]
+    ],
+    quizAnswersOn: ['きゅう', 'きゅう', 'かい', 'きつ'],
+    quizAnswersKun: ['たす.ける', 'はと', '', 'の.む']
   },
   {
     kanjiName: '穏',
@@ -140129,7 +143125,9 @@ let arr = [
         furigana: 'ぶじへいおん',
         meanings: 'peace and quiet'
       }
-    ]
+    ],
+    quizAnswersOn: ['だん', 'えん', 'おん', 'ばい'],
+    quizAnswersKun: ['', 'みぞ', 'おだ.やか', 'とぼ.しい']
   },
   {
     kanjiName: '魔',
@@ -140204,7 +143202,9 @@ let arr = [
         furigana: 'あま',
         meanings: 'Buddhist nun'
       }
-    ]
+    ],
+    quizAnswersOn: ['ま', 'けい', 'きゅう', 'ぼう'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '寮',
@@ -140279,7 +143279,9 @@ let arr = [
         furigana: 'めおせいりょう',
         meanings: 'co-ed dormitory'
       }
-    ]
+    ],
+    quizAnswersOn: ['りょう', 'か', 'はち', 'ざつ'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '盆',
@@ -140354,7 +143356,9 @@ let arr = [
         furigana: 'かいぼん',
         meanings: 'ocean basin'
       }
-    ]
+    ],
+    quizAnswersOn: ['ゆ', 'てつ', 'そん', 'ぼん'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '棟',
@@ -140449,7 +143453,9 @@ let arr = [
         furigana: 'じょうとう',
         meanings: 'raising the ridgepole'
       }
-    ]
+    ],
+    quizAnswersOn: ['さい', 'ぼう', 'めい', 'とう'],
+    quizAnswersKun: ['むね', 'し.める', 'あい-', 'かた']
   },
   {
     kanjiName: '寧',
@@ -140529,7 +143535,9 @@ let arr = [
         furigana: 'せいねい',
         meanings: 'peace'
       }
-    ]
+    ],
+    quizAnswersOn: ['', 'ねい', 'どう', 'えん'],
+    quizAnswersKun: ['いた', '', 'むし.ろ', 'あわ.せる']
   },
   {
     kanjiName: '猿',
@@ -140624,7 +143632,9 @@ let arr = [
         furigana: 'こえん',
         meanings: 'lone monkey'
       }
-    ]
+    ],
+    quizAnswersOn: ['よう', 'あん', 'きん', 'えん'],
+    quizAnswersKun: ['さる', 'おも.う', 'くるま', '']
   },
   {
     kanjiName: '瞳',
@@ -140667,7 +143677,9 @@ let arr = [
         furigana: 'さんどう',
         meanings: 'mydriasis'
       }
-    ]
+    ],
+    quizAnswersOn: ['どう', 'ぼう', 'こ', 'はつ'],
+    quizAnswersKun: ['ひとみ', 'ひじり', '', 'ひいらぎ']
   },
   {
     kanjiName: '碁',
@@ -140742,7 +143754,9 @@ let arr = [
         furigana: 'あいご',
         meanings: 'go played by two equally skilled players'
       }
-    ]
+    ],
+    quizAnswersOn: ['ご', 'まん', 'ろ', 'とう'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '租',
@@ -140817,7 +143831,9 @@ let arr = [
         furigana: 'こうそ',
         meanings: 'annual tax'
       }
-    ]
+    ],
+    quizAnswersOn: ['しょう', 'はつ', 'そ', 'ご'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '幽',
@@ -140907,7 +143923,9 @@ let arr = [
         furigana: 'きゆう',
         meanings: 'death'
       }
-    ]
+    ],
+    quizAnswersOn: ['ゆう', 'さい', 'けつ', 'せん'],
+    quizAnswersKun: ['-べ', 'おもんぱく.る', 'ふか.い', 'つね']
   },
   {
     kanjiName: '泡',
@@ -141002,7 +144020,9 @@ let arr = [
         furigana: 'きほう',
         meanings: '(air) bubble (esp. in a liquid)'
       }
-    ]
+    ],
+    quizAnswersOn: ['ほう', 'とう', 'と', 'か'],
+    quizAnswersKun: ['あわ', 'いくさ', 'かな.しい', 'たみ']
   },
   {
     kanjiName: '癖',
@@ -141102,7 +144122,9 @@ let arr = [
         furigana: 'とうへき',
         meanings: 'propensity to steal'
       }
-    ]
+    ],
+    quizAnswersOn: ['じ', 'き', 'よく', 'へき'],
+    quizAnswersKun: ['くせ', 'ふち', 'さっ.と', '']
   },
   {
     kanjiName: '鍛',
@@ -141172,7 +144194,9 @@ let arr = [
         furigana: 'たんきん',
         meanings: 'hammering'
       }
-    ]
+    ],
+    quizAnswersOn: ['だ', 'たん', 'きょう', 'りん'],
+    quizAnswersKun: ['あわ', 'よ', 'きた.える', 'わ']
   },
   {
     kanjiName: '錬',
@@ -141257,7 +144281,9 @@ let arr = [
         furigana: 'せいれん',
         meanings: 'refining'
       }
-    ]
+    ],
+    quizAnswersOn: ['くん', 'せき', 'おう', 'れん'],
+    quizAnswersKun: ['しら.げる', 'つる', 'ね.る', 'なえ']
   },
   {
     kanjiName: '穂',
@@ -141352,7 +144378,9 @@ let arr = [
         furigana: 'ばくすい',
         meanings: 'ear of wheat'
       }
-    ]
+    ],
+    quizAnswersOn: ['かく', 'すい', 'しゅう', 'じょう'],
+    quizAnswersKun: ['なが.める', 'おとず.れる', 'きみ', 'ほ']
   },
   {
     kanjiName: '帝',
@@ -141442,7 +144470,9 @@ let arr = [
         furigana: 'たいてい',
         meanings: 'great emperor'
       }
-    ]
+    ],
+    quizAnswersOn: ['そ', 'てい', 'てん', 'ほう'],
+    quizAnswersKun: ['はこ.ぶ', 'みかど', 'うかが.う', '']
   },
   {
     kanjiName: '瞬',
@@ -141532,7 +144562,9 @@ let arr = [
         furigana: 'てんしゅん',
         meanings: 'blink of an eye'
       }
-    ]
+    ],
+    quizAnswersOn: ['ひ', 'けつ', 'しゅん', 'ちょう'],
+    quizAnswersKun: ['', 'またた.く', 'くちびる', 'はじ.めて']
   },
   {
     kanjiName: '菊',
@@ -141607,7 +144639,9 @@ let arr = [
         furigana: 'よきこときく',
         meanings: 'dyeing pattern with a yoki'
       }
-    ]
+    ],
+    quizAnswersOn: ['きん', 'かつ', 'きく', 'かん'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '誇',
@@ -141677,7 +144711,9 @@ let arr = [
         furigana: 'こだい',
         meanings: 'exaggeration'
       }
-    ]
+    ],
+    quizAnswersOn: ['り', 'どう', 'こ', 'きょう'],
+    quizAnswersKun: ['ほこ.る', 'かたち', '', 'えら.ぶ']
   },
   {
     kanjiName: '庄',
@@ -141725,7 +144761,9 @@ let arr = [
         furigana: 'しょうえん',
         meanings: 'manor'
       }
-    ]
+    ],
+    quizAnswersOn: ['ぎん', 'じ', 'しょう', 'きょう'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '阻',
@@ -141805,7 +144843,9 @@ let arr = [
         furigana: 'にんしんおそ',
         meanings: 'hyperemesis gravidarum'
       }
-    ]
+    ],
+    quizAnswersOn: ['ふ', 'そう', 'そ', 'は'],
+    quizAnswersKun: ['た.つ', 'さきがけ', 'はば.む', 'あたた.か']
   },
   {
     kanjiName: '黙',
@@ -141885,7 +144925,9 @@ let arr = [
         furigana: 'おんこうかもく',
         meanings: 'gentle and reticent'
       }
-    ]
+    ],
+    quizAnswersOn: ['じょく', 'もく', 'しゃ', 'こう'],
+    quizAnswersKun: ['ふせ.ぐ', 'しか', 'だま.る', 'かえで']
   },
   {
     kanjiName: '俵',
@@ -141970,7 +145012,9 @@ let arr = [
         furigana: 'はつどひょう',
         meanings: 'first tournament for a wrestler'
       }
-    ]
+    ],
+    quizAnswersOn: ['ひょう', 'か', 'せき', 'らん'],
+    quizAnswersKun: ['は', 'たわら', 'すす.ぐ', 'つ.ぐ']
   },
   {
     kanjiName: '架',
@@ -142055,7 +145099,9 @@ let arr = [
         furigana: 'たんか',
         meanings: 'stretcher'
       }
-    ]
+    ],
+    quizAnswersOn: ['しょう', 'か', 'ひょう', 'すい'],
+    quizAnswersKun: ['か.ける', 'すな', 'なまり', 'か.ける']
   },
   {
     kanjiName: '砕',
@@ -142140,7 +145186,9 @@ let arr = [
         furigana: 'ぎょくさい',
         meanings: 'honorable death'
       }
-    ]
+    ],
+    quizAnswersOn: ['けい', 'はん', 'ろ', 'さい'],
+    quizAnswersKun: ['あな', 'たき', 'くだ.く', 'とら']
   },
   {
     kanjiName: '粘',
@@ -142210,7 +145258,9 @@ let arr = [
         furigana: 'ねんど',
         meanings: 'clay'
       }
-    ]
+    ],
+    quizAnswersOn: ['ねん', 'ぼう', 'どん', 'ちょく'],
+    quizAnswersKun: ['いこ.い', 'かな', '', 'ねば.る']
   },
   {
     kanjiName: '欺',
@@ -142290,7 +145340,9 @@ let arr = [
         furigana: 'かくうせいきゅうさぎ',
         meanings: 'fraud based on demanding payment for false claims or non-existent bills'
       }
-    ]
+    ],
+    quizAnswersOn: ['かん', 'ひん', 'ぎ', 'なん'],
+    quizAnswersKun: ['ともえ', '', 'くり', 'あざむ.く']
   },
   {
     kanjiName: '詐',
@@ -142370,7 +145422,9 @@ let arr = [
         furigana: 'きっさ',
         meanings: 'falsehood'
       }
-    ]
+    ],
+    quizAnswersOn: ['さ', 'いち', 'てい', 'じ'],
+    quizAnswersKun: ['つばさ', 'いつわ.る', 'は.じる', 'さいわ.い']
   },
   {
     kanjiName: '霧',
@@ -142470,7 +145524,9 @@ let arr = [
         furigana: 'れんぶ',
         meanings: 'wax apple (Syzygium samarangense)'
       }
-    ]
+    ],
+    quizAnswersOn: ['ぐ', 'かん', 'じゅつ', 'む'],
+    quizAnswersKun: ['さ.く', 'やしろ', 'め', 'きり']
   },
   {
     kanjiName: '柳',
@@ -142565,7 +145621,9 @@ let arr = [
         furigana: 'かりゅう',
         meanings: 'red-light district'
       }
-    ]
+    ],
+    quizAnswersOn: ['ぼん', 'しょう', 'りゅう', 'じょ'],
+    quizAnswersKun: ['ひたい', '', 'やなぎ', 'あ.う']
   },
   {
     kanjiName: '伊',
@@ -142599,7 +145657,9 @@ let arr = [
         meanings:
           'Kii (former province located in present-day Wakayama and southern Mie prefectures)'
       }
-    ]
+    ],
+    quizAnswersOn: ['ろん', 'しょう', 'ひょう', 'い'],
+    quizAnswersKun: ['かわ', 'ほ', 'かれ', 'おさ.える']
   },
   {
     kanjiName: '佐',
@@ -142674,7 +145734,9 @@ let arr = [
         furigana: 'にさ',
         meanings: 'lieutenant colonel (JGSDF)'
       }
-    ]
+    ],
+    quizAnswersOn: ['しゅ', 'さ', 'さ', 'ゆう'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '尺',
@@ -142774,7 +145836,9 @@ let arr = [
         furigana: 'しせき',
         meanings: 'very short distance'
       }
-    ]
+    ],
+    quizAnswersOn: ['しゃく', 'おつ', 'らく', 'さい'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '哀',
@@ -142869,7 +145933,9 @@ let arr = [
         furigana: 'あいあい',
         meanings: 'deeply sad'
       }
-    ]
+    ],
+    quizAnswersOn: ['かく', 'あい', 'こう', 'とく'],
+    quizAnswersKun: ['つね', 'あわ.れ', 'こ.える', 'さわ.る']
   },
   {
     kanjiName: '唇',
@@ -142964,7 +146030,9 @@ let arr = [
         furigana: 'うわくちびる',
         meanings: 'upper lip'
       }
-    ]
+    ],
+    quizAnswersOn: ['せい', 'ちゅう', 'しん', 'じょう'],
+    quizAnswersKun: ['うし', 'つつ', 'くちびる', 'み.ちる']
   },
   {
     kanjiName: '塀',
@@ -143039,7 +146107,9 @@ let arr = [
         furigana: 'たかべい',
         meanings: 'tall fence'
       }
-    ]
+    ],
+    quizAnswersOn: ['へい', 'い', 'ぎん', 'たく'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '墜',
@@ -143119,7 +146189,9 @@ let arr = [
         furigana: 'にんきしっつい',
         meanings: 'decline in public favor'
       }
-    ]
+    ],
+    quizAnswersOn: ['すい', 'えん', 'かん', 'つい'],
+    quizAnswersKun: ['お.ちる', 'しお', 'はじ.め', '']
   },
   {
     kanjiName: '如',
@@ -143219,7 +146291,9 @@ let arr = [
         furigana: 'けいえいいちにょ',
         meanings: 'being inseparable as a form and its shadow'
       }
-    ]
+    ],
+    quizAnswersOn: ['じょ', 'せん', 'もく', 'がい'],
+    quizAnswersKun: ['ささ.える', 'ひい.でる', 'はす', 'ごと.し']
   },
   {
     kanjiName: '婆',
@@ -143334,7 +146408,9 @@ let arr = [
         furigana: 'たんぽ',
         meanings: 'hot-water bottle'
       }
-    ]
+    ],
+    quizAnswersOn: ['ば', 'きょう', 'じゃく', 'が'],
+    quizAnswersKun: ['ばば', 'ま.く', '', 'い.える']
   },
   {
     kanjiName: '幣',
@@ -143437,7 +146513,9 @@ let arr = [
         furigana: 'すいへい',
         meanings: 'decline'
       }
-    ]
+    ],
+    quizAnswersOn: ['ぞう', 'へい', 'がん', 'しょ'],
+    quizAnswersKun: ['あらそ.う', 'とりで', 'ぬさ', 'え']
   },
   {
     kanjiName: '恨',
@@ -143522,7 +146600,9 @@ let arr = [
         furigana: 'いしゅいこん',
         meanings: 'grudge'
       }
-    ]
+    ],
+    quizAnswersOn: ['わい', 'こん', 'や', 'あく'],
+    quizAnswersKun: ['うら.む', 'か.ける', '', 'これ']
   },
   {
     kanjiName: '憩',
@@ -143612,7 +146692,9 @@ let arr = [
         furigana: 'いっぷくきゅうけい',
         meanings: 'tea (coffee'
       }
-    ]
+    ],
+    quizAnswersOn: ['べん', 'どん', 'こう', 'けい'],
+    quizAnswersKun: ['たに', 'いこ.い', 'ただ.す', 'わら']
   },
   {
     kanjiName: '扇',
@@ -143707,7 +146789,9 @@ let arr = [
         furigana: 'かろとうせん',
         meanings: 'summer fires and winter fans'
       }
-    ]
+    ],
+    quizAnswersOn: ['せん', 'ご', 'せん', 'けい'],
+    quizAnswersKun: ['むつ.まじい', 'おうぎ', 'しま', 'みが.く']
   },
   {
     kanjiName: '扉',
@@ -143792,7 +146876,9 @@ let arr = [
         furigana: 'しょうかいひ',
         meanings: 'opening a door for a moment (esp. on the train'
       }
-    ]
+    ],
+    quizAnswersOn: ['ひ', 'い', 'う', 'とう'],
+    quizAnswersKun: ['は.る', 'とびら', '', 'ほし']
   },
   {
     kanjiName: '挿',
@@ -143877,7 +146963,9 @@ let arr = [
         furigana: 'ないそう',
         meanings: 'interpolation'
       }
-    ]
+    ],
+    quizAnswersOn: ['ぎょ', 'しょう', 'ぼう', 'そう'],
+    quizAnswersKun: ['さ.す', 'やさ.しい', 'はたがしら', 'あた.り']
   },
   {
     kanjiName: '掌',
@@ -143972,7 +147060,9 @@ let arr = [
         furigana: 'おうしょう',
         meanings: 'being busy with'
       }
-    ]
+    ],
+    quizAnswersOn: ['ぼく', 'びん', 'こく', 'しょう'],
+    quizAnswersKun: ['てのひら', '', 'あわ.れ', 'あけ']
   },
   {
     kanjiName: '炊',
@@ -144052,7 +147142,9 @@ let arr = [
         furigana: 'ほうすい',
         meanings: 'cooking by boiling'
       }
-    ]
+    ],
+    quizAnswersOn: ['せい', 'ろ', 'こん', 'すい'],
+    quizAnswersKun: ['かが.やく', 'た.く', '', 'み']
   },
   {
     kanjiName: '爽',
@@ -144090,7 +147182,9 @@ let arr = [
         furigana: 'ごうそう',
         meanings: 'fine disposition'
       }
-    ]
+    ],
+    quizAnswersOn: ['きゅう', 'そう', 'かん', 'れい'],
+    quizAnswersKun: ['う.える', 'か.える', 'あき.らか', 'あ.う']
   },
   {
     kanjiName: '瞭',
@@ -144118,7 +147212,9 @@ let arr = [
         furigana: 'かんたんめいりょう',
         meanings: 'simple and clear'
       }
-    ]
+    ],
+    quizAnswersOn: ['りょう', 'さい', 'ぜつ', 'せん'],
+    quizAnswersKun: ['つよ.い', 'みね', 'つつし.む', 'あきらか']
   },
   {
     kanjiName: '胴',
@@ -144193,7 +147289,9 @@ let arr = [
         furigana: 'だいどう',
         meanings: 'dado (part of a pedestal between the base and the cornice)'
       }
-    ]
+    ],
+    quizAnswersOn: ['ひ', 'げん', 'どう', 'たい'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '虹',
@@ -144246,7 +147344,9 @@ let arr = [
         furigana: 'げっこう',
         meanings: 'moonbow'
       }
-    ]
+    ],
+    quizAnswersOn: ['こん', 'しん', 'こう', 'じゅ'],
+    quizAnswersKun: ['にじ', '', 'たす.ける', 'こころ']
   },
   {
     kanjiName: '帳',
@@ -144331,7 +147431,9 @@ let arr = [
         furigana: 'だいちょう',
         meanings: 'account book'
       }
-    ]
+    ],
+    quizAnswersOn: ['ちょう', 'めい', 'い', 'ちょう'],
+    quizAnswersKun: ['さ.える', 'とばり', 'か.つ', '']
   },
   {
     kanjiName: '蚊',
@@ -144421,7 +147523,9 @@ let arr = [
         furigana: 'かなぶん',
         meanings: 'drone beetle (scarabaeid beetle) (Rhomborrhina japonica)'
       }
-    ]
+    ],
+    quizAnswersOn: ['な', 'い', 'らん', 'ぶん'],
+    quizAnswersKun: ['よし', 'ふき', 'か', 'あき.らか']
   },
   {
     kanjiName: '蛇',
@@ -144541,7 +147645,9 @@ let arr = [
         furigana: 'いい',
         meanings: 'winding'
       }
-    ]
+    ],
+    quizAnswersOn: ['がん', 'しん', 'がく', 'じゃ'],
+    quizAnswersKun: ['まこと', 'けず.る', 'つき', 'へび']
   },
   {
     kanjiName: '辱',
@@ -144621,7 +147727,9 @@ let arr = [
         furigana: 'えいじょく',
         meanings: 'honor and-or shame (honour)'
       }
-    ]
+    ],
+    quizAnswersOn: ['えん', 'かん', 'じょく', 'ちょく'],
+    quizAnswersKun: ['まれ', 'はずかし.める', 'いのち', 'わざ']
   },
   {
     kanjiName: '鉢',
@@ -144706,7 +147814,9 @@ let arr = [
         furigana: 'いはつ',
         meanings: "mysteries of one's master's art"
       }
-    ]
+    ],
+    quizAnswersOn: ['きょう', 'ちょう', 'そ', 'はち'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '霜',
@@ -144801,7 +147911,9 @@ let arr = [
         furigana: 'いくせいそう',
         meanings: 'many months and years'
       }
-    ]
+    ],
+    quizAnswersOn: ['ほう', 'そう', 'か', 'じゅん'],
+    quizAnswersKun: ['ひさ.しい', 'うち', 'しも', '']
   },
   {
     kanjiName: '飢',
@@ -144871,7 +147983,9 @@ let arr = [
         furigana: 'ききん',
         meanings: 'famine'
       }
-    ]
+    ],
+    quizAnswersOn: ['こう', 'さい', 'ぼ', 'き'],
+    quizAnswersKun: ['みじか.い', 'なえ', 'くら', 'う.える']
   },
   {
     kanjiName: '餓',
@@ -144941,7 +148055,9 @@ let arr = [
         furigana: 'がき',
         meanings: 'brat'
       }
-    ]
+    ],
+    quizAnswersOn: ['かく', 'が', 'いき', 'えい'],
+    quizAnswersKun: ['は', 'う.える', 'あぜ', 'み']
   },
   {
     kanjiName: '迅',
@@ -145011,7 +148127,9 @@ let arr = [
         furigana: 'ふんじん',
         meanings: 'rousing oneself fiercely'
       }
-    ]
+    ],
+    quizAnswersOn: ['こう', 'けい', 'ご', 'じん'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '騎',
@@ -145086,7 +148204,9 @@ let arr = [
         furigana: 'よりき',
         meanings: 'police sergeant (Edo period)'
       }
-    ]
+    ],
+    quizAnswersOn: ['あい', 'とう', 'き', 'ほん'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '蓄',
@@ -145166,7 +148286,9 @@ let arr = [
         furigana: 'がんちく',
         meanings: 'implication'
       }
-    ]
+    ],
+    quizAnswersOn: ['ちく', 'かん', 'そ', 'しょう'],
+    quizAnswersKun: ['さけ', 'たくわ.える', 'の.む', 'しら.べる']
   },
   {
     kanjiName: '尽',
@@ -145274,7 +148396,9 @@ let arr = [
         furigana: 'じゅうおうむじん',
         meanings: 'freely'
       }
-    ]
+    ],
+    quizAnswersOn: ['じん', 'しん', 'ひ', 'しつ'],
+    quizAnswersKun: ['あ.げる', 'つ.くす', 'み.ちる', 'つくえ']
   },
   {
     kanjiName: '彩',
@@ -145354,7 +148478,9 @@ let arr = [
         furigana: 'こうさい',
         meanings: 'brilliance'
       }
-    ]
+    ],
+    quizAnswersOn: ['ほう', 'けい', 'たく', 'さい'],
+    quizAnswersKun: ['あつ.い', 'いた.る', '', 'いろど.る']
   },
   {
     kanjiName: '憶',
@@ -145429,7 +148555,9 @@ let arr = [
         furigana: 'ばっふぁきおく',
         meanings: 'buffer storage'
       }
-    ]
+    ],
+    quizAnswersOn: ['だい', 'おく', 'そ', 'ご'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '耐',
@@ -145504,7 +148632,9 @@ let arr = [
         furigana: 'ふたい',
         meanings: 'intolerance (to food'
       }
-    ]
+    ],
+    quizAnswersOn: ['さ', 'かつ', 'きゅう', 'たい'],
+    quizAnswersKun: ['ひら.く', 'た.える', 'す.てる', 'うち']
   },
   {
     kanjiName: '輝',
@@ -145589,7 +148719,9 @@ let arr = [
         furigana: 'きき',
         meanings: 'brilliant (of light)'
       }
-    ]
+    ],
+    quizAnswersOn: ['き', 'べつ', 'ぎゃく', 'がい'],
+    quizAnswersKun: ['こうむ.る', 'かつ.ぐ', 'おと-', 'かがや.く']
   },
   {
     kanjiName: '脅',
@@ -145674,7 +148806,9 @@ let arr = [
         furigana: 'いきょう',
         meanings: 'threat'
       }
-    ]
+    ],
+    quizAnswersOn: ['じ', 'きょう', 'ふ', 'とく'],
+    quizAnswersKun: ['お.う', 'おびや.かす', '', 'はたら.く']
   },
   {
     kanjiName: '麻',
@@ -145774,7 +148908,9 @@ let arr = [
         furigana: 'まーじゃん',
         meanings: 'mahjong'
       }
-    ]
+    ],
+    quizAnswersOn: ['ま', 'こう', 'ふつ', 'しょ'],
+    quizAnswersKun: ['しずか', 'あさ', 'たちばな', 'しず-']
   },
   {
     kanjiName: '培',
@@ -145854,7 +148990,9 @@ let arr = [
         furigana: 'そくせいさいばい',
         meanings: 'forcing (plants'
       }
-    ]
+    ],
+    quizAnswersOn: ['ぜ', 'ばい', 'い', 'や'],
+    quizAnswersKun: ['あかがね', 'せ', 'しら.べる', 'つちか.う']
   },
   {
     kanjiName: '悔',
@@ -145944,7 +149082,9 @@ let arr = [
         furigana: 'こうりょうゆうかい',
         meanings: 'the arrogant dragon will have cause to repent'
       }
-    ]
+    ],
+    quizAnswersOn: ['かい', 'たい', 'そん', 'けん'],
+    quizAnswersKun: ['かたな', 'わ.く', 'く.いる', '']
   },
   {
     kanjiName: '遂',
@@ -146024,7 +149164,9 @@ let arr = [
         furigana: 'きすい',
         meanings: 'already finished (action)'
       }
-    ]
+    ],
+    quizAnswersOn: ['ご', 'きゅう', 'ばい', 'すい'],
+    quizAnswersKun: ['', 'なまり', 'と.げる', 'み']
   },
   {
     kanjiName: '班',
@@ -146099,7 +149241,9 @@ let arr = [
         furigana: 'しゅざいはん',
         meanings: 'team of reporters'
       }
-    ]
+    ],
+    quizAnswersOn: ['けい', 'はん', 'い', 'しょう'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '斜',
@@ -146194,7 +149338,9 @@ let arr = [
         furigana: 'へんしゃ',
         meanings: 'declination'
       }
-    ]
+    ],
+    quizAnswersOn: ['のう', 'しょう', 'しゃ', 'そく'],
+    quizAnswersKun: ['なな.め', 'かる.い', 'はま', 'みや.び']
   },
   {
     kanjiName: '殴',
@@ -146269,7 +149415,9 @@ let arr = [
         furigana: 'おうさつ',
         meanings: 'beating to death'
       }
-    ]
+    ],
+    quizAnswersOn: ['しゃ', 'ふう', 'おう', 'ぼう'],
+    quizAnswersKun: ['あめ', 'こ', 'なぐ.る', 'つぐな.う']
   },
   {
     kanjiName: '盾',
@@ -146354,7 +149502,9 @@ let arr = [
         furigana: 'けいようむじゅん',
         meanings: 'contradictio in adjecto'
       }
-    ]
+    ],
+    quizAnswersOn: ['りょく', 'ぐん', 'いん', 'じゅん'],
+    quizAnswersKun: ['みやこ', 'たて', 'まち', 'もう.ける']
   },
   {
     kanjiName: '穫',
@@ -146414,7 +149564,9 @@ let arr = [
         furigana: 'きぼにかんするしゅうかく',
         meanings: 'returns to scale'
       }
-    ]
+    ],
+    quizAnswersOn: ['そん', 'かん', 'かく', 'き'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '駒',
@@ -146452,7 +149604,9 @@ let arr = [
         furigana: 'さんく',
         meanings: 'horse offspring'
       }
-    ]
+    ],
+    quizAnswersOn: ['そう', 'く', 'しょう', 'てい'],
+    quizAnswersKun: ['ふし', 'こま', '', 'かま']
   },
   {
     kanjiName: '紫',
@@ -146547,7 +149701,9 @@ let arr = [
         furigana: 'きゅうし',
         meanings: 'ninth of nine traditional astrological signs (corresponding to Mars and south)'
       }
-    ]
+    ],
+    quizAnswersOn: ['そ', 'おん', 'し', 'こ'],
+    quizAnswersKun: ['', 'あまつさえ', 'むらさき', 'はこ.ぶ']
   },
   {
     kanjiName: '抽',
@@ -146612,7 +149768,9 @@ let arr = [
         furigana: 'ちゅうしゅつ',
         meanings: 'extraction'
       }
-    ]
+    ],
+    quizAnswersOn: ['ゆ', 'おう', 'しょう', 'ちゅう'],
+    quizAnswersKun: ['ひき-', 'つく.る', '', 'い.きる']
   },
   {
     kanjiName: '誓',
@@ -146692,7 +149850,9 @@ let arr = [
         furigana: 'ぎせい',
         meanings: 'perjury'
       }
-    ]
+    ],
+    quizAnswersOn: ['こう', 'せい', 'とう', 'おう'],
+    quizAnswersKun: ['み.ちる', '', 'もち.いる', 'ちか.う']
   },
   {
     kanjiName: '悟',
@@ -146772,7 +149932,9 @@ let arr = [
         furigana: 'えいご',
         meanings: 'intelligent'
       }
-    ]
+    ],
+    quizAnswersOn: ['ご', 'ぜん', 'こう', 'てい'],
+    quizAnswersKun: ['こ.りる', 'な.げる', 'さと.る', 'か.える']
   },
   {
     kanjiName: '拓',
@@ -146852,7 +150014,9 @@ let arr = [
         furigana: 'みかいたく',
         meanings: 'undeveloped (area)'
       }
-    ]
+    ],
+    quizAnswersOn: ['み', 'たく', 'ぐう', 'こん'],
+    quizAnswersKun: ['にしき', 'ひら.く', '', 'こ.る']
   },
   {
     kanjiName: '拘',
@@ -146922,7 +150086,9 @@ let arr = [
         furigana: 'こうきん',
         meanings: 'detention'
       }
-    ]
+    ],
+    quizAnswersOn: ['こう', 'けい', 'きゅう', 'こう'],
+    quizAnswersKun: ['くま', 'ひと', 'かか.わる', 'おもり']
   },
   {
     kanjiName: '礎',
@@ -147007,7 +150173,9 @@ let arr = [
         furigana: 'ちゅうそ',
         meanings: 'plinth'
       }
-    ]
+    ],
+    quizAnswersOn: ['まつ', 'かく', 'そ', 'し'],
+    quizAnswersKun: ['つち', 'まる', 'いしずえ', 'な.い']
   },
   {
     kanjiName: '鶴',
@@ -147060,7 +150228,9 @@ let arr = [
         furigana: 'かんうんやかく',
         meanings: 'life in natural setting'
       }
-    ]
+    ],
+    quizAnswersOn: ['こう', 'ちょう', 'ろ', 'かく'],
+    quizAnswersKun: ['た.める', 'つる', 'すじ', '']
   },
   {
     kanjiName: '刈',
@@ -147135,7 +150305,9 @@ let arr = [
         furigana: 'がいじょ',
         meanings: 'removal'
       }
-    ]
+    ],
+    quizAnswersOn: ['がい', 'しゅ', 'かん', 'かい'],
+    quizAnswersKun: ['こわ.す', '', 'か.る', 'え']
   },
   {
     kanjiName: '剛',
@@ -147210,7 +150382,9 @@ let arr = [
         furigana: 'こんごう',
         meanings: 'vajra (indestructible substance)'
       }
-    ]
+    ],
+    quizAnswersOn: ['てい', 'こう', 'ごう', 'しゅう'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '唯',
@@ -147300,7 +150474,9 @@ let arr = [
         furigana: 'いい',
         meanings: 'obedient'
       }
-    ]
+    ],
+    quizAnswersOn: ['い', 'てい', 'きょく', 'ゆい'],
+    quizAnswersKun: ['ただ', 'ひど.い', 'つくえ', 'す.る']
   },
   {
     kanjiName: '壇',
@@ -147380,7 +150556,9 @@ let arr = [
         furigana: 'こくたん',
         meanings: 'ebony'
       }
-    ]
+    ],
+    quizAnswersOn: ['じゅう', 'だん', 'こう', 'こ'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '尼',
@@ -147465,7 +150643,9 @@ let arr = [
         furigana: 'しゅうどうに',
         meanings: 'nun'
       }
-    ]
+    ],
+    quizAnswersOn: ['ばん', 'み', 'しん', 'に'],
+    quizAnswersKun: ['ゆき', 'え', 'つね', 'あま']
   },
   {
     kanjiName: '概',
@@ -147545,7 +150725,9 @@ let arr = [
         furigana: 'きがい',
         meanings: 'strong spirit'
       }
-    ]
+    ],
+    quizAnswersOn: ['しょう', 'ちょう', 'けん', 'がい'],
+    quizAnswersKun: ['', 'しめ.す', 'なんじ', 'おおむ.ね']
   },
   {
     kanjiName: '浸',
@@ -147635,7 +150817,9 @@ let arr = [
         furigana: 'えきしん',
         meanings: 'immersion'
       }
-    ]
+    ],
+    quizAnswersOn: ['ぼく', 'じゃ', 'しん', 'しょく'],
+    quizAnswersKun: ['ふる.う', 'あま.い', 'ひた.す', 'ぬす.む']
   },
   {
     kanjiName: '淡',
@@ -147715,7 +150899,9 @@ let arr = [
         furigana: 'へいたん',
         meanings: 'simple'
       }
-    ]
+    ],
+    quizAnswersOn: ['ど', 'れつ', 'たん', 'こく'],
+    quizAnswersKun: ['はこ.ぶ', 'め.す', 'おもむ.ろに', 'あわ.い']
   },
   {
     kanjiName: '煮',
@@ -147800,7 +150986,9 @@ let arr = [
         furigana: 'しゃふつき',
         meanings: 'scalder'
       }
-    ]
+    ],
+    quizAnswersOn: ['けん', 'しゃ', 'えい', 'さ'],
+    quizAnswersKun: ['ふえ', 'くだん', 'に.る', 'あき.らか']
   },
   {
     kanjiName: '覆',
@@ -147890,7 +151078,9 @@ let arr = [
         furigana: 'けいふく',
         meanings: 'turning upside down'
       }
-    ]
+    ],
+    quizAnswersOn: ['こう', 'ふく', 'きん', 'ふ'],
+    quizAnswersKun: ['ただ.し', 'も.える', 'おお.う', 'と.う']
   },
   {
     kanjiName: '謀',
@@ -148004,7 +151194,9 @@ let arr = [
         furigana: 'むへん',
         meanings: 'plotting to overthrow the government (by assassinating the emperor)'
       }
-    ]
+    ],
+    quizAnswersOn: ['ちょう', 'たい', 'ぼう', 'こう'],
+    quizAnswersKun: ['はか.る', 'あこが.れる', '', 'つゆ']
   },
   {
     kanjiName: '陶',
@@ -148090,7 +151282,9 @@ let arr = [
         furigana: 'さくとう',
         meanings: 'porcelain making'
       }
-    ]
+    ],
+    quizAnswersOn: ['りつ', 'とう', 'ひ', 'き'],
+    quizAnswersKun: ['いずみ', 'みや', '', 'すえ']
   },
   {
     kanjiName: '隔',
@@ -148175,7 +151369,9 @@ let arr = [
         furigana: 'じゅうかく',
         meanings: 'mediastinum'
       }
-    ]
+    ],
+    quizAnswersOn: ['かく', 'ちょう', 'しん', 'さい'],
+    quizAnswersKun: ['', 'ふ.れる', 'へだ.てる', 'ほう']
   },
   {
     kanjiName: '征',
@@ -148250,7 +151446,9 @@ let arr = [
         furigana: 'ちょうせい',
         meanings: 'lengthy military expedition'
       }
-    ]
+    ],
+    quizAnswersOn: ['せい', 'だん', 'よう', 'こう'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '陛',
@@ -148315,7 +151513,9 @@ let arr = [
         furigana: 'へいえい',
         meanings: 'Imperial guard'
       }
-    ]
+    ],
+    quizAnswersOn: ['ちゅう', 'げん', 'くん', 'へい'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '俗',
@@ -148390,7 +151590,9 @@ let arr = [
         furigana: 'ていぞく',
         meanings: 'vulgar'
       }
-    ]
+    ],
+    quizAnswersOn: ['ぞく', 'ずい', 'けい', 'じゅ'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '桑',
@@ -148470,7 +151672,9 @@ let arr = [
         furigana: 'ふそう',
         meanings: 'divine tree or island east of China (in Chinese mythology)'
       }
-    ]
+    ],
+    quizAnswersOn: ['そう', 'こう', 'さん', 'ふ'],
+    quizAnswersKun: ['くわ', 'あな', 'き.る', 'さわ']
   },
   {
     kanjiName: '潤',
@@ -148560,7 +151764,9 @@ let arr = [
         furigana: 'ほうじゅん',
         meanings: 'mellow (flavor or fragrance'
       }
-    ]
+    ],
+    quizAnswersOn: ['じゅん', 'よう', 'どう', 'きん'],
+    quizAnswersKun: ['うるお.う', '', 'あ.えて', 'こし']
   },
   {
     kanjiName: '珠',
@@ -148650,7 +151856,9 @@ let arr = [
         furigana: 'そうかいのいしゅ',
         meanings: 'talented person unbeknownst to the world'
       }
-    ]
+    ],
+    quizAnswersOn: ['まん', 'ぼう', 'もう', 'しゅ'],
+    quizAnswersKun: ['', 'ぬす.む', 'たま', 'うと.い']
   },
   {
     kanjiName: '衰',
@@ -148730,7 +151938,9 @@ let arr = [
         furigana: 'せいすい',
         meanings: 'rise and fall'
       }
-    ]
+    ],
+    quizAnswersOn: ['びょう', 'ぜん', 'りん', 'すい'],
+    quizAnswersKun: ['おとろ.える', 'ひいらぎ', 'あき', 'す.る']
   },
   {
     kanjiName: '奨',
@@ -148810,7 +152020,9 @@ let arr = [
         furigana: 'すいしょう',
         meanings: 'recommendation'
       }
-    ]
+    ],
+    quizAnswersOn: ['しょう', 'せつ', 'じ', 'てい'],
+    quizAnswersKun: ['わらわ', 'ぬす.む', 'すす.める', 'なぎさ']
   },
   {
     kanjiName: '劣',
@@ -148890,7 +152102,9 @@ let arr = [
         furigana: 'せつれつ',
         meanings: 'clumsy'
       }
-    ]
+    ],
+    quizAnswersOn: ['れつ', 'せい', 'かん', 'ひ'],
+    quizAnswersKun: ['おと.る', 'ひか.る', 'はな.す', 'ち']
   },
   {
     kanjiName: '勘',
@@ -148965,7 +152179,9 @@ let arr = [
         furigana: 'ちょっかん',
         meanings: "the emperor's censure"
       }
-    ]
+    ],
+    quizAnswersOn: ['こん', 'が', 'かん', 'ねい'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '妃',
@@ -149045,7 +152261,9 @@ let arr = [
         furigana: 'おうたいひ',
         meanings: 'crown princess'
       }
-    ]
+    ],
+    quizAnswersOn: ['ちょう', 'にち', 'ひ', 'はん'],
+    quizAnswersKun: ['いし', 'きさき', 'から.む', 'いりえ']
   },
   {
     kanjiName: '峰',
@@ -149145,7 +152363,9 @@ let arr = [
         furigana: 'こうほう',
         meanings: 'high mountain'
       }
-    ]
+    ],
+    quizAnswersOn: ['そう', 'きょう', 'てん', 'ほう'],
+    quizAnswersKun: ['みね', 'いわ', 'こ.える', '']
   },
   {
     kanjiName: '巧',
@@ -149235,7 +152455,9 @@ let arr = [
         furigana: 'たいこう',
         meanings: 'great talent'
       }
-    ]
+    ],
+    quizAnswersOn: ['どう', 'ど', 'こう', 'げん'],
+    quizAnswersKun: ['しろがね', 'いや.しい', 'にし', 'たく.み']
   },
   {
     kanjiName: '邪',
@@ -149320,7 +152542,9 @@ let arr = [
         furigana: 'はじゃ',
         meanings: '(sense of) crushing evil'
       }
-    ]
+    ],
+    quizAnswersOn: ['がい', 'げき', 'じゃ', 'せい'],
+    quizAnswersKun: ['みじか.い', 'よこし.ま', 'かり', '']
   },
   {
     kanjiName: '駄',
@@ -149405,7 +152629,9 @@ let arr = [
         furigana: 'たかげた',
         meanings: 'tall wooden clogs'
       }
-    ]
+    ],
+    quizAnswersOn: ['か', 'き', 'どう', 'だ'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '廷',
@@ -149480,7 +152706,9 @@ let arr = [
         furigana: 'へいてい',
         meanings: 'adjourning court'
       }
-    ]
+    ],
+    quizAnswersOn: ['せい', 'てい', 'こう', 'ぼう'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '簿',
@@ -149555,7 +152783,9 @@ let arr = [
         furigana: 'じょうきゃくめいぼ',
         meanings: 'list of passengers'
       }
-    ]
+    ],
+    quizAnswersOn: ['じょう', 'ぼ', 'ゆ', 'えい'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '彰',
@@ -149631,7 +152861,9 @@ let arr = [
         furigana: 'ひょうしょう',
         meanings: '(official) commendation'
       }
-    ]
+    ],
+    quizAnswersOn: ['き', 'しょう', 'か', 'てん'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '漫',
@@ -149721,7 +152953,9 @@ let arr = [
         furigana: 'ろうまん',
         meanings: 'romance (e.g. Arthurian romances)'
       }
-    ]
+    ],
+    quizAnswersOn: ['さく', 'まん', 'ばい', 'こう'],
+    quizAnswersKun: ['たね', '', 'みだり.に', 'し.れる']
   },
   {
     kanjiName: '訂',
@@ -149801,7 +153035,9 @@ let arr = [
         furigana: 'だいかいてい',
         meanings: 'major revision'
       }
-    ]
+    ],
+    quizAnswersOn: ['じょう', 'てい', 'ちょ', 'こう'],
+    quizAnswersKun: ['', 'ただ.す', 'おお.い', 'あま']
   },
   {
     kanjiName: '諮',
@@ -149871,7 +153107,9 @@ let arr = [
         furigana: 'しぎ',
         meanings: 'consultation'
       }
-    ]
+    ],
+    quizAnswersOn: ['し', 'こん', 'ばつ', 'かく'],
+    quizAnswersKun: ['たま.う', 'まゆ', 'とな.える', 'はか.る']
   },
   {
     kanjiName: '銘',
@@ -149946,7 +153184,9 @@ let arr = [
         furigana: 'しょうめい',
         meanings: 'inscription on a temple bell'
       }
-    ]
+    ],
+    quizAnswersOn: ['ちょう', 'めい', 'でん', 'まん'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '堤',
@@ -150031,7 +153271,9 @@ let arr = [
         furigana: 'しんけいてい',
         meanings: 'neural crest'
       }
-    ]
+    ],
+    quizAnswersOn: ['しゅく', 'てい', 'しゅう', 'りつ'],
+    quizAnswersKun: ['やと.う', 'つつみ', 'お-', 'あら.い']
   },
   {
     kanjiName: '漂',
@@ -150111,7 +153353,9 @@ let arr = [
         furigana: 'ふひょう',
         meanings: 'floating'
       }
-    ]
+    ],
+    quizAnswersOn: ['しん', 'てい', 'ひょう', 'しゅう'],
+    quizAnswersKun: ['ただよ.う', 'ほのお', 'ゆばり', '']
   },
   {
     kanjiName: '翻',
@@ -150196,7 +153440,9 @@ let arr = [
         furigana: 'ほんこく',
         meanings: 'reprinting (of a book)'
       }
-    ]
+    ],
+    quizAnswersOn: ['きゅう', 'ほん', 'れい', 'ぶつ'],
+    quizAnswersKun: ['ひるがえ.る', 'みず', 'はば', 'ひき-']
   },
   {
     kanjiName: '軌',
@@ -150271,7 +153517,9 @@ let arr = [
         furigana: 'きょうき',
         meanings: 'narrow gauge'
       }
-    ]
+    ],
+    quizAnswersOn: ['へい', 'き', 'し', 'いん'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '后',
@@ -150356,7 +153604,9 @@ let arr = [
         furigana: 'たいこう',
         meanings: 'empress dowager'
       }
-    ]
+    ],
+    quizAnswersOn: ['ちょう', 'ばつ', 'こう', 'げん'],
+    quizAnswersKun: ['きさき', 'はこ', 'おおづな', 'とり']
   },
   {
     kanjiName: '奮',
@@ -150431,7 +153681,9 @@ let arr = [
         furigana: 'せいてきこうふん',
         meanings: 'sexual arousal'
       }
-    ]
+    ],
+    quizAnswersOn: ['とう', 'りゅう', 'ふん', 'きょう'],
+    quizAnswersKun: ['さかい', 'ふる.う', 'こずえ', 'あけぼの']
   },
   {
     kanjiName: '亭',
@@ -150520,7 +153772,9 @@ let arr = [
         furigana: 'てい',
         meanings: 'arbor'
       }
-    ]
+    ],
+    quizAnswersOn: ['ちょう', 'せき', 'かつ', 'てい'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '仰',
@@ -150640,7 +153894,9 @@ let arr = [
         furigana: 'きんぎょう',
         meanings: 'reverence'
       }
-    ]
+    ],
+    quizAnswersOn: ['せん', 'ぶん', 'おう', 'ぎょう'],
+    quizAnswersKun: ['つき', 'ふね', 'むぎ', 'あお.ぐ']
   },
   {
     kanjiName: '伯',
@@ -150715,7 +153971,9 @@ let arr = [
         furigana: 'いはく',
         meanings: 'doctor'
       }
-    ]
+    ],
+    quizAnswersOn: ['り', 'はく', 'だん', 'こう'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '墳',
@@ -150790,7 +154048,9 @@ let arr = [
         furigana: 'ほうふん',
         meanings: 'flat-topped burial mound'
       }
-    ]
+    ],
+    quizAnswersOn: ['わん', 'ふん', 'だい', 'ざい'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '壮',
@@ -150870,7 +154130,9 @@ let arr = [
         furigana: 'きょうそう',
         meanings: 'able-bodied'
       }
-    ]
+    ],
+    quizAnswersOn: ['しん', 'そう', 'そう', 'さい'],
+    quizAnswersKun: ['さかん', '', 'く.る', 'くわ.える']
   },
   {
     kanjiName: '把',
@@ -150955,7 +154217,9 @@ let arr = [
         furigana: 'いちわ',
         meanings: 'bundle'
       }
-    ]
+    ],
+    quizAnswersOn: ['は', 'かく', 'ぼう', 'しょう'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '搬',
@@ -151020,7 +154284,9 @@ let arr = [
         furigana: 'はんそう',
         meanings: 'transportation'
       }
-    ]
+    ],
+    quizAnswersOn: ['さく', 'はん', 'きょう', 'てん'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '晶',
@@ -151095,7 +154361,9 @@ let arr = [
         furigana: 'がいしょう',
         meanings: 'hopper crystal'
       }
-    ]
+    ],
+    quizAnswersOn: ['せき', 'しょう', 'ひ', 'かつ'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '洞',
@@ -151180,7 +154448,9 @@ let arr = [
         furigana: 'ふうどう',
         meanings: 'wind tunnel'
       }
-    ]
+    ],
+    quizAnswersOn: ['さつ', 'どう', 'まん', 'ぐん'],
+    quizAnswersKun: ['ほら', 'あらわ.れる', 'あし', 'つぐな.う']
   },
   {
     kanjiName: '涯',
@@ -151250,7 +154520,9 @@ let arr = [
         furigana: 'すいがい',
         meanings: "water's edge"
       }
-    ]
+    ],
+    quizAnswersOn: ['えい', 'ちょう', 'がい', 'がい'],
+    quizAnswersKun: ['まった.く', 'かさ', 'はて', 'なんぞ']
   },
   {
     kanjiName: '疫',
@@ -151335,7 +154607,9 @@ let arr = [
         furigana: 'えきじん',
         meanings: 'god who spreads infectious diseases'
       }
-    ]
+    ],
+    quizAnswersOn: ['えき', 'ひょう', 'にち', 'きょう'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '孔',
@@ -151435,7 +154709,9 @@ let arr = [
         furigana: 'こうし',
         meanings: 'Confucius'
       }
-    ]
+    ],
+    quizAnswersOn: ['どう', 'てん', 'こう', 'ゆう'],
+    quizAnswersKun: ['あな', 'せ.める', 'ゆえ', '']
   },
   {
     kanjiName: '邸',
@@ -151515,7 +154791,9 @@ let arr = [
         furigana: 'こうてい',
         meanings: 'official residence'
       }
-    ]
+    ],
+    quizAnswersOn: ['かい', 'てい', 'せん', 'きゅう'],
+    quizAnswersKun: ['', 'おさ.める', 'ただ', 'やしき']
   },
   {
     kanjiName: '郡',
@@ -151600,7 +154878,9 @@ let arr = [
         furigana: 'こくぐん',
         meanings: 'provinces and districts'
       }
-    ]
+    ],
+    quizAnswersOn: ['ぐん', 'さく', 'き', 'えい'],
+    quizAnswersKun: ['こおり', 'あら.い', 'たの.む', 'か.つ']
   },
   {
     kanjiName: '釈',
@@ -151680,7 +154960,9 @@ let arr = [
         furigana: 'しゃくぜん',
         meanings: 'fully satisfied (with an explanation'
       }
-    ]
+    ],
+    quizAnswersOn: ['ほう', 'ちょう', 'しゃく', 'ち'],
+    quizAnswersKun: ['とく', 'やさ.しい', 'きわ.める', 'あそ.ぶ']
   },
   {
     kanjiName: '肪',
@@ -151745,7 +155027,9 @@ let arr = [
         furigana: 'どうぶつせいしぼう',
         meanings: 'animal fat'
       }
-    ]
+    ],
+    quizAnswersOn: ['けい', 'えん', 'ぼう', 'らい'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '喚',
@@ -151825,7 +155109,9 @@ let arr = [
         furigana: 'あびきょうかん',
         meanings: 'agonizing cries'
       }
-    ]
+    ],
+    quizAnswersOn: ['し', 'こう', 'じゅん', 'かん'],
+    quizAnswersKun: ['わめ.く', 'き.える', 'じゅん.じる', 'きた.える']
   },
   {
     kanjiName: '媛',
@@ -151853,7 +155139,9 @@ let arr = [
         furigana: 'さいえん',
         meanings: 'literary woman'
       }
-    ]
+    ],
+    quizAnswersOn: ['けい', 'えん', 'し', 'まい'],
+    quizAnswersKun: ['つくろ.う', 'あきらか', 'ひめ', 'す']
   },
   {
     kanjiName: '貞',
@@ -151943,7 +155231,9 @@ let arr = [
         furigana: 'じょうおう',
         meanings: 'Jōō era (1222.4.13-1224.11.20)'
       }
-    ]
+    ],
+    quizAnswersOn: ['ぶ', 'てい', 'かつ', 'に'],
+    quizAnswersKun: ['', 'もっぱ.ら', 'みやこ', 'さだ']
   },
   {
     kanjiName: '玄',
@@ -152023,7 +155313,9 @@ let arr = [
         furigana: 'ゆうげん',
         meanings: 'mysterious profundity'
       }
-    ]
+    ],
+    quizAnswersOn: ['ひ', 'げん', 'ぼう', 'ふ'],
+    quizAnswersKun: ['のこ.す', 'た.える', 'みかど', 'くろ']
   },
   {
     kanjiName: '苗',
@@ -152133,7 +155425,9 @@ let arr = [
         furigana: 'とうみょう',
         meanings: 'pea sprouts'
       }
-    ]
+    ],
+    quizAnswersOn: ['びょう', 'こ', 'かく', 'しん'],
+    quizAnswersKun: ['わざ', 'なえ', 'あきらか', 'きさき']
   },
   {
     kanjiName: '渦',
@@ -152228,7 +155522,9 @@ let arr = [
         furigana: 'きょくうず',
         meanings: 'polar vortex'
       }
-    ]
+    ],
+    quizAnswersOn: ['きん', 'ご', 'でん', 'か'],
+    quizAnswersKun: ['かた.める', 'うず', 'みみ', 'くわ']
   },
   {
     kanjiName: '慈',
@@ -152308,7 +155604,9 @@ let arr = [
         furigana: 'じんじ',
         meanings: 'kind-hearted'
       }
-    ]
+    ],
+    quizAnswersOn: ['ほう', 'じ', 'れい', 'そ'],
+    quizAnswersKun: ['いつく.しむ', 'しずく', 'ところ', '']
   },
   {
     kanjiName: '襟',
@@ -152403,7 +155701,9 @@ let arr = [
         furigana: 'かいきん',
         meanings: 'unbuttoning a collar'
       }
-    ]
+    ],
+    quizAnswersOn: ['る', 'たつ', 'きん', 'せい'],
+    quizAnswersKun: ['まず.しい', 'えり', 'おさ.める', 'あぜ']
   },
   {
     kanjiName: '蓮',
@@ -152461,7 +155761,9 @@ let arr = [
         furigana: 'おうれん',
         meanings: 'goldthread (Coptis japonica)'
       }
-    ]
+    ],
+    quizAnswersOn: ['かく', 'しゅう', 'れん', 'へい'],
+    quizAnswersKun: ['つぐな.う', 'はす', 'おさな.い', 'つつ.む']
   },
   {
     kanjiName: '亮',
@@ -152489,7 +155791,9 @@ let arr = [
         furigana: 'りゅうりょう',
         meanings: 'clear and resounding (as a voice or musical instrument)'
       }
-    ]
+    ],
+    quizAnswersOn: ['はん', 'りょう', 'か', 'よう'],
+    quizAnswersKun: ['おのれ', 'あ.げる', 'あきらか', 'はら']
   },
   {
     kanjiName: '聡',
@@ -152517,7 +155821,9 @@ let arr = [
         furigana: 'そうびん',
         meanings: 'sagacity'
       }
-    ]
+    ],
+    quizAnswersOn: ['かん', 'そう', 'けん', 'き'],
+    quizAnswersKun: ['さと.い', 'ぬさ', 'てすり', 'うたげ']
   },
   {
     kanjiName: '浦',
@@ -152597,7 +155903,9 @@ let arr = [
         furigana: 'きょくほ',
         meanings: 'winding coast (beach)'
       }
-    ]
+    ],
+    quizAnswersOn: ['ほ', 'けい', 'かん', 'わ'],
+    quizAnswersKun: ['わらわ', 'ご', 'うら', 'はげ.む']
   },
   {
     kanjiName: '塚',
@@ -152672,7 +155980,9 @@ let arr = [
         furigana: 'ばいちょう',
         meanings: 'subsidiary burial mound (Kofun period)'
       }
-    ]
+    ],
+    quizAnswersOn: ['じょう', 'しん', 'き', 'ちょう'],
+    quizAnswersKun: ['の.る', 'わけ', 'つか', '']
   },
   {
     kanjiName: '陥',
@@ -152757,7 +156067,9 @@ let arr = [
         furigana: 'ちゅういけっかん',
         meanings: 'attention deficit'
       }
-    ]
+    ],
+    quizAnswersOn: ['ぼう', 'い', 'かん', 'しょ'],
+    quizAnswersKun: ['すもも', 'うやま.う', 'うかが.う', 'おちい.る']
   },
   {
     kanjiName: '貫',
@@ -152857,7 +156169,9 @@ let arr = [
         furigana: 'じゅうかん',
         meanings: 'running through'
       }
-    ]
+    ],
+    quizAnswersOn: ['ば', 'ぎゃく', 'かん', 'しん'],
+    quizAnswersKun: ['つらぬ.く', 'か.ける', 'ただ.す', 'かがや.き']
   },
   {
     kanjiName: '覇',
@@ -152932,7 +156246,9 @@ let arr = [
         furigana: 'はつせいは',
         meanings: 'first victory'
       }
-    ]
+    ],
+    quizAnswersOn: ['よく', 'じゅん', 'たく', 'は'],
+    quizAnswersKun: ['', 'おと.る', 'はたがしら', 'まなこ']
   },
   {
     kanjiName: '呂',
@@ -152985,7 +156301,9 @@ let arr = [
         furigana: 'ちゅうりょ',
         meanings: '(in China) 6th note of the ancient chromatic scale (approx. G)'
       }
-    ]
+    ],
+    quizAnswersOn: ['ろ', 'ぐん', 'りゅう', 'つい'],
+    quizAnswersKun: ['', 'おど.す', 'た', 'せぼね']
   },
   {
     kanjiName: '擁',
@@ -153060,7 +156378,9 @@ let arr = [
         furigana: 'あいよう',
         meanings: 'embrace'
       }
-    ]
+    ],
+    quizAnswersOn: ['よう', 'こう', 'はい', 'しゃ'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '孤',
@@ -153130,7 +156450,9 @@ let arr = [
         furigana: 'いこ',
         meanings: 'orphan'
       }
-    ]
+    ],
+    quizAnswersOn: ['ゆう', 'こ', 'しょう', 'ちゅう'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '賠',
@@ -153200,7 +156522,9 @@ let arr = [
         furigana: 'そんばい',
         meanings: 'restitution'
       }
-    ]
+    ],
+    quizAnswersOn: ['だい', 'こ', 'ばい', 'かく'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '鎖',
@@ -153300,7 +156624,9 @@ let arr = [
         furigana: 'がっきゅうへいさ',
         meanings: 'temporary closing of classes'
       }
-    ]
+    ],
+    quizAnswersOn: ['し', 'ら', 'さ', 'たい'],
+    quizAnswersKun: ['にく.む', '', 'くさり', 'かんが.える']
   },
   {
     kanjiName: '噴',
@@ -153380,7 +156706,9 @@ let arr = [
         furigana: 'じふん',
         meanings: 'gushing forth (e.g. of oil)'
       }
-    ]
+    ],
+    quizAnswersOn: ['たい', 'せい', 'ぼ', 'ふん'],
+    quizAnswersKun: ['こと', '', 'す.べて', 'ふ.く']
   },
   {
     kanjiName: '祥',
@@ -153455,7 +156783,9 @@ let arr = [
         furigana: 'せいしょう',
         meanings: 'happiness and health'
       }
-    ]
+    ],
+    quizAnswersOn: ['てい', 'しょう', 'ぼ', 'び'],
+    quizAnswersKun: ['さいわ.い', 'ひく.い', '', 'つか.う']
   },
   {
     kanjiName: '牲',
@@ -153509,7 +156839,9 @@ let arr = [
         meaning: 'plug'
       }
     ],
-    usedIn: []
+    usedIn: [],
+    quizAnswersOn: ['ゆう', 'おう', 'せい', 'ろ'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '秩',
@@ -153574,7 +156906,9 @@ let arr = [
         furigana: 'ちつじょいじ',
         meanings: 'maintaining order (e.g. in a courtroom)'
       }
-    ]
+    ],
+    quizAnswersOn: ['ぎ', 'りゃく', 'ちつ', 'ち'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '唆',
@@ -153644,7 +156978,9 @@ let arr = [
         furigana: 'きょうさ',
         meanings: 'instigation'
       }
-    ]
+    ],
+    quizAnswersOn: ['や', 'けん', 'さ', 'そう'],
+    quizAnswersKun: ['かえ.す', 'かく.す', 'ため', 'そそ.る']
   },
   {
     kanjiName: '膨',
@@ -153724,7 +157060,9 @@ let arr = [
         furigana: 'かいぼう',
         meanings: 'rise'
       }
-    ]
+    ],
+    quizAnswersOn: ['えい', 'ぼう', 'てい', 'だん'],
+    quizAnswersKun: ['ま.つ', 'ふく.らむ', 'わら', 'もっ.て']
   },
   {
     kanjiName: '芳',
@@ -153804,7 +157142,9 @@ let arr = [
         furigana: 'よほう',
         meanings: 'lingering fragrance'
       }
-    ]
+    ],
+    quizAnswersOn: ['ほう', 'じ', 'りょう', 'し'],
+    quizAnswersKun: ['おさ.える', 'かんば.しい', 'まち', '']
   },
   {
     kanjiName: '恒',
@@ -153874,7 +157214,9 @@ let arr = [
         furigana: 'こうきゅう',
         meanings: 'permanence'
       }
-    ]
+    ],
+    quizAnswersOn: ['けん', 'こう', 'ぼ', 'しょう'],
+    quizAnswersKun: ['', 'や', 'つね', 'おもむき']
   },
   {
     kanjiName: '倫',
@@ -153949,7 +157291,9 @@ let arr = [
         furigana: 'ごりん',
         meanings: 'the five Confucian filial-piety relationships'
       }
-    ]
+    ],
+    quizAnswersOn: ['か', 'りん', 'せい', 'ひ'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '陳',
@@ -154029,7 +157373,9 @@ let arr = [
         furigana: 'ぐちん',
         meanings: 'report in detail'
       }
-    ]
+    ],
+    quizAnswersOn: ['ちん', 'れい', 'しゅう', 'ふつ'],
+    quizAnswersKun: ['おか', 'いつわ.る', 'あめ', 'ひ.ねる']
   },
   {
     kanjiName: '須',
@@ -154078,7 +157424,9 @@ let arr = [
         furigana: 'しゅみせん',
         meanings: 'Mount Sumeru (believed to be the centre of the Buddhist world)'
       }
-    ]
+    ],
+    quizAnswersOn: ['よう', 'は', 'す', 'きょ'],
+    quizAnswersKun: ['ち', 'かい', '', 'すべから.く']
   },
   {
     kanjiName: '偏',
@@ -154158,7 +157506,9 @@ let arr = [
         furigana: 'かいへん',
         meanings: 'shell radical at left'
       }
-    ]
+    ],
+    quizAnswersOn: ['ご', 'せい', 'だん', 'へん'],
+    quizAnswersKun: ['かたよ.る', 'み.る', 'ひま', 'あ.きる']
   },
   {
     kanjiName: '遇',
@@ -154238,7 +157588,9 @@ let arr = [
         furigana: 'ゆうぐう',
         meanings: 'favorable treatment'
       }
-    ]
+    ],
+    quizAnswersOn: ['ぐう', 'ちょう', 'ぼう', 'こう'],
+    quizAnswersKun: ['うま', 'ひとみ', 'よ', 'あ.う']
   },
   {
     kanjiName: '糧',
@@ -154333,7 +157685,9 @@ let arr = [
         furigana: 'ひょうろう',
         meanings: '(army) provisions'
       }
-    ]
+    ],
+    quizAnswersOn: ['きょ', 'さく', 'りょう', 'こう'],
+    quizAnswersKun: ['くに', 'かて', 'つむぎ', 'かた.る']
   },
   {
     kanjiName: '殊',
@@ -154413,7 +157767,9 @@ let arr = [
         furigana: 'とくしゅ',
         meanings: 'special'
       }
-    ]
+    ],
+    quizAnswersOn: ['しゅ', 'てい', 'かん', 'じ'],
+    quizAnswersKun: ['めずら.しい', 'こと', '', 'まれ']
   },
   {
     kanjiName: '慢',
@@ -154488,7 +157844,9 @@ let arr = [
         furigana: 'ぼうまん',
         meanings: 'ill-mannered'
       }
-    ]
+    ],
+    quizAnswersOn: ['よう', 'まん', 'はく', 'あ'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '没',
@@ -154568,7 +157926,9 @@ let arr = [
         furigana: 'もつやく',
         meanings: 'myrrh'
       }
-    ]
+    ],
+    quizAnswersOn: ['さつ', 'よう', 'しょう', 'ぼつ'],
+    quizAnswersKun: ['かみ', 'おぼ.れる', '', 'つき']
   },
   {
     kanjiName: '怠',
@@ -154653,7 +158013,9 @@ let arr = [
         furigana: 'きゅうたい',
         meanings: 'laziness'
       }
-    ]
+    ],
+    quizAnswersOn: ['たい', 'ほう', 'か', 'しょう'],
+    quizAnswersKun: ['みね', 'おこた.る', 'すす.める', 'き.る']
   },
   {
     kanjiName: '遭',
@@ -154728,7 +158090,9 @@ let arr = [
         furigana: 'そうぐう',
         meanings: 'encounter'
       }
-    ]
+    ],
+    quizAnswersOn: ['や', 'そう', 'こう', 'しょう'],
+    quizAnswersKun: ['しお', 'あ.う', 'ゆ', 'わか.れる']
   },
   {
     kanjiName: '惰',
@@ -154803,7 +158167,9 @@ let arr = [
         furigana: 'ゆうだ',
         meanings: 'indolence'
       }
-    ]
+    ],
+    quizAnswersOn: ['せん', 'だ', 'こう', 'ばく'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '猟',
@@ -154893,7 +158259,9 @@ let arr = [
         furigana: 'たいりょう',
         meanings: 'good bag (hunting)'
       }
-    ]
+    ],
+    quizAnswersOn: ['てん', 'りん', 'りょう', 'い'],
+    quizAnswersKun: ['かり', 'は.ねる', 'かなら.ず', 'もり']
   },
   {
     kanjiName: '乃',
@@ -154941,7 +158309,9 @@ let arr = [
         furigana: 'の',
         meanings: "'s"
       }
-    ]
+    ],
+    quizAnswersOn: ['ひ', 'しゅん', 'えん', 'ない'],
+    quizAnswersKun: ['ほ.る', 'かが.む', 'うた', 'の']
   },
   {
     kanjiName: '綾',
@@ -154979,7 +158349,9 @@ let arr = [
         furigana: 'りんず',
         meanings: 'figured satin'
       }
-    ]
+    ],
+    quizAnswersOn: ['ろく', 'りん', 'しゅく', 'ふ'],
+    quizAnswersKun: ['つよ.い', 'つづみ', 'あや', 'かわ.る']
   },
   {
     kanjiName: '颯',
@@ -155002,7 +158374,9 @@ let arr = [
         furigana: 'さっさつ',
         meanings: 'rustling (of wind)'
       }
-    ]
+    ],
+    quizAnswersOn: ['たい', 'しょう', 'さつ', 'ぎゃく'],
+    quizAnswersKun: ['ひめ', 'いくさ', 'さっ.と', 'い.きる']
   },
   {
     kanjiName: '隼',
@@ -155040,7 +158414,9 @@ let arr = [
         furigana: 'ようしゅん',
         meanings: 'hawk and falcon'
       }
-    ]
+    ],
+    quizAnswersOn: ['しゅん', 'こう', 'がん', 'し'],
+    quizAnswersKun: ['はやぶさ', 'はや.い', '', 'ふえ']
   },
   {
     kanjiName: '輔',
@@ -155078,7 +158454,9 @@ let arr = [
         furigana: 'たいふ',
         meanings: 'vice-minister (ritsuryō system)'
       }
-    ]
+    ],
+    quizAnswersOn: ['けい', 'こう', 'ほ', 'そう'],
+    quizAnswersKun: ['うかが.う', 'たわら', '', 'たす.ける']
   },
   {
     kanjiName: '寛',
@@ -155171,7 +158549,9 @@ let arr = [
         furigana: 'かんかん',
         meanings: 'looking cool and collect'
       }
-    ]
+    ],
+    quizAnswersOn: ['し', 'しん', 'きょう', 'かん'],
+    quizAnswersKun: ['くつろ.ぐ', 'すた.れる', 'ひちくど.い', 'めぐ.る']
   },
   {
     kanjiName: '胞',
@@ -155246,7 +158626,9 @@ let arr = [
         furigana: 'はいほう',
         meanings: 'pulmonary alveolus'
       }
-    ]
+    ],
+    quizAnswersOn: ['れん', 'せき', 'れつ', 'ほう'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '浄',
@@ -155331,7 +158713,9 @@ let arr = [
         furigana: 'ふじょう',
         meanings: 'unclean'
       }
-    ]
+    ],
+    quizAnswersOn: ['じょう', 'ぼう', 'ちゅう', 'さ'],
+    quizAnswersKun: ['か.える', 'あら.い', 'いさお', 'きよ.める']
   },
   {
     kanjiName: '随',
@@ -155428,7 +158812,9 @@ let arr = [
         furigana: 'ふずい',
         meanings: 'being incident to'
       }
-    ]
+    ],
+    quizAnswersOn: ['やく', 'せき', 'しょく', 'ずい'],
+    quizAnswersKun: ['まにま.に', '', 'くじら', 'と.ける']
   },
   {
     kanjiName: '稿',
@@ -155503,7 +158889,9 @@ let arr = [
         furigana: 'いこう',
         meanings: 'posthumous manuscripts'
       }
-    ]
+    ],
+    quizAnswersOn: ['しょう', 'こう', 'くん', 'き'],
+    quizAnswersKun: ['おさ.める', 'おっと', 'わら', 'みささぎ']
   },
   {
     kanjiName: '丹',
@@ -155598,7 +158986,9 @@ let arr = [
         furigana: 'きりしたん',
         meanings: 'Christianity (in feudal Japan)'
       }
-    ]
+    ],
+    quizAnswersOn: ['しゅう', 'さい', 'えつ', 'たん'],
+    quizAnswersKun: ['いつわ.る', 'に', 'くつ', '']
   },
   {
     kanjiName: '壌',
@@ -155668,7 +159058,9 @@ let arr = [
         furigana: 'こうじょう',
         meanings: 'yellow soil'
       }
-    ]
+    ],
+    quizAnswersOn: ['しょう', 'ばん', 'じょう', 'が'],
+    quizAnswersKun: ['か.える', 'うた.う', 'しるし', 'つち']
   },
   {
     kanjiName: '舗',
@@ -155743,7 +159135,9 @@ let arr = [
         furigana: 'めいほ',
         meanings: 'quality shop'
       }
-    ]
+    ],
+    quizAnswersOn: ['しゅう', 'ひ', 'ほ', 'かん'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '騰',
@@ -155818,7 +159212,9 @@ let arr = [
         furigana: 'ぶっかこうとう',
         meanings: 'rise in prices'
       }
-    ]
+    ],
+    quizAnswersOn: ['えい', 'しん', 'ひょう', 'とう'],
+    quizAnswersKun: ['おさ.める', 'えびす', 'よわ.い', 'あが.る']
   },
   {
     kanjiName: '緯',
@@ -155908,7 +159304,9 @@ let arr = [
         furigana: 'けいい',
         meanings: 'details'
       }
-    ]
+    ],
+    quizAnswersOn: ['そう', 'い', 'ひょう', 'きん'],
+    quizAnswersKun: ['', 'よこいと', 'つた.わる', 'いさお']
   },
   {
     kanjiName: '艇',
@@ -155983,7 +159381,9 @@ let arr = [
         furigana: 'きょうてい',
         meanings: 'kyōtei'
       }
-    ]
+    ],
+    quizAnswersOn: ['こう', 'てい', 'かん', 'すう'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '披',
@@ -156058,7 +159458,9 @@ let arr = [
         furigana: 'じきひ',
         meanings: 'personal'
       }
-    ]
+    ],
+    quizAnswersOn: ['すい', 'えん', 'ぎょ', 'ひ'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '錦',
@@ -156107,7 +159509,9 @@ let arr = [
         furigana: 'しょっきん',
         meanings: 'type of brocade'
       }
-    ]
+    ],
+    quizAnswersOn: ['きん', 'やく', 'ぼく', 'いち'],
+    quizAnswersKun: ['', 'おうぎ', 'わけ', 'にしき']
   },
   {
     kanjiName: '准',
@@ -156177,7 +159581,9 @@ let arr = [
         furigana: 'ひじゅん',
         meanings: 'ratification'
       }
-    ]
+    ],
+    quizAnswersOn: ['ぞく', 'じゅん', 'こく', 'さい'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '剰',
@@ -156257,7 +159663,9 @@ let arr = [
         furigana: 'しゅっしょうかじょう',
         meanings: 'excessive birth (rate)'
       }
-    ]
+    ],
+    quizAnswersOn: ['しょう', 'じょう', 'しゅう', 'きょく'],
+    quizAnswersKun: ['あまつさえ', 'さが', 'あざ', 'くさ.る']
   },
   {
     kanjiName: '繊',
@@ -156332,7 +159740,9 @@ let arr = [
         furigana: 'かせん',
         meanings: 'synthetic fiber'
       }
-    ]
+    ],
+    quizAnswersOn: ['たん', 'じゃく', 'せん', 'はく'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '諭',
@@ -156412,7 +159822,9 @@ let arr = [
         furigana: 'ひゆ',
         meanings: 'simile'
       }
-    ]
+    ],
+    quizAnswersOn: ['さ', 'けん', 'ゆ', 'い'],
+    quizAnswersKun: ['さと.す', 'ふか.い', 'やわ.らか', 'あいて']
   },
   {
     kanjiName: '惨',
@@ -156512,7 +159924,9 @@ let arr = [
         furigana: 'れいこくむざん',
         meanings: 'cruel and heartless'
       }
-    ]
+    ],
+    quizAnswersOn: ['すい', 'さん', 'こう', 'よう'],
+    quizAnswersKun: ['', 'えら.い', 'みじ.め', 'かれ']
   },
   {
     kanjiName: '虐',
@@ -156592,7 +160006,9 @@ let arr = [
         furigana: 'りょうぎゃく',
         meanings: 'humiliation'
       }
-    ]
+    ],
+    quizAnswersOn: ['し', 'ぎゃく', 'ゆ', 'かん'],
+    quizAnswersKun: ['み.ちる', 'すく.う', 'しいた.げる', '']
   },
   {
     kanjiName: '据',
@@ -156667,7 +160083,9 @@ let arr = [
         furigana: 'きっきょ',
         meanings: 'diligence'
       }
-    ]
+    ],
+    quizAnswersOn: ['ざん', 'り', 'む', 'きょ'],
+    quizAnswersKun: ['ぬさ', 'す.える', 'とな.る', 'さっ.と']
   },
   {
     kanjiName: '徐',
@@ -156747,7 +160165,9 @@ let arr = [
         furigana: 'かんじょ',
         meanings: 'gentle and quiet'
       }
-    ]
+    ],
+    quizAnswersOn: ['せん', 'ぐ', 'じょ', 'し'],
+    quizAnswersKun: ['い', 'と.る', 'かた-', 'おもむ.ろに']
   },
   {
     kanjiName: '搭',
@@ -156812,7 +160232,9 @@ let arr = [
         furigana: 'とうじょう',
         meanings: 'embarkation'
       }
-    ]
+    ],
+    quizAnswersOn: ['まん', 'せん', 'ふく', 'とう'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '鯉',
@@ -156850,7 +160272,9 @@ let arr = [
         furigana: 'ようり',
         meanings: 'carp breeding'
       }
-    ]
+    ],
+    quizAnswersOn: ['り', 'しゅく', 'りょ', 'しつ'],
+    quizAnswersKun: ['つく.る', 'さそ.う', 'こい', '']
   },
   {
     kanjiName: '緋',
@@ -156903,7 +160327,9 @@ let arr = [
         furigana: 'ふかひ',
         meanings: 'deep scarlet'
       }
-    ]
+    ],
+    quizAnswersOn: ['ひ', 'にゅう', 'びょう', 'も'],
+    quizAnswersKun: ['はば', '', 'あこが.れる', 'あけ']
   },
   {
     kanjiName: '曙',
@@ -156931,7 +160357,9 @@ let arr = [
         furigana: 'しょこう',
         meanings: 'dawn'
       }
-    ]
+    ],
+    quizAnswersOn: ['ちゅう', 'へい', 'しょ', 'かく'],
+    quizAnswersKun: ['あけぼの', 'なげ.く', 'ふ.れる', 'おか.す']
   },
   {
     kanjiName: '胡',
@@ -156984,7 +160412,9 @@ let arr = [
         furigana: 'ごま',
         meanings: 'sesame seeds'
       }
-    ]
+    ],
+    quizAnswersOn: ['ぜん', 'し', 'う', 'おう'],
+    quizAnswersKun: ['しろ', 'くだ.く', 'なんぞ', 'あきらか']
   },
   {
     kanjiName: '帥',
@@ -157049,7 +160479,9 @@ let arr = [
         furigana: 'そうすい',
         meanings: 'commander-in-chief'
       }
-    ]
+    ],
+    quizAnswersOn: ['か', 'ほく', 'そ', 'すい'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '啓',
@@ -157129,7 +160561,9 @@ let arr = [
         furigana: 'けいけい',
         meanings: 'salutation at the end of a formal letter'
       }
-    ]
+    ],
+    quizAnswersOn: ['おん', 'けん', 'けい', 'きゅう'],
+    quizAnswersKun: ['とうげ', 'ひめ', 'ひら.く', 'あたた.か']
   },
   {
     kanjiName: '葵',
@@ -157177,7 +160611,9 @@ let arr = [
         furigana: 'とろろあおい',
         meanings: 'sunset hibiscus (Hibiscus manihot)'
       }
-    ]
+    ],
+    quizAnswersOn: ['めい', 'ぼう', 'せん', 'き'],
+    quizAnswersKun: ['とりで', '', 'い.る', 'あおい']
   },
   {
     kanjiName: '駿',
@@ -157215,7 +160651,9 @@ let arr = [
         furigana: 'すんだいでんしじょうほうせんもんがっこう',
         meanings: 'Sundai Computer College'
       }
-    ]
+    ],
+    quizAnswersOn: ['どう', 'ふん', 'しゅん', 'し'],
+    quizAnswersKun: ['', 'すぐ.れる', 'そと', 'かえで']
   },
   {
     kanjiName: '諒',
@@ -157243,7 +160681,9 @@ let arr = [
         furigana: 'びんりょう',
         meanings: 'pity'
       }
-    ]
+    ],
+    quizAnswersOn: ['りょう', 'り', 'のう', 'こう'],
+    quizAnswersKun: ['あざむ.く', '', 'もろ', 'あきら.か']
   },
   {
     kanjiName: '莉',
@@ -157261,7 +160701,9 @@ let arr = [
         furigana: 'まつり',
         meanings: 'Arabian jasmine (Jasminum sambac)'
       }
-    ]
+    ],
+    quizAnswersOn: ['けい', 'しゅ', 'こう', 'り'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '鯨',
@@ -157356,7 +160798,9 @@ let arr = [
         furigana: 'はくげい',
         meanings: 'white whale'
       }
-    ]
+    ],
+    quizAnswersOn: ['げい', 'しん', 'げい', 'いち'],
+    quizAnswersKun: ['ぬし', '', 'くじら', 'め']
   },
   {
     kanjiName: '荘',
@@ -157461,7 +160905,9 @@ let arr = [
         furigana: 'れんちゃん',
         meanings: 'repeated events (e.g. meetings'
       }
-    ]
+    ],
+    quizAnswersOn: ['う', 'や', 'ちょ', 'そう'],
+    quizAnswersKun: ['あら.い', 'わずら.う', 'ほうき', 'ひ']
   },
   {
     kanjiName: '栽',
@@ -157536,7 +160982,9 @@ let arr = [
         furigana: 'りんさい',
         meanings: 'rotation of crops'
       }
-    ]
+    ],
+    quizAnswersOn: ['しゃく', 'さい', 'ぎょく', 'えん'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '拐',
@@ -157611,7 +161059,9 @@ let arr = [
         furigana: 'きょうげんゆうかい',
         meanings: 'fake kidnapping'
       }
-    ]
+    ],
+    quizAnswersOn: ['あ', 'び', 'かい', 'かん'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '冠',
@@ -157706,7 +161156,9 @@ let arr = [
         furigana: 'げっけいかん',
         meanings: 'laurel wreath'
       }
-    ]
+    ],
+    quizAnswersOn: ['き', 'かん', 'しん', 'かい'],
+    quizAnswersKun: ['かんむり', 'おだ.やか', 'くぼ.む', '']
   },
   {
     kanjiName: '勲',
@@ -157786,7 +161238,9 @@ let arr = [
         furigana: 'しゅくん',
         meanings: 'distinguished services'
       }
-    ]
+    ],
+    quizAnswersOn: ['くん', 'しゅう', 'らく', 'こう'],
+    quizAnswersKun: ['いさお', 'すす.める', 'あざ.やか', '']
   },
   {
     kanjiName: '酬',
@@ -157856,7 +161310,9 @@ let arr = [
         furigana: 'せいこうほうしゅう',
         meanings: 'fee contingent upon success'
       }
-    ]
+    ],
+    quizAnswersOn: ['けん', 'しゅう', 'ばく', 'かん'],
+    quizAnswersKun: ['よそお.う', 'むく.いる', '', 'つよ.い']
   },
   {
     kanjiName: '紋',
@@ -157931,7 +161387,9 @@ let arr = [
         furigana: 'せいもん',
         meanings: 'voiceprint'
       }
-    ]
+    ],
+    quizAnswersOn: ['せき', 'た', 'もん', 'こう'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '卸',
@@ -158036,7 +161494,9 @@ let arr = [
         furigana: 'しゃが',
         meanings: 'cargo unloading'
       }
-    ]
+    ],
+    quizAnswersOn: ['しゃ', 'けい', 'じょう', 'ぞう'],
+    quizAnswersKun: ['おろ.す', 'さき', '', 'ほ.る']
   },
   {
     kanjiName: '欄',
@@ -158111,7 +161571,9 @@ let arr = [
         furigana: 'ぶんげいらん',
         meanings: 'literary (and the arts) column'
       }
-    ]
+    ],
+    quizAnswersOn: ['りょ', 'さ', 'しょく', 'らん'],
+    quizAnswersKun: ['まも.る', '', 'てすり', 'あ.びる']
   },
   {
     kanjiName: '逸',
@@ -158210,7 +161672,9 @@ let arr = [
         furigana: 'しゅういつ',
         meanings: 'excellent'
       }
-    ]
+    ],
+    quizAnswersOn: ['まい', 'たい', 'ふん', 'いつ'],
+    quizAnswersKun: ['そ.れる', 'もも', 'す.べる', 'うれ.しい']
   },
   {
     kanjiName: '尚',
@@ -158305,7 +161769,9 @@ let arr = [
         furigana: 'そうしょう',
         meanings: 'prematurity'
       }
-    ]
+    ],
+    quizAnswersOn: ['ご', 'えん', 'しょう', 'げん'],
+    quizAnswersKun: ['まゆみ', 'なお', '', 'やま']
   },
   {
     kanjiName: '顕',
@@ -158390,7 +161856,9 @@ let arr = [
         furigana: 'ひけん',
         meanings: 'great and brilliant'
       }
-    ]
+    ],
+    quizAnswersOn: ['とう', 'たい', 'けん', 'せき'],
+    quizAnswersKun: ['ぬ.う', 'あきらか', '', 'は.じる']
   },
   {
     kanjiName: '粛',
@@ -158465,7 +161933,9 @@ let arr = [
         furigana: 'がいしゅつじしゅく',
         meanings: 'refraining from going outside'
       }
-    ]
+    ],
+    quizAnswersOn: ['きょう', 'し', 'しゅく', 'しょう'],
+    quizAnswersKun: ['まか.せる', 'つつし.む', 'さかん', 'たか.い']
   },
   {
     kanjiName: '愚',
@@ -158550,7 +162020,9 @@ let arr = [
         furigana: 'たいぐ',
         meanings: 'great folly or fool'
       }
-    ]
+    ],
+    quizAnswersOn: ['びょう', 'こう', 'ぐ', 'じゅう'],
+    quizAnswersKun: ['みね', '', 'おろ.か', 'さけ.ぶ']
   },
   {
     kanjiName: '庶',
@@ -158625,7 +162097,9 @@ let arr = [
         furigana: 'ししょ',
         meanings: 'samurai and commoners'
       }
-    ]
+    ],
+    quizAnswersOn: ['か', 'しょう', 'こう', 'しょ'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '践',
@@ -158700,7 +162174,9 @@ let arr = [
         furigana: 'りせん',
         meanings: 'implementation'
       }
-    ]
+    ],
+    quizAnswersOn: ['せん', 'くう', 'こく', 'そう'],
+    quizAnswersKun: ['いしぶみ', 'ほ.る', 'いさぎよ.い', 'ふ.む']
   },
   {
     kanjiName: '呈',
@@ -158775,7 +162251,9 @@ let arr = [
         furigana: 'ろてい',
         meanings: 'exposure'
       }
-    ]
+    ],
+    quizAnswersOn: ['てい', 'こう', 'でん', 'ぎゃく'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '疎',
@@ -158865,7 +162343,9 @@ let arr = [
         furigana: 'くうそ',
         meanings: 'empty (e.g. argument)'
       }
-    ]
+    ],
+    quizAnswersOn: ['そ', 'りん', 'かく', 'ちょう'],
+    quizAnswersKun: ['きわ.める', 'うと.い', 'はたがしら', 'ばば']
   },
   {
     kanjiName: '疾',
@@ -158940,7 +162420,9 @@ let arr = [
         furigana: 'はいしつ',
         meanings: 'disablement'
       }
-    ]
+    ],
+    quizAnswersOn: ['りん', 'き', 'しつ', 'ほう'],
+    quizAnswersKun: ['', 'う.える', 'おもり', 'はや.い']
   },
   {
     kanjiName: '謡',
@@ -159035,7 +162517,9 @@ let arr = [
         furigana: 'かよう',
         meanings: 'song'
       }
-    ]
+    ],
+    quizAnswersOn: ['ほう', 'き', 'よう', 'ちく'],
+    quizAnswersKun: ['よ.う', 'かが.む', 'つくえ', 'うた.い']
   },
   {
     kanjiName: '鎌',
@@ -159068,7 +162552,9 @@ let arr = [
         furigana: 'だいのうかま',
         meanings: 'falx cerebri'
       }
-    ]
+    ],
+    quizAnswersOn: ['しょう', 'と', 'ひょう', 'れん'],
+    quizAnswersKun: ['', 'しお', 'ひじり', 'かま']
   },
   {
     kanjiName: '酷',
@@ -159153,7 +162639,9 @@ let arr = [
         furigana: 'げんこく',
         meanings: 'severity'
       }
-    ]
+    ],
+    quizAnswersOn: ['こく', 'がん', 'み', 'し'],
+    quizAnswersKun: ['ひど.い', 'おとこ', 'ね.る', 'わめ.く']
   },
   {
     kanjiName: '叙',
@@ -159228,7 +162716,9 @@ let arr = [
         furigana: 'しょうじょ',
         meanings: 'promotion'
       }
-    ]
+    ],
+    quizAnswersOn: ['れん', 'さん', 'じょ', 'ど'],
+    quizAnswersKun: ['', 'つい.ず', 'うけたまわ.る', 'よこし.ま']
   },
   {
     kanjiName: '且',
@@ -159303,7 +162793,9 @@ let arr = [
         furigana: 'ざんしょ',
         meanings: 'short while'
       }
-    ]
+    ],
+    quizAnswersOn: ['つう', 'けい', 'こん', 'しょ'],
+    quizAnswersKun: ['うやま.う', 'か.つ', 'か', 'しの.ぐ']
   },
   {
     kanjiName: '痴',
@@ -159378,7 +162870,9 @@ let arr = [
         furigana: 'はくち',
         meanings: 'idiot'
       }
-    ]
+    ],
+    quizAnswersOn: ['ち', 'さん', 'そう', 'し'],
+    quizAnswersKun: ['くら', 'かがや.く', 'まど', 'し.れる']
   },
   {
     kanjiName: '茎',
@@ -159483,7 +162977,9 @@ let arr = [
         furigana: 'いんけい',
         meanings: 'penis'
       }
-    ]
+    ],
+    quizAnswersOn: ['ひ', 'ろく', 'けい', 'こう'],
+    quizAnswersKun: ['ある.く', 'まった.く', 'あや', 'くき']
   },
   {
     kanjiName: '阿',
@@ -159536,7 +163032,9 @@ let arr = [
         furigana: 'かかお',
         meanings: 'cacao tree (Theobroma cacao)'
       }
-    ]
+    ],
+    quizAnswersOn: ['てん', 'ふつ', 'とつ', 'あ'],
+    quizAnswersKun: ['むら', '', 'おもね.る', 'わざ']
   },
   {
     kanjiName: '悠',
@@ -159601,7 +163099,9 @@ let arr = [
         furigana: 'ゆうゆう',
         meanings: 'quiet'
       }
-    ]
+    ],
+    quizAnswersOn: ['ぐ', 'ゆう', 'にく', 'ぼく'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '杏',
@@ -159654,7 +163154,9 @@ let arr = [
         furigana: 'あんずしゅ',
         meanings: 'sake made from apricot'
       }
-    ]
+    ],
+    quizAnswersOn: ['らい', 'きょう', 'かん', 'こう'],
+    quizAnswersKun: ['あんず', '', 'す.てる', 'あつ.い']
   },
   {
     kanjiName: '茜',
@@ -159687,7 +163189,9 @@ let arr = [
         furigana: 'えぞあかね',
         meanings: 'yellow-winged darter (Sympetrum flaveolum)'
       }
-    ]
+    ],
+    quizAnswersOn: ['こう', 'せん', 'きん', 'ち'],
+    quizAnswersKun: ['み.る', 'ま.く', 'かしら', 'あかね']
   },
   {
     kanjiName: '栞',
@@ -159705,7 +163209,9 @@ let arr = [
         furigana: 'しおり',
         meanings: 'bookmark'
       }
-    ]
+    ],
+    quizAnswersOn: ['せん', 'こう', 'ちん', 'かん'],
+    quizAnswersKun: ['た.える', 'かんむり', 'しおり', 'そ.る']
   },
   {
     kanjiName: '伏',
@@ -159790,7 +163296,9 @@ let arr = [
         furigana: 'しょうふく',
         meanings: 'accepting'
       }
-    ]
+    ],
+    quizAnswersOn: ['こう', 'ふく', 'はん', 'りょう'],
+    quizAnswersKun: ['まよ.う', '', 'ふ.せる', 'あきらか']
   },
   {
     kanjiName: '鎮',
@@ -159875,7 +163383,9 @@ let arr = [
         furigana: 'ごうちん',
         meanings: 'township and village enterprises (in China)'
       }
-    ]
+    ],
+    quizAnswersOn: ['へん', 'ちん', 'ぼう', 'りょう'],
+    quizAnswersKun: ['すく.う', 'た.える', 'しず.める', 'つた.わる']
   },
   {
     kanjiName: '奉',
@@ -159976,7 +163486,9 @@ let arr = [
         meanings:
           'inner offerer (any of the 10 high-ranking monks serving at the inner offering hall)'
       }
-    ]
+    ],
+    quizAnswersOn: ['どく', 'ぼ', 'よう', 'ほう'],
+    quizAnswersKun: ['か.わる', '', 'とり', 'たてまつ.る']
   },
   {
     kanjiName: '憂',
@@ -160081,7 +163593,9 @@ let arr = [
         furigana: 'ないゆう',
         meanings: 'internal troubles'
       }
-    ]
+    ],
+    quizAnswersOn: ['ほん', 'ゆう', 'せい', 'し'],
+    quizAnswersKun: ['ひき.いる', 'たて', 'うれ.える', 'うてな']
   },
   {
     kanjiName: '朴',
@@ -160176,7 +163690,9 @@ let arr = [
         furigana: 'こうぼく',
         meanings: 'Japanese bigleaf magnolia bark (used in Chinese medicine)'
       }
-    ]
+    ],
+    quizAnswersOn: ['こう', 'きゃく', 'せき', 'ぼく'],
+    quizAnswersKun: ['お', 'かわ', 'ほう', '']
   },
   {
     kanjiName: '惜',
@@ -160266,7 +163782,9 @@ let arr = [
         furigana: 'あいせき',
         meanings: 'grief'
       }
-    ]
+    ],
+    quizAnswersOn: ['せつ', 'さい', 'か', 'せき'],
+    quizAnswersKun: ['おもね.る', 'かがや.く', 'お.しい', 'しりぞ.く']
   },
   {
     kanjiName: '佳',
@@ -160341,7 +163859,9 @@ let arr = [
         furigana: 'ふうこうぜっか',
         meanings: 'scenic beauty'
       }
-    ]
+    ],
+    quizAnswersOn: ['かん', 'きょ', 'か', 'し'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '悼',
@@ -160421,7 +163941,9 @@ let arr = [
         furigana: 'せんぼつしゃついとう',
         meanings: 'war memorial'
       }
-    ]
+    ],
+    quizAnswersOn: ['しょう', 'てい', 'とう', 'らい'],
+    quizAnswersKun: ['いた.む', 'こよみ', 'と.る', 'きわ.める']
   },
   {
     kanjiName: '該',
@@ -160491,7 +164013,9 @@ let arr = [
         furigana: 'とうがい',
         meanings: 'appropriate (e.g. authorities)'
       }
-    ]
+    ],
+    quizAnswersOn: ['がい', 'りょう', 'あつ', 'う'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '赴',
@@ -160561,7 +164085,9 @@ let arr = [
         furigana: 'ふえん',
         meanings: 'going to save'
       }
-    ]
+    ],
+    quizAnswersOn: ['かく', '', 'ふ', 'けつ'],
+    quizAnswersKun: ['たに', 'おもむ.く', '', 'うち']
   },
   {
     kanjiName: '髄',
@@ -160636,7 +164162,9 @@ let arr = [
         furigana: 'せきずい',
         meanings: 'spinal cord'
       }
-    ]
+    ],
+    quizAnswersOn: ['てき', 'ずい', 'りく', 'まい'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '傍',
@@ -160756,7 +164284,9 @@ let arr = [
         furigana: 'どうぼう',
         meanings: 'side of the road'
       }
-    ]
+    ],
+    quizAnswersOn: ['けん', 'きゅう', 'ぼう', 'びょう'],
+    quizAnswersKun: ['かたわ.ら', 'きよ.い', 'とき', 'わざ']
   },
   {
     kanjiName: '累',
@@ -160831,7 +164361,9 @@ let arr = [
         furigana: 'るいるい',
         meanings: 'in heaps'
       }
-    ]
+    ],
+    quizAnswersOn: ['るい', 'かつ', 'ひ', 'べん'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '癒',
@@ -160921,7 +164453,9 @@ let arr = [
         furigana: 'しぜんちゆ',
         meanings: 'self-healing'
       }
-    ]
+    ],
+    quizAnswersOn: ['ゆ', 'ひ', 'ら', 'しゅう'],
+    quizAnswersKun: ['よそお.う', 'あや.しい', 'むね', 'い.える']
   },
   {
     kanjiName: '郭',
@@ -161007,7 +164541,9 @@ let arr = [
         furigana: 'ゆうかく',
         meanings: '(licensed) red light district'
       }
-    ]
+    ],
+    quizAnswersOn: ['はく', 'しょう', 'とう', 'かく'],
+    quizAnswersKun: ['くわ.える', 'かが.やく', 'くるわ', 'つむ']
   },
   {
     kanjiName: '尿',
@@ -161107,7 +164643,9 @@ let arr = [
         furigana: 'いにょう',
         meanings: 'enuresis'
       }
-    ]
+    ],
+    quizAnswersOn: ['えん', 'さん', 'どう', 'にょう'],
+    quizAnswersKun: ['ゆばり', 'はる', 'とぎ', 'かわ.く']
   },
   {
     kanjiName: '賓',
@@ -161187,7 +164725,9 @@ let arr = [
         furigana: 'らいひん',
         meanings: 'guest'
       }
-    ]
+    ],
+    quizAnswersOn: ['し', 'よ', 'ひん', 'えん'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '虜',
@@ -161267,7 +164807,9 @@ let arr = [
         furigana: 'ふりょ',
         meanings: 'prisoner of war'
       }
-    ]
+    ],
+    quizAnswersOn: ['しょく', 'りょ', 'しょう', 'きゅう'],
+    quizAnswersKun: ['とりこ', 'かえ.る', '', 'たま.う']
   },
   {
     kanjiName: '憾',
@@ -161332,7 +164874,9 @@ let arr = [
         furigana: 'うらむらくは',
         meanings: 'I regret that'
       }
-    ]
+    ],
+    quizAnswersOn: ['ぞく', 'かん', 'ばい', 'ご'],
+    quizAnswersKun: ['ただ', 'うら.む', '', 'ひとみ']
   },
   {
     kanjiName: '弥',
@@ -161405,7 +164949,9 @@ let arr = [
         furigana: 'びほう',
         meanings: 'patching up'
       }
-    ]
+    ],
+    quizAnswersOn: ['さい', 'み', 'じゅん', 'い'],
+    quizAnswersKun: ['や', 'まれ', 'はる.か', 'さる']
   },
   {
     kanjiName: '粗',
@@ -161480,7 +165026,9 @@ let arr = [
         furigana: 'せいそ',
         meanings: 'fineness or coarseness'
       }
-    ]
+    ],
+    quizAnswersOn: ['へん', 'らん', 'はい', 'そ'],
+    quizAnswersKun: ['あら.い', '', 'おのおの', 'わざ.と']
   },
   {
     kanjiName: '循',
@@ -161550,7 +165098,9 @@ let arr = [
         furigana: 'いんじゅん',
         meanings: 'indecision'
       }
-    ]
+    ],
+    quizAnswersOn: ['たい', 'りゅう', 'ゆ', 'じゅん'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '凝',
@@ -161640,7 +165190,9 @@ let arr = [
         furigana: 'ぎょうこ',
         meanings: 'coagulation'
       }
-    ]
+    ],
+    quizAnswersOn: ['きん', 'は', 'きょう', 'ぎょう'],
+    quizAnswersKun: ['みち', 'こ.る', 'いさ.む', 'み.る']
   },
   {
     kanjiName: '昌',
@@ -161673,7 +165225,9 @@ let arr = [
         furigana: 'なんしょう',
         meanings: 'Nanchang (China)'
       }
-    ]
+    ],
+    quizAnswersOn: ['しょう', 'とつ', 'かん', 'てん'],
+    quizAnswersKun: ['たて', 'あつ.い', 'わか.れる', 'さかん']
   },
   {
     kanjiName: '旦',
@@ -161721,7 +165275,9 @@ let arr = [
         furigana: 'しんたん',
         meanings: '(ancient) China'
       }
-    ]
+    ],
+    quizAnswersOn: ['しつ', 'しょく', 'たん', 'ご'],
+    quizAnswersKun: ['', 'の', 'あき.らか', 'な.み']
   },
   {
     kanjiName: '愉',
@@ -161796,7 +165352,9 @@ let arr = [
         furigana: 'ゆえつ',
         meanings: 'joy'
       }
-    ]
+    ],
+    quizAnswersOn: ['ふ', 'ゆ', 'すう', 'せい'],
+    quizAnswersKun: ['ころ.す', 'まさ', 'たの.しい', 'むつ.まじい']
   },
   {
     kanjiName: '抹',
@@ -161856,7 +165414,9 @@ let arr = [
         furigana: 'とまつ',
         meanings: 'smear'
       }
-    ]
+    ],
+    quizAnswersOn: ['そつ', 'まつ', 'ろ', 'けい'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '栓',
@@ -161931,7 +165491,9 @@ let arr = [
         furigana: 'けっせん',
         meanings: 'thrombus'
       }
-    ]
+    ],
+    quizAnswersOn: ['らん', 'せん', 'か', 'ふ'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '之',
@@ -161974,7 +165536,9 @@ let arr = [
         furigana: 'しんにゅうをかける',
         meanings: 'to exaggerate'
       }
-    ]
+    ],
+    quizAnswersOn: ['し', 'てい', 'かく', 'かい'],
+    quizAnswersKun: ['の', 'うし', 'ひき-', 'わざ.と']
   },
   {
     kanjiName: '遼',
@@ -162002,7 +165566,9 @@ let arr = [
         furigana: 'せいりょう',
         meanings: 'Western Liao (Central Asian Khitan empire; 1132-1211)'
       }
-    ]
+    ],
+    quizAnswersOn: ['りょう', 'よう', 'かい', 'いき'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '瑛',
@@ -162020,7 +165586,9 @@ let arr = [
         furigana: 'ぎょくえい',
         meanings: 'crystal'
       }
-    ]
+    ],
+    quizAnswersOn: ['こう', 'えい', 'み', 'しん'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '那',
@@ -162053,7 +165621,9 @@ let arr = [
         furigana: 'いんどしな',
         meanings: 'Indochina'
       }
-    ]
+    ],
+    quizAnswersOn: ['こ', 'しん', 'き', 'な'],
+    quizAnswersKun: ['なに', 'えが.く', 'あま.い', '']
   },
   {
     kanjiName: '拍',
@@ -162138,7 +165708,9 @@ let arr = [
         furigana: 'ひょうしぬけ',
         meanings: 'anticlimax'
       }
-    ]
+    ],
+    quizAnswersOn: ['こ', 'はく', 'たく', 'れい'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '猶',
@@ -162233,7 +165805,9 @@ let arr = [
         furigana: 'ゆだや',
         meanings: 'Judea (southern Palestine)'
       }
-    ]
+    ],
+    quizAnswersOn: ['ゆう', 'こう', 'たく', 'お'],
+    quizAnswersKun: ['なお', 'ひら.く', 'おく.る', 'あな']
   },
   {
     kanjiName: '宰',
@@ -162308,7 +165882,9 @@ let arr = [
         furigana: 'ちょうさい',
         meanings: 'Minister of State (Zhou dynasty China)'
       }
-    ]
+    ],
+    quizAnswersOn: ['しょう', 'さい', 'ちょう', 'おつ'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '寂',
@@ -162438,7 +166014,9 @@ let arr = [
         furigana: 'せきせき',
         meanings: 'sad'
       }
-    ]
+    ],
+    quizAnswersOn: ['じゃく', 'りゅう', 'こう', 'せん'],
+    quizAnswersKun: ['あかつき', 'きわ.める', 'し.く', 'さび']
   },
   {
     kanjiName: '縫',
@@ -162518,7 +166096,9 @@ let arr = [
         furigana: 'てんいむほう',
         meanings: 'perfect beauty with no trace of artifice'
       }
-    ]
+    ],
+    quizAnswersOn: ['ろく', 'ゆ', 'しょう', 'ほう'],
+    quizAnswersKun: ['し.める', 'かみなり', 'ね.る', 'ぬ.う']
   },
   {
     kanjiName: '呉',
@@ -162608,7 +166188,9 @@ let arr = [
         furigana: 'あいご',
         meanings: 'mottled spinefoot (Siganus fuscescens'
       }
-    ]
+    ],
+    quizAnswersOn: ['しゅん', 'しん', 'ご', 'はい'],
+    quizAnswersKun: ['く.れる', 'くちすす.ぐ', 'かえ.す', 'はか']
   },
   {
     kanjiName: '凡',
@@ -162708,7 +166290,9 @@ let arr = [
         furigana: 'はんれい',
         meanings: 'explanatory notes (at the start of a book)'
       }
-    ]
+    ],
+    quizAnswersOn: ['ぼん', 'りゅう', 'い', 'こう'],
+    quizAnswersKun: ['', 'はは', 'およ.そ', 'と.る']
   },
   {
     kanjiName: '恭',
@@ -162778,7 +166362,9 @@ let arr = [
         furigana: 'きょうえつしごく',
         meanings: 'extremely delighted'
       }
-    ]
+    ],
+    quizAnswersOn: ['きん', 'きょう', 'か', 'はい'],
+    quizAnswersKun: ['うやうや.しい', 'むく.いる', 'おとうと', 'う.える']
   },
   {
     kanjiName: '錯',
@@ -162858,7 +166444,9 @@ let arr = [
         furigana: 'かいしゃく',
         meanings: 'beheading (as the ending to a seppuku)'
       }
-    ]
+    ],
+    quizAnswersOn: ['よう', 'さく', 'じょう', 'と'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '穀',
@@ -162933,7 +166521,9 @@ let arr = [
         furigana: 'ざっこく',
         meanings: 'assorted grains'
       }
-    ]
+    ],
+    quizAnswersOn: ['ぜん', 'けい', 'たん', 'こく'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '陵',
@@ -163013,7 +166603,9 @@ let arr = [
         furigana: 'こうりょう',
         meanings: 'imperial mausoleum'
       }
-    ]
+    ],
+    quizAnswersOn: ['りょう', 'とう', 'ろ', 'さつ'],
+    quizAnswersKun: ['かたまり', 'ゆみ', 'いずみ', 'みささぎ']
   },
   {
     kanjiName: '弊',
@@ -163088,7 +166680,9 @@ let arr = [
         furigana: 'びょうへい',
         meanings: 'evil influence'
       }
-    ]
+    ],
+    quizAnswersOn: ['へい', 'ぶつ', 'せい', 'ちく'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '舶',
@@ -163158,7 +166752,9 @@ let arr = [
         furigana: 'きょはく',
         meanings: 'ocean liner'
       }
-    ]
+    ],
+    quizAnswersOn: ['しょう', 'はく', 'ぎ', 'ちん'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '窮',
@@ -163263,7 +166859,9 @@ let arr = [
         furigana: 'てんじょうむきゅう',
         meanings: 'as eternal as heaven and earth'
       }
-    ]
+    ],
+    quizAnswersOn: ['よう', 'きゅう', 'きん', 'しょう'],
+    quizAnswersKun: ['きわ', 'かれ', 'き.く', 'きわ.める']
   },
   {
     kanjiName: '悦',
@@ -163348,7 +166946,9 @@ let arr = [
         furigana: 'いえつ',
         meanings: 'rejoicing'
       }
-    ]
+    ],
+    quizAnswersOn: ['れつ', 'りょう', 'はん', 'えつ'],
+    quizAnswersKun: ['たよ.り', 'よろこ.ぶ', '-べ', 'にじ']
   },
   {
     kanjiName: '縛',
@@ -163428,7 +167028,9 @@ let arr = [
         furigana: 'けいばく',
         meanings: 'constraint'
       }
-    ]
+    ],
+    quizAnswersOn: ['ち', 'ばく', 'へん', 'かん'],
+    quizAnswersKun: ['おもむ.ろに', 'しば.る', 'い.る', 'か']
   },
   {
     kanjiName: '轄',
@@ -163498,7 +167100,9 @@ let arr = [
         furigana: 'しゃかつ',
         meanings: 'linchpin'
       }
-    ]
+    ],
+    quizAnswersOn: ['かつ', 'みつ', 'かつ', 'せい'],
+    quizAnswersKun: ['ふ.く', 'くさび', 'みさき', '']
   },
   {
     kanjiName: '弦',
@@ -163583,7 +167187,9 @@ let arr = [
         furigana: 'いげん',
         meanings: 'string-crossing (violin'
       }
-    ]
+    ],
+    quizAnswersOn: ['こう', 'きょう', 'か', 'げん'],
+    quizAnswersKun: ['はだか', '', 'さ.ける', 'つる']
   },
   {
     kanjiName: '窒',
@@ -163643,7 +167249,9 @@ let arr = [
         furigana: 'だっちつ',
         meanings: 'denitrification'
       }
-    ]
+    ],
+    quizAnswersOn: ['はん', 'ご', 'ちつ', 'えん'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '洪',
@@ -163708,7 +167316,9 @@ let arr = [
         furigana: 'こうずい',
         meanings: 'flood'
       }
-    ]
+    ],
+    quizAnswersOn: ['かい', 'とつ', 'り', 'こう'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '摂',
@@ -163798,7 +167408,9 @@ let arr = [
         furigana: 'しょうじゅ',
         meanings: 'converting someone (gently) to Buddhism'
       }
-    ]
+    ],
+    quizAnswersOn: ['せつ', 'すい', 'よう', 'かん'],
+    quizAnswersKun: ['おさ.める', 'たと.える', 'いた.す', '']
   },
   {
     kanjiName: '飽',
@@ -163883,7 +167495,9 @@ let arr = [
         furigana: 'ほうしょく',
         meanings: 'eating until one is full'
       }
-    ]
+    ],
+    quizAnswersOn: ['せん', 'はつ', 'ぶ', 'ほう'],
+    quizAnswersKun: ['', 'わざわ.い', 'す.る', 'あ.きる']
   },
   {
     kanjiName: '紳',
@@ -163958,7 +167572,9 @@ let arr = [
         furigana: 'しんしん',
         meanings: 'person of rank'
       }
-    ]
+    ],
+    quizAnswersOn: ['しょう', 'しん', 'せい', 'ほう'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '庸',
@@ -164033,7 +167649,9 @@ let arr = [
         furigana: 'ぼんよう',
         meanings: 'mediocre'
       }
-    ]
+    ],
+    quizAnswersOn: ['た', 'か', 'よう', 'たい'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '靖',
@@ -164061,7 +167679,9 @@ let arr = [
         furigana: 'かんせい',
         meanings: 'tranquillity'
       }
-    ]
+    ],
+    quizAnswersOn: ['せい', 'き', 'ごう', 'めい'],
+    quizAnswersKun: ['ま.う', 'やす.んじる', '', 'はた']
   },
   {
     kanjiName: '嘉',
@@ -164094,7 +167714,9 @@ let arr = [
         furigana: 'しょうか',
         meanings: 'Shōka era (1257.3.14-1259.3.26)'
       }
-    ]
+    ],
+    quizAnswersOn: ['けん', 'ざい', 'か', 'かい'],
+    quizAnswersKun: ['', 'きた.える', 'くま', 'よみ.する']
   },
   {
     kanjiName: '搾',
@@ -164169,7 +167791,9 @@ let arr = [
         furigana: 'あっさく',
         meanings: 'pressure'
       }
-    ]
+    ],
+    quizAnswersOn: ['とう', 'かい', 'べん', 'さく'],
+    quizAnswersKun: ['しぼ.る', 'はや.い', '', 'よろこ.ぶ']
   },
   {
     kanjiName: '蝶',
@@ -164202,7 +167826,9 @@ let arr = [
         furigana: 'いのしかちょう',
         meanings: 'the boar'
       }
-    ]
+    ],
+    quizAnswersOn: ['は', 'けん', 'ちょう', 'しょく'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '碑',
@@ -164282,7 +167908,9 @@ let arr = [
         furigana: 'いれいひ',
         meanings: 'cenotaph'
       }
-    ]
+    ],
+    quizAnswersOn: ['ひ', 'とう', 'きん', 'かん'],
+    quizAnswersKun: ['いしぶみ', 'たか', 'む.れる', 'さ.す']
   },
   {
     kanjiName: '尉',
@@ -164368,7 +167996,9 @@ let arr = [
         furigana: 'こくしきじょう',
         meanings: 'noh mask used for old man roles (usu. black)'
       }
-    ]
+    ],
+    quizAnswersOn: ['じょう', 'れん', 'はん', 'い'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '匠',
@@ -164454,7 +168084,9 @@ let arr = [
         furigana: 'いしょう',
         meanings: 'design'
       }
-    ]
+    ],
+    quizAnswersOn: ['そん', 'ご', 'しょう', 'よう'],
+    quizAnswersKun: ['よ.く', 'めくら', 'たくみ', '']
   },
   {
     kanjiName: '遥',
@@ -164492,7 +168124,9 @@ let arr = [
         furigana: 'しょうよう',
         meanings: 'ramble'
       }
-    ]
+    ],
+    quizAnswersOn: ['よう', 'ぎ', 'ゆ', 'は'],
+    quizAnswersKun: ['お.ちる', 'はる.か', 'にく.む', 'あまつさえ']
   },
   {
     kanjiName: '智',
@@ -164525,7 +168159,9 @@ let arr = [
         furigana: 'たいち',
         meanings: 'supreme wisdom'
       }
-    ]
+    ],
+    quizAnswersOn: ['ち', 'えん', 'ゆう', 'ひん'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '賊',
@@ -164600,7 +168236,9 @@ let arr = [
         furigana: 'りゅうぞく',
         meanings: 'roving robber'
       }
-    ]
+    ],
+    quizAnswersOn: ['ゆう', 'せい', 'ぞく', 'しょう'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '鼓',
@@ -164690,7 +168328,9 @@ let arr = [
         furigana: 'おたいこ',
         meanings: "very common way of tying a woman's kimono sash"
       }
-    ]
+    ],
+    quizAnswersOn: ['まく', 'こ', 'じ', 'しょう'],
+    quizAnswersKun: ['た.れる', 'あや.しい', 'つづみ', 'あぶら']
   },
   {
     kanjiName: '旋',
@@ -164765,7 +168405,9 @@ let arr = [
         furigana: 'かいせん',
         meanings: 'rotation'
       }
-    ]
+    ],
+    quizAnswersOn: ['せん', 'こつ', 'そう', 'さん'],
+    quizAnswersKun: ['め.ぐる', '', 'うつく.しい', 'いもうと']
   },
   {
     kanjiName: '腸',
@@ -164870,7 +168512,9 @@ let arr = [
         furigana: 'いちょう',
         meanings: 'stomach and intestines'
       }
-    ]
+    ],
+    quizAnswersOn: ['ゆう', 'おん', 'がん', 'ちょう'],
+    quizAnswersKun: ['', 'あ.う', 'きよ.める', 'はらわた']
   },
   {
     kanjiName: '槽',
@@ -164945,7 +168589,9 @@ let arr = [
         furigana: 'でんかいそう',
         meanings: 'electrolytic cell'
       }
-    ]
+    ],
+    quizAnswersOn: ['し', 'はん', 'もう', 'そう'],
+    quizAnswersKun: ['ふね', 'よわい', 'しと.やか', 'くも.る']
   },
   {
     kanjiName: '伐',
@@ -165025,7 +168671,9 @@ let arr = [
         furigana: 'らんばつ',
         meanings: 'reckless deforestation'
       }
-    ]
+    ],
+    quizAnswersOn: ['わ', 'きゃく', 'かく', 'ばつ'],
+    quizAnswersKun: ['-じ', '', 'な', 'き.る']
   },
   {
     kanjiName: '漬',
@@ -165095,7 +168743,9 @@ let arr = [
         furigana: 'しんし',
         meanings: 'dipping'
       }
-    ]
+    ],
+    quizAnswersOn: ['てい', 'しょう', 'し', 'こう'],
+    quizAnswersKun: ['たに', 'つ.ける', '', 'ね.る']
   },
   {
     kanjiName: '坪',
@@ -165170,7 +168820,9 @@ let arr = [
         furigana: 'りゅうつぼ',
         meanings: 'cubic tsubo (approx. 6 cubic metres)'
       }
-    ]
+    ],
+    quizAnswersOn: ['へい', 'なん', 'か', 'きん'],
+    quizAnswersKun: ['もと', 'はと', 'つぼ', '']
   },
   {
     kanjiName: '紺',
@@ -165245,7 +168897,9 @@ let arr = [
         furigana: 'なすこん',
         meanings: 'dusky purple'
       }
-    ]
+    ],
+    quizAnswersOn: ['ちょう', 'ほう', 'こん', 'かん'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '羅',
@@ -165325,7 +168979,9 @@ let arr = [
         furigana: 'こうら',
         meanings: 'shell (of crab'
       }
-    ]
+    ],
+    quizAnswersOn: ['ら', 'おつ', 'りょう', 'きん'],
+    quizAnswersKun: ['', 'うすもの', 'いわ', 'なぐ.る']
   },
   {
     kanjiName: '峡',
@@ -165400,7 +169056,9 @@ let arr = [
         furigana: 'いぎりすかいきょう',
         meanings: 'English Channel'
       }
-    ]
+    ],
+    quizAnswersOn: ['がん', 'きょう', 'しょう', 'ぐう'],
+    quizAnswersKun: ['みち', 'しもべ', 'はざま', 'うた']
   },
   {
     kanjiName: '俸',
@@ -165475,7 +169133,9 @@ let arr = [
         furigana: 'ぞうほう',
         meanings: 'salary increase'
       }
-    ]
+    ],
+    quizAnswersOn: ['きょう', 'ほう', 'じん', 'りょう'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '醸',
@@ -165555,7 +169215,9 @@ let arr = [
         furigana: 'かじょう',
         meanings: 'sweet sake'
       }
-    ]
+    ],
+    quizAnswersOn: ['けん', 'ゆう', 'こう', 'じょう'],
+    quizAnswersKun: ['まれ', 'す.べる', 'まさ.に', 'かも.す']
   },
   {
     kanjiName: '弔',
@@ -165640,7 +169302,9 @@ let arr = [
         furigana: 'あいちょう',
         meanings: 'sympathetic condolences'
       }
-    ]
+    ],
+    quizAnswersOn: ['じょう', 'ちょう', 'か', 'ど'],
+    quizAnswersKun: ['つい.ず', 'あが.る', 'とむら.う', 'あらし']
   },
   {
     kanjiName: '乙',
@@ -165740,7 +169404,9 @@ let arr = [
         furigana: 'ふいつ',
         meanings: 'Very sincerely yours'
       }
-    ]
+    ],
+    quizAnswersOn: ['ぞう', 'しょ', 'おつ', 'じゅつ'],
+    quizAnswersKun: ['おと-', '', 'こた.える', 'わか.る']
   },
   {
     kanjiName: '遍',
@@ -165815,7 +169481,9 @@ let arr = [
         furigana: 'ふへん',
         meanings: 'universal'
       }
-    ]
+    ],
+    quizAnswersOn: ['ちょう', 'へん', 'しょう', 'ずい'],
+    quizAnswersKun: ['つ.ける', 'ほう', 'あまね.く', 'あし']
   },
   {
     kanjiName: '衡',
@@ -165890,7 +169558,9 @@ let arr = [
         furigana: 'がっしょうれんこう',
         meanings: 'alliance (of the Six Kingdoms against the Qin dynasty'
       }
-    ]
+    ],
+    quizAnswersOn: ['きん', 'こう', 'かん', 'じゅう'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '款',
@@ -165965,7 +169635,9 @@ let arr = [
         furigana: 'こうかん',
         meanings: 'exchange of courtesies (cordialities)'
       }
-    ]
+    ],
+    quizAnswersOn: ['へい', 'きゅう', 'かん', 'じゅう'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '閲',
@@ -166045,7 +169717,9 @@ let arr = [
         furigana: 'ないえつ',
         meanings: 'private perusal'
       }
-    ]
+    ],
+    quizAnswersOn: ['えつ', 'しつ', 'い', 'そう'],
+    quizAnswersKun: ['かた.る', 'まな.ぶ', 'けみ.する', 'は.ねる']
   },
   {
     kanjiName: '喝',
@@ -166120,7 +169794,9 @@ let arr = [
         furigana: 'いかつ',
         meanings: 'threatening'
       }
-    ]
+    ],
+    quizAnswersOn: ['む', 'ぞう', 'かつ', 'えい'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '敢',
@@ -166205,7 +169881,9 @@ let arr = [
         furigana: 'じんそくかかん',
         meanings: 'quick and decisive'
       }
-    ]
+    ],
+    quizAnswersOn: ['たく', 'かん', 'けい', 'てき'],
+    quizAnswersKun: ['うてな', 'あ.えて', '', 'のぼ.る']
   },
   {
     kanjiName: '膜',
@@ -166280,7 +169958,9 @@ let arr = [
         furigana: 'もうまく',
         meanings: 'retina'
       }
-    ]
+    ],
+    quizAnswersOn: ['かく', 'まく', 'くん', 'さん'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '盲',
@@ -166375,7 +170055,9 @@ let arr = [
         furigana: 'しゅうもう',
         meanings: 'the blind masses'
       }
-    ]
+    ],
+    quizAnswersOn: ['そう', 'もう', 'しょう', 'ひ'],
+    quizAnswersKun: ['ふさ', 'めくら', '', 'あ.る']
   },
   {
     kanjiName: '胎',
@@ -166450,7 +170132,9 @@ let arr = [
         furigana: 'だたい',
         meanings: 'abortion'
       }
-    ]
+    ],
+    quizAnswersOn: ['たい', 'かい', 'さ', 'じく'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '酵',
@@ -166525,7 +170209,9 @@ let arr = [
         furigana: 'せいみつはっこう',
         meanings: 'precision fermentation (use of microbial hosts'
       }
-    ]
+    ],
+    quizAnswersOn: ['じ', 'じょう', 'こう', 'さい'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '堕',
@@ -166600,7 +170286,9 @@ let arr = [
         furigana: 'らくだ',
         meanings: 'marrying (of a monk)'
       }
-    ]
+    ],
+    quizAnswersOn: ['ぼう', 'しゅん', 'だ', 'き'],
+    quizAnswersKun: ['す.む', 'は.く', 'ふる.う', 'お.ちる']
   },
   {
     kanjiName: '遮',
@@ -166675,7 +170363,9 @@ let arr = [
         furigana: 'あいしゃ',
         meanings: "piece placed to block opponent's check"
       }
-    ]
+    ],
+    quizAnswersOn: ['せん', 'しゃ', 'さい', 'こ'],
+    quizAnswersKun: ['', 'さえぎ.る', 'はし', 'さかずき']
   },
   {
     kanjiName: '凸',
@@ -166760,7 +170450,9 @@ let arr = [
         furigana: 'りょうとつ',
         meanings: 'biconvex'
       }
-    ]
+    ],
+    quizAnswersOn: ['とつ', 'じん', 'がん', 'げん'],
+    quizAnswersKun: ['でこ', 'ふた.つ', 'さま', 'ゆめ']
   },
   {
     kanjiName: '凹',
@@ -166850,7 +170542,9 @@ let arr = [
         furigana: 'ろくおう',
         meanings: 'costal fovea'
       }
-    ]
+    ],
+    quizAnswersOn: ['おう', 'じ', 'ちゅう', 'よう'],
+    quizAnswersKun: ['はがね', 'まつ', 'おびや.かす', 'くぼ.む']
   },
   {
     kanjiName: '楓',
@@ -166903,7 +170597,9 @@ let arr = [
         furigana: 'もみじばふう',
         meanings: 'sweetgum (Liquidambar styraciflua)'
       }
-    ]
+    ],
+    quizAnswersOn: ['ちく', 'ぞう', 'ふう', 'ぎゅう'],
+    quizAnswersKun: ['くも.る', 'ほら', 'まゆ', 'かえで']
   },
   {
     kanjiName: '哉',
@@ -166946,7 +170642,9 @@ let arr = [
         furigana: 'えっさい',
         meanings: 'musket (male Japanese sparrowhawk)'
       }
-    ]
+    ],
+    quizAnswersOn: ['さい', 'もう', 'ふく', 'だん'],
+    quizAnswersKun: ['', 'かば', 'あお.い', 'かな']
   },
   {
     kanjiName: '蒼',
@@ -166984,7 +170682,9 @@ let arr = [
         furigana: 'きゅうそう',
         meanings: 'dome of the sky'
       }
-    ]
+    ],
+    quizAnswersOn: ['えき', 'かん', 'そう', 'こう'],
+    quizAnswersKun: ['みな', 'あお.い', 'あけ', 'かま']
   },
   {
     kanjiName: '瑠',
@@ -167007,7 +170707,9 @@ let arr = [
         furigana: 'るりいろ',
         meanings: 'lapis lazuli blue'
       }
-    ]
+    ],
+    quizAnswersOn: ['かん', 'る', 'そう', 'よく'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '萌',
@@ -167045,7 +170747,9 @@ let arr = [
         furigana: 'ほうがこうしん',
         meanings: 'coppicing'
       }
-    ]
+    ],
+    quizAnswersOn: ['ほう', 'だく', 'こう', 'しょう'],
+    quizAnswersKun: ['', 'かみ', 'も.える', 'かお.る']
   },
   {
     kanjiName: '硫',
@@ -167120,7 +170824,9 @@ let arr = [
         furigana: 'かりゅう',
         meanings: 'vulcanizing (rubber)'
       }
-    ]
+    ],
+    quizAnswersOn: ['ざい', 'りゅう', 'ふつ', 'ぞく'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '赦',
@@ -167195,7 +170901,9 @@ let arr = [
         furigana: 'なさけようしゃ',
         meanings: 'mercy'
       }
-    ]
+    ],
+    quizAnswersOn: ['しゃ', 'ゆう', 'にく', 'し'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '窃',
@@ -167270,7 +170978,9 @@ let arr = [
         furigana: 'そせつ',
         meanings: 'sneak-thief'
       }
-    ]
+    ],
+    quizAnswersOn: ['ふつ', 'べん', 'せつ', 'りん'],
+    quizAnswersKun: ['ふと.い', 'かた', 'す.てる', 'ぬす.む']
   },
   {
     kanjiName: '慨',
@@ -167345,7 +171055,9 @@ let arr = [
         furigana: 'きがい',
         meanings: 'strong spirit'
       }
-    ]
+    ],
+    quizAnswersOn: ['かん', 'ほう', 'がい', 'とう'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '扶',
@@ -167420,7 +171132,9 @@ let arr = [
         furigana: 'かふ',
         meanings: 'steward'
       }
-    ]
+    ],
+    quizAnswersOn: ['けい', 'かん', 'ふ', 'もう'],
+    quizAnswersKun: ['', 'やど', 'たす.ける', 'は.ぜる']
   },
   {
     kanjiName: '戯',
@@ -167520,7 +171234,9 @@ let arr = [
         furigana: 'げさく',
         meanings: 'cheap literature'
       }
-    ]
+    ],
+    quizAnswersOn: ['ちょ', 'さい', 'ちつ', 'ぎ'],
+    quizAnswersKun: ['むこ', 'かざ.る', 'たわむ.れる', 'からだ']
   },
   {
     kanjiName: '忌',
@@ -167631,7 +171347,9 @@ let arr = [
         furigana: 'しちかいき',
         meanings: 'sixth anniversary of a death'
       }
-    ]
+    ],
+    quizAnswersOn: ['れん', 'き', 'こう', 'き'],
+    quizAnswersKun: ['い.む', 'とびら', 'あまね.く', 'うら.む']
   },
   {
     kanjiName: '濁',
@@ -167726,7 +171444,9 @@ let arr = [
         furigana: 'だくせ',
         meanings: 'this corrupt or degenerate world'
       }
-    ]
+    ],
+    quizAnswersOn: ['しょ', 'だく', 'ご', 'さ'],
+    quizAnswersKun: ['', 'つ.む', 'にご.る', 'お.わる']
   },
   {
     kanjiName: '奔',
@@ -167801,7 +171521,9 @@ let arr = [
         furigana: 'きょうほん',
         meanings: 'rushing around'
       }
-    ]
+    ],
+    quizAnswersOn: ['ほん', 'ない', 'くつ', 'しょ'],
+    quizAnswersKun: ['', 'はし.る', 'とりで', 'わら.う']
   },
   {
     kanjiName: '肖',
@@ -167876,7 +171598,9 @@ let arr = [
         furigana: 'ふしょう',
         meanings: "unworthy (of one's father"
       }
-    ]
+    ],
+    quizAnswersOn: ['りょう', 'しょう', 'ばつ', 'しょう'],
+    quizAnswersKun: ['あやか.る', 'のこ.る', 'わた', 'うてな']
   },
   {
     kanjiName: '朽',
@@ -167956,7 +171680,9 @@ let arr = [
         furigana: 'ふきゅう',
         meanings: 'decay'
       }
-    ]
+    ],
+    quizAnswersOn: ['たつ', 'そん', 'きゅう', 'だつ'],
+    quizAnswersKun: ['せ.める', 'く.ちる', 'うしな.う', 'しか']
   },
   {
     kanjiName: '殻',
@@ -168076,7 +171802,9 @@ let arr = [
         furigana: 'せんこく',
         meanings: 'hull'
       }
-    ]
+    ],
+    quizAnswersOn: ['そう', 'かく', 'き', 'りゅう'],
+    quizAnswersKun: ['', 'あわ.せる', 'から', 'はな']
   },
   {
     kanjiName: '享',
@@ -168156,7 +171884,9 @@ let arr = [
         furigana: 'じょうきょう',
         meanings: 'Jōkyō era (1684.2.21-1688.9.30)'
       }
-    ]
+    ],
+    quizAnswersOn: ['しょう', 'かい', 'ばく', 'きょう'],
+    quizAnswersKun: ['う.ける', 'かたよ.る', 'や', 'うつ.る']
   },
   {
     kanjiName: '藩',
@@ -168231,7 +171961,9 @@ let arr = [
         furigana: 'はいはん',
         meanings: 'abolition of the han system (1871)'
       }
-    ]
+    ],
+    quizAnswersOn: ['じゅん', 'こう', 'はん', 'かい'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '媒',
@@ -168311,7 +172043,9 @@ let arr = [
         furigana: 'れいばい',
         meanings: 'refrigerant'
       }
-    ]
+    ],
+    quizAnswersOn: ['かく', 'ゆう', 'ばい', 'まつ'],
+    quizAnswersKun: ['あらわ.れる', 'おこた.る', 'なこうど', '']
   },
   {
     kanjiName: '鶏',
@@ -168416,7 +172150,9 @@ let arr = [
         furigana: 'せいけい',
         meanings: 'adult chicken'
       }
-    ]
+    ],
+    quizAnswersOn: ['けい', 'せい', 'ぜん', 'しょ'],
+    quizAnswersKun: ['にわとり', 'はげ.しい', 'みと.める', '']
   },
   {
     kanjiName: '嘱',
@@ -168496,7 +172232,9 @@ let arr = [
         furigana: 'いしょく',
         meanings: "dying wish (to be carried out after one's death)"
       }
-    ]
+    ],
+    quizAnswersOn: ['か', 'ほう', 'かく', 'しょく'],
+    quizAnswersKun: ['しょく.する', 'まよ.う', 'みさお', 'よろこ.ぶ']
   },
   {
     kanjiName: '迭',
@@ -168556,7 +172294,9 @@ let arr = [
         furigana: 'てつりつ',
         meanings: 'alternate succession (e.g. to throne)'
       }
-    ]
+    ],
+    quizAnswersOn: ['じゅう', 'てつ', 'ろく', 'ぼう'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '椎',
@@ -168594,7 +172334,9 @@ let arr = [
         furigana: 'ようつい',
         meanings: 'lumbar vertebra'
       }
-    ]
+    ],
+    quizAnswersOn: ['かつ', 'つい', 'ちゃ', 'かく'],
+    quizAnswersKun: ['つち', 'ま.う', '', 'みお']
   },
   {
     kanjiName: '絹',
@@ -168684,7 +172426,9 @@ let arr = [
         furigana: 'しょうけん',
         meanings: 'pure silk'
       }
-    ]
+    ],
+    quizAnswersOn: ['じょう', 'さん', 'しょう', 'けん'],
+    quizAnswersKun: ['ところ', 'きぬ', 'まじ.わる', '']
   },
   {
     kanjiName: '陪',
@@ -168754,7 +172498,9 @@ let arr = [
         furigana: 'へんばい',
         meanings: 'ceremony performed by a sorcerer to protect a noble setting out on a trip'
       }
-    ]
+    ],
+    quizAnswersOn: ['にん', 'とう', 'ばい', 'すう'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '剖',
@@ -168824,7 +172570,9 @@ let arr = [
         furigana: 'ぎょうせいかいぼう',
         meanings: 'autopsy initiated by government authorities'
       }
-    ]
+    ],
+    quizAnswersOn: ['なん', 'ばい', 'かく', 'ぼう'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '譜',
@@ -168899,7 +172647,9 @@ let arr = [
         furigana: 'ごせんふ',
         meanings: 'staff notation'
       }
-    ]
+    ],
+    quizAnswersOn: ['ふ', 'ちん', 'しょ', 'びょう'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '淑',
@@ -168979,7 +172729,9 @@ let arr = [
         furigana: 'ししゅく',
         meanings: "looking up to a person as one's own master or model"
       }
-    ]
+    ],
+    quizAnswersOn: ['さん', 'しゅく', 'ひ', 'かん'],
+    quizAnswersKun: ['いき', 'かがりび', 'はじ.めて', 'しと.やか']
   },
   {
     kanjiName: '帆',
@@ -169074,7 +172826,9 @@ let arr = [
         furigana: 'じゅうはん',
         meanings: 'fore-and-aft sail'
       }
-    ]
+    ],
+    quizAnswersOn: ['そう', 'はん', 'しゅく', 'ゆう'],
+    quizAnswersKun: ['', 'ふた.つ', 'ひい.でる', 'ほ']
   },
   {
     kanjiName: '憤',
@@ -169154,7 +172908,9 @@ let arr = [
         furigana: 'つうふん',
         meanings: 'strong indignation'
       }
-    ]
+    ],
+    quizAnswersOn: ['ほ', 'ぎょく', 'ぼう', 'ふん'],
+    quizAnswersKun: ['むぎ', 'いきどお.る', 'たす.ける', 'いか.る']
   },
   {
     kanjiName: '酌',
@@ -169234,7 +172990,9 @@ let arr = [
         furigana: 'ばいしゃく',
         meanings: 'matchmaking'
       }
-    ]
+    ],
+    quizAnswersOn: ['しゃく', 'しゃく', 'かい', 'かん'],
+    quizAnswersKun: ['ふで', 'もっと.も', 'し.る', 'く.む']
   },
   {
     kanjiName: '暁',
@@ -169329,7 +173087,9 @@ let arr = [
         furigana: 'かんぎょう',
         meanings: 'cold winter dawn'
       }
-    ]
+    ],
+    quizAnswersOn: ['さん', 'きゅう', 'どう', 'ぎょう'],
+    quizAnswersKun: ['ほま.れ', 'おか', 'えり', 'あかつき']
   },
   {
     kanjiName: '傑',
@@ -169409,7 +173169,9 @@ let arr = [
         furigana: 'えいけつ',
         meanings: 'great person'
       }
-    ]
+    ],
+    quizAnswersOn: ['しょう', 'けつ', 'たく', 'しゃ'],
+    quizAnswersKun: ['すぐ.れる', 'おもんぱく.る', 'い', 'よこし.ま']
   },
   {
     kanjiName: '錠',
@@ -169484,7 +173246,9 @@ let arr = [
         furigana: 'かいじょう',
         meanings: 'unlocking'
       }
-    ]
+    ],
+    quizAnswersOn: ['せい', 'じょう', 'さい', 'けん'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '凌',
@@ -169512,7 +173276,9 @@ let arr = [
         furigana: 'りょうが',
         meanings: 'excelling'
       }
-    ]
+    ],
+    quizAnswersOn: ['こう', 'ぜん', 'りょう', 'かつ'],
+    quizAnswersKun: ['しの.ぐ', 'おもて', 'とうげ', '']
   },
   {
     kanjiName: '瑞',
@@ -169555,7 +173321,9 @@ let arr = [
         furigana: 'にっすい',
         meanings: 'Japan-Switzerland'
       }
-    ]
+    ],
+    quizAnswersOn: ['はん', 'ずい', 'きん', 'かい'],
+    quizAnswersKun: ['', 'わか.る', 'おおむ.ね', 'みず-']
   },
   {
     kanjiName: '璃',
@@ -169578,7 +173346,9 @@ let arr = [
         furigana: 'じょうるり',
         meanings: 'jōruri'
       }
-    ]
+    ],
+    quizAnswersOn: ['り', 'ひ', 'ぼう', 'しん'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '遷',
@@ -169663,7 +173433,9 @@ let arr = [
         furigana: 'せいせん',
         meanings: 'Hegira'
       }
-    ]
+    ],
+    quizAnswersOn: ['せん', 'てき', 'えん', 'はく'],
+    quizAnswersKun: ['ま.う', 'もろ', 'うつ.る', '']
   },
   {
     kanjiName: '拙',
@@ -169743,7 +173515,9 @@ let arr = [
         furigana: 'こうせつ',
         meanings: 'skill'
       }
-    ]
+    ],
+    quizAnswersOn: ['けん', 'ひ', 'はん', 'せつ'],
+    quizAnswersKun: ['', 'おっと', 'か.れる', 'つたな.い']
   },
   {
     kanjiName: '峠',
@@ -169818,7 +173592,9 @@ let arr = [
         furigana: 'だいぼさつとうげ',
         meanings: 'The Sword of Doom (1966 film)'
       }
-    ]
+    ],
+    quizAnswersOn: [],
+    quizAnswersKun: ['', 'とうげ', 'にご.る', 'いえ']
   },
   {
     kanjiName: '篤',
@@ -169898,7 +173674,9 @@ let arr = [
         furigana: 'こんとく',
         meanings: 'cordial'
       }
-    ]
+    ],
+    quizAnswersOn: ['か', 'ばく', 'とく', 'えん'],
+    quizAnswersKun: ['', 'きり', 'あつ.い', 'のぼ.る']
   },
   {
     kanjiName: '叔',
@@ -169968,7 +173746,9 @@ let arr = [
         furigana: 'はくしゅく',
         meanings: 'brothers'
       }
-    ]
+    ],
+    quizAnswersOn: ['とう', 'てい', 'ねん', 'しゅく'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '雌',
@@ -170053,7 +173833,9 @@ let arr = [
         furigana: 'めばな',
         meanings: 'female flower'
       }
-    ]
+    ],
+    quizAnswersOn: ['し', 'たん', 'さ', 'ずい'],
+    quizAnswersKun: ['', 'たす.ける', 'つづ.く', 'め-']
   },
   {
     kanjiName: '堪',
@@ -170153,7 +173935,9 @@ let arr = [
         furigana: 'たんこうのうりょく',
         meanings: 'seaworthiness'
       }
-    ]
+    ],
+    quizAnswersOn: ['ぎ', 'けい', 'かん', 'てい'],
+    quizAnswersKun: ['うた', 'た.える', 'と.ぐ', 'に.げる']
   },
   {
     kanjiName: '吟',
@@ -170228,7 +174012,9 @@ let arr = [
         furigana: 'えいぎん',
         meanings: 'reciting poetry'
       }
-    ]
+    ],
+    quizAnswersOn: ['れん', 'かい', 'ぎん', 'き'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '甚',
@@ -170318,7 +174104,9 @@ let arr = [
         furigana: 'こうじん',
         meanings: 'being extremely grateful'
       }
-    ]
+    ],
+    quizAnswersOn: ['な', 'か', 'じん', 'しゅ'],
+    quizAnswersKun: ['ね.る', 'はなは.だ', 'くるわ', 'ふる.う']
   },
   {
     kanjiName: '崇',
@@ -170393,7 +174181,9 @@ let arr = [
         furigana: 'そんすう',
         meanings: 'reverence'
       }
-    ]
+    ],
+    quizAnswersOn: ['えん', 'すう', 'しょう', 'けん'],
+    quizAnswersKun: ['あが.める', 'こ.げる', 'うら.む', 'やす.んじる']
   },
   {
     kanjiName: '漆',
@@ -170488,7 +174278,9 @@ let arr = [
         furigana: 'かしつ',
         meanings: 'varnish'
       }
-    ]
+    ],
+    quizAnswersOn: ['しつ', 'せつ', 'たく', 'さい'],
+    quizAnswersKun: ['おこ.る', '', 'うるし', 'す']
   },
   {
     kanjiName: '岬',
@@ -170558,7 +174350,9 @@ let arr = [
         furigana: 'こうわん',
         meanings: 'capes and bays'
       }
-    ]
+    ],
+    quizAnswersOn: ['こう', 'りょう', 'きゅう', 'しょう'],
+    quizAnswersKun: ['しず.める', 'みさき', 'つよ.い', 'あまね.く']
   },
   {
     kanjiName: '紡',
@@ -170638,7 +174432,9 @@ let arr = [
         furigana: 'めんぼう',
         meanings: 'cotton spinning'
       }
-    ]
+    ],
+    quizAnswersOn: ['てつ', 'ちょう', 'ぼう', 'きょ'],
+    quizAnswersKun: ['さくら', 'つむ.ぐ', 'つ.く', 'まか.せる']
   },
   {
     kanjiName: '礁',
@@ -170713,7 +174509,9 @@ let arr = [
         furigana: 'ざしょう',
         meanings: 'running aground'
       }
-    ]
+    ],
+    quizAnswersOn: ['しょう', 'しょう', 'せい', 'いん'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '屯',
@@ -170798,7 +174596,9 @@ let arr = [
         furigana: 'えいとん',
         meanings: 'long ton'
       }
-    ]
+    ],
+    quizAnswersOn: ['おう', 'れい', 'よう', 'とん'],
+    quizAnswersKun: ['たむろ', 'おさな.い', 'しら.げる', 'あかつき']
   },
   {
     kanjiName: '姻',
@@ -170868,7 +174668,9 @@ let arr = [
         furigana: 'こんいん',
         meanings: 'marriage'
       }
-    ]
+    ],
+    quizAnswersOn: ['しょう', 'いん', 'さく', 'ぼ'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '擬',
@@ -170958,7 +174760,9 @@ let arr = [
         furigana: 'ぎじ',
         meanings: 'pseudo'
       }
-    ]
+    ],
+    quizAnswersOn: ['ぎ', 'どく', 'ぎょ', 'よう'],
+    quizAnswersKun: ['しの.ぐ', 'まが.い', 'あつ.い', 'ね']
   },
   {
     kanjiName: '睦',
@@ -170991,7 +174795,9 @@ let arr = [
         furigana: 'とんぼく',
         meanings: 'cordial and friendly'
       }
-    ]
+    ],
+    quizAnswersOn: ['さん', 'ろん', 'ぼく', 'ほう'],
+    quizAnswersKun: ['はな.す', 'くつろ.ぐ', 'かつら', 'むつ.まじい']
   },
   {
     kanjiName: '閑',
@@ -171066,7 +174872,9 @@ let arr = [
         furigana: 'きゅうかん',
         meanings: 'fallowing'
       }
-    ]
+    ],
+    quizAnswersOn: ['かん', 'たい', 'しゃく', 'かつ'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '曹',
@@ -171146,7 +174954,9 @@ let arr = [
         furigana: 'ぞうし',
         meanings: 'palace room for government officials or ladies in waiting'
       }
-    ]
+    ],
+    quizAnswersOn: ['すい', 'そう', 'ぎょう', 'ぎ'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '詠',
@@ -171231,7 +175041,9 @@ let arr = [
         furigana: 'いえい',
         meanings: 'posthumous song or poem'
       }
-    ]
+    ],
+    quizAnswersOn: ['が', 'き', 'けん', 'えい'],
+    quizAnswersKun: ['むつ.まじい', 'しりぞ.く', 'よ.む', 'やぶ.る']
   },
   {
     kanjiName: '卑',
@@ -171331,7 +175143,9 @@ let arr = [
         furigana: 'やひ',
         meanings: 'vulgar'
       }
-    ]
+    ],
+    quizAnswersOn: ['へん', 'いち', 'ひ', 'たい'],
+    quizAnswersKun: ['あば.く', 'と.く', 'ころ.がる', 'いや.しい']
   },
   {
     kanjiName: '侮',
@@ -171411,7 +175225,9 @@ let arr = [
         furigana: 'けいぶ',
         meanings: 'contempt'
       }
-    ]
+    ],
+    quizAnswersOn: ['ずい', '', 'ごく', 'ぶ'],
+    quizAnswersKun: ['うれ.しい', 'ゆだ.ねる', 'あなど.る', 'おのれ']
   },
   {
     kanjiName: '鋳',
@@ -171501,7 +175317,9 @@ let arr = [
         furigana: 'いがた',
         meanings: 'mold'
       }
-    ]
+    ],
+    quizAnswersOn: ['のう', 'だい', 'どう', 'ちゅう'],
+    quizAnswersKun: ['い.る', '', 'そだ.つ', 'み']
   },
   {
     kanjiName: '胆',
@@ -171586,7 +175404,9 @@ let arr = [
         furigana: 'ごうたん',
         meanings: 'bold'
       }
-    ]
+    ],
+    quizAnswersOn: ['しゅう', 'たん', 'じゃく', 'しゃ'],
+    quizAnswersKun: ['かいこ', 'ふえ', 'きも', 'しき.りに']
   },
   {
     kanjiName: '浪',
@@ -171662,7 +175482,9 @@ let arr = [
         furigana: 'いちろう',
         meanings: 'failing college entrance exams and retaking them a year later'
       }
-    ]
+    ],
+    quizAnswersOn: ['ろう', 'どう', 'ねん', 'ぎ'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '禍',
@@ -171747,7 +175569,9 @@ let arr = [
         furigana: 'さんか',
         meanings: 'calamity'
       }
-    ]
+    ],
+    quizAnswersOn: ['るい', 'か', 'がい', 'びょう'],
+    quizAnswersKun: ['みず-', 'き.る', 'わざわい', 'かめ']
   },
   {
     kanjiName: '酪',
@@ -171822,7 +175646,9 @@ let arr = [
         furigana: 'ぎゅうらく',
         meanings: 'butter'
       }
-    ]
+    ],
+    quizAnswersOn: ['ぼう', 'らく', 'きん', 'いん'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '憧',
@@ -171850,7 +175676,9 @@ let arr = [
         furigana: 'どうけい',
         meanings: 'longing'
       }
-    ]
+    ],
+    quizAnswersOn: ['しょう', 'ふん', 'さい', 'き'],
+    quizAnswersKun: ['く.む', 'あなど.る', 'もよう.す', 'あこが.れる']
   },
   {
     kanjiName: '慶',
@@ -171935,7 +175763,9 @@ let arr = [
         furigana: 'たいけい',
         meanings: 'great joy'
       }
-    ]
+    ],
+    quizAnswersOn: ['ま', 'けい', 'べん', 'い'],
+    quizAnswersKun: ['ねが.う', 'つか.う', 'よろこ.び', 'ま.う']
   },
   {
     kanjiName: '亜',
@@ -172015,7 +175845,9 @@ let arr = [
         furigana: 'しりあ',
         meanings: 'Syria'
       }
-    ]
+    ],
+    quizAnswersOn: ['みん', 'あ', 'きょう', 'とう'],
+    quizAnswersKun: ['たくわ.える', 'こ.い', 'つ.ぐ', 'と.る']
   },
   {
     kanjiName: '汰',
@@ -172038,7 +175870,9 @@ let arr = [
         furigana: 'とうた',
         meanings: 'weeding out'
       }
-    ]
+    ],
+    quizAnswersOn: ['しゃ', 'た', 'き', 'くん'],
+    quizAnswersKun: ['おご.る', 'つた.わる', 'う.つ', 'つかさど.る']
   },
   {
     kanjiName: '梓',
@@ -172076,7 +175910,9 @@ let arr = [
         furigana: 'じょうし',
         meanings: 'wood-block printing'
       }
-    ]
+    ],
+    quizAnswersOn: ['けん', 'ぐう', 'しょう', 'し'],
+    quizAnswersKun: ['', 'あずさ', 'いか.る', 'しも']
   },
   {
     kanjiName: '沙',
@@ -172144,7 +175980,9 @@ let arr = [
         furigana: 'でいさ',
         meanings: 'mud and sand'
       }
-    ]
+    ],
+    quizAnswersOn: ['りゃく', 'ぐん', 'さ', 'さく'],
+    quizAnswersKun: ['たい.ら', 'すな', 'とお.い', 'ふ.む']
   },
   {
     kanjiName: '逝',
@@ -172224,7 +176062,9 @@ let arr = [
         furigana: 'こうせい',
         meanings: 'death (of a nobleman)'
       }
-    ]
+    ],
+    quizAnswersOn: ['さん', 'し', 'ちん', 'せい'],
+    quizAnswersKun: ['し.める', 'あ.きる', 'せ.める', 'ゆ.く']
   },
   {
     kanjiName: '匿',
@@ -172304,7 +176144,9 @@ let arr = [
         furigana: 'ひとく',
         meanings: 'hiding'
       }
-    ]
+    ],
+    quizAnswersOn: ['とく', 'けい', 'ごう', 'ざい'],
+    quizAnswersKun: ['かくま.う', '', 'み.る', 'し.れる']
   },
   {
     kanjiName: '寡',
@@ -172379,7 +176221,9 @@ let arr = [
         furigana: 'かんか',
         meanings: 'widow and widower'
       }
-    ]
+    ],
+    quizAnswersOn: ['びょう', 'か', 'ちょう', 'かん'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '痢',
@@ -172454,7 +176298,9 @@ let arr = [
         furigana: 'えきり',
         meanings: "children's dysentery"
       }
-    ]
+    ],
+    quizAnswersOn: ['はい', 'らん', 'り', 'せい'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '坑',
@@ -172529,7 +176375,9 @@ let arr = [
         furigana: 'かいこう',
         meanings: 'opening of mine'
       }
-    ]
+    ],
+    quizAnswersOn: ['きゅう', 'よう', 'こう', 'もう'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '藍',
@@ -172582,7 +176430,9 @@ let arr = [
         furigana: 'かいらん',
         meanings: 'kai-lan'
       }
-    ]
+    ],
+    quizAnswersOn: ['い', 'しゅう', 'らん', 'き'],
+    quizAnswersKun: ['しし', 'まゆずみ', 'あい', '']
   },
   {
     kanjiName: '畔',
@@ -172667,7 +176517,9 @@ let arr = [
         furigana: 'きょうはん',
         meanings: 'approach to a bridge'
       }
-    ]
+    ],
+    quizAnswersOn: ['はん', 'ひ', 'い', 'じゅ'],
+    quizAnswersKun: ['あぜ', 'かわ.く', 'に.る', 'おそれ']
   },
   {
     kanjiName: '唄',
@@ -172716,7 +176568,9 @@ let arr = [
         furigana: 'ぼんばい',
         meanings: 'song praising the virtues of the Buddha'
       }
-    ]
+    ],
+    quizAnswersOn: ['よく', 'ばい', 'ちょう', 'ゆう'],
+    quizAnswersKun: ['うた', 'いさお', 'ろう.する', '']
   },
   {
     kanjiName: '拷',
@@ -172781,7 +176635,9 @@ let arr = [
         furigana: 'ごうき',
         meanings: 'instruments of torture'
       }
-    ]
+    ],
+    quizAnswersOn: ['ばい', 'ごう', 'しゅう', 'しん'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '渓',
@@ -172861,7 +176717,9 @@ let arr = [
         furigana: 'げいびけい',
         meanings: 'Geibi Gorge (Ichinoseki'
       }
-    ]
+    ],
+    quizAnswersOn: ['かん', 'ちょう', 'けい', 'や'],
+    quizAnswersKun: ['たと.える', 'たから', 'すじ', 'たに']
   },
   {
     kanjiName: '廉',
@@ -172950,7 +176808,9 @@ let arr = [
         furigana: 'ていれん',
         meanings: 'cheap'
       }
-    ]
+    ],
+    quizAnswersOn: ['ほう', 'えん', 'めん', 'れん'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '謹',
@@ -173025,7 +176885,9 @@ let arr = [
         furigana: 'さいきん',
         meanings: 'slight flaw'
       }
-    ]
+    ],
+    quizAnswersOn: ['す', 'ずい', 'きん', 'どう'],
+    quizAnswersKun: ['お.しい', 'つつし.む', 'か.ける', 'つらぬ.く']
   },
   {
     kanjiName: '湧',
@@ -173068,7 +176930,9 @@ let arr = [
         furigana: 'ゆうしゅつ',
         meanings: 'gushing out'
       }
-    ]
+    ],
+    quizAnswersOn: ['じ', 'ゆう', 'いん', 'こ'],
+    quizAnswersKun: ['わ.く', 'ごと.し', 'ね.る', 'おそれ']
   },
   {
     kanjiName: '醜',
@@ -173163,7 +177027,9 @@ let arr = [
         furigana: 'びしゅう',
         meanings: 'beauty or ugliness'
       }
-    ]
+    ],
+    quizAnswersOn: ['てん', 'かく', 'き', 'しゅう'],
+    quizAnswersKun: ['つと.める', 'い', 'みにく.い', 'つぼ']
   },
   {
     kanjiName: '升',
@@ -173243,7 +177109,9 @@ let arr = [
         furigana: 'いっしょう',
         meanings: 'one shō (approx. 1.8 litres)'
       }
-    ]
+    ],
+    quizAnswersOn: ['ねつ', 'しょう', 'さん', 'ぎ'],
+    quizAnswersKun: ['ます', 'あかね', 'いとけない', 'あわ.い']
   },
   {
     kanjiName: '殉',
@@ -173308,7 +177176,9 @@ let arr = [
         furigana: 'じゅんきょう',
         meanings: 'martyrdom'
       }
-    ]
+    ],
+    quizAnswersOn: ['じゅん', 'ほう', 'し', 'せい'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '煩',
@@ -173403,7 +177273,9 @@ let arr = [
         furigana: 'ぼんのうぐそく',
         meanings: 'possessing worldly desires and passions'
       }
-    ]
+    ],
+    quizAnswersOn: ['かん', 'はん', 'れん', 'ほ'],
+    quizAnswersKun: ['おか.す', 'はやし', 'わずら.う', '']
   },
   {
     kanjiName: '劾',
@@ -173468,7 +177340,9 @@ let arr = [
         furigana: 'だんがい',
         meanings: 'impeachment'
       }
-    ]
+    ],
+    quizAnswersOn: ['じゅう', 'そう', 'さん', 'がい'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '桟',
@@ -173548,7 +177422,9 @@ let arr = [
         furigana: 'まどのさん',
         meanings: 'window frame'
       }
-    ]
+    ],
+    quizAnswersOn: ['しん', 'たく', 'さん', 'しゅう'],
+    quizAnswersKun: ['と.む', '', 'あ.てる', 'かけはし']
   },
   {
     kanjiName: '婿',
@@ -173633,7 +177509,9 @@ let arr = [
         furigana: 'あいせい',
         meanings: "one's favorite son-in-law"
       }
-    ]
+    ],
+    quizAnswersOn: ['せい', 'すん', 'よう', 'じょう'],
+    quizAnswersKun: ['むこ', 'つ.く', '', 'そっ.する']
   },
   {
     kanjiName: '慕',
@@ -173708,7 +177586,9 @@ let arr = [
         furigana: 'あいぼ',
         meanings: 'cherish the memory of'
       }
-    ]
+    ],
+    quizAnswersOn: ['てつ', 'ぼ', 'てい', 'しゅう'],
+    quizAnswersKun: ['ずきん', 'いま.だ', 'した.う', 'ちち']
   },
   {
     kanjiName: '罷',
@@ -173778,7 +177658,9 @@ let arr = [
         furigana: 'ひかん',
         meanings: 'removal from office'
       }
-    ]
+    ],
+    quizAnswersOn: ['しゅう', 'けん', 'ら', 'ひ'],
+    quizAnswersKun: ['いくさ', 'するど.い', 'たわむ.れる', 'まか.り-']
   },
   {
     kanjiName: '矯',
@@ -173862,7 +177744,9 @@ let arr = [
         furigana: 'ききょう',
         meanings: 'eccentric'
       }
-    ]
+    ],
+    quizAnswersOn: ['こ', 'りょう', 'きょう', 'ちょ'],
+    quizAnswersKun: ['た.める', 'ひろ.い', 'こお.る', 'おもむ.ろに']
   },
   {
     kanjiName: '某',
@@ -173952,7 +177836,9 @@ let arr = [
         furigana: 'なにがし',
         meanings: 'certain amount'
       }
-    ]
+    ],
+    quizAnswersOn: ['ぼう', 'か', 'けん', 'ぼ'],
+    quizAnswersKun: ['それがし', 'つ.げる', 'あおい', 'お.く']
   },
   {
     kanjiName: '囚',
@@ -174032,7 +177918,9 @@ let arr = [
         furigana: 'ざいしゅう',
         meanings: 'prisoner'
       }
-    ]
+    ],
+    quizAnswersOn: ['しゅう', 'さい', 'さん', 'きく'],
+    quizAnswersKun: ['とら.われる', '', 'ひろ.がる', 'つぼ']
   },
   {
     kanjiName: '泌',
@@ -174107,7 +177995,9 @@ let arr = [
         furigana: 'ひつにゅう',
         meanings: 'lactation'
       }
-    ]
+    ],
+    quizAnswersOn: ['じょう', 'ひつ', 'ばい', 'かん'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '漸',
@@ -174197,7 +178087,9 @@ let arr = [
         furigana: 'とうぜん',
         meanings: 'eastward advance'
       }
-    ]
+    ],
+    quizAnswersOn: ['こく', 'しゅん', 'まく', 'ぜん'],
+    quizAnswersKun: ['ようや.く', 'とく', 'か.わる', 'のこ.る']
   },
   {
     kanjiName: '藻',
@@ -174292,7 +178184,9 @@ let arr = [
         furigana: 'せっかいそう',
         meanings: 'calcareous algae'
       }
-    ]
+    ],
+    quizAnswersOn: ['そう', 'だん', 'かん', 'ごう'],
+    quizAnswersKun: ['い.る', '', 'やと.う', 'も']
   },
   {
     kanjiName: '妄',
@@ -174392,7 +178286,9 @@ let arr = [
         furigana: 'ふぼう',
         meanings: 'slander'
       }
-    ]
+    ],
+    quizAnswersOn: ['か', 'きゅう', 'もう', 'よう'],
+    quizAnswersKun: ['みだ.りに', 'ひそ.か', 'あゆ', 'かたまり']
   },
   {
     kanjiName: '蛮',
@@ -174468,7 +178364,9 @@ let arr = [
         furigana: 'せいばん',
         meanings: 'unconquered savage'
       }
-    ]
+    ],
+    quizAnswersOn: ['ばん', 'そう', 'ぼつ', 'き'],
+    quizAnswersKun: ['い.る', 'えびす', 'みき', 'なげ.く']
   },
   {
     kanjiName: '倹',
@@ -174548,7 +178446,9 @@ let arr = [
         furigana: 'せっけん',
         meanings: 'economy'
       }
-    ]
+    ],
+    quizAnswersOn: ['けい', 'けん', 'あく', 'らい'],
+    quizAnswersKun: ['つ.ける', 'いき', 'つま.しい', 'つくえ']
   },
   {
     kanjiName: '渥',
@@ -174576,7 +178476,9 @@ let arr = [
         furigana: 'ゆうあく',
         meanings: 'gracious'
       }
-    ]
+    ],
+    quizAnswersOn: ['へい', 'しん', 'き', 'あく'],
+    quizAnswersKun: ['かがや.く', 'まゆずみ', 'あつ.い', 'おと']
   },
   {
     kanjiName: '旭',
@@ -174609,7 +178511,9 @@ let arr = [
         furigana: 'きょくじつき',
         meanings: 'Rising Sun flag'
       }
-    ]
+    ],
+    quizAnswersOn: ['と', 'しょう', 'きょく', 'ぞく'],
+    quizAnswersKun: ['ふせ.ぐ', 'あさひ', 'すな', 'ほこ.る']
   },
   {
     kanjiName: '絢',
@@ -174632,7 +178536,9 @@ let arr = [
         furigana: 'けんぶん',
         meanings: 'colorful pattern'
       }
-    ]
+    ],
+    quizAnswersOn: ['ゆ', 'けん', 'だく', 'そう'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '鮎',
@@ -174670,7 +178576,9 @@ let arr = [
         furigana: 'あゆ',
         meanings: 'sweetfish (Plecoglossus altivelis altivelis)'
       }
-    ]
+    ],
+    quizAnswersOn: ['けい', 'まん', 'へい', 'でん'],
+    quizAnswersKun: ['や.む', 'とびら', 'あゆ', 'やど']
   },
   {
     kanjiName: '惟',
@@ -174713,7 +178621,9 @@ let arr = [
         furigana: 'しい',
         meanings: 'thought'
       }
-    ]
+    ],
+    quizAnswersOn: ['し', 'い', 'こう', 'たん'],
+    quizAnswersKun: ['おも.んみる', '', 'あ.かり', 'はらわた']
   },
   {
     kanjiName: '亥',
@@ -174761,7 +178671,9 @@ let arr = [
         furigana: 'つちのとい',
         meanings: 'Earth Boar (36th term of the sexagenary cycle'
       }
-    ]
+    ],
+    quizAnswersOn: ['がい', 'たい', 'にょう', 'りつ'],
+    quizAnswersKun: ['い', 'みだ.りに', '', 'いろど.る']
   },
   {
     kanjiName: '郁',
@@ -174789,7 +178701,9 @@ let arr = [
         furigana: 'ふくいく',
         meanings: 'fragrant'
       }
-    ]
+    ],
+    quizAnswersOn: ['たい', 'いく', 'ちょく', ''],
+    quizAnswersKun: []
   },
   {
     kanjiName: '磯',
@@ -174822,7 +178736,9 @@ let arr = [
         furigana: 'あらいそ',
         meanings: 'reefy coast'
       }
-    ]
+    ],
+    quizAnswersOn: ['めん', 'さい', 'ぼう', 'き'],
+    quizAnswersKun: ['あたた.か', '', 'いそ', 'やす.い']
   },
   {
     kanjiName: '壱',
@@ -174892,7 +178808,9 @@ let arr = [
         furigana: 'じゅういち',
         meanings: 'eleven'
       }
-    ]
+    ],
+    quizAnswersOn: ['き', 'さつ', 'さく', 'いち'],
+    quizAnswersKun: ['', 'すく.う', 'ひとつ', 'わざわ.い']
   },
   {
     kanjiName: '允',
@@ -174925,7 +178843,9 @@ let arr = [
         furigana: 'しょういん',
         meanings: 'consent'
       }
-    ]
+    ],
+    quizAnswersOn: ['いん', 'しょう', 'かい', 'きょう'],
+    quizAnswersKun: ['', 'まど.う', 'じょう', 'おのおの']
   },
   {
     kanjiName: '胤',
@@ -174963,7 +178883,9 @@ let arr = [
         furigana: 'こういん',
         meanings: 'Imperial descendant (posterity)'
       }
-    ]
+    ],
+    quizAnswersOn: ['だつ', 'しゅ', 'いん', 'てい'],
+    quizAnswersKun: ['と.ける', 'うれ.える', 'たね', 'なか']
   },
   {
     kanjiName: '韻',
@@ -175038,7 +178960,9 @@ let arr = [
         furigana: 'るいいん',
         meanings: 'assonance'
       }
-    ]
+    ],
+    quizAnswersOn: ['れい', 'えき', 'いん', 'しゅう'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '卯',
@@ -175086,7 +179010,9 @@ let arr = [
         furigana: 'つちのとう',
         meanings: 'Earth Rabbit (16th term of the sexagenary cycle'
       }
-    ]
+    ],
+    quizAnswersOn: ['とう', 'れい', 'か', 'ぼう'],
+    quizAnswersKun: ['う', '', 'かた.る', 'しろ.い']
   },
   {
     kanjiName: '丑',
@@ -175129,7 +179055,9 @@ let arr = [
         furigana: 'みずのとうし',
         meanings: 'Water Ox (50th term of the sexagenary cycle'
       }
-    ]
+    ],
+    quizAnswersOn: ['しょう', 'こう', 'ちゅう', 'せい'],
+    quizAnswersKun: ['うし', 'ふ.る', 'きざはし', 'ふる.い']
   },
   {
     kanjiName: '叡',
@@ -175152,7 +179080,9 @@ let arr = [
         furigana: 'えいおう',
         meanings: 'Eiō (one of the eight major professional titles of shogi)'
       }
-    ]
+    ],
+    quizAnswersOn: ['きょく', 'かい', 'しょう', 'えい'],
+    quizAnswersKun: ['あき.らか', 'こま', '', 'もと']
   },
   {
     kanjiName: '謁',
@@ -175227,7 +179157,9 @@ let arr = [
         furigana: 'ないえつ',
         meanings: 'private audience'
       }
-    ]
+    ],
+    quizAnswersOn: ['だん', 'えつ', 'こう', 'ぎょう'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '艶',
@@ -175295,7 +179227,9 @@ let arr = [
         furigana: 'せいえん',
         meanings: 'weirdly beautiful'
       }
-    ]
+    ],
+    quizAnswersOn: ['じょ', 'げん', 'えん', 'さん'],
+    quizAnswersKun: ['かや', 'つや', 'もよう.す', '']
   },
   {
     kanjiName: '苑',
@@ -175343,7 +179277,9 @@ let arr = [
         furigana: 'ろくやおん',
         meanings: 'Magadaava (where Buddha delivered his first sermon)'
       }
-    ]
+    ],
+    quizAnswersOn: ['めん', 'ち', 'だん', 'えん'],
+    quizAnswersKun: ['その', 'もよう.す', '', 'つぼ']
   },
   {
     kanjiName: '於',
@@ -175381,7 +179317,9 @@ let arr = [
         furigana: 'おかれましては',
         meanings: 'in respect of'
       }
-    ]
+    ],
+    quizAnswersOn: ['れい', 'お', 'しょう', 'がん'],
+    quizAnswersKun: ['ひと.り', 'よそお.う', 'あき', 'おい.て']
   },
   {
     kanjiName: '旺',
@@ -175409,7 +179347,9 @@ let arr = [
         furigana: 'おうぜん',
         meanings: 'prosperous'
       }
-    ]
+    ],
+    quizAnswersOn: ['おう', 'こう', 'さく', 'おう'],
+    quizAnswersKun: ['', 'かがや.き', 'きも', 'さけ']
   },
   {
     kanjiName: '翁',
@@ -175494,7 +179434,9 @@ let arr = [
         furigana: 'はくとうおう',
         meanings: 'windflower'
       }
-    ]
+    ],
+    quizAnswersOn: ['おう', 'かく', 'すい', 'き'],
+    quizAnswersKun: ['とな.る', 'かど', 'き.める', 'おきな']
   },
   {
     kanjiName: '伽',
@@ -175582,7 +179524,9 @@ let arr = [
         furigana: 'そうぎゃ',
         meanings: 'sangha (the Buddhist community)'
       }
-    ]
+    ],
+    quizAnswersOn: ['か', 'えん', 'あん', 'せつ'],
+    quizAnswersKun: ['とぎ', 'かど', 'こ.げる', 'うなが.す']
   },
   {
     kanjiName: '箇',
@@ -175663,7 +179607,9 @@ let arr = [
         furigana: 'しんこ',
         meanings: 'real'
       }
-    ]
+    ],
+    quizAnswersOn: ['けん', 'か', 'しょう', 'じゅう'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '茄',
@@ -175681,7 +179627,9 @@ let arr = [
         furigana: 'ばんか',
         meanings: 'tomato (Solanum lycopersicum)'
       }
-    ]
+    ],
+    quizAnswersOn: ['せん', 'か', 'じつ', 'しょう'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '霞',
@@ -175734,7 +179682,9 @@ let arr = [
         furigana: 'あさがすみ',
         meanings: 'morning glow'
       }
-    ]
+    ],
+    quizAnswersOn: ['よう', 'か', 'ぼく', 'ほ'],
+    quizAnswersKun: ['かすみ', 'はがね', 'かか.る', 'あつ.い']
   },
   {
     kanjiName: '魁',
@@ -175777,7 +179727,9 @@ let arr = [
         furigana: 'きょかい',
         meanings: 'ringleader'
       }
-    ]
+    ],
+    quizAnswersOn: ['い', 'はん', 'かい', 'きょく'],
+    quizAnswersKun: ['', 'さきがけ', 'すた.れる', 'あまね.く']
   },
   {
     kanjiName: '凱',
@@ -175800,7 +179752,9 @@ let arr = [
         furigana: 'がいせん',
         meanings: 'triumphant return'
       }
-    ]
+    ],
+    quizAnswersOn: ['しょう', 'がい', 'かん', 'かく'],
+    quizAnswersKun: ['あいて', 'かがみ', 'かちどき', 'はか.る']
   },
   {
     kanjiName: '馨',
@@ -175838,7 +179792,9 @@ let arr = [
         furigana: 'きそけい',
         meanings: 'Italian jasmine (Jasminum humile var. revolutum)'
       }
-    ]
+    ],
+    quizAnswersOn: ['てい', 'よう', 'たい', 'けい'],
+    quizAnswersKun: ['みき', 'かお.る', '', 'まな.ぶ']
   },
   {
     kanjiName: '嚇',
@@ -175918,7 +179874,9 @@ let arr = [
         furigana: 'きょうかく',
         meanings: 'intimidation'
       }
-    ]
+    ],
+    quizAnswersOn: ['ぐん', 'かく', 'おく', 'ふう'],
+    quizAnswersKun: ['なに', 'まね.く', 'おど.す', 'ま']
   },
   {
     kanjiName: '褐',
@@ -175983,7 +179941,9 @@ let arr = [
         furigana: 'かちいろ',
         meanings: 'dark indigo (almost black)'
       }
-    ]
+    ],
+    quizAnswersOn: ['かつ', 'りょ', 'ひょう', 'あん'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '叶',
@@ -176011,7 +179971,9 @@ let arr = [
         furigana: 'かなうことなら',
         meanings: 'if possible'
       }
-    ]
+    ],
+    quizAnswersOn: ['き', 'ちゅう', '', 'きょう'],
+    quizAnswersKun: ['わざおぎ', 'かす.か', 'かな.える', 'きし']
   },
   {
     kanjiName: '樺',
@@ -176064,7 +180026,9 @@ let arr = [
         furigana: 'かばざくら',
         meanings: 'ornamental variety of double weeping rosebud cherry'
       }
-    ]
+    ],
+    quizAnswersOn: ['か', 'はく', 'よう', 'ぎ'],
+    quizAnswersKun: ['', 'かば', 'でく', 'かく.す']
   },
   {
     kanjiName: '茅',
@@ -176107,7 +180071,9 @@ let arr = [
         furigana: 'ぼうし',
         meanings: 'thatched roof'
       }
-    ]
+    ],
+    quizAnswersOn: ['ぼう', 'せき', 'じゃ', 'ぼう'],
+    quizAnswersKun: ['ま.く', 'よ.る', 'ひたい', 'かや']
   },
   {
     kanjiName: '侃',
@@ -176130,7 +180096,9 @@ let arr = [
         furigana: 'かんちょく',
         meanings: 'firm and upright (character)'
       }
-    ]
+    ],
+    quizAnswersOn: ['かん', 'けん', 'ち', 'とく'],
+    quizAnswersKun: ['つよ.い', 'これ', 'いた', 'か.る']
   },
   {
     kanjiName: '棺',
@@ -176205,7 +180173,9 @@ let arr = [
         furigana: 'のうかん',
         meanings: 'placing a body in a coffin'
       }
-    ]
+    ],
+    quizAnswersOn: ['さ', 'じょ', 'しゅ', 'かん'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '莞',
@@ -176228,7 +180198,9 @@ let arr = [
         furigana: 'かんじとして',
         meanings: 'with a smile'
       }
-    ]
+    ],
+    quizAnswersOn: ['へい', 'れい', 'り', 'かん'],
+    quizAnswersKun: ['こおり', 'い', '', 'おど.す']
   },
   {
     kanjiName: '巌',
@@ -176276,7 +180248,9 @@ let arr = [
         furigana: 'きがん',
         meanings: 'steep'
       }
-    ]
+    ],
+    quizAnswersOn: ['しょう', 'し', 'がん', 'ねん'],
+    quizAnswersKun: ['かたど.る', 'すじ', '', 'いわ']
   },
   {
     kanjiName: '嬉',
@@ -176314,7 +180288,9 @@ let arr = [
         furigana: 'きき',
         meanings: 'merry'
       }
-    ]
+    ],
+    quizAnswersOn: ['ま', 'こん', 'すい', 'き'],
+    quizAnswersKun: ['はと', 'なり', 'うれ.しい', 'こし']
   },
   {
     kanjiName: '毅',
@@ -176347,7 +180323,9 @@ let arr = [
         furigana: 'そうめいごうき',
         meanings: 'be reasonable'
       }
-    ]
+    ],
+    quizAnswersOn: ['れい', 'き', 'ぞう', 'よう'],
+    quizAnswersKun: ['つよ.い', 'おく', 'とりこ', 'よ.る']
   },
   {
     kanjiName: '稀',
@@ -176405,7 +180383,9 @@ let arr = [
         furigana: 'けう',
         meanings: 'rare'
       }
-    ]
+    ],
+    quizAnswersOn: ['きゅう', 'き', 'せつ', 'しゅ'],
+    quizAnswersKun: ['まれ', 'すべから.く', 'ころ.す', 'くさ.い']
   },
   {
     kanjiName: '誼',
@@ -176438,7 +180418,9 @@ let arr = [
         furigana: 'こうぎ',
         meanings: '(your) kindness'
       }
-    ]
+    ],
+    quizAnswersOn: ['さい', 'ぼう', 'きゅう', 'ぎ'],
+    quizAnswersKun: ['つの.る', '', 'よしみ', 'ひつじ']
   },
   {
     kanjiName: '鞠',
@@ -176486,7 +180468,9 @@ let arr = [
         furigana: 'けまり',
         meanings: 'kemari'
       }
-    ]
+    ],
+    quizAnswersOn: ['えん', 'きく', 'へい', 'し'],
+    quizAnswersKun: ['う.める', 'つま.しい', 'かず', 'まり']
   },
   {
     kanjiName: '橘',
@@ -176531,7 +180515,9 @@ let arr = [
         furigana: 'かんきつ',
         meanings: 'citrus'
       }
-    ]
+    ],
+    quizAnswersOn: ['りゅう', 'せき', 'きつ', 'こう'],
+    quizAnswersKun: ['ひとみ', 'やしな.う', 'たちばな', 'はじ.める']
   },
   {
     kanjiName: '亨',
@@ -176559,7 +180545,9 @@ let arr = [
         furigana: 'げんこう',
         meanings: 'Genkō era (1321.2.23-1324.12.9)'
       }
-    ]
+    ],
+    quizAnswersOn: ['も', 'こう', 'じ', 'すう'],
+    quizAnswersKun: ['た.える', 'とお.る', 'お.す', 'い']
   },
   {
     kanjiName: '匡',
@@ -176582,7 +180570,9 @@ let arr = [
         furigana: 'きょうせい',
         meanings: 'correction (of a fault'
       }
-    ]
+    ],
+    quizAnswersOn: ['きゅう', 'きょう', 'き', 'かん'],
+    quizAnswersKun: ['うなじ', 'かま', '', 'すく.う']
   },
   {
     kanjiName: '喬',
@@ -176605,7 +180595,9 @@ let arr = [
         furigana: 'きょうぼく',
         meanings: 'tall tree'
       }
-    ]
+    ],
+    quizAnswersOn: ['ぜん', 'とう', 'きょう', 'きょく'],
+    quizAnswersKun: ['いが', 'ただ', 'たか.い', 'すす.む']
   },
   {
     kanjiName: '尭',
@@ -176628,7 +180620,9 @@ let arr = [
         furigana: 'ぎょうぎょう',
         meanings: 'high (as of a mountain)'
       }
-    ]
+    ],
+    quizAnswersOn: ['くん', 'ちん', 'ぎょう', 'よう'],
+    quizAnswersKun: ['さん.たる', 'たか.い', 'す', 'くすり']
   },
   {
     kanjiName: '桐',
@@ -176672,7 +180666,9 @@ let arr = [
         furigana: 'あおぎり',
         meanings: 'Chinese parasol-tree (Firmiana simplex)'
       }
-    ]
+    ],
+    quizAnswersOn: ['とう', 'りん', 'れん', 'りょう'],
+    quizAnswersKun: ['あまつさえ', 'とばり', 'きり', '']
   },
   {
     kanjiName: '斤',
@@ -176747,7 +180743,9 @@ let arr = [
         furigana: 'いっきん',
         meanings: '1 kin (approx. 0.6 kg)'
       }
-    ]
+    ],
+    quizAnswersOn: ['さい', 'ふく', 'きん', 'ぜん'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '欣',
@@ -176785,7 +180783,9 @@ let arr = [
         furigana: 'ごんぐじょうど',
         meanings: 'seeking rebirth in the Pure Land'
       }
-    ]
+    ],
+    quizAnswersOn: ['きん', 'せき', 'ごう', 'ちょう'],
+    quizAnswersKun: ['よろこ.ぶ', 'お.びる', 'も', 'はこ']
   },
   {
     kanjiName: '欽',
@@ -176808,7 +180808,9 @@ let arr = [
         furigana: 'きんてい',
         meanings: 'authorized (by imperial or royal order)'
       }
-    ]
+    ],
+    quizAnswersOn: ['きん', 'や', 'せん', 'かい'],
+    quizAnswersKun: ['つづ.く', 'つつし.む', 'とりで', 'か.ける']
   },
   {
     kanjiName: '芹',
@@ -176841,7 +180843,9 @@ let arr = [
         furigana: 'けんきん',
         meanings: '(giving a) small present'
       }
-    ]
+    ],
+    quizAnswersOn: ['もう', 'きん', 'さく', 'どう'],
+    quizAnswersKun: ['', 'いき', 'みと.める', 'せり']
   },
   {
     kanjiName: '衿',
@@ -176879,7 +180883,9 @@ let arr = [
         furigana: 'かいきん',
         meanings: 'unbuttoning a collar'
       }
-    ]
+    ],
+    quizAnswersOn: ['たい', 'ほう', 'よう', 'きん'],
+    quizAnswersKun: ['したが.う', 'えり', 'ひこ', 'さ.える']
   },
   {
     kanjiName: '玖',
@@ -176902,7 +180908,9 @@ let arr = [
         furigana: 'きゅう',
         meanings: 'nine'
       }
-    ]
+    ],
+    quizAnswersOn: ['ふ', 'いん', 'きゅう', 'こう'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '虞',
@@ -176991,7 +180999,9 @@ let arr = [
         furigana: 'ふぐ',
         meanings: 'unforeseen (occurrence)'
       }
-    ]
+    ],
+    quizAnswersOn: ['ぐ', 'ろく', 'こう', 'よう'],
+    quizAnswersKun: ['あら.い', 'あきらか', 'くさり', 'おそれ']
   },
   {
     kanjiName: '栗',
@@ -177049,7 +181059,9 @@ let arr = [
         furigana: 'みくり',
         meanings: 'branched bur-reed (Sparganium erectum)'
       }
-    ]
+    ],
+    quizAnswersOn: ['りつ', 'こう', 'せい', 'つい'],
+    quizAnswersKun: ['くり', 'あ.げる', 'かたな', '']
   },
   {
     kanjiName: '薫',
@@ -177124,7 +181136,9 @@ let arr = [
         furigana: 'よくん',
         meanings: 'lingering odor'
       }
-    ]
+    ],
+    quizAnswersOn: ['しゅん', 'くん', 'きょう', 'らん'],
+    quizAnswersKun: ['', 'かお.る', 'つつ.む', 'うれ.える']
   },
   {
     kanjiName: '袈',
@@ -177147,7 +181161,9 @@ let arr = [
         furigana: 'けさがけ',
         meanings: 'wearing a kasaya'
       }
-    ]
+    ],
+    quizAnswersOn: ['げん', 'しゃ', 'よう', 'け'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '圭',
@@ -177190,7 +181206,9 @@ let arr = [
         furigana: 'けいへき',
         meanings: 'ritual jades worn by feudal lords in ancient China'
       }
-    ]
+    ],
+    quizAnswersOn: ['きょう', 'じ', 'い', 'けい'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '慧',
@@ -177233,7 +181251,9 @@ let arr = [
         furigana: 'いれぢえ',
         meanings: "putting an idea into someone's head"
       }
-    ]
+    ],
+    quizAnswersOn: ['こう', 'けい', 'けい', 'けん'],
+    quizAnswersKun: ['', 'とし', 'まど', 'さとい']
   },
   {
     kanjiName: '桂',
@@ -177281,7 +181301,9 @@ let arr = [
         furigana: 'にっけい',
         meanings: 'cinnamon'
       }
-    ]
+    ],
+    quizAnswersOn: ['てん', 'もう', 'けい', 'たん'],
+    quizAnswersKun: ['う.ける', 'いもうと', 'うなじ', 'かつら']
   },
   {
     kanjiName: '絃',
@@ -177314,7 +181336,9 @@ let arr = [
         furigana: 'ごげん',
         meanings: 'five strings'
       }
-    ]
+    ],
+    quizAnswersOn: ['げん', 'し', 'はん', 'すい'],
+    quizAnswersKun: ['くり', 'いと', 'の', 'から']
   },
   {
     kanjiName: '伍',
@@ -177352,7 +181376,9 @@ let arr = [
         furigana: 'らくご',
         meanings: 'straggling'
       }
-    ]
+    ],
+    quizAnswersOn: ['ご', 'りゅう', 'とう', 'こう'],
+    quizAnswersKun: ['', 'はば.む', 'すな', 'いつつ']
   },
   {
     kanjiName: '梧',
@@ -177385,7 +181411,9 @@ let arr = [
         furigana: 'でいご',
         meanings: 'Indian coral tree (Erythrina variegata)'
       }
-    ]
+    ],
+    quizAnswersOn: ['ご', 'と', 'か', 'てい'],
+    quizAnswersKun: ['かわ', 'ふた.つ', 'あおぎり', 'の']
   },
   {
     kanjiName: '瑚',
@@ -177408,7 +181436,9 @@ let arr = [
         furigana: 'のうさんご',
         meanings: 'brain coral'
       }
-    ]
+    ],
+    quizAnswersOn: ['しょう', 'ほう', 'そう', 'こ'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '侯',
@@ -177483,7 +181513,9 @@ let arr = [
         furigana: 'せんだいこう',
         meanings: 'Lord of Sendai'
       }
-    ]
+    ],
+    quizAnswersOn: ['とう', 'ちょう', 'けん', 'こう'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '倖',
@@ -177516,7 +181548,9 @@ let arr = [
         furigana: 'しゃこう',
         meanings: 'speculation'
       }
-    ]
+    ],
+    quizAnswersOn: ['こう', 'う', 'ふつ', 'しゅん'],
+    quizAnswersKun: ['い.む', 'しあわ.せ', 'かがや.く', 'あたた.か']
   },
   {
     kanjiName: '宏',
@@ -177549,7 +181583,9 @@ let arr = [
         furigana: 'かいこう',
         meanings: 'propagation'
       }
-    ]
+    ],
+    quizAnswersOn: ['き', 'ちょう', 'こう', 'ろく'],
+    quizAnswersKun: ['ひろ.い', 'くく.る', 'かんむり', 'いまし.める']
   },
   {
     kanjiName: '弘',
@@ -177597,7 +181633,9 @@ let arr = [
         furigana: 'ぐぜい',
         meanings: "Buddha's great vows"
       }
-    ]
+    ],
+    quizAnswersOn: ['こう', 'びん', 'しょう', 'きく'],
+    quizAnswersKun: ['おどろ.く', 'ひろ.い', 'ほこ.る', '']
   },
   {
     kanjiName: '昂',
@@ -177635,7 +181673,9 @@ let arr = [
         furigana: 'けんこう',
         meanings: 'high-spirited'
       }
-    ]
+    ],
+    quizAnswersOn: ['ごく', 'そう', 'こう', 'じ'],
+    quizAnswersKun: ['あ.がる', '', '-じ', 'もど.す']
   },
   {
     kanjiName: '晃',
@@ -177658,7 +181698,9 @@ let arr = [
         furigana: 'こうよう',
         meanings: 'dazzling brightness'
       }
-    ]
+    ],
+    quizAnswersOn: ['けん', 'さん', 'べい', 'こう'],
+    quizAnswersKun: ['うお', 'あきらか', 'やなぎ', 'あや.しい']
   },
   {
     kanjiName: '浩',
@@ -177681,7 +181723,9 @@ let arr = [
         furigana: 'こうぜん',
         meanings: 'broadminded'
       }
-    ]
+    ],
+    quizAnswersOn: ['こう', 'う', 'と', 'けん'],
+    quizAnswersKun: ['すた.れる', 'おおき.い', 'ま.す', 'みち']
   },
   {
     kanjiName: '紘',
@@ -177699,7 +181743,9 @@ let arr = [
         furigana: 'はっこう',
         meanings: 'the eight directions'
       }
-    ]
+    ],
+    quizAnswersOn: ['あん', 'ぼう', 'こう', 'ちょく'],
+    quizAnswersKun: ['おおづな', 'あお', 'す.ぎる', 'むし']
   },
   {
     kanjiName: '鴻',
@@ -177732,7 +181778,9 @@ let arr = [
         furigana: 'こうがん',
         meanings: 'wild geese'
       }
-    ]
+    ],
+    quizAnswersOn: ['じゅつ', 'こう', 'しゅう', 'へん'],
+    quizAnswersKun: ['', 'つよ.い', 'おおとり', 'わめ.く']
   },
   {
     kanjiName: '墾',
@@ -177807,7 +181855,9 @@ let arr = [
         furigana: 'みこん',
         meanings: 'uncultivated'
       }
-    ]
+    ],
+    quizAnswersOn: ['べい', 'こん', 'しょう', 'しゅう'],
+    quizAnswersKun: ['', 'うるお.う', 'は.る', 'はか']
   },
   {
     kanjiName: '嵯',
@@ -177830,7 +181880,9 @@ let arr = [
         furigana: 'さがびじゅつだいがく',
         meanings: 'Kyoto Saga University of Arts'
       }
-    ]
+    ],
+    quizAnswersOn: ['きゅう', 'さ', 'こう', 'ろう'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '瑳',
@@ -177848,7 +181900,9 @@ let arr = [
         furigana: 'せっさ',
         meanings: 'working hard'
       }
-    ]
+    ],
+    quizAnswersOn: ['さ', 'さ', 'しょう', 'り'],
+    quizAnswersKun: ['はし', 'まった.く', 'はこ', 'みが.く']
   },
   {
     kanjiName: '裟',
@@ -177871,7 +181925,9 @@ let arr = [
         furigana: 'わげさ',
         meanings: "loop-shaped monk's stole"
       }
-    ]
+    ],
+    quizAnswersOn: ['こ', 'そ', 'さ', 'こう'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '采',
@@ -177904,7 +181960,9 @@ let arr = [
         furigana: 'しんさい',
         meanings: 'surpassing looks'
       }
-    ]
+    ],
+    quizAnswersOn: ['か', 'じゅつ', 'さい', 'さ'],
+    quizAnswersKun: ['と.る', 'はた', 'あたた.か', 'かり']
   },
   {
     kanjiName: '冴',
@@ -177927,7 +181985,9 @@ let arr = [
         furigana: 'ごかん',
         meanings: 'extreme cold'
       }
-    ]
+    ],
+    quizAnswersOn: ['ほ', 'とう', 'じゅう', 'ご'],
+    quizAnswersKun: ['ぜろ', 'さ.える', 'みやこ', '']
   },
   {
     kanjiName: '朔',
@@ -177965,7 +182025,9 @@ let arr = [
         furigana: 'せいさく',
         meanings: 'beginning of the month or the year'
       }
-    ]
+    ],
+    quizAnswersOn: ['さく', 'じょ', 'せつ', 'しん'],
+    quizAnswersKun: ['あま.い', 'ついたち', '', 'いと']
   },
   {
     kanjiName: '笹',
@@ -177988,7 +182050,9 @@ let arr = [
         furigana: 'ささはら',
         meanings: 'field of bamboo grass'
       }
-    ]
+    ],
+    quizAnswersOn: [],
+    quizAnswersKun: ['ささ', '', 'ぬさ', 'の.せる']
   },
   {
     kanjiName: '皐',
@@ -178011,7 +182075,9 @@ let arr = [
         furigana: 'さつきばれ',
         meanings: 'fine weather during the rainy season'
       }
-    ]
+    ],
+    quizAnswersOn: ['れん', 'たい', 'とく', 'こう'],
+    quizAnswersKun: ['さつき', 'はば.む', 'つま.しい', 'つらぬ.く']
   },
   {
     kanjiName: '燦',
@@ -178044,7 +182110,9 @@ let arr = [
         furigana: 'さんさん',
         meanings: 'brilliant'
       }
-    ]
+    ],
+    quizAnswersOn: ['さん', 'がん', 'か', 'き'],
+    quizAnswersKun: ['ひろ.がる', 'さん.たる', 'かこ.む', '']
   },
   {
     kanjiName: '蚕',
@@ -178154,7 +182222,9 @@ let arr = [
         furigana: 'しゅうさん',
         meanings: 'autumn silkworms'
       }
-    ]
+    ],
+    quizAnswersOn: ['さん', 'ちょう', 'ほ', 'だん'],
+    quizAnswersKun: ['か.ける', 'かいこ', 'たず.ねる', 'たま']
   },
   {
     kanjiName: '嗣',
@@ -178229,7 +182299,9 @@ let arr = [
         furigana: 'せいし',
         meanings: 'heir'
       }
-    ]
+    ],
+    quizAnswersOn: ['きゅう', 'し', 'かん', 'はん'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '肢',
@@ -178304,7 +182376,9 @@ let arr = [
         furigana: 'かし',
         meanings: 'lower limbs'
       }
-    ]
+    ],
+    quizAnswersOn: ['に', 'りん', 'りょう', 'し'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '賜',
@@ -178404,7 +182478,9 @@ let arr = [
         furigana: 'ついし',
         meanings: 'being granted a court rank after death'
       }
-    ]
+    ],
+    quizAnswersOn: ['しょう', '', 'はん', 'し'],
+    quizAnswersKun: ['たまわ.る', 'はた', 'みち', 'さ.ける']
   },
   {
     kanjiName: '爾',
@@ -178467,7 +182543,9 @@ let arr = [
         furigana: 'とじ',
         meanings: 'uselessness'
       }
-    ]
+    ],
+    quizAnswersOn: ['ゆう', 'じ', 'かん', 'きく'],
+    quizAnswersKun: ['いもうと', 'すす.める', 'ともえ', 'なんじ']
   },
   {
     kanjiName: '蒔',
@@ -178485,7 +182563,9 @@ let arr = [
         furigana: 'まく',
         meanings: 'to sow'
       }
-    ]
+    ],
+    quizAnswersOn: ['はん', 'けい', 'めい', 'し'],
+    quizAnswersKun: ['いや.しい', 'ひき.いる', 'う.える', 'しる.す']
   },
   {
     kanjiName: '汐',
@@ -178533,7 +182613,9 @@ let arr = [
         furigana: 'ちょうせき',
         meanings: 'tide'
       }
-    ]
+    ],
+    quizAnswersOn: ['とつ', 'かん', 'しん', 'せき'],
+    quizAnswersKun: ['', 'あま', 'おさ.める', 'しお']
   },
   {
     kanjiName: '偲',
@@ -178566,7 +182648,9 @@ let arr = [
         furigana: 'しのばれる',
         meanings: 'to be brought to mind'
       }
-    ]
+    ],
+    quizAnswersOn: ['こう', 'さい', 'しょう', 'かん'],
+    quizAnswersKun: ['くら.べる', 'さかん', 'しの.ぶ', '']
   },
   {
     kanjiName: '紗',
@@ -178614,7 +182698,9 @@ let arr = [
         furigana: 'らしゃ',
         meanings: 'felt'
       }
-    ]
+    ],
+    quizAnswersOn: ['かつ', 'う', 'さ', 'じゃく'],
+    quizAnswersKun: ['まぎ.れる', '', 'うすぎぬ', 'すな']
   },
   {
     kanjiName: '勺',
@@ -178684,7 +182770,9 @@ let arr = [
         furigana: 'いっしゃく',
         meanings: 'one shaku'
       }
-    ]
+    ],
+    quizAnswersOn: ['しゃく', 'かん', 'すい', 'しょう'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '爵',
@@ -178759,7 +182847,9 @@ let arr = [
         furigana: 'こうしゃく',
         meanings: 'marquis'
       }
-    ]
+    ],
+    quizAnswersOn: ['れん', 'しゃく', 'もく', 'せん'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '儒',
@@ -178834,7 +182924,9 @@ let arr = [
         furigana: 'こうじゅ',
         meanings: 'burying Confucian scholars alive'
       }
-    ]
+    ],
+    quizAnswersOn: ['じゅ', 'がく', 'し', 'せい'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '愁',
@@ -178924,7 +183016,9 @@ let arr = [
         furigana: 'ゆうしゅう',
         meanings: 'melancholy'
       }
-    ]
+    ],
+    quizAnswersOn: ['きょ', 'かく', 'しゅう', 'だつ'],
+    quizAnswersKun: ['すじ', 'うれ.える', '', 'い']
   },
   {
     kanjiName: '洲',
@@ -178982,7 +183076,9 @@ let arr = [
         furigana: 'なかす',
         meanings: 'sandbank (in a river)'
       }
-    ]
+    ],
+    quizAnswersOn: ['しゅう', 'きん', 'ぼう', 'ご'],
+    quizAnswersKun: ['つ.ける', 'しま', 'いろ', 'そな.える']
   },
   {
     kanjiName: '峻',
@@ -179010,7 +183106,9 @@ let arr = [
         furigana: 'けんしゅん',
         meanings: 'steep'
       }
-    ]
+    ],
+    quizAnswersOn: ['しゅん', 'こ', 'ほう', 'ぼん'],
+    quizAnswersKun: ['お.しい', 'けわ.しい', 'と.く', 'か']
   },
   {
     kanjiName: '竣',
@@ -179033,7 +183131,9 @@ let arr = [
         furigana: 'しゅんこうしき',
         meanings: 'ceremony to mark completion'
       }
-    ]
+    ],
+    quizAnswersOn: ['どう', 'ほう', 'ふ', 'けん'],
+    quizAnswersKun: ['あ.てる', 'きそ.う', 'わらわ', 'あま']
   },
   {
     kanjiName: '舜',
@@ -179045,7 +183145,9 @@ let arr = [
     kun: [],
     jlpt: 1,
     quizAnswers: ['Commander', 'Condemn', 'Type Of Morning Glory', 'Vocation'],
-    usedIn: []
+    usedIn: [],
+    quizAnswersOn: ['かく', 'ぼう', 'しゅん', 'さく'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '淳',
@@ -179068,7 +183170,9 @@ let arr = [
         furigana: 'じゅんくどう',
         meanings: 'Junkudo (Japanese bookstore chain)'
       }
-    ]
+    ],
+    quizAnswersOn: ['かつ', 'じゅん', 'ちん', 'じゅん'],
+    quizAnswersKun: ['おのおの', 'あつ.い', 'おもむき', 'にわとり']
   },
   {
     kanjiName: '遵',
@@ -179133,7 +183237,9 @@ let arr = [
         furigana: 'じゅんぽう',
         meanings: 'law observance'
       }
-    ]
+    ],
+    quizAnswersOn: ['し', 'じゅん', 'たく', 'だ'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '渚',
@@ -179161,7 +183267,9 @@ let arr = [
         furigana: 'ていしょ',
         meanings: 'sand bar'
       }
-    ]
+    ],
+    quizAnswersOn: ['しょ', 'ばく', 'りょう', 'と'],
+    quizAnswersKun: ['たてまつ.る', 'うら.む', 'なぎさ', 'みが.く']
   },
   {
     kanjiName: '恕',
@@ -179194,7 +183302,9 @@ let arr = [
         furigana: 'ちゅうじょ',
         meanings: 'sincerity and consideration'
       }
-    ]
+    ],
+    quizAnswersOn: ['たく', 'しゃ', 'おう', 'じょ'],
+    quizAnswersKun: ['ゆる.す', 'おもね.る', 'みなと', 'しげ.る']
   },
   {
     kanjiName: '宵',
@@ -179279,7 +183389,9 @@ let arr = [
         furigana: 'いっしょう',
         meanings: 'one evening'
       }
-    ]
+    ],
+    quizAnswersOn: ['し', 'しょう', 'せん', 'しょう'],
+    quizAnswersKun: ['つま', 'よい', 'と.く', 'す.う']
   },
   {
     kanjiName: '抄',
@@ -179354,7 +183466,9 @@ let arr = [
         furigana: 'しきしょう',
         meanings: 'commentary on Shiki'
       }
-    ]
+    ],
+    quizAnswersOn: ['ひん', 'はん', 'しょう', 'ふ'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '捷',
@@ -179392,7 +183506,9 @@ let arr = [
         furigana: 'けいしょう',
         meanings: 'nimble'
       }
-    ]
+    ],
+    quizAnswersOn: ['そ', 'こう', 'び', 'しょう'],
+    quizAnswersKun: ['うち', 'く.る', 'はや.い', '']
   },
   {
     kanjiName: '梢',
@@ -179425,7 +183541,9 @@ let arr = [
         furigana: 'こうしょう',
         meanings: 'spring of yellow buds'
       }
-    ]
+    ],
+    quizAnswersOn: ['じゅう', 'りん', 'ばつ', 'しょう'],
+    quizAnswersKun: ['むろ', 'こずえ', 'も.つ', '']
   },
   {
     kanjiName: '硝',
@@ -179500,7 +183618,9 @@ let arr = [
         furigana: 'せっかいぼうしょう',
         meanings: 'glauberite'
       }
-    ]
+    ],
+    quizAnswersOn: ['しょう', 'こう', 'りょう', 'あ'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '菖',
@@ -179533,7 +183653,9 @@ let arr = [
         furigana: 'にわぜきしょう',
         meanings: 'blue-eyed grass (Sisyrinchium rosulatum)'
       }
-    ]
+    ],
+    quizAnswersOn: ['だく', 'しょう', 'き', 'がい'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '蕉',
@@ -179566,7 +183688,9 @@ let arr = [
         furigana: 'こうしょう',
         meanings: 'banana'
       }
-    ]
+    ],
+    quizAnswersOn: ['しょう', 'たい', 'さつ', 'き'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '詔',
@@ -179641,7 +183765,9 @@ let arr = [
         furigana: 'たいしょう',
         meanings: 'imperial rescript'
       }
-    ]
+    ],
+    quizAnswersOn: ['しん', 'かん', 'しょう', 'ぎょう'],
+    quizAnswersKun: ['みことのり', '', 'ぬ.う', 'お-']
   },
   {
     kanjiName: '丞',
@@ -179659,7 +183785,9 @@ let arr = [
         furigana: 'じょうしょう',
         meanings: 'prime minister (in ancient China)'
       }
-    ]
+    ],
+    quizAnswersOn: ['じょう', 'ゆう', 'かん', 'とう'],
+    quizAnswersKun: ['はじ.める', 'すく.う', 'なな', 'ふる.い']
   },
   {
     kanjiName: '穣',
@@ -179687,7 +183815,9 @@ let arr = [
         furigana: 'ごこくほうじょう',
         meanings: 'huge harvest (of the five grains)'
       }
-    ]
+    ],
+    quizAnswersOn: ['はい', 'だく', 'じょう', 'ろう'],
+    quizAnswersKun: ['さかん', 'わら', 'また', 'とも']
   },
   {
     kanjiName: '晋',
@@ -179725,7 +183855,9 @@ let arr = [
         furigana: 'こうしん',
         meanings: 'Later Jin dynasty (of China; 936-947)'
       }
-    ]
+    ],
+    quizAnswersOn: ['よう', 'しん', 'とう', 'じゅん'],
+    quizAnswersKun: ['きり', 'ころも', 'とりこ', 'すす.む']
   },
   {
     kanjiName: '榛',
@@ -179773,7 +183905,9 @@ let arr = [
         furigana: 'はんのき',
         meanings: 'Japanese alder (Alnus japonica)'
       }
-    ]
+    ],
+    quizAnswersOn: ['いつ', 'い', 'しん', 'りん'],
+    quizAnswersKun: ['はしばみ', 'はら', 'あつ.い', 'し.ぬ']
   },
   {
     kanjiName: '秦',
@@ -179801,7 +183935,9 @@ let arr = [
         furigana: 'せんしん',
         meanings: 'pre-Qin period (of China)'
       }
-    ]
+    ],
+    quizAnswersOn: ['しん', 'せい', 'き', 'ほう'],
+    quizAnswersKun: ['ばば', 'はた', '', 'きぬ']
   },
   {
     kanjiName: '薪',
@@ -179891,7 +184027,9 @@ let arr = [
         furigana: 'さいしん',
         meanings: 'brushwood and firewood'
       }
-    ]
+    ],
+    quizAnswersOn: ['えん', 'と', 'とう', 'しん'],
+    quizAnswersKun: ['ね.る', 'ほうき', 'たきぎ', 'はば.む']
   },
   {
     kanjiName: '翠',
@@ -179939,7 +184077,9 @@ let arr = [
         furigana: 'かわせみ',
         meanings: 'kingfisher (esp. the common kingfisher'
       }
-    ]
+    ],
+    quizAnswersOn: ['は', 'しん', 'すい', 'すい'],
+    quizAnswersKun: ['おもむき', 'い.る', 'かわせみ', 'もの']
   },
   {
     kanjiName: '錘',
@@ -180029,7 +184169,9 @@ let arr = [
         furigana: 'ぼうすい',
         meanings: 'spindle'
       }
-    ]
+    ],
+    quizAnswersOn: ['すい', 'べん', 'よう', 'きょう'],
+    quizAnswersKun: ['つむ', 'とお', 'あわ.れ', 'はや.い']
   },
   {
     kanjiName: '嵩',
@@ -180072,7 +184214,9 @@ let arr = [
         furigana: 'すうこう',
         meanings: 'lofty (of a mountain)'
       }
-    ]
+    ],
+    quizAnswersOn: ['せい', 'すう', 'ぞう', 'か'],
+    quizAnswersKun: ['かめ', 'ま', 'かさ', 'さと.す']
   },
   {
     kanjiName: '雛',
@@ -180140,7 +184284,9 @@ let arr = [
         furigana: 'すうそう',
         meanings: 'young priest'
       }
-    ]
+    ],
+    quizAnswersOn: ['すう', 'しゅ', 'てつ', 'ぶ'],
+    quizAnswersKun: ['お.しい', 'はて', 'かみ', 'ひな']
   },
   {
     kanjiName: '畝',
@@ -180220,7 +184366,9 @@ let arr = [
         furigana: 'ろうほ',
         meanings: 'ridges of and paths between fields'
       }
-    ]
+    ],
+    quizAnswersOn: ['ぼう', 'よう', 'さ', 'かん'],
+    quizAnswersKun: ['せ', 'みお', '', 'ひ.ねる']
   },
   {
     kanjiName: '斥',
@@ -180295,7 +184443,9 @@ let arr = [
         furigana: 'じょせき',
         meanings: 'exclusion'
       }
-    ]
+    ],
+    quizAnswersOn: ['こう', 'せき', 'せい', 'りょう'],
+    quizAnswersKun: ['あさ.る', 'わ', 'しりぞ.ける', 'かみ']
   },
   {
     kanjiName: '碩',
@@ -180318,7 +184468,9 @@ let arr = [
         furigana: 'せきじゅ',
         meanings: '(Confucian) scholar'
       }
-    ]
+    ],
+    quizAnswersOn: ['ねん', 'は', 'せき', 'けん'],
+    quizAnswersKun: ['うす.い', '', 'うえ', 'おお.きい']
   },
   {
     kanjiName: '銑',
@@ -180388,7 +184540,9 @@ let arr = [
         furigana: 'ようせん',
         meanings: 'molten iron'
       }
-    ]
+    ],
+    quizAnswersOn: ['ぞく', 'さん', 'えん', 'せん'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '繕',
@@ -180453,7 +184607,9 @@ let arr = [
         furigana: 'えいぜん',
         meanings: 'maintenance and repair'
       }
-    ]
+    ],
+    quizAnswersOn: ['ぜん', 'ど', 'し', 'ほう'],
+    quizAnswersKun: ['ころも', 'つくろ.う', 'て.る', 'そろ.う']
   },
   {
     kanjiName: '塑',
@@ -180528,7 +184684,9 @@ let arr = [
         furigana: 'でいそ',
         meanings: 'unfired clay figurine'
       }
-    ]
+    ],
+    quizAnswersOn: ['しょく', 'きょう', 'げん', 'そ'],
+    quizAnswersKun: ['はか.る', '', 'でく', 'いくさ']
   },
   {
     kanjiName: '惣',
@@ -180556,7 +184714,9 @@ let arr = [
         furigana: 'そうざい',
         meanings: 'small dish (served as a part of an ordinary household meal)'
       }
-    ]
+    ],
+    quizAnswersOn: ['そう', 'ちょう', 'こう', 'ぞく'],
+    quizAnswersKun: ['すべ.て', 'た.つ', '-たち', 'あ.る']
   },
   {
     kanjiName: '綜',
@@ -180584,7 +184744,9 @@ let arr = [
         furigana: 'さくそう',
         meanings: 'becoming complicated'
       }
-    ]
+    ],
+    quizAnswersOn: ['ど', 'れい', 'そう', 'たく'],
+    quizAnswersKun: ['みなと', 'おさ.める', 'こと', 'か.る']
   },
   {
     kanjiName: '黛',
@@ -180617,7 +184779,9 @@ let arr = [
         furigana: 'せいたい',
         meanings: 'blue eyebrow pencil'
       }
-    ]
+    ],
+    quizAnswersOn: ['たい', 'じゃく', 'へき', 'かつ'],
+    quizAnswersKun: ['う.める', 'みね', 'まゆずみ', 'つつ.む']
   },
   {
     kanjiName: '鯛',
@@ -180650,7 +184814,9 @@ let arr = [
         furigana: 'くさってもたい',
         meanings: 'a diamond on a dunghill is still a diamond'
       }
-    ]
+    ],
+    quizAnswersOn: ['し', 'か', 'ひ', 'ちょう'],
+    quizAnswersKun: ['たも.つ', '', 'たな', 'たい']
   },
   {
     kanjiName: '鷹',
@@ -180703,7 +184869,9 @@ let arr = [
         furigana: 'おうよう',
         meanings: 'large-hearted'
       }
-    ]
+    ],
+    quizAnswersOn: ['ちゅう', 'こう', 'よう', 'てつ'],
+    quizAnswersKun: ['たか', 'いきどお.る', 'もの', 'なか']
   },
   {
     kanjiName: '啄',
@@ -180736,7 +184904,9 @@ let arr = [
         furigana: 'そったく',
         meanings: 'once-in-a-lifetime opportunity'
       }
-    ]
+    ],
+    quizAnswersOn: ['てつ', 'しょう', 'たく', 'じ'],
+    quizAnswersKun: ['ついば.む', 'つみ', 'ひろ.い', 'くに']
   },
   {
     kanjiName: '琢',
@@ -180764,7 +184934,9 @@ let arr = [
         furigana: 'ちょうたく',
         meanings: 'carving and polishing'
       }
-    ]
+    ],
+    quizAnswersOn: ['たく', 'けい', 'きん', 'しゅう'],
+    quizAnswersKun: ['みが.く', 'かめ', 'いや.しい', 'す.く']
   },
   {
     kanjiName: '只',
@@ -180797,7 +184969,9 @@ let arr = [
         furigana: 'しこん',
         meanings: 'just now'
       }
-    ]
+    ],
+    quizAnswersOn: ['き', 'せき', 'し', 'そん'],
+    quizAnswersKun: ['ただ', 'か.ける', '', 'ひき.いる']
   },
   {
     kanjiName: '但',
@@ -180862,7 +185036,9 @@ let arr = [
         furigana: 'ただしがき',
         meanings: 'proviso'
       }
-    ]
+    ],
+    quizAnswersOn: ['たん', 'どう', 'しゅ', 'めん'],
+    quizAnswersKun: ['う', 'ただ.し', 'きみ', 'みお']
   },
   {
     kanjiName: '辰',
@@ -180920,7 +185096,9 @@ let arr = [
         furigana: 'じつげつせいしん',
         meanings: 'the Sun'
       }
-    ]
+    ],
+    quizAnswersOn: ['しん', 'き', 'るい', 'えん'],
+    quizAnswersKun: ['うお', '', 'たつ', 'くも.る']
   },
   {
     kanjiName: '巽',
@@ -180948,7 +185126,9 @@ let arr = [
         furigana: 'そんい',
         meanings: 'southeast'
       }
-    ]
+    ],
+    quizAnswersOn: ['ほう', 'らい', 'そん', 'ぎょ'],
+    quizAnswersKun: ['いた.る', 'とむら.う', 'たつみ', 'はだ']
   },
   {
     kanjiName: '檀',
@@ -180996,7 +185176,9 @@ let arr = [
         furigana: 'したん',
         meanings: 'rosewood'
       }
-    ]
+    ],
+    quizAnswersOn: ['まい', 'わ', 'てん', 'だん'],
+    quizAnswersKun: ['き.る', 'ふせ.ぐ', 'まゆみ', 'や.む']
   },
   {
     kanjiName: '逐',
@@ -181071,7 +185253,9 @@ let arr = [
         furigana: 'かくちく',
         meanings: 'competition'
       }
-    ]
+    ],
+    quizAnswersOn: ['せい', 'ちく', 'と', 'へい'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '嫡',
@@ -181161,7 +185345,9 @@ let arr = [
         furigana: 'せいちゃく',
         meanings: 'legal wife'
       }
-    ]
+    ],
+    quizAnswersOn: ['あく', 'ちゃく', 'こう', 'じゅん'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '衷',
@@ -181236,7 +185422,9 @@ let arr = [
         furigana: 'くちゅう',
         meanings: 'distress'
       }
-    ]
+    ],
+    quizAnswersOn: ['ぼう', 'ちゅう', 'いく', 'しょう'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '猪',
@@ -181299,7 +185487,9 @@ let arr = [
         furigana: 'げんちょ',
         meanings: 'day of the boar in the tenth month'
       }
-    ]
+    ],
+    quizAnswersOn: ['かん', 'ちょ', 'ちゃ', 'じ'],
+    quizAnswersKun: ['に', 'い', '', 'よめ']
   },
   {
     kanjiName: '暢',
@@ -181322,7 +185512,9 @@ let arr = [
         furigana: 'しんちょう',
         meanings: 'expansion'
       }
-    ]
+    ],
+    quizAnswersOn: ['ごう', 'もく', 'ちょう', 'ひょう'],
+    quizAnswersKun: ['のび.る', 'く.ちる', 'おお.い', '']
   },
   {
     kanjiName: '脹',
@@ -181407,7 +185599,9 @@ let arr = [
         furigana: 'しゅちょう',
         meanings: 'swelling'
       }
-    ]
+    ],
+    quizAnswersOn: ['ちょう', 'ばく', 'かん', 'えき'],
+    quizAnswersKun: ['は.れる', '', 'すす.める', 'く.る']
   },
   {
     kanjiName: '勅',
@@ -181487,7 +185681,9 @@ let arr = [
         furigana: 'かいちょく',
         meanings: 'encyclical'
       }
-    ]
+    ],
+    quizAnswersOn: ['ちょく', 'けん', 'まい', 'てつ'],
+    quizAnswersKun: ['かたまり', 'いまし.める', 'あわ.れ', 'ほどこ.す']
   },
   {
     kanjiName: '朕',
@@ -181547,7 +185743,9 @@ let arr = [
         furigana: 'ちん',
         meanings: 'We'
       }
-    ]
+    ],
+    quizAnswersOn: ['とう', 'よ', 'ちん', 'ばく'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '槻',
@@ -181570,7 +185768,9 @@ let arr = [
         furigana: 'つきげやき',
         meanings: 'Japanese zelkova (Zelkova serrata)'
       }
-    ]
+    ],
+    quizAnswersOn: ['き', 'ふん', 'た', 'はつ'],
+    quizAnswersKun: ['つき', 'は.る', '', 'ばっ.する']
   },
   {
     kanjiName: '蔦',
@@ -181593,7 +185793,9 @@ let arr = [
         furigana: 'つたうるし',
         meanings: 'Asian poison ivy (Rhus ambigua)'
       }
-    ]
+    ],
+    quizAnswersOn: ['ひょう', 'ちょう', 'りょう', 'ちく'],
+    quizAnswersKun: ['み.る', 'ふえ', 'つた', '']
   },
   {
     kanjiName: '椿',
@@ -181641,7 +185843,9 @@ let arr = [
         furigana: 'ちゃんちん',
         meanings: 'Chinese mahogany (Toona sinensis)'
       }
-    ]
+    ],
+    quizAnswersOn: ['ちん', 'そ', 'とう', 'し'],
+    quizAnswersKun: ['い', '', 'かわ', 'つばき']
   },
   {
     kanjiName: '紬',
@@ -181684,7 +185888,9 @@ let arr = [
         furigana: 'けんちゅう',
         meanings: 'pongee (unbleached silk)'
       }
-    ]
+    ],
+    quizAnswersOn: ['ど', 'らん', 'ちゅう', 'が'],
+    quizAnswersKun: ['あかし', 'こころ.みる', 'つむぎ', '']
   },
   {
     kanjiName: '悌',
@@ -181712,7 +185918,9 @@ let arr = [
         furigana: 'こうてい',
         meanings: 'filial piety'
       }
-    ]
+    ],
+    quizAnswersOn: ['しょう', 'てい', 'ずい', 'るい'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '禎',
@@ -181735,7 +185943,9 @@ let arr = [
         furigana: 'かてい',
         meanings: 'Katei era (1235.9.19-1238.11.23)'
       }
-    ]
+    ],
+    quizAnswersOn: ['お', 'み', 'こう', 'てい'],
+    quizAnswersKun: ['つい.ず', 'くつ', 'つ.く', 'さいわ.い']
   },
   {
     kanjiName: '逓',
@@ -181805,7 +186015,9 @@ let arr = [
         furigana: 'えきてい',
         meanings: 'delivery of packages'
       }
-    ]
+    ],
+    quizAnswersOn: ['ちく', 'たい', 'てい', 'ぼう'],
+    quizAnswersKun: ['', 'あが.る', 'かわ.る', 'そだ.つ']
   },
   {
     kanjiName: '杜',
@@ -181863,7 +186075,9 @@ let arr = [
         furigana: 'ずさんだつろう',
         meanings: 'careless (slipshod) and with many omissions'
       }
-    ]
+    ],
+    quizAnswersOn: ['こう', 'かい', 'と', 'ゆう'],
+    quizAnswersKun: ['い.る', 'も.える', '', 'もり']
   },
   {
     kanjiName: '痘',
@@ -181938,7 +186152,9 @@ let arr = [
         furigana: 'けいとう',
         meanings: 'fowl pox'
       }
-    ]
+    ],
+    quizAnswersOn: ['そく', 'はい', 'じん', 'とう'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '謄',
@@ -182003,7 +186219,9 @@ let arr = [
         furigana: 'とうしゃ',
         meanings: 'copy'
       }
-    ]
+    ],
+    quizAnswersOn: ['せい', 'みん', 'とう', 'よ'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '寅',
@@ -182046,7 +186264,9 @@ let arr = [
         furigana: 'きのえとら',
         meanings: 'Wood Tiger (51st term of the sexagenary cycle'
       }
-    ]
+    ],
+    quizAnswersOn: ['べん', 'いん', 'さい', 'てい'],
+    quizAnswersKun: ['うつ.る', '', 'の.む', 'とら']
   },
   {
     kanjiName: '酉',
@@ -182096,7 +186316,9 @@ let arr = [
         furigana: 'みずのととり',
         meanings: 'Water Rooster (10th term of the sexagenary cycle'
       }
-    ]
+    ],
+    quizAnswersOn: ['ゆう', 'はん', 'ふ', 'き'],
+    quizAnswersKun: ['やしき', 'か.つ', 'とり', 'つむ']
   },
   {
     kanjiName: '惇',
@@ -182119,7 +186341,9 @@ let arr = [
         furigana: 'とんぼく',
         meanings: 'honest and homely'
       }
-    ]
+    ],
+    quizAnswersOn: ['もん', 'はん', 'しゅん', 'ぎょ'],
+    quizAnswersKun: ['あた.る', 'みお', 'かま', 'あつ.い']
   },
   {
     kanjiName: '敦',
@@ -182142,7 +186366,9 @@ let arr = [
         furigana: 'とんぼく',
         meanings: 'honest and homely'
       }
-    ]
+    ],
+    quizAnswersOn: ['ぼう', 'ぼく', 'りん', 'とん'],
+    quizAnswersKun: ['', 'あや', 'つか', 'あつ.い']
   },
   {
     kanjiName: '凪',
@@ -182175,7 +186401,9 @@ let arr = [
         furigana: 'なぐ',
         meanings: 'to become calm (of the wind'
       }
-    ]
+    ],
+    quizAnswersOn: [],
+    quizAnswersKun: ['かんが.みる', 'はな.す', 'なぎ', 'のぼ.る']
   },
   {
     kanjiName: '捺',
@@ -182208,7 +186436,9 @@ let arr = [
         furigana: 'しもんおうなつ',
         meanings: 'fingerprinting'
       }
-    ]
+    ],
+    quizAnswersOn: ['なつ', 'ぼ', 'ひょう', 'せん'],
+    quizAnswersKun: ['さ.す', 'まこと', 'こえ', 'にぎ.る']
   },
   {
     kanjiName: '楠',
@@ -182231,7 +186461,9 @@ let arr = [
         furigana: 'くすのき',
         meanings: 'camphor tree (Cinnamomum camphora)'
       }
-    ]
+    ],
+    quizAnswersOn: ['とう', 'そう', 'なん', 'きん'],
+    quizAnswersKun: ['くす', 'つき', 'ともえ', '']
   },
   {
     kanjiName: '弐',
@@ -182316,7 +186548,9 @@ let arr = [
         furigana: 'ふくじ',
         meanings: 'secondary (thing)'
       }
-    ]
+    ],
+    quizAnswersOn: ['せん', 'とう', 'に', 'まい'],
+    quizAnswersKun: ['', 'と.める', 'あ.う', 'ふた.つ']
   },
   {
     kanjiName: '巴',
@@ -182354,7 +186588,9 @@ let arr = [
         furigana: 'はず',
         meanings: 'purging croton (Croton tiglium)'
       }
-    ]
+    ],
+    quizAnswersOn: ['は', 'お', 'し', 'ちょう'],
+    quizAnswersKun: ['お', 'みだ.れる', 'ともえ', 'あき']
   },
   {
     kanjiName: '萩',
@@ -182387,7 +186623,9 @@ let arr = [
         furigana: 'せんだいはぎ',
         meanings: 'Russian false yellow lupine (Thermopsis lupinoides)'
       }
-    ]
+    ],
+    quizAnswersOn: ['こ', 'しゅう', 'どう', 'てい'],
+    quizAnswersKun: ['はぎ', 'あし', 'な.る', 'お.びる']
   },
   {
     kanjiName: '肇',
@@ -182410,7 +186648,9 @@ let arr = [
         furigana: 'ちょうさい',
         meanings: 'beginning of the year'
       }
-    ]
+    ],
+    quizAnswersOn: ['ばい', 'まい', 'せい', 'ちょう'],
+    quizAnswersKun: ['かわ', 'はじ.める', 'もよう.す', 'お.わる']
   },
   {
     kanjiName: '頒',
@@ -182480,7 +186720,9 @@ let arr = [
         furigana: 'はんか',
         meanings: 'distribution price'
       }
-    ]
+    ],
+    quizAnswersOn: ['はん', 'きょう', 'ぼん', 'じゃ'],
+    quizAnswersKun: ['ひる', '', 'わか.つ', 'つくえ']
   },
   {
     kanjiName: '眉',
@@ -182538,7 +186780,9 @@ let arr = [
         furigana: 'みけん',
         meanings: 'brow'
       }
-    ]
+    ],
+    quizAnswersOn: ['び', 'ふん', 'じん', 'えん'],
+    quizAnswersKun: ['まゆ', 'きも', 'いくさ', '']
   },
   {
     kanjiName: '柊',
@@ -182566,7 +186810,9 @@ let arr = [
         furigana: 'せいようひいらぎ',
         meanings: 'English holly (Ilex aquifolium)'
       }
-    ]
+    ],
+    quizAnswersOn: ['しゅ', 'ねん', 'れん', 'さん'],
+    quizAnswersKun: ['しも', '', 'よこ', 'ひいらぎ']
   },
   {
     kanjiName: '彦',
@@ -182609,7 +186855,9 @@ let arr = [
         furigana: 'しゅんげん',
         meanings: 'gifted man'
       }
-    ]
+    ],
+    quizAnswersOn: ['がい', 'しゅう', 'ひ', 'げん'],
+    quizAnswersKun: ['', 'わ.く', 'ひこ', 'きのえ']
   },
   {
     kanjiName: '彪',
@@ -182621,7 +186869,9 @@ let arr = [
     kun: ['あや'],
     jlpt: 1,
     quizAnswers: ['Defeat', 'Spotted', 'Get Used To', 'Pills'],
-    usedIn: []
+    usedIn: [],
+    quizAnswersOn: ['ひょう', 'ちゅう', 'えい', 'ど'],
+    quizAnswersKun: ['あや', 'あ.えて', 'また', 'つめ.たい']
   },
   {
     kanjiName: '彬',
@@ -182639,7 +186889,9 @@ let arr = [
         furigana: 'ひんうつ',
         meanings: 'erudite and refined'
       }
-    ]
+    ],
+    quizAnswersOn: ['とう', 'せき', 'ひん', 'ばん'],
+    quizAnswersKun: ['うるわ.しい', 'たす.ける', 'いかん', 'こと']
   },
   {
     kanjiName: '芙',
@@ -182662,7 +186914,9 @@ let arr = [
         furigana: 'ふようほう',
         meanings: 'Mount Fuji'
       }
-    ]
+    ],
+    quizAnswersOn: ['しょう', 'ふ', 'とう', 'さく'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '賦',
@@ -182747,7 +187001,9 @@ let arr = [
         furigana: 'ぶばらい',
         meanings: 'payment on an installment system'
       }
-    ]
+    ],
+    quizAnswersOn: ['とう', 'まつ', 'ふ', 'ぼう'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '附',
@@ -182832,7 +187088,9 @@ let arr = [
         furigana: 'つくふ',
         meanings: 'Junior and Senior High School at Otsuka'
       }
-    ]
+    ],
+    quizAnswersOn: ['ふ', 'は', 'ろう', 'こう'],
+    quizAnswersKun: ['ふたた.び', 'やぶ.れる', 'つ.ける', 'まった.く']
   },
   {
     kanjiName: '蕗',
@@ -182865,7 +187123,9 @@ let arr = [
         furigana: 'ろそう',
         meanings: 'liquorice'
       }
-    ]
+    ],
+    quizAnswersOn: ['れん', 'ろ', 'しょう', 'きょう'],
+    quizAnswersKun: ['あかつき', '', 'ふき', 'つよ.い']
   },
   {
     kanjiName: '丙',
@@ -182945,7 +187205,9 @@ let arr = [
         furigana: 'こうおつへい',
         meanings: 'A'
       }
-    ]
+    ],
+    quizAnswersOn: ['ぼう', 'し', 'けん', 'へい'],
+    quizAnswersKun: ['', 'ひのえ', 'ちから', 'たた.える']
   },
   {
     kanjiName: '碧',
@@ -182968,7 +187230,9 @@ let arr = [
         furigana: 'へきかい',
         meanings: 'blue sea'
       }
-    ]
+    ],
+    quizAnswersOn: ['いん', 'へき', '', 'らん'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '甫',
@@ -182991,7 +187255,9 @@ let arr = [
         furigana: 'たいほ',
         meanings: 'your personal name'
       }
-    ]
+    ],
+    quizAnswersOn: ['ほ', 'た', 'かつ', 'む'],
+    quizAnswersKun: ['はじ.めて', 'と.る', '', 'しの.ぶ']
   },
   {
     kanjiName: '倣',
@@ -183051,7 +187317,9 @@ let arr = [
         furigana: 'ならう',
         meanings: 'to imitate'
       }
-    ]
+    ],
+    quizAnswersOn: ['ほう', 'ばく', 'てい', 'かん'],
+    quizAnswersKun: ['かがや.き', 'まね.く', '', 'なら.う']
   },
   {
     kanjiName: '朋',
@@ -183089,7 +187357,9 @@ let arr = [
         furigana: 'ゆうほう',
         meanings: 'friend'
       }
-    ]
+    ],
+    quizAnswersOn: ['たい', 'ほう', 'わ', 'じゅん'],
+    quizAnswersKun: ['く.ちる', 'とも', 'す.ぎる', 'ま.す']
   },
   {
     kanjiName: '鳳',
@@ -183117,7 +187387,9 @@ let arr = [
         furigana: 'はくほう',
         meanings: 'white Chinese phoenix'
       }
-    ]
+    ],
+    quizAnswersOn: ['かん', 'ご', 'ほう', 'まい'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '鵬',
@@ -183155,7 +187427,9 @@ let arr = [
         furigana: 'はくほう',
         meanings: 'era during 1960s dominated by grand champions Taiho and Kashiwado'
       }
-    ]
+    ],
+    quizAnswersOn: ['ほう', 'そん', 'ほう', 'おう'],
+    quizAnswersKun: ['おおとり', 'はた', 'や', 'たが.い']
   },
   {
     kanjiName: '槙',
@@ -183198,7 +187472,9 @@ let arr = [
         furigana: 'にいたかびゃくしん',
         meanings: 'flaky juniper (Juniperus squamata)'
       }
-    ]
+    ],
+    quizAnswersOn: ['こう', 'てん', 'せい', 'し'],
+    quizAnswersKun: ['たえ', 'まき', 'あぶ.ない', 'わら.う']
   },
   {
     kanjiName: '柾',
@@ -183236,7 +187512,9 @@ let arr = [
         furigana: 'まさきのかずら',
         meanings: 'Asiatic jasmine (Trachelospermum asiaticum)'
       }
-    ]
+    ],
+    quizAnswersOn: [],
+    quizAnswersKun: ['しら.げる', 'まさ', 'くび', 'やつ']
   },
   {
     kanjiName: '亦',
@@ -183259,7 +187537,9 @@ let arr = [
         furigana: 'またまた',
         meanings: 'once again'
       }
-    ]
+    ],
+    quizAnswersOn: ['しん', 'き', 'えき', 'こう'],
+    quizAnswersKun: ['また', 'ふところ', 'かめ', '']
   },
   {
     kanjiName: '繭',
@@ -183359,7 +187639,9 @@ let arr = [
         furigana: 'しゅうけん',
         meanings: 'cocoon crop'
       }
-    ]
+    ],
+    quizAnswersOn: ['こう', 'と', 'く', 'けん'],
+    quizAnswersKun: ['お.る', 'まゆ', 'たち', 'つむ.ぐ']
   },
   {
     kanjiName: '麿',
@@ -183377,7 +187659,9 @@ let arr = [
         furigana: 'まろ',
         meanings: 'I'
       }
-    ]
+    ],
+    quizAnswersOn: [],
+    quizAnswersKun: ['く.う', 'くび', 'まろ', 'しず.む']
   },
   {
     kanjiName: '巳',
@@ -183425,7 +187709,9 @@ let arr = [
         furigana: 'じょうし',
         meanings: "Doll's Festival (March 3)"
       }
-    ]
+    ],
+    quizAnswersOn: ['かん', 'じく', 'し', 'し'],
+    quizAnswersKun: ['ま.す', 'つ.める', 'さか.える', 'み']
   },
   {
     kanjiName: '稔',
@@ -183468,7 +187754,9 @@ let arr = [
         furigana: 'ほうねん',
         meanings: 'bumper harvest'
       }
-    ]
+    ],
+    quizAnswersOn: ['ねん', 'きょう', 'のう', 'よう'],
+    quizAnswersKun: ['みの.る', 'まかな.う', '', 'いと']
   },
   {
     kanjiName: '椋',
@@ -183491,7 +187779,9 @@ let arr = [
         furigana: 'むくどり',
         meanings: 'grey starling (Sturnus cineraceus)'
       }
-    ]
+    ],
+    quizAnswersOn: ['りょう', 'てつ', 'とん', 'もう'],
+    quizAnswersKun: ['うば.う', '', 'むく', 'せ']
   },
   {
     kanjiName: '孟',
@@ -183524,7 +187814,9 @@ let arr = [
         furigana: 'ろんもう',
         meanings: 'the Confucian Analects and the Discourses of Mencius'
       }
-    ]
+    ],
+    quizAnswersOn: ['もう', 'しょう', 'ぶ', 'りょう'],
+    quizAnswersKun: ['むこ', 'と.く', 'かしら', 'あつ.い']
   },
   {
     kanjiName: '耗',
@@ -183599,7 +187891,9 @@ let arr = [
         furigana: 'そんもう',
         meanings: 'wear'
       }
-    ]
+    ],
+    quizAnswersOn: ['せき', 'しょく', 'もう', 'にゅう'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '匁',
@@ -183679,7 +187973,9 @@ let arr = [
         furigana: 'はないちもんめ',
         meanings: "children's game in which two groups compete for members by playing janken"
       }
-    ]
+    ],
+    quizAnswersOn: [],
+    quizAnswersKun: ['もんめ', '', 'の.びる', 'ふる.い']
   },
   {
     kanjiName: '冶',
@@ -183712,7 +188008,9 @@ let arr = [
         furigana: 'かじ',
         meanings: 'smithing'
       }
-    ]
+    ],
+    quizAnswersOn: ['きょう', 'こ', 'や', 'ふ'],
+    quizAnswersKun: ['い.る', 'ぬ.る', 'そな.える', 'あや']
   },
   {
     kanjiName: '耶',
@@ -183745,7 +188043,9 @@ let arr = [
         furigana: 'かや',
         meanings: 'Kaya (ancient Korean confederacy)'
       }
-    ]
+    ],
+    quizAnswersOn: ['ぶん', 'や', 'ろ', 'ほ'],
+    quizAnswersKun: ['よ', 'か', 'か.える', 'しず-']
   },
   {
     kanjiName: '佑',
@@ -183788,7 +188088,9 @@ let arr = [
         furigana: 'てんゆう',
         meanings: 'divine aid'
       }
-    ]
+    ],
+    quizAnswersOn: ['ゆう', 'いき', 'とう', 'かつ'],
+    quizAnswersKun: ['かせ.ぐ', 'たす.ける', 'うけたまわ.る', '']
   },
   {
     kanjiName: '宥',
@@ -183821,7 +188123,9 @@ let arr = [
         furigana: 'しょくゆう',
         meanings: 'indulgence (in the Catholic Church)'
       }
-    ]
+    ],
+    quizAnswersOn: ['ゆう', 'かん', 'けん', 'よく'],
+    quizAnswersKun: ['たてまつ.る', 'つ.む', 'つと.める', 'なだ.める']
   },
   {
     kanjiName: '柚',
@@ -183879,7 +188183,9 @@ let arr = [
         furigana: 'ゆうがぎく',
         meanings: 'Japanese aster (Kalimeris pinnatifida)'
       }
-    ]
+    ],
+    quizAnswersOn: ['ゆ', 'きゅう', 'かつ', 'ご'],
+    quizAnswersKun: ['', 'たわむ.れる', 'しず.める', 'ゆず']
   },
   {
     kanjiName: '祐',
@@ -183922,7 +188228,9 @@ let arr = [
         furigana: 'てんゆう',
         meanings: 'divine aid'
       }
-    ]
+    ],
+    quizAnswersOn: ['ゆう', 'けい', 'ほう', 'わ'],
+    quizAnswersKun: ['', 'たす.ける', 'あか', 'つつし.む']
   },
   {
     kanjiName: '邑',
@@ -183955,7 +188263,9 @@ let arr = [
         furigana: 'きょうゆう',
         meanings: 'hamlet'
       }
-    ]
+    ],
+    quizAnswersOn: ['たい', 'ゆう', 'せき', 'りょう'],
+    quizAnswersKun: ['つか.れる', '', 'むら', 'いさぎよ.い']
   },
   {
     kanjiName: '楊',
@@ -184003,7 +188313,9 @@ let arr = [
         furigana: 'はこやなぎ',
         meanings: 'Japanese aspen (Populus tremula var. sieboldii)'
       }
-    ]
+    ],
+    quizAnswersOn: ['えん', 'へん', 'よう', 'しゅ'],
+    quizAnswersKun: ['たくみ', 'やなぎ', 'くら', 'でく']
   },
   {
     kanjiName: '窯',
@@ -184088,7 +188400,9 @@ let arr = [
         furigana: 'かんよう',
         meanings: 'governmental porcelain furnace'
       }
-    ]
+    ],
+    quizAnswersOn: ['よう', 'そう', 'ど', 'てい'],
+    quizAnswersKun: ['つね', 'たまわ.る', 'かま', 'みが.く']
   },
   {
     kanjiName: '耀',
@@ -184116,7 +188430,9 @@ let arr = [
         furigana: 'こうよう',
         meanings: 'shining'
       }
-    ]
+    ],
+    quizAnswersOn: ['たい', 'ろう', 'よう', 'こう'],
+    quizAnswersKun: ['かがや.く', 'おお.きい', 'は.る', 'さ.す']
   },
   {
     kanjiName: '蓉',
@@ -184139,7 +188455,9 @@ let arr = [
         furigana: 'あふよう',
         meanings: 'poppy'
       }
-    ]
+    ],
+    quizAnswersOn: ['よう', 'しん', 'ぼう', 'ぎょく'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '濫',
@@ -184214,7 +188532,9 @@ let arr = [
         furigana: 'らんかく',
         meanings: 'excessive fishing'
       }
-    ]
+    ],
+    quizAnswersOn: ['らん', 'は', 'きょ', 'ち'],
+    quizAnswersKun: ['ね.る', 'みだ.りに', 'にしき', '']
   },
   {
     kanjiName: '蘭',
@@ -184257,7 +188577,9 @@ let arr = [
         furigana: 'らに',
         meanings: 'thoroughwort (species of boneset'
       }
-    ]
+    ],
+    quizAnswersOn: ['だく', 'きょ', 'らん', 'たく'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '吏',
@@ -184332,7 +188654,9 @@ let arr = [
         furigana: 'けいり',
         meanings: 'executioner'
       }
-    ]
+    ],
+    quizAnswersOn: ['し', 'しょ', 'り', 'すう'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '李',
@@ -184380,7 +188704,9 @@ let arr = [
         furigana: 'やなぎごうり',
         meanings: 'wicker trunk'
       }
-    ]
+    ],
+    quizAnswersOn: ['せつ', 'り', 'ちょう', 'しゅう'],
+    quizAnswersKun: ['すもも', 'なに', 'むかし', 'か.ける']
   },
   {
     kanjiName: '琉',
@@ -184408,7 +188734,9 @@ let arr = [
         furigana: 'るり',
         meanings: 'lapis lazuli'
       }
-    ]
+    ],
+    quizAnswersOn: ['こう', 'りゅう', 'れん', 'き'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '稜',
@@ -184451,7 +188779,9 @@ let arr = [
         furigana: 'がんりょう',
         meanings: 'ridge of a cliff'
       }
-    ]
+    ],
+    quizAnswersOn: ['りょう', 'せい', 'えい', 'ごう'],
+    quizAnswersKun: ['ひく.い', 'いつ', 'おもて', 'ろう.する']
   },
   {
     kanjiName: '厘',
@@ -184526,7 +188856,9 @@ let arr = [
         furigana: 'くぶくりん',
         meanings: 'almost certainly'
       }
-    ]
+    ],
+    quizAnswersOn: ['ご', 'りん', 'じゅく', 'がん'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '琳',
@@ -184544,7 +188876,9 @@ let arr = [
         furigana: 'りんぱ',
         meanings: 'Rimpa school (of painting'
       }
-    ]
+    ],
+    quizAnswersOn: ['りん', 'よう', 'おん', 'ぼく'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '麟',
@@ -184567,7 +188901,9 @@ let arr = [
         furigana: 'もっきりん',
         meanings: 'Barbados shrub (Pereskia aculeata)'
       }
-    ]
+    ],
+    quizAnswersOn: ['しゅう', 'りん', 'よ', 'えき'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '伶',
@@ -184590,7 +188926,9 @@ let arr = [
         furigana: 'れいじん',
         meanings: 'court musician'
       }
-    ]
+    ],
+    quizAnswersOn: ['', 'じょう', 'しん', 'れい'],
+    quizAnswersKun: ['わざおぎ', 'ごと.し', 'ころ.す', 'とりこ']
   },
   {
     kanjiName: '嶺',
@@ -184623,7 +188961,9 @@ let arr = [
         furigana: 'ぶんすいれい',
         meanings: 'watershed'
       }
-    ]
+    ],
+    quizAnswersOn: ['れい', 'しゃ', 'い', 'せき'],
+    quizAnswersKun: ['', 'ころ.す', 'くる.しい', 'みね']
   },
   {
     kanjiName: '怜',
@@ -184646,7 +188986,9 @@ let arr = [
         furigana: 'れいりこうかつ',
         meanings: 'cunning'
       }
-    ]
+    ],
+    quizAnswersOn: ['かん', 'すう', 'き', 'れい'],
+    quizAnswersKun: ['', 'わか.つ', 'あわ.れむ', 'とお.る']
   },
   {
     kanjiName: '玲',
@@ -184679,7 +189021,9 @@ let arr = [
         furigana: 'はくれい',
         meanings: 'Hakurei (one of the eight major professional female titles of shogi)'
       }
-    ]
+    ],
+    quizAnswersOn: ['き', 'いち', 'れい', 'りょう'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '楼',
@@ -184754,7 +189098,9 @@ let arr = [
         furigana: 'さんすいろう',
         meanings: 'Sansuiro (name of an exclusive restaurant)'
       }
-    ]
+    ],
+    quizAnswersOn: ['こん', 'き', 'ろう', 'そう'],
+    quizAnswersKun: ['たかどの', 'しろ', 'ふく.らむ', 'なお']
   },
   {
     kanjiName: '禄',
@@ -184787,7 +189133,9 @@ let arr = [
         furigana: 'えいろく',
         meanings: 'Eiroku era (1558.2.28-1570.4.23)'
       }
-    ]
+    ],
+    quizAnswersOn: ['そつ', 'ろく', 'こう', 'るい'],
+    quizAnswersKun: ['', 'はや.い', 'さいわ.い', 'から.む']
   },
   {
     kanjiName: '倭',
@@ -184825,7 +189173,9 @@ let arr = [
         furigana: 'わか',
         meanings: 'waka'
       }
-    ]
+    ],
+    quizAnswersOn: ['もう', 'き', 'かく', 'わ'],
+    quizAnswersKun: ['べに', 'やまと', '', 'かか.わる']
   },
   {
     kanjiName: '亘',
@@ -184853,7 +189203,9 @@ let arr = [
         furigana: 'れんこう',
         meanings: 'extending in a row'
       }
-    ]
+    ],
+    quizAnswersOn: ['こう', 'ほう', 'はん', 'ふ'],
+    quizAnswersKun: ['へび', 'あが.る', 'わた.る', 'みずか.ら']
   },
   {
     kanjiName: '侑',
@@ -184876,7 +189228,9 @@ let arr = [
         furigana: 'ゆうしょく',
         meanings: 'assisting at dinner'
       }
-    ]
+    ],
+    quizAnswersOn: ['ゆう', 'ゆう', 'こん', 'いん'],
+    quizAnswersKun: ['もも', '', 'かせ', 'すす.める']
   },
   {
     kanjiName: '勁',
@@ -184909,7 +189263,9 @@ let arr = [
         furigana: 'はっけい',
         meanings: 'fa jin'
       }
-    ]
+    ],
+    quizAnswersOn: ['か', 'めん', 'けい', 'せん'],
+    quizAnswersKun: ['', 'つよ.い', 'あまね.く', 'のこ.す']
   },
   {
     kanjiName: '奎',
@@ -184932,7 +189288,9 @@ let arr = [
         furigana: 'とかきぼし',
         meanings: 'Chinese Legs constellation (one of the 28 mansions)'
       }
-    ]
+    ],
+    quizAnswersOn: ['けい', 'りゅう', 'こう', 'こ'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '崚',
@@ -184949,7 +189307,9 @@ let arr = [
       'Time',
       'Mountains Towering In A Row'
     ],
-    usedIn: []
+    usedIn: [],
+    quizAnswersOn: ['せん', 'ほう', 'りょう', 'えん'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '彗',
@@ -184972,7 +189332,9 @@ let arr = [
         furigana: 'すいせいのようにあらわれる',
         meanings: 'to become famous overnight'
       }
-    ]
+    ],
+    quizAnswersOn: ['すい', 'よう', 'りん', 'さい'],
+    quizAnswersKun: ['', 'ほうき', 'あら.う', 'いか.る']
   },
   {
     kanjiName: '昴',
@@ -185010,7 +189372,9 @@ let arr = [
         furigana: 'ぼうしゅく',
         meanings: 'Chinese Hairy Head constellation (one of the 28 mansions)'
       }
-    ]
+    ],
+    quizAnswersOn: ['こう', 'しん', 'じょう', 'ぼう'],
+    quizAnswersKun: ['つた.わる', 'すばる', 'むか.える', 'ひろ.い']
   },
   {
     kanjiName: '晏',
@@ -185033,7 +189397,9 @@ let arr = [
         furigana: 'あんぜん',
         meanings: 'calm'
       }
-    ]
+    ],
+    quizAnswersOn: ['あん', 'てい', 'ふ', 'じゅん'],
+    quizAnswersKun: ['', 'は', 'おそ.い', 'わずら.う']
   },
   {
     kanjiName: '晨',
@@ -185051,7 +189417,9 @@ let arr = [
         furigana: 'じんじょう',
         meanings: "around six o'clock AM"
       }
-    ]
+    ],
+    quizAnswersOn: ['しん', 'そう', 'ねん', 'し'],
+    quizAnswersKun: ['', 'とお.い', 'つむぎ', 'あした']
   },
   {
     kanjiName: '晟',
@@ -185063,7 +189431,9 @@ let arr = [
     kun: ['あきらか'],
     jlpt: 1,
     quizAnswers: ['Clear', 'Counter For Years', 'Dynasty', 'Few'],
-    usedIn: []
+    usedIn: [],
+    quizAnswersOn: ['けい', 'てき', 'せい', 'いん'],
+    quizAnswersKun: ['と.る', 'きわ.める', 'あきらか', 'あに']
   },
   {
     kanjiName: '暉',
@@ -185091,7 +189461,9 @@ let arr = [
         furigana: 'きょっき',
         meanings: 'rays of the rising sun'
       }
-    ]
+    ],
+    quizAnswersOn: ['こう', 'たい', 'き', 'ごう'],
+    quizAnswersKun: ['きさき', 'たから', 'かが.やく', '']
   },
   {
     kanjiName: '椰',
@@ -185124,7 +189496,9 @@ let arr = [
         furigana: 'やこ',
         meanings: 'yehu (bowed Chinese instrument with a coconut-shell body)'
       }
-    ]
+    ],
+    quizAnswersOn: ['い', 'ひつ', 'こう', 'や'],
+    quizAnswersKun: ['やくしょ', 'やし', 'よ', 'あきらか']
   },
   {
     kanjiName: '毬',
@@ -185177,7 +189551,9 @@ let arr = [
         furigana: 'だきゅう',
         meanings: 'dakyū'
       }
-    ]
+    ],
+    quizAnswersOn: ['さい', 'きゅう', 'りょう', 'おう'],
+    quizAnswersKun: ['し.まる', 'いが', 'あぶら', 'やさ.しい']
   },
   {
     kanjiName: '洸',
@@ -185205,7 +189581,9 @@ let arr = [
         furigana: 'こうこう',
         meanings: 'valiant'
       }
-    ]
+    ],
+    quizAnswersOn: ['しゃく', 'こう', 'すい', 'しん'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '洵',
@@ -185228,7 +189606,9 @@ let arr = [
         furigana: 'じゅんび',
         meanings: 'exquisite'
       }
-    ]
+    ],
+    quizAnswersOn: ['じゅん', 'きゅう', 'そん', 'ぼく'],
+    quizAnswersKun: ['みさき', 'さら', '', 'の.ぶ']
   },
   {
     kanjiName: '滉',
@@ -185246,7 +189626,9 @@ let arr = [
         furigana: 'こうよう',
         meanings: 'wide and deep (of a body of water)'
       }
-    ]
+    ],
+    quizAnswersOn: ['ろう', 'こう', 'ゆう', 'らん'],
+    quizAnswersKun: ['ひろ.い', 'みや', 'でこ', 'あらわ.れる']
   },
   {
     kanjiName: '漱',
@@ -185289,7 +189671,9 @@ let arr = [
         furigana: 'すすぐ',
         meanings: "to rinse (one's mouth)"
       }
-    ]
+    ],
+    quizAnswersOn: ['そう', 'ぐ', 'しょう', 'そう'],
+    quizAnswersKun: ['ほぼ', 'くちすす.ぐ', 'から', '']
   },
   {
     kanjiName: '澪',
@@ -185317,7 +189701,9 @@ let arr = [
         furigana: 'みおつくし',
         meanings: 'marks in a water channel'
       }
-    ]
+    ],
+    quizAnswersOn: ['ぼう', 'えん', 'れい', 'もん'],
+    quizAnswersKun: ['みみ', 'はり', '', 'みお']
   },
   {
     kanjiName: '燎',
@@ -185345,7 +189731,9 @@ let arr = [
         furigana: 'にわび',
         meanings: 'garden bonfire (esp. one held on the imperial grounds)'
       }
-    ]
+    ],
+    quizAnswersOn: ['てん', 'りょう', 'べつ', 'ぞう'],
+    quizAnswersKun: ['かがりび', 'なんぞ', 'にご.る', 'かえ.って']
   },
   {
     kanjiName: '燿',
@@ -185357,7 +189745,9 @@ let arr = [
     kun: ['かがや.く', 'ひかり'],
     jlpt: 1,
     quizAnswers: ['Stop', 'History', 'Shine', 'Mixture'],
-    usedIn: []
+    usedIn: [],
+    quizAnswersOn: ['じん', 'けつ', 'えん', 'よう'],
+    quizAnswersKun: ['の.せる', 'かがや.く', 'つつみ', 'よ.う']
   },
   {
     kanjiName: '瑶',
@@ -185380,7 +189770,9 @@ let arr = [
         furigana: 'ようがん',
         meanings: 'beautiful face'
       }
-    ]
+    ],
+    quizAnswersOn: ['よう', 'こう', 'かん', 'よう'],
+    quizAnswersKun: ['ひく.い', 'たま', 'たま.う', '']
   },
   {
     kanjiName: '皓',
@@ -185408,7 +189800,9 @@ let arr = [
         furigana: 'こうこう',
         meanings: 'bright (esp. of the moon)'
       }
-    ]
+    ],
+    quizAnswersOn: ['き', 'ちょう', 'せき', 'こう'],
+    quizAnswersKun: ['', 'しろ.い', 'あさひ', 'わた.る']
   },
   {
     kanjiName: '眸',
@@ -185441,7 +189835,9 @@ let arr = [
         furigana: 'そうぼう',
         meanings: "one's eyes"
       }
-    ]
+    ],
+    quizAnswersOn: ['まく', 'くう', 'ぼう', 'きゅう'],
+    quizAnswersKun: ['こ.る', 'うるし', 'ひとみ', '']
   },
   {
     kanjiName: '笙',
@@ -185479,7 +189875,9 @@ let arr = [
         furigana: 'しょうのふえ',
         meanings: 'shō (Japanese free reed musical instrument)'
       }
-    ]
+    ],
+    quizAnswersOn: ['しょう', 'こう', 'ふ', 'れん'],
+    quizAnswersKun: ['ふえ', 'しろ', '', 'そこ.なう']
   },
   {
     kanjiName: '綸',
@@ -185512,7 +189910,9 @@ let arr = [
         furigana: 'もすりん',
         meanings: 'mousseline de laine'
       }
-    ]
+    ],
+    quizAnswersOn: ['き', 'しゅう', 'りん', ''],
+    quizAnswersKun: ['いと', 'みが.く', 'さら', 'とら.われる']
   },
   {
     kanjiName: '脩',
@@ -185535,7 +189935,9 @@ let arr = [
         furigana: 'そくしゅう',
         meanings: 'entrance fee'
       }
-    ]
+    ],
+    quizAnswersOn: ['しょう', 'ぎょく', 'しゅう', 'に'],
+    quizAnswersKun: ['た.つ', 'おさ.める', '', 'あ.かり']
   },
   {
     kanjiName: '茉',
@@ -185568,7 +189970,9 @@ let arr = [
         furigana: 'まつりか',
         meanings: 'Arabian jasmine (Jasminum sambac)'
       }
-    ]
+    ],
+    quizAnswersOn: ['じ', 'まつ', 'らん', 'よ'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '菫',
@@ -185606,7 +190010,9 @@ let arr = [
         furigana: 'きんせいせき',
         meanings: 'cordierite'
       }
-    ]
+    ],
+    quizAnswersOn: ['しゅ', 'きん', 'じゃく', 'こ'],
+    quizAnswersKun: ['にじ', 'うめ', 'あ.かり', 'すみれ']
   },
   {
     kanjiName: '詢',
@@ -185629,7 +190035,9 @@ let arr = [
         furigana: 'しじゅん',
         meanings: 'question'
       }
-    ]
+    ],
+    quizAnswersOn: ['こう', 'じゅん', 'ぼう', 'しょう'],
+    quizAnswersKun: ['う.える', 'あば.く', 'お.りる', 'はか.る']
   },
   {
     kanjiName: '諄',
@@ -185652,7 +190060,9 @@ let arr = [
         furigana: 'くどくどしい',
         meanings: 'wordy'
       }
-    ]
+    ],
+    quizAnswersOn: ['えき', 'ぼう', 'りょう', 'しゅん'],
+    quizAnswersKun: ['ほり', 'ま.じる', 'もと.める', 'ひちくど.い']
   },
   {
     kanjiName: '赳',
@@ -185664,7 +190074,9 @@ let arr = [
     kun: [],
     jlpt: 1,
     quizAnswers: ['Ultra-', 'Number', 'Bear (a Burden)', 'Strong And Brave'],
-    usedIn: []
+    usedIn: [],
+    quizAnswersOn: ['が', 'りく', 'きゅう', 'くん'],
+    quizAnswersKun: []
   },
   {
     kanjiName: '迪',
@@ -185687,7 +190099,9 @@ let arr = [
         furigana: 'くんてき',
         meanings: 'guide'
       }
-    ]
+    ],
+    quizAnswersOn: ['じょ', 'かい', 'えん', 'てき'],
+    quizAnswersKun: ['あかし', '', 'さとい', 'みち']
   },
   {
     kanjiName: '頌',
@@ -185725,7 +190139,9 @@ let arr = [
         furigana: 'しょうじゅ',
         meanings: 'celebration of longevity'
       }
-    ]
+    ],
+    quizAnswersOn: ['てつ', 'きょう', 'しょう', 'しょう'],
+    quizAnswersKun: ['たけ', 'かたち', 'もう.す', '']
   },
   {
     kanjiName: '黎',
@@ -185763,7 +190179,9 @@ let arr = [
         furigana: 'りーぞく',
         meanings: 'Li (people)'
       }
-    ]
+    ],
+    quizAnswersOn: ['せき', 'ぶつ', 'れつ', 'れい'],
+    quizAnswersKun: ['', 'ふ.く', 'くろ.い', 'あつ.い']
   },
   {
     kanjiName: '凜',
@@ -185796,7 +190214,9 @@ let arr = [
         furigana: 'ゆうきりんりん',
         meanings: 'full of spirit'
       }
-    ]
+    ],
+    quizAnswersOn: ['りん', 'どう', 'そ', 'とう'],
+    quizAnswersKun: ['たわら', 'うなが.す', 'さとい', 'きびし.い']
   },
   {
     kanjiName: '熙',
@@ -185828,7 +190248,9 @@ let arr = [
         furigana: 'きき',
         meanings: 'relaxed and enjoyable'
       }
-    ]
+    ],
+    quizAnswersOn: ['はつ', 'しょう', 'き', 'こう'],
+    quizAnswersKun: ['', 'きも', 'たのし.む', 'みちび.く']
   }
 ]
 

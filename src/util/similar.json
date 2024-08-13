@@ -70045,12 +70045,7 @@
         "furigana": "ろうかく",
         "meaning": "multistoried building"
       },
-      { "kanji": "鐘楼", "furigana": "しょうろう", "meaning": "belfry" },
-      {
-        "kanji": "山水楼",
-        "furigana": "さんすいろう",
-        "meaning": "Sansuiro (name of an exclusive restaurant)"
-      }
+      { "kanji": "鐘楼", "furigana": "しょうろう", "meaning": "belfry" }
     ]
   }
 }
