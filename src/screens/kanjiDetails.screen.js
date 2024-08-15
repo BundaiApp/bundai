@@ -7,7 +7,8 @@ import {
   FlatList,
   Dimensions,
   TouchableOpacity,
-  Platform
+  Platform,
+  Image
 } from 'react-native'
 import { useMutation } from '@apollo/client'
 import { Icon } from 'react-native-elements'
@@ -108,6 +109,7 @@ export default function KanjiDetail({ navigation, route }) {
               <Icon name={'arrow-back-circle'} type={'ionicon'} size={26} color={'gray'} />
             </TouchableOpacity>
           ) : null}
+
           <Text style={styles.kanji}>{kanjiName}</Text>
 
           {Platform.OS != 'ios' && Platform.OS != 'android' ? (
@@ -120,6 +122,7 @@ export default function KanjiDetail({ navigation, route }) {
         <View style={styles.textHolder}>
           <Text style={styles.header}>Meanings</Text>
         </View>
+
         <View style={styles.pillHolder}>
           {typeof meanings != 'string' ? (
             meanings.map((item, index) => <Pill key={item} index={index} subject={item} />)
@@ -135,6 +138,14 @@ export default function KanjiDetail({ navigation, route }) {
             </View>
             <View style={styles.pillHolder}>
               <Pill subject={hiragana} />
+            </View>
+
+            <View style={styles.imageHolder}>
+              <Image
+                style={styles.hiraganaPic}
+                source={require('../assets/books.png')}
+                resizeMode={'contain'}
+              />
             </View>
           </>
         ) : (
@@ -290,6 +301,14 @@ const styles = StyleSheet.create({
   sliderHolder: {
     flexDirection: 'row',
     justifyContent: 'space-around',
+    alignItems: 'center'
+  },
+  hiraganaPic: {
+    height: 400,
+    width: 300
+  },
+  imageHolder: {
+    justifyContent: 'center',
     alignItems: 'center'
   }
 })
