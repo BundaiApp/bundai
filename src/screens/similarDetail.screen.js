@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { View, Text, TouchableOpacity, StyleSheet, Dimensions } from 'react-native'
+import { View, ScrollView, Text, TouchableOpacity, StyleSheet, Dimensions } from 'react-native'
 import {
   widthPercentageToDP as wp,
   heightPercentageToDP as hp
@@ -109,28 +109,30 @@ export default function SimilarDetails({ route }) {
   )
 
   return DeviceType() === 'desktop' ? (
-    <View style={styles.containerForMac}>
-      <View style={styles.firstCol}>
-        <View style={styles.textHolder}>
-          <Text style={styles.header}>Words made with {kanji}</Text>
+    <View style={styles.macContainerHolder}>
+      <ScrollView contentContainerStyle={styles.containerForMac}>
+        <View style={styles.firstCol}>
+          <View style={styles.textHolder}>
+            <Text style={styles.header}>Words made with {kanji}</Text>
+          </View>
+          <View style={styles.pillHolder}>
+            {usedIn?.map((item, index) => (
+              <KanjiBox key={item.kanji} index={index} kanji={item.kanji} meaning={item.meaning} />
+            ))}
+          </View>
         </View>
-        <View style={styles.pillHolder}>
-          {usedIn?.map((item, index) => (
-            <KanjiBox key={item.kanji} index={index} kanji={item.kanji} meaning={item.meaning} />
-          ))}
-        </View>
-      </View>
 
-      <View style={styles.firstCol}>
-        <View style={styles.textHolder}>
-          <Text style={styles.header}>Kanjis similar to {kanji}</Text>
+        <View style={styles.firstCol}>
+          <View style={styles.textHolder}>
+            <Text style={styles.header}>Kanjis similar to {kanji}</Text>
+          </View>
+          <View style={styles.pillHolder}>
+            {kanjiArray?.map((item, index) => (
+              <KanjiBox key={item.kanji} index={index} kanji={item.kanji} meaning={item.meaning} />
+            ))}
+          </View>
         </View>
-        <View style={styles.pillHolder}>
-          {kanjiArray?.map((item, index) => (
-            <KanjiBox key={item.kanji} index={index} kanji={item.kanji} meaning={item.meaning} />
-          ))}
-        </View>
-      </View>
+      </ScrollView>
     </View>
   ) : (
     <View style={styles.container}>
@@ -182,8 +184,11 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     backgroundColor: 'ivory'
   },
-  containerForMac: {
+  macContainerHolder: {
     flex: 1,
+    backgroundColor: 'ivory'
+  },
+  containerForMac: {
     flexDirection: 'row',
     justifyContent: 'space-around',
     backgroundColor: 'ivory'
