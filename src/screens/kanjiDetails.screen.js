@@ -100,9 +100,19 @@ export default function KanjiDetail({ navigation, route }) {
     }
   }
 
+  const images = {
+    books: require('../assets/car.png')
+  }
+
   function Page({ kanjiName, meanings, kun, on, hiragana, similars, usedIn }) {
     return (
       <ScrollView contentContainerStyle={styles.scrollviewBackDrop}>
+        {isWord ? (
+          <View style={styles.imageHolder}>
+            <Image style={styles.hiraganaPic} source={images['books']} resizeMode={'contain'} />
+          </View>
+        ) : null}
+
         <View style={styles.sliderHolder}>
           {Platform.OS != 'ios' && Platform.OS != 'android' ? (
             <TouchableOpacity onPress={scrollLeft}>
@@ -138,14 +148,6 @@ export default function KanjiDetail({ navigation, route }) {
             </View>
             <View style={styles.pillHolder}>
               <Pill subject={hiragana} />
-            </View>
-
-            <View style={styles.imageHolder}>
-              <Image
-                style={styles.hiraganaPic}
-                source={require('../assets/books.png')}
-                resizeMode={'contain'}
-              />
             </View>
           </>
         ) : (
