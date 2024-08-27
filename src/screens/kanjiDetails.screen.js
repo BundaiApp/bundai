@@ -201,15 +201,44 @@ export default function KanjiDetail({ navigation, route }) {
     heart: require('../assets/heart.png')
   }
 
-  function Page({ kanjiName, meanings, kun, on, hiragana, similars, usedIn }) {
+  function WordPageWithPictures({ kanjiName, meanings, kun, on, hiragana, similars, usedIn }) {
     return (
-      <ScrollView contentContainerStyle={styles.scrollviewBackDrop}>
-        {isWord ? (
-          <View style={styles.imageHolder}>
-            <Image style={styles.hiraganaPic} source={images[meanings[0]]} resizeMode={'contain'} />
-          </View>
-        ) : null}
+      <View style={styles.container}>
+        <View style={styles.imageHolder}>
+          <Image style={styles.hiraganaPic} source={images[meanings[0]]} resizeMode={'contain'} />
+        </View>
+        <Text style={styles.smallWordKanji}>{kanjiName}</Text>
+        <View style={styles.pillHolder}>
+          {typeof meanings != 'string' ? (
+            meanings.map((item, index) => <Pill key={item} index={index} subject={item} />)
+          ) : (
+            <Pill subject={meanings} />
+          )}
+        </View>
+      </View>
+    )
+  }
 
+  function Page({ kanjiName, meanings, kun, on, hiragana, similars, usedIn }) {
+    return isWord ? (
+      <View style={styles.scrollviewBackDrop}>
+        <View style={styles.imageHolder}>
+          <Image style={styles.hiraganaPic} source={images[meanings[0]]} resizeMode={'contain'} />
+        </View>
+        <View style={styles.imageHolder}>
+          <Text style={styles.smallWordKanji}>{hiragana}</Text>
+          <View style={styles.pillHolder}>
+            {typeof meanings != 'string' ? (
+              meanings.map((item, index) => <Pill key={item} index={index} subject={item} />)
+            ) : (
+              <Pill subject={meanings} />
+            )}
+          </View>
+          <Text style={styles.smallWordKanji}>{kanjiName}</Text>
+        </View>
+      </View>
+    ) : (
+      <ScrollView contentContainerStyle={styles.scrollviewBackDrop}>
         <View style={styles.sliderHolder}>
           {Platform.OS != 'ios' && Platform.OS != 'android' ? (
             <TouchableOpacity onPress={scrollLeft}>
@@ -340,6 +369,11 @@ const styles = StyleSheet.create({
   kanji: {
     fontWeight: '600',
     fontSize: 120,
+    alignSelf: 'center'
+  },
+  smallWordKanji: {
+    fontWeight: '600',
+    fontSize: 40,
     alignSelf: 'center'
   },
   headerAlt: {
