@@ -16,6 +16,7 @@ import { Icon } from 'react-native-elements'
 import AuthContext from '../contexts/authContext'
 //graphQL
 import ADD_FLASHCARD from '../mutations/addFlashCard.mutation'
+import Images from '../util/image_imports'
 
 const windowWidth = Dimensions.get('window').width
 
@@ -100,130 +101,11 @@ export default function KanjiDetail({ navigation, route }) {
     }
   }
 
-  const images = {
-    person: require('../assets/person.png'),
-    time: require('../assets/time.png'),
-    work: require('../assets/work.png'),
-    school: require('../assets/school.png'),
-    place: require('../assets/place.png'),
-    problem: require('../assets/problem.png'),
-    hand: require('../assets/hand.png'),
-    talk: require('../assets/talk.png'),
-    car: require('../assets/car.png'),
-    book: require('../assets/book.png'),
-    money: require('../assets/money.png'),
-    house: require('../assets/house.png'),
-    knowledge: require('../assets/knowledge.png'),
-    name: require('../assets/name.png'),
-    thought: require('../assets/thought.png'),
-    town: require('../assets/town.png'),
-    food: require('../assets/food.png'),
-    eye: require('../assets/eye.png'),
-    ear: require('../assets/ear.png'),
-    leg: require('../assets/leg.png'),
-    letter: require('../assets/letter.png'),
-    movie: require('../assets/movie.png'),
-    dog: require('../assets/dog.png'),
-    cat: require('../assets/cat.png'),
-    fish: require('../assets/fish.png'),
-    bird: require('../assets/bird.png'),
-    voice: require('../assets/voice.png'),
-    face: require('../assets/face.png'),
-    family: require('../assets/family.png'),
-    world: require('../assets/world.png'),
-    morning: require('../assets/morning.png'),
-    night: require('../assets/night.png'),
-    purpose: require('../assets/purpose.png'),
-    dream: require('../assets/dream.png'),
-    study: require('../assets/study.png'),
-    sky: require('../assets/sky.png'),
-    wind: require('../assets/wind.png'),
-    water: require('../assets/water.png'),
-    fire: require('../assets/fire.png'),
-    earth: require('../assets/earth.png'),
-    tree: require('../assets/tree.png'),
-    mountain: require('../assets/mountain.png'),
-    river: require('../assets/river.png'),
-    sea: require('../assets/sea.png'),
-    sun: require('../assets/sun.png'),
-    moon: require('../assets/moon.png'),
-    star: require('../assets/star.png'),
-    scenery: require('../assets/scenery.png'),
-    flower: require('../assets/flower.png'),
-    airport: require('../assets/airport.png'),
-    trainstation: require('../assets/trainstation.png'),
-    road: require('../assets/road.png'),
-    train: require('../assets/train.png'),
-    nature: require('../assets/nature.png'),
-    animal: require('../assets/animal.png'),
-    color: require('../assets/color.png'),
-    black: require('../assets/black.png'),
-    white: require('../assets/white.png'),
-    red: require('../assets/red.png'),
-    blue: require('../assets/blue.png'),
-    yellow: require('../assets/yellow.png'),
-    small: require('../assets/small.png'),
-    big: require('../assets/big.png'),
-    new: require('../assets/new.png'),
-    old: require('../assets/old.png'),
-    high: require('../assets/high.png'),
-    low: require('../assets/low.png'),
-    long: require('../assets/long.png'),
-    short: require('../assets/short.png'),
-    busy: require('../assets/busy.png'),
-    quiet: require('../assets/quiet.png'),
-    energetic: require('../assets/energetic.png'),
-    sad: require('../assets/sad.png'),
-    happy: require('../assets/happy.png'),
-    unhappiness: require('../assets/unhappiness.png'),
-    relief: require('../assets/relief.png'),
-    illness: require('../assets/illness.png'),
-    happiness: require('../assets/happiness.png'),
-    sleepy: require('../assets/sleepy.png'),
-    comfortable: require('../assets/comfortable.png'),
-    boredom: require('../assets/boredom.png'),
-    clock: require('../assets/clock.png'),
-    mirror: require('../assets/mirror.png'),
-    telephone: require('../assets/telephone.png'),
-    mobilephone: require('../assets/mobilephone.png'),
-    email: require('../assets/email.png'),
-    joy: require('../assets/joy.png'),
-    regret: require('../assets/regret.png'),
-    memory: require('../assets/memory.png'),
-    reason: require('../assets/reason.png'),
-    scene: require('../assets/scene.png'),
-    failure: require('../assets/failure.png'),
-    success: require('../assets/success.png'),
-    progress: require('../assets/progress.png'),
-    change: require('../assets/change.png'),
-    opportunity: require('../assets/opportunity.png'),
-    emotion: require('../assets/emotion.png'),
-    heart: require('../assets/heart.png')
-  }
-
-  function WordPageWithPictures({ kanjiName, meanings, kun, on, hiragana, similars, usedIn }) {
-    return (
-      <View style={styles.container}>
-        <View style={styles.imageHolder}>
-          <Image style={styles.hiraganaPic} source={images[meanings[0]]} resizeMode={'contain'} />
-        </View>
-        <Text style={styles.smallWordKanji}>{kanjiName}</Text>
-        <View style={styles.pillHolder}>
-          {typeof meanings != 'string' ? (
-            meanings.map((item, index) => <Pill key={item} index={index} subject={item} />)
-          ) : (
-            <Pill subject={meanings} />
-          )}
-        </View>
-      </View>
-    )
-  }
-
   function Page({ kanjiName, meanings, kun, on, hiragana, similars, usedIn }) {
     return isWord ? (
       <View style={styles.scrollviewBackDrop}>
         <View style={styles.imageHolder}>
-          <Image style={styles.hiraganaPic} source={images[meanings[0]]} resizeMode={'contain'} />
+          <Image style={styles.hiraganaPic} source={Images[meanings[0]]} resizeMode={'contain'} />
         </View>
         <View style={styles.imageHolder}>
           <Text style={styles.smallWordKanji}>{hiragana}</Text>

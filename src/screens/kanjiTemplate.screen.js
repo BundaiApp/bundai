@@ -50,6 +50,10 @@ function TemplateKanji({ navigation: { navigate }, route }) {
     if (katakana) setArr(Katakana)
   }, [])
 
+  useEffect(() => {
+    console.log(Nouns.length)
+  }, [])
+
   return (
     <View style={styles.container}>
       <FlatList

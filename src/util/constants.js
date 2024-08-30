@@ -38,7 +38,7 @@ export const words = [
   {
     topicName: 'nouns',
     header: 'Nouns',
-    subtitle: '100 nouns'
+    subtitle: '250 nouns'
   },
   {
     topicName: 'adjectives',
