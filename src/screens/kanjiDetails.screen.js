@@ -101,11 +101,20 @@ export default function KanjiDetail({ navigation, route }) {
     }
   }
 
+  function transformVerbMeaning(meaning) {
+    // Remove "to " from the beginning and replace spaces with underscores
+    return meaning.replace(/\s+/g, '');
+  }
+
   function Page({ kanjiName, meanings, kun, on, hiragana, similars, usedIn }) {
     return isWord ? (
       <View style={styles.scrollviewBackDrop}>
         <View style={styles.imageHolder}>
-          <Image style={styles.hiraganaPic} source={Images[meanings[0]]} resizeMode={'contain'} />
+          <Image
+            style={styles.hiraganaPic}
+            source={Images[transformVerbMeaning(meanings[0])]}
+            resizeMode={'contain'}
+          />
         </View>
         <View style={styles.imageHolder}>
           <Text style={styles.smallWordKanji}>{hiragana}</Text>

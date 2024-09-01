@@ -83,13 +83,13 @@
     "kanjiName": "ある",
     "hiragana": "ある",
     "meanings": [
-      "to be (used with inanimate objects)"
+      "to be"
     ],
     "quizAnswers": [
       "to become",
       "to turn on",
       "to have",
-      "to be (used with inanimate objects)"
+      "to be"
     ]
   },
   {
@@ -357,10 +357,10 @@
     "kanjiName": "脱ぐ",
     "hiragana": "ぬぐ",
     "meanings": [
-      "to take off (clothes)"
+      "to take off"
     ],
     "quizAnswers": [
-      "to take off (clothes)",
+      "to take off",
       "to begin",
       "to arrive",
       "to make listen"
@@ -443,19 +443,6 @@
       "to take a break",
       "to make listen",
       "to study"
-    ]
-  },
-  {
-    "kanjiName": "散歩する",
-    "hiragana": "さんぽする",
-    "meanings": [
-      "to take a walk"
-    ],
-    "quizAnswers": [
-      "to be able to say",
-      "to turn on",
-      "to take a walk",
-      "to make (causative form)"
     ]
   },
   {
@@ -546,7 +533,7 @@
       "to cut"
     ],
     "quizAnswers": [
-      "to buy (something from someone)",
+      "to buy",
       "to take time",
       "to walk",
       "to cut"
@@ -556,7 +543,7 @@
     "kanjiName": "買い取る",
     "hiragana": "かいとる",
     "meanings": [
-      "to buy (something from someone)"
+      "to buy"
     ],
     "quizAnswers": [
       "to leave",
@@ -808,97 +795,6 @@
     ]
   },
   {
-    "kanjiName": "待たせる",
-    "hiragana": "またせる",
-    "meanings": [
-      "to make wait"
-    ],
-    "quizAnswers": [
-      "to make",
-      "to cut",
-      "to lose",
-      "to make wait"
-    ]
-  },
-  {
-    "kanjiName": "行かせる",
-    "hiragana": "いかせる",
-    "meanings": [
-      "to make go"
-    ],
-    "quizAnswers": [
-      "to take out",
-      "to buy (something from someone)",
-      "to make go",
-      "to fall"
-    ]
-  },
-  {
-    "kanjiName": "言わせる",
-    "hiragana": "いわせる",
-    "meanings": [
-      "to make say"
-    ],
-    "quizAnswers": [
-      "to say",
-      "to sleep",
-      "to make say",
-      "to turn on"
-    ]
-  },
-  {
-    "kanjiName": "食べさせる",
-    "hiragana": "たべさせる",
-    "meanings": [
-      "to make eat"
-    ],
-    "quizAnswers": [
-      "to make eat",
-      "to buy (something from someone)",
-      "to memorize",
-      "to fall"
-    ]
-  },
-  {
-    "kanjiName": "させる",
-    "hiragana": "させる",
-    "meanings": [
-      "to make (causative form)"
-    ],
-    "quizAnswers": [
-      "to swim",
-      "to provide",
-      "to wait",
-      "to make (causative form)"
-    ]
-  },
-  {
-    "kanjiName": "させられる",
-    "hiragana": "させられる",
-    "meanings": [
-      "to be made to do (passive causative form)"
-    ],
-    "quizAnswers": [
-      "to meet",
-      "to leave",
-      "to be made to do (passive causative form)",
-      "to lose"
-    ]
-  },
-  {
-    "kanjiName": "聞かせる",
-    "hiragana": "きかせる",
-    "meanings": [
-      "to make listen"
-    ],
-    "quizAnswers": [
-      "to pretend",
-      "to make listen",
-      "to show",
-      "to fall"
-    ]
-  },
-  {
     "kanjiName": "知らせる",
     "hiragana": "しらせる",
     "meanings": [
@@ -909,32 +805,6 @@
       "to inform",
       "to feel",
       "to drop"
-    ]
-  },
-  {
-    "kanjiName": "教えさせる",
-    "hiragana": "おしえさせる",
-    "meanings": [
-      "to make teach"
-    ],
-    "quizAnswers": [
-      "to ask",
-      "to make teach",
-      "to forget",
-      "to memorize"
-    ]
-  },
-  {
-    "kanjiName": "読ませる",
-    "hiragana": "よませる",
-    "meanings": [
-      "to make read"
-    ],
-    "quizAnswers": [
-      "to lose",
-      "to learn",
-      "to make read",
-      "to travel"
     ]
   },
   {
@@ -979,24 +849,10 @@
     ]
   },
   {
-    "kanjiName": "かかる",
-    "hiragana": "かかる",
-    "meanings": [
-      "to take time",
-      "to cost"
-    ],
-    "quizAnswers": [
-      "to do",
-      "to cut",
-      "to take time",
-      "to take a walk"
-    ]
-  },
-  {
     "kanjiName": "かける",
     "hiragana": "かける",
     "meanings": [
-      "to put on (glasses)",
+      "to put on",
       "to make a call"
     ],
     "quizAnswers": [
@@ -1051,7 +907,7 @@
     "kanjiName": "知っている",
     "hiragana": "しっている",
     "meanings": [
-      "to know (be aware of)"
+      "to know"
     ],
     "quizAnswers": [
       "to find",
@@ -1179,7 +1035,7 @@
     ],
     "quizAnswers": [
       "to search",
-      "to be made to do (passive causative form)",
+      "to be made to do",
       "to create",
       "to occur"
     ]
@@ -1206,7 +1062,7 @@
     ],
     "quizAnswers": [
       "to stop",
-      "to be (used with inanimate objects)",
+      "to be",
       "to see",
       "to study"
     ]
@@ -1256,13 +1112,13 @@
     "kanjiName": "返す",
     "hiragana": "かえす",
     "meanings": [
-      "to return (something)"
+      "to return"
     ],
     "quizAnswers": [
       "to walk",
       "to make teach",
       "to make listen",
-      "to return (something)"
+      "to return"
     ]
   },
   {
@@ -1282,10 +1138,10 @@
     "kanjiName": "言える",
     "hiragana": "いえる",
     "meanings": [
-      "to be able to say"
+      "to say"
     ],
     "quizAnswers": [
-      "to be able to say",
+      "to say",
       "to shut",
       "to depart",
       "to ride"
@@ -1295,11 +1151,11 @@
     "kanjiName": "使える",
     "hiragana": "つかえる",
     "meanings": [
-      "to be able to use"
+      "to use"
     ],
     "quizAnswers": [
       "to leave",
-      "to be able to use",
+      "to use",
       "to insert",
       "to make a call"
     ]
