@@ -33,12 +33,12 @@ export const words = [
   {
     topicName: 'verbs',
     header: 'Verbs',
-    subtitle: '100 verbs'
+    subtitle: '300 verbs'
   },
   {
     topicName: 'nouns',
     header: 'Nouns',
-    subtitle: '250 nouns'
+    subtitle: '350 nouns'
   },
   {
     topicName: 'adjectives',

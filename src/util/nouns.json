@@ -1073,10 +1073,10 @@
   },
 
   {
-    "kanjiName": "海",
-    "hiragana": "うみ",
+    "kanjiName": "海岸",
+    "hiragana": "かいがん",
     "meanings": ["beach"],
-    "quizAnswers": ["かべ", "あね", "しんだい", "うみ"]
+    "quizAnswers": ["かべ", "あね", "しんだい", "かいがん"]
   },
   {
     "kanjiName": "島",
@@ -1680,376 +1680,443 @@
     "meanings": ["artist"],
     "quizAnswers": ["げいじゅつか", "おんがくか", "さっか", "はいゆう"]
   },
-    {
-      "kanjiName": "球",
-      "hiragana": "たま",
-      "meanings": ["ball"],
-      "quizAnswers": ["たま", "ラケット", "バット", "グローブ"]
-    },
-    {
-      "kanjiName": "おもちゃ",
-      "hiragana": "おもちゃ",
-      "meanings": ["toy"],
-      "quizAnswers": ["おもちゃ", "ゲーム", "にんぎょう", "ぬいぐるみ"]
-    },
-    {
-      "kanjiName": "ゲーム",
-      "hiragana": "げーむ",
-      "meanings": ["game"],
-      "quizAnswers": ["げーむ", "おもちゃ", "スポーツ", "しゅみ"]
-    },
-    {
-      "kanjiName": "人形",
-      "hiragana": "にんぎょう",
-      "meanings": ["doll"],
-      "quizAnswers": ["にんぎょう", "ぬいぐるみ", "おもちゃ", "ロボット"]
-    },
-    {
-      "kanjiName": "自転車",
-      "hiragana": "じてんしゃ",
-      "meanings": ["bicycle"],
-      "quizAnswers": ["じてんしゃ", "バイク", "くるま", "でんしゃ"]
-    },
-    {
-      "kanjiName": "公園",
-      "hiragana": "こうえん",
-      "meanings": ["park"],
-      "quizAnswers": ["こうえん", "にわ", "もり", "どうぶつえん"]
-    },
-    {
-      "kanjiName": "遊び場",
-      "hiragana": "あそびば",
-      "meanings": ["playground"],
-      "quizAnswers": ["あそびば", "こうえん", "にわ", "どうぶつえん"]
-    },
-    {
-      "kanjiName": "浜辺",
-      "hiragana": "はまべ",
-      "meanings": ["beach"],
-      "quizAnswers": ["はまべ", "かわ", "みずうみ", "やま"]
-    },
-    {
-      "kanjiName": "森",
-      "hiragana": "もり",
-      "meanings": ["forest"],
-      "quizAnswers": ["もり", "はやし", "じゅんげる", "こうえん"]
-    },
-    {
-      "kanjiName": "台所",
-      "hiragana": "だいどころ",
-      "meanings": ["kitchen"],
-      "quizAnswers": ["だいどころ", "りびんぐ", "しんしつ", "よくしつ"]
-    },
-    {
-      "kanjiName": "浴室",
-      "hiragana": "よくしつ",
-      "meanings": ["bathroom"],
-      "quizAnswers": ["よくしつ", "だいどころ", "りびんぐ", "しんしつ"]
-    },
-    {
-      "kanjiName": "寝室",
-      "hiragana": "しんしつ",
-      "meanings": ["bedroom"],
-      "quizAnswers": ["しんしつ", "だいどころ", "りびんぐ", "よくしつ"]
-    },
-    {
-      "kanjiName": "居間",
-      "hiragana": "いま",
-      "meanings": ["living room"],
-      "quizAnswers": ["いま", "だいどころ", "しんしつ", "よくしつ"]
-    },
-    {
-      "kanjiName": "車庫",
-      "hiragana": "しゃこ",
-      "meanings": ["garage"],
-      "quizAnswers": ["しゃこ", "ちゅうしゃじょう", "そうこ", "べらんだ"]
-    },
-    {
-      "kanjiName": "庭",
-      "hiragana": "にわ",
-      "meanings": ["garden", "yard"],
-      "quizAnswers": ["にわ", "こうえん", "はたけ", "もり"]
-    },
-    {
-      "kanjiName": "塀",
-      "hiragana": "へい",
-      "meanings": ["fence"],
-      "quizAnswers": ["へい", "かべ", "もん", "やね"]
-    },
-    {
-      "kanjiName": "門",
-      "hiragana": "もん",
-      "meanings": ["gate"],
-      "quizAnswers": ["もん", "どあ", "まど", "へい"]
-    },
-    {
-      "kanjiName": "屋根",
-      "hiragana": "やね",
-      "meanings": ["roof"],
-      "quizAnswers": ["やね", "かべ", "てんじょう", "ゆか"]
-    },
-    {
-      "kanjiName": "煙突",
-      "hiragana": "えんとつ",
-      "meanings": ["chimney"],
-      "quizAnswers": ["えんとつ", "かべ", "やね", "まど"]
-    },
-    {
-      "kanjiName": "階段",
-      "hiragana": "かいだん",
-      "meanings": ["stairs"],
-      "quizAnswers": ["かいだん", "エレベーター", "エスカレーター", "スロープ"]
-    },
-    {
-      "kanjiName": "エレベーター",
-      "hiragana": "えれべーたー",
-      "meanings": ["elevator"],
-      "quizAnswers": ["えれべーたー", "かいだん", "エスカレーター", "スロープ"]
-    },
-    {
-      "kanjiName": "鍵",
-      "hiragana": "かぎ",
-      "meanings": ["key"],
-      "quizAnswers": ["かぎ", "どあ", "まど", "ロック"]
-    },
-    {
-      "kanjiName": "錠",
-      "hiragana": "じょう",
-      "meanings": ["lock"],
-      "quizAnswers": ["じょう", "かぎ", "どあ", "まど"]
-    },
-    {
-      "kanjiName": "石鹸",
-      "hiragana": "せっけん",
-      "meanings": ["soap"],
-      "quizAnswers": ["せっけん", "シャンプー", "ボディーソープ", "ハンドソープ"]
-    },
-    {
-      "kanjiName": "歯ブラシ",
-      "hiragana": "はぶらし",
-      "meanings": ["toothbrush"],
-      "quizAnswers": ["はぶらし", "くし", "ブラシ", "はみがきこ"]
-    },
-    {
-      "kanjiName": "歯磨き粉",
-      "hiragana": "はみがきこ",
-      "meanings": ["toothpaste"],
-      "quizAnswers": ["はみがきこ", "せっけん", "シャンプー", "ボディーソープ"]
-    },
-    {
-      "kanjiName": "シャンプー",
-      "hiragana": "しゃんぷー",
-      "meanings": ["shampoo"],
-      "quizAnswers": ["しゃんぷー", "せっけん", "ボディーソープ", "リンス"]
-    },
-    {
-      "kanjiName": "タオル",
-      "hiragana": "たおる",
-      "meanings": ["towel"],
-      "quizAnswers": ["たおる", "はんかち", "ナプキン", "シーツ"]
-    },
-    {
-      "kanjiName": "ブラシ",
-      "hiragana": "ぶらし",
-      "meanings": ["brush"],
-      "quizAnswers": ["ぶらし", "くし", "はぶらし", "スポンジ"]
-    },
-    {
-      "kanjiName": "櫛",
-      "hiragana": "くし",
-      "meanings": ["comb"],
-      "quizAnswers": ["くし", "ブラシ", "はぶらし", "ヘアピン"]
-    },
-    {
-      "kanjiName": "剃刀",
-      "hiragana": "かみそり",
-      "meanings": ["razor"],
-      "quizAnswers": ["かみそり", "はさみ", "ナイフ", "カッター"]
-    },
-    {
-      "kanjiName": "鋏",
-      "hiragana": "はさみ",
-      "meanings": ["scissors"],
-      "quizAnswers": ["はさみ", "ナイフ", "カッター", "かみそり"]
-    },
-    {
-      "kanjiName": "針",
-      "hiragana": "はり",
-      "meanings": ["needle"],
-      "quizAnswers": ["はり", "ピン", "くぎ", "ボタン"]
-    },
-    {
-      "kanjiName": "糸",
-      "hiragana": "いと",
-      "meanings": ["thread"],
-      "quizAnswers": ["いと", "ひも", "なわ", "リボン"]
-    },
-    {
-      "kanjiName": "ボタン",
-      "hiragana": "ぼたん",
-      "meanings": ["button"],
-      "quizAnswers": ["ぼたん", "ファスナー", "ジッパー", "ピン"]
-    },
-    {
-      "kanjiName": "ジッパー",
-      "hiragana": "じっぱー",
-      "meanings": ["zipper"],
-      "quizAnswers": ["じっぱー", "ボタン", "ファスナー", "ベルト"]
-    },
-    {
-      "kanjiName": "ポケット",
-      "hiragana": "ぽけっと",
-      "meanings": ["pocket"],
-      "quizAnswers": ["ぽけっと", "バッグ", "さいふ", "かばん"]
-    },
-    {
-      "kanjiName": "財布",
-      "hiragana": "さいふ",
-      "meanings": ["wallet", "purse"],
-      "quizAnswers": ["さいふ", "かばん", "ポケット", "バッグ"]
-    },
-    {
-      "kanjiName": "リュックサック",
-      "hiragana": "りゅっくさっく",
-      "meanings": ["backpack"],
-      "quizAnswers": ["りゅっくさっく", "かばん", "バッグ", "スーツケース"]
-    },
-    {
-      "kanjiName": "スーツケース",
-      "hiragana": "すーつけーす",
-      "meanings": ["suitcase"],
-      "quizAnswers": ["すーつけーす", "かばん", "バッグ", "リュックサック"]
-    },
-    {
-      "kanjiName": "傘",
-      "hiragana": "かさ",
-      "meanings": ["umbrella"],
-      "quizAnswers": ["かさ", "レインコート", "ぼうし", "サンバイザー"]
-    },
-    {
-      "kanjiName": "眼鏡",
-      "hiragana": "めがね",
-      "meanings": ["glasses"],
-      "quizAnswers": ["めがね", "コンタクトレンズ", "サングラス", "ゴーグル"]
-    },
-    {
-      "kanjiName": "腕時計",
-      "hiragana": "うでどけい",
-      "meanings": ["watch"],
-      "quizAnswers": ["うでどけい", "とけい", "めざまし", "ストップウォッチ"]
-    },
-    {
-      "kanjiName": "指輪",
-      "hiragana": "ゆびわ",
-      "meanings": ["ring"],
-      "quizAnswers": ["ゆびわ", "ネックレス", "ブレスレット", "イヤリング"]
-    },
-    {
-      "kanjiName": "首飾り",
-      "hiragana": "くびかざり",
-      "meanings": ["necklace"],
-      "quizAnswers": ["くびかざり", "ゆびわ", "ブレスレット", "イヤリング"]
-    },
-    {
-      "kanjiName": "イヤリング",
-      "hiragana": "いやりんぐ",
-      "meanings": ["earring"],
-      "quizAnswers": ["いやりんぐ", "ネックレス", "ブレスレット", "ゆびわ"]
-    },
-    {
-      "kanjiName": "ブレスレット",
-      "hiragana": "ぶれすれっと",
-      "meanings": ["bracelet"],
-      "quizAnswers": ["ぶれすれっと", "ネックレス", "ゆびわ", "アンクレット"]
-    },
-    {
-      "kanjiName": "帯",
-      "hiragana": "おび",
-      "meanings": ["belt"],
-      "quizAnswers": ["おび", "ベルト", "ネクタイ", "スカーフ"]
-    },
-    {
-      "kanjiName": "ネクタイ",
-      "hiragana": "ねくたい",
-      "meanings": ["tie"],
-      "quizAnswers": ["ねくたい", "スカーフ", "おび", "ベルト"]
-    },
-    {
-      "kanjiName": "スカーフ",
-      "hiragana": "すかーふ",
-      "meanings": ["scarf"],
-      "quizAnswers": ["すかーふ", "ネクタイ", "マフラー", "ストール"]
-    },
-    {
-      "kanjiName": "手袋",
-      "hiragana": "てぶくろ",
-      "meanings": ["gloves"],
-      "quizAnswers": ["てぶくろ", "くつした", "ぼうし", "マフラー"]
-    },
-    {
-      "kanjiName": "皿",
-      "hiragana": "さら",
-      "meanings": ["plate"],
-      "quizAnswers": ["さら", "ボウル", "カップ", "グラス"]
-    },
-    {
-      "kanjiName": "鉢",
-      "hiragana": "はち",
-      "meanings": ["bowl"],
-      "quizAnswers": ["はち", "さら", "カップ", "グラス"]
-    },
-    {
-      "kanjiName": "カップ",
-      "hiragana": "かっぷ",
-      "meanings": ["cup"],
-      "quizAnswers": ["かっぷ", "グラス", "マグ", "ティーカップ"]
-    },
-    {
-      "kanjiName": "グラス",
-      "hiragana": "ぐらす",
-      "meanings": ["glass"],
-      "quizAnswers": ["ぐらす", "カップ", "マグ", "ジョッキ"]
-    },
-    {
-      "kanjiName": "フォーク",
-      "hiragana": "ふぉーく",
-      "meanings": ["fork"],
-      "quizAnswers": ["ふぉーく", "スプーン", "ナイフ", "はし"]
-    },
-    {
-      "kanjiName": "スプーン",
-      "hiragana": "すぷーん",
-      "meanings": ["spoon"],
-      "quizAnswers": ["すぷーん", "フォーク", "ナイフ", "はし"]
-    },
-    {
-      "kanjiName": "ナイフ",
-      "hiragana": "ないふ",
-      "meanings": ["knife"],
-      "quizAnswers": ["ないふ", "フォーク", "スプーン", "はし"]
-    },
-    {
-      "kanjiName": "ナプキン",
-      "hiragana": "なぷきん",
-      "meanings": ["napkin"],
-      "quizAnswers": ["なぷきん", "タオル", "ハンカチ", "ティッシュ"]
-    },
-    {
-      "kanjiName": "コンロ",
-      "hiragana": "こんろ",
-      "meanings": ["stove"],
-      "quizAnswers": ["こんろ", "オーブン", "レンジ", "トースター"]
-    },
-    {
-      "kanjiName": "オーブン",
-      "hiragana": "おーぶん",
-      "meanings": ["oven"],
-      "quizAnswers": ["おーぶん", "レンジ", "トースター", "こんろ"]
-    },
-    {
-      "kanjiName": "冷蔵庫",
-      "hiragana": "れいぞうこ",
-      "meanings": ["refrigerator"],
-      "quizAnswers": ["れいぞうこ", "フリーザー", "電子レンジ", "食器洗い機"]
-    }
+  {
+    "kanjiName": "球",
+    "hiragana": "たま",
+    "meanings": ["ball"],
+    "quizAnswers": ["たま", "ラケット", "バット", "グローブ"]
+  },
+  {
+    "kanjiName": "おもちゃ",
+    "hiragana": "おもちゃ",
+    "meanings": ["toy"],
+    "quizAnswers": ["おもちゃ", "ゲーム", "にんぎょう", "ぬいぐるみ"]
+  },
+  {
+    "kanjiName": "ゲーム",
+    "hiragana": "げーむ",
+    "meanings": ["game"],
+    "quizAnswers": ["げーむ", "おもちゃ", "スポーツ", "しゅみ"]
+  },
+  {
+    "kanjiName": "人形",
+    "hiragana": "にんぎょう",
+    "meanings": ["doll"],
+    "quizAnswers": ["にんぎょう", "ぬいぐるみ", "おもちゃ", "ロボット"]
+  },
+  {
+    "kanjiName": "自転車",
+    "hiragana": "じてんしゃ",
+    "meanings": ["bicycle"],
+    "quizAnswers": ["じてんしゃ", "バイク", "くるま", "でんしゃ"]
+  },
+  {
+    "kanjiName": "公園",
+    "hiragana": "こうえん",
+    "meanings": ["park"],
+    "quizAnswers": ["こうえん", "にわ", "もり", "どうぶつえん"]
+  },
+  {
+    "kanjiName": "遊び場",
+    "hiragana": "あそびば",
+    "meanings": ["playground"],
+    "quizAnswers": ["あそびば", "こうえん", "にわ", "どうぶつえん"]
+  },
+  {
+    "kanjiName": "浜辺",
+    "hiragana": "はまべ",
+    "meanings": ["beach"],
+    "quizAnswers": ["はまべ", "かわ", "みずうみ", "やま"]
+  },
+  {
+    "kanjiName": "森",
+    "hiragana": "もり",
+    "meanings": ["forest"],
+    "quizAnswers": ["もり", "はやし", "じゅんげる", "こうえん"]
+  },
+  {
+    "kanjiName": "台所",
+    "hiragana": "だいどころ",
+    "meanings": ["kitchen"],
+    "quizAnswers": ["だいどころ", "りびんぐ", "しんしつ", "よくしつ"]
+  },
+  {
+    "kanjiName": "浴室",
+    "hiragana": "よくしつ",
+    "meanings": ["bathroom"],
+    "quizAnswers": ["よくしつ", "だいどころ", "りびんぐ", "しんしつ"]
+  },
+  {
+    "kanjiName": "寝室",
+    "hiragana": "しんしつ",
+    "meanings": ["bedroom"],
+    "quizAnswers": ["しんしつ", "だいどころ", "りびんぐ", "よくしつ"]
+  },
+  {
+    "kanjiName": "居間",
+    "hiragana": "いま",
+    "meanings": ["living room"],
+    "quizAnswers": ["いま", "だいどころ", "しんしつ", "よくしつ"]
+  },
+  {
+    "kanjiName": "車庫",
+    "hiragana": "しゃこ",
+    "meanings": ["garage"],
+    "quizAnswers": ["しゃこ", "ちゅうしゃじょう", "そうこ", "べらんだ"]
+  },
+  {
+    "kanjiName": "庭",
+    "hiragana": "にわ",
+    "meanings": ["garden", "yard"],
+    "quizAnswers": ["にわ", "こうえん", "はたけ", "もり"]
+  },
+  {
+    "kanjiName": "塀",
+    "hiragana": "へい",
+    "meanings": ["fence"],
+    "quizAnswers": ["へい", "かべ", "もん", "やね"]
+  },
+  {
+    "kanjiName": "門",
+    "hiragana": "もん",
+    "meanings": ["gate"],
+    "quizAnswers": ["もん", "どあ", "まど", "へい"]
+  },
+  {
+    "kanjiName": "屋根",
+    "hiragana": "やね",
+    "meanings": ["roof"],
+    "quizAnswers": ["やね", "かべ", "てんじょう", "ゆか"]
+  },
+  {
+    "kanjiName": "煙突",
+    "hiragana": "えんとつ",
+    "meanings": ["chimney"],
+    "quizAnswers": ["えんとつ", "かべ", "やね", "まど"]
+  },
+  {
+    "kanjiName": "階段",
+    "hiragana": "かいだん",
+    "meanings": ["stairs"],
+    "quizAnswers": ["かいだん", "エレベーター", "エスカレーター", "スロープ"]
+  },
+  {
+    "kanjiName": "エレベーター",
+    "hiragana": "えれべーたー",
+    "meanings": ["elevator"],
+    "quizAnswers": ["えれべーたー", "かいだん", "エスカレーター", "スロープ"]
+  },
+  {
+    "kanjiName": "鍵",
+    "hiragana": "かぎ",
+    "meanings": ["key"],
+    "quizAnswers": ["かぎ", "どあ", "まど", "ロック"]
+  },
+  {
+    "kanjiName": "錠",
+    "hiragana": "じょう",
+    "meanings": ["lock"],
+    "quizAnswers": ["じょう", "かぎ", "どあ", "まど"]
+  },
+  {
+    "kanjiName": "石鹸",
+    "hiragana": "せっけん",
+    "meanings": ["soap"],
+    "quizAnswers": ["せっけん", "シャンプー", "ボディーソープ", "ハンドソープ"]
+  },
+  {
+    "kanjiName": "歯ブラシ",
+    "hiragana": "はぶらし",
+    "meanings": ["toothbrush"],
+    "quizAnswers": ["はぶらし", "くし", "ブラシ", "はみがきこ"]
+  },
+  {
+    "kanjiName": "歯磨き粉",
+    "hiragana": "はみがきこ",
+    "meanings": ["toothpaste"],
+    "quizAnswers": ["はみがきこ", "せっけん", "シャンプー", "ボディーソープ"]
+  },
+  {
+    "kanjiName": "シャンプー",
+    "hiragana": "しゃんぷー",
+    "meanings": ["shampoo"],
+    "quizAnswers": ["しゃんぷー", "せっけん", "ボディーソープ", "リンス"]
+  },
+  {
+    "kanjiName": "タオル",
+    "hiragana": "たおる",
+    "meanings": ["towel"],
+    "quizAnswers": ["たおる", "はんかち", "ナプキン", "シーツ"]
+  },
+  {
+    "kanjiName": "ブラシ",
+    "hiragana": "ぶらし",
+    "meanings": ["brush"],
+    "quizAnswers": ["ぶらし", "くし", "はぶらし", "スポンジ"]
+  },
+  {
+    "kanjiName": "櫛",
+    "hiragana": "くし",
+    "meanings": ["comb"],
+    "quizAnswers": ["くし", "ブラシ", "はぶらし", "ヘアピン"]
+  },
+  {
+    "kanjiName": "剃刀",
+    "hiragana": "かみそり",
+    "meanings": ["razor"],
+    "quizAnswers": ["かみそり", "はさみ", "ナイフ", "カッター"]
+  },
+  {
+    "kanjiName": "鋏",
+    "hiragana": "はさみ",
+    "meanings": ["scissors"],
+    "quizAnswers": ["はさみ", "ナイフ", "カッター", "かみそり"]
+  },
+  {
+    "kanjiName": "針",
+    "hiragana": "はり",
+    "meanings": ["needle"],
+    "quizAnswers": ["はり", "ピン", "くぎ", "ボタン"]
+  },
+  {
+    "kanjiName": "糸",
+    "hiragana": "いと",
+    "meanings": ["thread"],
+    "quizAnswers": ["いと", "ひも", "なわ", "リボン"]
+  },
+  {
+    "kanjiName": "ボタン",
+    "hiragana": "ぼたん",
+    "meanings": ["button"],
+    "quizAnswers": ["ぼたん", "ファスナー", "ジッパー", "ピン"]
+  },
+  {
+    "kanjiName": "ジッパー",
+    "hiragana": "じっぱー",
+    "meanings": ["zipper"],
+    "quizAnswers": ["じっぱー", "ボタン", "ファスナー", "ベルト"]
+  },
+  {
+    "kanjiName": "ポケット",
+    "hiragana": "ぽけっと",
+    "meanings": ["pocket"],
+    "quizAnswers": ["ぽけっと", "バッグ", "さいふ", "かばん"]
+  },
+  {
+    "kanjiName": "財布",
+    "hiragana": "さいふ",
+    "meanings": ["wallet", "purse"],
+    "quizAnswers": ["さいふ", "かばん", "ポケット", "バッグ"]
+  },
+  {
+    "kanjiName": "リュックサック",
+    "hiragana": "りゅっくさっく",
+    "meanings": ["backpack"],
+    "quizAnswers": ["りゅっくさっく", "かばん", "バッグ", "スーツケース"]
+  },
+  {
+    "kanjiName": "スーツケース",
+    "hiragana": "すーつけーす",
+    "meanings": ["suitcase"],
+    "quizAnswers": ["すーつけーす", "かばん", "バッグ", "リュックサック"]
+  },
+  {
+    "kanjiName": "傘",
+    "hiragana": "かさ",
+    "meanings": ["umbrella"],
+    "quizAnswers": ["かさ", "レインコート", "ぼうし", "サンバイザー"]
+  },
+  {
+    "kanjiName": "眼鏡",
+    "hiragana": "めがね",
+    "meanings": ["glasses"],
+    "quizAnswers": ["めがね", "コンタクトレンズ", "サングラス", "ゴーグル"]
+  },
+  {
+    "kanjiName": "腕時計",
+    "hiragana": "うでどけい",
+    "meanings": ["watch"],
+    "quizAnswers": ["うでどけい", "とけい", "めざまし", "ストップウォッチ"]
+  },
+  {
+    "kanjiName": "指輪",
+    "hiragana": "ゆびわ",
+    "meanings": ["ring"],
+    "quizAnswers": ["ゆびわ", "ネックレス", "ブレスレット", "イヤリング"]
+  },
+  {
+    "kanjiName": "首飾り",
+    "hiragana": "くびかざり",
+    "meanings": ["necklace"],
+    "quizAnswers": ["くびかざり", "ゆびわ", "ブレスレット", "イヤリング"]
+  },
+  {
+    "kanjiName": "イヤリング",
+    "hiragana": "いやりんぐ",
+    "meanings": ["earring"],
+    "quizAnswers": ["いやりんぐ", "ネックレス", "ブレスレット", "ゆびわ"]
+  },
+  {
+    "kanjiName": "ブレスレット",
+    "hiragana": "ぶれすれっと",
+    "meanings": ["bracelet"],
+    "quizAnswers": ["ぶれすれっと", "ネックレス", "ゆびわ", "アンクレット"]
+  },
+  {
+    "kanjiName": "帯",
+    "hiragana": "おび",
+    "meanings": ["belt"],
+    "quizAnswers": ["おび", "ベルト", "ネクタイ", "スカーフ"]
+  },
+  {
+    "kanjiName": "ネクタイ",
+    "hiragana": "ねくたい",
+    "meanings": ["tie"],
+    "quizAnswers": ["ねくたい", "スカーフ", "おび", "ベルト"]
+  },
+  {
+    "kanjiName": "スカーフ",
+    "hiragana": "すかーふ",
+    "meanings": ["scarf"],
+    "quizAnswers": ["すかーふ", "ネクタイ", "マフラー", "ストール"]
+  },
+  {
+    "kanjiName": "手袋",
+    "hiragana": "てぶくろ",
+    "meanings": ["gloves"],
+    "quizAnswers": ["てぶくろ", "くつした", "ぼうし", "マフラー"]
+  },
+  {
+    "kanjiName": "皿",
+    "hiragana": "さら",
+    "meanings": ["plate"],
+    "quizAnswers": ["さら", "ボウル", "カップ", "グラス"]
+  },
+  {
+    "kanjiName": "鉢",
+    "hiragana": "はち",
+    "meanings": ["bowl"],
+    "quizAnswers": ["はち", "さら", "カップ", "グラス"]
+  },
+  {
+    "kanjiName": "カップ",
+    "hiragana": "かっぷ",
+    "meanings": ["cup"],
+    "quizAnswers": ["かっぷ", "グラス", "マグ", "ティーカップ"]
+  },
+  {
+    "kanjiName": "グラス",
+    "hiragana": "ぐらす",
+    "meanings": ["glass"],
+    "quizAnswers": ["ぐらす", "カップ", "マグ", "ジョッキ"]
+  },
+  {
+    "kanjiName": "フォーク",
+    "hiragana": "ふぉーく",
+    "meanings": ["fork"],
+    "quizAnswers": ["ふぉーく", "スプーン", "ナイフ", "はし"]
+  },
+  {
+    "kanjiName": "スプーン",
+    "hiragana": "すぷーん",
+    "meanings": ["spoon"],
+    "quizAnswers": ["すぷーん", "フォーク", "ナイフ", "はし"]
+  },
+  {
+    "kanjiName": "ナイフ",
+    "hiragana": "ないふ",
+    "meanings": ["knife"],
+    "quizAnswers": ["ないふ", "フォーク", "スプーン", "はし"]
+  },
+  {
+    "kanjiName": "ナプキン",
+    "hiragana": "なぷきん",
+    "meanings": ["napkin"],
+    "quizAnswers": ["なぷきん", "タオル", "ハンカチ", "ティッシュ"]
+  },
+  {
+    "kanjiName": "コンロ",
+    "hiragana": "こんろ",
+    "meanings": ["stove"],
+    "quizAnswers": ["こんろ", "オーブン", "レンジ", "トースター"]
+  },
+  {
+    "kanjiName": "オーブン",
+    "hiragana": "おーぶん",
+    "meanings": ["oven"],
+    "quizAnswers": ["おーぶん", "レンジ", "トースター", "こんろ"]
+  },
+  {
+    "kanjiName": "冷蔵庫",
+    "hiragana": "れいぞうこ",
+    "meanings": ["refrigerator"],
+    "quizAnswers": ["れいぞうこ", "フリーザー", "電子レンジ", "食器洗い機"]
+  },
+
+  {
+    "kanjiName": "薬",
+    "hiragana": "くすり",
+    "meanings": ["medicine"],
+    "quizAnswers": ["くすり", "ばんそうこう", "きゅうきゅうしゃ", "うんどう"]
+  },
+  {
+    "kanjiName": "包帯",
+    "hiragana": "ほうたい",
+    "meanings": ["bandage"],
+    "quizAnswers": ["ほうたい", "くすり", "うんどう", "えいよう"]
+  },
+  {
+    "kanjiName": "救急車",
+    "hiragana": "きゅうきゅうしゃ",
+    "meanings": ["ambulance"],
+    "quizAnswers": ["きゅうきゅうしゃ", "くすり", "かいぎ", "かいしゃ"]
+  },
+  {
+    "kanjiName": "運動",
+    "hiragana": "うんどう",
+    "meanings": ["exercise"],
+    "quizAnswers": ["うんどう", "えいよう", "かいぎ", "かいしゃ"]
+  },
+  {
+    "kanjiName": "栄養",
+    "hiragana": "えいよう",
+    "meanings": ["nutrition"],
+    "quizAnswers": ["えいよう", "うんどう", "かいぎ", "しめきり"]
+  },
+  {
+    "kanjiName": "会議",
+    "hiragana": "かいぎ",
+    "meanings": ["meeting"],
+    "quizAnswers": ["かいぎ", "かいしゃ", "かいぎ", "まつり"]
+  },
+  {
+    "kanjiName": "会社",
+    "hiragana": "かいしゃ",
+    "meanings": ["company"],
+    "quizAnswers": ["かいしゃ", "かいぎ", "かいぎ", "まつり"]
+  },
+  {
+    "kanjiName": "会議",
+    "hiragana": "かいぎ",
+    "meanings": ["conference"],
+    "quizAnswers": ["かいぎ", "まつり", "しめきり", "かみなり"]
+  },
+  {
+    "kanjiName": "祭り",
+    "hiragana": "まつり",
+    "meanings": ["festival"],
+    "quizAnswers": ["まつり", "しめきり", "かみなり", "くすり"]
+  },
+  {
+    "kanjiName": "締め切り",
+    "hiragana": "しめきり",
+    "meanings": ["deadline"],
+    "quizAnswers": ["しめきり", "かみなり", "くすり", "ほうたい"]
+  },
+  {
+    "kanjiName": "雷",
+    "hiragana": "かみなり",
+    "meanings": ["thunder"],
+    "quizAnswers": ["かみなり", "くすり", "ほうたい", "きゅうきゅうしゃ"]
+  }
 ]

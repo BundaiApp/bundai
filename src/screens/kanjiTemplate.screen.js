@@ -51,7 +51,8 @@ function TemplateKanji({ navigation: { navigate }, route }) {
   }, [])
 
   useEffect(() => {
-    console.log(Nouns.length)
+    console.log('nouns:', Nouns.length)
+    console.log('verbs:', Verbs.length)
   }, [])
 
   return (

@@ -304,6 +304,18 @@ export default {
   clock: require('../assets/clock.png'),
   mirror: require('../assets/mirror.png'),
   telephone: require('../assets/telephone.png'),
+  //last nouns
+  medicine: require('../assets/medicine.png'),
+  bandage: require('../assets/bandage.png'),
+  ambulance: require('../assets/ambulance.png'),
+  exercise: require('../assets/exercise.png'),
+  nutrition: require('../assets/nutrition.png'),
+  meeting: require('../assets/meeting.png'),
+  company: require('../assets/company.png'),
+  conference: require('../assets/conference.png'),
+  festival: require('../assets/festival.png'),
+  deadline: require('../assets/deadline.png'),
+  thunder: require('../assets/thunder.png'),
 
   //verbs
   todo: require('../assets/todo.png'),
