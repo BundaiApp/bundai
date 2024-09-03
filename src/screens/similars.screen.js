@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import { SafeAreaView, Text, TextInput, FlatList, TouchableOpacity, StyleSheet } from 'react-native'
 import { heightPercentageToDP as hp } from 'react-native-responsive-screen'
 import { toHiragana } from 'wanakana'
@@ -9,17 +9,25 @@ export default function SimilarScreen({ navigation: { navigate } }) {
   const [search, setSearch] = useState('')
   const [filteredData, setFilteredData] = useState(Object.keys(SIMILAR_DATA))
 
+  const searchKanji = (query) => {
+    if (!query) return Object.keys(SIMILAR_DATA)
+
+    return Object.entries(SIMILAR_DATA).filter(([kanji, data]) => {
+      const lowerQuery = query.toLowerCase()
+      // Check kanji
+      if (kanji.includes(query)) return true
+      // Check meaning
+      if (data.meaning && data.meaning.toLowerCase().includes(lowerQuery)) return true
+      // Check furigana
+      if (data.furigana && data.furigana.includes(query)) return true
+      return false
+    }).map(([kanji]) => kanji)
+  }
+
   const handleSearch = (text) => {
-    //let transformedText = toHiragana(text)
     setSearch(text)
-    if (text) {
-      const newData = Object.keys(SIMILAR_DATA).filter((item) =>
-        item.toLowerCase().includes(text.toLowerCase())
-      )
-      setFilteredData(newData)
-    } else {
-      setFilteredData(Object.keys(SIMILAR_DATA))
-    }
+    const results = searchKanji(text)
+    setFilteredData(results)
   }
 
   return (
