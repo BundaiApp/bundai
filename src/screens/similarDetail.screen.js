@@ -11,7 +11,7 @@ const { height, width } = Dimensions.get('window')
 const radius = width * 0.3 // Radius of the circular menu
 
 const calculatedWidth = {
-  mobile: 70,
+  mobile: 85,
   tablet: 120,
   desktop: 140
 }
