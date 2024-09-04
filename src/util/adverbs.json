@@ -10,7 +10,8 @@
       "now",
       "just",
       "as expected"
-    ]
+    ],
+    "romaji": "ima"
   },
   {
     "kanjiName": "昨日",
@@ -23,7 +24,8 @@
       "perhaps",
       "yesterday",
       "likewise"
-    ]
+    ],
+    "romaji": "kinou"
   },
   {
     "kanjiName": "明日",
@@ -36,7 +38,8 @@
       "without fail",
       "tomorrow",
       "here and there"
-    ]
+    ],
+    "romaji": "ashita"
   },
   {
     "kanjiName": "すぐ",
@@ -50,7 +53,8 @@
       "actually",
       "gradually",
       "immediately"
-    ]
+    ],
+    "romaji": "sugu"
   },
   {
     "kanjiName": "まだ",
@@ -64,7 +68,8 @@
       "still",
       "completely",
       "quite"
-    ]
+    ],
+    "romaji": "mada"
   },
   {
     "kanjiName": "もう",
@@ -78,7 +83,8 @@
       "definitely",
       "already",
       "entirely"
-    ]
+    ],
+    "romaji": "mou"
   },
   {
     "kanjiName": "ちょうど",
@@ -92,7 +98,8 @@
       "exactly",
       "tentatively",
       "anymore"
-    ]
+    ],
+    "romaji": "choudo"
   },
   {
     "kanjiName": "とても",
@@ -106,7 +113,8 @@
       "definitely",
       "very",
       "surely"
-    ]
+    ],
+    "romaji": "totemo"
   },
   {
     "kanjiName": "あまり",
@@ -120,7 +128,8 @@
       "anyway",
       "tomorrow",
       "not very"
-    ]
+    ],
+    "romaji": "amari"
   },
   {
     "kanjiName": "少し",
@@ -133,7 +142,8 @@
       "a little",
       "lately",
       "precisely"
-    ]
+    ],
+    "romaji": "sukoshi"
   },
   {
     "kanjiName": "だんだん",
@@ -146,7 +156,8 @@
       "gradually",
       "unexpectedly",
       "no matter what"
-    ]
+    ],
+    "romaji": "dandan"
   },
   {
     "kanjiName": "ほとんど",
@@ -160,7 +171,8 @@
       "suddenly",
       "almost",
       "by all means"
-    ]
+    ],
+    "romaji": "hotondo"
   },
   {
     "kanjiName": "全く",
@@ -174,7 +186,8 @@
       "that's right",
       "probably",
       "exactly"
-    ]
+    ],
+    "romaji": "mattaku"
   },
   {
     "kanjiName": "まさに",
@@ -188,7 +201,8 @@
       "mostly",
       "no matter what",
       "probably"
-    ]
+    ],
+    "romaji": "masani"
   },
   {
     "kanjiName": "どうしても",
@@ -202,7 +216,8 @@
       "no matter what",
       "first of all",
       "it seems"
-    ]
+    ],
+    "romaji": "doushitemo"
   },
   {
     "kanjiName": "どうやら",
@@ -216,7 +231,8 @@
       "somehow",
       "seems like",
       "particularly"
-    ]
+    ],
+    "romaji": "douyara"
   },
   {
     "kanjiName": "たくさん",
@@ -230,7 +246,8 @@
       "apparently",
       "frequently",
       "a lot"
-    ]
+    ],
+    "romaji": "takusan"
   },
   {
     "kanjiName": "もしかしたら",
@@ -244,7 +261,8 @@
       "anyway",
       "apparently",
       "it seems"
-    ]
+    ],
+    "romaji": "moshikashitara"
   },
   {
     "kanjiName": "すでに",
@@ -257,7 +275,8 @@
       "already",
       "actually",
       "somehow"
-    ]
+    ],
+    "romaji": "sudeni"
   },
   {
     "kanjiName": "いつも",
@@ -270,7 +289,8 @@
       "soon",
       "always",
       "somehow"
-    ]
+    ],
+    "romaji": "itsumo"
   },
   {
     "kanjiName": "だいたい",
@@ -284,7 +304,8 @@
       "anyhow",
       "for a while",
       "next time"
-    ]
+    ],
+    "romaji": "daitai"
   },
   {
     "kanjiName": "必ず",
@@ -298,7 +319,8 @@
       "no matter how much",
       "yet",
       "normally"
-    ]
+    ],
+    "romaji": "kanarazu"
   },
   {
     "kanjiName": "もちろん",
@@ -311,7 +333,8 @@
       "of course",
       "in a word",
       "in fact"
-    ]
+    ],
+    "romaji": "mochiron"
   },
   {
     "kanjiName": "あまり",
@@ -325,7 +348,8 @@
       "for now",
       "a lot",
       "sorry"
-    ]
+    ],
+    "romaji": "amari"
   },
   {
     "kanjiName": "ときどき",
@@ -338,7 +362,8 @@
       "properly",
       "probably",
       "sometimes"
-    ]
+    ],
+    "romaji": "tokidoki"
   },
   {
     "kanjiName": "たくさん",
@@ -352,7 +377,8 @@
       "a lot",
       "by all means",
       "truly"
-    ]
+    ],
+    "romaji": "takusan"
   },
   {
     "kanjiName": "少なくとも",
@@ -365,7 +391,8 @@
       "not yet",
       "unexpectedly",
       "at least"
-    ]
+    ],
+    "romaji": "sukunakutomo"
   },
   {
     "kanjiName": "最も",
@@ -379,7 +406,8 @@
       "most",
       "still",
       "far"
-    ]
+    ],
+    "romaji": "mottomo"
   },
   {
     "kanjiName": "全然",
@@ -392,7 +420,8 @@
       "somehow",
       "sorry",
       "not at all"
-    ]
+    ],
+    "romaji": "zenzen"
   },
   {
     "kanjiName": "だいぶ",
@@ -406,7 +435,8 @@
       "much",
       "a bit",
       "quite"
-    ]
+    ],
+    "romaji": "daibu"
   },
   {
     "kanjiName": "だいたい",
@@ -420,7 +450,8 @@
       "still",
       "no big deal",
       "mostly"
-    ]
+    ],
+    "romaji": "daitai"
   },
   {
     "kanjiName": "もう少し",
@@ -433,7 +464,8 @@
       "to begin with",
       "a little more",
       "end"
-    ]
+    ],
+    "romaji": "mousukoshi"
   },
   {
     "kanjiName": "どんどん",
@@ -447,7 +479,8 @@
       "already",
       "suddenly",
       "properly"
-    ]
+    ],
+    "romaji": "dondon"
   },
   {
     "kanjiName": "どうしても",
@@ -461,7 +494,8 @@
       "no matter what",
       "not very",
       "entirely"
-    ]
+    ],
+    "romaji": "doushitemo"
   },
   {
     "kanjiName": "しばしば",
@@ -475,7 +509,8 @@
       "by any chance",
       "for the moment",
       "not very"
-    ]
+    ],
+    "romaji": "shibashiba"
   },
   {
     "kanjiName": "まだまだ",
@@ -489,7 +524,8 @@
       "still more",
       "but",
       "not at all"
-    ]
+    ],
+    "romaji": "madamada"
   },
   {
     "kanjiName": "あちこち",
@@ -502,7 +538,8 @@
       "by all means",
       "maybe",
       "here and there"
-    ]
+    ],
+    "romaji": "achikochi"
   },
   {
     "kanjiName": "そろそろ",
@@ -516,7 +553,8 @@
       "that's right",
       "something",
       "each"
-    ]
+    ],
+    "romaji": "sorosoro"
   },
   {
     "kanjiName": "ちょっと",
@@ -530,7 +568,8 @@
       "a little",
       "passable",
       "precisely"
-    ]
+    ],
+    "romaji": "chotto"
   },
   {
     "kanjiName": "もう少し",
@@ -543,7 +582,8 @@
       "a little more",
       "quite",
       "because"
-    ]
+    ],
+    "romaji": "mousukoshi"
   },
   {
     "kanjiName": "ずっと",
@@ -557,7 +597,8 @@
       "just like that",
       "now",
       "much"
-    ]
+    ],
+    "romaji": "zutto"
   },
   {
     "kanjiName": "結構",
@@ -571,7 +612,8 @@
       "quite",
       "soon",
       "not at all"
-    ]
+    ],
+    "romaji": "kekkou"
   },
   {
     "kanjiName": "やっぱり",
@@ -585,7 +627,8 @@
       "a little while",
       "usually",
       "as expected"
-    ]
+    ],
+    "romaji": "yappari"
   },
   {
     "kanjiName": "それほど",
@@ -599,7 +642,8 @@
       "to that extent",
       "but",
       "frequently"
-    ]
+    ],
+    "romaji": "sorehodo"
   },
   {
     "kanjiName": "同じく",
@@ -613,7 +657,8 @@
       "especially",
       "quite",
       "likewise"
-    ]
+    ],
+    "romaji": "onajiku"
   },
   {
     "kanjiName": "特に",
@@ -627,7 +672,8 @@
       "particularly",
       "apparently",
       "certainly"
-    ]
+    ],
+    "romaji": "tokuni"
   },
   {
     "kanjiName": "必ずしも",
@@ -640,7 +686,8 @@
       "passable",
       "not necessarily",
       "for now"
-    ]
+    ],
+    "romaji": "kanarazushimo"
   },
   {
     "kanjiName": "すっかり",
@@ -654,7 +701,8 @@
       "passable",
       "completely",
       "lately"
-    ]
+    ],
+    "romaji": "sukkari"
   },
   {
     "kanjiName": "普通に",
@@ -668,7 +716,8 @@
       "normally",
       "It's nothing much",
       "properly"
-    ]
+    ],
+    "romaji": "futsuuni"
   },
   {
     "kanjiName": "だって",
@@ -682,7 +731,8 @@
       "quite",
       "really",
       "because"
-    ]
+    ],
+    "romaji": "datte"
   },
   {
     "kanjiName": "もしかしたら",
@@ -696,7 +746,8 @@
       "perhaps",
       "no matter what",
       "probably"
-    ]
+    ],
+    "romaji": "moshikashitara"
   },
   {
     "kanjiName": "必ず",
@@ -710,7 +761,8 @@
       "without fail",
       "always",
       "to begin with"
-    ]
+    ],
+    "romaji": "kanarazu"
   },
   {
     "kanjiName": "まず",
@@ -724,7 +776,8 @@
       "first",
       "each",
       "after all"
-    ]
+    ],
+    "romaji": "mazu"
   },
   {
     "kanjiName": "大体",
@@ -738,7 +791,8 @@
       "perhaps",
       "generally",
       "same here"
-    ]
+    ],
+    "romaji": "daitai"
   },
   {
     "kanjiName": "実は",
@@ -752,7 +806,8 @@
       "actually",
       "gradually",
       "passable"
-    ]
+    ],
+    "romaji": "jitsuha"
   },
   {
     "kanjiName": "きちんと",
@@ -766,7 +821,8 @@
       "truly",
       "a little more",
       "to start with"
-    ]
+    ],
+    "romaji": "kichinto"
   },
   {
     "kanjiName": "一度",
@@ -779,7 +835,8 @@
       "fairly",
       "gradually",
       "many"
-    ]
+    ],
+    "romaji": "ichido"
   },
   {
     "kanjiName": "もちろん",
@@ -792,7 +849,8 @@
       "of course",
       "somehow or other",
       "by chance"
-    ]
+    ],
+    "romaji": "mochiron"
   },
   {
     "kanjiName": "一応",
@@ -806,7 +864,8 @@
       "tentatively",
       "mostly",
       "quite"
-    ]
+    ],
+    "romaji": "ichiou"
   },
   {
     "kanjiName": "例えば",
@@ -819,7 +878,8 @@
       "extremely",
       "by all means",
       "certainly"
-    ]
+    ],
+    "romaji": "tatoeba"
   },
   {
     "kanjiName": "ちゃんと",
@@ -833,7 +893,8 @@
       "last",
       "definitely",
       "properly"
-    ]
+    ],
+    "romaji": "chanto"
   },
   {
     "kanjiName": "どうか",
@@ -847,7 +908,8 @@
       "probably",
       "recently",
       "please"
-    ]
+    ],
+    "romaji": "douka"
   },
   {
     "kanjiName": "とにかく",
@@ -861,7 +923,8 @@
       "perhaps",
       "anyhow",
       "not much"
-    ]
+    ],
+    "romaji": "tonikaku"
   },
   {
     "kanjiName": "まあまあ",
@@ -875,7 +938,8 @@
       "so-so",
       "respective",
       "a little more"
-    ]
+    ],
+    "romaji": "maamaa"
   },
   {
     "kanjiName": "絶対に",
@@ -888,7 +952,8 @@
       "likewise",
       "also",
       "absolutely"
-    ]
+    ],
+    "romaji": "zettaini"
   },
   {
     "kanjiName": "どうしても",
@@ -902,7 +967,8 @@
       "not necessarily",
       "after all",
       "rapidly"
-    ]
+    ],
+    "romaji": "doushitemo"
   },
   {
     "kanjiName": "全然",
@@ -915,7 +981,8 @@
       "by all means",
       "not at all",
       "truly"
-    ]
+    ],
+    "romaji": "zenzen"
   },
   {
     "kanjiName": "きっと",
@@ -929,7 +996,8 @@
       "somehow or other",
       "surely",
       "after all"
-    ]
+    ],
+    "romaji": "kitto"
   },
   {
     "kanjiName": "やはり",
@@ -943,7 +1011,8 @@
       "initially",
       "accidentally",
       "as expected"
-    ]
+    ],
+    "romaji": "yahari"
   },
   {
     "kanjiName": "たまたま",
@@ -957,7 +1026,8 @@
       "here and there",
       "by chance",
       "definitely"
-    ]
+    ],
+    "romaji": "tamatama"
   },
   {
     "kanjiName": "大分",
@@ -971,7 +1041,8 @@
       "apparently",
       "without fail",
       "quite"
-    ]
+    ],
+    "romaji": "daibu"
   },
   {
     "kanjiName": "最初",
@@ -985,7 +1056,8 @@
       "probably",
       "that's right",
       "at first"
-    ]
+    ],
+    "romaji": "saisho"
   },
   {
     "kanjiName": "実際",
@@ -999,7 +1071,8 @@
       "anyway",
       "actually",
       "as expected"
-    ]
+    ],
+    "romaji": "jissai"
   },
   {
     "kanjiName": "大概",
@@ -1013,7 +1086,8 @@
       "often",
       "apparently",
       "mostly"
-    ]
+    ],
+    "romaji": "taigai"
   },
   {
     "kanjiName": "ふと",
@@ -1027,7 +1101,8 @@
       "for the moment",
       "lately",
       "suddenly"
-    ]
+    ],
+    "romaji": "futo"
   },
   {
     "kanjiName": "要するに",
@@ -1041,7 +1116,8 @@
       "first of all",
       "certainly",
       "in short"
-    ]
+    ],
+    "romaji": "yousuruni"
   },
   {
     "kanjiName": "だいぶ",
@@ -1055,7 +1131,8 @@
       "as it is",
       "quite",
       "still"
-    ]
+    ],
+    "romaji": "daibu"
   },
   {
     "kanjiName": "何か",
@@ -1069,7 +1146,8 @@
       "something",
       "just like that",
       "precisely"
-    ]
+    ],
+    "romaji": "nanika"
   },
   {
     "kanjiName": "とても",
@@ -1083,7 +1161,8 @@
       "very",
       "here and there",
       "almost"
-    ]
+    ],
+    "romaji": "totemo"
   },
   {
     "kanjiName": "たいてい",
@@ -1097,7 +1176,8 @@
       "quite",
       "lately",
       "most"
-    ]
+    ],
+    "romaji": "taitei"
   },
   {
     "kanjiName": "たいがい",
@@ -1111,7 +1191,8 @@
       "approximately",
       "sometimes",
       "unexpectedly"
-    ]
+    ],
+    "romaji": "taigai"
   },
   {
     "kanjiName": "ほんとうに",
@@ -1125,7 +1206,8 @@
       "as expected",
       "for now",
       "a bit"
-    ]
+    ],
+    "romaji": "hontouni"
   },
   {
     "kanjiName": "どうか",
@@ -1139,7 +1221,8 @@
       "tentatively",
       "please",
       "apparently"
-    ]
+    ],
+    "romaji": "douka"
   },
   {
     "kanjiName": "最後",
@@ -1153,7 +1236,8 @@
       "this time",
       "most",
       "the reason is"
-    ]
+    ],
+    "romaji": "saigo"
   },
   {
     "kanjiName": "ちょうど",
@@ -1167,7 +1251,8 @@
       "steadily",
       "that's right",
       "considerably"
-    ]
+    ],
+    "romaji": "choudo"
   },
   {
     "kanjiName": "ほんと",
@@ -1181,7 +1266,8 @@
       "a little",
       "absolutely",
       "suddenly"
-    ]
+    ],
+    "romaji": "honto"
   },
   {
     "kanjiName": "かなり",
@@ -1195,7 +1281,8 @@
       "considerably",
       "surely",
       "frequently"
-    ]
+    ],
+    "romaji": "kanari"
   },
   {
     "kanjiName": "たしかに",
@@ -1209,7 +1296,8 @@
       "right away",
       "certainly",
       "still"
-    ]
+    ],
+    "romaji": "tashikani"
   },
   {
     "kanjiName": "どうしても",
@@ -1223,7 +1311,8 @@
       "still",
       "no matter what",
       "please"
-    ]
+    ],
+    "romaji": "doushitemo"
   },
   {
     "kanjiName": "そうそう",
@@ -1237,7 +1326,8 @@
       "initially",
       "so-so",
       "as expected"
-    ]
+    ],
+    "romaji": "sousou"
   },
   {
     "kanjiName": "いつも",
@@ -1250,7 +1340,8 @@
       "I understand",
       "each",
       "always"
-    ]
+    ],
+    "romaji": "itsumo"
   },
   {
     "kanjiName": "すぐ",
@@ -1264,7 +1355,8 @@
       "I understand",
       "immediately",
       "not at all"
-    ]
+    ],
+    "romaji": "sugu"
   },
   {
     "kanjiName": "実は",
@@ -1278,7 +1370,8 @@
       "several",
       "considerably",
       "not at all"
-    ]
+    ],
+    "romaji": "jitsuha"
   },
   {
     "kanjiName": "まだ",
@@ -1292,7 +1385,8 @@
       "a little more",
       "at least",
       "often"
-    ]
+    ],
+    "romaji": "mada"
   },
   {
     "kanjiName": "今度",
@@ -1306,7 +1400,8 @@
       "this time",
       "anyhow",
       "still"
-    ]
+    ],
+    "romaji": "kondo"
   },
   {
     "kanjiName": "確かに",
@@ -1320,7 +1415,8 @@
       "once",
       "next time",
       "mostly"
-    ]
+    ],
+    "romaji": "tashikani"
   },
   {
     "kanjiName": "けっこう",
@@ -1334,7 +1430,8 @@
       "quite",
       "this time",
       "it seems"
-    ]
+    ],
+    "romaji": "kekkou"
   },
   {
     "kanjiName": "とにかく",
@@ -1348,7 +1445,8 @@
       "tentatively",
       "it seems",
       "yet"
-    ]
+    ],
+    "romaji": "tonikaku"
   },
   {
     "kanjiName": "やはり",
@@ -1362,7 +1460,8 @@
       "just",
       "by all means",
       "as expected"
-    ]
+    ],
+    "romaji": "yahari"
   },
   {
     "kanjiName": "最近",
@@ -1376,7 +1475,8 @@
       "perhaps",
       "recently",
       "a lot"
-    ]
+    ],
+    "romaji": "saikin"
   },
   {
     "kanjiName": "たぶん",
@@ -1390,7 +1490,8 @@
       "probably",
       "still",
       "first of all"
-    ]
+    ],
+    "romaji": "tabun"
   },
   {
     "kanjiName": "どうも",
@@ -1404,7 +1505,8 @@
       "lately",
       "absolutely",
       "thanks"
-    ]
+    ],
+    "romaji": "doumo"
   },
   {
     "kanjiName": "ちゃんと",
@@ -1418,7 +1520,8 @@
       "fairly",
       "still",
       "properly"
-    ]
+    ],
+    "romaji": "chanto"
   },
   {
     "kanjiName": "それぞれ",
@@ -1432,7 +1535,8 @@
       "fairly",
       "first of all",
       "particularly"
-    ]
+    ],
+    "romaji": "sorezore"
   },
   {
     "kanjiName": "そのまま",
@@ -1446,7 +1550,8 @@
       "as expected",
       "already",
       "unexpectedly"
-    ]
+    ],
+    "romaji": "sonomama"
   },
   {
     "kanjiName": "ひとまず",
@@ -1460,7 +1565,8 @@
       "for now",
       "recently",
       "soon"
-    ]
+    ],
+    "romaji": "hitomazu"
   },
   {
     "kanjiName": "みんな",
@@ -1474,7 +1580,8 @@
       "no matter what",
       "passable",
       "everyone"
-    ]
+    ],
+    "romaji": "minna"
   },
   {
     "kanjiName": "だいたい",
@@ -1488,7 +1595,8 @@
       "fairly",
       "generally",
       "certainly"
-    ]
+    ],
+    "romaji": "daitai"
   },
   {
     "kanjiName": "けっこう",
@@ -1502,7 +1610,8 @@
       "mostly",
       "quite",
       "considerably"
-    ]
+    ],
+    "romaji": "kekkou"
   },
   {
     "kanjiName": "かなり",
@@ -1516,7 +1625,8 @@
       "properly",
       "no matter what",
       "considerably"
-    ]
+    ],
+    "romaji": "kanari"
   },
   {
     "kanjiName": "まず",
@@ -1530,7 +1640,8 @@
       "as expected",
       "anyhow",
       "not much"
-    ]
+    ],
+    "romaji": "mazu"
   },
   {
     "kanjiName": "さっき",
@@ -1544,7 +1655,8 @@
       "a while ago",
       "a little",
       "gradually"
-    ]
+    ],
+    "romaji": "sakki"
   },
   {
     "kanjiName": "すっかり",
@@ -1558,7 +1670,8 @@
       "definitely",
       "as much as possible",
       "to start with"
-    ]
+    ],
+    "romaji": "sukkari"
   },
   {
     "kanjiName": "まるで",
@@ -1572,7 +1685,8 @@
       "next time",
       "unexpectedly",
       "somehow"
-    ]
+    ],
+    "romaji": "marude"
   },
   {
     "kanjiName": "だって",
@@ -1586,7 +1700,8 @@
       "a bit more",
       "properly",
       "because"
-    ]
+    ],
+    "romaji": "datte"
   },
   {
     "kanjiName": "いくら",
@@ -1600,7 +1715,8 @@
       "apparently",
       "no matter how much",
       "unexpectedly"
-    ]
+    ],
+    "romaji": "ikura"
   },
   {
     "kanjiName": "ちょくちょく",
@@ -1614,7 +1730,8 @@
       "often",
       "I see",
       "by all means"
-    ]
+    ],
+    "romaji": "chokuchoku"
   },
   {
     "kanjiName": "ひょっとして",
@@ -1628,7 +1745,8 @@
       "by any chance",
       "quite",
       "quite"
-    ]
+    ],
+    "romaji": "hyottoshite"
   },
   {
     "kanjiName": "どうやら",
@@ -1642,7 +1760,8 @@
       "still more",
       "it seems",
       "perhaps"
-    ]
+    ],
+    "romaji": "douyara"
   },
   {
     "kanjiName": "いくつか",
@@ -1656,7 +1775,8 @@
       "still",
       "splendid",
       "several"
-    ]
+    ],
+    "romaji": "ikutsuka"
   },
   {
     "kanjiName": "なるほど",
@@ -1670,7 +1790,8 @@
       "I see",
       "not yet",
       "therefore"
-    ]
+    ],
+    "romaji": "naruhodo"
   },
   {
     "kanjiName": "たいしたことない",
@@ -1684,7 +1805,8 @@
       "fairly",
       "still more",
       "It's nothing much"
-    ]
+    ],
+    "romaji": "taishitakotonai"
   },
   {
     "kanjiName": "なんとなく",
@@ -1698,7 +1820,8 @@
       "frequently",
       "somehow or other",
       "here and there"
-    ]
+    ],
+    "romaji": "nantonaku"
   },
   {
     "kanjiName": "もちろん",
@@ -1712,7 +1835,8 @@
       "anyway",
       "almost",
       "a while ago"
-    ]
+    ],
+    "romaji": "mochiron"
   },
   {
     "kanjiName": "やっぱり",
@@ -1726,7 +1850,8 @@
       "as I thought",
       "gradually",
       "everybody"
-    ]
+    ],
+    "romaji": "yappari"
   },
   {
     "kanjiName": "ぜひ",
@@ -1740,7 +1865,8 @@
       "in fact",
       "quickly",
       "quite"
-    ]
+    ],
+    "romaji": "zehi"
   },
   {
     "kanjiName": "おそらく",
@@ -1754,7 +1880,8 @@
       "perhaps",
       "no matter what",
       "here and there"
-    ]
+    ],
+    "romaji": "osoraku"
   },
   {
     "kanjiName": "やはり",
@@ -1768,7 +1895,8 @@
       "a little while",
       "perhaps",
       "as expected"
-    ]
+    ],
+    "romaji": "yahari"
   },
   {
     "kanjiName": "どうしても",
@@ -1782,7 +1910,8 @@
       "in the end",
       "no matter what",
       "now"
-    ]
+    ],
+    "romaji": "doushitemo"
   },
   {
     "kanjiName": "まあまあ",
@@ -1796,7 +1925,8 @@
       "in fact",
       "not much",
       "actually"
-    ]
+    ],
+    "romaji": "maamaa"
   },
   {
     "kanjiName": "絶対に",
@@ -1809,7 +1939,8 @@
       "absolutely",
       "certainly",
       "several"
-    ]
+    ],
+    "romaji": "zettaini"
   },
   {
     "kanjiName": "どうしても",
@@ -1823,7 +1954,8 @@
       "no matter what",
       "passable",
       "very"
-    ]
+    ],
+    "romaji": "doushitemo"
   },
   {
     "kanjiName": "全然",
@@ -1836,7 +1968,8 @@
       "by all means",
       "not at all",
       "end"
-    ]
+    ],
+    "romaji": "zenzen"
   },
   {
     "kanjiName": "きっと",
@@ -1850,7 +1983,8 @@
       "fairly",
       "surely",
       "exactly"
-    ]
+    ],
+    "romaji": "kitto"
   },
   {
     "kanjiName": "やはり",
@@ -1864,7 +1998,8 @@
       "fairly",
       "considerably",
       "as expected"
-    ]
+    ],
+    "romaji": "yahari"
   },
   {
     "kanjiName": "たまたま",
@@ -1878,7 +2013,8 @@
       "after all",
       "this time",
       "by chance"
-    ]
+    ],
+    "romaji": "tamatama"
   },
   {
     "kanjiName": "大分",
@@ -1892,7 +2028,8 @@
       "of course",
       "considerably",
       "no matter what"
-    ]
+    ],
+    "romaji": "daibu"
   },
   {
     "kanjiName": "最初",
@@ -1906,7 +2043,8 @@
       "a little more",
       "certainly",
       "no matter how much"
-    ]
+    ],
+    "romaji": "saisho"
   },
   {
     "kanjiName": "実際",
@@ -1920,7 +2058,8 @@
       "passable",
       "even if",
       "actually"
-    ]
+    ],
+    "romaji": "jissai"
   },
   {
     "kanjiName": "大概",
@@ -1934,7 +2073,8 @@
       "really",
       "mostly",
       "first of all"
-    ]
+    ],
+    "romaji": "taigai"
   },
   {
     "kanjiName": "ふと",
@@ -1948,7 +2088,8 @@
       "tentatively",
       "truly",
       "suddenly"
-    ]
+    ],
+    "romaji": "futo"
   },
   {
     "kanjiName": "要するに",
@@ -1962,7 +2103,8 @@
       "fairly",
       "in short",
       "certainly"
-    ]
+    ],
+    "romaji": "yousuruni"
   },
   {
     "kanjiName": "だいぶ",
@@ -1976,7 +2118,8 @@
       "quite",
       "really",
       "accidentally"
-    ]
+    ],
+    "romaji": "daibu"
   },
   {
     "kanjiName": "何か",
@@ -1990,7 +2133,8 @@
       "exactly",
       "something",
       "frequently"
-    ]
+    ],
+    "romaji": "nanika"
   },
   {
     "kanjiName": "とても",
@@ -2004,7 +2148,8 @@
       "a little",
       "yet",
       "very"
-    ]
+    ],
+    "romaji": "totemo"
   },
   {
     "kanjiName": "特に",
@@ -2018,7 +2163,8 @@
       "just now",
       "especially",
       "to that extent"
-    ]
+    ],
+    "romaji": "tokuni"
   },
   {
     "kanjiName": "もう少し",
@@ -2032,7 +2178,8 @@
       "very",
       "exactly",
       "a little more"
-    ]
+    ],
+    "romaji": "mousukoshi"
   },
   {
     "kanjiName": "しばらく",
@@ -2046,7 +2193,8 @@
       "mostly",
       "for a while",
       "tomorrow"
-    ]
+    ],
+    "romaji": "shibaraku"
   },
   {
     "kanjiName": "どうしても",
@@ -2060,7 +2208,8 @@
       "approximately",
       "extremely",
       "no matter what"
-    ]
+    ],
+    "romaji": "doushitemo"
   },
   {
     "kanjiName": "同じく",
@@ -2074,7 +2223,8 @@
       "likewise",
       "extremely",
       "frequently"
-    ]
+    ],
+    "romaji": "onajiku"
   },
   {
     "kanjiName": "結局",
@@ -2088,7 +2238,8 @@
       "completely",
       "still",
       "fairly"
-    ]
+    ],
+    "romaji": "kekkyoku"
   },
   {
     "kanjiName": "なぜなら",
@@ -2102,7 +2253,8 @@
       "not much",
       "because",
       "no matter what"
-    ]
+    ],
+    "romaji": "nazenara"
   },
   {
     "kanjiName": "それで",
@@ -2116,7 +2268,8 @@
       "so",
       "no matter what",
       "probably"
-    ]
+    ],
+    "romaji": "sorede"
   },
   {
     "kanjiName": "きちんと",
@@ -2130,7 +2283,8 @@
       "properly",
       "considerably",
       "as expected"
-    ]
+    ],
+    "romaji": "kichinto"
   },
   {
     "kanjiName": "なるたけ",
@@ -2144,7 +2298,8 @@
       "a little more",
       "as much as possible",
       "completely"
-    ]
+    ],
+    "romaji": "narutake"
   },
   {
     "kanjiName": "かなり",
@@ -2158,7 +2313,8 @@
       "very",
       "of course",
       "considerably"
-    ]
+    ],
+    "romaji": "kanari"
   },
   {
     "kanjiName": "実際に",
@@ -2172,7 +2328,8 @@
       "actually",
       "by chance",
       "probably"
-    ]
+    ],
+    "romaji": "jissaini"
   },
   {
     "kanjiName": "早く",
@@ -2186,7 +2343,8 @@
       "so-so",
       "especially",
       "quite"
-    ]
+    ],
+    "romaji": "hayaku"
   },
   {
     "kanjiName": "必ず",
@@ -2200,7 +2358,8 @@
       "maybe",
       "without fail",
       "by all means"
-    ]
+    ],
+    "romaji": "kanarazu"
   },
   {
     "kanjiName": "少し",
@@ -2214,7 +2373,8 @@
       "probably",
       "no big deal",
       "a while ago"
-    ]
+    ],
+    "romaji": "sukoshi"
   },
   {
     "kanjiName": "まだ",
@@ -2228,7 +2388,8 @@
       "this time",
       "for now",
       "gradually"
-    ]
+    ],
+    "romaji": "mada"
   },
   {
     "kanjiName": "今度",
@@ -2242,7 +2403,8 @@
       "it seems",
       "this time",
       "neatly"
-    ]
+    ],
+    "romaji": "kondo"
   },
   {
     "kanjiName": "確かに",
@@ -2256,7 +2418,8 @@
       "certainly",
       "quite",
       "not at all"
-    ]
+    ],
+    "romaji": "tashikani"
   },
   {
     "kanjiName": "けっこう",
@@ -2270,7 +2433,8 @@
       "quite",
       "precisely",
       "as it is"
-    ]
+    ],
+    "romaji": "kekkou"
   },
   {
     "kanjiName": "とにかく",
@@ -2284,7 +2448,8 @@
       "by all means",
       "still more",
       "end"
-    ]
+    ],
+    "romaji": "tonikaku"
   },
   {
     "kanjiName": "やはり",
@@ -2298,7 +2463,8 @@
       "lately",
       "mostly",
       "everybody"
-    ]
+    ],
+    "romaji": "yahari"
   },
   {
     "kanjiName": "最近",
@@ -2312,7 +2478,8 @@
       "properly",
       "a lot",
       "recently"
-    ]
+    ],
+    "romaji": "saikin"
   },
   {
     "kanjiName": "たぶん",
@@ -2326,7 +2493,8 @@
       "many",
       "a lot",
       "probably"
-    ]
+    ],
+    "romaji": "tabun"
   },
   {
     "kanjiName": "どうも",
@@ -2340,7 +2508,8 @@
       "in reality",
       "for a while",
       "thanks"
-    ]
+    ],
+    "romaji": "doumo"
   },
   {
     "kanjiName": "ちゃんと",
@@ -2354,7 +2523,8 @@
       "if possible",
       "to that extent",
       "by any chance"
-    ]
+    ],
+    "romaji": "chanto"
   },
   {
     "kanjiName": "それぞれ",
@@ -2368,6 +2538,7 @@
       "so-so",
       "quite",
       "the reason is"
-    ]
+    ],
+    "romaji": "sorezore"
   }
 ]
