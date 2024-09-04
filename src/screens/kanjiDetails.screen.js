@@ -103,10 +103,10 @@ export default function KanjiDetail({ navigation, route }) {
 
   function transformVerbMeaning(meaning) {
     // Remove "to " from the beginning and replace spaces with underscores
-    return meaning.replace(/\s+/g, '');
+    return meaning.replace(/\s+/g, '')
   }
 
-  function Page({ kanjiName, meanings, kun, on, hiragana, similars, usedIn }) {
+  function Page({ kanjiName, romaji, meanings, kun, on, hiragana, similars, usedIn }) {
     return isWord ? (
       <View style={styles.scrollviewBackDrop}>
         <View style={styles.imageHolder}>
@@ -126,6 +126,7 @@ export default function KanjiDetail({ navigation, route }) {
             )}
           </View>
           <Text style={styles.smallWordKanji}>{kanjiName}</Text>
+          <Text style={styles.subtitleText}>{romaji}</Text>
         </View>
       </View>
     ) : (
