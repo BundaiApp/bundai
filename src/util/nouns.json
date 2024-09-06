@@ -866,20 +866,6 @@
     "romaji": "denwa"
   },
   {
-    "kanjiName": "手紙",
-    "hiragana": "てがみ",
-    "meanings": [
-      "letter"
-    ],
-    "quizAnswers": [
-      "heart",
-      "mirror",
-      "letter",
-      "short"
-    ],
-    "romaji": "tegami"
-  },
-  {
     "kanjiName": "思い出",
     "hiragana": "おもいで",
     "meanings": [
@@ -1118,20 +1104,6 @@
       "じこくひょう"
     ],
     "romaji": "jikokuhyou"
-  },
-  {
-    "kanjiName": "電話",
-    "hiragana": "でんわ",
-    "meanings": [
-      "phone"
-    ],
-    "quizAnswers": [
-      "あめ",
-      "のりかえ",
-      "かわ",
-      "でんわ"
-    ],
-    "romaji": "denwa"
   },
   {
     "kanjiName": "競技",
@@ -1512,20 +1484,6 @@
     "romaji": "mado"
   },
   {
-    "kanjiName": "寝台",
-    "hiragana": "しんだい",
-    "meanings": [
-      "bed"
-    ],
-    "quizAnswers": [
-      "がんか",
-      "しゅんかん",
-      "げっかん",
-      "しんだい"
-    ],
-    "romaji": "shindai"
-  },
-  {
     "kanjiName": "枕",
     "hiragana": "まくら",
     "meanings": [
@@ -1580,20 +1538,6 @@
       "ねいす"
     ],
     "romaji": "neisu"
-  },
-  {
-    "kanjiName": "椅子",
-    "hiragana": "いす",
-    "meanings": [
-      "chair"
-    ],
-    "quizAnswers": [
-      "めい",
-      "もうふ",
-      "いす",
-      "にっき"
-    ],
-    "romaji": "isu"
   },
   {
     "kanjiName": "一杯",
@@ -1820,20 +1764,6 @@
     "romaji": "denchi"
   },
   {
-    "kanjiName": "時計",
-    "hiragana": "とけい",
-    "meanings": [
-      "clock"
-    ],
-    "quizAnswers": [
-      "おい",
-      "じゅうたん",
-      "てんき",
-      "とけい"
-    ],
-    "romaji": "tokei"
-  },
-  {
     "kanjiName": "暦",
     "hiragana": "こよみ",
     "meanings": [
@@ -1860,20 +1790,6 @@
       "じどうしゃ"
     ],
     "romaji": "tomodachi"
-  },
-  {
-    "kanjiName": "家族",
-    "hiragana": "かぞく",
-    "meanings": [
-      "family"
-    ],
-    "quizAnswers": [
-      "かみ",
-      "ゆか",
-      "あんないしょ",
-      "かぞく"
-    ],
-    "romaji": "kazoku"
   },
   {
     "kanjiName": "親",
@@ -2044,328 +1960,6 @@
     "romaji": "douryou"
   },
   {
-    "kanjiName": "木",
-    "hiragana": "き",
-    "meanings": [
-      "tree"
-    ],
-    "quizAnswers": [
-      "き",
-      "はち",
-      "たてもの",
-      "とし"
-    ],
-    "romaji": "ki"
-  },
-  {
-    "kanjiName": "花",
-    "hiragana": "はな",
-    "meanings": [
-      "flower"
-    ],
-    "quizAnswers": [
-      "ひも",
-      "あね",
-      "はな",
-      "ものさし"
-    ],
-    "romaji": "hana"
-  },
-  {
-    "kanjiName": "庭",
-    "hiragana": "にわ",
-    "meanings": [
-      "garden"
-    ],
-    "quizAnswers": [
-      "にわ",
-      "でんしけいさんき",
-      "ひ",
-      "じゅうでんき"
-    ],
-    "romaji": "niwa"
-  },
-  {
-    "kanjiName": "公園",
-    "hiragana": "こうえん",
-    "meanings": [
-      "park"
-    ],
-    "quizAnswers": [
-      "かべ",
-      "うみ",
-      "まど",
-      "こうえん"
-    ],
-    "romaji": "kouen"
-  },
-  {
-    "kanjiName": "通り",
-    "hiragana": "とおり",
-    "meanings": [
-      "street"
-    ],
-    "quizAnswers": [
-      "まくら",
-      "とおり",
-      "とけい",
-      "へや"
-    ],
-    "romaji": "toori"
-  },
-  {
-    "kanjiName": "建物",
-    "hiragana": "たてもの",
-    "meanings": [
-      "building"
-    ],
-    "quizAnswers": [
-      "たてもの",
-      "とうじつ",
-      "ちゃわん",
-      "ひきだし"
-    ],
-    "romaji": "tatemono"
-  },
-  {
-    "kanjiName": "部屋",
-    "hiragana": "へや",
-    "meanings": [
-      "room"
-    ],
-    "quizAnswers": [
-      "へや",
-      "じけし",
-      "しんだい",
-      "ほんだな"
-    ],
-    "romaji": "heya"
-  },
-  {
-    "kanjiName": "扉",
-    "hiragana": "とびら",
-    "meanings": [
-      "door"
-    ],
-    "quizAnswers": [
-      "とびら",
-      "せいせいき",
-      "やさい",
-      "かがみ"
-    ],
-    "romaji": "tobira"
-  },
-  {
-    "kanjiName": "窓",
-    "hiragana": "まど",
-    "meanings": [
-      "window"
-    ],
-    "quizAnswers": [
-      "まど",
-      "りく",
-      "しんだい",
-      "ひ"
-    ],
-    "romaji": "mado"
-  },
-  {
-    "kanjiName": "寝台",
-    "hiragana": "しんだい",
-    "meanings": [
-      "bed"
-    ],
-    "quizAnswers": [
-      "てんじょう",
-      "しんだい",
-      "はさみ",
-      "とき"
-    ],
-    "romaji": "shindai"
-  },
-  {
-    "kanjiName": "枕",
-    "hiragana": "まくら",
-    "meanings": [
-      "pillow"
-    ],
-    "quizAnswers": [
-      "しょくどう",
-      "でんしけいさんき",
-      "まくら",
-      "みずうみ"
-    ],
-    "romaji": "makura"
-  },
-  {
-    "kanjiName": "毛布",
-    "hiragana": "もうふ",
-    "meanings": [
-      "blanket"
-    ],
-    "quizAnswers": [
-      "もうふ",
-      "たな",
-      "へや",
-      "でんもう"
-    ],
-    "romaji": "moufu"
-  },
-  {
-    "kanjiName": "絨毯",
-    "hiragana": "じゅうたん",
-    "meanings": [
-      "carpet"
-    ],
-    "quizAnswers": [
-      "げっこう",
-      "たな",
-      "もうふ",
-      "じゅうたん"
-    ],
-    "romaji": "juutan"
-  },
-  {
-    "kanjiName": "寝椅子",
-    "hiragana": "ねいす",
-    "meanings": [
-      "sofa"
-    ],
-    "quizAnswers": [
-      "ようき",
-      "ねいす",
-      "きゅうこん",
-      "しんだい"
-    ],
-    "romaji": "neisu"
-  },
-  {
-    "kanjiName": "椅子",
-    "hiragana": "いす",
-    "meanings": [
-      "chair"
-    ],
-    "quizAnswers": [
-      "やさい",
-      "しょくどう",
-      "いす",
-      "わかれ"
-    ],
-    "romaji": "isu"
-  },
-  {
-    "kanjiName": "皿",
-    "hiragana": "さら",
-    "meanings": [
-      "plate"
-    ],
-    "quizAnswers": [
-      "さら",
-      "しゅんかん",
-      "もと",
-      "つくえ"
-    ],
-    "romaji": "sara"
-  },
-  {
-    "kanjiName": "一杯",
-    "hiragana": "いっぱい",
-    "meanings": [
-      "glass"
-    ],
-    "quizAnswers": [
-      "いっぱい",
-      "ねいす",
-      "きゃくしょくしゃ",
-      "あらし"
-    ],
-    "romaji": "ippai"
-  },
-  {
-    "kanjiName": "茶碗",
-    "hiragana": "ちゃわん",
-    "meanings": [
-      "cup"
-    ],
-    "quizAnswers": [
-      "じむしょ",
-      "みずうみ",
-      "もうふ",
-      "ちゃわん"
-    ],
-    "romaji": "chawan"
-  },
-  {
-    "kanjiName": "匙",
-    "hiragana": "さじ",
-    "meanings": [
-      "spoon"
-    ],
-    "quizAnswers": [
-      "いす",
-      "ほん",
-      "ほんだな",
-      "さじ"
-    ],
-    "romaji": "saji"
-  },
-  {
-    "kanjiName": "別れ",
-    "hiragana": "わかれ",
-    "meanings": [
-      "fork"
-    ],
-    "quizAnswers": [
-      "いとこ",
-      "わかれ",
-      "げっこう",
-      "へんそくそうち"
-    ],
-    "romaji": "wakare"
-  },
-  {
-    "kanjiName": "刃物",
-    "hiragana": "はもの",
-    "meanings": [
-      "knife"
-    ],
-    "quizAnswers": [
-      "きゅうこん",
-      "しゃしんき",
-      "はもの",
-      "とき"
-    ],
-    "romaji": "hamono"
-  },
-  {
-    "kanjiName": "雲",
-    "hiragana": "くも",
-    "meanings": [
-      "cloud"
-    ],
-    "quizAnswers": [
-      "てんじょう",
-      "とびら",
-      "くも",
-      "つくえ"
-    ],
-    "romaji": "kumo"
-  },
-  {
-    "kanjiName": "天気",
-    "hiragana": "てんき",
-    "meanings": [
-      "weather"
-    ],
-    "quizAnswers": [
-      "でんしけいさんき",
-      "しゃしんき",
-      "じこくひょう",
-      "てんき"
-    ],
-    "romaji": "tenki"
-  },
-  {
     "kanjiName": "嵐",
     "hiragana": "あらし",
     "meanings": [
@@ -2422,48 +2016,6 @@
     "romaji": "gekkou"
   },
   {
-    "kanjiName": "山",
-    "hiragana": "やま",
-    "meanings": [
-      "mountain"
-    ],
-    "quizAnswers": [
-      "しま",
-      "いす",
-      "やま",
-      "しゅんかん"
-    ],
-    "romaji": "yama"
-  },
-  {
-    "kanjiName": "川",
-    "hiragana": "かわ",
-    "meanings": [
-      "river"
-    ],
-    "quizAnswers": [
-      "めんみつ",
-      "ひおおい",
-      "かわ",
-      "でんわ"
-    ],
-    "romaji": "kawa"
-  },
-  {
-    "kanjiName": "湖",
-    "hiragana": "みずうみ",
-    "meanings": [
-      "lake"
-    ],
-    "quizAnswers": [
-      "みずうみ",
-      "ちゃわん",
-      "じけし",
-      "まくら"
-    ],
-    "romaji": "mizuumi"
-  },
-  {
     "kanjiName": "海洋",
     "hiragana": "かいよう",
     "meanings": [
@@ -2478,20 +2030,6 @@
     "romaji": "kaiyou"
   },
   {
-    "kanjiName": "海",
-    "hiragana": "うみ",
-    "meanings": [
-      "sea"
-    ],
-    "quizAnswers": [
-      "くも",
-      "りょかく",
-      "うみ",
-      "かみ"
-    ],
-    "romaji": "umi"
-  },
-  {
     "kanjiName": "海岸",
     "hiragana": "かいがん",
     "meanings": [
@@ -2504,20 +2042,6 @@
       "かいがん"
     ],
     "romaji": "kaigan"
-  },
-  {
-    "kanjiName": "島",
-    "hiragana": "しま",
-    "meanings": [
-      "island"
-    ],
-    "quizAnswers": [
-      "ようき",
-      "おんがく",
-      "はさみ",
-      "しま"
-    ],
-    "romaji": "shima"
   },
   {
     "kanjiName": "地図",
@@ -2590,20 +2114,6 @@
     "romaji": "hikouki"
   },
   {
-    "kanjiName": "電車",
-    "hiragana": "でんしゃ",
-    "meanings": [
-      "train"
-    ],
-    "quizAnswers": [
-      "ひ",
-      "でんしゃ",
-      "まご",
-      "いとこ"
-    ],
-    "romaji": "densha"
-  },
-  {
     "kanjiName": "自動車",
     "hiragana": "じどうしゃ",
     "meanings": [
@@ -2674,20 +2184,6 @@
     "romaji": "shokudou"
   },
   {
-    "kanjiName": "喫茶店",
-    "hiragana": "きっさてん",
-    "meanings": [
-      "cafe"
-    ],
-    "quizAnswers": [
-      "きょうぎ",
-      "しょうてん",
-      "はこ",
-      "きっさてん"
-    ],
-    "romaji": "kissaten"
-  },
-  {
     "kanjiName": "商店",
     "hiragana": "しょうてん",
     "meanings": [
@@ -2744,174 +2240,6 @@
     "romaji": "jimusho"
   },
   {
-    "kanjiName": "椅子",
-    "hiragana": "いす",
-    "meanings": [
-      "chair"
-    ],
-    "quizAnswers": [
-      "いす",
-      "あめ",
-      "さら",
-      "わかれ"
-    ],
-    "romaji": "isu"
-  },
-  {
-    "kanjiName": "時刻表",
-    "hiragana": "じこくひょう",
-    "meanings": [
-      "table"
-    ],
-    "quizAnswers": [
-      "じこくひょう",
-      "びん",
-      "おや",
-      "がんか"
-    ],
-    "romaji": "jikokuhyou"
-  },
-  {
-    "kanjiName": "寝台",
-    "hiragana": "しんだい",
-    "meanings": [
-      "bed"
-    ],
-    "quizAnswers": [
-      "しんだい",
-      "へや",
-      "あらし",
-      "ほしあかり"
-    ],
-    "romaji": "shindai"
-  },
-  {
-    "kanjiName": "机",
-    "hiragana": "つくえ",
-    "meanings": [
-      "desk"
-    ],
-    "quizAnswers": [
-      "じけし",
-      "おい",
-      "しゃしんき",
-      "つくえ"
-    ],
-    "romaji": "tsukue"
-  },
-  {
-    "kanjiName": "電話",
-    "hiragana": "でんわ",
-    "meanings": [
-      "phone"
-    ],
-    "quizAnswers": [
-      "しゃしんき",
-      "わかれ",
-      "げっかん",
-      "でんわ"
-    ],
-    "romaji": "denwa"
-  },
-  {
-    "kanjiName": "本",
-    "hiragana": "ほん",
-    "meanings": [
-      "book"
-    ],
-    "quizAnswers": [
-      "たてもの",
-      "めんぽう",
-      "やくしょしごと",
-      "ほん"
-    ],
-    "romaji": "hon"
-  },
-  {
-    "kanjiName": "雑誌",
-    "hiragana": "ざっし",
-    "meanings": [
-      "magazine"
-    ],
-    "quizAnswers": [
-      "もうふ",
-      "さじ",
-      "どうりょく",
-      "ざっし"
-    ],
-    "romaji": "zasshi"
-  },
-  {
-    "kanjiName": "新聞",
-    "hiragana": "しんぶん",
-    "meanings": [
-      "newspaper"
-    ],
-    "quizAnswers": [
-      "しんぶん",
-      "ひ",
-      "わかれ",
-      "くうき"
-    ],
-    "romaji": "shinbun"
-  },
-  {
-    "kanjiName": "小屋",
-    "hiragana": "こや",
-    "meanings": [
-      "pen"
-    ],
-    "quizAnswers": [
-      "さしょう",
-      "こや",
-      "ほんだな",
-      "ちゃ"
-    ],
-    "romaji": "koya"
-  },
-  {
-    "kanjiName": "鉛筆",
-    "hiragana": "えんぴつ",
-    "meanings": [
-      "pencil"
-    ],
-    "quizAnswers": [
-      "くうき",
-      "しゃしん",
-      "そうこ",
-      "えんぴつ"
-    ],
-    "romaji": "enpitsu"
-  },
-  {
-    "kanjiName": "字消し",
-    "hiragana": "じけし",
-    "meanings": [
-      "eraser"
-    ],
-    "quizAnswers": [
-      "まくら",
-      "あおぐ",
-      "ねいす",
-      "じけし"
-    ],
-    "romaji": "jikeshi"
-  },
-  {
-    "kanjiName": "紙",
-    "hiragana": "かみ",
-    "meanings": [
-      "paper"
-    ],
-    "quizAnswers": [
-      "じゅうなんざい",
-      "かみ",
-      "しんだい",
-      "りんじん"
-    ],
-    "romaji": "kami"
-  },
-  {
     "kanjiName": "葉巻虫",
     "hiragana": "はまきむし",
     "meanings": [
@@ -2924,20 +2252,6 @@
       "はまきむし"
     ],
     "romaji": "hamakimushi"
-  },
-  {
-    "kanjiName": "棚",
-    "hiragana": "たな",
-    "meanings": [
-      "shelf"
-    ],
-    "quizAnswers": [
-      "とき",
-      "たな",
-      "わかれ",
-      "しゅんかん"
-    ],
-    "romaji": "tana"
   },
   {
     "kanjiName": "引き出し",
@@ -2966,48 +2280,6 @@
       "はち"
     ],
     "romaji": "oshiire"
-  },
-  {
-    "kanjiName": "鏡",
-    "hiragana": "かがみ",
-    "meanings": [
-      "mirror"
-    ],
-    "quizAnswers": [
-      "いっぱい",
-      "こうえん",
-      "とおり",
-      "かがみ"
-    ],
-    "romaji": "kagami"
-  },
-  {
-    "kanjiName": "窓",
-    "hiragana": "まど",
-    "meanings": [
-      "window"
-    ],
-    "quizAnswers": [
-      "まど",
-      "めんみつ",
-      "しんだい",
-      "わかれ"
-    ],
-    "romaji": "mado"
-  },
-  {
-    "kanjiName": "扉",
-    "hiragana": "とびら",
-    "meanings": [
-      "door"
-    ],
-    "quizAnswers": [
-      "とびら",
-      "はもの",
-      "つくえ",
-      "ざっし"
-    ],
-    "romaji": "tobira"
   },
   {
     "kanjiName": "天井",
@@ -3050,48 +2322,6 @@
       "しゅう"
     ],
     "romaji": "yuka"
-  },
-  {
-    "kanjiName": "絨毯",
-    "hiragana": "じゅうたん",
-    "meanings": [
-      "carpet"
-    ],
-    "quizAnswers": [
-      "じゅうたん",
-      "まくら",
-      "みずうみ",
-      "きっさてん"
-    ],
-    "romaji": "juutan"
-  },
-  {
-    "kanjiName": "絨毯",
-    "hiragana": "じゅうたん",
-    "meanings": [
-      "rug"
-    ],
-    "quizAnswers": [
-      "しゃしん",
-      "はもの",
-      "ちゃわん",
-      "じゅうたん"
-    ],
-    "romaji": "juutan"
-  },
-  {
-    "kanjiName": "枕",
-    "hiragana": "まくら",
-    "meanings": [
-      "pillow"
-    ],
-    "quizAnswers": [
-      "まご",
-      "げっこう",
-      "どうりょう",
-      "まくら"
-    ],
-    "romaji": "makura"
   },
   {
     "kanjiName": "布団",
@@ -3260,20 +2490,6 @@
       "しゃしん"
     ],
     "romaji": "harigane"
-  },
-  {
-    "kanjiName": "電池",
-    "hiragana": "でんち",
-    "meanings": [
-      "battery"
-    ],
-    "quizAnswers": [
-      "でんち",
-      "にっこう",
-      "みずうみ",
-      "つくえ"
-    ],
-    "romaji": "denchi"
   },
   {
     "kanjiName": "充電器",
@@ -3962,20 +3178,6 @@
     "romaji": "jitensha"
   },
   {
-    "kanjiName": "公園",
-    "hiragana": "こうえん",
-    "meanings": [
-      "park"
-    ],
-    "quizAnswers": [
-      "こうえん",
-      "にわ",
-      "もり",
-      "どうぶつえん"
-    ],
-    "romaji": "kouen"
-  },
-  {
     "kanjiName": "遊び場",
     "hiragana": "あそびば",
     "meanings": [
@@ -4086,21 +3288,6 @@
       "べらんだ"
     ],
     "romaji": "shako"
-  },
-  {
-    "kanjiName": "庭",
-    "hiragana": "にわ",
-    "meanings": [
-      "garden",
-      "yard"
-    ],
-    "quizAnswers": [
-      "にわ",
-      "こうえん",
-      "はたけ",
-      "もり"
-    ],
-    "romaji": "niwa"
   },
   {
     "kanjiName": "塀",
@@ -4325,20 +3512,6 @@
       "カッター"
     ],
     "romaji": "kamisori"
-  },
-  {
-    "kanjiName": "鋏",
-    "hiragana": "はさみ",
-    "meanings": [
-      "scissors"
-    ],
-    "quizAnswers": [
-      "はさみ",
-      "ナイフ",
-      "カッター",
-      "かみそり"
-    ],
-    "romaji": "hasami"
   },
   {
     "kanjiName": "針",
@@ -4608,34 +3781,6 @@
     "romaji": "tebukuro"
   },
   {
-    "kanjiName": "皿",
-    "hiragana": "さら",
-    "meanings": [
-      "plate"
-    ],
-    "quizAnswers": [
-      "さら",
-      "ボウル",
-      "カップ",
-      "グラス"
-    ],
-    "romaji": "sara"
-  },
-  {
-    "kanjiName": "鉢",
-    "hiragana": "はち",
-    "meanings": [
-      "bowl"
-    ],
-    "quizAnswers": [
-      "はち",
-      "さら",
-      "カップ",
-      "グラス"
-    ],
-    "romaji": "hachi"
-  },
-  {
     "kanjiName": "カップ",
     "hiragana": "かっぷ",
     "meanings": [
@@ -4858,20 +4003,6 @@
       "まつり"
     ],
     "romaji": "kaisha"
-  },
-  {
-    "kanjiName": "会議",
-    "hiragana": "かいぎ",
-    "meanings": [
-      "conference"
-    ],
-    "quizAnswers": [
-      "かいぎ",
-      "まつり",
-      "しめきり",
-      "かみなり"
-    ],
-    "romaji": "kaigi"
   },
   {
     "kanjiName": "祭り",

@@ -337,21 +337,6 @@
     "romaji": "mochiron"
   },
   {
-    "kanjiName": "あまり",
-    "hiragana": "あまり",
-    "meanings": [
-      "not very",
-      "not much"
-    ],
-    "quizAnswers": [
-      "not very",
-      "for now",
-      "a lot",
-      "sorry"
-    ],
-    "romaji": "amari"
-  },
-  {
     "kanjiName": "ときどき",
     "hiragana": "ときどき",
     "meanings": [
@@ -364,21 +349,6 @@
       "sometimes"
     ],
     "romaji": "tokidoki"
-  },
-  {
-    "kanjiName": "たくさん",
-    "hiragana": "たくさん",
-    "meanings": [
-      "a lot",
-      "many"
-    ],
-    "quizAnswers": [
-      "no matter what",
-      "a lot",
-      "by all means",
-      "truly"
-    ],
-    "romaji": "takusan"
   },
   {
     "kanjiName": "少なくとも",
@@ -439,21 +409,6 @@
     "romaji": "daibu"
   },
   {
-    "kanjiName": "だいたい",
-    "hiragana": "だいたい",
-    "meanings": [
-      "mostly",
-      "approximately"
-    ],
-    "quizAnswers": [
-      "right away",
-      "still",
-      "no big deal",
-      "mostly"
-    ],
-    "romaji": "daitai"
-  },
-  {
     "kanjiName": "もう少し",
     "hiragana": "もうすこし",
     "meanings": [
@@ -481,21 +436,6 @@
       "properly"
     ],
     "romaji": "dondon"
-  },
-  {
-    "kanjiName": "どうしても",
-    "hiragana": "どうしても",
-    "meanings": [
-      "no matter what",
-      "by all means"
-    ],
-    "quizAnswers": [
-      "actually",
-      "no matter what",
-      "not very",
-      "entirely"
-    ],
-    "romaji": "doushitemo"
   },
   {
     "kanjiName": "しばしば",
@@ -570,20 +510,6 @@
       "precisely"
     ],
     "romaji": "chotto"
-  },
-  {
-    "kanjiName": "もう少し",
-    "hiragana": "もうすこし",
-    "meanings": [
-      "a little more"
-    ],
-    "quizAnswers": [
-      "as expected",
-      "a little more",
-      "quite",
-      "because"
-    ],
-    "romaji": "mousukoshi"
   },
   {
     "kanjiName": "ずっと",
@@ -735,36 +661,6 @@
     "romaji": "datte"
   },
   {
-    "kanjiName": "もしかしたら",
-    "hiragana": "もしかしたら",
-    "meanings": [
-      "perhaps",
-      "maybe"
-    ],
-    "quizAnswers": [
-      "as expected",
-      "perhaps",
-      "no matter what",
-      "probably"
-    ],
-    "romaji": "moshikashitara"
-  },
-  {
-    "kanjiName": "必ず",
-    "hiragana": "かならず",
-    "meanings": [
-      "without fail",
-      "certainly"
-    ],
-    "quizAnswers": [
-      "actually",
-      "without fail",
-      "always",
-      "to begin with"
-    ],
-    "romaji": "kanarazu"
-  },
-  {
     "kanjiName": "まず",
     "hiragana": "まず",
     "meanings": [
@@ -837,20 +733,6 @@
       "many"
     ],
     "romaji": "ichido"
-  },
-  {
-    "kanjiName": "もちろん",
-    "hiragana": "もちろん",
-    "meanings": [
-      "of course"
-    ],
-    "quizAnswers": [
-      "neatly",
-      "of course",
-      "somehow or other",
-      "by chance"
-    ],
-    "romaji": "mochiron"
   },
   {
     "kanjiName": "一応",
@@ -954,35 +836,6 @@
       "absolutely"
     ],
     "romaji": "zettaini"
-  },
-  {
-    "kanjiName": "どうしても",
-    "hiragana": "どうしても",
-    "meanings": [
-      "no matter what",
-      "by all means"
-    ],
-    "quizAnswers": [
-      "no matter what",
-      "not necessarily",
-      "after all",
-      "rapidly"
-    ],
-    "romaji": "doushitemo"
-  },
-  {
-    "kanjiName": "全然",
-    "hiragana": "ぜんぜん",
-    "meanings": [
-      "not at all"
-    ],
-    "quizAnswers": [
-      "definitely",
-      "by all means",
-      "not at all",
-      "truly"
-    ],
-    "romaji": "zenzen"
   },
   {
     "kanjiName": "きっと",
@@ -1120,21 +973,6 @@
     "romaji": "yousuruni"
   },
   {
-    "kanjiName": "だいぶ",
-    "hiragana": "だいぶ",
-    "meanings": [
-      "quite",
-      "fairly"
-    ],
-    "quizAnswers": [
-      "passable",
-      "as it is",
-      "quite",
-      "still"
-    ],
-    "romaji": "daibu"
-  },
-  {
     "kanjiName": "何か",
     "hiragana": "なにか",
     "meanings": [
@@ -1148,21 +986,6 @@
       "precisely"
     ],
     "romaji": "nanika"
-  },
-  {
-    "kanjiName": "とても",
-    "hiragana": "とても",
-    "meanings": [
-      "very",
-      "extremely"
-    ],
-    "quizAnswers": [
-      "splendid",
-      "very",
-      "here and there",
-      "almost"
-    ],
-    "romaji": "totemo"
   },
   {
     "kanjiName": "たいてい",
@@ -1210,21 +1033,6 @@
     "romaji": "hontouni"
   },
   {
-    "kanjiName": "どうか",
-    "hiragana": "どうか",
-    "meanings": [
-      "please",
-      "somehow"
-    ],
-    "quizAnswers": [
-      "early",
-      "tentatively",
-      "please",
-      "apparently"
-    ],
-    "romaji": "douka"
-  },
-  {
     "kanjiName": "最後",
     "hiragana": "さいご",
     "meanings": [
@@ -1238,21 +1046,6 @@
       "the reason is"
     ],
     "romaji": "saigo"
-  },
-  {
-    "kanjiName": "ちょうど",
-    "hiragana": "ちょうど",
-    "meanings": [
-      "exactly",
-      "just"
-    ],
-    "quizAnswers": [
-      "exactly",
-      "steadily",
-      "that's right",
-      "considerably"
-    ],
-    "romaji": "choudo"
   },
   {
     "kanjiName": "ほんと",
@@ -1300,21 +1093,6 @@
     "romaji": "tashikani"
   },
   {
-    "kanjiName": "どうしても",
-    "hiragana": "どうしても",
-    "meanings": [
-      "no matter what",
-      "by all means"
-    ],
-    "quizAnswers": [
-      "actually",
-      "still",
-      "no matter what",
-      "please"
-    ],
-    "romaji": "doushitemo"
-  },
-  {
     "kanjiName": "そうそう",
     "hiragana": "そうそう",
     "meanings": [
@@ -1328,65 +1106,6 @@
       "as expected"
     ],
     "romaji": "sousou"
-  },
-  {
-    "kanjiName": "いつも",
-    "hiragana": "いつも",
-    "meanings": [
-      "always"
-    ],
-    "quizAnswers": [
-      "no matter what",
-      "I understand",
-      "each",
-      "always"
-    ],
-    "romaji": "itsumo"
-  },
-  {
-    "kanjiName": "すぐ",
-    "hiragana": "すぐ",
-    "meanings": [
-      "immediately",
-      "right away"
-    ],
-    "quizAnswers": [
-      "actually",
-      "I understand",
-      "immediately",
-      "not at all"
-    ],
-    "romaji": "sugu"
-  },
-  {
-    "kanjiName": "実は",
-    "hiragana": "じつは",
-    "meanings": [
-      "actually",
-      "in fact"
-    ],
-    "quizAnswers": [
-      "actually",
-      "several",
-      "considerably",
-      "not at all"
-    ],
-    "romaji": "jitsuha"
-  },
-  {
-    "kanjiName": "まだ",
-    "hiragana": "まだ",
-    "meanings": [
-      "still",
-      "yet"
-    ],
-    "quizAnswers": [
-      "still",
-      "a little more",
-      "at least",
-      "often"
-    ],
-    "romaji": "mada"
   },
   {
     "kanjiName": "今度",
@@ -1434,36 +1153,6 @@
     "romaji": "kekkou"
   },
   {
-    "kanjiName": "とにかく",
-    "hiragana": "とにかく",
-    "meanings": [
-      "anyhow",
-      "anyway"
-    ],
-    "quizAnswers": [
-      "anyhow",
-      "tentatively",
-      "it seems",
-      "yet"
-    ],
-    "romaji": "tonikaku"
-  },
-  {
-    "kanjiName": "やはり",
-    "hiragana": "やはり",
-    "meanings": [
-      "as expected",
-      "still"
-    ],
-    "quizAnswers": [
-      "actually",
-      "just",
-      "by all means",
-      "as expected"
-    ],
-    "romaji": "yahari"
-  },
-  {
     "kanjiName": "最近",
     "hiragana": "さいきん",
     "meanings": [
@@ -1507,21 +1196,6 @@
       "thanks"
     ],
     "romaji": "doumo"
-  },
-  {
-    "kanjiName": "ちゃんと",
-    "hiragana": "ちゃんと",
-    "meanings": [
-      "properly",
-      "precisely"
-    ],
-    "quizAnswers": [
-      "not much",
-      "fairly",
-      "still",
-      "properly"
-    ],
-    "romaji": "chanto"
   },
   {
     "kanjiName": "それぞれ",
@@ -1584,66 +1258,6 @@
     "romaji": "minna"
   },
   {
-    "kanjiName": "だいたい",
-    "hiragana": "だいたい",
-    "meanings": [
-      "generally",
-      "roughly"
-    ],
-    "quizAnswers": [
-      "certainly",
-      "fairly",
-      "generally",
-      "certainly"
-    ],
-    "romaji": "daitai"
-  },
-  {
-    "kanjiName": "けっこう",
-    "hiragana": "けっこう",
-    "meanings": [
-      "quite",
-      "fairly"
-    ],
-    "quizAnswers": [
-      "perhaps",
-      "mostly",
-      "quite",
-      "considerably"
-    ],
-    "romaji": "kekkou"
-  },
-  {
-    "kanjiName": "かなり",
-    "hiragana": "かなり",
-    "meanings": [
-      "considerably",
-      "fairly"
-    ],
-    "quizAnswers": [
-      "but",
-      "properly",
-      "no matter what",
-      "considerably"
-    ],
-    "romaji": "kanari"
-  },
-  {
-    "kanjiName": "まず",
-    "hiragana": "まず",
-    "meanings": [
-      "first of all",
-      "to begin with"
-    ],
-    "quizAnswers": [
-      "first of all",
-      "as expected",
-      "anyhow",
-      "not much"
-    ],
-    "romaji": "mazu"
-  },
-  {
     "kanjiName": "さっき",
     "hiragana": "さっき",
     "meanings": [
@@ -1659,21 +1273,6 @@
     "romaji": "sakki"
   },
   {
-    "kanjiName": "すっかり",
-    "hiragana": "すっかり",
-    "meanings": [
-      "completely",
-      "entirely"
-    ],
-    "quizAnswers": [
-      "completely",
-      "definitely",
-      "as much as possible",
-      "to start with"
-    ],
-    "romaji": "sukkari"
-  },
-  {
     "kanjiName": "まるで",
     "hiragana": "まるで",
     "meanings": [
@@ -1687,21 +1286,6 @@
       "somehow"
     ],
     "romaji": "marude"
-  },
-  {
-    "kanjiName": "だって",
-    "hiragana": "だって",
-    "meanings": [
-      "because",
-      "but"
-    ],
-    "quizAnswers": [
-      "no matter what",
-      "a bit more",
-      "properly",
-      "because"
-    ],
-    "romaji": "datte"
   },
   {
     "kanjiName": "いくら",
@@ -1747,21 +1331,6 @@
       "quite"
     ],
     "romaji": "hyottoshite"
-  },
-  {
-    "kanjiName": "どうやら",
-    "hiragana": "どうやら",
-    "meanings": [
-      "it seems",
-      "apparently"
-    ],
-    "quizAnswers": [
-      "of course",
-      "still more",
-      "it seems",
-      "perhaps"
-    ],
-    "romaji": "douyara"
   },
   {
     "kanjiName": "いくつか",
@@ -1824,36 +1393,6 @@
     "romaji": "nantonaku"
   },
   {
-    "kanjiName": "もちろん",
-    "hiragana": "もちろん",
-    "meanings": [
-      "of course",
-      "naturally"
-    ],
-    "quizAnswers": [
-      "of course",
-      "anyway",
-      "almost",
-      "a while ago"
-    ],
-    "romaji": "mochiron"
-  },
-  {
-    "kanjiName": "やっぱり",
-    "hiragana": "やっぱり",
-    "meanings": [
-      "as I thought",
-      "after all"
-    ],
-    "quizAnswers": [
-      "as expected",
-      "as I thought",
-      "gradually",
-      "everybody"
-    ],
-    "romaji": "yappari"
-  },
-  {
     "kanjiName": "ぜひ",
     "hiragana": "ぜひ",
     "meanings": [
@@ -1884,304 +1423,6 @@
     "romaji": "osoraku"
   },
   {
-    "kanjiName": "やはり",
-    "hiragana": "やはり",
-    "meanings": [
-      "as expected",
-      "still"
-    ],
-    "quizAnswers": [
-      "steadily",
-      "a little while",
-      "perhaps",
-      "as expected"
-    ],
-    "romaji": "yahari"
-  },
-  {
-    "kanjiName": "どうしても",
-    "hiragana": "どうしても",
-    "meanings": [
-      "no matter what",
-      "by all means"
-    ],
-    "quizAnswers": [
-      "something",
-      "in the end",
-      "no matter what",
-      "now"
-    ],
-    "romaji": "doushitemo"
-  },
-  {
-    "kanjiName": "まあまあ",
-    "hiragana": "まあまあ",
-    "meanings": [
-      "so-so",
-      "passable"
-    ],
-    "quizAnswers": [
-      "so-so",
-      "in fact",
-      "not much",
-      "actually"
-    ],
-    "romaji": "maamaa"
-  },
-  {
-    "kanjiName": "絶対に",
-    "hiragana": "ぜったいに",
-    "meanings": [
-      "absolutely"
-    ],
-    "quizAnswers": [
-      "respective",
-      "absolutely",
-      "certainly",
-      "several"
-    ],
-    "romaji": "zettaini"
-  },
-  {
-    "kanjiName": "どうしても",
-    "hiragana": "どうしても",
-    "meanings": [
-      "no matter what",
-      "by all means"
-    ],
-    "quizAnswers": [
-      "first",
-      "no matter what",
-      "passable",
-      "very"
-    ],
-    "romaji": "doushitemo"
-  },
-  {
-    "kanjiName": "全然",
-    "hiragana": "ぜんぜん",
-    "meanings": [
-      "not at all"
-    ],
-    "quizAnswers": [
-      "as if",
-      "by all means",
-      "not at all",
-      "end"
-    ],
-    "romaji": "zenzen"
-  },
-  {
-    "kanjiName": "きっと",
-    "hiragana": "きっと",
-    "meanings": [
-      "surely",
-      "certainly"
-    ],
-    "quizAnswers": [
-      "not very",
-      "fairly",
-      "surely",
-      "exactly"
-    ],
-    "romaji": "kitto"
-  },
-  {
-    "kanjiName": "やはり",
-    "hiragana": "やはり",
-    "meanings": [
-      "as expected",
-      "still"
-    ],
-    "quizAnswers": [
-      "I see",
-      "fairly",
-      "considerably",
-      "as expected"
-    ],
-    "romaji": "yahari"
-  },
-  {
-    "kanjiName": "たまたま",
-    "hiragana": "たまたま",
-    "meanings": [
-      "by chance",
-      "accidentally"
-    ],
-    "quizAnswers": [
-      "probably",
-      "after all",
-      "this time",
-      "by chance"
-    ],
-    "romaji": "tamatama"
-  },
-  {
-    "kanjiName": "大分",
-    "hiragana": "だいぶ",
-    "meanings": [
-      "considerably",
-      "fairly"
-    ],
-    "quizAnswers": [
-      "still",
-      "of course",
-      "considerably",
-      "no matter what"
-    ],
-    "romaji": "daibu"
-  },
-  {
-    "kanjiName": "最初",
-    "hiragana": "さいしょ",
-    "meanings": [
-      "at first",
-      "initially"
-    ],
-    "quizAnswers": [
-      "at first",
-      "a little more",
-      "certainly",
-      "no matter how much"
-    ],
-    "romaji": "saisho"
-  },
-  {
-    "kanjiName": "実際",
-    "hiragana": "じっさい",
-    "meanings": [
-      "actually",
-      "in reality"
-    ],
-    "quizAnswers": [
-      "particularly",
-      "passable",
-      "even if",
-      "actually"
-    ],
-    "romaji": "jissai"
-  },
-  {
-    "kanjiName": "大概",
-    "hiragana": "たいがい",
-    "meanings": [
-      "mostly",
-      "probably"
-    ],
-    "quizAnswers": [
-      "splendid",
-      "really",
-      "mostly",
-      "first of all"
-    ],
-    "romaji": "taigai"
-  },
-  {
-    "kanjiName": "ふと",
-    "hiragana": "ふと",
-    "meanings": [
-      "suddenly",
-      "unexpectedly"
-    ],
-    "quizAnswers": [
-      "neatly",
-      "tentatively",
-      "truly",
-      "suddenly"
-    ],
-    "romaji": "futo"
-  },
-  {
-    "kanjiName": "要するに",
-    "hiragana": "ようするに",
-    "meanings": [
-      "in short",
-      "in a word"
-    ],
-    "quizAnswers": [
-      "definitely",
-      "fairly",
-      "in short",
-      "certainly"
-    ],
-    "romaji": "yousuruni"
-  },
-  {
-    "kanjiName": "だいぶ",
-    "hiragana": "だいぶ",
-    "meanings": [
-      "quite",
-      "fairly"
-    ],
-    "quizAnswers": [
-      "entirely",
-      "quite",
-      "really",
-      "accidentally"
-    ],
-    "romaji": "daibu"
-  },
-  {
-    "kanjiName": "何か",
-    "hiragana": "なにか",
-    "meanings": [
-      "something",
-      "somehow"
-    ],
-    "quizAnswers": [
-      "maybe",
-      "exactly",
-      "something",
-      "frequently"
-    ],
-    "romaji": "nanika"
-  },
-  {
-    "kanjiName": "とても",
-    "hiragana": "とても",
-    "meanings": [
-      "very",
-      "extremely"
-    ],
-    "quizAnswers": [
-      "just like",
-      "a little",
-      "yet",
-      "very"
-    ],
-    "romaji": "totemo"
-  },
-  {
-    "kanjiName": "特に",
-    "hiragana": "とくに",
-    "meanings": [
-      "especially",
-      "particularly"
-    ],
-    "quizAnswers": [
-      "very",
-      "just now",
-      "especially",
-      "to that extent"
-    ],
-    "romaji": "tokuni"
-  },
-  {
-    "kanjiName": "もう少し",
-    "hiragana": "もうすこし",
-    "meanings": [
-      "a little more",
-      "a bit more"
-    ],
-    "quizAnswers": [
-      "of course",
-      "very",
-      "exactly",
-      "a little more"
-    ],
-    "romaji": "mousukoshi"
-  },
-  {
     "kanjiName": "しばらく",
     "hiragana": "しばらく",
     "meanings": [
@@ -2195,36 +1436,6 @@
       "tomorrow"
     ],
     "romaji": "shibaraku"
-  },
-  {
-    "kanjiName": "どうしても",
-    "hiragana": "どうしても",
-    "meanings": [
-      "no matter what",
-      "by all means"
-    ],
-    "quizAnswers": [
-      "not necessarily",
-      "approximately",
-      "extremely",
-      "no matter what"
-    ],
-    "romaji": "doushitemo"
-  },
-  {
-    "kanjiName": "同じく",
-    "hiragana": "おなじく",
-    "meanings": [
-      "likewise",
-      "also"
-    ],
-    "quizAnswers": [
-      "certainly",
-      "likewise",
-      "extremely",
-      "frequently"
-    ],
-    "romaji": "onajiku"
   },
   {
     "kanjiName": "結局",
@@ -2272,21 +1483,6 @@
     "romaji": "sorede"
   },
   {
-    "kanjiName": "きちんと",
-    "hiragana": "きちんと",
-    "meanings": [
-      "properly",
-      "neatly"
-    ],
-    "quizAnswers": [
-      "a little",
-      "properly",
-      "considerably",
-      "as expected"
-    ],
-    "romaji": "kichinto"
-  },
-  {
     "kanjiName": "なるたけ",
     "hiragana": "なるたけ",
     "meanings": [
@@ -2300,21 +1496,6 @@
       "completely"
     ],
     "romaji": "narutake"
-  },
-  {
-    "kanjiName": "かなり",
-    "hiragana": "かなり",
-    "meanings": [
-      "considerably",
-      "fairly"
-    ],
-    "quizAnswers": [
-      "actually",
-      "very",
-      "of course",
-      "considerably"
-    ],
-    "romaji": "kanari"
   },
   {
     "kanjiName": "実際に",
@@ -2345,200 +1526,5 @@
       "quite"
     ],
     "romaji": "hayaku"
-  },
-  {
-    "kanjiName": "必ず",
-    "hiragana": "かならず",
-    "meanings": [
-      "without fail",
-      "certainly"
-    ],
-    "quizAnswers": [
-      "considerably",
-      "maybe",
-      "without fail",
-      "by all means"
-    ],
-    "romaji": "kanarazu"
-  },
-  {
-    "kanjiName": "少し",
-    "hiragana": "すこし",
-    "meanings": [
-      "a little",
-      "a bit"
-    ],
-    "quizAnswers": [
-      "a little",
-      "probably",
-      "no big deal",
-      "a while ago"
-    ],
-    "romaji": "sukoshi"
-  },
-  {
-    "kanjiName": "まだ",
-    "hiragana": "まだ",
-    "meanings": [
-      "still",
-      "yet"
-    ],
-    "quizAnswers": [
-      "still",
-      "this time",
-      "for now",
-      "gradually"
-    ],
-    "romaji": "mada"
-  },
-  {
-    "kanjiName": "今度",
-    "hiragana": "こんど",
-    "meanings": [
-      "this time",
-      "next time"
-    ],
-    "quizAnswers": [
-      "somehow",
-      "it seems",
-      "this time",
-      "neatly"
-    ],
-    "romaji": "kondo"
-  },
-  {
-    "kanjiName": "確かに",
-    "hiragana": "たしかに",
-    "meanings": [
-      "certainly",
-      "definitely"
-    ],
-    "quizAnswers": [
-      "already",
-      "certainly",
-      "quite",
-      "not at all"
-    ],
-    "romaji": "tashikani"
-  },
-  {
-    "kanjiName": "けっこう",
-    "hiragana": "けっこう",
-    "meanings": [
-      "quite",
-      "fairly"
-    ],
-    "quizAnswers": [
-      "actually",
-      "quite",
-      "precisely",
-      "as it is"
-    ],
-    "romaji": "kekkou"
-  },
-  {
-    "kanjiName": "とにかく",
-    "hiragana": "とにかく",
-    "meanings": [
-      "anyhow",
-      "anyway"
-    ],
-    "quizAnswers": [
-      "anyhow",
-      "by all means",
-      "still more",
-      "end"
-    ],
-    "romaji": "tonikaku"
-  },
-  {
-    "kanjiName": "やはり",
-    "hiragana": "やはり",
-    "meanings": [
-      "as expected",
-      "still"
-    ],
-    "quizAnswers": [
-      "as expected",
-      "lately",
-      "mostly",
-      "everybody"
-    ],
-    "romaji": "yahari"
-  },
-  {
-    "kanjiName": "最近",
-    "hiragana": "さいきん",
-    "meanings": [
-      "recently",
-      "lately"
-    ],
-    "quizAnswers": [
-      "mostly",
-      "properly",
-      "a lot",
-      "recently"
-    ],
-    "romaji": "saikin"
-  },
-  {
-    "kanjiName": "たぶん",
-    "hiragana": "たぶん",
-    "meanings": [
-      "probably",
-      "perhaps"
-    ],
-    "quizAnswers": [
-      "initially",
-      "many",
-      "a lot",
-      "probably"
-    ],
-    "romaji": "tabun"
-  },
-  {
-    "kanjiName": "どうも",
-    "hiragana": "どうも",
-    "meanings": [
-      "thanks",
-      "sorry"
-    ],
-    "quizAnswers": [
-      "but",
-      "in reality",
-      "for a while",
-      "thanks"
-    ],
-    "romaji": "doumo"
-  },
-  {
-    "kanjiName": "ちゃんと",
-    "hiragana": "ちゃんと",
-    "meanings": [
-      "properly",
-      "precisely"
-    ],
-    "quizAnswers": [
-      "properly",
-      "if possible",
-      "to that extent",
-      "by any chance"
-    ],
-    "romaji": "chanto"
-  },
-  {
-    "kanjiName": "それぞれ",
-    "hiragana": "それぞれ",
-    "meanings": [
-      "each",
-      "respective"
-    ],
-    "quizAnswers": [
-      "each",
-      "so-so",
-      "quite",
-      "the reason is"
-    ],
-    "romaji": "sorezore"
   }
 ]

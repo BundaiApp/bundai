@@ -987,20 +987,6 @@
     "romaji": "kyuuna"
   },
   {
-    "kanjiName": "遅い",
-    "hiragana": "おそい",
-    "meanings": [
-      "late"
-    ],
-    "quizAnswers": [
-      "dark",
-      "sad",
-      "scary",
-      "late"
-    ],
-    "romaji": "osoi"
-  },
-  {
     "kanjiName": "早い",
     "hiragana": "はやい",
     "meanings": [
@@ -1055,23 +1041,7 @@
       "poor",
       "average",
       "difficult"
-    ],
-    "romaji": "sugureta"
-  },
-  {
-    "kanjiName": "悪い",
-    "hiragana": "わるい",
-    "meanings": [
-      "bad",
-      "poor"
-    ],
-    "quizAnswers": [
-      "good",
-      "excellent",
-      "bad",
-      "beautiful"
-    ],
-    "romaji": "warui"
+    ]
   },
   {
     "kanjiName": "素晴らしい",
@@ -1085,8 +1055,7 @@
       "ordinary",
       "wonderful",
       "difficult"
-    ],
-    "romaji": "subarashii"
+    ]
   },
   {
     "kanjiName": "強い",
@@ -1100,8 +1069,7 @@
       "fragile",
       "light",
       "strong"
-    ],
-    "romaji": "tsuyoi"
+    ]
   },
   {
     "kanjiName": "弱い",
@@ -1115,8 +1083,7 @@
       "powerful",
       "weak",
       "heavy"
-    ],
-    "romaji": "yowai"
+    ]
   },
   {
     "kanjiName": "難しい",
@@ -1130,8 +1097,7 @@
       "simple",
       "difficult",
       "light"
-    ],
-    "romaji": "muzukashii"
+    ]
   },
   {
     "kanjiName": "易しい",
@@ -1145,38 +1111,7 @@
       "complex",
       "hard",
       "easy"
-    ],
-    "romaji": "yasashii"
-  },
-  {
-    "kanjiName": "重い",
-    "hiragana": "おもい",
-    "meanings": [
-      "heavy",
-      "weighty"
-    ],
-    "quizAnswers": [
-      "light",
-      "easy",
-      "heavy",
-      "soft"
-    ],
-    "romaji": "omoi"
-  },
-  {
-    "kanjiName": "軽い",
-    "hiragana": "かるい",
-    "meanings": [
-      "light",
-      "lightweight"
-    ],
-    "quizAnswers": [
-      "heavy",
-      "difficult",
-      "dark",
-      "light"
-    ],
-    "romaji": "karui"
+    ]
   },
   {
     "kanjiName": "深い",
@@ -1190,8 +1125,7 @@
       "simple",
       "light",
       "deep"
-    ],
-    "romaji": "fukai"
+    ]
   },
   {
     "kanjiName": "浅い",
@@ -1205,8 +1139,7 @@
       "profound",
       "heavy",
       "shallow"
-    ],
-    "romaji": "asai"
+    ]
   },
   {
     "kanjiName": "厚い",
@@ -1220,8 +1153,7 @@
       "shallow",
       "light",
       "thick"
-    ],
-    "romaji": "atsui"
+    ]
   },
   {
     "kanjiName": "薄い",
@@ -1235,8 +1167,7 @@
       "strong",
       "heavy",
       "thin"
-    ],
-    "romaji": "usui"
+    ]
   },
   {
     "kanjiName": "硬い",
@@ -1250,8 +1181,7 @@
       "flexible",
       "light",
       "hard"
-    ],
-    "romaji": "katai"
+    ]
   },
   {
     "kanjiName": "柔らかい",
@@ -1265,8 +1195,7 @@
       "stiff",
       "rough",
       "soft"
-    ],
-    "romaji": "yawarakai"
+    ]
   },
   {
     "kanjiName": "甘い",
@@ -1280,8 +1209,7 @@
       "sour",
       "salty",
       "sweet"
-    ],
-    "romaji": "amai"
+    ]
   },
   {
     "kanjiName": "辛い",
@@ -1295,8 +1223,7 @@
       "bland",
       "sour",
       "spicy"
-    ],
-    "romaji": "karai"
+    ]
   },
   {
     "kanjiName": "酸っぱい",
@@ -1310,8 +1237,7 @@
       "bitter",
       "salty",
       "sour"
-    ],
-    "romaji": "suppai"
+    ]
   },
   {
     "kanjiName": "苦い",
@@ -1325,8 +1251,7 @@
       "sour",
       "spicy",
       "bitter"
-    ],
-    "romaji": "nigai"
+    ]
   },
   {
     "kanjiName": "長い",
@@ -1340,8 +1265,7 @@
       "brief",
       "wide",
       "long"
-    ],
-    "romaji": "nagai"
+    ]
   },
   {
     "kanjiName": "短い",
@@ -1355,8 +1279,7 @@
       "lengthy",
       "tall",
       "short"
-    ],
-    "romaji": "mijikai"
+    ]
   },
   {
     "kanjiName": "太い",
@@ -1370,8 +1293,7 @@
       "slim",
       "narrow",
       "thick"
-    ],
-    "romaji": "futoi"
+    ]
   },
   {
     "kanjiName": "細い",
@@ -1385,8 +1307,7 @@
       "fat",
       "wide",
       "thin"
-    ],
-    "romaji": "hosoi"
+    ]
   },
   {
     "kanjiName": "丸い",
@@ -1400,8 +1321,7 @@
       "flat",
       "sharp",
       "round"
-    ],
-    "romaji": "marui"
+    ]
   },
   {
     "kanjiName": "四角い",
@@ -1415,8 +1335,7 @@
       "circular",
       "triangular",
       "square"
-    ],
-    "romaji": "shikakui"
+    ]
   },
   {
     "kanjiName": "平らな",
@@ -1430,8 +1349,7 @@
       "rough",
       "round",
       "flat"
-    ],
-    "romaji": "tairana"
+    ]
   },
   {
     "kanjiName": "滑らかな",
@@ -1445,8 +1363,7 @@
       "bumpy",
       "coarse",
       "smooth"
-    ],
-    "romaji": "namerakana"
+    ]
   },
   {
     "kanjiName": "粗い",
@@ -1460,8 +1377,7 @@
       "fine",
       "soft",
       "rough"
-    ],
-    "romaji": "arai"
+    ]
   },
   {
     "kanjiName": "鋭い",
@@ -1475,8 +1391,7 @@
       "blunt",
       "smooth",
       "sharp"
-    ],
-    "romaji": "surudoi"
+    ]
   },
   {
     "kanjiName": "鈍い",
@@ -1490,8 +1405,7 @@
       "acute",
       "bright",
       "dull"
-    ],
-    "romaji": "nibui"
+    ]
   },
   {
     "kanjiName": "濃い",
@@ -1505,23 +1419,7 @@
       "light",
       "weak",
       "thick"
-    ],
-    "romaji": "koi"
-  },
-  {
-    "kanjiName": "薄い",
-    "hiragana": "うすい",
-    "meanings": [
-      "thin",
-      "weak"
-    ],
-    "quizAnswers": [
-      "thick",
-      "dense",
-      "strong",
-      "thin"
-    ],
-    "romaji": "usui"
+    ]
   },
   {
     "kanjiName": "固い",
@@ -1535,23 +1433,7 @@
       "soft",
       "flexible",
       "solid"
-    ],
-    "romaji": "katai"
-  },
-  {
-    "kanjiName": "柔らかい",
-    "hiragana": "やわらかい",
-    "meanings": [
-      "soft",
-      "tender"
-    ],
-    "quizAnswers": [
-      "hard",
-      "rigid",
-      "rough",
-      "soft"
-    ],
-    "romaji": "yawarakai"
+    ]
   },
   {
     "kanjiName": "乾いた",
@@ -1565,8 +1447,7 @@
       "moist",
       "humid",
       "dry"
-    ],
-    "romaji": "kawaita"
+    ]
   },
   {
     "kanjiName": "湿った",
@@ -1580,53 +1461,7 @@
       "arid",
       "dehydrated",
       "wet"
-    ],
-    "romaji": "shimetta"
-  },
-  {
-    "kanjiName": "明るい",
-    "hiragana": "あかるい",
-    "meanings": [
-      "bright",
-      "cheerful"
-    ],
-    "quizAnswers": [
-      "dark",
-      "gloomy",
-      "dim",
-      "bright"
-    ],
-    "romaji": "akarui"
-  },
-  {
-    "kanjiName": "暗い",
-    "hiragana": "くらい",
-    "meanings": [
-      "dark",
-      "gloomy"
-    ],
-    "quizAnswers": [
-      "bright",
-      "cheerful",
-      "light",
-      "dark"
-    ],
-    "romaji": "kurai"
-  },
-  {
-    "kanjiName": "静かな",
-    "hiragana": "しずかな",
-    "meanings": [
-      "quiet",
-      "peaceful"
-    ],
-    "quizAnswers": [
-      "noisy",
-      "loud",
-      "busy",
-      "quiet"
-    ],
-    "romaji": "shizukana"
+    ]
   },
   {
     "kanjiName": "騒がしい",
@@ -1640,38 +1475,7 @@
       "peaceful",
       "calm",
       "noisy"
-    ],
-    "romaji": "sawagashii"
-  },
-  {
-    "kanjiName": "早い",
-    "hiragana": "はやい",
-    "meanings": [
-      "early",
-      "fast"
-    ],
-    "quizAnswers": [
-      "late",
-      "slow",
-      "tardy",
-      "early"
-    ],
-    "romaji": "hayai"
-  },
-  {
-    "kanjiName": "遅い",
-    "hiragana": "おそい",
-    "meanings": [
-      "late",
-      "slow"
-    ],
-    "quizAnswers": [
-      "early",
-      "fast",
-      "quick",
-      "late"
-    ],
-    "romaji": "osoi"
+    ]
   },
   {
     "kanjiName": "若い",
@@ -1685,143 +1489,7 @@
       "elderly",
       "mature",
       "young"
-    ],
-    "romaji": "wakai"
-  },
-  {
-    "kanjiName": "古い",
-    "hiragana": "ふるい",
-    "meanings": [
-      "old",
-      "ancient"
-    ],
-    "quizAnswers": [
-      "new",
-      "modern",
-      "young",
-      "old"
-    ],
-    "romaji": "furui"
-  },
-  {
-    "kanjiName": "新しい",
-    "hiragana": "あたらしい",
-    "meanings": [
-      "new",
-      "fresh"
-    ],
-    "quizAnswers": [
-      "old",
-      "ancient",
-      "used",
-      "new"
-    ],
-    "romaji": "atarashii"
-  },
-  {
-    "kanjiName": "古い",
-    "hiragana": "ふるい",
-    "meanings": [
-      "old",
-      "used"
-    ],
-    "quizAnswers": [
-      "new",
-      "fresh",
-      "modern",
-      "old"
-    ],
-    "romaji": "furui"
-  },
-  {
-    "kanjiName": "良い",
-    "hiragana": "よい",
-    "meanings": [
-      "good",
-      "excellent"
-    ],
-    "quizAnswers": [
-      "bad",
-      "poor",
-      "terrible",
-      "good"
-    ],
-    "romaji": "yoi"
-  },
-  {
-    "kanjiName": "悪い",
-    "hiragana": "わるい",
-    "meanings": [
-      "bad",
-      "poor"
-    ],
-    "quizAnswers": [
-      "good",
-      "excellent",
-      "great",
-      "bad"
-    ],
-    "romaji": "warui"
-  },
-  {
-    "kanjiName": "正しい",
-    "hiragana": "ただしい",
-    "meanings": [
-      "correct",
-      "right"
-    ],
-    "quizAnswers": [
-      "wrong",
-      "incorrect",
-      "false",
-      "correct"
-    ],
-    "romaji": "tadashii"
-  },
-  {
-    "kanjiName": "間違った",
-    "hiragana": "まちがった",
-    "meanings": [
-      "wrong",
-      "incorrect"
-    ],
-    "quizAnswers": [
-      "right",
-      "correct",
-      "accurate",
-      "wrong"
-    ],
-    "romaji": "machigatta"
-  },
-  {
-    "kanjiName": "安全な",
-    "hiragana": "あんぜんな",
-    "meanings": [
-      "safe",
-      "secure"
-    ],
-    "quizAnswers": [
-      "dangerous",
-      "risky",
-      "hazardous",
-      "safe"
-    ],
-    "romaji": "anzenna"
-  },
-  {
-    "kanjiName": "危険な",
-    "hiragana": "きけんな",
-    "meanings": [
-      "dangerous",
-      "risky"
-    ],
-    "quizAnswers": [
-      "safe",
-      "secure",
-      "harmless",
-      "dangerous"
-    ],
-    "romaji": "kikenna"
+    ]
   },
   {
     "kanjiName": "便利な",
@@ -1835,8 +1503,7 @@
       "troublesome",
       "difficult",
       "convenient"
-    ],
-    "romaji": "benrina"
+    ]
   },
   {
     "kanjiName": "不便な",
@@ -1850,8 +1517,7 @@
       "handy",
       "useful",
       "inconvenient"
-    ],
-    "romaji": "fubenna"
+    ]
   },
   {
     "kanjiName": "健康な",
@@ -1865,8 +1531,7 @@
       "ill",
       "unhealthy",
       "healthy"
-    ],
-    "romaji": "kenkouna"
+    ]
   },
   {
     "kanjiName": "病気の",
@@ -1880,8 +1545,7 @@
       "sound",
       "fit",
       "sick"
-    ],
-    "romaji": "byoukino"
+    ]
   },
   {
     "kanjiName": "豊かな",
@@ -1895,8 +1559,7 @@
       "scarce",
       "lacking",
       "rich"
-    ],
-    "romaji": "yutakana"
+    ]
   },
   {
     "kanjiName": "貧しい",
@@ -1910,8 +1573,7 @@
       "wealthy",
       "abundant",
       "poor"
-    ],
-    "romaji": "mazushii"
+    ]
   },
   {
     "kanjiName": "親切な",
@@ -1925,8 +1587,7 @@
       "unfriendly",
       "rude",
       "kind"
-    ],
-    "romaji": "shinsetsuna"
+    ]
   },
   {
     "kanjiName": "不親切な",
@@ -1940,8 +1601,7 @@
       "friendly",
       "nice",
       "unkind"
-    ],
-    "romaji": "fushinsetsuna"
+    ]
   },
   {
     "kanjiName": "賢い",
@@ -1955,8 +1615,7 @@
       "stupid",
       "dumb",
       "wise"
-    ],
-    "romaji": "kashikoi"
+    ]
   },
   {
     "kanjiName": "愚かな",
@@ -1970,8 +1629,7 @@
       "clever",
       "smart",
       "foolish"
-    ],
-    "romaji": "orokana"
+    ]
   },
   {
     "kanjiName": "真面目な",
@@ -1985,8 +1643,7 @@
       "playful",
       "silly",
       "serious"
-    ],
-    "romaji": "majimena"
+    ]
   },
   {
     "kanjiName": "ふざけた",
@@ -2000,8 +1657,7 @@
       "earnest",
       "solemn",
       "frivolous"
-    ],
-    "romaji": "fuzaketa"
+    ]
   },
   {
     "kanjiName": "丁寧な",
@@ -2015,8 +1671,7 @@
       "impolite",
       "discourteous",
       "polite"
-    ],
-    "romaji": "teineina"
+    ]
   },
   {
     "kanjiName": "失礼な",
@@ -2030,7 +1685,6 @@
       "courteous",
       "respectful",
       "rude"
-    ],
-    "romaji": "shitsureina"
+    ]
   }
 ]
