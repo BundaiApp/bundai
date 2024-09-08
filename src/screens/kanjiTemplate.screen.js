@@ -9,7 +9,7 @@ import Adverbs from '../util/adverbs.json'
 import Katakana from '../util/katakana.json'
 import Hiragana from '../util/hiragana.json'
 
-import ProvideData from '../util/jlptArray'
+import { provideData } from '../util/jlptArray'
 
 function TemplateKanji({ navigation: { navigate }, route }) {
   const {
@@ -39,9 +39,9 @@ function TemplateKanji({ navigation: { navigate }, route }) {
   }
 
   useEffect(() => {
-    if (jlptLevel) setArr(ProvideData('jlpt', jlptLevel))
-    if (strokes) setArr(ProvideData('strokes', strokes))
-    if (grades) setArr(ProvideData('grade', grades))
+    if (jlptLevel) setArr(provideData('jlpt', jlptLevel))
+    if (strokes) setArr(provideData('strokes', strokes))
+    if (grades) setArr(provideData('grade', grades))
     if (verbs) setArr(Verbs)
     if (nouns) setArr(Nouns)
     if (adjectives) setArr(Adjectives)

@@ -37,18 +37,12 @@ export default function KanjiDetail({ navigation, route }) {
     </View>
   )
 
-  const KanjiBox = ({ kanji, meaning }) => (
+  const KanjiBox = ({ kanji, meaning, reading, romaji }) => (
     <View style={styles.block}>
       <Text style={styles.subtitleText}>{kanji}</Text>
       <Text style={styles.subtitleText}>{meaning}</Text>
-    </View>
-  )
-
-  const KanjiBoxForUsedIn = ({ kanji, meanings, furigana }) => (
-    <View style={styles.block}>
-      <Text style={styles.subtitleText}>{kanji}</Text>
-      <Text style={styles.subtitleTextSmall}>{furigana}</Text>
-      <Text style={styles.subtitleTextSmall}>{meanings}</Text>
+      <Text style={styles.subtitleTextSmall}>{reading}</Text>
+      <Text style={styles.subtitleTextSmall}>{romaji}</Text>
     </View>
   )
 
@@ -198,6 +192,7 @@ export default function KanjiDetail({ navigation, route }) {
                   index={index}
                   kanji={item.kanji}
                   meaning={item.meaning}
+                  reading={item.reading}
                 />
               ))}
             </View>
@@ -207,12 +202,12 @@ export default function KanjiDetail({ navigation, route }) {
             </View>
             <View style={styles.pillHolder}>
               {usedIn?.map((item, index) => (
-                <KanjiBoxForUsedIn
+                <KanjiBox
                   key={item.kanji}
                   index={index}
                   kanji={item.kanji}
-                  furigana={item.furigana}
-                  meanings={item.meanings}
+                  reading={item.reading}
+                  meaning={item.meaning}
                 />
               ))}
             </View>

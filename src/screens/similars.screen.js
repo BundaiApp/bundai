@@ -53,7 +53,6 @@ export default function SimilarScreen({ navigation: { navigate } }) {
             key={item}
             style={styles.block}
             onPress={() => {
-              console.log(SIMILAR_DATA[item].usedIn)
               navigate('SimilarDetail', {
                 kanji: item,
                 meaning: SIMILAR_DATA[item].meaning,
