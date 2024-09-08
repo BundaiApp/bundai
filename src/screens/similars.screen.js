@@ -53,10 +53,11 @@ export default function SimilarScreen({ navigation: { navigate } }) {
             key={item}
             style={styles.block}
             onPress={() => {
+              console.log(SIMILAR_DATA[item].usedIn)
               navigate('SimilarDetail', {
                 kanji: item,
-                meaning: SIMILAR_DATA[item].meaning.join(', '),
-                furigana: [...SIMILAR_DATA[item].on, ...SIMILAR_DATA[item].kun].join(', '),
+                meaning: SIMILAR_DATA[item].meaning,
+                furigana: SIMILAR_DATA[item].furigana,
                 kanjiArray: SIMILAR_DATA[item].related_kanji,
                 usedIn: SIMILAR_DATA[item].usedIn
               })

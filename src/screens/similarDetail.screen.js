@@ -117,7 +117,7 @@ export default function SimilarDetails({ route }) {
           </View>
           <View style={styles.pillHolder}>
             {usedIn?.map((item, index) => (
-              <KanjiBox key={item.kanji} index={index} kanji={item.kanji} meaning={item.meaning} />
+              <KanjiBox key={item.kanji} index={index} kanji={item.kanji} meaning={item.meanings} />
             ))}
           </View>
         </View>
