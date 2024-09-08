@@ -1,27 +1,35 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState, useMemo } from 'react'
 import { SafeAreaView, Text, TextInput, FlatList, TouchableOpacity, StyleSheet } from 'react-native'
-import { heightPercentageToDP as hp } from 'react-native-responsive-screen'
-import { toHiragana } from 'wanakana'
-
-import SIMILAR_DATA from '../util/similar.json'
+import { provideKanjiObject } from '../util/jlptArray.js'
 
 export default function SimilarScreen({ navigation: { navigate } }) {
   const [search, setSearch] = useState('')
+  const SIMILAR_DATA = useMemo(() => provideKanjiObject(), [])
   const [filteredData, setFilteredData] = useState(Object.keys(SIMILAR_DATA))
 
   const searchKanji = (query) => {
     if (!query) return Object.keys(SIMILAR_DATA)
 
-    return Object.entries(SIMILAR_DATA).filter(([kanji, data]) => {
-      const lowerQuery = query.toLowerCase()
-      // Check kanji
-      if (kanji.includes(query)) return true
-      // Check meaning
-      if (data.meaning && data.meaning.toLowerCase().includes(lowerQuery)) return true
-      // Check furigana
-      if (data.furigana && data.furigana.includes(query)) return true
-      return false
-    }).map(([kanji]) => kanji)
+    return Object.entries(SIMILAR_DATA)
+      .filter(([kanji, data]) => {
+        const lowerQuery = query.toLowerCase()
+
+        // Check kanji
+        if (kanji.includes(query)) return true
+
+        // Check meaning
+        if (data.meaning && data.meaning.some((m) => m.toLowerCase().includes(lowerQuery)))
+          return true
+
+        // Check on readings
+        if (data.on && data.on.some((reading) => reading.includes(query))) return true
+
+        // Check kun readings
+        if (data.kun && data.kun.some((reading) => reading.includes(query))) return true
+
+        return false
+      })
+      .map(([kanji]) => kanji)
   }
 
   const handleSearch = (text) => {
@@ -36,7 +44,7 @@ export default function SimilarScreen({ navigation: { navigate } }) {
         style={styles.searchBar}
         placeholder="Search here..."
         value={search}
-        onChangeText={(text) => handleSearch(text)}
+        onChangeText={handleSearch}
       />
       <FlatList
         data={filteredData}
@@ -44,15 +52,15 @@ export default function SimilarScreen({ navigation: { navigate } }) {
           <TouchableOpacity
             key={item}
             style={styles.block}
-            onPress={() =>
+            onPress={() => {
               navigate('SimilarDetail', {
                 kanji: item,
-                meaning: SIMILAR_DATA[item].meaning,
-                furigana: SIMILAR_DATA[item].furigana,
+                meaning: SIMILAR_DATA[item].meaning.join(', '),
+                furigana: [...SIMILAR_DATA[item].on, ...SIMILAR_DATA[item].kun].join(', '),
                 kanjiArray: SIMILAR_DATA[item].related_kanji,
                 usedIn: SIMILAR_DATA[item].usedIn
               })
-            }>
+            }}>
             <Text style={styles.kanjiText}>{item}</Text>
           </TouchableOpacity>
         )}
@@ -63,6 +71,8 @@ export default function SimilarScreen({ navigation: { navigate } }) {
     </SafeAreaView>
   )
 }
+
+// ... styles remain unchanged
 
 const styles = StyleSheet.create({
   container: {
