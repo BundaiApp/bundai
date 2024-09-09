@@ -2,20 +2,7 @@ import React, { useState, useMemo } from 'react'
 import { SafeAreaView, Text, TextInput, FlatList, TouchableOpacity, StyleSheet } from 'react-native'
 import { provideKanjiObject } from '../util/jlptArray.js'
 
-const filterAndLimitUsedIn = (usedIn) => {
-  // Define the order of JLPT levels
-  const jlptOrder = ['n5', 'n4', 'n3', 'n2', 'n1'];
 
-  // Sort the usedIn array based on JLPT level
-  const sortedUsedIn = usedIn.sort((a, b) => {
-    const aIndex = jlptOrder.indexOf(a.jlptLevel.toLowerCase());
-    const bIndex = jlptOrder.indexOf(b.jlptLevel.toLowerCase());
-    return aIndex - bIndex;
-  });
-
-  // Return the first 8 items
-  return sortedUsedIn.slice(0, 8);
-};
 
 export default function SimilarScreen({ navigation: { navigate } }) {
   const [search, setSearch] = useState('')
@@ -64,13 +51,13 @@ export default function SimilarScreen({ navigation: { navigate } }) {
             style={styles.block}
             onPress={() => {
               const kanjiData = SIMILAR_DATA[item];
-              const filteredUsedIn = filterAndLimitUsedIn(kanjiData.usedIn);
+
               navigate('SimilarDetail', {
                 kanji: item,
                 meaning: kanjiData.meaning,
                 furigana: kanjiData.furigana,
                 kanjiArray: kanjiData.related_kanji,
-                usedIn: filteredUsedIn
+                usedIn: kanjiData.usedIn
               })
             }}>
             <Text style={styles.kanjiText}>{item}</Text>

@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useMemo } from 'react'
 import { View, ScrollView, Text, TouchableOpacity, StyleSheet, Dimensions } from 'react-native'
 import {
   widthPercentageToDP as wp,
@@ -77,9 +77,28 @@ const CircularMenu = ({ menuData }) => {
   )
 }
 
+const JLPT_LEVELS = ['All', 'N5', 'N4', 'N3', 'N2', 'N1'];
+
 export default function SimilarDetails({ route }) {
   const { kanji, meaning, furigana, kanjiArray, usedIn } = route.params
-  const [isSelectd, setIsSelected] = useState('similar')
+  const [isSelected, setIsSelected] = useState('similar')
+  const [selectedLevel, setSelectedLevel] = useState('All')
+
+  const filterAndLimitUsedIn = useMemo(() => {
+    const jlptOrder = ['n5', 'n4', 'n3', 'n2', 'n1'];
+    
+    const filteredUsedIn = selectedLevel === 'All'
+      ? usedIn
+      : usedIn.filter(word => word.jlptLevel.toLowerCase() === selectedLevel.toLowerCase());
+
+    const sortedUsedIn = filteredUsedIn.sort((a, b) => {
+      const aIndex = jlptOrder.indexOf(a.jlptLevel.toLowerCase());
+      const bIndex = jlptOrder.indexOf(b.jlptLevel.toLowerCase());
+      return aIndex - bIndex;
+    });
+
+    return sortedUsedIn.slice(0, 8);
+  }, [usedIn, selectedLevel]);
 
   const menuData = [
     {
@@ -98,13 +117,33 @@ export default function SimilarDetails({ route }) {
       furigana,
       isMain: true
     },
-    ...usedIn
+    ...filterAndLimitUsedIn
   ]
 
   const KanjiBox = ({ kanji, meaning }) => (
     <View style={styles.block}>
       <Text style={styles.subtitleText}>{kanji}</Text>
       <Text style={styles.subtitleText}>{meaning}</Text>
+    </View>
+  )
+
+  const LevelFilter = () => (
+    <View style={styles.filterContainer}>
+      {JLPT_LEVELS.map((level) => (
+        <TouchableOpacity
+          key={level}
+          style={[
+            styles.filterButton,
+            selectedLevel === level && styles.selectedFilterButton
+          ]}
+          onPress={() => setSelectedLevel(level)}
+        >
+          <Text style={[
+            styles.filterButtonText,
+            selectedLevel === level && styles.selectedFilterButtonText
+          ]}>{level}</Text>
+        </TouchableOpacity>
+      ))}
     </View>
   )
 
@@ -115,8 +154,9 @@ export default function SimilarDetails({ route }) {
           <View style={styles.textHolder}>
             <Text style={styles.header}>Words made with {kanji}</Text>
           </View>
+          <LevelFilter />
           <View style={styles.pillHolder}>
-            {usedIn?.map((item, index) => (
+            {filterAndLimitUsedIn.map((item, index) => (
               <KanjiBox key={item.kanji} index={index} kanji={item.kanji} meaning={item.meanings} />
             ))}
           </View>
@@ -142,8 +182,8 @@ export default function SimilarDetails({ route }) {
             style={[
               styles.tabTextHolder,
               {
-                borderBottomColor: isSelectd === 'similar' ? 'blue' : 'gray',
-                borderBottomWidth: isSelectd === 'similar' ? 3 : 0
+                borderBottomColor: isSelected === 'similar' ? 'blue' : 'gray',
+                borderBottomWidth: isSelected === 'similar' ? 3 : 0
               }
             ]}
             onPress={() => setIsSelected('similar')}>
@@ -155,8 +195,8 @@ export default function SimilarDetails({ route }) {
             style={[
               styles.tabTextHolder,
               {
-                borderBottomColor: isSelectd === 'used' ? 'blue' : 'gray',
-                borderBottomWidth: isSelectd === 'used' ? 3 : 0
+                borderBottomColor: isSelected === 'used' ? 'blue' : 'gray',
+                borderBottomWidth: isSelected === 'used' ? 3 : 0
               }
             ]}
             onPress={() => setIsSelected('used')}>
@@ -165,10 +205,11 @@ export default function SimilarDetails({ route }) {
             </Text>
           </TouchableOpacity>
         </View>
+        {isSelected === 'used' && <LevelFilter />}
       </View>
 
       <View style={styles.bottomContainer}>
-        {isSelectd === 'used' ? (
+        {isSelected === 'used' ? (
           <CircularMenu menuData={usedWords} radius={150} />
         ) : (
           <CircularMenu menuData={menuData} radius={150} />
@@ -272,5 +313,27 @@ const styles = StyleSheet.create({
     fontSize: 30,
     alignSelf: 'flex-start',
     paddingLeft: '5%'
-  }
+  },
+  filterContainer: {
+    flexDirection: 'row',
+    justifyContent: 'space-around',
+    paddingVertical: 10,
+  },
+  filterButton: {
+    paddingHorizontal: 12,
+    paddingVertical: 6,
+    borderRadius: 20,
+    borderWidth: 1,
+    borderColor: '#ccc',
+  },
+  selectedFilterButton: {
+    backgroundColor: '#007AFF',
+    borderColor: '#007AFF',
+  },
+  filterButtonText: {
+    fontSize: 14,
+  },
+  selectedFilterButtonText: {
+    color: 'white',
+  },
 })
