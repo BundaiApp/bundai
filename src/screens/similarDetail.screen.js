@@ -35,7 +35,7 @@ const calculatePosition = (index, totalItems) => {
   return { top: y, left: x }
 }
 
-const MenuItem = ({ kanji, meaning, furigana }) => (
+const MenuItem = ({ kanji, meaning, reading }) => (
   <TouchableOpacity
     style={[
       styles.menuItem,
@@ -52,7 +52,7 @@ const MenuItem = ({ kanji, meaning, furigana }) => (
       {meaning}
     </Text>
     <Text style={[styles.menuText, { fontSize: calculatedSmallFontSize[DeviceType()] }]}>
-      {furigana}
+      {reading}
     </Text>
   </TouchableOpacity>
 )
