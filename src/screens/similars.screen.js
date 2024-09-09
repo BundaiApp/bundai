@@ -10,26 +10,21 @@ export default function SimilarScreen({ navigation: { navigate } }) {
   const searchKanji = (query) => {
     if (!query) return Object.keys(SIMILAR_DATA)
 
-    return Object.entries(SIMILAR_DATA)
-      .filter(([kanji, data]) => {
-        const lowerQuery = query.toLowerCase()
-
-        // Check kanji
-        if (kanji.includes(query)) return true
-
-        // Check meaning
-        if (data.meaning && data.meaning.some((m) => m.toLowerCase().includes(lowerQuery)))
-          return true
-
-        // Check on readings
-        if (data.on && data.on.some((reading) => reading.includes(query))) return true
-
-        // Check kun readings
-        if (data.kun && data.kun.some((reading) => reading.includes(query))) return true
-
-        return false
-      })
-      .map(([kanji]) => kanji)
+    return Object.entries(SIMILAR_DATA).filter(([kanji, data]) => {
+      const lowerQuery = query.toLowerCase()
+      
+      // Check kanji
+      if (kanji.includes(query)) return true
+      
+      // Check meaning (now a string)
+      if (data.meaning && data.meaning.toLowerCase().includes(lowerQuery)) return true
+      
+      // Check on readings
+      if (data.furigana && data.furigana.includes(query)) return true
+      
+      
+      return false
+    }).map(([kanji]) => kanji)
   }
 
   const handleSearch = (text) => {
@@ -53,12 +48,13 @@ export default function SimilarScreen({ navigation: { navigate } }) {
             key={item}
             style={styles.block}
             onPress={() => {
+              const kanjiData = SIMILAR_DATA[item];
               navigate('SimilarDetail', {
                 kanji: item,
-                meaning: SIMILAR_DATA[item].meaning,
-                furigana: SIMILAR_DATA[item].furigana,
-                kanjiArray: SIMILAR_DATA[item].related_kanji,
-                usedIn: SIMILAR_DATA[item].usedIn
+                meaning: kanjiData.meaning,
+                furigana: kanjiData.furigana,
+                kanjiArray: kanjiData.related_kanji,
+                usedIn: kanjiData.usedIn
               })
             }}>
             <Text style={styles.kanjiText}>{item}</Text>
