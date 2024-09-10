@@ -8,6 +8,7 @@ import Hiragana from '../util/hiragana.json'
 import { provideData, provideTopWordsData } from '../util/jlptArray'
 
 const JLPT_LEVELS = ['N5', 'N4', 'N3', 'N2', 'N1']
+const ITEM_COUNTS = [10, 20, 50, 100, 'All']
 
 function TemplateKanji({ navigation: { navigate }, route }) {
   const {
@@ -25,6 +26,7 @@ function TemplateKanji({ navigation: { navigate }, route }) {
 
   const [arr, setArr] = useState([])
   const [selectedLevel, setSelectedLevel] = useState('N5')
+  const [itemCount, setItemCount] = useState(20)
 
   function navigateToDetailScreen(item, index) {
     navigate('KanjiDetail', {
@@ -39,16 +41,17 @@ function TemplateKanji({ navigation: { navigate }, route }) {
 
   useEffect(() => {
     loadData()
-  }, [selectedLevel])
+  }, [selectedLevel, itemCount])
 
   const loadData = () => {
+    const count = itemCount === 'All' ? 1000 : itemCount // Using a large number for 'All'
     if (jlptLevel) setArr(provideData('jlpt', jlptLevel))
     if (strokes) setArr(provideData('strokes', strokes))
     if (grades) setArr(provideData('grade', grades))
-    if (verbs) setArr(provideTopWordsData('verbs', selectedLevel.toLowerCase(), 10))
-    if (nouns) setArr(provideTopWordsData('nouns', selectedLevel.toLowerCase(), 20))
-    if (adjectives) setArr(provideTopWordsData('adjectives', selectedLevel.toLowerCase(), 20))
-    if (adverbs) setArr(provideTopWordsData('adverbs', selectedLevel.toLowerCase(), 20))
+    if (verbs) setArr(provideTopWordsData('verbs', selectedLevel.toLowerCase(), count))
+    if (nouns) setArr(provideTopWordsData('nouns', selectedLevel.toLowerCase(), count))
+    if (adjectives) setArr(provideTopWordsData('adjectives', selectedLevel.toLowerCase(), count))
+    if (adverbs) setArr(provideTopWordsData('adverbs', selectedLevel.toLowerCase(), count))
     if (hiragana) setArr(Hiragana)
     if (katakana) setArr(Katakana)
   }
@@ -58,16 +61,34 @@ function TemplateKanji({ navigation: { navigate }, route }) {
       {JLPT_LEVELS.map((level) => (
         <TouchableOpacity
           key={level}
-          style={[
-            styles.filterButton,
-            selectedLevel === level && styles.selectedFilterButton
-          ]}
-          onPress={() => setSelectedLevel(level)}
-        >
-          <Text style={[
-            styles.filterButtonText,
-            selectedLevel === level && styles.selectedFilterButtonText
-          ]}>{level}</Text>
+          style={[styles.filterButton, selectedLevel === level && styles.selectedFilterButton]}
+          onPress={() => setSelectedLevel(level)}>
+          <Text
+            style={[
+              styles.filterButtonText,
+              selectedLevel === level && styles.selectedFilterButtonText
+            ]}>
+            {level}
+          </Text>
+        </TouchableOpacity>
+      ))}
+    </View>
+  )
+
+  const renderItemCountFilter = () => (
+    <View style={styles.filterContainer}>
+      {ITEM_COUNTS.map((count) => (
+        <TouchableOpacity
+          key={count}
+          style={[styles.filterButton, itemCount === count && styles.selectedFilterButton]}
+          onPress={() => setItemCount(count)}>
+          <Text
+            style={[
+              styles.filterButtonText,
+              itemCount === count && styles.selectedFilterButtonText
+            ]}>
+            {count}
+          </Text>
         </TouchableOpacity>
       ))}
     </View>
@@ -75,7 +96,12 @@ function TemplateKanji({ navigation: { navigate }, route }) {
 
   return (
     <View style={styles.container}>
-      {(nouns || verbs || adjectives || adverbs) && renderJLPTFilter()}
+      {(nouns || verbs || adjectives || adverbs) && (
+        <>
+          {renderJLPTFilter()}
+          {renderItemCountFilter()}
+        </>
+      )}
       <FlatList
         data={arr}
         renderItem={({ item, index }) => (
@@ -86,8 +112,8 @@ function TemplateKanji({ navigation: { navigate }, route }) {
           </TouchableOpacity>
         )}
         numColumns={isWord ? (Platform.OS != 'ios' && Platform.OS != 'android' ? 3 : 2) : 5}
-        style={styles.flatList} // background color of the FlatList
-        contentContainerStyle={styles.flatListContent} // background color of the content
+        style={styles.flatList}
+        contentContainerStyle={styles.flatListContent}
       />
     </View>
   )
@@ -136,7 +162,7 @@ const styles = StyleSheet.create({
   filterContainer: {
     flexDirection: 'row',
     justifyContent: 'space-around',
-    paddingVertical: 10,
+    paddingVertical: 5
   },
   filterButton: {
     paddingHorizontal: 12,
@@ -144,17 +170,18 @@ const styles = StyleSheet.create({
     borderRadius: 20,
     borderWidth: 1,
     borderColor: '#ccc',
+    marginHorizontal: 2
   },
   selectedFilterButton: {
     backgroundColor: '#007AFF',
-    borderColor: '#007AFF',
+    borderColor: '#007AFF'
   },
   filterButtonText: {
-    fontSize: 14,
+    fontSize: 14
   },
   selectedFilterButtonText: {
-    color: 'white',
-  },
+    color: 'white'
+  }
 })
 
 export default TemplateKanji
