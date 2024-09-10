@@ -14,9 +14,6 @@ import AuthContext from '../contexts/authContext.js'
 
 //data
 import { provideData, provideTopWordsData } from '../util/jlptArray'
-import Verbs from '../util/verbs.json'
-import Adjectives from '../util/adj.json'
-import Adverbs from '../util/adverbs.json'
 import Katakana from '../util/katakana.json'
 import Hiragana from '../util/hiragana.json'
 
@@ -29,6 +26,7 @@ export default function QuizSettings({ navigation: { navigate } }) {
   const [selected, setSelected] = useState([])
   const [quizType, setQuizType] = useState('meaning')
   const [isWritten, setIsWritten] = useState(false)
+  const [itemCount, setItemCount] = useState(10)
 
   //context
   const { auth } = useContext(AuthContext)
@@ -69,15 +67,37 @@ export default function QuizSettings({ navigation: { navigate } }) {
   }
 
   const dataTypes = {
-    jlpt: provideData('jlpt', 5, true),
-    strokes: provideData('strokes', 1, true),
-    grades: provideData('grade', 1, true),
-    verbs: Verbs,
-    adjectives: Adjectives,
-    adverbs: Adverbs,
+    jlpt: provideData('jlpt', level, true),
+    strokes: provideData('strokes', level, true),
+    grades: provideData('grade', level, true),
+    verbs: provideTopWordsData('verbs', `n${level}`, itemCount),
+    adjectives: provideTopWordsData('adjectives', `n${level}`, itemCount),
+    adverbs: provideTopWordsData('adverbs', `n${level}`, itemCount),
+    nouns: provideTopWordsData('nouns', `n${level}`, itemCount),
     hiragana: Hiragana,
     katakana: Katakana
   }
+
+  const ITEM_COUNTS = [10, 20, 50, 100, 'All']
+
+  const RenderItemCountFilter = () => (
+    <View style={styles.filterContainer}>
+      {ITEM_COUNTS.map((count) => (
+        <TouchableOpacity
+          key={count}
+          style={[styles.filterButton, itemCount === count && styles.selectedFilterButton]}
+          onPress={() => setItemCount(count)}>
+          <Text
+            style={[
+              styles.filterButtonText,
+              itemCount === count && styles.selectedFilterButtonText
+            ]}>
+            {count}
+          </Text>
+        </TouchableOpacity>
+      ))}
+    </View>
+  )
 
   return (
     <View style={styles.container}>
@@ -102,7 +122,7 @@ export default function QuizSettings({ navigation: { navigate } }) {
 
       <View style={styles.secondContainer}>
         <ScrollView horizontal>
-          {type === 'jlpt'
+          {type === 'jlpt' || type === 'verbs' || type === 'adjectives' || type === 'adverbs' || type === 'nouns'
             ? new Array(5).fill(1).map((i, index) => (
                 <TouchableOpacity
                   key={`jlpt${5 - index}`}
@@ -141,6 +161,12 @@ export default function QuizSettings({ navigation: { navigate } }) {
         </ScrollView>
       </View>
 
+      {/* #################  count container ################## */}
+
+      {type === 'verbs' || type === 'adjectives' || type === 'adverbs' || type === 'nouns' ? (
+        <RenderItemCountFilter />
+      ) : null}
+
       {/* #################  third container ################## */}
       {/* #################  third container ################## */}
 
@@ -159,7 +185,11 @@ export default function QuizSettings({ navigation: { navigate } }) {
                 { width: type === 'jlpt' || type === 'strokes' || type === 'grades' ? 50 : 100 }
               ]}
               onPress={() => checkIfSelected(item)}>
-              <Text style={styles.kanjiText}>{item.kanjiName}</Text>
+              <Text style={styles.kanjiText}>
+                {type === 'jlpt' || type === 'strokes' || type === 'grades' || type === 'hiragana' || type === 'katakana'
+                  ? item.kanjiName
+                  : item.kanji}
+              </Text>
             </TouchableOpacity>
           )}
           numColumns={Platform.OS != 'ios' && Platform.OS != 'android' ? 7 : 3}
@@ -370,5 +400,22 @@ const styles = StyleSheet.create({
     backgroundColor: 'lightblue',
     justifyContent: 'center',
     alignItems: 'center'
+  },
+  filterContainer: {
+    flexDirection: 'row',
+    justifyContent: 'space-around',
+    width: '100%',
+    marginBottom: 10
+  },
+  filterButton: {
+    padding: 5,
+    backgroundColor: 'lightgray',
+    borderRadius: 5
+  },
+  selectedFilterButton: {
+    backgroundColor: 'gray'
+  },
+  selectedFilterButtonText: {
+    color: 'white'
   }
 })
