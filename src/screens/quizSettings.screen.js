@@ -13,7 +13,7 @@ import { topics, words, kana } from '../util/constants'
 import AuthContext from '../contexts/authContext.js'
 
 //data
-import ProvideData from '../util/jlptArray'
+import { provideData, provideTopWordsData } from '../util/jlptArray'
 import Verbs from '../util/verbs.json'
 import Adjectives from '../util/adj.json'
 import Adverbs from '../util/adverbs.json'
@@ -69,9 +69,9 @@ export default function QuizSettings({ navigation: { navigate } }) {
   }
 
   const dataTypes = {
-    jlpt: ProvideData('jlpt', 1, true),
-    strokes: ProvideData('strokes', 1, true),
-    grades: ProvideData('grade', 1, true),
+    jlpt: provideData('jlpt', 5, true),
+    strokes: provideData('strokes', 1, true),
+    grades: provideData('grade', 1, true),
     verbs: Verbs,
     adjectives: Adjectives,
     adverbs: Adverbs,
@@ -106,7 +106,10 @@ export default function QuizSettings({ navigation: { navigate } }) {
             ? new Array(5).fill(1).map((i, index) => (
                 <TouchableOpacity
                   key={`jlpt${5 - index}`}
-                  style={styles.pillForSecondRow}
+                  style={[
+                    styles.pillForSecondRow,
+                    { backgroundColor: 5 - index === level ? 'thistle' : 'lightblue' }
+                  ]}
                   onPress={() => setLevel(5 - index)}>
                   <Text style={styles.buttonTextSmall}>
                     {'N'}
