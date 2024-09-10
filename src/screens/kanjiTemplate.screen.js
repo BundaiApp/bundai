@@ -9,7 +9,7 @@ import Adverbs from '../util/adverbs.json'
 import Katakana from '../util/katakana.json'
 import Hiragana from '../util/hiragana.json'
 
-import { provideData } from '../util/jlptArray'
+import { provideData, provideTopWordsData } from '../util/jlptArray'
 
 function TemplateKanji({ navigation: { navigate }, route }) {
   const {
@@ -43,18 +43,11 @@ function TemplateKanji({ navigation: { navigate }, route }) {
     if (strokes) setArr(provideData('strokes', strokes))
     if (grades) setArr(provideData('grade', grades))
     if (verbs) setArr(Verbs)
-    if (nouns) setArr(Nouns)
+    if (nouns) setArr(provideTopWordsData('nouns', 100))
     if (adjectives) setArr(Adjectives)
     if (adverbs) setArr(Adverbs)
     if (hiragana) setArr(Hiragana)
     if (katakana) setArr(Katakana)
-  }, [])
-
-  useEffect(() => {
-    console.log('nouns:', Nouns.length)
-    console.log('verbs:', Verbs.length)
-    console.log('adj:', Adjectives.length)
-    console.log('adverbs:', Adverbs.length)
   }, [])
 
   return (
@@ -64,8 +57,11 @@ function TemplateKanji({ navigation: { navigate }, route }) {
         renderItem={({ item, index }) => (
           <TouchableOpacity
             style={styles.block}
-            onPress={() => navigateToDetailScreen(item, index)}>
-            <Text style={styles.kanjiText}>{item.kanjiName}</Text>
+            onPress={() => {
+              console.log(item)
+              navigateToDetailScreen(item, index)
+            }}>
+            <Text style={styles.kanjiText}>{isWord ? item.kanji : item.kanjiName}</Text>
           </TouchableOpacity>
         )}
         numColumns={isWord ? (Platform.OS != 'ios' && Platform.OS != 'android' ? 3 : 2) : 5}

@@ -100,27 +100,43 @@ export default function KanjiDetail({ navigation, route }) {
     return meaning.replace(/\s+/g, '')
   }
 
-  function Page({ kanjiName, romaji, meanings, kun, on, hiragana, similars, usedIn }) {
+  function Page({
+    kanji,
+    kanjiName,
+    meanings,
+    meaning,
+    reading,
+    romaji,
+    kun,
+    on,
+    hiragana,
+    similars,
+    usedIn,
+    frequency,
+    jlptLevel
+  }) {
     return isWord ? (
       <View style={styles.scrollviewBackDrop}>
         <View style={styles.imageHolder}>
           <Image
             style={styles.hiraganaPic}
-            source={Images[transformVerbMeaning(meanings[0])]}
+            source={Images[transformVerbMeaning(meaning)]}
             resizeMode={'contain'}
           />
         </View>
         <View style={styles.imageHolder}>
-          <Text style={styles.smallWordKanji}>{hiragana}</Text>
+          <Text style={styles.smallWordKanji}>{reading}</Text>
           <View style={styles.pillHolder}>
-            {typeof meanings != 'string' ? (
+            {typeof meaning != 'string' ? (
               meanings.map((item, index) => <Pill key={item} index={index} subject={item} />)
             ) : (
-              <Pill subject={meanings} />
+              <Pill subject={meaning} />
             )}
           </View>
-          <Text style={styles.smallWordKanji}>{kanjiName}</Text>
+          <Text style={styles.kanjiMedium}>{kanji}</Text>
           <Text style={styles.subtitleText}>{romaji}</Text>
+          <Text style={styles.subtitleTextSmaller}>{frequency}</Text>
+          <Text style={styles.subtitleTextSmaller}>{jlptLevel}</Text>
         </View>
       </View>
     ) : (
@@ -258,9 +274,14 @@ const styles = StyleSheet.create({
     fontSize: 120,
     alignSelf: 'center'
   },
+  kanjiMedium: {
+    fontWeight: '600',
+    fontSize: 60,
+    alignSelf: 'center'
+  },
   smallWordKanji: {
     fontWeight: '600',
-    fontSize: 40,
+    fontSize: 30,
     alignSelf: 'center'
   },
   headerAlt: {
