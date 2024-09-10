@@ -15,7 +15,6 @@ import AuthContext from '../contexts/authContext.js'
 //data
 import ProvideData from '../util/jlptArray'
 import Verbs from '../util/verbs.json'
-import Nouns from '../util/nouns.json'
 import Adjectives from '../util/adj.json'
 import Adverbs from '../util/adverbs.json'
 import Katakana from '../util/katakana.json'
@@ -74,7 +73,6 @@ export default function QuizSettings({ navigation: { navigate } }) {
     strokes: ProvideData('strokes', 1, true),
     grades: ProvideData('grade', 1, true),
     verbs: Verbs,
-    nouns: Nouns,
     adjectives: Adjectives,
     adverbs: Adverbs,
     hiragana: Hiragana,

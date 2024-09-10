@@ -2,14 +2,12 @@ import React, { useEffect, useState } from 'react'
 import { Platform, Text, FlatList, TouchableOpacity, StyleSheet, View } from 'react-native'
 import { heightPercentageToDP as hp } from 'react-native-responsive-screen'
 
-import Verbs from '../util/verbs.json'
-import Nouns from '../util/nouns.json'
-import Adjectives from '../util/adj.json'
-import Adverbs from '../util/adverbs.json'
 import Katakana from '../util/katakana.json'
 import Hiragana from '../util/hiragana.json'
 
 import { provideData, provideTopWordsData } from '../util/jlptArray'
+
+const JLPT_LEVELS = ['N5', 'N4', 'N3', 'N2', 'N1']
 
 function TemplateKanji({ navigation: { navigate }, route }) {
   const {
@@ -26,6 +24,7 @@ function TemplateKanji({ navigation: { navigate }, route }) {
   } = route.params
 
   const [arr, setArr] = useState([])
+  const [selectedLevel, setSelectedLevel] = useState('N5')
 
   function navigateToDetailScreen(item, index) {
     navigate('KanjiDetail', {
@@ -39,28 +38,50 @@ function TemplateKanji({ navigation: { navigate }, route }) {
   }
 
   useEffect(() => {
+    loadData()
+  }, [selectedLevel])
+
+  const loadData = () => {
     if (jlptLevel) setArr(provideData('jlpt', jlptLevel))
     if (strokes) setArr(provideData('strokes', strokes))
     if (grades) setArr(provideData('grade', grades))
-    if (verbs) setArr(Verbs)
-    if (nouns) setArr(provideTopWordsData('nouns', 100))
-    if (adjectives) setArr(Adjectives)
-    if (adverbs) setArr(Adverbs)
+    if (verbs) setArr(provideTopWordsData('verbs', selectedLevel.toLowerCase(), 10))
+    if (nouns) setArr(provideTopWordsData('nouns', selectedLevel.toLowerCase(), 20))
+    if (adjectives) setArr(provideTopWordsData('adjectives', selectedLevel.toLowerCase(), 20))
+    if (adverbs) setArr(provideTopWordsData('adverbs', selectedLevel.toLowerCase(), 20))
     if (hiragana) setArr(Hiragana)
     if (katakana) setArr(Katakana)
-  }, [])
+  }
+
+  const renderJLPTFilter = () => (
+    <View style={styles.filterContainer}>
+      {JLPT_LEVELS.map((level) => (
+        <TouchableOpacity
+          key={level}
+          style={[
+            styles.filterButton,
+            selectedLevel === level && styles.selectedFilterButton
+          ]}
+          onPress={() => setSelectedLevel(level)}
+        >
+          <Text style={[
+            styles.filterButtonText,
+            selectedLevel === level && styles.selectedFilterButtonText
+          ]}>{level}</Text>
+        </TouchableOpacity>
+      ))}
+    </View>
+  )
 
   return (
     <View style={styles.container}>
+      {(nouns || verbs || adjectives || adverbs) && renderJLPTFilter()}
       <FlatList
         data={arr}
         renderItem={({ item, index }) => (
           <TouchableOpacity
             style={styles.block}
-            onPress={() => {
-              console.log(item)
-              navigateToDetailScreen(item, index)
-            }}>
+            onPress={() => navigateToDetailScreen(item, index)}>
             <Text style={styles.kanjiText}>{isWord ? item.kanji : item.kanjiName}</Text>
           </TouchableOpacity>
         )}
@@ -111,7 +132,29 @@ const styles = StyleSheet.create({
   kanjiText: {
     fontSize: 30,
     fontWeight: '500'
-  }
+  },
+  filterContainer: {
+    flexDirection: 'row',
+    justifyContent: 'space-around',
+    paddingVertical: 10,
+  },
+  filterButton: {
+    paddingHorizontal: 12,
+    paddingVertical: 6,
+    borderRadius: 20,
+    borderWidth: 1,
+    borderColor: '#ccc',
+  },
+  selectedFilterButton: {
+    backgroundColor: '#007AFF',
+    borderColor: '#007AFF',
+  },
+  filterButtonText: {
+    fontSize: 14,
+  },
+  selectedFilterButtonText: {
+    color: 'white',
+  },
 })
 
 export default TemplateKanji
