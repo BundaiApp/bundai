@@ -46,13 +46,13 @@ export default function KanjiDetail({ navigation, route }) {
     </View>
   )
 
-  async function addCard({ kanjiName, kanji, hiragana, on, meanings, quizAnswers }) {
+  async function addCard({ kanjiName, kanji, hiragana, on, meanings, meaning, quizAnswers }) {
     await addFlashCard({
       variables: {
         userId: auth.userId,
         kanjiName: isWord ? kanji : kanjiName,
         hiragana: isKana ? '' : isWord ? hiragana : on[0],
-        meanings,
+        meanings: isWord ? [meaning] : meanings, // this needs to be changed
         quizAnswers
       }
     })
