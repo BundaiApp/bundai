@@ -8,7 +8,7 @@ import Hiragana from '../util/hiragana.json'
 import { provideData, provideTopWordsData } from '../util/jlptArray'
 
 const JLPT_LEVELS = ['N5', 'N4', 'N3', 'N2', 'N1']
-const ITEM_COUNTS = [10, 20, 50, 100, 'All']
+const ITEM_COUNTS = [20, 50, 100, 200, 300, 'All']
 
 function TemplateKanji({ navigation: { navigate }, route }) {
   const {
