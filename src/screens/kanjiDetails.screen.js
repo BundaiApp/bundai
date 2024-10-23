@@ -96,9 +96,18 @@ export default function KanjiDetail({ navigation, route }) {
   }
 
   function transformVerbMeaning(meaning) {
-    // Remove "to " from the beginning and replace spaces with underscores
-    // add lowercasing
-    return meaning.toLowerCase().replace(/\s+/g, '')
+    // Convert to lowercase, remove "to " from the beginning,
+    // remove parentheses and their contents, remove forward slashes,
+    // and remove all spaces
+    let m = meaning
+      .toLowerCase()
+      .replace(/^to\s+/, '')
+      .replace(/\([^)]*\)/g, '')
+      .replace(/\//g, '')
+      .replace(/\s+/g, '')
+
+    console.log(m)
+    return m
   }
 
   function Page({
